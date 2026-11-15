@@ -210,3 +210,4 @@ class PublishedPage extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.stretch,
                   children: [
                     const Spacer(),
+                    const Center(
