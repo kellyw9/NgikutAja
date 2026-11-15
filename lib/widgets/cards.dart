@@ -165,3 +165,4 @@ class WisataCard extends StatelessWidget {
                 ('location_on', it.city),
                 ('schedule', '${it.days} hari'),
                 if (it.estimate != null) ('payments', 'Estimasi ${rp(it.estimate!)}'),
+              ]),
