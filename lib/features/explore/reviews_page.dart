@@ -64,3 +64,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
         if (it.rating == null)
           const EmptyState(
             icon: 'rate_review',
+            title: 'Belum ada ulasan',
