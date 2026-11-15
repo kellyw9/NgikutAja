@@ -56,3 +56,4 @@ class _PackingPageState extends State<PackingPage> {
       it.name = r;
       AppScope.read(context).touch();
     }
+  }
