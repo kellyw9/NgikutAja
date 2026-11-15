@@ -29,3 +29,4 @@ class _JournalPageState extends State<JournalPage> {
         children: [
           NgField(controller: c, area: true, hint: 'Ceritakan trip ini dalam beberapa kalimat.', autofocus: true),
           NgButton('Simpan', expand: true, onPressed: () => Navigator.pop(ctx, c.text.trim())),
+        ],
