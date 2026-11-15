@@ -213,3 +213,4 @@ class Tap extends StatelessWidget {
         type: MaterialType.transparency,
         child: InkWell(
           onTap: onTap,
+          borderRadius: BorderRadius.circular(radius),
