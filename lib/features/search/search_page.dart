@@ -73,3 +73,4 @@ class _SearchPageState extends State<SearchPage> {
   @override
   void initState() {
     super.initState();
+    focus.addListener(() => setState(() {}));
