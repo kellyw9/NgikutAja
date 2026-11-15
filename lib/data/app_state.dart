@@ -100,3 +100,5 @@ class AppState extends ChangeNotifier {
     me.name = name.trim();
     _setLoggedIn(true);
   }
+
+  void resetPassword(String email, String password) {
