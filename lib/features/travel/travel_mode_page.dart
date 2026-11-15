@@ -12,3 +12,5 @@ const travelInfo = {'Bukit Holbung': ('6,4 km', '18 menit', 'Naik motor')};
 class TravelModePage extends StatelessWidget {
   const TravelModePage({super.key, required this.trip});
   final Trip trip;
+
+  @override
