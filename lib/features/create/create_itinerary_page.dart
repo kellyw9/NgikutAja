@@ -313,3 +313,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
           width: double.infinity,
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
+            children: [
