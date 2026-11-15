@@ -616,3 +616,4 @@ class _SquareThumb extends RangeSliderThumbShape {
     Thumb? thumb,
     bool? isPressed,
   }) {
+    final r = RRect.fromRectAndRadius(Rect.fromCenter(center: center, width: 24, height: 24), const Radius.circular(4));
