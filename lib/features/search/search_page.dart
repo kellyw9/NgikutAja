@@ -20,3 +20,4 @@ class SearchFilter {
   String? duration;
   RangeValues budget = const RangeValues(0, _maxBudget);
   String? rating;
+  String price = 'Semua';
