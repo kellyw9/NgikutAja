@@ -127,3 +127,4 @@ class _OnboardingPageState extends State<OnboardingPage> {
       decoration: BoxDecoration(color: AppColors.surface, borderRadius: BorderRadius.circular(AppRadius.card)),
       child: Column(
         children: [
+          for (var i = 0; i < flow.length; i++)
