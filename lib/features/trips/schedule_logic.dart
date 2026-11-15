@@ -116,3 +116,4 @@ List<String> shiftCascade(List<Stop> day, Stop target, int newStart) {
           conflict: false,
           title: 'Jadwal terlalu padat di Hari ${d + 1}',
           lines: [
+            '${durationText(activeMinutes(day))} aktivitas dari ${s.first.start} sampai ${s.last.end}'
