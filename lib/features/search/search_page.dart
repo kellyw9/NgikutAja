@@ -365,3 +365,4 @@ class _SearchPageState extends State<SearchPage> {
             child: EmptyState(
               icon: 'travel_explore',
               title: 'Itinerary tidak ditemukan',
+              text: filter.count > 0
