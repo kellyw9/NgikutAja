@@ -207,3 +207,4 @@ class _SearchPageState extends State<SearchPage> {
               size: 48,
               bg: AppColors.surface,
               stroke: AppColors.control,
+              onTap: _openFilter,
