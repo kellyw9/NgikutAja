@@ -140,3 +140,4 @@ class _NgFieldState extends State<NgField> {
         border: Border.all(color: borderColor, width: borderW),
       ),
       child: Row(
+        crossAxisAlignment: widget.area ? CrossAxisAlignment.start : CrossAxisAlignment.center,
