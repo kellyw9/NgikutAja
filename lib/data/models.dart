@@ -85,3 +85,4 @@ class Itinerary {
     this.rating,
     this.reviews,
     this.tags = const [],
+    this.desc = '',
