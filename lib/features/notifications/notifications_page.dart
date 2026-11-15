@@ -106,3 +106,4 @@ class NotificationsPage extends StatelessWidget {
                             ),
                             const SizedBox(width: 8),
                             NgButton('Tolak', kind: BtnKind.secondary, size: BtnSize.md, onPressed: () => app.answerInvite(n, false)),
+                          ],
