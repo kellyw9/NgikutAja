@@ -415,3 +415,4 @@ class StopRow extends StatelessWidget {
                 if (!last) Expanded(child: Container(width: 2, color: blur ? AppColors.rule : line)),
               ],
             ),
+          ),
