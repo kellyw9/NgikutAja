@@ -39,3 +39,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
   void _apply() {
     d
       ..title = title.text.trim()
+      ..desc = desc.text.trim()
