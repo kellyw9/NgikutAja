@@ -83,3 +83,4 @@ class _RoutePainter extends CustomPainter {
   const _RoutePainter();
 
   @override
+  void paint(Canvas canvas, Size size) {
