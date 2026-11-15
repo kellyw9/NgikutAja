@@ -36,3 +36,4 @@ class TravelModePage extends StatelessWidget {
                 bottom: false,
                 child: Column(
                   children: [
+                    if (!app.online)
