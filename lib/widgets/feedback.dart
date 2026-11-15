@@ -274,3 +274,4 @@ class ErrorBlock extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) => Container(
+    padding: const EdgeInsets.fromLTRB(14, 12, 8, 12),
