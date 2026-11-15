@@ -235,3 +235,4 @@ class _AddStopPageState extends State<AddStopPage> {
                 ],
               ),
               NgCard(
+                padding: const EdgeInsets.all(12),
