@@ -58,3 +58,4 @@ class TravelModePage extends StatelessWidget {
                               decoration: BoxDecoration(color: AppColors.inkRaised, borderRadius: BorderRadius.circular(AppRadius.tag)),
                               child: Row(
                                 mainAxisSize: MainAxisSize.min,
+                                children: [
