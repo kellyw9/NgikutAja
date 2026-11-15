@@ -37,3 +37,4 @@ class _LoginPageState extends State<LoginPage> {
       emailErr = validateEmail(email.text);
       passErr = pass.text.isEmpty ? 'Isi password dulu' : null;
       wrong = false;
+    });
