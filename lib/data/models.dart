@@ -185,3 +185,4 @@ class Expense {
   Expense({
     required this.id,
     required this.name,
+    required this.cat,
