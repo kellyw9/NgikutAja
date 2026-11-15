@@ -255,3 +255,5 @@ class _EditTripInfoPageState extends State<EditTripInfoPage> {
     desc.dispose();
     super.dispose();
   }
+
+  @override
