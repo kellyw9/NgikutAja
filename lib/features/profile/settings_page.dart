@@ -61,3 +61,4 @@ class SettingsPage extends StatelessWidget {
         Text(title, style: AppText.smallStrong.muted),
         const SizedBox(height: 6),
         BoxList(inset: 14, children: rows),
+      ],
