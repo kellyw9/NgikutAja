@@ -25,3 +25,4 @@ class _ResetPasswordPageState extends State<ResetPasswordPage> {
   bool sent = false;
   bool loading = false;
   String? err;
+  int wait = 0;
