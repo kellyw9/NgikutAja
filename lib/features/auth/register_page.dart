@@ -112,3 +112,4 @@ class _RegisterPageState extends State<RegisterPage> {
                       NgField(
                         label: 'Password',
                         icon: 'lock',
+                        controller: pass,
