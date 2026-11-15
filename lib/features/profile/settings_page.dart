@@ -102,3 +102,4 @@ class SettingsPage extends StatelessWidget {
                   onTap: () => push(context, const AboutPage()),
                 ),
               ]),
+              NgButton('Keluar dari akun', kind: BtnKind.dangerText, icon: 'logout', expand: true, onPressed: () => _logout(context)),
