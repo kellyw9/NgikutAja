@@ -62,3 +62,4 @@ class PhotoMemoryPage extends StatelessWidget {
 
 /// 7.5 Photo Memory (layar penuh).
 class PhotoViewerPage extends StatefulWidget {
+  const PhotoViewerPage({super.key, required this.trip, required this.index});
