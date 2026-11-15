@@ -13,3 +13,4 @@ void main() {
 
     await tester.pump(const Duration(milliseconds: 1500));
     await tester.pumpAndSettle();
+    expect(find.text('Rencana liburan dari orang yang sudah ke sana'), findsOneWidget);
