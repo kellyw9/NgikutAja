@@ -104,3 +104,4 @@ class _LoginPageState extends State<LoginPage> {
                           controller: email,
                           hint: 'nama@email.com',
                           keyboardType: TextInputType.emailAddress,
+                          textInputAction: TextInputAction.next,
