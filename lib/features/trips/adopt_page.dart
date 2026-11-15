@@ -51,3 +51,4 @@ class _AdoptPageState extends State<AdoptPage> {
     return Scaffold(
       backgroundColor: AppColors.ground,
       appBar: const NgAppBar(title: 'Adopt ke Trip Saya', back: 'close'),
+      body: ListView(
