@@ -269,3 +269,4 @@ class _AddStopPageState extends State<AddStopPage> {
                       body: 'Stop ini dihapus dari hari ini. Jam stop lain tidak ikut bergeser.',
                       actions: const [
                         DialogAction('Hapus stop', kind: BtnKind.danger, value: true),
+                        DialogAction('Batal'),
