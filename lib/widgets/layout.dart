@@ -513,3 +513,4 @@ class Gap extends StatelessWidget {
     mainAxisSize: MainAxisSize.min,
     children: [
       for (var i = 0; i < children.length; i++) ...[if (i > 0) SizedBox(height: gap), children[i]],
+    ],
