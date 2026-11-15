@@ -135,3 +135,4 @@ class _ItineraryDetailPageState extends State<ItineraryDetailPage> {
                         icon: 'chat_bubble',
                         text: '${app.commentsOf(it).length}',
                         label: '${app.commentsOf(it).length} komentar, buka komentar',
+                        onTap: () => push(context, ReviewsPage(it: it, comments: true)),
