@@ -124,3 +124,5 @@ class AppState extends ChangeNotifier {
       ..bio = bio.trim();
     notifyListeners();
   }
+
+  bool usernameAvailable(String u) {
