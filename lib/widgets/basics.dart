@@ -205,3 +205,4 @@ class Tap extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    if (onTap == null) return child;
