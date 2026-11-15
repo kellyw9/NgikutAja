@@ -390,3 +390,4 @@ class AppState extends ChangeNotifier {
   }
 
   void deleteDraft(Itinerary d) {
+    drafts.remove(d);
