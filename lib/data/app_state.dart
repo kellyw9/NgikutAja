@@ -20,3 +20,5 @@ class CityInfo {
   final String photo;
   final bool Function(Itinerary) match;
 }
+
+/// State aplikasi di memori. Belum ada backend: semua data berasal dari [Seed],
