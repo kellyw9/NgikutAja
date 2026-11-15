@@ -199,3 +199,4 @@ class AppState extends ChangeNotifier {
       c.followers++;
     }
     notifyListeners();
+  }
