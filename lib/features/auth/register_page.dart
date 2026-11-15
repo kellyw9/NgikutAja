@@ -96,3 +96,4 @@ class _RegisterPageState extends State<RegisterPage> {
                         autofillHints: const [AutofillHints.name],
                         error: tried && name.text.trim().isEmpty ? 'Isi nama dulu' : null,
                       ),
+                      const SizedBox(height: 14),
