@@ -226,3 +226,4 @@ class TripPhoto {
 class JournalEntry {
   JournalEntry({required this.title, required this.text, this.photos = const []});
   String title;
+  String text;
