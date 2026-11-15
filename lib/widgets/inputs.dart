@@ -10,3 +10,4 @@ import 'basics.dart';
 /// Fokus = garis tinta 2px, error = garis merah 2px + pesan di bawah.
 /// Dengan [onTap] dan tanpa [controller], field berperilaku seperti pilihan (membuka sheet).
 class NgField extends StatefulWidget {
+  const NgField({
