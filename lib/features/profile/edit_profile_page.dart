@@ -55,3 +55,4 @@ class _EditProfilePageState extends State<EditProfilePage> {
         if (didPop) return;
         final r = await showNgDialog(
           context,
+          title: 'Buang perubahan?',
