@@ -43,3 +43,4 @@ class _CreatorProfilePageState extends State<CreatorProfilePage> {
                     size: BtnSize.md,
                     expand: true,
                     icon: following ? 'check' : null,
+                    onPressed: () => requireLogin(context) ? app.toggleFollow(c) : null,
