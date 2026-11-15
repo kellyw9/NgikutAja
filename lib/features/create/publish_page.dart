@@ -260,3 +260,4 @@ class PublishedPage extends StatelessWidget {
                       expand: true,
                       onPressed: () =>
                           Navigator.pushReplacement(context, MaterialPageRoute(builder: (_) => const CreateItineraryPage(), fullscreenDialog: true)),
+                    ),
