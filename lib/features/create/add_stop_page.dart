@@ -125,3 +125,4 @@ class _AddStopPageState extends State<AddStopPage> {
                           icon: 'schedule',
                           value: end,
                           error: timeErr == null ? null : '',
+                          onTap: () async {
