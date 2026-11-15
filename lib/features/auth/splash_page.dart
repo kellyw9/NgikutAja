@@ -54,3 +54,4 @@ class _SplashPageState extends State<SplashPage> {
                           children: [
                             const Positioned.fill(child: CustomPaint(painter: _RoutePainter())),
                             const Positioned(left: 1, top: 37, child: Marker(1, state: MarkerState.done, size: 26)),
+                            const Positioned(left: 107, top: 1, child: Marker(2, state: MarkerState.done, size: 26)),
