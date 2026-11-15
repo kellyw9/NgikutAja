@@ -160,3 +160,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
                     label: 'Judul hari',
                     icon: 'event_note',
                     controller: dayTitle,
+                    hint: 'Misal: Istana dan kota tua',
