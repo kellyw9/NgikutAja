@@ -68,3 +68,5 @@ class NgBanner extends StatelessWidget {
     );
   }
 }
+
+enum SnackKind { neutral, success, error }
