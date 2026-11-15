@@ -22,3 +22,4 @@ class _CustomizePageState extends State<CustomizePage> {
   late List<String> titles = [for (var d = 0; d < t.days; d++) t.dayTitle(d)];
   late int day = widget.initialDay.clamp(0, t.days - 1);
   int changes = 0;
+  bool saving = false;
