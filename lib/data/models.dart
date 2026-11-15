@@ -339,3 +339,4 @@ class Comment {
   final String name;
   final int tint;
   final String time;
+  final String text;
