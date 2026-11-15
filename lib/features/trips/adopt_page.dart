@@ -128,3 +128,4 @@ class _AdoptPageState extends State<AdoptPage> {
                     (v) => setState(() => dayBefore = v),
                   ),
                   _switchRow('Sebelum tiap aktivitas', 'Notifikasi lokal di HP', each, (v) => setState(() => each = v)),
+                  if (each)
