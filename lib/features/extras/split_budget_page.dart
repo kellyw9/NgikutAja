@@ -58,3 +58,4 @@ class _SplitBudgetPageState extends State<SplitBudgetPage> {
               FactStrip([
                 ('Total pengeluaran', rp(total)),
                 (custom ? 'Per porsi' : 'Bagi rata per orang', rp(parts == 0 ? 0 : (total / parts).round())),
+              ]),
