@@ -36,3 +36,4 @@ class _CreatorProfilePageState extends State<CreatorProfilePage> {
             p: c,
             itins: all.length,
             action: c == app.me
+                ? const SizedBox()
