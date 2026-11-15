@@ -192,3 +192,4 @@ class Expense {
     required this.time,
     this.receipt,
   });
+  final String id;
