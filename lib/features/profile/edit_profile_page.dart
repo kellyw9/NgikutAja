@@ -33,3 +33,4 @@ class _EditProfilePageState extends State<EditProfilePage> {
       return;
     }
     me.photo = photo;
+    AppScope.read(context).updateProfile(name: name.text, username: user.text, bio: bio.text);
