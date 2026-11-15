@@ -73,3 +73,5 @@ class PhotoViewerPage extends StatefulWidget {
 class _PhotoViewerPageState extends State<PhotoViewerPage> {
   late int i = widget.index;
   late final pc = PageController(initialPage: widget.index);
+
+  @override
