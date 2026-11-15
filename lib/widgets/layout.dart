@@ -157,3 +157,5 @@ class SectionHead extends StatelessWidget {
     ),
   );
 }
+
+/// Bar aksi bawah yang menempel: garis atas, isi.
