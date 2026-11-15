@@ -84,3 +84,4 @@ List<String> shiftCascade(List<Stop> day, Stop target, int newStart) {
           day: d,
           conflict: true,
           title: 'Jadwal bertabrakan di Hari ${d + 1}',
+          lines: [for (final i in involved) '${day[i].name}: ${day[i].start}–${day[i].end}'],
