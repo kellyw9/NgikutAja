@@ -463,3 +463,4 @@ class DayStrip extends StatelessWidget {
           if (onAdd != null) ...[
             const SizedBox(width: 8),
             Tap(
+              onTap: onAdd,
