@@ -17,3 +17,4 @@ class MembersPage extends StatelessWidget {
   String _link(Trip t) => 'ngikutaja.app/t/${t.id}';
 
   Future<void> _remove(BuildContext context, Member m) async {
+    final app = AppScope.read(context);
