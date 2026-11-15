@@ -76,3 +76,4 @@ class NgButton extends StatelessWidget {
     return SizedBox(
       height: lg ? 48 : 40,
       width: expand ? double.infinity : null,
+      child: TextButton(
