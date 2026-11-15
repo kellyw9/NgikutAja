@@ -61,3 +61,4 @@ class _SplashPageState extends State<SplashPage> {
                       ),
                       const SizedBox(height: 28),
                       const Wordmark(onDark: true),
+                      const SizedBox(height: 10),
