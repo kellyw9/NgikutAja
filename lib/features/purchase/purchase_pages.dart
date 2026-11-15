@@ -279,3 +279,4 @@ class PaymentStatusPage extends StatefulWidget {
 }
 
 class _PaymentStatusPageState extends State<PaymentStatusPage> {
+  Timer? _t;
