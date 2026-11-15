@@ -94,3 +94,4 @@ class _EditStopPageState extends State<EditStopPage> {
         title: editing ? 'Edit aktivitas' : 'Tambah aktivitas',
         sub: widget.dayLabel,
         back: 'close',
+        actions: [NgButton('Simpan', kind: BtnKind.text, size: BtnSize.md, onPressed: _save)],
