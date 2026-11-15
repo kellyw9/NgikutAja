@@ -109,3 +109,4 @@ class DashboardPage extends StatelessWidget {
                                         mainAxisAlignment: MainAxisAlignment.center,
                                         crossAxisAlignment: CrossAxisAlignment.start,
                                         children: [
+                                          Text(x.title, style: AppText.bodyStrong, maxLines: 1, overflow: TextOverflow.ellipsis),
