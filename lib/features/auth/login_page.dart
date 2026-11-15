@@ -74,3 +74,4 @@ class _LoginPageState extends State<LoginPage> {
         appBar: widget.popOnSuccess ? const NgAppBar(back: 'close') : null,
         body: SafeArea(
           top: !widget.popOnSuccess,
+          child: LayoutBuilder(
