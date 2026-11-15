@@ -107,3 +107,4 @@ class TravelModePage extends StatelessWidget {
                   if (next != null)
                     _NextCard(trip: t, day: day, i: next)
                   else
+                    NgCard(
