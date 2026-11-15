@@ -270,3 +270,4 @@ class _AdoptProgressPageState extends State<AdoptProgressPage> {
                 middle: TripCard(
                   status: app.statusOf(trip!),
                   title: trip!.title,
+                  city: trip!.city,
