@@ -239,3 +239,4 @@ class _NextCard extends StatelessWidget {
                   'Check-in',
                   kind: BtnKind.secondary,
                   icon: 'pin_drop',
+                  expand: true,
