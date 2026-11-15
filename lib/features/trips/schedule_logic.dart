@@ -137,3 +137,4 @@ List<String> shiftCascade(List<Stop> day, Stop target, int newStart) {
               final from = p[d];
               final target = from.firstWhere((x) => x.name == pick.name && x.start == pick.start);
               from.remove(target);
+              appendToDay(p[lightest], target);
