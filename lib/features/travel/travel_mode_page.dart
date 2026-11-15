@@ -188,3 +188,4 @@ class _NextCard extends StatelessWidget {
     return Container(
       padding: const EdgeInsets.all(14),
       decoration: BoxDecoration(
+        color: AppColors.surface,
