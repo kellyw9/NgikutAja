@@ -242,3 +242,4 @@ class _AdoptProgressPageState extends State<AdoptProgressPage> {
       child: Scaffold(
         backgroundColor: AppColors.ground,
         body: busy
+            ? StatusView(
