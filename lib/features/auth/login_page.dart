@@ -113,3 +113,4 @@ class _LoginPageState extends State<LoginPage> {
                           label: 'Password',
                           icon: 'lock',
                           controller: pass,
+                          obscure: obscure,
