@@ -22,3 +22,4 @@ class MembersPage extends StatelessWidget {
       context,
       icon: 'person_remove',
       title: 'Hapus ${m.first} dari trip?',
+      body: '${m.first} tidak bisa lagi membuka "${trip.title}". Pengeluaran yang dia catat tetap tersimpan.',
