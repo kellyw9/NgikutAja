@@ -54,3 +54,4 @@ class _CalendarState extends State<_Calendar> {
     Widget cell(int? d) {
       if (d == null) return const Expanded(child: SizedBox(height: 40));
       final date = DateTime(month.year, month.month, d);
+      final disabled = date.isBefore(widget.first);
