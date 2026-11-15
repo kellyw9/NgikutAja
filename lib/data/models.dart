@@ -27,3 +27,4 @@ class Creator {
   final String id;
   String name;
   String handle;
+  final int tint;
