@@ -13,3 +13,5 @@ class PublishPage extends StatefulWidget {
   @override
   State<PublishPage> createState() => _PublishPageState();
 }
+
+class _PublishPageState extends State<PublishPage> {
