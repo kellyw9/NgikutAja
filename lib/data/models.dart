@@ -112,3 +112,4 @@ class Itinerary {
   List<String> tags;
   String desc;
   List<String> dayTitles;
+  List<List<Stop>> plan;
