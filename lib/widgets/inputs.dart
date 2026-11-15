@@ -173,3 +173,4 @@ class _NgFieldState extends State<NgField> {
                 focusColor: AppColors.teal.withValues(alpha: .15),
                 child: box,
               ),
+            ),
