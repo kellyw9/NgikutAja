@@ -115,3 +115,5 @@ class _SearchPageState extends State<SearchPage> {
     final inTitle = it.title.toLowerCase().contains(s) || it.creator.handle.toLowerCase().contains(s);
     return mode == 'Kota' ? inPlace || inTitle : inTitle || inPlace;
   }
+
+  List<Itinerary> results(AppState app, String q, [SearchFilter? f]) {
