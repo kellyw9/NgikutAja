@@ -114,3 +114,4 @@ class _PackingPageState extends State<PackingPage> {
                         for (final it in g.items)
                           Dismissible(
                             key: ObjectKey(it),
+                            direction: DismissDirection.endToStart,
