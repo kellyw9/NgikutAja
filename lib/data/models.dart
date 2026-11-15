@@ -384,3 +384,4 @@ class AppNotification {
   final String text;
   final String time;
   final bool today;
+  bool unread;
