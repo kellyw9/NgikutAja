@@ -506,3 +506,4 @@ class TransactionDetailPage extends StatelessWidget {
   Widget build(BuildContext context) {
     AppScope.of(context);
     return Scaffold(
+      backgroundColor: AppColors.ground,
