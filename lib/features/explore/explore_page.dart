@@ -59,3 +59,4 @@ class _ExplorePageState extends State<ExplorePage> {
           padding: EdgeInsets.symmetric(horizontal: kMargin),
           child: Column(children: [SkeletonCard(), SizedBox(height: 20), NgDivider(), SizedBox(height: 20), SkeletonCard()]),
         );
+      }
