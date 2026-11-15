@@ -379,3 +379,4 @@ class StatusView extends StatelessWidget {
           child: IntrinsicHeight(
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
