@@ -8,3 +8,4 @@ class PeoplePage extends StatefulWidget {
   final bool followers;
 
   @override
+  State<PeoplePage> createState() => _PeoplePageState();
