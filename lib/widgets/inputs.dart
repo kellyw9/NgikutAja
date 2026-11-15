@@ -396,3 +396,4 @@ class NgChip extends StatelessWidget {
                   excluding: close,
                   child: Text(label, style: (selected ? AppText.bodyStrong : AppText.body).c(fg)),
                 ),
+                if (close) ...[const SizedBox(width: 6), AppIcon('close', size: 16, color: fg)],
