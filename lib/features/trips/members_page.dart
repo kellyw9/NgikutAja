@@ -195,3 +195,4 @@ class MembersPage extends StatelessWidget {
                                   style: AppText.bodyStrong,
                                   maxLines: 1,
                                   overflow: TextOverflow.ellipsis,
+                                ),
