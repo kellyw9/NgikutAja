@@ -504,3 +504,4 @@ class TransactionDetailPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    AppScope.of(context);
