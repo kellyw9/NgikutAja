@@ -135,3 +135,4 @@ class _AdoptPageState extends State<AdoptPage> {
                         for (final m in const [15, 30, 60]) NgChip('$m menit', selected: offset == m, onTap: () => setState(() => offset = m)),
                       ],
                     ),
+                ],
