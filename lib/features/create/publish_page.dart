@@ -242,3 +242,4 @@ class PublishedPage extends StatelessWidget {
                         ],
                       ),
                     ),
+                    const Spacer(),
