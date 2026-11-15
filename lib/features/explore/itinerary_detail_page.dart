@@ -279,3 +279,4 @@ class PaidPreviewPage extends StatelessWidget {
                   ]),
                   CreatorRow(
                     it.creator,
+                    onTap: () => push(context, CreatorProfilePage(c: it.creator)),
