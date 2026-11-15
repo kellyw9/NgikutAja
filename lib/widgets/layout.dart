@@ -471,3 +471,4 @@ class IconTile extends StatelessWidget {
     ),
     child: icon == 'progress_activity' ? SpinIcon(size: iconSize, color: color) : AppIcon(icon, size: iconSize, color: color),
   );
+}
