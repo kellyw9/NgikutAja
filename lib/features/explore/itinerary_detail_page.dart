@@ -222,3 +222,4 @@ class _ItineraryDetailPageState extends State<ItineraryDetailPage> {
                 Text('${it.places} tempat dalam ${it.days} hari', style: AppText.small.muted),
               ],
             ),
+          ),
