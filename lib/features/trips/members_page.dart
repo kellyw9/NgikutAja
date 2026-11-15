@@ -99,3 +99,4 @@ class MembersPage extends StatelessWidget {
             Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
+                Text('Hak akses', style: AppText.bodyStrong),
