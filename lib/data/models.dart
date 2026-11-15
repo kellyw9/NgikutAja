@@ -277,3 +277,4 @@ class Trip {
   Itinerary? from;
   String desc;
   List<String> dayTitles;
+  List<Member> members;
