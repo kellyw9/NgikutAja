@@ -121,3 +121,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
         DialogAction('Buang', kind: BtnKind.dangerText, value: 'drop'),
       ],
     );
+    if (r == 'save' && mounted) {
