@@ -53,3 +53,4 @@ class PurchaseDetailPage extends StatelessWidget {
       backgroundColor: AppColors.ground,
       appBar: const NgAppBar(title: 'Beli itinerary'),
       body: ListView(
+        padding: const EdgeInsets.fromLTRB(kMargin, 8, kMargin, 16),
