@@ -5,3 +5,4 @@ import '../shell/home_shell.dart';
 
 /// 1.2 Onboarding: pengenalan, alur lima langkah, pilih minat.
 class OnboardingPage extends StatefulWidget {
+  const OnboardingPage({super.key});
