@@ -376,3 +376,4 @@ class _SearchPageState extends State<SearchPage> {
                       size: BtnSize.md,
                       onPressed: () {
                         input.clear();
+                        setState(() => submitted = null);
