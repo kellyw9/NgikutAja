@@ -164,3 +164,4 @@ class MembersPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final app = AppScope.of(context);
+    final ownerIsMe = trip.members.isNotEmpty && trip.members.first.handle == app.me.handle;
