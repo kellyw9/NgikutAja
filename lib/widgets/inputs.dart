@@ -94,3 +94,4 @@ class _NgFieldState extends State<NgField> {
       final v = widget.value ?? '';
       content = Text(
         v.isEmpty ? widget.hint : v,
+        style: AppText.body.c(v.isEmpty ? AppColors.muted : AppColors.ink),
