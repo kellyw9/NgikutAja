@@ -261,3 +261,4 @@ class _AddStopPageState extends State<AddStopPage> {
                   kind: BtnKind.dangerText,
                   icon: 'delete',
                   expand: true,
+                  onPressed: () async {
