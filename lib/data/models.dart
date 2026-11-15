@@ -362,3 +362,5 @@ class Transaction {
   final int amount;
   TxStatus status;
 }
+
+enum NotifKind { reminder, invite, payment, departure, like, comment }
