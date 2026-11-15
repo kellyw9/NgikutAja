@@ -251,3 +251,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
                   const SizedBox(width: 10),
                   IconBtn('east', label: 'Kirim komentar', bg: AppColors.ink, color: AppColors.white, onTap: _send),
                 ],
+              ),
