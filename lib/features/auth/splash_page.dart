@@ -37,3 +37,4 @@ class _SplashPageState extends State<SplashPage> {
   Widget build(BuildContext context) {
     return AnnotatedRegion(
       value: kLightIcons,
+      child: Scaffold(
