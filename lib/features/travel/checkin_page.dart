@@ -47,3 +47,4 @@ class _CheckinPageState extends State<CheckinPage> {
                 me: near || done ? const Offset(.57, .64) : const Offset(.8, .78),
               ),
               if (done)
+                NgBanner(
