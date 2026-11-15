@@ -212,3 +212,4 @@ class Seed {
       days: 3,
       cover: 'prambanan',
       creator: c['bayu']!,
+      price: 0,
