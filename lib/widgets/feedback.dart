@@ -56,3 +56,4 @@ class NgBanner extends StatelessWidget {
                   onTap: onAction,
                   borderRadius: BorderRadius.circular(4),
                   child: Padding(
+                    padding: const EdgeInsets.symmetric(vertical: 2),
