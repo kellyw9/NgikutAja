@@ -42,3 +42,5 @@ class Seed {
   static const recentSearches = ['Danau Toba', 'Medan', 'Bukittinggi'];
 
   DateTime _d(int offset) => today.add(Duration(days: offset));
+
+  void _build() {
