@@ -278,3 +278,4 @@ class AppState extends ChangeNotifier {
   }
 
   Future<Trip> adopt(
+    Itinerary it,
