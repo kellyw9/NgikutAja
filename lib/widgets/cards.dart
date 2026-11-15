@@ -548,3 +548,4 @@ class CreatorRow extends StatelessWidget {
     final following = app.isFollowing(c);
     return Padding(
       padding: const EdgeInsets.symmetric(vertical: 12),
+      child: Row(
