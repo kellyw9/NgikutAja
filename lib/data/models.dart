@@ -132,3 +132,4 @@ class Itinerary {
   /// Estimasi per orang = jumlah biaya semua aktivitas (+ penginapan).
   int? get estimate {
     if (hasFullPlan) return plan.fold<int>(0, (a, d) => a + d.fold(0, (b, s) => b + s.cost)) + lodging;
+    return estimateSeed;
