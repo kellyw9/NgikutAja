@@ -421,3 +421,5 @@ class StopRow extends StatelessWidget {
         ],
       ),
     );
+
+    return MergeSemantics(
