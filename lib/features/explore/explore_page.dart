@@ -194,3 +194,4 @@ class Bell extends StatelessWidget {
 void goSearch(BuildContext context, String query) {
   searchRequest.value = SearchRequest(query);
   goTab(context, tabSearch);
+}
