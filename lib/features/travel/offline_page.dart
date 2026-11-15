@@ -53,3 +53,4 @@ class OfflinePage extends StatelessWidget {
                               style: AppText.small.muted,
                             ),
                           ],
+                        ),
