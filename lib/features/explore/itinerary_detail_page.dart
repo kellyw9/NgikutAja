@@ -263,3 +263,4 @@ class PaidPreviewPage extends StatelessWidget {
               height: 240,
               semantic: 'Foto sampul ${it.title}',
               right: [WishButton(it, onGuest: () => requireLogin(context))],
+            ),
