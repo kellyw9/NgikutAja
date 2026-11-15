@@ -350,3 +350,4 @@ enum TxStatus {
   pending('Pending');
 
   const TxStatus(this.label);
+  final String label;
