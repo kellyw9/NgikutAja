@@ -118,3 +118,4 @@ const Map<String, String> kIconPaths = {
   'keyboard_arrow_down': 'M480-344 240-584l56-56 184 184 184-184 56 56-240 240Z',
   'keyboard_arrow_up': 'M480-528 296-344l-56-56 240-240 240 240-56 56-184-184Z',
   'landscape': 'm40-240 240-320 180 240h300L560-586 460-454l-50-66 150-200 360 480H40Zm521-80Zm-361 0h160l-80-107-80 107Zm0 0h160-160Z',
+  'language':
