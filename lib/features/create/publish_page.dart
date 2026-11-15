@@ -88,3 +88,4 @@ class _PublishPageState extends State<PublishPage> {
                         children: [
                           Text(d.title, style: AppText.title, maxLines: 2, overflow: TextOverflow.ellipsis),
                           const SizedBox(height: 4),
+                          Meta('person', '${app.me.name} (${app.me.handle})'),
