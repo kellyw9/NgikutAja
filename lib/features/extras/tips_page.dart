@@ -41,3 +41,4 @@ class TipsPage extends StatelessWidget {
                     ),
                     const SizedBox(width: 12),
                     const AppIcon('chevron_right', size: 20, color: AppColors.muted),
+                  ],
