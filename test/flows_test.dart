@@ -26,3 +26,5 @@ Future<void> phone(WidgetTester tester) async {
   tester.view.devicePixelRatio = 3;
   addTearDown(tester.view.reset);
 }
+
+Future<void> tapText(WidgetTester tester, String text, {bool button = false}) async {
