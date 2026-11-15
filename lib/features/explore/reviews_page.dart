@@ -13,3 +13,4 @@ class ReviewsPage extends StatefulWidget {
 }
 
 class _ReviewsPageState extends State<ReviewsPage> {
+  late String tab = widget.comments ? 'Komentar' : 'Review';
