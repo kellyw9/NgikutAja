@@ -490,3 +490,5 @@ class PageFrame extends StatelessWidget {
   final bool scroll;
   final EdgeInsets padding;
   final Color background;
+
+  @override
