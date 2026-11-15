@@ -563,3 +563,4 @@ class Marker extends StatelessWidget {
       },
     );
   }
+}
