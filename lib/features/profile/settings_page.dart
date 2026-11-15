@@ -90,3 +90,4 @@ class SettingsPage extends StatelessWidget {
                       ? 'Belum ada trip tersimpan'
                       : '${offline.length} trip tersimpan (${offline.fold(0, (a, t) => a + t.offlineSize)} MB)',
                   padH: 14,
+                  onTap: () => push(context, const OfflinePage()),
