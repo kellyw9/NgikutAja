@@ -133,3 +133,4 @@ class _JournalPageState extends State<JournalPage> {
                   if (e.photos.isNotEmpty)
                     Row(
                       children: [
+                        for (var k = 0; k < e.photos.length && k < 2; k++) ...[
