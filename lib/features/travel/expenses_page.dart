@@ -144,3 +144,4 @@ class ExpensesPage extends StatelessWidget {
                                 Text(rp(e.amount), style: AppText.bodyStrong),
                               ],
                             ),
+                          ),
