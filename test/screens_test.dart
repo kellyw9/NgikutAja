@@ -122,3 +122,4 @@ void main() {
           ..loggedIn = true;
         await tester.pumpWidget(
           AppScope(
+            state: s,
