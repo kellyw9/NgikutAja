@@ -266,3 +266,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
                 NgButton(
                   'Simpan draft',
                   kind: BtnKind.secondary,
+                  expand: true,
