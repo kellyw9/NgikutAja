@@ -9,3 +9,5 @@ import 'create_itinerary_page.dart';
 class PublishPage extends StatefulWidget {
   const PublishPage({super.key, required this.d});
   final Itinerary d;
+
+  @override
