@@ -141,3 +141,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
   Widget build(BuildContext context) {
     final showErr = tried && !titleOk;
     return PopScope(
+      canPop: false,
