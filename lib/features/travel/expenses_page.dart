@@ -277,3 +277,4 @@ class _AddExpensePageState extends State<AddExpensePage> {
                 value: date == null
                     ? 'Hari ${day + 1}'
                     : 'Hari ${day + 1}, ${weekdaysLong[date.weekday - 1]} ${date.day} ${monthsShort[date.month - 1]}',
+                trailing: 'expand_more',
