@@ -63,3 +63,4 @@ class NgAppBar extends StatelessWidget implements PreferredSizeWidget {
           ),
         if (sub != null) Text(sub!, style: AppText.small.muted, maxLines: 1, overflow: TextOverflow.ellipsis),
       ],
+    );
