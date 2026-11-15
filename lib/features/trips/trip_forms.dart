@@ -227,3 +227,4 @@ class EditTripInfoPage extends StatefulWidget {
 class _EditTripInfoPageState extends State<EditTripInfoPage> {
   late final t = widget.trip;
   late final title = TextEditingController(text: t.title);
+  late final region = TextEditingController(text: t.region);
