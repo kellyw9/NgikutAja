@@ -236,3 +236,4 @@ class _PaymentPageState extends State<PaymentPage> {
                                       ],
                                     ),
                                   ),
+                                  RadioMark(title == method),
