@@ -127,3 +127,4 @@ class _ItineraryDetailPageState extends State<ItineraryDetailPage> {
                         _StatChip(
                           icon: 'star',
                           filled: true,
+                          text: '${decimal(it.rating!)} (${it.reviews ?? 0} ulasan)',
