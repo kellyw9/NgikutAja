@@ -202,3 +202,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
                       proxyDecorator: (child, _, _) => Material(
                         color: Colors.transparent,
                         child: DecoratedBox(
+                          decoration: BoxDecoration(borderRadius: BorderRadius.circular(AppRadius.card), boxShadow: kFloatShadow),
