@@ -69,3 +69,4 @@ class DashboardPage extends StatelessWidget {
                                         const SizedBox(height: 4),
                                         Text(monthly[i].$1, style: AppText.small.muted),
                                       ],
+                                    ),
