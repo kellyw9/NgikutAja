@@ -52,3 +52,4 @@ class WishButton extends StatelessWidget {
       bg: boxed ? AppColors.surface : null,
       size: boxed ? 40 : 44,
       iconSize: 22,
+      onTap: () {
