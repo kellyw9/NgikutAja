@@ -83,3 +83,4 @@ class _AdoptPageState extends State<AdoptPage> {
                   const SizedBox(height: 6),
                   Row(
                     children: [
+                      Avatar(it.creator.name, size: 36, tint: it.creator.tint),
