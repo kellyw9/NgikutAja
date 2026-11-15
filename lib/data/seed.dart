@@ -246,3 +246,4 @@ class Seed {
         price: 35000,
         adopted: 58,
         likes: 140,
+        rating: 4.6,
