@@ -54,3 +54,4 @@ class _LoginPageState extends State<LoginPage> {
         showNgSnack(context, 'Kamu sudah masuk sebagai ${AppScope.read(context).me.name}.', kind: SnackKind.success);
       } else {
         resetTo(context, const HomeShell());
+      }
