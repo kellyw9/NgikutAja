@@ -284,3 +284,4 @@ class AppState extends ChangeNotifier {
     required bool remindEach,
     required int offset,
     required bool offline,
+  }) async {
