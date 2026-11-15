@@ -125,3 +125,4 @@ class _PublishPageState extends State<PublishPage> {
               BoxList(
                 inset: 14,
                 children: [
+                  for (final (label, ok) in checks)
