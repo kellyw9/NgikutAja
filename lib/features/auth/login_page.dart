@@ -240,3 +240,5 @@ class _GooglePainter extends CustomPainter {
   @override
   bool shouldRepaint(covariant CustomPainter oldDelegate) => false;
 }
+
+class _P extends PathProxy {
