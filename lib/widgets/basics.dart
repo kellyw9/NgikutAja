@@ -85,3 +85,4 @@ class NgButton extends StatelessWidget {
           backgroundColor: WidgetStatePropertyAll(disabled && !textual ? AppColors.sunk : bg),
           foregroundColor: WidgetStatePropertyAll(color),
           overlayColor: WidgetStateProperty.resolveWith((s) {
+            final base = (bg == AppColors.ink || bg == AppColors.negative) ? AppColors.white : AppColors.ink;
