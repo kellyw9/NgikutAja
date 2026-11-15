@@ -58,3 +58,4 @@ class _SplashPageState extends State<SplashPage> {
                             const Positioned(left: 213, top: 17, child: Marker(3, state: MarkerState.next, size: 26)),
                           ],
                         ),
+                      ),
