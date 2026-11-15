@@ -164,3 +164,4 @@ class _NgFieldState extends State<NgField> {
           Semantics(
             button: true,
             label: widget.label,
+            value: widget.value,
