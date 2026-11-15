@@ -351,3 +351,4 @@ class StatusView extends StatelessWidget {
     super.key,
     required this.icon,
     required this.tone,
+    required this.title,
