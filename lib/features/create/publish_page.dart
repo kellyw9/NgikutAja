@@ -20,3 +20,4 @@ class _PublishPageState extends State<PublishPage> {
   late final price = TextEditingController(text: thousands(d.price > 0 ? d.price : 25000));
 
   @override
+  void dispose() {
