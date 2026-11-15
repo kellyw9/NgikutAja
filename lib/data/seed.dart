@@ -548,3 +548,4 @@ class Seed {
         method: 'E-Wallet',
         amount: 45000,
         status: TxStatus.gagal,
+      ),
