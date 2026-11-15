@@ -430,3 +430,4 @@ class NavigationPage extends StatelessWidget {
                 ),
                 if (info != null)
                   Container(
+                    padding: const EdgeInsets.symmetric(vertical: 10),
