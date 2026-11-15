@@ -357,3 +357,5 @@ class BoxList extends StatelessWidget {
     ),
   );
 }
+
+/// Kartu putih bergaris tipis.
