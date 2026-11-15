@@ -30,3 +30,4 @@ class _ExplorePageState extends State<ExplorePage> {
       loading = true;
       error = null;
     });
+    try {
