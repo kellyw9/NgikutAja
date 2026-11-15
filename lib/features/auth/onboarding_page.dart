@@ -180,3 +180,4 @@ class _OnboardingPageState extends State<OnboardingPage> {
     ],
     Text(picked.isEmpty ? 'Pilih minimal satu minat' : '${picked.length} minat dipilih', style: AppText.small.muted),
   ]);
+}
