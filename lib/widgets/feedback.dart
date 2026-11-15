@@ -383,3 +383,4 @@ class StatusView extends StatelessWidget {
                 if (!top) const Spacer(),
                 Container(
                   width: 56,
+                  height: 56,
