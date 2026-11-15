@@ -273,3 +273,5 @@ class PaymentStatusPage extends StatefulWidget {
 
   /// Dibuka langsung dari alur bayar: tombol tutup kembali ke halaman itinerary.
   final bool fromFlow;
+
+  @override
