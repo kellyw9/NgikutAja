@@ -163,3 +163,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
                     hint: 'Misal: Istana dan kota tua',
                     onChanged: (_) => _saveTitle(),
                   ),
+                  if (stops.isEmpty) ...[
