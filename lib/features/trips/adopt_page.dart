@@ -167,3 +167,4 @@ class _AdoptPageState extends State<AdoptPage> {
   Widget _switchRow(String title, String sub, bool v, ValueChanged<bool> on) => ConstrainedBox(
     constraints: const BoxConstraints(minHeight: 48),
     child: Row(
+      children: [
