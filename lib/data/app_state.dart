@@ -226,3 +226,4 @@ class AppState extends ChangeNotifier {
   }
 
   // ---------------- pembelian ----------------
+  final Set<String> purchased = {};
