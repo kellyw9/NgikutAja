@@ -168,3 +168,4 @@ void main() {
     await tester.pump(const Duration(seconds: 1));
     await tester.tap(find.byTooltip('Simpan ke Wishlist').first);
     await tester.pumpAndSettle();
+    expect(find.text('Masuk dulu ke akunmu'), findsOneWidget);
