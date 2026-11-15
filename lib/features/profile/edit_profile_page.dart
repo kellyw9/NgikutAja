@@ -45,3 +45,5 @@ class _EditProfilePageState extends State<EditProfilePage> {
     bio.dispose();
     super.dispose();
   }
+
+  @override
