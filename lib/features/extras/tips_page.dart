@@ -56,3 +56,4 @@ class TipsPage extends StatelessWidget {
 
 class TipDetailPage extends StatelessWidget {
   const TipDetailPage({super.key, required this.tip});
+  final LocalTip tip;
