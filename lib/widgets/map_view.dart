@@ -119,3 +119,4 @@ class _MapPainter extends CustomPainter {
 
   @override
   void paint(Canvas canvas, Size s) {
+    final w = s.width, h = s.height;
