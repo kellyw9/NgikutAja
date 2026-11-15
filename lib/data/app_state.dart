@@ -152,3 +152,4 @@ class AppState extends ChangeNotifier {
 
     list.sort((a, b) => score(b).compareTo(score(a)));
     return list;
+  }
