@@ -338,3 +338,4 @@ class Seed {
         city: 'Samosir',
         region: 'Samosir, Sumatera Utara',
         days: 2,
+        cover: 'samosir',
