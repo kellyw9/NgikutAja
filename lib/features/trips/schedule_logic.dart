@@ -154,3 +154,4 @@ int appendToDay(List<Stop> day, Stop s) {
   final ns = last == null ? s.startMin : last + 15;
   s
     ..start = fromMinutes(ns)
+    ..end = fromMinutes(ns + dur);
