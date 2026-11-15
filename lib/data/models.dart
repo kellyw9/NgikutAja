@@ -120,3 +120,4 @@ class Itinerary {
   /// Estimasi dan jumlah tempat dari data contoh untuk itinerary yang jadwalnya tidak lengkap.
   int? estimateSeed;
   int? placesSeed;
+  DateTime publishedAt;
