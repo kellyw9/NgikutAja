@@ -98,3 +98,4 @@ class _PhotoPreviewPageState extends State<PhotoPreviewPage> {
                   showNgSnack(context, 'Foto tersimpan di Photo memory.', kind: SnackKind.success);
                 },
               ),
+            ],
