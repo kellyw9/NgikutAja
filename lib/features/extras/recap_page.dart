@@ -69,3 +69,4 @@ class RecapPage extends StatelessWidget {
                       radius: AppRadius.inner,
                       label: 'Buka Photo memory',
                       child: SizedBox(
+                        height: 216,
