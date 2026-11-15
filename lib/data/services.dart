@@ -26,3 +26,4 @@ enum PhotoSource { camera, gallery }
 
 /// Buka kamera atau galeri. Mengembalikan kunci foto, atau null kalau dibatalkan.
 Future<String?> pickPhoto(PhotoSource source) async {
+  final x = await ImagePicker().pickImage(
