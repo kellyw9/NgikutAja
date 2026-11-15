@@ -76,3 +76,4 @@ class _CustomizePageState extends State<CustomizePage> {
     final last = plan[day].isEmpty ? null : plan[day].map((s) => s.endMin).reduce((a, b) => a > b ? a : b);
     final r = await push<StopEditResult>(
       context,
+      EditStopPage(dayLabel: _dayLabel(day), defaultStart: last == null ? '09.00' : fromMinutes(last + 15)),
