@@ -29,3 +29,4 @@ class OfflinePage extends StatelessWidget {
 
     return Scaffold(
       backgroundColor: AppColors.ground,
+      appBar: const NgAppBar(title: 'Data offline'),
