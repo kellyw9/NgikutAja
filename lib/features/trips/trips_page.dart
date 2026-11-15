@@ -89,3 +89,4 @@ class TripsPage extends StatelessWidget {
           text: text,
           action: NgButton('Cari itinerary', kind: BtnKind.secondary, size: BtnSize.md, onPressed: () => goTab(context, tabExplore)),
         ),
+      ];
