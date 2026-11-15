@@ -160,3 +160,4 @@ class SectionHead extends StatelessWidget {
 
 /// Bar aksi bawah yang menempel: garis atas, isi.
 class BottomBar extends StatelessWidget {
+  const BottomBar({super.key, required this.children});
