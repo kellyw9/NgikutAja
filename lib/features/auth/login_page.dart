@@ -187,3 +187,4 @@ class GoogleButton extends StatelessWidget {
     height: 48,
     child: Material(
       color: AppColors.surface,
+      shape: RoundedRectangleBorder(
