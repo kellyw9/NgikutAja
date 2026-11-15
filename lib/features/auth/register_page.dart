@@ -118,3 +118,4 @@ class _RegisterPageState extends State<RegisterPage> {
                         hint: 'Minimal 8 karakter',
                         textInputAction: TextInputAction.next,
                         autofillHints: const [AutofillHints.newPassword],
+                        trailing: ObscureToggle(obscured: ob1, onTap: () => setState(() => ob1 = !ob1)),
