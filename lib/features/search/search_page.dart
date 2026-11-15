@@ -101,3 +101,4 @@ class _SearchPageState extends State<SearchPage> {
 
   void _submit(String q) {
     final v = q.trim();
+    if (v.isEmpty) return;
