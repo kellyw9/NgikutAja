@@ -176,3 +176,4 @@ class TextLink extends StatelessWidget {
   Widget build(BuildContext context) {
     return Semantics(
       button: true,
+      child: InkWell(
