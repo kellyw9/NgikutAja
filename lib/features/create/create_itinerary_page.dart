@@ -238,3 +238,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
                       children: [
                         Expanded(child: Text('Tag kategori', style: AppText.bodyStrong)),
                         Text('Maksimal 5 tag', style: AppText.small.muted),
+                      ],
