@@ -210,3 +210,4 @@ class _AddExpensePageState extends State<AddExpensePage> {
           name: name.text.trim(),
           cat: cat,
           amount: n,
+          by: by,
