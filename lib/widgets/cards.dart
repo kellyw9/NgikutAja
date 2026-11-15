@@ -606,3 +606,4 @@ class ProfileHead extends StatelessWidget {
   Widget build(BuildContext context) {
     Widget stat(String l, int v, VoidCallback? onTap) => Tap(
       onTap: onTap,
+      radius: 6,
