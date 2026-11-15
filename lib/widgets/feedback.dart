@@ -309,3 +309,5 @@ Widget _bar(double w, [double h = 14]) => Container(
 /// Skeleton datar seukuran Card Wisata (tanpa shimmer).
 class SkeletonCard extends StatelessWidget {
   const SkeletonCard({super.key});
+
+  @override
