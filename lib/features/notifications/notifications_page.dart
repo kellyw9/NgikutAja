@@ -104,3 +104,4 @@ class NotificationsPage extends StatelessWidget {
                                 showNgSnack(context, 'Undangan diterima. Trip muncul setelah pemilik menyimpan anggotanya.', kind: SnackKind.success);
                               },
                             ),
+                            const SizedBox(width: 8),
