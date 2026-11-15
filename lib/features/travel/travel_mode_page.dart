@@ -314,3 +314,4 @@ class TravelStopPage extends StatelessWidget {
                   Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
+                      Text('Foto tempat', style: AppText.h2),
