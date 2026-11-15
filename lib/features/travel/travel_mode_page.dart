@@ -406,3 +406,4 @@ class NavigationPage extends StatelessWidget {
           boxShadow: kFloatShadow,
         ),
         child: SafeArea(
+          top: false,
