@@ -379,3 +379,4 @@ class StopRow extends StatelessWidget {
               Text(st.note!, style: AppText.body.muted, maxLines: 2, overflow: TextOverflow.ellipsis),
             ],
             if (extra != null) ...[const SizedBox(height: 4), extra!],
+          ],
