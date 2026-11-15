@@ -316,3 +316,4 @@ class _StopCard extends StatelessWidget {
                 ('schedule', '${stop.start}–${stop.end}'),
                 ('payments', stop.cost > 0 ? rp(stop.cost) : 'Gratis'),
               ], color: conflict ? AppColors.negative : AppColors.muted),
+            ],
