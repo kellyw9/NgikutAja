@@ -44,3 +44,4 @@ class AppState extends ChangeNotifier {
     }
     if (watchNetwork) {
       // Plugin koneksi bisa tidak tersedia (tes, platform tertentu): anggap online.
+      try {
