@@ -368,3 +368,4 @@ class _CustomizePageState extends State<CustomizePage> {
               onAdd: _addDay,
             ),
             Padding(
+              padding: const EdgeInsets.fromLTRB(kMargin, 12, kMargin, 0),
