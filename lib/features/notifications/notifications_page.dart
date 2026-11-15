@@ -195,3 +195,4 @@ class NotificationDetailPage extends StatelessWidget {
                             MetaRow([
                               ('schedule', '${st.start}–${st.end}'),
                               (st.cat.icon, st.cat.label),
+                              ('payments', st.cost > 0 ? rp(st.cost) : 'Gratis'),
