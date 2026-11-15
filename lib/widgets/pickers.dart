@@ -65,3 +65,4 @@ class _CalendarState extends State<_Calendar> {
           child: Semantics(
             button: true,
             selected: isEdge,
+            enabled: !disabled,
