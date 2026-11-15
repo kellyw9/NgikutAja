@@ -145,3 +145,4 @@ class _SearchPageState extends State<SearchPage> {
         if (submitted == null || typing)
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: kMargin),
+            child: Segmented(items: const ['Kota', 'Itinerary'], active: mode, onChanged: (m) => setState(() => mode = m)),
