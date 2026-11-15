@@ -80,3 +80,4 @@ class BottomNav extends StatelessWidget {
       color: AppColors.surface,
       child: SafeArea(
         top: false,
+        child: Column(
