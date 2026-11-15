@@ -141,3 +141,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
       'split' => t.expenses.isEmpty ? 'Belum ada pengeluaran' : '${t.expenses.length} pengeluaran, ${rp(t.expenseTotal)}',
       'pack' =>
         t.packing.isEmpty
+            ? 'Belum ada barang'
