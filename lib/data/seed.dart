@@ -488,3 +488,4 @@ class Seed {
         members: [Member(name: dinda.name, handle: dinda.handle, role: MemberRole.owner, tint: 0)],
         photos: [
           TripPhoto(src: 'malioboro', day: 0, caption: 'Malioboro', time: '08.31'),
+          TripPhoto(src: 'tamansari', day: 0, caption: 'Taman Sari', time: '10.52'),
