@@ -386,3 +386,4 @@ class StatusView extends StatelessWidget {
                   height: 56,
                   alignment: Alignment.center,
                   decoration: BoxDecoration(color: tone, borderRadius: BorderRadius.circular(AppRadius.card)),
+                  child: icon == 'progress_activity' ? SpinIcon(size: 28, color: iconColor) : AppIcon(icon, size: 28, color: iconColor),
