@@ -154,3 +154,4 @@ Future<Category?> pickCategory(BuildContext context, Category current) {
             child: Semantics(
               inMutuallyExclusiveGroup: true,
               checked: Category.values[i] == current,
+              child: SizedBox(
