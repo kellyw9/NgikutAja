@@ -429,3 +429,4 @@ class Segmented extends StatelessWidget {
                 selected: items[i] == active,
                 button: true,
                 child: Material(
+                  color: items[i] == active ? AppColors.surface : Colors.transparent,
