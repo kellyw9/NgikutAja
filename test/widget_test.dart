@@ -28,3 +28,4 @@ void main() {
       Stop(start: '13.00', end: '14.30', name: 'Tjong A Fie Mansion', cat: Category.budaya),
       Stop(start: '14.00', end: '15.00', name: 'Mie Aceh Titi Bobrok', cat: Category.makan),
     ];
+    expect(conflictsIn(day), [(0, 1)]);
