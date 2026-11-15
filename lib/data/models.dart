@@ -145,3 +145,5 @@ enum TripStatus {
   diadopsi('Diadopsi'),
   berjalan('Berjalan'),
   selesai('Selesai');
+
+  const TripStatus(this.label);
