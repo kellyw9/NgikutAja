@@ -231,3 +231,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
         bottomNavigationBar: SafeArea(
           child: Padding(
             padding: const EdgeInsets.fromLTRB(kMargin, 8, kMargin, 16),
+            child: Column(
