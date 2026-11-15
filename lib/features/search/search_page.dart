@@ -564,3 +564,4 @@ class _BudgetSlider extends StatelessWidget {
         ],
       ),
       SliderTheme(
+        data: SliderTheme.of(context).copyWith(
