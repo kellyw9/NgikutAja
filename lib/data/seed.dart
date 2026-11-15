@@ -607,3 +607,4 @@ class Seed {
         kind: NotifKind.comment,
         icon: 'chat_bubble',
         lead: '@dodiginting',
+        text: ' berkomentar: "Motor sewaan di Tuktuk ada yang matic?"',
