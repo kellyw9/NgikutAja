@@ -69,3 +69,5 @@ class _IconPainter extends CustomPainter {
     );
     canvas.restore();
   }
+
+  @override
