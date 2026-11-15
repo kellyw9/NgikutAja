@@ -93,3 +93,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
                   Expanded(child: Text(st.note!, style: AppText.body)),
                 ],
               ),
+            ),
