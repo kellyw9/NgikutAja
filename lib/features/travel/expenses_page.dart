@@ -25,3 +25,4 @@ class ExpensesPage extends StatelessWidget {
         16,
         children: [
           Text(rp(e.amount), style: AppText.display),
+          KeyValueBox([
