@@ -81,3 +81,4 @@ class NgButton extends StatelessWidget {
         style: ButtonStyle(
           padding: WidgetStatePropertyAll(EdgeInsets.symmetric(horizontal: textual ? 8 : (lg ? 20 : 16))),
           minimumSize: const WidgetStatePropertyAll(Size(44, 40)),
+          tapTargetSize: MaterialTapTargetSize.shrinkWrap,
