@@ -190,3 +190,5 @@ class AppState extends ChangeNotifier {
   }
 
   bool isFollowing(Creator c) => following.contains(c.id);
+
+  void toggleFollow(Creator c) {
