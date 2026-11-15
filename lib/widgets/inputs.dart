@@ -479,3 +479,4 @@ class ThousandsFormatter extends TextInputFormatter {
       buf.write(s[i]);
     }
     final t = buf.toString();
+    return TextEditingValue(
