@@ -628,3 +628,4 @@ class Stars extends StatelessWidget {
           if (k > 1) const SizedBox(width: 2),
           AppIcon('star', size: size, filled: k <= n, color: k <= n ? AppColors.ink : AppColors.control),
         ],
+      ],
