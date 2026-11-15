@@ -216,3 +216,5 @@ class _AdoptProgressPageState extends State<AdoptProgressPage> {
     super.initState();
     _run();
   }
+
+  Future<void> _run() async {
