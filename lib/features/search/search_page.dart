@@ -431,3 +431,4 @@ class _SearchPageState extends State<SearchPage> {
   Future<void> _openFilter() async {
     final app = AppScope.read(context);
     final draft = filter.copy();
+    var q = submitted ?? input.text.trim();
