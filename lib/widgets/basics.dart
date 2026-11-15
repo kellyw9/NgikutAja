@@ -362,3 +362,4 @@ class AddPhotoTile extends StatelessWidget {
       child: SizedBox.square(
         dimension: size,
         child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
