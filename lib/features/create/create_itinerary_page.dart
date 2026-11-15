@@ -312,3 +312,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
           height: 180,
           width: double.infinity,
           child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
