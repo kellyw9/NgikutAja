@@ -9,3 +9,5 @@ class EditProfilePage extends StatefulWidget {
   @override
   State<EditProfilePage> createState() => _EditProfilePageState();
 }
+
+class _EditProfilePageState extends State<EditProfilePage> {
