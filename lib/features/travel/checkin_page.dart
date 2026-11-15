@@ -145,3 +145,4 @@ class PermissionDeniedPage extends StatelessWidget {
             ),
             const Spacer(),
             NgButton('Buka pengaturan HP', icon: 'settings', expand: true, onPressed: onOpenSettings),
+            const SizedBox(height: 14),
