@@ -265,3 +265,4 @@ class _AddStopPageState extends State<AddStopPage> {
                     final r = await showNgDialog(
                       context,
                       icon: 'delete',
+                      title: 'Hapus ${s!.name}?',
