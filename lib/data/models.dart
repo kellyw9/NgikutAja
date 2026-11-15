@@ -122,3 +122,5 @@ class Itinerary {
   int? placesSeed;
   DateTime publishedAt;
   bool isDraft;
+
+  bool get isPaid => price > 0;
