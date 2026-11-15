@@ -16,3 +16,4 @@ class PhotoMemoryPage extends StatelessWidget {
   Widget build(BuildContext context) {
     AppScope.of(context);
     final t = trip;
+    final days = {for (final p in t.photos) p.day}.toList()..sort();
