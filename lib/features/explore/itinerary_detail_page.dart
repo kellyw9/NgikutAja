@@ -144,3 +144,4 @@ class _ItineraryDetailPageState extends State<ItineraryDetailPage> {
                     it.creator,
                     onTap: () => push(context, CreatorProfilePage(c: it.creator)),
                     onGuest: () => requireLogin(context),
+                  ),
