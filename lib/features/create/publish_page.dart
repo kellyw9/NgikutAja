@@ -113,3 +113,4 @@ class _PublishPageState extends State<PublishPage> {
                   child: NgField(
                     label: 'Harga adopsi',
                     controller: price,
+                    prefixText: 'Rp',
