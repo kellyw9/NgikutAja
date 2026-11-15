@@ -12,3 +12,4 @@ class TipsPage extends StatelessWidget {
     final app = AppScope.of(context);
     final tips = app.seed.tips[trip.city] ?? const <LocalTip>[];
     return Scaffold(
+      backgroundColor: AppColors.ground,
