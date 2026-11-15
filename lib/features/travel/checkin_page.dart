@@ -42,3 +42,4 @@ class _CheckinPageState extends State<CheckinPage> {
               MapView(
                 height: 210,
                 kind: MapKind.lake,
+                ring: const (Offset(.495, .5), 56),
