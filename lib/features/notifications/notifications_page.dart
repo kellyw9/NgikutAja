@@ -49,3 +49,4 @@ class NotificationsPage extends StatelessWidget {
               text: 'Pengingat trip, undangan, dan status pembayaran muncul di sini.',
             )
           : ListView(
+              padding: const EdgeInsets.only(bottom: 24),
