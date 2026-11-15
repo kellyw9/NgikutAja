@@ -191,3 +191,5 @@ class Grid2 extends StatelessWidget {
   final void Function(Itinerary) onTap;
   final VoidCallback? onGuest;
   final bool showWish;
+
+  @override
