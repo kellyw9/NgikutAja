@@ -94,3 +94,4 @@ class WisataCard extends StatelessWidget {
                     children: [
                       Text(it.title, style: AppText.title, maxLines: 2, overflow: TextOverflow.ellipsis),
                       const SizedBox(height: 4),
+                      MetaRow([('location_on', it.city), ('schedule', '${it.days} hari')]),
