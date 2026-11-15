@@ -201,3 +201,4 @@ class _EditStopPageState extends State<EditStopPage> {
                           if (p != null && p.isNotEmpty) setState(() => photo = p);
                         },
                       ),
+                    ],
