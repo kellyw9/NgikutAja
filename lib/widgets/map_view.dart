@@ -108,3 +108,4 @@ class MapView extends StatelessWidget {
       label: 'Peta sementara dengan ${pins.length} penanda',
       child: radius > 0 ? ClipRRect(borderRadius: BorderRadius.circular(radius), child: map) : map,
     );
+  }
