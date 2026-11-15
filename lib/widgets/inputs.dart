@@ -453,3 +453,4 @@ class Segmented extends StatelessWidget {
                           if (counts != null && counts![i] != null) ...[const SizedBox(width: 4), Text('${counts![i]}', style: AppText.small.muted)],
                         ],
                       ),
+                    ),
