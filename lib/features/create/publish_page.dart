@@ -222,3 +222,4 @@ class PublishedPage extends StatelessWidget {
                     Text('Itinerary kamu sekarang bisa ditemukan di Explore.', style: AppText.body.muted, textAlign: TextAlign.center),
                     const SizedBox(height: 24),
                     NgCard(
+                      onTap: () => openItinerary(context, d),
