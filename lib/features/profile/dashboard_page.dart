@@ -77,3 +77,4 @@ class DashboardPage extends StatelessWidget {
                           ),
                         ),
                       ),
+                      const SizedBox(height: 10),
