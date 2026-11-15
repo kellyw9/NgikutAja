@@ -104,3 +104,4 @@ class _EditStopPageState extends State<EditStopPage> {
             children: [
               NgField(
                 label: 'Nama tempat',
+                controller: name,
