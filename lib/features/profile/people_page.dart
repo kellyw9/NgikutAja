@@ -81,3 +81,4 @@ class _PeoplePageState extends State<PeoplePage> {
       kind: on ? BtnKind.ghost : BtnKind.secondary,
       size: BtnSize.md,
       onPressed: () {
+        setState(() => on ? following.remove(p.handle) : following.add(p.handle));
