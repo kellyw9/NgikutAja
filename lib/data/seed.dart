@@ -291,3 +291,4 @@ class Seed {
       ),
       Itinerary(
         id: 'medanmalam',
+        title: 'Medan Malam: 6 Tempat Makan setelah Jam 7',
