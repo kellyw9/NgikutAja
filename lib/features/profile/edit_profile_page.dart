@@ -90,3 +90,4 @@ class _EditProfilePageState extends State<EditProfilePage> {
                     const SizedBox(width: 14),
                     NgButton(
                       'Ganti foto profil',
+                      kind: BtnKind.secondary,
