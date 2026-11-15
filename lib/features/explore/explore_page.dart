@@ -182,3 +182,4 @@ class Bell extends StatelessWidget {
                   shape: BoxShape.circle,
                   border: Border.all(color: AppColors.ground, width: 2),
                 ),
+              ),
