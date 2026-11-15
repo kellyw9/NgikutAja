@@ -242,3 +242,4 @@ class Seed {
         region: 'Buleleng, Bali',
         days: 4,
         cover: 'bratan',
+        creator: c['komang']!,
