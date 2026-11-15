@@ -99,3 +99,4 @@ class _ItineraryDetailPageState extends State<ItineraryDetailPage> {
                 WishButton(it, onGuest: () => requireLogin(context)),
               ],
             ),
+            Padding(
