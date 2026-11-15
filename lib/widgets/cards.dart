@@ -74,3 +74,4 @@ class WisataCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final label = '${it.title}, ${it.city}, ${it.days} hari${it.isPaid ? ', ${rp(it.price)}' : ', gratis'}';
