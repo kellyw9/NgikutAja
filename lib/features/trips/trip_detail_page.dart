@@ -45,3 +45,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
           title: 'Data offline',
           padH: 0,
           onTap: () {
+            Navigator.pop(ctx);
