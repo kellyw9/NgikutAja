@@ -380,3 +380,4 @@ class Seed {
           [
             _s('07.00', '07.45', 'Soto Kesawan', _m, 35000, 'soto', 'Pesan soto ayam campur, kuahnya santan kuning.'),
             _s('08.00', '08.45', 'Bika Ambon Jalan Mojopahit', _m, 60000, 'bika'),
+          ],
