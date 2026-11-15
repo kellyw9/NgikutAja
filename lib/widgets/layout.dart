@@ -85,3 +85,4 @@ class NgAppBar extends StatelessWidget implements PreferredSizeWidget {
                       Expanded(child: titleCol),
                       if (trailingTitle != null) ...[const SizedBox(width: 8), trailingTitle!, const SizedBox(width: 8)],
                       ...actions,
+                      if (center && actions.isEmpty && trailingTitle == null) const SizedBox(width: 44),
