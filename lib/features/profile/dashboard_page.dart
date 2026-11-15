@@ -99,3 +99,4 @@ class DashboardPage extends StatelessWidget {
                             child: SizedBox(
                               height: 76,
                               child: Padding(
+                                padding: const EdgeInsets.symmetric(horizontal: 14),
