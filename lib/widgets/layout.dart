@@ -225,3 +225,4 @@ class FactStrip extends StatelessWidget {
               ],
             ],
           ),
+        ),
