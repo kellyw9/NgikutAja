@@ -66,3 +66,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
             icon: 'rate_review',
             title: 'Belum ada ulasan',
             text: 'Ulasan muncul setelah pengguna menyelesaikan trip dari itinerary ini.',
+          )
