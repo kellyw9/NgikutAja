@@ -39,3 +39,4 @@ class MapView extends StatelessWidget {
   final bool route;
 
   /// Lingkaran radius check-in: (pusat relatif, radius piksel).
+  final (Offset, double)? ring;
