@@ -28,3 +28,4 @@ class _PublishPageState extends State<PublishPage> {
   void _apply() => d.price = paid ? parseRupiah(price.text) : 0;
 
   @override
+  Widget build(BuildContext context) {
