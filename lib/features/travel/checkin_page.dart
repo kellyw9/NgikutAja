@@ -43,3 +43,4 @@ class _CheckinPageState extends State<CheckinPage> {
                 height: 210,
                 kind: MapKind.lake,
                 ring: const (Offset(.495, .5), 56),
+                pins: [MapPin(.495, .5, n: widget.i + 1, state: done ? MarkerState.done : MarkerState.next)],
