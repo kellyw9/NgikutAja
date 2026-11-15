@@ -288,3 +288,4 @@ class _CustomizePageState extends State<CustomizePage> {
                       _changed(() => s.apply(plan));
                       showNgSnack(context, 'Saran diterapkan. Jangan lupa simpan.');
                     },
+                  ),
