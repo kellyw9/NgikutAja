@@ -567,3 +567,4 @@ class Seed {
       ),
       AppNotification(
         id: 'n2',
+        kind: NotifKind.invite,
