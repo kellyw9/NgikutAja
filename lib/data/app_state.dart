@@ -239,3 +239,4 @@ class AppState extends ChangeNotifier {
       item: it,
       date: now,
       method: method,
+      amount: it.price,
