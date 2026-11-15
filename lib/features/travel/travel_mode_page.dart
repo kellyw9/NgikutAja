@@ -294,3 +294,4 @@ class TravelStopPage extends StatelessWidget {
                     decoration: BoxDecoration(color: AppColors.yellowPale, borderRadius: BorderRadius.circular(AppRadius.card)),
                     child: Row(
                       crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
