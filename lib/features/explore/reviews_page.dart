@@ -227,3 +227,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
                 ),
               ),
             Padding(
+              padding: const EdgeInsets.fromLTRB(kMargin, 10, 12, 10),
