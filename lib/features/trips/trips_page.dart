@@ -44,3 +44,4 @@ class TripsPage extends StatelessWidget {
   }
 
   List<Widget> _drafts(BuildContext context, AppState app) {
+    if (app.drafts.isEmpty) {
