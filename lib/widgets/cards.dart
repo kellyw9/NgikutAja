@@ -509,3 +509,4 @@ class _DayBox extends StatelessWidget {
                 Row(
                   children: [
                     Expanded(child: Text(item.label, style: AppText.bodyStrong.c(on ? AppColors.white : AppColors.ink))),
+                    if (today)
