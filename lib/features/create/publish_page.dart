@@ -102,3 +102,4 @@ class _PublishPageState extends State<PublishPage> {
                 child: Row(
                   crossAxisAlignment: CrossAxisAlignment.stretch,
                   children: [
+                    typeCard(false, 'Gratis', 'Bebas diadopsi siapa saja secara cuma-cuma.'),
