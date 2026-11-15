@@ -347,3 +347,4 @@ class _SearchPageState extends State<SearchPage> {
           selected: true,
           close: true,
           onTap: () => setState(() => filter.budget = const RangeValues(0, _maxBudget)),
+        ),
