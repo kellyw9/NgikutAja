@@ -105,3 +105,4 @@ class _SearchPageState extends State<SearchPage> {
     input.text = v;
     focus.unfocus();
     AppScope.read(context).addRecent(v);
+    setState(() => submitted = v);
