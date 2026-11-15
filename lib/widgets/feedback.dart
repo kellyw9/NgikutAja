@@ -12,3 +12,4 @@ class NgBanner extends StatelessWidget {
   final BannerKind kind;
   final String? title;
   final String? text;
+  final String? action;
