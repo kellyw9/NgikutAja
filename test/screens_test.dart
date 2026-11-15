@@ -57,3 +57,4 @@ final Map<String, PageFor> pages = {
   'comments': (s) => ReviewsPage(it: s.itinerary('medan'), comments: true),
   'creator': (s) => CreatorProfilePage(c: s.seed.creators['rahmat']!),
   'create': (s) => CreateItineraryPage(draft: s.drafts[1]),
+  'day editor': (s) => DayEditorPage(d: s.itinerary('samosirmotor')),
