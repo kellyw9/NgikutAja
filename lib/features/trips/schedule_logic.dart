@@ -28,3 +28,5 @@ int? shortestGap(List<Stop> day) {
   }
   return best;
 }
+
+bool isPacked(List<Stop> day) => activeMinutes(day) >= 8 * 60;
