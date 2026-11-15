@@ -10,3 +10,4 @@ class AppIcon extends StatelessWidget {
   const AppIcon(this.name, {super.key, this.size = 24, this.color = AppColors.ink, this.filled = false});
 
   final String name;
+  final double size;
