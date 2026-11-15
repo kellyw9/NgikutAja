@@ -47,3 +47,4 @@ class _SplitBudgetPageState extends State<SplitBudgetPage> {
     }
 
     return Scaffold(
+      backgroundColor: AppColors.ground,
