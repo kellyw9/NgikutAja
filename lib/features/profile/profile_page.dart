@@ -46,3 +46,4 @@ class ProfilePage extends StatelessWidget {
               ListRow(
                 icon: 'bookmark',
                 title: 'Wishlist',
+                sub: '${app.wishlist.length} itinerary tersimpan',
