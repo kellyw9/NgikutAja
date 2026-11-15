@@ -211,3 +211,4 @@ class Grid2 extends StatelessWidget {
                       variant: CardVariant.grid,
                       onTap: () => onTap(items[r * 2 + 1]),
                       onGuest: onGuest,
+                      showWish: showWish,
