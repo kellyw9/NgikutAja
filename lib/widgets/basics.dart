@@ -296,3 +296,4 @@ class _DashPainter extends CustomPainter {
     if (fill != null) canvas.drawRRect(rr, Paint()..color = fill!);
     final paint = Paint()
       ..color = color
+      ..style = PaintingStyle.stroke
