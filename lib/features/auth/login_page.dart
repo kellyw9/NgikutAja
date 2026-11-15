@@ -107,3 +107,4 @@ class _LoginPageState extends State<LoginPage> {
                           textInputAction: TextInputAction.next,
                           autofillHints: const [AutofillHints.email],
                           error: emailErr,
+                        ),
