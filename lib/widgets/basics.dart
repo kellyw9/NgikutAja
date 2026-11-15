@@ -77,3 +77,4 @@ class NgButton extends StatelessWidget {
       height: lg ? 48 : 40,
       width: expand ? double.infinity : null,
       child: TextButton(
+        onPressed: disabled ? null : onPressed,
