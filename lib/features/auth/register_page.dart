@@ -19,3 +19,5 @@ class _RegisterPageState extends State<RegisterPage> {
   final pass = TextEditingController();
   final confirm = TextEditingController();
   bool ob1 = true, ob2 = true, loading = false, tried = false;
+
+  (double, String, Color) get strength {
