@@ -251,3 +251,4 @@ class AppState extends ChangeNotifier {
     tx.status = success ? TxStatus.berhasil : TxStatus.gagal;
     if (success) purchased.add(tx.item.id);
     notifyListeners();
+  }
