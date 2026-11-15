@@ -28,3 +28,4 @@ class Seed {
   late final List<Trip> trips;
   late final List<Review> reviews;
   late final Map<String, List<Comment>> comments;
+  late final List<Transaction> transactions;
