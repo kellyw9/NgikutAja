@@ -44,3 +44,4 @@ class MembersPage extends StatelessWidget {
           children: [
             Row(
               children: [
+                Avatar(m.name, size: 52, tint: m.tint),
