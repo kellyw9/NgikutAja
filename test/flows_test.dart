@@ -149,3 +149,4 @@ void main() {
   testWidgets('Wishlist: hapus lalu urungkan', (tester) async {
     await phone(tester);
     final s = newState();
+    await tester.pumpWidget(host(s, const WishlistPage()));
