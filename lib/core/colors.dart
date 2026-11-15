@@ -20,3 +20,4 @@ class AppColors {
   static const line = Color(0xFFE8DCCD); // garis dan tepi kartu di atas putih
   static const control = Color(0xFF7F9194); // tepi input dan kontrol
   static const tealPale = Color(0xFFD3ECEF);
+  static const yellowPale = Color(0xFFFFF1C4);
