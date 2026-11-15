@@ -243,3 +243,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
                         minLines: 1,
                         maxLines: 4,
                         style: AppText.body,
+                        onTap: () => requireLogin(context),
