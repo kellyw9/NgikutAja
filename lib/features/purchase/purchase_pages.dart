@@ -223,3 +223,4 @@ class _PaymentPageState extends State<PaymentPage> {
                               padding: const EdgeInsets.symmetric(horizontal: 14),
                               child: Row(
                                 children: [
+                                  AppIcon(icon, size: 22),
