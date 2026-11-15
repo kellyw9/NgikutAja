@@ -567,3 +567,4 @@ class CreatorRow extends StatelessWidget {
                         Text(
                           '${c.handle}, ${thousands(c.followers)} pengikut',
                           style: AppText.small.muted,
+                          maxLines: 1,
