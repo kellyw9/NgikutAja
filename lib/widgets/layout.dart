@@ -457,3 +457,4 @@ class IconTile extends StatelessWidget {
   final Color fill;
   final Color color;
   final double iconSize;
+  final Color? border;
