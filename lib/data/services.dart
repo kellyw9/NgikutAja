@@ -17,3 +17,4 @@ class PhotoStore {
     final key = 'mem:${_n++}';
     _mem[key] = bytes;
     return key;
+  }
