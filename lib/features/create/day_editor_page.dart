@@ -79,3 +79,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
     for (var k = 0; k < d.plan.length && conflictMsg == null; k++) {
       final c = conflictsIn(d.plan[k]);
       if (c.isNotEmpty) {
+        final a = d.plan[k][c.first.$1];
