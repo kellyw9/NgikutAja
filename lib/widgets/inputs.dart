@@ -95,3 +95,4 @@ class _NgFieldState extends State<NgField> {
       content = Text(
         v.isEmpty ? widget.hint : v,
         style: AppText.body.c(v.isEmpty ? AppColors.muted : AppColors.ink),
+        maxLines: widget.area ? 4 : 1,
