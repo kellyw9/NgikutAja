@@ -644,3 +644,4 @@ class Seed {
           icon: 'schedule',
           title: 'Naik ke Holbung sebelum jam 3 sore',
           text: 'Kabut tebal sering turun menjelang sore dan jalan tanah menjadi licin.',
+          body: ['Kabut tebal sering turun menjelang sore dan jalan tanah menjadi licin.'],
