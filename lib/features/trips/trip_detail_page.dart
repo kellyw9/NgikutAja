@@ -133,3 +133,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
     final status = app.statusOf(t);
     final day = (_day ?? (status == TripStatus.berjalan ? app.currentDay(t) : 0)).clamp(0, t.days - 1);
     final stops = t.plan[day];
+    final it = t.from;
