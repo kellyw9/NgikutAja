@@ -303,3 +303,4 @@ class _CustomizePageState extends State<CustomizePage> {
     final conflicts = conflictsIn(stops);
     final bad = conflictIndexes(stops);
     return PopScope(
+      canPop: changes == 0,
