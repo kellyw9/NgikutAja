@@ -109,3 +109,4 @@ class TravelModePage extends StatelessWidget {
                   else
                     NgCard(
                       child: Row(
+                        children: [
