@@ -145,3 +145,4 @@ class _PackingPageState extends State<PackingPage> {
                                         CheckMark(it.done),
                                         const SizedBox(width: 10),
                                         Expanded(child: Text(it.name, style: AppText.body.c(it.done ? AppColors.muted : AppColors.ink))),
+                                        IconBtn(
