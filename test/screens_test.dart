@@ -20,3 +20,4 @@ import 'package:ngikutaja/features/explore/reviews_page.dart';
 import 'package:ngikutaja/features/extras/journal_page.dart';
 import 'package:ngikutaja/features/extras/memory_pages.dart';
 import 'package:ngikutaja/features/extras/packing_page.dart';
+import 'package:ngikutaja/features/extras/recap_page.dart';
