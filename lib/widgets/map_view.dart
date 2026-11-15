@@ -85,3 +85,4 @@ class MapView extends StatelessWidget {
                       ),
                     ),
                   ),
+                ...overlay,
