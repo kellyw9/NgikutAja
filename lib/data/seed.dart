@@ -30,3 +30,4 @@ class Seed {
   late final Map<String, List<Comment>> comments;
   late final List<Transaction> transactions;
   late final List<AppNotification> notifications;
+  late final Map<String, List<LocalTip>> tips;
