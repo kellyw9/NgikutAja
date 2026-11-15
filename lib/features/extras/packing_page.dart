@@ -138,3 +138,4 @@ class _PackingPageState extends State<PackingPage> {
                                 },
                                 child: SizedBox(
                                   height: 48,
+                                  child: Padding(
