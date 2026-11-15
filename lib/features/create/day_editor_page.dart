@@ -50,3 +50,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
       fullscreen: true,
     );
     if (r == null) return;
+    setState(() {
