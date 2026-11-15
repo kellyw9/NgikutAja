@@ -12,3 +12,4 @@ class AppText {
   static TextStyle _s(double size, double lh, FontWeight w, double lsPercent) => TextStyle(
     fontFamily: family,
     fontSize: size,
+    height: lh / size,
