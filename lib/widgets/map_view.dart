@@ -90,3 +90,4 @@ class MapView extends StatelessWidget {
                   Positioned(
                     left: 8,
                     bottom: 8,
+                    child: Container(
