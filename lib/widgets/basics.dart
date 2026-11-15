@@ -253,3 +253,4 @@ class Photo extends StatelessWidget {
           ? Container(color: AppColors.sunk)
           : Image.memory(bytes, fit: BoxFit.cover, width: width, height: height, gaplessPlayback: true);
     } else {
+      img = Image.asset(
