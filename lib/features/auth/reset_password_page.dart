@@ -207,3 +207,4 @@ class _NewPasswordPageState extends State<NewPasswordPage> {
       ),
     );
   }
+}
