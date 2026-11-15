@@ -563,3 +563,4 @@ class _BudgetSlider extends StatelessWidget {
           Text(value.end >= _maxBudget ? '${rp(_maxBudget.round())}+' : rp(value.end.round()), style: AppText.bodyStrong),
         ],
       ),
+      SliderTheme(
