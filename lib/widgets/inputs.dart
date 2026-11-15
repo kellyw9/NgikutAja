@@ -162,3 +162,4 @@ class _NgFieldState extends State<NgField> {
         if (widget.label != null) ...[Text(widget.label!, style: AppText.bodyStrong), const SizedBox(height: 6)],
         if (_select)
           Semantics(
+            button: true,
