@@ -136,3 +136,4 @@ class _LoginPageState extends State<LoginPage> {
                           children: [
                             Expanded(child: Container(height: 1, color: AppColors.line)),
                             Padding(
+                              padding: const EdgeInsets.symmetric(horizontal: 12),
