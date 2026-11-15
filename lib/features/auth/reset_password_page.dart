@@ -187,3 +187,4 @@ class _NewPasswordPageState extends State<NewPasswordPage> {
                     ),
                     const SizedBox(height: 14),
                     NgField(
+                      label: 'Konfirmasi password baru',
