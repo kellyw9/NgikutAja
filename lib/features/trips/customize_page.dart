@@ -385,3 +385,4 @@ class _CustomizePageState extends State<CustomizePage> {
                   else if (isPacked(stops))
                     NgBanner(
                       kind: BannerKind.warning,
+                      title: 'Hari ${day + 1} terlalu padat',
