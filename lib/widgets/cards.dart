@@ -616,3 +616,4 @@ class ProfileHead extends StatelessWidget {
             Text(thousands(v), style: AppText.h2),
             Text(l, style: AppText.small.muted),
           ],
+        ),
