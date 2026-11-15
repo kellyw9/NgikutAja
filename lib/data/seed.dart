@@ -341,3 +341,4 @@ class Seed {
         cover: 'samosir',
         creator: me,
         price: 20000,
+        adopted: 18,
