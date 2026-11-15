@@ -86,3 +86,4 @@ class _LoginPageState extends State<LoginPage> {
                       children: [
                         const Align(alignment: Alignment.centerLeft, child: Wordmark(large: false)),
                         const SizedBox(height: 24),
+                        Text('Masuk ke akunmu', style: AppText.h1),
