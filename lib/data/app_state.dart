@@ -380,3 +380,4 @@ class AppState extends ChangeNotifier {
     cover: null,
     creator: me,
     isDraft: true,
+    plan: [[]],
