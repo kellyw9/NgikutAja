@@ -554,3 +554,4 @@ class Seed {
     final pendingTime = fromMinutes(_pendingAt.hour * 60 + _pendingAt.minute);
 
     final yday = weekdaysLong[_d(-1).weekday - 1];
+    notifications = [
