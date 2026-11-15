@@ -17,3 +17,4 @@ class DayEditorPage extends StatefulWidget {
 
 class _DayEditorPageState extends State<DayEditorPage> {
   late final d = widget.d;
+  int day = 0;
