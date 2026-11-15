@@ -14,3 +14,4 @@ class NotificationsPage extends StatelessWidget {
   void _open(BuildContext context, AppState app, AppNotification n) {
     app.markRead(n);
     final toba = app.trips.where((t) => t.id == 'toba-kampus').firstOrNull;
+    switch (n.kind) {
