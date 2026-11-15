@@ -30,3 +30,4 @@ class ExpensesPage extends StatelessWidget {
             ('Waktu', expenseTime(trip, e)),
             ('Dibayar oleh', e.by),
             ('Dibagi ke', '$n orang (${rp((e.amount / n).round())} per orang)'),
+          ]),
