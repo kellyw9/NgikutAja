@@ -47,3 +47,4 @@ String fromMinutes(int m) {
 }
 
 /// "1 jam 30 menit", "2 jam", "45 menit"
+String durationText(int minutes) {
