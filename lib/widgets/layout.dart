@@ -284,3 +284,4 @@ class ListRow extends StatelessWidget {
   const ListRow({
     super.key,
     this.icon,
+    required this.title,
