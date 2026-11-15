@@ -200,3 +200,5 @@ class ObscureToggle extends StatelessWidget {
   const ObscureToggle({super.key, required this.obscured, required this.onTap});
   final bool obscured;
   final VoidCallback onTap;
+
+  @override
