@@ -28,3 +28,4 @@ class Creator {
   String name;
   String handle;
   final int tint;
+  String bio;
