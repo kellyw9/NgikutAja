@@ -23,3 +23,4 @@ class AppText {
   static final h1 = _s(22, 28, FontWeight.w700, -1);
   static final h2 = _s(18, 24, FontWeight.w700, -1);
   static final title = _s(15, 20, FontWeight.w600, 0);
+  static final body = _s(14, 20, FontWeight.w400, 0);
