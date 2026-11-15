@@ -13,3 +13,4 @@ class SettingsPage extends StatelessWidget {
   const SettingsPage({super.key});
 
   Future<void> _logout(BuildContext context) async {
+    final r = await showNgDialog(
