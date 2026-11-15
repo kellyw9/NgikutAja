@@ -582,3 +582,4 @@ class _BudgetSlider extends StatelessWidget {
           divisions: 50,
           semanticFormatterCallback: (v) => rp(v.round()),
           onChanged: onChanged,
+        ),
