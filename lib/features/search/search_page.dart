@@ -539,3 +539,4 @@ class _SearchPageState extends State<SearchPage> {
         _submit(q);
       } else if (q.isEmpty && submitted != null) {
         // "Semua kota": tampilkan semua itinerary yang lolos filter.
+        setState(() {
