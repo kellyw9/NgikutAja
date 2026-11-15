@@ -9,3 +9,5 @@ import '../data/models.dart';
 import 'basics.dart';
 
 enum CardVariant { feed, row, grid }
+
+/// Rating + jumlah adopsi. Rating hanya tampil kalau datanya ada.
