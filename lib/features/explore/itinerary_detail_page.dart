@@ -218,3 +218,4 @@ class _ItineraryDetailPageState extends State<ItineraryDetailPage> {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(it.isPaid ? rp(it.price) : 'Gratis', style: AppText.h2),
+                const SizedBox(height: 2),
