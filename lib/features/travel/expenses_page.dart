@@ -186,3 +186,4 @@ class _AddExpensePageState extends State<AddExpensePage> {
   late int day = e?.day ?? AppScope.read(context).currentDay(widget.trip);
   late String by = e?.by ?? widget.trip.members.first.first;
   String? receipt;
+  bool tried = false;
