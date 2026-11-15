@@ -150,3 +150,4 @@ class Seed {
           _s('16.15', '17.00', 'Bika Ambon Jalan Mojopahit', _m, 60000, 'bika', 'Beli yang ukuran kecil kalau mau dibawa pulang.'),
         ],
         [
+          _s('08.00', '09.30', 'Pasar Petisah', _so, 50000),
