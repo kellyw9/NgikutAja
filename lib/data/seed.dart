@@ -373,3 +373,4 @@ class Seed {
         price: 0,
         adopted: 34,
         likes: 41,
+        tags: ['Kuliner'],
