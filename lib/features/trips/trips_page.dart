@@ -109,3 +109,4 @@ class TripsPage extends StatelessWidget {
               child: Row(
                 children: [
                   const AppIcon('event', size: 18),
+                  const SizedBox(width: 8),
