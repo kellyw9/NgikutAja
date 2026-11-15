@@ -317,3 +317,4 @@ class AppState extends ChangeNotifier {
     if (!online) throw const OfflineException();
     t.plan = plan;
     t.dayTitles = titles;
+    notifyListeners();
