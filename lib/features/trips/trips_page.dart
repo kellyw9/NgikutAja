@@ -64,3 +64,4 @@ class TripsPage extends StatelessWidget {
         TripCard(
           status: TripStatus.draft,
           title: d.title,
+          city: d.city,
