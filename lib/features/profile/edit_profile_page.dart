@@ -49,3 +49,4 @@ class _EditProfilePageState extends State<EditProfilePage> {
   @override
   Widget build(BuildContext context) {
     final uErr = userErr;
+    return PopScope(
