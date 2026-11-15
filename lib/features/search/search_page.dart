@@ -114,3 +114,4 @@ class _SearchPageState extends State<SearchPage> {
         it.city.toLowerCase().contains(s) || it.region.toLowerCase().contains(s) || (s.contains('toba') && it.title.toLowerCase().contains('toba'));
     final inTitle = it.title.toLowerCase().contains(s) || it.creator.handle.toLowerCase().contains(s);
     return mode == 'Kota' ? inPlace || inTitle : inTitle || inPlace;
+  }
