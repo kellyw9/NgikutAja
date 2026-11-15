@@ -382,3 +382,4 @@ enum PillKind { neutral, teal, positive, negative, warning, solid }
 class Pill extends StatelessWidget {
   const Pill(this.text, {super.key, this.kind = PillKind.neutral, this.icon});
   final String text;
+  final PillKind kind;
