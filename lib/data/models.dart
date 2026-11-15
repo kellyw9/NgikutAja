@@ -134,3 +134,5 @@ class Itinerary {
     if (hasFullPlan) return plan.fold<int>(0, (a, d) => a + d.fold(0, (b, s) => b + s.cost)) + lodging;
     return estimateSeed;
   }
+
+  int get places => hasFullPlan ? stopCount : (placesSeed ?? stopCount);
