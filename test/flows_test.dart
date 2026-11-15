@@ -96,3 +96,5 @@ void main() {
     await tapText(tester, 'Terapkan', button: true);
     await tester.pumpAndSettle();
     expect(find.text('Jadwal bertabrakan di Hari 1'), findsNothing);
+
+    await tapText(tester, 'Simpan perubahan', button: true);
