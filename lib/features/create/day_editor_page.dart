@@ -232,3 +232,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
           child: Padding(
             padding: const EdgeInsets.fromLTRB(kMargin, 8, kMargin, 16),
             child: Column(
+              mainAxisSize: MainAxisSize.min,
