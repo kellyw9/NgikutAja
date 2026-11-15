@@ -62,3 +62,4 @@ class SettingsPage extends StatelessWidget {
         const SizedBox(height: 6),
         BoxList(inset: 14, children: rows),
       ],
+    );
