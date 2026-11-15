@@ -463,3 +463,4 @@ class IconTile extends StatelessWidget {
   Widget build(BuildContext context) => Container(
     width: size,
     height: size,
+    alignment: Alignment.center,
