@@ -191,3 +191,4 @@ class GoogleButton extends StatelessWidget {
         borderRadius: BorderRadius.circular(AppRadius.control),
         side: const BorderSide(color: AppColors.control),
       ),
+      clipBehavior: Clip.antiAlias,
