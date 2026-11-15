@@ -36,3 +36,4 @@ class DashboardPage extends StatelessWidget {
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
+                      Text('Penjualan bulanan', style: AppText.title),
