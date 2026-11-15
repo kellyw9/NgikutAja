@@ -212,3 +212,4 @@ class Grid2 extends StatelessWidget {
                       onTap: () => onTap(items[r * 2 + 1]),
                       onGuest: onGuest,
                       showWish: showWish,
+                    )
