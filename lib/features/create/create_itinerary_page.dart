@@ -172,3 +172,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
                 ),
                 NgField(
                   label: 'Deskripsi',
+                  controller: desc,
