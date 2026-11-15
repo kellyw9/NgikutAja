@@ -83,3 +83,4 @@ class _PackingPageState extends State<PackingPage> {
       backgroundColor: AppColors.ground,
       appBar: NgAppBar(title: 'Packing list', sub: t.title),
       body: ListView(
+        padding: const EdgeInsets.fromLTRB(kMargin, 8, kMargin, 24),
