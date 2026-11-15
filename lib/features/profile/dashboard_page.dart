@@ -31,3 +31,4 @@ class DashboardPage extends StatelessWidget {
                 ('Total adopsi', thousands(app.totalAdopt)),
                 ('Pendapatan simulasi', rp(app.revenue)),
               ]),
+              if (chartItem != null)
