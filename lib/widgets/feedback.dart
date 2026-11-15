@@ -106,3 +106,4 @@ void showNgSnack(BuildContext context, String text, {SnackKind kind = SnackKind.
                   child: Text(action, style: AppText.bodyStrong.c(kind == SnackKind.neutral ? AppColors.yellow : AppColors.white)),
                 ),
               ),
+            ),
