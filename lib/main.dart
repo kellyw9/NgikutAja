@@ -10,3 +10,4 @@ Future<void> main() async {
   await SystemChrome.setEnabledSystemUIMode(SystemUiMode.edgeToEdge);
   SharedPreferences? prefs;
   try {
+    prefs = await SharedPreferences.getInstance();
