@@ -426,3 +426,4 @@ class Segmented extends StatelessWidget {
             if (i > 0) const SizedBox(width: 2),
             Expanded(
               child: Semantics(
+                selected: items[i] == active,
