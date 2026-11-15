@@ -384,3 +384,4 @@ class _SearchPageState extends State<SearchPage> {
           )
         else ...[
           Padding(
+            padding: const EdgeInsets.fromLTRB(kMargin, 12, kMargin, 8),
