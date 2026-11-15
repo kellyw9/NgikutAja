@@ -430,3 +430,4 @@ class PriceTag extends StatelessWidget {
         Text(text, style: AppText.smallStrong),
       ],
     ),
+  );
