@@ -46,3 +46,4 @@ class NgField extends StatefulWidget {
   final String? helper;
   final String? error;
   final bool area;
+  final bool readOnly;
