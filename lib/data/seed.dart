@@ -631,3 +631,4 @@ class Seed {
         LocalTip(
           icon: 'payments',
           title: 'Siapkan uang tunai kecil',
+          text: 'Tiket Holbung, parkir, dan sewa tikar di Parbaba hanya menerima uang tunai.',
