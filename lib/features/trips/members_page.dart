@@ -126,3 +126,4 @@ class MembersPage extends StatelessWidget {
                     child: Text(_link(trip), style: AppText.body, maxLines: 1, overflow: TextOverflow.ellipsis),
                   ),
                   NgButton(
+                    'Salin link',
