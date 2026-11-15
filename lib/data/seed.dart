@@ -330,3 +330,4 @@ class Seed {
         adopted: 41,
         rating: 4.6,
         tags: ['Alam'],
+        publishedAt: _d(-60),
