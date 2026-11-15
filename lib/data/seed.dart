@@ -422,3 +422,4 @@ class Seed {
       Trip(
         id: 'toba-kampus',
         title: 'Danau Toba bareng teman kampus',
+        city: 'Samosir',
