@@ -22,3 +22,5 @@ Future<String?> pickTime(BuildContext context, String current) async {
   );
   return t == null ? null : fromMinutes(t.hour * 60 + t.minute);
 }
+
+/// 5.5 Tambah / Edit aktivitas pada trip.
