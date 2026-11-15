@@ -52,3 +52,4 @@ class NgButton extends StatelessWidget {
     final (bg, fg, stroke) = _colors(kind);
     final textual = kind == BtnKind.text || kind == BtnKind.dangerText;
     final lg = size == BtnSize.lg;
+    final color = disabled ? AppColors.muted : fg;
