@@ -102,3 +102,4 @@ class _CustomizePageState extends State<CustomizePage> {
     final target = await showNgSheet<int>(
       context,
       title: 'Pindahkan aktivitas',
+      scroll: true,
