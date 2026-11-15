@@ -215,3 +215,4 @@ class _AddExpensePageState extends State<AddExpensePage> {
           time: fromMinutes(now.hour * 60 + now.minute),
           receipt: receipt,
         ),
+      );
