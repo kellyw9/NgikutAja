@@ -150,3 +150,4 @@ class AboutPage extends StatelessWidget {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Text((e.value as Map)['title'] as String, style: AppText.bodyStrong),
+                            const SizedBox(height: 2),
