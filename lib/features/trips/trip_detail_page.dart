@@ -57,3 +57,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
           trailing: null,
           onTap: () {
             Navigator.pop(ctx);
+            shareText('Trip "${widget.trip.title}" ${widget.trip.dates ?? ''} di ${widget.trip.city}. Dibuat dengan NgikutAja.');
