@@ -35,3 +35,4 @@ class _CheckinPageState extends State<CheckinPage> {
       appBar: NgAppBar(title: 'Check-in', sub: st.name),
       body: ListView(
         padding: const EdgeInsets.fromLTRB(kMargin, 8, kMargin, 24),
+        children: [
