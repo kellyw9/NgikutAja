@@ -39,3 +39,4 @@ class _ItemRow extends StatelessWidget {
 /// 8.1 Detail Pembelian.
 class PurchaseDetailPage extends StatelessWidget {
   const PurchaseDetailPage({super.key, required this.it});
+  final Itinerary it;
