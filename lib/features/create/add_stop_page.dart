@@ -220,3 +220,4 @@ class _AddStopPageState extends State<AddStopPage> {
                                 child: Column(
                                   mainAxisAlignment: MainAxisAlignment.center,
                                   children: [
+                                    const AppIcon('add_a_photo', size: 22),
