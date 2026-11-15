@@ -112,3 +112,4 @@ class MapView extends StatelessWidget {
 }
 
 class _MapPainter extends CustomPainter {
+  _MapPainter(this.kind, this.pins, this.ring);
