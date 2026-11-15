@@ -246,3 +246,5 @@ class AppState extends ChangeNotifier {
     notifyListeners();
     return tx;
   }
+
+  void completePayment(Transaction tx, {bool success = true}) {
