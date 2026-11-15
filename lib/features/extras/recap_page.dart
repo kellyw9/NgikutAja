@@ -67,3 +67,4 @@ class RecapPage extends StatelessWidget {
                     Tap(
                       onTap: () => push(context, PhotoMemoryPage(trip: t)),
                       radius: AppRadius.inner,
+                      label: 'Buka Photo memory',
