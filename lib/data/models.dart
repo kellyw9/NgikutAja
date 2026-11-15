@@ -316,3 +316,4 @@ class Trip {
   }
 
   int places() => seedPlaces ?? plan.fold(0, (a, d) => a + d.length);
+  int visited() => seedVisited ?? checkins.length;
