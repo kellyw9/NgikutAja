@@ -340,3 +340,4 @@ class PaidPreviewPage extends StatelessWidget {
                         Text(
                           'Beli sekali seharga ${rp(it.price)} untuk membuka semua ${it.places} tempat, peta rute ${it.days} hari, '
                           'dan catatan creator. Bisa diadopsi dan dibuka offline.',
+                          style: AppText.body.muted,
