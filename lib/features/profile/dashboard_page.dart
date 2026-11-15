@@ -65,3 +65,4 @@ class DashboardPage extends StatelessWidget {
                                             borderRadius: const BorderRadius.vertical(top: Radius.circular(4)),
                                           ),
                                         ),
+                                        Container(height: 1, color: AppColors.line),
