@@ -27,3 +27,4 @@ import 'package:ngikutaja/features/notifications/notifications_page.dart';
 import 'package:ngikutaja/features/profile/dashboard_page.dart';
 import 'package:ngikutaja/features/profile/edit_profile_page.dart';
 import 'package:ngikutaja/features/profile/people_page.dart';
+import 'package:ngikutaja/features/profile/settings_page.dart';
