@@ -118,3 +118,4 @@ class _CalendarState extends State<_Calendar> {
                   Expanded(
                     child: SizedBox(
                       height: 28,
+                      child: Center(child: Text(d, style: AppText.small.muted)),
