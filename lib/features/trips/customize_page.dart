@@ -446,3 +446,4 @@ class _CustomizePageState extends State<CustomizePage> {
                                   TextLink('Hapus', style: AppText.smallStrong, color: AppColors.negative, onTap: () => _delete(i)),
                                 ],
                               ),
+                            ),
