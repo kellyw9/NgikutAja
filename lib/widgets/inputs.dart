@@ -343,3 +343,4 @@ class NgStepper extends StatelessWidget {
         IconBtn('remove', label: 'Kurangi', size: 42, iconSize: 20, onTap: value > min ? () => onChanged(value - 1) : null),
         Container(width: 1, color: AppColors.line),
         Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 14),
