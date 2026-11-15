@@ -434,3 +434,4 @@ class _CustomizePageState extends State<CustomizePage> {
                                       width: 44,
                                       height: 44,
                                       child: Center(child: AppIcon('drag_indicator', color: AppColors.muted)),
+                                    ),
