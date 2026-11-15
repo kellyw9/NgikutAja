@@ -205,3 +205,4 @@ Future<String?> pickPhotoSheet(BuildContext context, {String title = 'Tambah fot
 
 /// Fitur akun (Wishlist, adopt, komentar, dll.) butuh login. Mengembalikan true kalau sudah login.
 bool requireLogin(BuildContext context) {
+  final app = AppScope.read(context);
