@@ -46,3 +46,4 @@ class _AdoptPageState extends State<AdoptPage> {
   @override
   Widget build(BuildContext context) {
     final it = widget.it;
+    final end = start.add(Duration(days: it.days - 1));
