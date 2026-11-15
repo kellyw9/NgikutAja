@@ -305,3 +305,4 @@ class Trip {
   int get days => plan.length;
   DateTime? get end => start?.add(Duration(days: days - 1));
   String? get dates => start == null ? null : dateRange(start!, end!);
+  DateTime? dayDate(int d) => start?.add(Duration(days: d));
