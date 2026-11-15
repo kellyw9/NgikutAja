@@ -252,3 +252,4 @@ class EmptyState extends StatelessWidget {
           Container(
             width: 56,
             height: 56,
+            alignment: Alignment.center,
