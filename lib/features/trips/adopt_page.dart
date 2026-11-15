@@ -140,3 +140,4 @@ class _AdoptPageState extends State<AdoptPage> {
               NgCard(
                 child: Row(
                   children: [
+                    const AppIcon('download_for_offline', size: 22),
