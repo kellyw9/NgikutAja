@@ -53,3 +53,4 @@ class _RegisterPageState extends State<RegisterPage> {
     } else {
       resetTo(context, const HomeShell());
     }
+  }
