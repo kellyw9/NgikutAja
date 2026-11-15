@@ -465,3 +465,4 @@ class Seed {
       ),
       Trip(
         id: 'medan-libur',
+        title: '3 Hari Kuliner dan Sejarah di Medan',
