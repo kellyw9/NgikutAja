@@ -85,3 +85,4 @@ class _CheckinPageState extends State<CheckinPage> {
               Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
+                  Text('Riwayat check-in hari ini', style: AppText.h2),
