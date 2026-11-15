@@ -280,3 +280,4 @@ class AppState extends ChangeNotifier {
   Future<Trip> adopt(
     Itinerary it,
     DateTime start, {
+    required bool remindDayBefore,
