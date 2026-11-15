@@ -177,3 +177,4 @@ class _AdoptPageState extends State<AdoptPage> {
               Text(sub, style: AppText.small.muted),
             ],
           ),
+        ),
