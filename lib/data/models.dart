@@ -53,3 +53,4 @@ class Stop {
   String end;
   String name;
   Category cat;
+  int cost;
