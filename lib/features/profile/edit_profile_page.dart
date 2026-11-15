@@ -86,3 +86,4 @@ class _EditProfilePageState extends State<EditProfilePage> {
               children: [
                 Row(
                   children: [
+                    Avatar(me.name, size: 64, tint: me.tint, photo: photo),
