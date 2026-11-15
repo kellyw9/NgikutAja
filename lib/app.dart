@@ -16,3 +16,4 @@ class NgikutAjaApp extends StatelessWidget {
     return AppScope(
       state: state,
       child: MaterialApp(
+        title: 'NgikutAja',
