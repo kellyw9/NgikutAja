@@ -102,3 +102,4 @@ class _LoginPageState extends State<LoginPage> {
                           label: 'Email',
                           icon: 'mail',
                           controller: email,
+                          hint: 'nama@email.com',
