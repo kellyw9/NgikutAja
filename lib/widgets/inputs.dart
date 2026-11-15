@@ -119,3 +119,4 @@ class _NgFieldState extends State<NgField> {
         decoration: InputDecoration.collapsed(hintText: widget.hint, hintStyle: AppText.body.muted),
       );
     }
+    // Awalan (misalnya "Rp") selalu terlihat, tidak hanya saat field difokus.
