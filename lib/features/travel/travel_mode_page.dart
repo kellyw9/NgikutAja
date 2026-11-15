@@ -284,3 +284,4 @@ class TravelStopPage extends StatelessWidget {
                         : const Pill('Belum dikunjungi', kind: PillKind.warning),
                     Pill('Aktivitas ${i + 1} dari ${trip.plan[day].length}'),
                   ],
+                ),
