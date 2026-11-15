@@ -119,3 +119,4 @@ class PurchaseDetailPage extends StatelessWidget {
 
 /// 8.2 Konfirmasi Pembelian.
 class PurchaseConfirmPage extends StatelessWidget {
+  const PurchaseConfirmPage({super.key, required this.it});
