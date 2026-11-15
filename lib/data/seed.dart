@@ -277,3 +277,4 @@ class Seed {
         city: 'Bandung',
         region: 'Bandung, Jawa Barat',
         days: 2,
+        cover: 'bandung',
