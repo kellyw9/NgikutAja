@@ -152,3 +152,4 @@ class _ItineraryDetailPageState extends State<ItineraryDetailPage> {
                       Text('Tentang itinerary ini', style: AppText.h2),
                       const SizedBox(height: 6),
                       Text(
+                        it.desc.isEmpty ? 'Creator belum menulis deskripsi.' : it.desc,
