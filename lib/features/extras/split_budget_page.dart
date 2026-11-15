@@ -74,3 +74,4 @@ class _SplitBudgetPageState extends State<SplitBudgetPage> {
                     const SizedBox(height: 6),
                     Text('Atur porsi tiap anggota. Misalnya 2 porsi untuk yang membawa pasangan.', style: AppText.small.muted),
                   ],
+                  const SizedBox(height: 8),
