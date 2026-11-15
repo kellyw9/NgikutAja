@@ -16,3 +16,4 @@ class AppColors {
   static const surfaceSoft = Color(0xFFFFFBF6);
   static const sunk = Color(0xFFF0E5D8);
   static const muted = Color(0xFF4A6569);
+  static const rule = Color(0xFFE3D3C1); // garis di atas krem
