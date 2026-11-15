@@ -15,3 +15,4 @@ class MapPin {
 }
 
 /// Peta sementara (gambar, bukan peta asli). Diberi label "Peta sementara" supaya tidak
+/// disangka peta sungguhan. Ganti dengan widget peta asli saat integrasi peta dikerjakan.
