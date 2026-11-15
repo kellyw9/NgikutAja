@@ -128,3 +128,4 @@ class _SearchPageState extends State<SearchPage> {
       default:
         // relevan: judul yang memuat kata kunci didahulukan, lalu yang paling banyak diadopsi
         int score(Itinerary x) => (x.title.toLowerCase().contains(q.toLowerCase()) ? 10000 : 0) + x.adopted;
+        list.sort((a, b) => score(b).compareTo(score(a)));
