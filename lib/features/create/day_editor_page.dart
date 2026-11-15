@@ -119,3 +119,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
                                 height: 10,
                                 decoration: BoxDecoration(
                                   color: AppColors.negative,
+                                  shape: BoxShape.circle,
