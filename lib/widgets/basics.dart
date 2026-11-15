@@ -557,3 +557,4 @@ class Marker extends StatelessWidget {
         border: border != null ? Border.all(color: border, width: 2) : null,
       ),
       child: switch (state) {
+        MarkerState.done => AppIcon('check', size: size * .66, color: AppColors.white),
