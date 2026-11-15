@@ -457,3 +457,5 @@ class AppState extends ChangeNotifier {
     'payments': true,
     'autoDownload': true,
   };
+
+  void setSetting(String key, bool v) {
