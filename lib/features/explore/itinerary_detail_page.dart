@@ -374,3 +374,4 @@ class PaidPreviewPage extends StatelessWidget {
       ),
     );
   }
+}
