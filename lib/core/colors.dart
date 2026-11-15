@@ -55,3 +55,4 @@ class AppRadius {
 }
 
 /// Margin layar kiri-kanan.
+const double kMargin = 16;
