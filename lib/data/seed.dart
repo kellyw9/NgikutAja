@@ -185,3 +185,4 @@ class Seed {
           _s('09.30', '11.00', 'Tuktuk Siadong', _so, 0, 'samosir', 'Titip tas di penginapan, lalu jalan kaki.'),
           _s(
             '12.30',
+            '14.30',
