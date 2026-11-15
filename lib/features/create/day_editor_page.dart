@@ -55,3 +55,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
         if (r.stop != null) d.plan[day].add(r.stop!);
       } else if (r.deleted) {
         d.plan[day].removeAt(i);
+      } else {
