@@ -233,3 +233,4 @@ class Photo extends StatelessWidget {
   final String? src;
   final double? width;
   final double? height;
+  final double radius;
