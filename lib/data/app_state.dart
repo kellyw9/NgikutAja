@@ -54,3 +54,4 @@ class AppState extends ChangeNotifier {
         Network.check()
             .then((v) {
               online = v;
+              notifyListeners();
