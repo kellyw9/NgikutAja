@@ -605,3 +605,4 @@ class _SquareThumb extends RangeSliderThumbShape {
   @override
   void paint(
     PaintingContext context,
+    Offset center, {
