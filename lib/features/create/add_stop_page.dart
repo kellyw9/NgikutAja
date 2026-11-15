@@ -77,3 +77,4 @@ class _AddStopPageState extends State<AddStopPage> {
                 hint: 'Misal: Soto Kesawan',
                 error: tried && name.text.trim().isEmpty ? 'Nama tempat wajib diisi' : null,
                 onChanged: (_) => setState(() {}),
+              ),
