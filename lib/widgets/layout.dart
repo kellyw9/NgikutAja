@@ -205,3 +205,4 @@ class FactStrip extends StatelessWidget {
                 if (i > 0) Container(width: 1, color: AppColors.rule),
                 // Lebar sel mengikuti panjang isi supaya label dan nilai panjang tetap satu baris.
                 Expanded(
+                  flex: 12 + (cells[i].$1.length > cells[i].$2.length ? cells[i].$1.length : cells[i].$2.length),
