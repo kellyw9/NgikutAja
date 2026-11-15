@@ -283,3 +283,4 @@ class PaidPreviewPage extends StatelessWidget {
                     onGuest: () => requireLogin(context),
                   ),
                 ],
+              ),
