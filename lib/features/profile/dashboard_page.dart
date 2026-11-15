@@ -35,3 +35,4 @@ class DashboardPage extends StatelessWidget {
                 NgCard(
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
