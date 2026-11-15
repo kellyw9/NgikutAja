@@ -27,3 +27,5 @@ class _AddStopPageState extends State<AddStopPage> {
   late String? photo = s?.photo;
   late String? address = s?.address;
   bool tried = false;
+
+  String? get timeErr => toMinutes(end) <= toMinutes(start) ? 'Jam selesai harus setelah jam mulai' : null;
