@@ -65,3 +65,4 @@ class _Row extends StatelessWidget {
                       Expanded(child: Proof(it, compact: true)),
                       const SizedBox(width: 8),
                       if (it.isPaid) PriceTag(rp(it.price)) else Text('Gratis', style: AppText.smallStrong.c(AppColors.positive)),
+                    ],
