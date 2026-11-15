@@ -316,3 +316,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
             children: [
               const IconTile('add_photo_alternate', size: 48, fill: AppColors.surface, iconSize: 24),
               const SizedBox(height: 10),
+              Text('Tambah foto sampul', style: AppText.bodyStrong),
