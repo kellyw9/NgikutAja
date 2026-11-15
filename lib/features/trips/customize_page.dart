@@ -219,3 +219,4 @@ class _CustomizePageState extends State<CustomizePage> {
       _changed(() {
         plan.add([]);
         titles.add('Hari $n');
+        day = plan.length - 1;
