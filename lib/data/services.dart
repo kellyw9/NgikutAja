@@ -56,3 +56,4 @@ class Network {
   static Future<bool> check() async => _online(await _c.checkConnectivity());
 
   static bool _online(List<ConnectivityResult> r) => r.any((x) => x != ConnectivityResult.none);
+}
