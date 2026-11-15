@@ -280,3 +280,5 @@ class Trip {
   List<Member> members;
   List<Expense> expenses;
   List<PackGroup> packing;
+
+  /// Kunci "hari-indeks" -> jam check-in, misalnya "0-1": "09.42".
