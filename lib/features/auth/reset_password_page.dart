@@ -192,3 +192,4 @@ class _NewPasswordPageState extends State<NewPasswordPage> {
                       controller: p2,
                       obscure: o2,
                       onChanged: (_) => setState(() {}),
+                      error: e2 ?? (tried && p2.text.isEmpty ? 'Ketik ulang password baru' : null),
