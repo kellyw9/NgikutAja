@@ -13,3 +13,4 @@ class RecapPage extends StatelessWidget {
       'total pengeluaran ${rp(t.spending())}, ${t.photos.length} foto memori. Dicatat dengan NgikutAja.';
 
   @override
+  Widget build(BuildContext context) {
