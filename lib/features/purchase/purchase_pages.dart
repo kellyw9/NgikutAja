@@ -83,3 +83,4 @@ class PurchaseDetailPage extends StatelessWidget {
                     for (final p in perks) ...[
                       const SizedBox(height: 8),
                       Row(
+                        children: [
