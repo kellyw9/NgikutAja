@@ -36,3 +36,4 @@ class _StatChip extends StatelessWidget {
     button: true,
     label: label,
     child: Material(
+      color: AppColors.surface,
