@@ -44,3 +44,4 @@ class PurchaseDetailPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final perks = [
+      '${it.places} tempat lengkap dengan jam dan catatan creator',
