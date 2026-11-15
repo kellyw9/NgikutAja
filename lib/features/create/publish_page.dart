@@ -57,3 +57,4 @@ class _PublishPageState extends State<PublishPage> {
                   children: [
                     Expanded(child: Text(title, style: AppText.bodyStrong)),
                     AppIcon(on ? 'check_circle' : 'radio_button_unchecked', size: 22, filled: on, color: on ? AppColors.teal : AppColors.muted),
+                  ],
