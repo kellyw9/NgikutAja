@@ -138,3 +138,4 @@ class AppState extends ChangeNotifier {
   Itinerary itinerary(String id) => itineraries.firstWhere((x) => x.id == id, orElse: () => drafts.firstWhere((x) => x.id == id));
 
   List<Itinerary> get published => itineraries.where((x) => !x.isDraft && x.creator != me).toList();
+  List<Itinerary> get mine => itineraries.where((x) => x.creator == me).toList();
