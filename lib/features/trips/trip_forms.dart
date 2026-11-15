@@ -18,3 +18,4 @@ Future<String?> pickTime(BuildContext context, String current) async {
     helpText: 'Pilih jam',
     cancelText: 'Batal',
     confirmText: 'Pilih',
+    builder: (ctx, child) => MediaQuery(data: MediaQuery.of(ctx).copyWith(alwaysUse24HourFormat: true), child: child!),
