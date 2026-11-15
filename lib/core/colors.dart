@@ -47,3 +47,4 @@ class AppRadius {
   AppRadius._();
   static const double card = 8;
   static const double inner = 6;
+  static const double control = 8;
