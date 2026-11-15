@@ -258,3 +258,4 @@ class PublishedPage extends StatelessWidget {
                       'Buat itinerary lain',
                       kind: BtnKind.secondary,
                       expand: true,
+                      onPressed: () =>
