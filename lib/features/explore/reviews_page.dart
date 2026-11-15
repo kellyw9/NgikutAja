@@ -221,3 +221,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
                       size: 32,
                       iconSize: 16,
                       color: AppColors.muted,
+                      onTap: () => setState(() => replyTo = null),
