@@ -250,3 +250,4 @@ class Seed {
         reviews: 11,
         tags: ['Alam'],
         estimateSeed: 2300000,
+        placesSeed: 14,
