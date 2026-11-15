@@ -98,3 +98,4 @@ class MapView extends StatelessWidget {
                       child: Text('Peta sementara', style: AppText.small.muted),
                     ),
                   ),
+              ],
