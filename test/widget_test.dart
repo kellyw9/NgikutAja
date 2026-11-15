@@ -29,3 +29,4 @@ void main() {
       Stop(start: '14.00', end: '15.00', name: 'Mie Aceh Titi Bobrok', cat: Category.makan),
     ];
     expect(conflictsIn(day), [(0, 1)]);
+    final (issues, tips) = analyze([day]);
