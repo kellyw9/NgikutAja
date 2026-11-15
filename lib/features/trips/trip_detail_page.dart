@@ -73,3 +73,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
         16,
         children: [
           if (st.photo != null) Photo(st.photo, height: 180, radius: AppRadius.card, semantic: st.name),
+          Column(
