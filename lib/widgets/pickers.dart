@@ -46,3 +46,4 @@ class _CalendarState extends State<_Calendar> {
     final cells = <int?>[...List.filled(lead, null), for (var d = 1; d <= count; d++) d];
     while (cells.length % 7 != 0) {
       cells.add(null);
+    }
