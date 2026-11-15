@@ -38,3 +38,4 @@ class _CheckinPageState extends State<CheckinPage> {
         children: [
           Gap(
             14,
+            children: [
