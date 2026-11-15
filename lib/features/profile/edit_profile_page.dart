@@ -57,3 +57,4 @@ class _EditProfilePageState extends State<EditProfilePage> {
           context,
           title: 'Buang perubahan?',
           body: 'Perubahan profil yang baru kamu buat belum disimpan.',
+          actions: const [
