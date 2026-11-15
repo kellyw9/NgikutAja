@@ -454,3 +454,4 @@ class Meta extends StatelessWidget {
 /// Baris metadata dipisah jarak 12 (tanpa titik tengah).
 class MetaRow extends StatelessWidget {
   const MetaRow(this.items, {super.key, this.color = AppColors.muted, this.gap = 12});
+  final List<(String, String)?> items;
