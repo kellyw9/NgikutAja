@@ -222,3 +222,5 @@ class TripPhoto {
   final String time;
   final bool publicVisible;
 }
+
+class JournalEntry {
