@@ -76,3 +76,4 @@ class Seed {
       'bayu': Creator(
         id: 'bayu',
         name: 'Bayu Prasetyo',
+        handle: '@jogjahemat',
