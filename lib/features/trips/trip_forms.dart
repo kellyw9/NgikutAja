@@ -269,3 +269,4 @@ class _EditTripInfoPageState extends State<EditTripInfoPage> {
       body: ListView(
         padding: const EdgeInsets.fromLTRB(kMargin, 8, kMargin, 24),
         children: [
+          Gap(
