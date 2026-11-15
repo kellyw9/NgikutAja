@@ -585,3 +585,4 @@ class CreatorRow extends StatelessWidget {
               size: BtnSize.md,
               icon: following ? 'check' : null,
               onPressed: () => app.loggedIn ? app.toggleFollow(c) : onGuest?.call(),
+            ),
