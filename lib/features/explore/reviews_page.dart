@@ -239,3 +239,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
                       decoration: BoxDecoration(color: AppColors.ground, borderRadius: BorderRadius.circular(AppRadius.control)),
                       child: TextField(
                         controller: input,
+                        focusNode: focus,
