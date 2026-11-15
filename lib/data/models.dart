@@ -290,3 +290,4 @@ class Trip {
   int offlineSize;
   String? syncedAt;
   bool remindDayBefore;
+  bool remindEach;
