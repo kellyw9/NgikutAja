@@ -265,3 +265,4 @@ class _SearchPageState extends State<SearchPage> {
       const SectionHead('Kota populer'),
       const SizedBox(height: 12),
       Padding(
+        padding: const EdgeInsets.symmetric(horizontal: kMargin),
