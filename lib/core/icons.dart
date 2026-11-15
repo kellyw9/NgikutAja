@@ -66,3 +66,4 @@ class _IconPainter extends CustomPainter {
       Paint()
         ..color = color
         ..isAntiAlias = true,
+    );
