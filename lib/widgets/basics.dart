@@ -186,3 +186,4 @@ class TextLink extends StatelessWidget {
             mainAxisSize: MainAxisSize.min,
             children: [
               Text(label, style: (style ?? AppText.bodyStrong).c(color)),
+              if (icon != null) ...[const SizedBox(width: 4), AppIcon(icon!, size: 18, color: color)],
