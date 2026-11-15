@@ -576,3 +576,4 @@ class NgDivider extends StatelessWidget {
     padding: EdgeInsets.only(left: inset),
     child: Container(height: 1, color: color),
   );
+}
