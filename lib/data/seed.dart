@@ -505,3 +505,4 @@ class Seed {
         tint: 2,
         stars: 5,
         date: 'Okt 2026',
+        text: 'Urutannya pas. Jam 9 di Istana Maimun memang masih sepi, jadi bisa foto tanpa antre.',
