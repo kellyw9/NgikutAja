@@ -179,3 +179,4 @@ class _PaymentPageState extends State<PaymentPage> {
     if (!mounted) return;
     final tx = app.startPayment(widget.it, method);
     // Simulasi: transfer bank menunggu dibayar; QRIS dan e-wallet langsung selesai; tanpa koneksi gagal.
+    if (!app.online) {
