@@ -173,3 +173,4 @@ class _MapPainter extends CustomPainter {
         ..cubicTo(.95 * w, .68 * h, w + 10, .7 * h, w + 10, .74 * h);
       canvas.drawPath(
         river,
+        Paint()
