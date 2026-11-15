@@ -41,3 +41,4 @@ class AppState extends ChangeNotifier {
     final saved = _prefs?.getString('accounts');
     if (saved != null) {
       _accounts.addAll((jsonDecode(saved) as Map).cast<String, String>());
+    }
