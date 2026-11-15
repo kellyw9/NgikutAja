@@ -89,3 +89,4 @@ class AppState extends ChangeNotifier {
   Future<bool> login(String email, String password) async {
     await Future<void>.delayed(const Duration(milliseconds: 500));
     final ok = _accounts[email.trim().toLowerCase()] == password;
+    if (ok) _setLoggedIn(true);
