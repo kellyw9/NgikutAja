@@ -150,3 +150,4 @@ class _SearchPageState extends State<SearchPage> {
         Expanded(child: typing ? _suggestions(app) : (submitted == null ? _idle(app) : _results(app, submitted!))),
       ],
     );
+  }
