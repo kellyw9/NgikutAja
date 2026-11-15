@@ -252,3 +252,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
                   IconBtn('east', label: 'Kirim komentar', bg: AppColors.ink, color: AppColors.white, onTap: _send),
                 ],
               ),
+            ),
