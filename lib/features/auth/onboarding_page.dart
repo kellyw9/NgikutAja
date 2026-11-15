@@ -17,3 +17,4 @@ class _OnboardingPageState extends State<OnboardingPage> {
   final Set<String> picked = {'Kuliner', 'Budaya'};
 
   static const flow = [
+    ('Create', 'Susun itinerary per hari: tempat, jam, dan biaya.'),
