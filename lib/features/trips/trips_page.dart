@@ -97,3 +97,4 @@ class TripsPage extends StatelessWidget {
           status: tab,
           title: t.title,
           city: t.city,
+          days: t.days,
