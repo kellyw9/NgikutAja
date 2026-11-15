@@ -16,3 +16,4 @@ class _ItemRow extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) => NgCard(
+    padding: const EdgeInsets.all(12),
