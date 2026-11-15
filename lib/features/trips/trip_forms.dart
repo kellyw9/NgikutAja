@@ -58,3 +58,4 @@ class _EditStopPageState extends State<EditStopPage> {
       ..end = end
       ..cost = parseRupiah(cost.text)
       ..desc = desc.text.trim().isEmpty ? null : desc.text.trim()
+      ..note = note.text.trim().isEmpty ? null : note.text.trim()
