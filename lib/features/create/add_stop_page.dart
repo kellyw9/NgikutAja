@@ -111,3 +111,4 @@ class _AddStopPageState extends State<AddStopPage> {
                             final t = await pickTime(context, start);
                             if (t == null) return;
                             setState(() {
+                              final dur = toMinutes(end) - toMinutes(start);
