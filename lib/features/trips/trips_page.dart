@@ -86,3 +86,4 @@ class TripsPage extends StatelessWidget {
         EmptyState(
           icon: icon,
           title: title,
+          text: text,
