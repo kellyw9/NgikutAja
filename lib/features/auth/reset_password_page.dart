@@ -53,3 +53,5 @@ class _ResetPasswordPageState extends State<ResetPasswordPage> {
     email.dispose();
     super.dispose();
   }
+
+  @override
