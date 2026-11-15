@@ -612,3 +612,5 @@ class Seed {
         today: false,
       ),
     ];
+
+    tips = {
