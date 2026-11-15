@@ -45,3 +45,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
         children: [
           Padding(
             padding: const EdgeInsets.fromLTRB(kMargin, 12, kMargin, 0),
+            child: Segmented(items: const ['Review', 'Komentar'], active: tab, onChanged: (t) => setState(() => tab = t)),
