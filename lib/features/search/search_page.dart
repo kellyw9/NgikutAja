@@ -21,3 +21,5 @@ class SearchFilter {
   RangeValues budget = const RangeValues(0, _maxBudget);
   String? rating;
   String price = 'Semua';
+
+  bool get budgetOn => budget.start > 0 || budget.end < _maxBudget;
