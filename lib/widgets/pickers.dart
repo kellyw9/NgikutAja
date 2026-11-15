@@ -58,3 +58,4 @@ class _CalendarState extends State<_Calendar> {
       final isEdge = same(date, sel) || same(date, end);
       final inRange = date.isAfter(sel) && date.isBefore(end);
       return Expanded(
+        child: Container(
