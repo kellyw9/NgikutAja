@@ -414,3 +414,4 @@ class StopRow extends StatelessWidget {
                 Marker(n, state: blur ? MarkerState.locked : state),
                 if (!last) Expanded(child: Container(width: 2, color: blur ? AppColors.rule : line)),
               ],
+            ),
