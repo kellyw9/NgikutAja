@@ -504,3 +504,4 @@ class PageFrame extends StatelessWidget {
 class Gap extends StatelessWidget {
   const Gap(this.gap, {super.key, required this.children, this.cross = CrossAxisAlignment.stretch});
   final double gap;
+  final List<Widget> children;
