@@ -26,3 +26,4 @@ class _CheckinPageState extends State<CheckinPage> {
     final stops = t.plan[widget.day];
     final nextAfter = app.nextIndex(t, widget.day);
     final history = [
+      for (var k = 0; k < stops.length; k++)
