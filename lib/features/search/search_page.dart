@@ -562,3 +562,4 @@ class _BudgetSlider extends StatelessWidget {
           const Spacer(),
           Text(value.end >= _maxBudget ? '${rp(_maxBudget.round())}+' : rp(value.end.round()), style: AppText.bodyStrong),
         ],
+      ),
