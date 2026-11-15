@@ -127,3 +127,4 @@ class TripsPage extends StatelessWidget {
                 ),
                 const SizedBox(width: 8),
                 Expanded(
+                  child: NgButton(
