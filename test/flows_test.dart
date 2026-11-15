@@ -157,3 +157,4 @@ void main() {
     expect(s.wishlist.length, 2);
     expect(find.text('Danau Toba 2 dihapus dari Wishlist'), findsOneWidget);
     await tester.tap(find.text('Urungkan'));
+    await tester.pump(const Duration(milliseconds: 300));
