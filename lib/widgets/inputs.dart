@@ -461,3 +461,4 @@ class Segmented extends StatelessWidget {
           ],
         ],
       ),
+    );
