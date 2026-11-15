@@ -183,3 +183,4 @@ class Seed {
         [
           _s('08.00', '09.00', 'Kapal dari Pelabuhan Ajibata', _l, 15000, null, 'Kapal berangkat tiap jam. Duduk di dek atas.'),
           _s('09.30', '11.00', 'Tuktuk Siadong', _so, 0, 'samosir', 'Titip tas di penginapan, lalu jalan kaki.'),
+          _s(
