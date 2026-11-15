@@ -107,3 +107,4 @@ class DashboardPage extends StatelessWidget {
                                     Expanded(
                                       child: Column(
                                         mainAxisAlignment: MainAxisAlignment.center,
+                                        crossAxisAlignment: CrossAxisAlignment.start,
