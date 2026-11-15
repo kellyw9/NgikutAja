@@ -443,3 +443,4 @@ class DayItem {
 class DayStrip extends StatelessWidget {
   const DayStrip({super.key, required this.days, required this.active, required this.onTap, this.today, this.onAdd});
   final List<DayItem> days;
+  final int active;
