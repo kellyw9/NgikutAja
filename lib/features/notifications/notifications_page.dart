@@ -164,3 +164,4 @@ class NotificationDetailPage extends StatelessWidget {
                 child: IconTile('alarm', size: 44, fill: AppColors.surface, iconSize: 24, border: AppColors.line),
               ),
               Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
