@@ -141,3 +141,5 @@ class AppState extends ChangeNotifier {
   List<Itinerary> get mine => itineraries.where((x) => x.creator == me).toList();
 
   List<Itinerary> byCreator(Creator c) => itineraries.where((x) => x.creator == c).toList();
+
+  /// Trending: adopsi per hari sejak terbit, itinerary yang cocok dengan minat pengguna diberi bobot 1,5x.
