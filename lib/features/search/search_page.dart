@@ -468,3 +468,4 @@ class _SearchPageState extends State<SearchPage> {
                             title: city.name,
                             sub: '${app.cityCount(city)} itinerary',
                             selected: q == city.name,
+                            onTap: () => Navigator.pop(c2, city.name),
