@@ -244,3 +244,4 @@ class Seed {
         cover: 'bratan',
         creator: c['komang']!,
         price: 35000,
+        adopted: 58,
