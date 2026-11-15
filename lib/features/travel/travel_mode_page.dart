@@ -146,3 +146,4 @@ class TravelModePage extends StatelessWidget {
             ),
           ],
         ),
+        bottomNavigationBar: BottomBar(
