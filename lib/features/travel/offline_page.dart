@@ -56,3 +56,4 @@ class OfflinePage extends StatelessWidget {
                         ),
                       ),
                       NgToggle(
+                        t.offline,
