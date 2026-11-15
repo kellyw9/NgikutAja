@@ -239,3 +239,4 @@ class _CustomizePageState extends State<CustomizePage> {
           16,
           children: [
             for (final iss in issues)
+              Container(
