@@ -44,3 +44,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
           icon: 'download_for_offline',
           title: 'Data offline',
           padH: 0,
+          onTap: () {
