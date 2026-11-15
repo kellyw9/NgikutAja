@@ -83,3 +83,4 @@ class Itinerary {
     this.adopted = 0,
     this.likes = 0,
     this.rating,
+    this.reviews,
