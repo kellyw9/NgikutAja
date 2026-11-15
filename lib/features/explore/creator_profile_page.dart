@@ -67,3 +67,4 @@ class _CreatorProfilePageState extends State<CreatorProfilePage> {
                     height: 200,
                   )
                 else
+                  Grid2(list, onTap: (it) => openItinerary(context, it), onGuest: () => requireLogin(context)),
