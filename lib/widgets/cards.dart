@@ -48,3 +48,4 @@ class WishButton extends StatelessWidget {
     return IconBtn(
       'bookmark',
       label: on ? 'Hapus dari Wishlist' : 'Simpan ke Wishlist',
+      filled: on,
