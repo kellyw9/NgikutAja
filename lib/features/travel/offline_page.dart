@@ -106,3 +106,4 @@ class OfflinePage extends StatelessWidget {
             onPressed: () {
               if (!app.online) {
                 showNgSnack(context, 'Kamu sedang offline. Coba lagi saat ada sinyal.', kind: SnackKind.error);
+                return;
