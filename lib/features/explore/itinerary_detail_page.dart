@@ -260,3 +260,4 @@ class PaidPreviewPage extends StatelessWidget {
           children: [
             HeroPhoto(
               it.cover,
+              height: 240,
