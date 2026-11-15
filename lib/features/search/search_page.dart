@@ -7,3 +7,5 @@ class SearchRequest {
   SearchRequest(this.query);
   final String query;
 }
+
+/// Permintaan pencarian dari halaman lain (misalnya kartu kota di Explore).
