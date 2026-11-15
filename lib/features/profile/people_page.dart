@@ -33,3 +33,4 @@ class _PeoplePageState extends State<PeoplePage> {
         title: widget.followers ? 'Pengikut' : 'Mengikuti',
         sub: widget.followers ? '${app.me.followers} pengikut' : '${app.me.following} mengikuti',
       ),
+      body: ListView(
