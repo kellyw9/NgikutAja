@@ -128,3 +128,4 @@ class _OnboardingPageState extends State<OnboardingPage> {
       child: Column(
         children: [
           for (var i = 0; i < flow.length; i++)
+            IntrinsicHeight(
