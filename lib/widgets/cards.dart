@@ -587,3 +587,4 @@ class CreatorRow extends StatelessWidget {
               onPressed: () => app.loggedIn ? app.toggleFollow(c) : onGuest?.call(),
             ),
           ],
+        ],
