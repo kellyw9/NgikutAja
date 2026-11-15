@@ -86,3 +86,4 @@ class _ItineraryDetailPageState extends State<ItineraryDetailPage> {
 
     return Scaffold(
       backgroundColor: AppColors.ground,
+      body: SingleChildScrollView(
