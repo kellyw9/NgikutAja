@@ -136,3 +136,4 @@ class PermissionDeniedPage extends StatelessWidget {
               child: IconTile('location_on', size: 48, fill: AppColors.surface, iconSize: 26, border: AppColors.line),
             ),
             const SizedBox(height: 14),
+            Text('Izin lokasi dibutuhkan', style: AppText.h1),
