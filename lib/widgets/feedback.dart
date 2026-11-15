@@ -19,3 +19,4 @@ class NgBanner extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final (bg, fg, ic) = switch (kind) {
+      BannerKind.warning => (AppColors.yellowPale, AppColors.ink, 'warning'),
