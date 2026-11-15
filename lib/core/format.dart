@@ -15,3 +15,5 @@ String decimal(double v, [int digits = 1]) => v.toStringAsFixed(digits).replaceA
 
 /// Ambil angka dari teks rupiah yang diketik ("Rp25.000" -> 25000).
 int parseRupiah(String text) => int.tryParse(text.replaceAll(RegExp(r'[^0-9]'), '')) ?? 0;
+
+const monthsShort = ['Jan', 'Feb', 'Mar', 'Apr', 'Mei', 'Jun', 'Jul', 'Agu', 'Sep', 'Okt', 'Nov', 'Des'];
