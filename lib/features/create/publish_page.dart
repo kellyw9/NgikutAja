@@ -45,3 +45,4 @@ class _PublishPageState extends State<PublishPage> {
         child: Semantics(
           inMutuallyExclusiveGroup: true,
           checked: on,
+          child: NgCard(
