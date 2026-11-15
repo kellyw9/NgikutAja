@@ -337,3 +337,4 @@ class _PaymentStatusPageState extends State<PaymentStatusPage> {
                 'Simulasikan bayar berhasil',
                 expand: true,
                 onPressed: () {
+                  _t?.cancel();
