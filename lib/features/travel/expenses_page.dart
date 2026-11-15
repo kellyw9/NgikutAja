@@ -21,3 +21,4 @@ class ExpensesPage extends StatelessWidget {
     showNgSheet<void>(
       context,
       title: e.name,
+      builder: (ctx) => Gap(
