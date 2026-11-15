@@ -664,3 +664,4 @@ class Seed {
   static String _trx(DateTime d, String n) => 'TRX-${d.year}${d.month.toString().padLeft(2, '0')}${d.day.toString().padLeft(2, '0')}-$n';
 
   static String trxId(DateTime d, String n) => _trx(d, n);
+}
