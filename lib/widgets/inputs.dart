@@ -220,3 +220,4 @@ class NgToggle extends StatelessWidget {
   final String? label;
 
   @override
+  Widget build(BuildContext context) {
