@@ -106,3 +106,4 @@ class DashboardPage extends StatelessWidget {
                                     const SizedBox(width: 12),
                                     Expanded(
                                       child: Column(
+                                        mainAxisAlignment: MainAxisAlignment.center,
