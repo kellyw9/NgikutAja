@@ -215,3 +215,4 @@ class _PaymentPageState extends State<PaymentPage> {
                       child: Semantics(
                         inMutuallyExclusiveGroup: true,
                         checked: title == method,
+                        child: Tap(
