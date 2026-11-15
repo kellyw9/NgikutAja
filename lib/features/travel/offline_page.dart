@@ -109,3 +109,4 @@ class OfflinePage extends StatelessWidget {
                 return;
               }
               final saved = trips.where((t) => t.offline).toList();
+              for (final t in saved) {
