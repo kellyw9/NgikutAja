@@ -375,3 +375,4 @@ class NgChip extends StatelessWidget {
           borderRadius: BorderRadius.circular(AppRadius.chip),
           side: selected ? BorderSide.none : const BorderSide(color: AppColors.control),
         ),
+        clipBehavior: Clip.antiAlias,
