@@ -186,3 +186,4 @@ class _NewPasswordPageState extends State<NewPasswordPage> {
                       trailing: ObscureToggle(obscured: o1, onTap: () => setState(() => o1 = !o1)),
                     ),
                     const SizedBox(height: 14),
+                    NgField(
