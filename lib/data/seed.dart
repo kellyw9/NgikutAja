@@ -120,3 +120,4 @@ class Seed {
       days: 3,
       cover: 'maimun',
       creator: c['rahmat']!,
+      price: 0,
