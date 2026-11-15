@@ -190,3 +190,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
                       children: [
                         const AppIcon('drag_indicator', size: 16, color: AppColors.muted),
                         const SizedBox(width: 4),
+                        Expanded(child: Text('Geser untuk mengurutkan', style: AppText.small.muted)),
