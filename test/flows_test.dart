@@ -43,3 +43,5 @@ void main() {
     }
     await loader.load();
   });
+
+  testWidgets('Login: password salah menampilkan error, password benar masuk', (tester) async {
