@@ -19,3 +19,4 @@ class TripDetailPage extends StatefulWidget {
   final Trip trip;
 
   @override
+  State<TripDetailPage> createState() => _TripDetailPageState();
