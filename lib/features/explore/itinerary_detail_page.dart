@@ -141,3 +141,4 @@ class _ItineraryDetailPageState extends State<ItineraryDetailPage> {
                   ),
                   const NgDivider(),
                   CreatorRow(
+                    it.creator,
