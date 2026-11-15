@@ -151,3 +151,4 @@ class _AddStopPageState extends State<AddStopPage> {
                 prefixText: 'Rp',
                 hint: '0 kalau gratis',
                 keyboardType: TextInputType.number,
+                inputFormatters: [ThousandsFormatter()],
