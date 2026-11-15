@@ -55,3 +55,4 @@ class NgAppBar extends StatelessWidget implements PreferredSizeWidget {
     final titleCol = Column(
       mainAxisAlignment: MainAxisAlignment.center,
       crossAxisAlignment: center ? CrossAxisAlignment.center : CrossAxisAlignment.start,
+      children: [
