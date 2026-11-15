@@ -435,3 +435,4 @@ class Seed {
           Member(name: 'Sari Lubis', handle: '@sarilubis', role: MemberRole.viewer, tint: 3, joined: _fmt(_d(-3))),
         ],
         expenses: [
+          Expense(id: 'e1', name: 'Tiket kapal Ajibata', cat: ExpenseCat.transportasi, amount: 45000, by: 'Dinda', day: 0, time: '08.05'),
