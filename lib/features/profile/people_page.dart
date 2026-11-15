@@ -10,3 +10,5 @@ class PeoplePage extends StatefulWidget {
   @override
   State<PeoplePage> createState() => _PeoplePageState();
 }
+
+class _PeoplePageState extends State<PeoplePage> {
