@@ -80,3 +80,4 @@ class NgAppBar extends StatelessWidget implements PreferredSizeWidget {
                   child: Row(
                     children: [
                       if (back != null)
+                        IconBtn(back!, label: back == 'close' ? 'Tutup' : 'Kembali', onTap: onBack ?? () => Navigator.maybePop(context)),
