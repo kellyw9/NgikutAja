@@ -96,3 +96,4 @@ void showNgSnack(BuildContext context, String text, {SnackKind kind = SnackKind.
             const SizedBox(width: 12),
             Semantics(
               button: true,
+              child: InkWell(
