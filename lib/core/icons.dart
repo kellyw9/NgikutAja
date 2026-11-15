@@ -53,3 +53,4 @@ class _PathBuilder extends PathProxy {
 class _IconPainter extends CustomPainter {
   _IconPainter(this.path, this.color);
   final Path path;
+  final Color color;
