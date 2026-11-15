@@ -31,3 +31,4 @@ class _ResetPasswordPageState extends State<ResetPasswordPage> {
   Future<void> _send() async {
     setState(() => err = validateEmail(email.text));
     if (err != null) return;
+    setState(() => loading = true);
