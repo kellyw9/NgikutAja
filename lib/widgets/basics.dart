@@ -34,3 +34,4 @@ class NgButton extends StatelessWidget {
   final String? icon;
   final String? trailingIcon;
   final bool expand;
+  final bool loading;
