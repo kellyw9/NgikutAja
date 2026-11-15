@@ -56,3 +56,4 @@ class _JournalPageState extends State<JournalPage> {
       ),
     );
     final tt = title.text.trim(), tx = text.text.trim();
+    title.dispose();
