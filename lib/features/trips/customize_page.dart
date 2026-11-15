@@ -398,3 +398,4 @@ class _CustomizePageState extends State<CustomizePage> {
                       physics: const NeverScrollableScrollPhysics(),
                       buildDefaultDragHandles: false,
                       padding: EdgeInsets.zero,
+                      proxyDecorator: (child, _, _) => Material(
