@@ -101,3 +101,4 @@ class _PhotoViewerPageState extends State<PhotoViewerPage> {
                       IconBtn('close', label: 'Tutup', color: AppColors.white, onTap: () => Navigator.pop(context)),
                       Expanded(
                         child: Text('${i + 1} dari ${t.photos.length}', style: AppText.bodyStrong.white, textAlign: TextAlign.center),
+                      ),
