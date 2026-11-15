@@ -105,3 +105,4 @@ class _CustomizePageState extends State<CustomizePage> {
       scroll: true,
       builder: (ctx) {
         int? pick = plan.length > 1 ? (day == plan.length - 1 ? day - 1 : day + 1) : null;
+        return StatefulBuilder(
