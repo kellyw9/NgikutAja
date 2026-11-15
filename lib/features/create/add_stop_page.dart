@@ -75,3 +75,4 @@ class _AddStopPageState extends State<AddStopPage> {
                 icon: 'storefront',
                 controller: name,
                 hint: 'Misal: Soto Kesawan',
+                error: tried && name.text.trim().isEmpty ? 'Nama tempat wajib diisi' : null,
