@@ -372,3 +372,4 @@ class _PaymentStatusPageState extends State<PaymentStatusPage> {
               NgButton(
                 'Adopt sekarang',
                 icon: 'luggage',
+                expand: true,
