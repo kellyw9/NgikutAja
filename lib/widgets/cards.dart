@@ -205,3 +205,4 @@ class Grid2 extends StatelessWidget {
             ),
             const SizedBox(width: 12),
             Expanded(
+              child: r * 2 + 1 < items.length
