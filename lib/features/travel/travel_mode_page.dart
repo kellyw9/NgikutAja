@@ -249,3 +249,4 @@ class _NextCard extends StatelessWidget {
       ),
     );
   }
+}
