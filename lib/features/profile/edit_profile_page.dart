@@ -123,3 +123,4 @@ class _EditProfilePageState extends State<EditProfilePage> {
                     Text('${bio.text.length}/150', style: AppText.small.muted, textAlign: TextAlign.right),
                   ],
                 ),
+              ],
