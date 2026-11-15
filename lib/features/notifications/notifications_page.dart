@@ -180,3 +180,4 @@ class NotificationDetailPage extends StatelessWidget {
                   '${info != null ? ' Jarak tempuh sekitar ${info.$1} dari posisimu, estimasi ${info.$2} ${info.$3.toLowerCase()}.' : ''}',
                   style: AppText.body,
                 ),
+                NgCard(
