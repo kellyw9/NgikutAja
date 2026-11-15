@@ -379,3 +379,4 @@ class NgCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) => Material(
     color: fill,
+    shape: RoundedRectangleBorder(
