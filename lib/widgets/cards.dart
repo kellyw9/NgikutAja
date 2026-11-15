@@ -476,3 +476,5 @@ class DayStrip extends StatelessWidget {
     ),
   );
 }
+
+class _DayBox extends StatelessWidget {
