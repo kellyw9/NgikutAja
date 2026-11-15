@@ -168,3 +168,4 @@ class Bell extends StatelessWidget {
     final unread = AppScope.of(context).hasUnread;
     return Stack(
       children: [
+        IconBtn('notifications', label: unread ? 'Notifikasi, ada yang belum dibaca' : 'Notifikasi', onTap: onTap),
