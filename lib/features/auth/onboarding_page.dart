@@ -47,3 +47,4 @@ class _OnboardingPageState extends State<OnboardingPage> {
   void dispose() {
     _pc.dispose();
     super.dispose();
+  }
