@@ -207,3 +207,4 @@ class _PaymentPageState extends State<PaymentPage> {
             children: [
               _simNote,
               Text('Pilih metode pembayaran', style: AppText.h2),
+              BoxList(
