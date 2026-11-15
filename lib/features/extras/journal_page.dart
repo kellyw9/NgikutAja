@@ -45,3 +45,4 @@ class _JournalPageState extends State<JournalPage> {
     final r = await showNgSheet<bool>(
       context,
       title: e == null ? 'Tulis catatan ${_dayLabel(day)}' : 'Tulis lanjutan',
+      scroll: true,
