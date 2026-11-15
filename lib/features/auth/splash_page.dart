@@ -72,3 +72,4 @@ class _SplashPageState extends State<SplashPage> {
                 child: SpinIcon(size: 28, color: AppColors.white),
               ),
             ],
+          ),
