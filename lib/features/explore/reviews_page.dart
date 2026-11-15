@@ -180,3 +180,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
                       ),
                       const SizedBox(height: 4),
                       Text(c.text, style: AppText.body),
+                      TextLink(
