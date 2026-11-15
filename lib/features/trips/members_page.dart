@@ -175,3 +175,4 @@ class MembersPage extends StatelessWidget {
             inset: 56,
             children: [
               for (var i = 0; i < trip.members.length; i++)
+                Tap(
