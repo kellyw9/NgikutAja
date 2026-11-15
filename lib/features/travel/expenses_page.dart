@@ -250,3 +250,4 @@ class _AddExpensePageState extends State<AddExpensePage> {
               ),
               NgField(
                 label: 'Nominal',
+                controller: amount,
