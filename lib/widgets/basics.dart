@@ -269,3 +269,5 @@ class Photo extends StatelessWidget {
 }
 
 // ---------------------------------------------------------------- garis putus-putus
+
+class DashedBox extends StatelessWidget {
