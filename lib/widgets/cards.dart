@@ -621,3 +621,4 @@ class ProfileHead extends StatelessWidget {
     );
     return Padding(
       padding: const EdgeInsets.fromLTRB(kMargin, 4, kMargin, 0),
+      child: Column(
