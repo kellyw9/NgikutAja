@@ -67,3 +67,4 @@ class _RegisterPageState extends State<RegisterPage> {
   Widget build(BuildContext context) {
     final (sv, st, sc) = strength;
     void refresh(_) => setState(() {});
+    return Scaffold(
