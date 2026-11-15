@@ -85,3 +85,4 @@ class _PeoplePageState extends State<PeoplePage> {
         app.me.following += on ? -1 : 1;
         app.touch();
       },
+    );
