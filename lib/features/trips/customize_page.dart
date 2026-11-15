@@ -322,3 +322,4 @@ class _CustomizePageState extends State<CustomizePage> {
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: kMargin),
               child: NgCard(
+                padding: const EdgeInsets.all(10),
