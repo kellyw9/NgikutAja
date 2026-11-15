@@ -316,3 +316,4 @@ class _PickLocationPageState extends State<PickLocationPage> {
     return Scaffold(
       backgroundColor: AppColors.mapLand,
       body: Stack(
+        children: [
