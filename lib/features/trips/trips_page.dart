@@ -104,3 +104,4 @@ class TripsPage extends StatelessWidget {
           extra: switch (tab) {
             TripStatus.berjalan => _running(context, app, t),
             TripStatus.diadopsi => Container(
+              padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 8),
