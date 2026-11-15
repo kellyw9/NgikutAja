@@ -27,3 +27,4 @@ class TipsPage extends StatelessWidget {
                 child: Row(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
+                    AppIcon(tip.icon, size: 22, color: AppColors.muted),
