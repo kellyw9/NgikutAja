@@ -193,3 +193,4 @@ class _ItineraryDetailPageState extends State<ItineraryDetailPage> {
             ),
             Padding(
               padding: const EdgeInsets.fromLTRB(kMargin, 12, kMargin, 24),
+              child: Column(
