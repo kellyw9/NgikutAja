@@ -457,3 +457,4 @@ class PurchaseHistoryPage extends StatelessWidget {
     final app = AppScope.of(context);
     final list = app.transactions;
     return Scaffold(
+      backgroundColor: AppColors.ground,
