@@ -314,3 +314,5 @@ class Trip {
     if (t.isAfter(end!)) return TripStatus.selesai;
     return TripStatus.berjalan;
   }
+
+  int places() => seedPlaces ?? plan.fold(0, (a, d) => a + d.length);
