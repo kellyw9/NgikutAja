@@ -101,3 +101,4 @@ class _OnboardingPageState extends State<OnboardingPage> {
   }
 
   Widget _scroll(List<Widget> children) => LayoutBuilder(
+    builder: (context, c) => SingleChildScrollView(
