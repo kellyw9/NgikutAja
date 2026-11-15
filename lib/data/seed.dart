@@ -229,3 +229,4 @@ class Seed {
           _s('12.30', '13.30', 'Gudeg Yu Djum', _m, 30000, 'gudeg'),
         ],
       ],
+    );
