@@ -603,3 +603,4 @@ class _SquareThumb extends RangeSliderThumbShape {
   Size getPreferredSize(bool isEnabled, bool isDiscrete) => const Size(24, 24);
 
   @override
+  void paint(
