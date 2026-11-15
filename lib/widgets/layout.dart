@@ -424,3 +424,4 @@ class HeroPhoto extends StatelessWidget {
                   decoration: BoxDecoration(
                     gradient: LinearGradient(begin: Alignment.topCenter, end: Alignment.bottomCenter, colors: [Color(0x660C4A57), Color(0x000C4A57)]),
                   ),
+                ),
