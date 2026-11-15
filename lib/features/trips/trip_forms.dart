@@ -285,3 +285,4 @@ class _EditTripInfoPageState extends State<EditTripInfoPage> {
                         'Ganti foto sampul',
                         kind: BtnKind.secondary,
                         size: BtnSize.md,
+                        icon: 'photo_camera',
