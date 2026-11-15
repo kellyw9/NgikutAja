@@ -200,3 +200,4 @@ class AdoptProgressPage extends StatefulWidget {
   final DateTime start;
   final bool dayBefore;
   final bool each;
+  final int offset;
