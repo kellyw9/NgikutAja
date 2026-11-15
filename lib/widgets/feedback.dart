@@ -200,3 +200,4 @@ Future<Object?> showNgDialog(BuildContext context, {String? icon, required Strin
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(AppRadius.dialog)),
       child: ConstrainedBox(
         constraints: const BoxConstraints(maxWidth: 326),
+        child: Padding(
