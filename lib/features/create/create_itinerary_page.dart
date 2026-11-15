@@ -64,3 +64,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
   void _next() {
     setState(() => tried = true);
     if (!titleOk) return;
+    _apply();
