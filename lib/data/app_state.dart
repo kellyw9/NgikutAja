@@ -26,3 +26,4 @@ class CityInfo {
 class AppState extends ChangeNotifier {
   AppState(this._prefs, {DateTime? now, bool watchNetwork = true}) : seed = Seed(now ?? DateTime.now()) {
     me = seed.me;
+    itineraries = [...seed.itineraries];
