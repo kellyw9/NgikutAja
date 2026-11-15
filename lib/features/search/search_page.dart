@@ -536,3 +536,4 @@ class _SearchPageState extends State<SearchPage> {
     if (applied != null) {
       setState(() => filter = applied);
       if (q.isNotEmpty && q != submitted) {
+        _submit(q);
