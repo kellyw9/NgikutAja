@@ -441,3 +441,4 @@ class Meta extends StatelessWidget {
   final Color color;
 
   @override
+  Widget build(BuildContext context) => Row(
