@@ -132,3 +132,4 @@ class TripsPage extends StatelessWidget {
                     kind: BtnKind.ghost,
                     size: BtnSize.md,
                     expand: true,
+                    onPressed: () => push(context, PhotoMemoryPage(trip: t)),
