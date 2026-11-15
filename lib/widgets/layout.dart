@@ -266,3 +266,4 @@ class KeyValueBox extends StatelessWidget {
           Container(height: 1, color: AppColors.line),
           SizedBox(
             height: 44,
+            child: Row(
