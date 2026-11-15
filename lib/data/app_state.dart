@@ -187,3 +187,4 @@ class AppState extends ChangeNotifier {
   void restoreWish(String id) {
     wishlist.add(id);
     notifyListeners();
+  }
