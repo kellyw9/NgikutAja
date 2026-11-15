@@ -164,3 +164,4 @@ class AppState extends ChangeNotifier {
   static final cities = <CityInfo>[
     CityInfo('Medan', 'masjidraya', (x) => x.city == 'Medan'),
     CityInfo('Danau Toba', 'holbung', (x) => x.city == 'Samosir' || x.title.contains('Toba')),
+    CityInfo('Yogyakarta', 'tamansari', (x) => x.city == 'Yogyakarta'),
