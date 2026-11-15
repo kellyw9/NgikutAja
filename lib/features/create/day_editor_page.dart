@@ -94,3 +94,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
           children: [
             if (conflictMsg != null)
               Padding(
+                padding: const EdgeInsets.fromLTRB(kMargin, 0, kMargin, 12),
