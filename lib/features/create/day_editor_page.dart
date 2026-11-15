@@ -122,3 +122,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
                                   shape: BoxShape.circle,
                                   border: Border.all(color: AppColors.ground, width: 2),
                                 ),
+                              ),
