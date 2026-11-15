@@ -341,3 +341,4 @@ class _PickLocationPageState extends State<PickLocationPage> {
                                   height: 8,
                                   decoration: const BoxDecoration(color: AppColors.yellow, shape: BoxShape.circle),
                                 ),
+                                const SizedBox(width: 6),
