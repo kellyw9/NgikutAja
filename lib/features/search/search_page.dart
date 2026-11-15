@@ -198,3 +198,4 @@ class _SearchPageState extends State<SearchPage> {
           ),
         ),
         const SizedBox(width: 8),
+        Stack(
