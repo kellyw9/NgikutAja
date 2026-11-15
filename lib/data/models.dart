@@ -279,3 +279,4 @@ class Trip {
   List<String> dayTitles;
   List<Member> members;
   List<Expense> expenses;
+  List<PackGroup> packing;
