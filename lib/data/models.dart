@@ -156,3 +156,4 @@ enum MemberRole {
   viewer('Hanya lihat');
 
   const MemberRole(this.label);
+  final String label;
