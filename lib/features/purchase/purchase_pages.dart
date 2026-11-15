@@ -287,3 +287,4 @@ class _PaymentStatusPageState extends State<PaymentStatusPage> {
   void initState() {
     super.initState();
     if (widget.tx.status == TxStatus.pending) {
+      _t = Timer.periodic(const Duration(seconds: 1), (_) {
