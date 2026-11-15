@@ -363,3 +363,4 @@ class NgCard extends StatelessWidget {
   const NgCard({
     super.key,
     required this.child,
+    this.padding = const EdgeInsets.all(14),
