@@ -22,3 +22,4 @@ class NgField extends StatefulWidget {
     this.error,
     this.area = false,
     this.readOnly = false,
+    this.obscure = false,
