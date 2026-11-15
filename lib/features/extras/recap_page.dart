@@ -51,3 +51,4 @@ class RecapPage extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text('Destinasi yang dikunjungi', style: AppText.h2),
+                  const SizedBox(height: 8),
