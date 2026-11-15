@@ -523,3 +523,4 @@ class TransactionDetailPage extends StatelessWidget {
             ],
           ),
         ],
+      ),
