@@ -47,3 +47,4 @@ class _CreatorProfilePageState extends State<CreatorProfilePage> {
                   ),
           ),
           Padding(
+            padding: const EdgeInsets.fromLTRB(kMargin, 20, kMargin, 0),
