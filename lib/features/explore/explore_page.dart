@@ -74,3 +74,4 @@ class _ExplorePageState extends State<ExplorePage> {
             title: 'Belum mengikuti creator',
             text: 'Ikuti creator dari halaman itinerary. Itinerary terbaru mereka akan muncul di sini.',
             action: NgButton('Lihat yang trending', kind: BtnKind.secondary, size: BtnSize.md, onPressed: () => _switch('Trending')),
+            height: 300,
