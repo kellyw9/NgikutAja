@@ -110,3 +110,5 @@ class MapView extends StatelessWidget {
     );
   }
 }
+
+class _MapPainter extends CustomPainter {
