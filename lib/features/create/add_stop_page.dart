@@ -120,3 +120,4 @@ class _AddStopPageState extends State<AddStopPage> {
                       ),
                       const SizedBox(width: 12),
                       Expanded(
+                        child: NgField(
