@@ -68,3 +68,4 @@ class _EditProfilePageState extends State<EditProfilePage> {
           bio.text = me.bio;
           photo = me.photo;
           Navigator.pop(context);
+        }
