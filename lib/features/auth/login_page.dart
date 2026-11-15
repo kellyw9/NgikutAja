@@ -48,3 +48,4 @@ class _LoginPageState extends State<LoginPage> {
       passErr = ok ? null : 'Password tidak cocok dengan email ini';
     });
     if (ok) {
+      FocusScope.of(context).unfocus();
