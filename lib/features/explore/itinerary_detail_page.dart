@@ -120,3 +120,4 @@ class _ItineraryDetailPageState extends State<ItineraryDetailPage> {
                         icon: 'favorite',
                         filled: app.liked.contains(it.id),
                         text: thousands(it.likes),
+                        label: app.liked.contains(it.id) ? 'Batal suka, ${it.likes} suka' : 'Suka, ${it.likes} suka',
