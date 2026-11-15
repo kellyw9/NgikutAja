@@ -123,3 +123,4 @@ Future<T?> showNgSheet<T>(BuildContext context, {String? title, String? sub, req
     backgroundColor: AppColors.surface,
     barrierColor: AppColors.scrim,
     elevation: 0,
+    shape: const RoundedRectangleBorder(borderRadius: BorderRadius.vertical(top: Radius.circular(AppRadius.sheet))),
