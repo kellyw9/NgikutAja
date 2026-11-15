@@ -15,3 +15,5 @@ class Proof extends StatelessWidget {
   const Proof(this.it, {super.key, this.compact = false});
   final Itinerary it;
   final bool compact;
+
+  @override
