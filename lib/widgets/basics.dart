@@ -262,3 +262,4 @@ class Photo extends StatelessWidget {
         errorBuilder: (_, _, _) => Container(color: AppColors.sunk),
       );
     }
+    final box = SizedBox(width: width, height: height, child: img);
