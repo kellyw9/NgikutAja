@@ -212,3 +212,4 @@ class _GooglePainter extends CustomPainter {
   const _GooglePainter();
 
   static const _parts = [
+    (
