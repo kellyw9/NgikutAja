@@ -17,3 +17,4 @@ class ResetPasswordPage extends StatefulWidget {
   final String email;
 
   @override
+  State<ResetPasswordPage> createState() => _ResetPasswordPageState();
