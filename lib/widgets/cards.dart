@@ -566,3 +566,4 @@ class CreatorRow extends StatelessWidget {
                         const SizedBox(height: 2),
                         Text(
                           '${c.handle}, ${thousands(c.followers)} pengikut',
+                          style: AppText.small.muted,
