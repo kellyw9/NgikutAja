@@ -190,3 +190,5 @@ class BottomBar extends StatelessWidget {
 class FactStrip extends StatelessWidget {
   const FactStrip(this.cells, {super.key});
   final List<(String, String)> cells;
+
+  @override
