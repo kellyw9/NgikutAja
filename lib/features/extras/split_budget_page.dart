@@ -119,3 +119,4 @@ class _SplitBudgetPageState extends State<SplitBudgetPage> {
                                     NgStepper(
                                       value: portion[m.first] ?? 1,
                                       unit: ' porsi',
+                                      min: 0,
