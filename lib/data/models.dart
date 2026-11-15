@@ -151,3 +151,4 @@ enum TripStatus {
 }
 
 enum MemberRole {
+  owner('Pemilik'),
