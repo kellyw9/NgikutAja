@@ -142,3 +142,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
     final showErr = tried && !titleOk;
     return PopScope(
       canPop: false,
+      onPopInvokedWithResult: (didPop, _) async {
