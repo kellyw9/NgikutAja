@@ -389,3 +389,4 @@ class _CustomizePageState extends State<CustomizePage> {
                       text: '${durationText(activeMinutes(stops))} aktivitas.',
                       action: 'Lihat saran',
                       onAction: _notes,
+                    ),
