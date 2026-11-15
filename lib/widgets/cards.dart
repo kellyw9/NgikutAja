@@ -82,3 +82,4 @@ class WisataCard extends StatelessWidget {
           label: label,
           radius: AppRadius.inner,
           child: Padding(
+            padding: const EdgeInsets.symmetric(vertical: 12),
