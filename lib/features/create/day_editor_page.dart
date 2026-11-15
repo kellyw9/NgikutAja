@@ -291,3 +291,4 @@ class _StopCard extends StatelessWidget {
               child: SizedBox(
                 width: 36,
                 height: 52,
+                child: Center(child: AppIcon('drag_indicator', size: 20, color: AppColors.muted)),
