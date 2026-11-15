@@ -174,3 +174,4 @@ class AppState extends ChangeNotifier {
 
   // ---------------- wishlist, follow, like ----------------
   final Set<String> wishlist = {'toba', 'bali', 'bajo'};
+  final Set<String> following = {};
