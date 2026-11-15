@@ -32,3 +32,4 @@ class _RegisterPageState extends State<RegisterPage> {
     final e = validateEmail(email.text);
     // Format baru ditegur setelah pengguna pindah ke kolom password, bukan saat masih mengetik.
     if (e != null) return email.text.isNotEmpty && (tried || pass.text.isNotEmpty) ? e : null;
+    if (AppScope.read(context).emailRegistered(email.text)) return 'Email ini sudah terdaftar. Masuk saja.';
