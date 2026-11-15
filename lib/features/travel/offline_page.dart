@@ -108,3 +108,4 @@ class OfflinePage extends StatelessWidget {
                 showNgSnack(context, 'Kamu sedang offline. Coba lagi saat ada sinyal.', kind: SnackKind.error);
                 return;
               }
+              final saved = trips.where((t) => t.offline).toList();
