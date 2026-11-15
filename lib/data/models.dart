@@ -371,3 +371,4 @@ class AppNotification {
     required this.kind,
     required this.icon,
     required this.lead,
+    required this.text,
