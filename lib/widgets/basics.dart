@@ -214,3 +214,4 @@ class Tap extends StatelessWidget {
         child: InkWell(
           onTap: onTap,
           borderRadius: BorderRadius.circular(radius),
+          focusColor: AppColors.teal.withValues(alpha: .18),
