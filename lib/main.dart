@@ -11,3 +11,4 @@ Future<void> main() async {
   SharedPreferences? prefs;
   try {
     prefs = await SharedPreferences.getInstance();
+  } catch (_) {
