@@ -176,3 +176,5 @@ class AppState extends ChangeNotifier {
   final Set<String> wishlist = {'toba', 'bali', 'bajo'};
   final Set<String> following = {};
   final Set<String> liked = {};
+
+  bool toggleWish(String id) {
