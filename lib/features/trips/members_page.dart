@@ -73,3 +73,4 @@ class MembersPage extends StatelessWidget {
               icon: 'person_remove',
               expand: true,
               onPressed: () {
+                Navigator.pop(ctx);
