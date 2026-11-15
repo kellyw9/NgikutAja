@@ -291,3 +291,4 @@ class _DashPainter extends CustomPainter {
 
   @override
   void paint(Canvas canvas, Size size) {
+    final rect = Offset(width / 2, width / 2) & Size(size.width - width, size.height - width);
