@@ -133,3 +133,4 @@ class AppState extends ChangeNotifier {
 
   // ---------------- itinerary ----------------
   late List<Itinerary> itineraries;
+  late List<Itinerary> drafts;
