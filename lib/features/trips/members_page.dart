@@ -133,3 +133,4 @@ class MembersPage extends StatelessWidget {
                       await Clipboard.setData(ClipboardData(text: 'https://${_link(trip)}'));
                       if (ctx.mounted) showNgSnack(ctx, 'Link undangan disalin.');
                     },
+                  ),
