@@ -89,3 +89,4 @@ class NgButton extends StatelessWidget {
             if (s.contains(WidgetState.pressed)) return base.withValues(alpha: .16);
             if (s.contains(WidgetState.hovered) || s.contains(WidgetState.focused)) return base.withValues(alpha: .08);
             return null;
+          }),
