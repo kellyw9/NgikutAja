@@ -157,3 +157,4 @@ class _SearchPageState extends State<SearchPage> {
     child: Row(
       children: [
         Expanded(
+          child: Container(
