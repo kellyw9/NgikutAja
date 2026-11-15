@@ -237,3 +237,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
                       border: Border.all(color: AppColors.line),
                     ),
                     child: Row(
+                      children: [
