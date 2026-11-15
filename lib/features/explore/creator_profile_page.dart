@@ -56,3 +56,4 @@ class _CreatorProfilePageState extends State<CreatorProfilePage> {
                     NgChip('Semua', selected: !paidOnly, onTap: () => setState(() => paidOnly = false)),
                     const SizedBox(width: 8),
                     NgChip('Berbayar', selected: paidOnly, onTap: () => setState(() => paidOnly = true)),
+                  ],
