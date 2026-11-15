@@ -48,3 +48,5 @@ class _OnboardingPageState extends State<OnboardingPage> {
     _pc.dispose();
     super.dispose();
   }
+
+  @override
