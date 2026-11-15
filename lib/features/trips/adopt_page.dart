@@ -244,3 +244,4 @@ class _AdoptProgressPageState extends State<AdoptProgressPage> {
         body: busy
             ? StatusView(
                 icon: 'progress_activity',
+                tone: AppColors.surface,
