@@ -341,3 +341,4 @@ class TravelStopPage extends StatelessWidget {
                     Expanded(
                       child: NgButton(
                         checked ? 'Sudah check-in' : 'Check-in',
+                        kind: BtnKind.secondary,
