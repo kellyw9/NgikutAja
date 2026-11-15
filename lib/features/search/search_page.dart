@@ -135,3 +135,4 @@ class _SearchPageState extends State<SearchPage> {
 
   @override
   Widget build(BuildContext context) {
+    final app = AppScope.of(context);
