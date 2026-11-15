@@ -240,3 +240,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
                         Text('Maksimal 5 tag', style: AppText.small.muted),
                       ],
                     ),
+                    const SizedBox(height: 8),
