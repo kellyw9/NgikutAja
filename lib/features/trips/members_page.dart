@@ -129,3 +129,4 @@ class MembersPage extends StatelessWidget {
                     'Salin link',
                     kind: BtnKind.text,
                     size: BtnSize.md,
+                    onPressed: () async {
