@@ -178,3 +178,4 @@ class _ItineraryDetailPageState extends State<ItineraryDetailPage> {
                 ],
               ),
             ),
+            const SizedBox(height: 12),
