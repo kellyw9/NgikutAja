@@ -106,3 +106,5 @@ class _OnboardingPageState extends State<OnboardingPage> {
       child: Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: children),
     ),
   );
+
+  Widget _intro() => LayoutBuilder(
