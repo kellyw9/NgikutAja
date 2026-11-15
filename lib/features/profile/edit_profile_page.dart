@@ -12,3 +12,4 @@ class EditProfilePage extends StatefulWidget {
 
 class _EditProfilePageState extends State<EditProfilePage> {
   late final me = AppScope.read(context).me;
+  late final name = TextEditingController(text: me.name);
