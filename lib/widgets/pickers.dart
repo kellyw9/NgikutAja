@@ -37,3 +37,4 @@ class _Calendar extends StatefulWidget {
 
 class _CalendarState extends State<_Calendar> {
   late DateTime sel = widget.initial;
+  late DateTime month = DateTime(widget.initial.year, widget.initial.month);
