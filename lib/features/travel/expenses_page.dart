@@ -13,3 +13,4 @@ String expenseTime(Trip t, Expense e) {
 /// 6.5 Pengeluaran: daftar + detail.
 class ExpensesPage extends StatelessWidget {
   const ExpensesPage({super.key, required this.trip});
+  final Trip trip;
