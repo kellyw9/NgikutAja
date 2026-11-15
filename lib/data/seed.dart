@@ -50,3 +50,4 @@ class Seed {
       handle: '@dindasaragi',
       tint: 0,
       bio: 'Anak Medan. Suka sarapan di pasar dan duduk lama di pinggir danau.',
+      followers: 86,
