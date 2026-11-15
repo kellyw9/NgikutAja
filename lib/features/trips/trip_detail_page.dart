@@ -89,3 +89,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
               child: Row(
                 children: [
                   const AppIcon('lightbulb', size: 20),
+                  const SizedBox(width: 10),
