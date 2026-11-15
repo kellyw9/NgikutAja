@@ -178,3 +178,4 @@ class BottomBar extends StatelessWidget {
               children: [
                 for (var i = 0; i < children.length; i++) ...[if (i > 0) const SizedBox(width: 12), children[i]],
               ],
+            ),
