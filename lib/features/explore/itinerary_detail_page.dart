@@ -196,3 +196,4 @@ class _ItineraryDetailPageState extends State<ItineraryDetailPage> {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
+                  Text(it.dayTitle(day), style: AppText.title),
