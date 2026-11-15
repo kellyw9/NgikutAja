@@ -273,3 +273,4 @@ class AppState extends ChangeNotifier {
 
   String? countdown(Trip t) {
     final n = daysUntil(t);
+    if (statusOf(t) != TripStatus.diadopsi) return null;
