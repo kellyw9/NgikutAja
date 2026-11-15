@@ -62,3 +62,4 @@ class MapView extends StatelessWidget {
                 Positioned.fill(child: CustomPaint(painter: _MapPainter(kind, route ? pins : const [], ring))),
                 for (final p in pins)
                   Positioned(
+                    left: p.x * w - 12,
