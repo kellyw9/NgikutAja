@@ -32,3 +32,4 @@ class AppIcon extends StatelessWidget {
     return ExcludeSemantics(
       child: SizedBox.square(
         dimension: size,
+        child: CustomPaint(painter: _IconPainter(_path(name, filled), color)),
