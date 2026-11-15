@@ -157,3 +157,4 @@ class _ItineraryDetailPageState extends State<ItineraryDetailPage> {
                         maxLines: more ? null : 4,
                         overflow: more ? null : TextOverflow.ellipsis,
                       ),
+                      if (it.desc.length > 160) TextLink(more ? 'Tutup' : 'Selengkapnya', onTap: () => setState(() => more = !more)),
