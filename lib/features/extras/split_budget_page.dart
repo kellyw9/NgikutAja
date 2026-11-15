@@ -169,3 +169,4 @@ class _SplitBudgetPageState extends State<SplitBudgetPage> {
                                                 TextSpan(text: to, style: AppText.bodyStrong),
                                               ],
                                             ),
+                                          ),
