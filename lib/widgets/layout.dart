@@ -104,3 +104,4 @@ class TabHeader extends StatelessWidget {
   const TabHeader(this.title, {super.key, this.actions = const [], this.sub});
   final String title;
   final List<Widget> actions;
+  final String? sub;
