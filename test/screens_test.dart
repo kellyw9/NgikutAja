@@ -51,3 +51,4 @@ final Map<String, PageFor> pages = {
   'explore': (s) => const HomeShell(),
   'detail': (s) => ItineraryDetailPage(it: s.itinerary('medan')),
   'detail tanpa jadwal': (s) => ItineraryDetailPage(it: s.itinerary('bandung')),
+  'preview berbayar': (s) => PaidPreviewPage(it: s.itinerary('toba')),
