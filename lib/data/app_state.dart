@@ -307,3 +307,4 @@ class AppState extends ChangeNotifier {
     );
     trips.insert(0, t);
     it.adopted++;
+    notifyListeners();
