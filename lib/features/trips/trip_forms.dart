@@ -35,3 +35,4 @@ class EditStopPage extends StatefulWidget {
 }
 
 class _EditStopPageState extends State<EditStopPage> {
+  late final s = widget.stop;
