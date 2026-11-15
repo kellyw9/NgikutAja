@@ -28,3 +28,4 @@ class _CreatorProfilePageState extends State<CreatorProfilePage> {
         actions: [
           IconBtn('share', label: 'Bagikan profil', onTap: () => shareText('${c.name} (${c.handle}) menulis ${all.length} itinerary di NgikutAja.')),
         ],
+      ),
