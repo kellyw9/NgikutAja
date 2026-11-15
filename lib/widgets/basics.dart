@@ -514,3 +514,4 @@ class Wordmark extends StatelessWidget {
       label: 'NgikutAja',
       child: ExcludeSemantics(
         child: Row(
+          mainAxisSize: MainAxisSize.min,
