@@ -97,3 +97,4 @@ class _EditProfilePageState extends State<EditProfilePage> {
                         final p = await pickPhotoSheet(context, title: 'Foto profil', canRemove: photo != null);
                         if (p != null) setState(() => photo = p.isEmpty ? null : p);
                       },
+                    ),
