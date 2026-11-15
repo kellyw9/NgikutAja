@@ -104,3 +104,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
                 children: [
                   for (var k = 0; k < d.plan.length; k++) ...[
                     if (k > 0) const SizedBox(width: 8),
+                    Stack(
