@@ -75,3 +75,4 @@ class OfflinePage extends StatelessWidget {
                 ),
               Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
