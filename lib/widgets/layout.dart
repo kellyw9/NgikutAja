@@ -411,3 +411,4 @@ class HeroPhoto extends StatelessWidget {
         height: height + top,
         child: Stack(
           fit: StackFit.expand,
+          children: [
