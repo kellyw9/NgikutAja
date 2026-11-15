@@ -77,3 +77,4 @@ class MembersPage extends StatelessWidget {
                 _remove(context, m);
               },
             ),
+          ],
