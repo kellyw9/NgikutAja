@@ -90,3 +90,4 @@ class _NgFieldState extends State<NgField> {
     final borderW = err || _focused ? 2.0 : 1.0;
 
     Widget content;
+    if (_select || widget.controller == null) {
