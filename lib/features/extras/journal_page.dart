@@ -6,3 +6,5 @@ import '../../widgets/ui.dart';
 class JournalPage extends StatefulWidget {
   const JournalPage({super.key, required this.trip});
   final Trip trip;
+
+  @override
