@@ -582,3 +582,4 @@ class Progress extends StatelessWidget {
   const Progress(this.value, {super.key, this.height = 6, this.fill = AppColors.teal, this.track = AppColors.sunk, this.width});
   final double value;
   final double height;
+  final Color fill;
