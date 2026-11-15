@@ -86,3 +86,4 @@ class _PhotoPreviewPageState extends State<PhotoPreviewPage> {
                   final now = DateTime.now();
                   AppScope.read(context).addPhoto(
                     t,
+                    TripPhoto(
