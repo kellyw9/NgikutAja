@@ -167,3 +167,4 @@ class _AddStopPageState extends State<AddStopPage> {
                   const SizedBox(height: 8),
                   LayoutBuilder(
                     builder: (context, c) {
+                      final w = (c.maxWidth - 12) / 2;
