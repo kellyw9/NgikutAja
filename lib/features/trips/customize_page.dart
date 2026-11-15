@@ -125,3 +125,4 @@ class _CustomizePageState extends State<CustomizePage> {
                           children: [
                             Text(st.name, style: AppText.bodyStrong),
                             const SizedBox(height: 2),
+                            Text('${st.cat.label}, Hari ${day + 1} pukul ${st.start}–${st.end}', style: AppText.small.muted),
