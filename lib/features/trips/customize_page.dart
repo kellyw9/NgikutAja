@@ -210,3 +210,4 @@ class _CustomizePageState extends State<CustomizePage> {
               readOnly: true,
               fill: AppColors.surfaceSoft,
               helper: 'Tanggal selesai trip otomatis berubah menjadi ${newDate.day} ${monthsShort[newDate.month - 1]} ${newDate.year}.',
+            ),
