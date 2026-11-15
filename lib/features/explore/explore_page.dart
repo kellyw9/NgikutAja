@@ -51,3 +51,4 @@ class _ExplorePageState extends State<ExplorePage> {
       'Terbaru' => app.latest().where((x) => x.creator != app.me).toList(),
       'Following' => app.fromFollowing(),
       _ => app.trending(),
+    };
