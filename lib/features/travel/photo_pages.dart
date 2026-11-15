@@ -87,3 +87,4 @@ class _PhotoPreviewPageState extends State<PhotoPreviewPage> {
                   AppScope.read(context).addPhoto(
                     t,
                     TripPhoto(
+                      src: widget.src,
