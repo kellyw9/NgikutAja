@@ -21,3 +21,4 @@ class PhotoPreviewPage extends StatefulWidget {
 
 class _PhotoPreviewPageState extends State<PhotoPreviewPage> {
   late int? stop = AppScope.read(context).nextIndex(widget.trip, widget.day);
+  String vis = 'Trip-only';
