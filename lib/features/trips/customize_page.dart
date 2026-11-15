@@ -232,3 +232,4 @@ class _CustomizePageState extends State<CustomizePage> {
       scroll: true,
       builder: (ctx) {
         final (issues, tips) = analyze(plan);
+        if (issues.isEmpty) {
