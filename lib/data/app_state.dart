@@ -471,3 +471,4 @@ class AppState extends ChangeNotifier {
 }
 
 /// Akses [AppState] dari widget: `AppScope.of(context)` (ikut rebuild) atau `AppScope.read(context)`.
+class AppScope extends InheritedNotifier<AppState> {
