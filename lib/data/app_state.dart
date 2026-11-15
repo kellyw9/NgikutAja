@@ -24,3 +24,4 @@ class CityInfo {
 /// State aplikasi di memori. Belum ada backend: semua data berasal dari [Seed],
 /// lalu berubah sesuai aksi pengguna selama aplikasi berjalan.
 class AppState extends ChangeNotifier {
+  AppState(this._prefs, {DateTime? now, bool watchNetwork = true}) : seed = Seed(now ?? DateTime.now()) {
