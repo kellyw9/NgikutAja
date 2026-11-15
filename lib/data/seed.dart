@@ -398,3 +398,4 @@ class Seed {
         plan: [[]],
         dayTitles: [''],
       ),
+      Itinerary(
