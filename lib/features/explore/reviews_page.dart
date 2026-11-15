@@ -186,3 +186,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
                         onTap: () {
                           if (!requireLogin(context)) return;
                           setState(() => replyTo = c.name);
+                          focus.requestFocus();
