@@ -155,3 +155,4 @@ void main() {
     await tester.pump();
     await tester.pump(const Duration(milliseconds: 800)); // animasi masuk snackbar
     expect(s.wishlist.length, 2);
+    expect(find.text('Danau Toba 2 dihapus dari Wishlist'), findsOneWidget);
