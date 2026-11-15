@@ -354,3 +354,4 @@ class StatusView extends StatelessWidget {
     required this.title,
     required this.text,
     this.iconColor = AppColors.ink,
+    this.middle,
