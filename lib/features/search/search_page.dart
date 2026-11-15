@@ -526,3 +526,4 @@ class _SearchPageState extends State<SearchPage> {
                     const SizedBox(width: 12),
                     Expanded(child: NgButton('Tampilkan $n itinerary', expand: true, onPressed: () => Navigator.pop(ctx, draft))),
                   ],
+                ),
