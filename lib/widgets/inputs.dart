@@ -355,3 +355,4 @@ class NgStepper extends StatelessWidget {
 
 /// Chip filter radius 6. Terpilih = isi tinta + ikon centang.
 class NgChip extends StatelessWidget {
+  const NgChip(this.label, {super.key, this.selected = false, this.icon, this.close = false, this.onTap});
