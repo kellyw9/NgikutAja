@@ -10,3 +10,4 @@ List<(int, int)> conflictsIn(List<Stop> day) {
     }
   }
   return out;
+}
