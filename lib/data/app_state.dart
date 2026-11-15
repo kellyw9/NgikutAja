@@ -354,3 +354,4 @@ class AppState extends ChangeNotifier {
   void inviteMember(Trip t, String handle, MemberRole role) {
     final h = handle.trim().startsWith('@') ? handle.trim() : '@${handle.trim()}';
     final name = h.substring(1);
+    t.members.add(
