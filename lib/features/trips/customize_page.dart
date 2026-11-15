@@ -401,3 +401,4 @@ class _CustomizePageState extends State<CustomizePage> {
                       proxyDecorator: (child, _, _) => Material(
                         color: AppColors.surface,
                         elevation: 0,
+                        shape: RoundedRectangleBorder(
