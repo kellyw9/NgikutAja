@@ -428,3 +428,4 @@ class Segmented extends StatelessWidget {
               child: Semantics(
                 selected: items[i] == active,
                 button: true,
+                child: Material(
