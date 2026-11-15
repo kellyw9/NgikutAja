@@ -112,3 +112,4 @@ class PurchaseDetailPage extends StatelessWidget {
           ),
           NgButton('Lanjut pembayaran', onPressed: () => push(context, PurchaseConfirmPage(it: it))),
         ],
+      ),
