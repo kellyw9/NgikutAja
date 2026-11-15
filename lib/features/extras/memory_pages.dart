@@ -61,3 +61,4 @@ class PhotoMemoryPage extends StatelessWidget {
 }
 
 /// 7.5 Photo Memory (layar penuh).
+class PhotoViewerPage extends StatefulWidget {
