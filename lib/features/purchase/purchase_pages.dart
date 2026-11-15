@@ -481,3 +481,4 @@ class PurchaseHistoryPage extends StatelessWidget {
                             Text(t.item.title, style: AppText.bodyStrong, maxLines: 1, overflow: TextOverflow.ellipsis),
                             const SizedBox(height: 4),
                             Text(txDate(t.date), style: AppText.small.muted),
+                            const SizedBox(height: 4),
