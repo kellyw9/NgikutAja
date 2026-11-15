@@ -163,3 +163,4 @@ class _EditStopPageState extends State<EditStopPage> {
                 controller: cost,
                 hint: '0 kalau gratis',
                 prefixText: 'Rp',
+                keyboardType: TextInputType.number,
