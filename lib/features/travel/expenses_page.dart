@@ -192,3 +192,4 @@ class _AddExpensePageState extends State<AddExpensePage> {
     setState(() => tried = true);
     final n = parseRupiah(amount.text);
     if (name.text.trim().isEmpty || n <= 0) return;
+    final app = AppScope.read(context);
