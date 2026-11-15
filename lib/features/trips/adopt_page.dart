@@ -269,3 +269,4 @@ class _AdoptProgressPageState extends State<AdoptProgressPage> {
                 text: '"${it.title}" sekarang ada di Trip Saya pada tab ${app.statusOf(trip!).label}. ${app.countdown(trip!) ?? ''}'.trim(),
                 middle: TripCard(
                   status: app.statusOf(trip!),
+                  title: trip!.title,
