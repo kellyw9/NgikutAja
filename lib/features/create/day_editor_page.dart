@@ -192,3 +192,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
                         const SizedBox(width: 4),
                         Expanded(child: Text('Geser untuk mengurutkan', style: AppText.small.muted)),
                         MetaRow([('pin_drop', '${stops.length} tempat'), ('payments', rp(cost))], color: AppColors.ink),
+                      ],
