@@ -178,3 +178,4 @@ class _PublishPageState extends State<PublishPage> {
                   _apply();
                   saveDraftAndClose(context, d);
                 },
+              ),
