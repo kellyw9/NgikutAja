@@ -110,3 +110,4 @@ class _PackingPageState extends State<PackingPage> {
                     BoxList(
                       inset: 42,
                       padV: 0,
+                      children: [
