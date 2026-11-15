@@ -102,3 +102,4 @@ class _NgFieldState extends State<NgField> {
       content = TextField(
         controller: widget.controller,
         focusNode: _focus,
+        readOnly: widget.readOnly,
