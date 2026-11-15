@@ -16,3 +16,4 @@ class _PackingPageState extends State<PackingPage> {
 
   @override
   void dispose() {
+    input.dispose();
