@@ -131,3 +131,4 @@ class _NewPasswordPageState extends State<NewPasswordPage> {
   bool o1 = true, o2 = true, tried = false;
 
   String? get e1 {
+    if (!tried) return null;
