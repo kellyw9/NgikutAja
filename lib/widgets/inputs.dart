@@ -278,3 +278,4 @@ class CheckMark extends StatelessWidget {
 }
 
 /// Baris pilihan (radio) yang bisa diketuk seluruhnya.
+class RadioRow extends StatelessWidget {
