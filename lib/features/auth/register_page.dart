@@ -8,3 +8,5 @@ import 'login_page.dart';
 class RegisterPage extends StatefulWidget {
   const RegisterPage({super.key, this.popOnSuccess = false});
   final bool popOnSuccess;
+
+  @override
