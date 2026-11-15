@@ -23,3 +23,4 @@ class PhotoMemoryPage extends StatelessWidget {
       body: t.photos.isEmpty
           ? const EmptyState(
               icon: 'photo_library',
+              title: 'Belum ada foto',
