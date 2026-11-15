@@ -69,3 +69,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
     showNgSheet<void>(
       context,
       scroll: true,
+      builder: (ctx) => Gap(
