@@ -98,3 +98,4 @@ class OfflinePage extends StatelessWidget {
       bottomNavigationBar: SafeArea(
         child: Padding(
           padding: const EdgeInsets.fromLTRB(kMargin, 0, kMargin, 16),
+          child: NgButton(
