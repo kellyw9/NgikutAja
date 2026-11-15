@@ -92,3 +92,4 @@ class _CustomizePageState extends State<CustomizePage> {
       actions: const [
         DialogAction('Hapus aktivitas', kind: BtnKind.danger, value: true),
         DialogAction('Batal'),
+      ],
