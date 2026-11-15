@@ -94,3 +94,4 @@ class _ItineraryDetailPageState extends State<ItineraryDetailPage> {
             HeroPhoto(
               it.cover,
               semantic: 'Foto sampul ${it.title}',
+              right: [
