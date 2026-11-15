@@ -410,3 +410,4 @@ class AppState extends ChangeNotifier {
   bool get hasUnread => notifications.any((n) => n.unread);
 
   void markAllRead() {
+    for (final n in notifications) {
