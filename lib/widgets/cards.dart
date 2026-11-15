@@ -512,3 +512,4 @@ class _DayBox extends StatelessWidget {
                     if (today)
                       Container(
                         width: 8,
+                        height: 8,
