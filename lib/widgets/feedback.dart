@@ -32,3 +32,4 @@ class NgBanner extends StatelessWidget {
       child: Container(
         width: double.infinity,
         padding: offline ? const EdgeInsets.symmetric(horizontal: kMargin, vertical: 10) : const EdgeInsets.all(12),
+        decoration: BoxDecoration(color: bg, borderRadius: offline ? null : BorderRadius.circular(AppRadius.card)),
