@@ -165,3 +165,4 @@ class IconBtn extends StatelessWidget {
 
 /// Link teks (primaryStrong). Tinggi sentuh 44.
 class TextLink extends StatelessWidget {
+  const TextLink(this.label, {super.key, this.onTap, this.icon, this.style, this.color = AppColors.primaryStrong});
