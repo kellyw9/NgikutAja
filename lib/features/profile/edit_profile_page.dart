@@ -85,3 +85,4 @@ class _EditProfilePageState extends State<EditProfilePage> {
               16,
               children: [
                 Row(
+                  children: [
