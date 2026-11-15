@@ -57,3 +57,4 @@ ThemeData buildTheme() {
       cursorColor: AppColors.ink,
       selectionColor: AppColors.teal.withValues(alpha: .3),
       selectionHandleColor: AppColors.teal,
+    ),
