@@ -158,3 +158,4 @@ class AboutPage extends StatelessWidget {
                     ],
                   ),
                 Text('Ikon: Material Symbols (Google, Apache 2.0). Huruf: Plus Jakarta Sans (SIL Open Font License).', style: AppText.small.muted),
+              ],
