@@ -220,3 +220,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
                       ],
                     ),
                     if (conflicts.isNotEmpty)
+                      Text('Stop bertanda merah jamnya tumpang tindih. Ubah jam lewat ikon pensil.', style: AppText.small.c(AppColors.negative)),
