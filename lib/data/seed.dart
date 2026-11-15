@@ -259,3 +259,4 @@ class Seed {
         city: 'Labuan Bajo',
         region: 'Manggarai Barat, NTT',
         days: 3,
+        cover: 'labuanbajo',
