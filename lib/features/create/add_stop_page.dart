@@ -390,3 +390,4 @@ class _PickLocationPageState extends State<PickLocationPage> {
                           decoration: InputDecoration.collapsed(hintText: 'Nama tempat', hintStyle: AppText.body.muted),
                         ),
                       ),
+                      if (q.text.isNotEmpty)
