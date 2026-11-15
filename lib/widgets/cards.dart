@@ -85,3 +85,4 @@ class WisataCard extends StatelessWidget {
             padding: const EdgeInsets.symmetric(vertical: 12),
             child: Row(
               crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
