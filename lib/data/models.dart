@@ -180,3 +180,5 @@ enum ExpenseCat {
   final String label;
   final String icon;
 }
+
+class Expense {
