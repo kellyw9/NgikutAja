@@ -24,3 +24,4 @@ class RecapPage extends StatelessWidget {
     final photos = t.photos;
     return Scaffold(
       backgroundColor: AppColors.ground,
+      appBar: NgAppBar(
