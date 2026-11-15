@@ -469,3 +469,4 @@ class _CustomizePageState extends State<CustomizePage> {
                                 AppScope.read(
                                   context,
                                 ).addPhoto(t, TripPhoto(src: p, day: day, caption: t.title, time: fromMinutes(now.hour * 60 + now.minute)));
+                                setState(() {});
