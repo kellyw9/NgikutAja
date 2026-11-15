@@ -87,3 +87,4 @@ void showNgSnack(BuildContext context, String text, {SnackKind kind = SnackKind.
       margin: const EdgeInsets.fromLTRB(kMargin, 0, kMargin, 12),
       padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 12),
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(AppRadius.card)),
+      duration: Duration(seconds: action != null ? 6 : 3),
