@@ -304,3 +304,4 @@ class TravelStopPage extends StatelessWidget {
                               Text('Catatan creator', style: AppText.bodyStrong),
                               const SizedBox(height: 2),
                               Text(st.note!, style: AppText.body),
+                            ],
