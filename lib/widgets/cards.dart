@@ -49,3 +49,4 @@ class WishButton extends StatelessWidget {
       'bookmark',
       label: on ? 'Hapus dari Wishlist' : 'Simpan ke Wishlist',
       filled: on,
+      bg: boxed ? AppColors.surface : null,
