@@ -30,3 +30,4 @@ class _PackingPageState extends State<PackingPage> {
       t.packing.add(g);
     }
     g.items.add(PackItem(v));
+    input.clear();
