@@ -427,3 +427,4 @@ class _CustomizePageState extends State<CustomizePage> {
                               trailing: ReorderableDragStartListener(
                                 index: i,
                                 child: Semantics(
+                                  label: 'Geser untuk mengurutkan ${stops[i].name}',
