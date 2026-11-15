@@ -460,3 +460,4 @@ class _CustomizePageState extends State<CustomizePage> {
                         scrollDirection: Axis.horizontal,
                         child: Row(
                           children: [
+                            AddPhotoTile(
