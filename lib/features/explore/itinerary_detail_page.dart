@@ -261,3 +261,4 @@ class PaidPreviewPage extends StatelessWidget {
             HeroPhoto(
               it.cover,
               height: 240,
+              semantic: 'Foto sampul ${it.title}',
