@@ -83,3 +83,5 @@ class AppState extends ChangeNotifier {
     _prefs?.setStringList('interests', picked.toList());
     notifyListeners();
   }
+
+  bool emailRegistered(String email) => _accounts.containsKey(email.trim().toLowerCase());
