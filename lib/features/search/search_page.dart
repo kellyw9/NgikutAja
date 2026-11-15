@@ -17,3 +17,4 @@ const _ratings = ['3+', '4+', '4,5+'];
 const _sorts = ['Relevan', 'Rating tertinggi', 'Paling banyak diadopsi', 'Harga terendah'];
 
 class SearchFilter {
+  String? duration;
