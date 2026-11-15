@@ -52,3 +52,4 @@ class _EditStopPageState extends State<EditStopPage> {
     setState(() => tried = true);
     if (name.text.trim().isEmpty) return;
     final out = (s ?? Stop(start: start, end: end, name: '', cat: cat))
+      ..name = name.text.trim()
