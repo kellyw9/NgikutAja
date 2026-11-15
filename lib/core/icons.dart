@@ -26,3 +26,5 @@ class AppIcon extends StatelessWidget {
       return b.path;
     });
   }
+
+  @override
