@@ -105,3 +105,4 @@ class _EditProfilePageState extends State<EditProfilePage> {
                   controller: name,
                   onChanged: (_) => setState(() {}),
                   error: name.text.trim().isEmpty ? 'Nama wajib diisi' : null,
+                ),
