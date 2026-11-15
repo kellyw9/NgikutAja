@@ -34,3 +34,4 @@ class _JournalPageState extends State<JournalPage> {
     );
     c.dispose();
     if (r == null || !mounted) return;
+    widget.trip.story = r;
