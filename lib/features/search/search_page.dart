@@ -64,3 +64,4 @@ class SearchPage extends StatefulWidget {
 
 class _SearchPageState extends State<SearchPage> {
   final input = TextEditingController();
+  final focus = FocusNode();
