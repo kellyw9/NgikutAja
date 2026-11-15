@@ -37,3 +37,4 @@ class SearchFilter {
     if (duration == '2–3 hari' && (d < 2 || d > 3)) return false;
     if (duration == '4–5 hari' && (d < 4 || d > 5)) return false;
     if (duration == '> 5 hari' && d <= 5) return false;
+    if (budgetOn) {
