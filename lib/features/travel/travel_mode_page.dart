@@ -379,3 +379,4 @@ class NavigationPage extends StatelessWidget {
               height: null,
               kind: MapKind.lake,
               radius: 0,
+              pins: [
