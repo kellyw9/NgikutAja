@@ -297,3 +297,4 @@ class ListRow extends StatelessWidget {
   final String? sub;
   final Widget? trailing;
   final bool danger;
+  final Widget? lead;
