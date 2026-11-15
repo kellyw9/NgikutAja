@@ -324,3 +324,4 @@ class _SearchPageState extends State<SearchPage> {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
