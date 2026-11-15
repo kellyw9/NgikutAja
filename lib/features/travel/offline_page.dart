@@ -14,3 +14,4 @@ class OfflinePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final app = AppScope.of(context);
+    final trips = app.trips.where((t) => app.statusOf(t) != TripStatus.selesai).toList();
