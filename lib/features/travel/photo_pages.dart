@@ -58,3 +58,4 @@ class _PhotoPreviewPageState extends State<PhotoPreviewPage> {
                             selected: stop == k,
                             onTap: () => Navigator.pop(ctx, k),
                           ),
+                      ],
