@@ -85,3 +85,4 @@ class PurchaseDetailPage extends StatelessWidget {
                       Row(
                         children: [
                           const AppIcon('check', size: 18, color: AppColors.positive),
+                          const SizedBox(width: 10),
