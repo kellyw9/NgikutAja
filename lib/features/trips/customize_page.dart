@@ -113,3 +113,4 @@ class _CustomizePageState extends State<CustomizePage> {
               16,
               children: [
                 Container(
+                  padding: const EdgeInsets.all(10),
