@@ -187,3 +187,4 @@ class _AddStopPageState extends State<AddStopPage> {
                                       child: Text('Terpasang', style: AppText.smallStrong),
                                     ),
                                   ),
+                                  Positioned(
