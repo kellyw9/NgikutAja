@@ -130,3 +130,4 @@ class MembersPage extends StatelessWidget {
                     kind: BtnKind.text,
                     size: BtnSize.md,
                     onPressed: () async {
+                      await Clipboard.setData(ClipboardData(text: 'https://${_link(trip)}'));
