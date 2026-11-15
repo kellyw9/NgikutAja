@@ -482,3 +482,4 @@ class ThousandsFormatter extends TextInputFormatter {
     return TextEditingValue(
       text: t,
       selection: TextSelection.collapsed(offset: t.length),
+    );
