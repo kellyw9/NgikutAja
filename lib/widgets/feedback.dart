@@ -377,3 +377,4 @@ class StatusView extends StatelessWidget {
         child: ConstrainedBox(
           constraints: BoxConstraints(minHeight: c.maxHeight - (top ? 52 : 48)),
           child: IntrinsicHeight(
+            child: Column(
