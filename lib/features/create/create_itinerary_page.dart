@@ -265,3 +265,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
                 NgButton('Lanjut ke hari & stop', trailingIcon: 'arrow_forward', expand: true, onPressed: _next),
                 NgButton(
                   'Simpan draft',
+                  kind: BtnKind.secondary,
