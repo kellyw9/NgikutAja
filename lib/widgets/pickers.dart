@@ -28,3 +28,4 @@ Future<DateTime?> pickDate(BuildContext context, {required DateTime initial, int
 class _Calendar extends StatefulWidget {
   const _Calendar({required this.initial, required this.days, required this.first});
   final DateTime initial;
+  final int days;
