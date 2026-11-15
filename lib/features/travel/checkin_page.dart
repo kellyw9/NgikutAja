@@ -59,3 +59,4 @@ class _CheckinPageState extends State<CheckinPage> {
                 NgBanner(
                   kind: BannerKind.success,
                   title: 'Kamu sudah di lokasi',
+                  text: 'Posisimu (simulasi) 40 m dari titik ${st.name}. Batas check-in 100 m.',
