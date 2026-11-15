@@ -334,3 +334,4 @@ class PaidPreviewPage extends StatelessWidget {
                                 style: AppText.title,
                               ),
                             ),
+                          ],
