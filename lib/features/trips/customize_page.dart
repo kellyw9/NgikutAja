@@ -408,3 +408,4 @@ class _CustomizePageState extends State<CustomizePage> {
                         child: DecoratedBox(
                           decoration: BoxDecoration(borderRadius: BorderRadius.circular(AppRadius.card), boxShadow: kFloatShadow),
                           child: Padding(padding: const EdgeInsets.fromLTRB(10, 10, 8, 0), child: child),
+                        ),
