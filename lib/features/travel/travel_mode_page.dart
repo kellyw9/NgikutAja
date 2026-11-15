@@ -88,3 +88,4 @@ class TravelModePage extends StatelessWidget {
                             children: [
                               Text('$done dari $total tempat selesai', style: AppText.small.white),
                               const Spacer(),
+                              Text('${total == 0 ? 0 : (done / total * 100).round()}%', style: AppText.smallStrong.white),
