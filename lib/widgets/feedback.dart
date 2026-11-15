@@ -350,3 +350,4 @@ class StatusView extends StatelessWidget {
   const StatusView({
     super.key,
     required this.icon,
+    required this.tone,
