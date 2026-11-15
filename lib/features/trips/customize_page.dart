@@ -63,3 +63,4 @@ class _CustomizePageState extends State<CustomizePage> {
         DialogAction('Buang perubahan', kind: BtnKind.dangerText, value: true),
       ],
     );
+    return r == true;
