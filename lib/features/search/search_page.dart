@@ -534,3 +534,4 @@ class _SearchPageState extends State<SearchPage> {
       ),
     );
     if (applied != null) {
+      setState(() => filter = applied);
