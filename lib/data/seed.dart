@@ -321,3 +321,4 @@ class Seed {
       Itinerary(
         id: 'medantoba',
         title: 'Medan ke Danau Toba Lewat Jalur Darat',
+        city: 'Medan',
