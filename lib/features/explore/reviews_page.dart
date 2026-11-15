@@ -38,3 +38,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
   Widget build(BuildContext context) {
     final app = AppScope.of(context);
     final it = widget.it;
+    return Scaffold(
