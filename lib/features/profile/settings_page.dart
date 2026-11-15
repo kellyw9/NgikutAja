@@ -68,3 +68,4 @@ class SettingsPage extends StatelessWidget {
       backgroundColor: AppColors.ground,
       appBar: const NgAppBar(title: 'Pengaturan'),
       body: ListView(
+        padding: const EdgeInsets.fromLTRB(kMargin, 8, kMargin, 24),
