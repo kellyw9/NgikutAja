@@ -214,3 +214,4 @@ class MembersPage extends StatelessWidget {
           const SizedBox(height: 14),
           Text(
             'Anggota "Bisa edit" boleh mengubah jadwal dan menambah pengeluaran. "Hanya lihat" hanya bisa melihat trip.',
+            style: AppText.small.muted,
