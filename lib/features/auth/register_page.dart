@@ -76,3 +76,4 @@ class _RegisterPageState extends State<RegisterPage> {
           builder: (context, c) => SingleChildScrollView(
             padding: const EdgeInsets.fromLTRB(kMargin, 0, kMargin, 24),
             child: ConstrainedBox(
+              constraints: BoxConstraints(minHeight: c.maxHeight - 24),
