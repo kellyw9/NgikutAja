@@ -77,3 +77,4 @@ class NotificationsPage extends StatelessWidget {
               IconTile(n.icon, size: 36, iconSize: 20, fill: n.unread ? AppColors.sunk : AppColors.surface, border: AppColors.line),
               const SizedBox(width: 12),
               Expanded(
+                child: Column(
