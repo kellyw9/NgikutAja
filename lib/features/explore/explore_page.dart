@@ -140,3 +140,4 @@ class CityCard extends StatelessWidget {
     return SizedBox(
       width: 124,
       child: Tap(
+        onTap: () => goSearch(context, c.name),
