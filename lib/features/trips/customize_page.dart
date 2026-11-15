@@ -299,3 +299,4 @@ class _CustomizePageState extends State<CustomizePage> {
 
   @override
   Widget build(BuildContext context) {
+    final stops = plan[day];
