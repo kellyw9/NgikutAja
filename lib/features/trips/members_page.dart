@@ -225,3 +225,4 @@ class MembersPage extends StatelessWidget {
                 child: NgButton('Undang anggota', icon: 'person_add', expand: true, onPressed: () => _invite(context)),
               ),
             )
+          : null,
