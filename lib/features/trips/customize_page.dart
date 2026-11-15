@@ -108,3 +108,4 @@ class _CustomizePageState extends State<CustomizePage> {
         return StatefulBuilder(
           builder: (ctx, set) {
             final dest = pick;
+            final lastEnd = dest == null || plan[dest].isEmpty ? null : plan[dest].map((s) => s.endMin).reduce((a, b) => a > b ? a : b);
