@@ -129,3 +129,4 @@ class _CalendarState extends State<_Calendar> {
         ),
         Text(
           widget.days > 1
+              ? '${dateShort(sel).replaceFirst(weekdaysShort[sel.weekday - 1], weekdaysLong[sel.weekday - 1])} sampai '
