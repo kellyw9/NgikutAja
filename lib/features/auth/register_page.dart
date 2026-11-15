@@ -16,3 +16,4 @@ class RegisterPage extends StatefulWidget {
 class _RegisterPageState extends State<RegisterPage> {
   final name = TextEditingController();
   final email = TextEditingController();
+  final pass = TextEditingController();
