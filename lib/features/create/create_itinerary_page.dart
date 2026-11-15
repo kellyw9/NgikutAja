@@ -98,3 +98,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
                 onTap: () => Navigator.pop(ctx, input.text.trim()),
               ),
             ],
+          ),
