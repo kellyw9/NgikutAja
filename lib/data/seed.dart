@@ -139,3 +139,4 @@ class Seed {
           _s(
             '13.00',
             '14.30',
+            'Tjong A Fie Mansion',
