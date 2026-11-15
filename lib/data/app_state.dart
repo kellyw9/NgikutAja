@@ -228,3 +228,5 @@ class AppState extends ChangeNotifier {
   // ---------------- pembelian ----------------
   final Set<String> purchased = {};
   late List<Transaction> transactions;
+
+  bool canOpen(Itinerary it) => !it.isPaid || purchased.contains(it.id) || it.creator == me;
