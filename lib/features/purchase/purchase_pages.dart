@@ -391,3 +391,4 @@ class _PaymentStatusPageState extends State<PaymentStatusPage> {
             text: widget.offlineFail
                 ? 'Koneksi terputus sebelum transaksi selesai. Tidak ada saldo yang ditarik.'
                 : 'Waktu pembayaran telah habis sebelum transaksi selesai. Tidak ada saldo yang ditarik.',
+            middle: KeyValueBox([
