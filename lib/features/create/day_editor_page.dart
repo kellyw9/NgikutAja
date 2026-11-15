@@ -158,3 +158,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
                 children: [
                   NgField(
                     label: 'Judul hari',
+                    icon: 'event_note',
