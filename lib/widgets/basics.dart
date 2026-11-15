@@ -498,3 +498,4 @@ class Avatar extends StatelessWidget {
         ),
       ),
     );
+  }
