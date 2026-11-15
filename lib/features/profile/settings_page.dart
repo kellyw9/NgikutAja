@@ -96,3 +96,4 @@ class SettingsPage extends StatelessWidget {
               group('Informasi aplikasi', [
                 ListRow(
                   icon: 'info',
+                  title: 'Tentang NgikutAja',
