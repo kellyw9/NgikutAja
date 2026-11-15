@@ -301,3 +301,4 @@ class PaidPreviewPage extends StatelessWidget {
                   if (day1.isEmpty)
                     Text('Jadwal Hari 1 belum ditulis creator.', style: AppText.body.muted)
                   else
+                    Column(children: [for (var i = 0; i < day1.length; i++) StopRow(day1[i], n: i + 1)]),
