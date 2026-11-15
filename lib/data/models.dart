@@ -354,3 +354,4 @@ enum TxStatus {
 }
 
 class Transaction {
+  Transaction({required this.id, required this.item, required this.date, required this.method, required this.amount, required this.status});
