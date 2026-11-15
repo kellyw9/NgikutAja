@@ -87,3 +87,4 @@ class _AdoptPageState extends State<AdoptPage> {
                       const SizedBox(width: 10),
                       Expanded(
                         child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
