@@ -59,3 +59,4 @@ class NgField extends StatefulWidget {
   final int? maxLength;
   final Iterable<String>? autofillHints;
   final FocusNode? focusNode;
+  final Color? fill;
