@@ -311,3 +311,4 @@ class TravelStopPage extends StatelessWidget {
                     ),
                   ),
                 if (photos.isNotEmpty)
+                  Column(
