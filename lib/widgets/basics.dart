@@ -28,3 +28,4 @@ class NgButton extends StatelessWidget {
   });
 
   final String label;
+  final VoidCallback? onPressed;
