@@ -56,3 +56,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
           padH: 0,
           trailing: null,
           onTap: () {
+            Navigator.pop(ctx);
