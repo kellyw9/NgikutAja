@@ -25,3 +25,4 @@ class _CustomizePageState extends State<CustomizePage> {
   bool saving = false;
 
   void _changed(VoidCallback f) => setState(() {
+    f();
