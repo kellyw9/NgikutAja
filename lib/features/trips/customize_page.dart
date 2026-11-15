@@ -205,3 +205,4 @@ class _CustomizePageState extends State<CustomizePage> {
           if (newDate != null)
             NgField(
               label: 'Tanggal perjalanan',
+              icon: 'calendar_month',
