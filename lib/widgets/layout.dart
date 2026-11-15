@@ -437,3 +437,4 @@ class HeroPhoto extends StatelessWidget {
                 right: 12,
                 top: top + 12,
                 child: Row(
+                  children: [
