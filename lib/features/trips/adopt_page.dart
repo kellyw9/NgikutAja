@@ -190,3 +190,4 @@ class AdoptProgressPage extends StatefulWidget {
   const AdoptProgressPage({
     super.key,
     required this.it,
+    required this.start,
