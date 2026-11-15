@@ -176,3 +176,4 @@ class _PackingPageState extends State<PackingPage> {
                       textInputAction: TextInputAction.done,
                     ),
                   ),
+                  const SizedBox(width: 8),
