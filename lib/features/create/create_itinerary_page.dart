@@ -32,3 +32,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
   late final city = TextEditingController(text: d.region);
   late bool paid = d.price > 0;
   bool tried = false;
+  bool touched = false;
