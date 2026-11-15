@@ -46,3 +46,4 @@ class MapView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final map = LayoutBuilder(
