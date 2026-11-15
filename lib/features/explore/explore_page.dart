@@ -69,3 +69,4 @@ class _ExplorePageState extends State<ExplorePage> {
       if (items.isEmpty && tab == 'Following') {
         return Padding(
           padding: const EdgeInsets.symmetric(horizontal: kMargin),
+          child: EmptyState(
