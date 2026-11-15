@@ -160,3 +160,4 @@ class TripsPage extends StatelessWidget {
         const SizedBox(height: 8),
         NgButton(
           'Buka Travel Mode',
+          icon: 'near_me',
