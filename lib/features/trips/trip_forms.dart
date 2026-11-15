@@ -27,3 +27,4 @@ Future<String?> pickTime(BuildContext context, String current) async {
 class EditStopPage extends StatefulWidget {
   const EditStopPage({super.key, this.stop, required this.dayLabel, this.defaultStart = '09.00'});
   final Stop? stop;
+  final String dayLabel;
