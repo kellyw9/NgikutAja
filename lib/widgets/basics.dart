@@ -521,3 +521,4 @@ class Wordmark extends StatelessWidget {
               height: mark,
               decoration: BoxDecoration(color: AppColors.teal, borderRadius: BorderRadius.circular(3)),
             ),
+            SizedBox(width: large ? 10 : 6),
