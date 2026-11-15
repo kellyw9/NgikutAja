@@ -159,3 +159,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
                   const NgBanner(
                     kind: BannerKind.error,
                     title: 'Lengkapi data yang wajib diisi.',
+                    text: 'Pastikan judul itinerary sudah terisi sebelum melanjutkan.',
