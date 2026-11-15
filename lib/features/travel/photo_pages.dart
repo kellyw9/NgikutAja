@@ -25,3 +25,4 @@ class _PhotoPreviewPageState extends State<PhotoPreviewPage> {
 
   @override
   Widget build(BuildContext context) {
+    final t = widget.trip;
