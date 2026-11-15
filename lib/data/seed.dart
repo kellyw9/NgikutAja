@@ -546,3 +546,4 @@ class Seed {
         item: bajo,
         date: _d(-5).add(const Duration(hours: 21, minutes: 2)),
         method: 'E-Wallet',
+        amount: 45000,
