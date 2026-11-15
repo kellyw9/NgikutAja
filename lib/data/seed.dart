@@ -315,3 +315,4 @@ class Seed {
         price: 0,
         adopted: 140,
         rating: 4.7,
+        tags: ['Budaya'],
