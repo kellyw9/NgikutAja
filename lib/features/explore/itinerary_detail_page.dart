@@ -57,3 +57,4 @@ class _StatChip extends StatelessWidget {
               ],
             ),
           ),
+        ),
