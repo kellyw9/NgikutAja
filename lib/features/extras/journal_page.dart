@@ -90,3 +90,4 @@ class _JournalPageState extends State<JournalPage> {
         actions: [IconBtn('edit', label: 'Ubah cerita perjalanan', onTap: _editStory)],
       ),
       body: ListView(
+        padding: const EdgeInsets.only(top: 8, bottom: 24),
