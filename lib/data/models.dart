@@ -40,3 +40,4 @@ class Stop {
   Stop({
     required this.start,
     required this.end,
+    required this.name,
