@@ -49,3 +49,4 @@ class _PublishPageState extends State<PublishPage> {
             padding: const EdgeInsets.all(14),
             border: on ? AppColors.teal : AppColors.line,
             borderWidth: on ? 2 : 1,
+            onTap: () => setState(() => paid = isPaid),
