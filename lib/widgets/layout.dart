@@ -479,3 +479,4 @@ class PageFrame extends StatelessWidget {
     super.key,
     this.appBar,
     required this.body,
+    this.bottom,
