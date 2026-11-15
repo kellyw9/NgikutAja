@@ -307,3 +307,4 @@ class _EditTripInfoPageState extends State<EditTripInfoPage> {
                 icon: 'calendar_month',
                 value: start == null ? '' : dateLong(start!),
                 hint: 'Pilih tanggal',
+                trailing: 'expand_more',
