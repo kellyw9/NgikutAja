@@ -67,3 +67,4 @@ class _EditProfilePageState extends State<EditProfilePage> {
           user.text = me.handle.replaceFirst('@', '');
           bio.text = me.bio;
           photo = me.photo;
+          Navigator.pop(context);
