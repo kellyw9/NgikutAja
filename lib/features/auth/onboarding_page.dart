@@ -109,3 +109,4 @@ class _OnboardingPageState extends State<OnboardingPage> {
 
   Widget _intro() => LayoutBuilder(
     builder: (context, c) => _scroll([
+      Photo('holbung', height: (c.maxHeight - 180).clamp(220, 400), radius: AppRadius.card, semantic: 'Bukit Holbung di tepi Danau Toba'),
