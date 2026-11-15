@@ -88,3 +88,4 @@ class PurchaseDetailPage extends StatelessWidget {
                           const SizedBox(width: 10),
                           Expanded(child: Text(p, style: AppText.body)),
                         ],
+                      ),
