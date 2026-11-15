@@ -79,3 +79,4 @@ class NgAppBar extends StatelessWidget implements PreferredSizeWidget {
                   padding: EdgeInsets.only(left: back != null ? 4 : kMargin, right: 4),
                   child: Row(
                     children: [
+                      if (back != null)
