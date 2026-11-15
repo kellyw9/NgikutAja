@@ -91,3 +91,4 @@ class _RegisterPageState extends State<RegisterPage> {
                         icon: 'person',
                         controller: name,
                         hint: 'Nama lengkap',
+                        onChanged: refresh,
