@@ -117,3 +117,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
       title: 'Simpan sebagai draft?',
       body: 'Itinerary ini belum disimpan. Draft bisa dilanjutkan dari Trip Saya.',
       actions: const [
+        DialogAction('Simpan draft', kind: BtnKind.primary, value: 'save'),
