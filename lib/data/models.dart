@@ -143,3 +143,4 @@ class Itinerary {
 enum TripStatus {
   draft('Draft'),
   diadopsi('Diadopsi'),
+  berjalan('Berjalan'),
