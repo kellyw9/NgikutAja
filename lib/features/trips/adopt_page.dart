@@ -202,3 +202,5 @@ class AdoptProgressPage extends StatefulWidget {
   final bool each;
   final int offset;
   final bool offline;
+
+  @override
