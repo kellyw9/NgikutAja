@@ -47,3 +47,4 @@ class WishButton extends StatelessWidget {
     final on = app.loggedIn && app.wishlist.contains(it.id);
     return IconBtn(
       'bookmark',
+      label: on ? 'Hapus dari Wishlist' : 'Simpan ke Wishlist',
