@@ -238,3 +238,4 @@ class _NextCard extends StatelessWidget {
                 child: NgButton(
                   'Check-in',
                   kind: BtnKind.secondary,
+                  icon: 'pin_drop',
