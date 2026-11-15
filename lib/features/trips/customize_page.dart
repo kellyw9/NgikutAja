@@ -159,3 +159,4 @@ class _CustomizePageState extends State<CustomizePage> {
                 NgButton(
                   dest == null ? 'Tambah hari dulu' : 'Pindahkan ke Hari ${dest + 1}',
                   expand: true,
+                  onPressed: dest == null ? null : () => Navigator.pop(ctx, dest),
