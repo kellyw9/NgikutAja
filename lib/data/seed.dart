@@ -243,3 +243,4 @@ class Seed {
         days: 4,
         cover: 'bratan',
         creator: c['komang']!,
+        price: 35000,
