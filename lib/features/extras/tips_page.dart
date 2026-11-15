@@ -26,3 +26,4 @@ class TipsPage extends StatelessWidget {
                 onTap: () => push(context, TipDetailPage(tip: tip)),
                 child: Row(
                   crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
