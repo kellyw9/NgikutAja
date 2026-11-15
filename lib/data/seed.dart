@@ -304,3 +304,4 @@ class Seed {
         placesSeed: 6,
         publishedAt: _d(-45),
       ),
+      Itinerary(
