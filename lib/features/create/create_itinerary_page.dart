@@ -202,3 +202,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
                               for (var k = 1; k <= 7; k++) RadioRow(title: '$k hari', selected: k == d.days, onTap: () => Navigator.pop(ctx, k)),
                             ],
                           ),
+                        );
