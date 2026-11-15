@@ -90,3 +90,4 @@ class NgAppBar extends StatelessWidget implements PreferredSizeWidget {
                   ),
                 ),
               ),
+              if (rule) Container(height: 1, color: AppColors.rule),
