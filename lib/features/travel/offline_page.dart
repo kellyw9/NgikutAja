@@ -95,3 +95,4 @@ class OfflinePage extends StatelessWidget {
           ),
         ],
       ),
+      bottomNavigationBar: SafeArea(
