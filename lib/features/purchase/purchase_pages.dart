@@ -163,3 +163,5 @@ class PaymentPage extends StatefulWidget {
   const PaymentPage({super.key, required this.it, this.method = 'QRIS'});
   final Itinerary it;
   final String method;
+
+  @override
