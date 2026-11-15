@@ -170,3 +170,4 @@ class _AdoptPageState extends State<AdoptPage> {
       children: [
         Expanded(
           child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
