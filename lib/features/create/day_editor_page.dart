@@ -106,3 +106,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
                     if (k > 0) const SizedBox(width: 8),
                     Stack(
                       clipBehavior: Clip.none,
+                      children: [
