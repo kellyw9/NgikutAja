@@ -41,3 +41,4 @@ class AppColors {
 
   /// Warna latar avatar inisial.
   static const tints = [Color(0xFFD3ECEF), Color(0xFFF6DFC0), Color(0xFFF4D6D0), Color(0xFFDCEBD5), Color(0xFFD9E3F3), Color(0xFFFFF1C4)];
+}
