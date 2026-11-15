@@ -79,3 +79,4 @@ class _SplitBudgetPageState extends State<SplitBudgetPage> {
                     inset: 56,
                     children: [
                       for (final m in members)
+                        Padding(
