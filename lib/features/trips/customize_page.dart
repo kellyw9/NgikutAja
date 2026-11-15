@@ -358,3 +358,4 @@ class _CustomizePageState extends State<CustomizePage> {
                 for (var d = 0; d < plan.length; d++)
                   DayItem(
                     'Hari ${d + 1}',
+                    date: t.dayDate(d) == null ? null : dateShort(t.dayDate(d)!),
