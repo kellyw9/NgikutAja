@@ -143,3 +143,4 @@ class _PhotoViewerPageState extends State<PhotoViewerPage> {
                         style: AppText.small.white,
                       ),
                     ],
+                  ),
