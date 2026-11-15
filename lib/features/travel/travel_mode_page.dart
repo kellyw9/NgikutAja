@@ -261,3 +261,4 @@ class TravelStopPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     AppScope.of(context);
+    final st = trip.plan[day][i];
