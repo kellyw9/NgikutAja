@@ -205,3 +205,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
       top: false,
       child: Padding(
         padding: EdgeInsets.only(bottom: MediaQuery.viewInsetsOf(context).bottom),
+        child: Column(
