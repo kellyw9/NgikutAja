@@ -102,3 +102,4 @@ class OfflinePage extends StatelessWidget {
             'Perbarui data offline',
             kind: BtnKind.secondary,
             icon: 'sync',
+            expand: true,
