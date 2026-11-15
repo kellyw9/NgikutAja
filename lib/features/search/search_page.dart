@@ -81,3 +81,4 @@ class _SearchPageState extends State<SearchPage> {
     final r = searchRequest.value;
     if (r == null) return;
     searchRequest.value = null;
+    if (r.query.isEmpty) {
