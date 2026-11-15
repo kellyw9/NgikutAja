@@ -111,3 +111,4 @@ void showNgSnack(BuildContext context, String text, {SnackKind kind = SnackKind.
         ],
       ),
     ),
+  );
