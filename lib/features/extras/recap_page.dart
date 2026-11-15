@@ -41,3 +41,4 @@ class RecapPage extends StatelessWidget {
                   const SizedBox(height: 4),
                   MetaRow([('calendar_month', t.dates ?? 'Tanggal belum diatur'), ('schedule', '${t.days} hari')]),
                 ],
+              ),
