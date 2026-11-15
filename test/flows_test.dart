@@ -138,3 +138,5 @@ void main() {
     await tester.pump();
     expect(find.text('Judul wajib diisi'), findsOneWidget);
     expect(find.text('Lengkapi data yang wajib diisi.'), findsOneWidget);
+
+    await tester.enterText(find.byType(TextField).first, 'Kuliner Jogja 3 Hari');
