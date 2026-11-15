@@ -44,3 +44,4 @@ class _ResetPasswordPageState extends State<ResetPasswordPage> {
       if (!mounted) return t.cancel();
       setState(() => wait--);
       if (wait <= 0) t.cancel();
+    });
