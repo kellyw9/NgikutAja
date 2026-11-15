@@ -63,3 +63,4 @@ class AppState extends ChangeNotifier {
 
   final SharedPreferences? _prefs;
   final Seed seed;
+  StreamSubscription<bool>? _netSub;
