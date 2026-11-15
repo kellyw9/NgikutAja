@@ -43,3 +43,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
       appBar: NgAppBar(title: 'Ulasan dan komentar', sub: it.title, rule: true),
       body: Column(
         children: [
+          Padding(
