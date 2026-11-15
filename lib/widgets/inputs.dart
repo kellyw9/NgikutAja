@@ -384,3 +384,4 @@ class NgChip extends StatelessWidget {
             padding: EdgeInsets.only(left: selected || icon != null ? 8 : 12, right: close ? 8 : 12),
             child: Row(
               mainAxisSize: MainAxisSize.min,
+              children: [
