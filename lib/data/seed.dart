@@ -223,3 +223,4 @@ class Seed {
       placesSeed: 11,
       publishedAt: _d(-300),
       plan: [
+        [
