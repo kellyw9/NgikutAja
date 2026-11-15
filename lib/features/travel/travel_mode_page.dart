@@ -37,3 +37,4 @@ class TravelModePage extends StatelessWidget {
                 child: Column(
                   children: [
                     if (!app.online)
+                      const NgBanner(
