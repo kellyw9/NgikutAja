@@ -215,3 +215,5 @@ class _MapPainter extends CustomPainter {
       );
     }
   }
+
+  @override
