@@ -423,3 +423,4 @@ class _SearchPageState extends State<SearchPage> {
               setState(() => sort = s);
               Navigator.pop(ctx);
             },
+          ),
