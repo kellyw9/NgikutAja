@@ -105,3 +105,4 @@ class _LoginPageState extends State<LoginPage> {
                           hint: 'nama@email.com',
                           keyboardType: TextInputType.emailAddress,
                           textInputAction: TextInputAction.next,
+                          autofillHints: const [AutofillHints.email],
