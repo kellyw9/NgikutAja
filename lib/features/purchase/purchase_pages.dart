@@ -29,3 +29,4 @@ class _ItemRow extends StatelessWidget {
               const SizedBox(height: 4),
               MetaRow([('location_on', it.city), ('schedule', '${it.days} hari'), ('pin_drop', '${it.places} tempat')]),
             ],
+          ),
