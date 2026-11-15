@@ -144,3 +144,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
       canPop: false,
       onPopInvokedWithResult: (didPop, _) async {
         if (didPop) return;
+        if (await _confirmClose() && context.mounted) Navigator.pop(context);
