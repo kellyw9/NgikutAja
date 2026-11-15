@@ -344,3 +344,4 @@ class _SearchPageState extends State<SearchPage> {
       if (filter.budgetOn)
         NgChip(
           '${rp(filter.budget.start.round())}–${rp(filter.budget.end.round())}',
+          selected: true,
