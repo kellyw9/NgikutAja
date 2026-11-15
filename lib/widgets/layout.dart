@@ -280,3 +280,4 @@ class KeyValueBox extends StatelessWidget {
 }
 
 /// Baris daftar: ikon, judul, subjudul, chevron.
+class ListRow extends StatelessWidget {
