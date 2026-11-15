@@ -214,3 +214,4 @@ class _CustomizePageState extends State<CustomizePage> {
           NgButton('Tambah hari', expand: true, onPressed: () => Navigator.pop(ctx, true)),
         ],
       ),
+    );
