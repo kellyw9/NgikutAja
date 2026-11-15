@@ -625,3 +625,4 @@ class Seed {
           body: [
             'Kapal kayu dari Pelabuhan Ajibata ke Tomok berangkat tiap jam mulai pukul 07.00. Kapal terakhir ke Samosir pukul 19.00, '
                 'kapal terakhir kembali ke Ajibata pukul 18.00.',
+            'Tiket dibeli di atas kapal seharga Rp15.000 per orang. Sepeda motor bisa ikut menyeberang dengan biaya tambahan.',
