@@ -198,3 +198,4 @@ class TextLink extends StatelessWidget {
 /// Area ketuk generik dengan efek tekan, fokus, dan kursor tangan.
 class Tap extends StatelessWidget {
   const Tap({super.key, required this.child, this.onTap, this.radius = 0, this.label});
+  final Widget child;
