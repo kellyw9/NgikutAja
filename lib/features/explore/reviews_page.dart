@@ -219,3 +219,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
                       'close',
                       label: 'Batal membalas',
                       size: 32,
+                      iconSize: 16,
