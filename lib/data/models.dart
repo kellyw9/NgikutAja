@@ -382,3 +382,4 @@ class AppNotification {
   final String icon;
   final String lead; // bagian tebal di awal
   final String text;
+  final String time;
