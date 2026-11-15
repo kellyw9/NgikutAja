@@ -66,3 +66,4 @@ class _EditProfilePageState extends State<EditProfilePage> {
           name.text = me.name;
           user.text = me.handle.replaceFirst('@', '');
           bio.text = me.bio;
+          photo = me.photo;
