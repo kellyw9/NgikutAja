@@ -259,3 +259,4 @@ class _CustomizePageState extends State<CustomizePage> {
                       const SizedBox(height: 6),
                       Text(l, style: AppText.body.c(iss.conflict ? AppColors.negativeInk : AppColors.ink)),
                     ],
+                  ],
