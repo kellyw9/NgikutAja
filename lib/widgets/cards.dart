@@ -29,3 +29,4 @@ class Proof extends StatelessWidget {
       ],
       Flexible(
         child: Text('${thousands(it.adopted)} adopsi', style: AppText.small.muted, maxLines: 1, overflow: TextOverflow.ellipsis),
+      ),
