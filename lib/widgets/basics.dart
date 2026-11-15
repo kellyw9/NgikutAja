@@ -597,3 +597,4 @@ class Progress extends StatelessWidget {
           final w = c.maxWidth * value.clamp(0, 1);
           return Stack(
             children: [
+              Container(
