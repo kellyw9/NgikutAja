@@ -185,3 +185,4 @@ class _NextCard extends StatelessWidget {
   Widget build(BuildContext context) {
     final st = trip.plan[day][i];
     final info = travelInfo[st.name];
+    return Container(
