@@ -309,3 +309,4 @@ class StopRow extends StatelessWidget {
     super.key,
     required this.n,
     this.state = MarkerState.todo,
+    this.last = false,
