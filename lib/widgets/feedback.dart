@@ -81,3 +81,4 @@ void showNgSnack(BuildContext context, String text, {SnackKind kind = SnackKind.
   m.hideCurrentSnackBar();
   m.showSnackBar(
     SnackBar(
+      behavior: SnackBarBehavior.floating,
