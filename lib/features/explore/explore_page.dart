@@ -96,3 +96,4 @@ class _ExplorePageState extends State<ExplorePage> {
         TabHeader('Explore', actions: [Bell(onTap: () => push(context, const NotificationsPage()))]),
         Padding(
           padding: const EdgeInsets.symmetric(horizontal: kMargin),
+          child: Segmented(items: const ['Trending', 'Terbaru', 'Following'], active: tab, onChanged: _switch),
