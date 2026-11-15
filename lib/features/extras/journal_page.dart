@@ -97,3 +97,4 @@ class _JournalPageState extends State<JournalPage> {
             child: NgCard(
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
