@@ -86,3 +86,4 @@ class Itinerary {
     this.reviews,
     this.tags = const [],
     this.desc = '',
+    List<String>? dayTitles,
