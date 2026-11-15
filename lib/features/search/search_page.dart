@@ -178,3 +178,4 @@ class _SearchPageState extends State<SearchPage> {
                     onChanged: (_) => setState(() {}),
                     onSubmitted: _submit,
                     decoration: InputDecoration.collapsed(hintText: 'Cari kota atau itinerary', hintStyle: AppText.body.muted),
+                  ),
