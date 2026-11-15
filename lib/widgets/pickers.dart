@@ -127,3 +127,4 @@ class _CalendarState extends State<_Calendar> {
             for (var r = 0; r < cells.length / 7; r++) Row(children: [for (final d in cells.sublist(r * 7, r * 7 + 7)) cell(d)]),
           ],
         ),
+        Text(
