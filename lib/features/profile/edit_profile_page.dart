@@ -14,3 +14,4 @@ class _EditProfilePageState extends State<EditProfilePage> {
   late final me = AppScope.read(context).me;
   late final name = TextEditingController(text: me.name);
   late final user = TextEditingController(text: me.handle.replaceFirst('@', ''));
+  late final bio = TextEditingController(text: me.bio);
