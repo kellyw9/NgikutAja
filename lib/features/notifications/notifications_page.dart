@@ -55,3 +55,4 @@ class NotificationsPage extends StatelessWidget {
                 if (older.isNotEmpty) ...[_group('Kemarin'), for (final n in older) _row(context, app, n)],
               ],
             ),
+    );
