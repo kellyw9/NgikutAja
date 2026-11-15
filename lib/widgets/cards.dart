@@ -507,3 +507,4 @@ class _DayBox extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Row(
+                  children: [
