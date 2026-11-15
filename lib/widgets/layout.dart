@@ -264,3 +264,4 @@ class KeyValueBox extends StatelessWidget {
           ),
         if (total != null) ...[
           Container(height: 1, color: AppColors.line),
+          SizedBox(
