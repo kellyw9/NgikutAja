@@ -134,3 +134,4 @@ class Seed {
       plan: [
         [
           _s('07.30', '08.30', 'Soto Kesawan', _m, 35000, 'soto', 'Pesan soto ayam campur, kuahnya santan kuning.'),
+          _s('09.00', '10.30', 'Istana Maimun', _b, 10000, 'maimun', 'Datang sebelum rombongan tur, sekitar jam 9.'),
