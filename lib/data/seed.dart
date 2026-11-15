@@ -241,3 +241,4 @@ class Seed {
         city: 'Buleleng',
         region: 'Buleleng, Bali',
         days: 4,
+        cover: 'bratan',
