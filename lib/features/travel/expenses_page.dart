@@ -32,3 +32,4 @@ class ExpensesPage extends StatelessWidget {
             ('Dibagi ke', '$n orang (${rp((e.amount / n).round())} per orang)'),
           ]),
           Row(
+            children: [
