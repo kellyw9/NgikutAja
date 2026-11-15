@@ -53,3 +53,4 @@ class _CreatorProfilePageState extends State<CreatorProfilePage> {
                 Row(
                   children: [
                     Expanded(child: Text('Itinerary', style: AppText.h2)),
+                    NgChip('Semua', selected: !paidOnly, onTap: () => setState(() => paidOnly = false)),
