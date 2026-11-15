@@ -149,3 +149,4 @@ class TravelModePage extends StatelessWidget {
         bottomNavigationBar: BottomBar(
           children: [
             Expanded(
+              child: NgButton(
