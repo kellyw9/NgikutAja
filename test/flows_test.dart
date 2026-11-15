@@ -62,3 +62,5 @@ void main() {
     expect(s.loggedIn, isTrue);
     expect(find.byType(HomeShell), findsOneWidget);
   });
+
+  testWidgets('Adopt itinerary: konfirmasi, proses, berhasil masuk Trip Saya', (tester) async {
