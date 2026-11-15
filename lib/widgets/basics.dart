@@ -45,3 +45,5 @@ class NgButton extends StatelessWidget {
     BtnKind.text => (null, AppColors.primaryStrong, null),
     BtnKind.ghost => (AppColors.sunk, AppColors.ink, null),
   };
+
+  @override
