@@ -562,3 +562,4 @@ class CreatorRow extends StatelessWidget {
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
+                        Text(c.name, style: AppText.bodyStrong, maxLines: 1, overflow: TextOverflow.ellipsis),
