@@ -379,3 +379,4 @@ class AppNotification {
   });
   final String id;
   final NotifKind kind;
+  final String icon;
