@@ -281,3 +281,4 @@ class TripCard extends StatelessWidget {
                         ],
                       ),
                       const SizedBox(height: 6),
+                      Text(title.isEmpty ? 'Tanpa judul' : title, style: AppText.title, maxLines: 2, overflow: TextOverflow.ellipsis),
