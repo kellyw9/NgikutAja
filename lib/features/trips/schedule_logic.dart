@@ -21,3 +21,4 @@ int activeMinutes(List<Stop> day) => day.fold(0, (a, s) => a + s.duration);
 /// Jeda paling pendek antar aktivitas berurutan (menurut jam), dalam menit.
 int? shortestGap(List<Stop> day) {
   final s = [...day]..sort((a, b) => a.startMin.compareTo(b.startMin));
+  int? best;
