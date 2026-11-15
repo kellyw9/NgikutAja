@@ -362,3 +362,4 @@ class AppState extends ChangeNotifier {
 
   void removeMember(Trip t, Member m) {
     t.members.remove(m);
+    notifyListeners();
