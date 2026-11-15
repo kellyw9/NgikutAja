@@ -314,3 +314,4 @@ class Seed {
         creator: c['rahmat']!,
         price: 0,
         adopted: 140,
+        rating: 4.7,
