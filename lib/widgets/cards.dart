@@ -538,3 +538,4 @@ class _DayBox extends StatelessWidget {
 class CreatorRow extends StatelessWidget {
   const CreatorRow(this.c, {super.key, this.onTap, this.onGuest});
   final Creator c;
+  final VoidCallback? onTap;
