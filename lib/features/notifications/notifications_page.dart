@@ -67,3 +67,4 @@ class NotificationsPage extends StatelessWidget {
     final invite = n.kind == NotifKind.invite;
     return Material(
       color: n.unread ? AppColors.surface : Colors.transparent,
+      child: InkWell(
