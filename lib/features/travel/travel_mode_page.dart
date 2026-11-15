@@ -196,3 +196,4 @@ class _NextCard extends StatelessWidget {
         children: [
           Tap(
             onTap: () => push(context, TravelStopPage(trip: trip, day: day, i: i)),
+            radius: 6,
