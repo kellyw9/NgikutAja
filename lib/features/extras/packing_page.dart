@@ -127,3 +127,4 @@ class _PackingPageState extends State<PackingPage> {
                                   Text('Hapus', style: AppText.smallStrong.white),
                                 ],
                               ),
+                            ),
