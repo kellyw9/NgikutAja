@@ -153,3 +153,4 @@ class _OnboardingPageState extends State<OnboardingPage> {
                           Text(flow[i].$2, style: AppText.body.muted),
                         ],
                       ),
+                    ),
