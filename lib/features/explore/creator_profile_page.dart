@@ -65,3 +65,4 @@ class _CreatorProfilePageState extends State<CreatorProfilePage> {
                     title: 'Belum ada itinerary berbayar',
                     text: 'Semua itinerary creator ini bisa diadopsi gratis.',
                     height: 200,
+                  )
