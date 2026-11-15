@@ -128,3 +128,4 @@ class NewPasswordPage extends StatefulWidget {
 class _NewPasswordPageState extends State<NewPasswordPage> {
   final p1 = TextEditingController();
   final p2 = TextEditingController();
+  bool o1 = true, o2 = true, tried = false;
