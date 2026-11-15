@@ -163,3 +163,4 @@ Future<Category?> pickCategory(BuildContext context, Category current) {
                     Expanded(child: Text(Category.values[i].label, style: AppText.bodyStrong)),
                     RadioMark(Category.values[i] == current),
                   ],
+                ),
