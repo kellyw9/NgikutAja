@@ -21,3 +21,5 @@ void goTab(BuildContext context, int tab, {TripStatus? trips}) {
   if (trips != null) tripsTab.value = trips;
   shellTab.value = tab;
 }
+
+class HomeShell extends StatefulWidget {
