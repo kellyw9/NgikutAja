@@ -168,3 +168,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
               children: [
                 Row(
                   children: [
+                    Pill(status.label, kind: tripPill(status)),
