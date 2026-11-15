@@ -81,3 +81,4 @@ class _JournalPageState extends State<JournalPage> {
   Widget build(BuildContext context) {
     AppScope.of(context);
     final t = widget.trip;
+    final e = t.journal[day];
