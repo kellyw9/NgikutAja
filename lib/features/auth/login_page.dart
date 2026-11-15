@@ -11,3 +11,4 @@ final _emailRe = RegExp(r'^[^@\s]+@[^@\s]+\.[^@\s]+$');
 String? validateEmail(String v) {
   if (v.trim().isEmpty) return 'Isi email dulu';
   if (!_emailRe.hasMatch(v.trim())) return 'Format email belum benar';
+  return null;
