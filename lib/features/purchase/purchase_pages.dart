@@ -64,3 +64,4 @@ class PurchaseDetailPage extends StatelessWidget {
                   Avatar(it.creator.name, size: 36, tint: it.creator.tint),
                   const SizedBox(width: 10),
                   Expanded(
+                    child: Column(
