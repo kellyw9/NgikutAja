@@ -79,3 +79,4 @@ class OfflinePage extends StatelessWidget {
                   Text('Bisa dibuka tanpa sinyal', style: AppText.h2),
                   avail(true, 'Jadwal, jam, dan urutan tempat'),
                   avail(true, 'Catatan creator dan foto tempat'),
+                  avail(true, 'Pengeluaran dan packing list'),
