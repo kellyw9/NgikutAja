@@ -263,3 +263,4 @@ class Trip {
        members = members ?? [],
        expenses = expenses ?? [],
        packing = packing ?? [],
+       checkins = checkins ?? {},
