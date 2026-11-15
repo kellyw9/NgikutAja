@@ -243,3 +243,4 @@ class _EditTripInfoPageState extends State<EditTripInfoPage> {
       ..desc = desc.text.trim()
       ..start = start
       ..cover = cover;
+    AppScope.read(context).touch();
