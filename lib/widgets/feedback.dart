@@ -47,3 +47,4 @@ class NgBanner extends StatelessWidget {
                   if (text != null) Text(text!, style: (offline ? AppText.small : AppText.body).c(fg)),
                 ],
               ),
+            ),
