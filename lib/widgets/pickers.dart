@@ -151,3 +151,4 @@ Future<Category?> pickCategory(BuildContext context, Category current) {
           if (i > 0) const NgDivider(inset: 40, color: AppColors.line),
           Tap(
             onTap: () => Navigator.pop(ctx, Category.values[i]),
+            child: Semantics(
