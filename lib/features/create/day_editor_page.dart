@@ -206,3 +206,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
                           child: child,
                         ),
                       ),
+                      onReorderItem: (a, b) => setState(() {
