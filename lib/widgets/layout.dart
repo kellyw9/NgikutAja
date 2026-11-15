@@ -289,3 +289,4 @@ class ListRow extends StatelessWidget {
     this.trailing = const AppIcon('chevron_right', size: 20, color: AppColors.muted),
     this.danger = false,
     this.lead,
+    this.onTap,
