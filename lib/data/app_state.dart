@@ -314,3 +314,4 @@ class AppState extends ChangeNotifier {
   /// Simpan jadwal hasil Customize. Gagal kalau offline (perubahan tetap di layar).
   Future<void> saveTripPlan(Trip t, List<List<Stop>> plan, List<String> titles) async {
     await Future<void>.delayed(const Duration(milliseconds: 1100));
+    if (!online) throw const OfflineException();
