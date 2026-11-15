@@ -60,3 +60,4 @@ class _HomeShellState extends State<HomeShell> {
             bottomNavigationBar: BottomNav(active: t, onTap: _select),
           ),
         );
+      },
