@@ -51,3 +51,4 @@ class _PeoplePageState extends State<PeoplePage> {
                         mainAxisAlignment: MainAxisAlignment.center,
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
+                          Text(list[i].name, style: AppText.bodyStrong),
