@@ -149,3 +149,5 @@ class _TripDetailPageState extends State<TripDetailPage> {
       _ =>
         status == TripStatus.selesai ? 'Ringkasan trip sudah siap' : 'Tersedia setelah ${t.end != null ? dateRange(t.end!, t.end!) : 'trip selesai'}',
     };
+
+    return Scaffold(
