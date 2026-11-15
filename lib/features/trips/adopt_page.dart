@@ -169,3 +169,4 @@ class _AdoptPageState extends State<AdoptPage> {
     child: Row(
       children: [
         Expanded(
+          child: Column(
