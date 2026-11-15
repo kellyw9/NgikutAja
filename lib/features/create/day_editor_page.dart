@@ -241,3 +241,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
                       const AppIcon('warning', size: 16, color: AppColors.negative),
                       const SizedBox(width: 6),
                       Text('Selesaikan error sebelum lanjut', style: AppText.small.c(AppColors.negative)),
+                    ],
