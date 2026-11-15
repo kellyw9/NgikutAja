@@ -55,3 +55,4 @@ final Map<String, PageFor> pages = {
   'preview tanpa jadwal': (s) => PaidPreviewPage(it: s.itinerary('bali')),
   'reviews': (s) => ReviewsPage(it: s.itinerary('medan')),
   'comments': (s) => ReviewsPage(it: s.itinerary('medan'), comments: true),
+  'creator': (s) => CreatorProfilePage(c: s.seed.creators['rahmat']!),
