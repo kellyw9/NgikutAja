@@ -96,3 +96,4 @@ class WisataCard extends StatelessWidget {
                       const SizedBox(height: 4),
                       MetaRow([('location_on', it.city), ('schedule', '${it.days} hari')]),
                       const SizedBox(height: 4),
+                      Row(
