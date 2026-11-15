@@ -226,3 +226,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
                       active: paid ? 'Berbayar' : 'Gratis',
                       onChanged: (v) => setState(() {
                         paid = v == 'Berbayar';
+                        touched = true;
