@@ -262,3 +262,4 @@ class TripCard extends StatelessWidget {
     child: Column(
       children: [
         Tap(
+          onTap: onTap,
