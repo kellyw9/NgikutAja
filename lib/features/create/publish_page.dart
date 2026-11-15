@@ -101,3 +101,4 @@ class _PublishPageState extends State<PublishPage> {
               IntrinsicHeight(
                 child: Row(
                   crossAxisAlignment: CrossAxisAlignment.stretch,
+                  children: [
