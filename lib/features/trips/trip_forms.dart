@@ -113,3 +113,4 @@ class _EditStopPageState extends State<EditStopPage> {
                 label: 'Kategori',
                 icon: cat.icon,
                 value: cat.label,
+                trailing: 'expand_more',
