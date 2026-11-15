@@ -586,3 +586,4 @@ class CreatorRow extends StatelessWidget {
               icon: following ? 'check' : null,
               onPressed: () => app.loggedIn ? app.toggleFollow(c) : onGuest?.call(),
             ),
+          ],
