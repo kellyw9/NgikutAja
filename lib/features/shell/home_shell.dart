@@ -140,3 +140,4 @@ class BottomNav extends StatelessWidget {
         Expanded(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
+            children: [
