@@ -77,3 +77,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
     // Pesan error pertama di seluruh hari, supaya pengguna tahu harus ke hari mana.
     String? conflictMsg;
     for (var k = 0; k < d.plan.length && conflictMsg == null; k++) {
+      final c = conflictsIn(d.plan[k]);
