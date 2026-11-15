@@ -33,3 +33,4 @@ class DashboardPage extends StatelessWidget {
               ]),
               if (chartItem != null)
                 NgCard(
+                  child: Column(
