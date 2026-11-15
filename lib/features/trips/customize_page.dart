@@ -459,3 +459,4 @@ class _CustomizePageState extends State<CustomizePage> {
                       SingleChildScrollView(
                         scrollDirection: Axis.horizontal,
                         child: Row(
+                          children: [
