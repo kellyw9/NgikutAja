@@ -333,3 +333,4 @@ class Seed {
         publishedAt: _d(-60),
       ),
       Itinerary(
+        id: 'samosirmotor',
