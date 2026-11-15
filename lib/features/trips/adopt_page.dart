@@ -182,3 +182,4 @@ class _AdoptPageState extends State<AdoptPage> {
         NgToggle(v, label: title, onChanged: on),
       ],
     ),
+  );
