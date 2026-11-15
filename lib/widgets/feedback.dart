@@ -233,3 +233,4 @@ Future<Object?> showNgDialog(BuildContext context, {String? icon, required Strin
 }
 
 /// Empty state: ikon dalam kotak sunk, judul, kalimat, satu aksi.
+class EmptyState extends StatelessWidget {
