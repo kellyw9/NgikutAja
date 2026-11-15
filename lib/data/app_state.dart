@@ -325,3 +325,4 @@ class AppState extends ChangeNotifier {
   void checkIn(Trip t, int day, int i) {
     final now = DateTime.now();
     t.checkins['$day-$i'] = fromMinutes(now.hour * 60 + now.minute);
+    notifyListeners();
