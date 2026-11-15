@@ -51,3 +51,4 @@ class _EditProfilePageState extends State<EditProfilePage> {
     final uErr = userErr;
     return PopScope(
       canPop: !dirty,
+      onPopInvokedWithResult: (didPop, _) async {
