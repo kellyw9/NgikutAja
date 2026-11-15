@@ -145,3 +145,4 @@ class _OnboardingPageState extends State<OnboardingPage> {
                   Expanded(
                     child: Padding(
                       padding: EdgeInsets.only(top: 3, bottom: i < 4 ? 18 : 0),
+                      child: Column(
