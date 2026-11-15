@@ -630,3 +630,4 @@ class ProfileHead extends StatelessWidget {
               const SizedBox(width: 16),
               Expanded(
                 child: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
