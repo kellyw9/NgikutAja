@@ -214,3 +214,4 @@ class _MapPainter extends CustomPainter {
           ..strokeCap = StrokeCap.round,
       );
     }
+  }
