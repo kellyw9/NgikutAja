@@ -5,3 +5,5 @@ Future<T?> push<T>(BuildContext context, Widget page, {bool fullscreen = false})
 
 Future<T?> replace<T>(BuildContext context, Widget page) =>
     Navigator.of(context).pushReplacement<T, Object?>(MaterialPageRoute(builder: (_) => page));
+
+/// Ganti seluruh tumpukan halaman (setelah login, logout, onboarding).
