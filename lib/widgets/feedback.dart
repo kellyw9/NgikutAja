@@ -152,3 +152,4 @@ Future<T?> showNgSheet<T>(BuildContext context, {String? title, String? sub, req
                         child: Padding(
                           padding: const EdgeInsets.only(top: 10),
                           child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
