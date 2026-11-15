@@ -8,3 +8,4 @@ import '../search/search_page.dart';
 import '../trips/trips_page.dart';
 
 /// Tab aktif di cangkang utama. Halaman lain bisa pindah tab lewat [goTab].
+final shellTab = ValueNotifier<int>(0);
