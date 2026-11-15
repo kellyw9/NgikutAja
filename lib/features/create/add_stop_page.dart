@@ -214,3 +214,4 @@ class _AddStopPageState extends State<AddStopPage> {
                             child: DashedBox(
                               radius: AppRadius.card,
                               fill: AppColors.surfaceSoft,
+                              child: SizedBox(
