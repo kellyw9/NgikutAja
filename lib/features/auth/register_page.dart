@@ -61,3 +61,4 @@ class _RegisterPageState extends State<RegisterPage> {
       c.dispose();
     }
     super.dispose();
+  }
