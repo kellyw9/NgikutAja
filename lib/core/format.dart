@@ -25,3 +25,4 @@ const weekdaysShort = ['Sen', 'Sel', 'Rab', 'Kam', 'Jum', 'Sab', 'Min'];
 String dateLong(DateTime d) => '${weekdaysLong[d.weekday - 1]}, ${d.day} ${monthsShort[d.month - 1]} ${d.year}';
 
 /// "Sab, 12 Des"
+String dateShort(DateTime d) => '${weekdaysShort[d.weekday - 1]}, ${d.day} ${monthsShort[d.month - 1]}';
