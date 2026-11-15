@@ -17,3 +17,4 @@ class NgField extends StatefulWidget {
     this.value,
     this.hint = '',
     this.icon,
+    this.trailing,
