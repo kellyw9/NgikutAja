@@ -199,3 +199,4 @@ class FactStrip extends StatelessWidget {
         padding: const EdgeInsets.symmetric(vertical: 12),
         child: IntrinsicHeight(
           child: Row(
+            crossAxisAlignment: CrossAxisAlignment.stretch,
