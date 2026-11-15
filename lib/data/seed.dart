@@ -207,3 +207,4 @@ class Seed {
     final jogja = Itinerary(
       id: 'jogja',
       title: 'Jogja Hemat 3 Hari Naik Trans Jogja',
+      city: 'Yogyakarta',
