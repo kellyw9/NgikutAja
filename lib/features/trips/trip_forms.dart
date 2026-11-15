@@ -175,3 +175,4 @@ class _EditStopPageState extends State<EditStopPage> {
                   const SizedBox(height: 8),
                   Row(
                     children: [
+                      if (photo != null) ...[
