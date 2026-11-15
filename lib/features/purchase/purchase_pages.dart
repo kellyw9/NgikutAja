@@ -330,3 +330,4 @@ class _PaymentStatusPageState extends State<PaymentStatusPage> {
                 'Cek status transaksi',
                 kind: BtnKind.secondary,
                 icon: 'sync',
+                expand: true,
