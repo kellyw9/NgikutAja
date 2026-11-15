@@ -204,3 +204,4 @@ class _MapPainter extends CustomPainter {
       for (final pin in pins.skip(1)) {
         route.lineTo(pin.x * w, pin.y * h);
       }
+      canvas.drawPath(
