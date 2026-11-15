@@ -474,3 +474,4 @@ class ThousandsFormatter extends TextInputFormatter {
     final n = int.parse(digits);
     final s = n.toString();
     final buf = StringBuffer();
+    for (var i = 0; i < s.length; i++) {
