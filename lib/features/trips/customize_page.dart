@@ -496,3 +496,4 @@ class _CustomizePageState extends State<CustomizePage> {
               child: NgButton(saving ? 'Menyimpan...' : 'Simpan perubahan', expand: true, loading: saving, onPressed: _save),
             ),
           ],
+        ),
