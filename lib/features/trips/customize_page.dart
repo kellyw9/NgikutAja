@@ -329,3 +329,4 @@ class _CustomizePageState extends State<CustomizePage> {
                     Photo(t.cover, width: 56, height: 56, radius: AppRadius.inner),
                     const SizedBox(width: 10),
                     Expanded(
+                      child: Column(
