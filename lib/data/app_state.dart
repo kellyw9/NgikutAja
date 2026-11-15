@@ -393,3 +393,5 @@ class AppState extends ChangeNotifier {
     drafts.remove(d);
     notifyListeners();
   }
+
+  void publish(Itinerary d) {
