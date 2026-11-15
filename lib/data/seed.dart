@@ -218,3 +218,4 @@ class Seed {
       rating: 4.7,
       reviews: 58,
       tags: ['Budaya', 'Kuliner'],
+      desc: 'Tiga hari tanpa sewa mobil.',
