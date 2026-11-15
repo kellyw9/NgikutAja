@@ -302,3 +302,4 @@ class Seed {
         rating: 4.8,
         tags: ['Kuliner'],
         placesSeed: 6,
+        publishedAt: _d(-45),
