@@ -448,3 +448,4 @@ class Meta extends StatelessWidget {
       const SizedBox(width: 4),
       Flexible(child: Text(text, style: AppText.small.c(color))),
     ],
+  );
