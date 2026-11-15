@@ -387,3 +387,4 @@ class _PickLocationPageState extends State<PickLocationPage> {
                           controller: q,
                           style: AppText.body,
                           onChanged: (_) => setState(() {}),
+                          decoration: InputDecoration.collapsed(hintText: 'Nama tempat', hintStyle: AppText.body.muted),
