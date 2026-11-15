@@ -115,3 +115,4 @@ class _PublishPageState extends State<PublishPage> {
                     controller: price,
                     prefixText: 'Rp',
                     keyboardType: TextInputType.number,
+                    inputFormatters: [ThousandsFormatter()],
