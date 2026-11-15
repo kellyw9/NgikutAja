@@ -5,3 +5,5 @@ import '../trips/schedule_logic.dart';
 import 'add_stop_page.dart';
 import 'create_itinerary_page.dart';
 import 'publish_page.dart';
+
+/// Langkah 2: Editor Hari & Stop (+ state error: jam bentrok, hari tanpa stop).
