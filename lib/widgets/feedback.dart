@@ -115,3 +115,4 @@ void showNgSnack(BuildContext context, String text, {SnackKind kind = SnackKind.
 }
 
 /// Bottom sheet: pegangan, judul kiri + tombol tutup, isi dengan jarak 16.
+Future<T?> showNgSheet<T>(BuildContext context, {String? title, String? sub, required WidgetBuilder builder, bool scroll = false}) {
