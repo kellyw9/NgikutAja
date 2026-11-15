@@ -415,3 +415,4 @@ class Segmented extends StatelessWidget {
   final List<int?>? counts;
 
   @override
+  Widget build(BuildContext context) {
