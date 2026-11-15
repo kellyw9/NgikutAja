@@ -71,3 +71,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
           NgCard(
             child: Row(
               children: [
+                SizedBox(
