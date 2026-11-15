@@ -135,3 +135,4 @@ class Seed {
         [
           _s('07.30', '08.30', 'Soto Kesawan', _m, 35000, 'soto', 'Pesan soto ayam campur, kuahnya santan kuning.'),
           _s('09.00', '10.30', 'Istana Maimun', _b, 10000, 'maimun', 'Datang sebelum rombongan tur, sekitar jam 9.'),
+          _s('10.45', '11.30', 'Masjid Raya Al-Mashun', _b, 0, 'masjidraya', 'Ada kain pinjaman di pintu masuk.'),
