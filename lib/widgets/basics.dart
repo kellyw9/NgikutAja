@@ -256,3 +256,4 @@ class Photo extends StatelessWidget {
       img = Image.asset(
         'assets/photos/$s.jpg',
         fit: BoxFit.cover,
+        width: width,
