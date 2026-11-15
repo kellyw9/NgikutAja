@@ -194,3 +194,4 @@ Future<String?> pickPhotoSheet(BuildContext context, {String title = 'Tambah fot
   if (choice == null) return null;
   if (choice == 'remove') return '';
   try {
+    return await pickPhoto(choice == 'camera' ? PhotoSource.camera : PhotoSource.gallery);
