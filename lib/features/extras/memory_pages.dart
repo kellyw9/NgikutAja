@@ -129,3 +129,4 @@ class _PhotoViewerPageState extends State<PhotoViewerPage> {
               ),
               Padding(
                 padding: const EdgeInsets.fromLTRB(kMargin, 16, kMargin, 24),
+                child: Align(
