@@ -56,3 +56,4 @@ class ProfilePage extends StatelessWidget {
                 onTap: () => push(context, const DashboardPage()),
               ),
               ListRow(
+                icon: 'receipt_long',
