@@ -432,3 +432,5 @@ class PriceTag extends StatelessWidget {
     ),
   );
 }
+
+/// Item metadata: ikon 16 + teks kecil.
