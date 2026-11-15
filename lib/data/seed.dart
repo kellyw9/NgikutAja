@@ -230,3 +230,5 @@ class Seed {
         ],
       ],
     );
+
+    itineraries = [
