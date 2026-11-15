@@ -96,3 +96,4 @@ class MapView extends StatelessWidget {
                       alignment: Alignment.center,
                       decoration: BoxDecoration(color: AppColors.surface, borderRadius: BorderRadius.circular(AppRadius.tag)),
                       child: Text('Peta sementara', style: AppText.small.muted),
+                    ),
