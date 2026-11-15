@@ -224,3 +224,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
                   NgButton(
                     'Buka Travel Mode',
                     kind: BtnKind.secondary,
+                    icon: 'near_me',
