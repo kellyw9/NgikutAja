@@ -60,3 +60,4 @@ class OfflinePage extends StatelessWidget {
                         label: 'Simpan ${t.title} untuk offline',
                         onChanged: (v) {
                           if (v && !app.online) {
+                            showNgSnack(context, 'Butuh internet untuk mengunduh data trip.', kind: SnackKind.error);
