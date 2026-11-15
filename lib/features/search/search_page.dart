@@ -354,3 +354,4 @@ class _SearchPageState extends State<SearchPage> {
     return ListView(
       padding: const EdgeInsets.only(bottom: 24),
       children: [
+        if (chips.isNotEmpty)
