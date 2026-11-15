@@ -75,3 +75,4 @@ class TravelModePage extends StatelessWidget {
                     Padding(
                       padding: const EdgeInsets.fromLTRB(kMargin, 4, kMargin, 16),
                       child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
