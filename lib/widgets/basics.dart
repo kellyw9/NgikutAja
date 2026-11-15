@@ -116,3 +116,4 @@ class IconBtn extends StatelessWidget {
     this.size = 44,
     this.iconSize = 24,
     this.filled = false,
+    this.stroke,
