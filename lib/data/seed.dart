@@ -81,3 +81,4 @@ class Seed {
         bio: 'Keliling Jogja naik Trans Jogja dan jalan kaki.',
         followers: 2310,
         following: 98,
+      ),
