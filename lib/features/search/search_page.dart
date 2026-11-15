@@ -573,3 +573,4 @@ class _BudgetSlider extends StatelessWidget {
           rangeTrackShape: const RectangularRangeSliderTrackShape(),
           activeTickMarkColor: Colors.transparent,
           inactiveTickMarkColor: Colors.transparent,
+          showValueIndicator: ShowValueIndicator.never,
