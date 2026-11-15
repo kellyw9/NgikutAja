@@ -375,3 +375,4 @@ class _SearchPageState extends State<SearchPage> {
                       kind: BtnKind.secondary,
                       size: BtnSize.md,
                       onPressed: () {
+                        input.clear();
