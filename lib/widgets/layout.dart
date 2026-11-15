@@ -440,3 +440,4 @@ class HeroPhoto extends StatelessWidget {
                   children: [
                     for (var i = 0; i < right.length; i++) ...[if (i > 0) const SizedBox(width: 8), right[i]],
                   ],
+                ),
