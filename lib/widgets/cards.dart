@@ -426,3 +426,4 @@ class StopRow extends StatelessWidget {
       child: Semantics(
         label: blur ? 'Aktivitas $n terkunci' : 'Aktivitas $n, ${st.start} sampai ${st.end}',
         child: onTap == null ? row : Tap(onTap: onTap, radius: 6, child: row),
+      ),
