@@ -25,3 +25,4 @@ class Creator {
   });
 
   final String id;
+  String name;
