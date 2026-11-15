@@ -122,3 +122,4 @@ Future<T?> showNgSheet<T>(BuildContext context, {String? title, String? sub, req
     useSafeArea: true,
     backgroundColor: AppColors.surface,
     barrierColor: AppColors.scrim,
+    elevation: 0,
