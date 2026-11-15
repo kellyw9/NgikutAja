@@ -207,3 +207,4 @@ class _InterestCard extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(title, style: AppText.title),
+                const SizedBox(height: 2),
