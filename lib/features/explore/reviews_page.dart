@@ -237,3 +237,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
                       constraints: const BoxConstraints(minHeight: 44),
                       padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 12),
                       decoration: BoxDecoration(color: AppColors.ground, borderRadius: BorderRadius.circular(AppRadius.control)),
+                      child: TextField(
