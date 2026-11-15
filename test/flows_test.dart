@@ -167,3 +167,4 @@ void main() {
     await tester.pumpWidget(host(s, const HomeShell()));
     await tester.pump(const Duration(seconds: 1));
     await tester.tap(find.byTooltip('Simpan ke Wishlist').first);
+    await tester.pumpAndSettle();
