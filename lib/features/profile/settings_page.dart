@@ -93,3 +93,4 @@ class SettingsPage extends StatelessWidget {
                   onTap: () => push(context, const OfflinePage()),
                 ),
               ]),
+              group('Informasi aplikasi', [
