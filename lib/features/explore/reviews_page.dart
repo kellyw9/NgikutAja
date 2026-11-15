@@ -241,3 +241,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
                         controller: input,
                         focusNode: focus,
                         minLines: 1,
+                        maxLines: 4,
