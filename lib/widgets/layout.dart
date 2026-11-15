@@ -327,3 +327,4 @@ class ListRow extends StatelessWidget {
               ),
             ),
             if (trailing != null) ...[const SizedBox(width: 14), trailing!],
+          ],
