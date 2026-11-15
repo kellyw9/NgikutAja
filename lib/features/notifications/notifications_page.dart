@@ -176,3 +176,4 @@ class NotificationDetailPage extends StatelessWidget {
               ),
               if (st != null && trip != null) ...[
                 Text(
+                  'Aktivitas berikutnya di trip "${trip.title}" dimulai pukul ${st.start}.'
