@@ -107,3 +107,4 @@ class _ExplorePageState extends State<ExplorePage> {
               children: [
                 if (tab == 'Trending' && !loading) ...[
                   SectionHead('Kota populer', action: 'Lihat semua', onAction: () => goSearch(context, '')),
+                  const SizedBox(height: 12),
