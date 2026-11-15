@@ -289,3 +289,4 @@ class TravelStopPage extends StatelessWidget {
                 MetaRow([('schedule', '${st.start}–${st.end}'), (st.cat.icon, st.cat.label), ('payments', st.cost > 0 ? rp(st.cost) : 'Gratis')]),
                 if (st.desc != null) Text(st.desc!, style: AppText.body),
                 if (st.note != null)
+                  Container(
