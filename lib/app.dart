@@ -58,3 +58,4 @@ ThemeData buildTheme() {
       selectionColor: AppColors.teal.withValues(alpha: .3),
       selectionHandleColor: AppColors.teal,
     ),
+    tooltipTheme: TooltipThemeData(
