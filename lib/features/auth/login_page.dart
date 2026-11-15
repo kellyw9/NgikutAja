@@ -50,3 +50,4 @@ class _LoginPageState extends State<LoginPage> {
     if (ok) {
       FocusScope.of(context).unfocus();
       if (widget.popOnSuccess) {
+        Navigator.pop(context);
