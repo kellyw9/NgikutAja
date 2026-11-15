@@ -54,3 +54,4 @@ class _OnboardingPageState extends State<OnboardingPage> {
     return AnnotatedRegion(
       value: kDarkIcons,
       child: Scaffold(
+        backgroundColor: AppColors.ground,
