@@ -103,3 +103,4 @@ final Map<String, PageFor> pages = {
 };
 
 void main() {
+  setUpAll(() async {
