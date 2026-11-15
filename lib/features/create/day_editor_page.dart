@@ -134,3 +134,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
                       'add',
                       label: 'Tambah hari',
                       size: 36,
+                      iconSize: 20,
