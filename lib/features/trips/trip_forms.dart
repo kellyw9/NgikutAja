@@ -183,3 +183,4 @@ class _EditStopPageState extends State<EditStopPage> {
                               right: 2,
                               top: 2,
                               child: IconBtn(
+                                'close',
