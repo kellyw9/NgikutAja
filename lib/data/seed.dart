@@ -648,3 +648,5 @@ class Seed {
         ),
       ],
     };
+
+    followers = [
