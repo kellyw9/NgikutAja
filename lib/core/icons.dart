@@ -106,3 +106,4 @@ class _SpinIconState extends State<SpinIcon> with SingleTickerProviderStateMixin
 
   @override
   Widget build(BuildContext context) => Semantics(
+    label: 'Memuat',
