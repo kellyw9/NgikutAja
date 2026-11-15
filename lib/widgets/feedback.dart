@@ -311,3 +311,4 @@ class SkeletonCard extends StatelessWidget {
   const SkeletonCard({super.key});
 
   @override
+  Widget build(BuildContext context) => Semantics(
