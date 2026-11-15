@@ -93,3 +93,4 @@ class _CheckinPageState extends State<CheckinPage> {
                     BoxList(
                       children: [
                         for (final k in history)
+                          ListRow(
