@@ -195,3 +195,4 @@ class Expense {
   final String id;
   String name;
   ExpenseCat cat;
+  int amount;
