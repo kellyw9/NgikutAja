@@ -168,3 +168,4 @@ class MembersPage extends StatelessWidget {
     return Scaffold(
       backgroundColor: AppColors.ground,
       appBar: NgAppBar(title: 'Anggota trip', sub: trip.title),
+      body: ListView(
