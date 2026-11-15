@@ -418,3 +418,4 @@ class NavigationPage extends StatelessWidget {
                     const SizedBox(width: 10),
                     Expanded(
                       child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
