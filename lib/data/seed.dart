@@ -401,3 +401,4 @@ class Seed {
       Itinerary(
         id: 'draft-sarapan',
         title: 'Sarapan Medan Sebelum Jam 9 (revisi)',
+        city: 'Medan',
