@@ -107,3 +107,4 @@ class _ItineraryDetailPageState extends State<ItineraryDetailPage> {
                   if (it.tags.isNotEmpty) Wrap(spacing: 6, runSpacing: 6, children: [for (final t in it.tags) Pill(t, kind: PillKind.teal)]),
                   Text(it.title, style: AppText.h1),
                   MetaRow([('location_on', it.region)]),
+                  FactStrip([
