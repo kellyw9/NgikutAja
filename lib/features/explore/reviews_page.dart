@@ -82,3 +82,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
                       Text('${it.reviews ?? 0} ulasan', style: AppText.small.muted),
                     ],
                   ),
+                ),
