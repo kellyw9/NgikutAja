@@ -315,3 +315,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
         ],
       ),
     );
+  }
