@@ -326,3 +326,4 @@ class _AddExpensePageState extends State<AddExpensePage> {
                         ),
                 ],
               ),
+              NgButton('Simpan pengeluaran', expand: true, onPressed: _save),
