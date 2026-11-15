@@ -154,3 +154,4 @@ class NotificationDetailPage extends StatelessWidget {
       backgroundColor: AppColors.ground,
       appBar: const NgAppBar(),
       body: ListView(
+        padding: const EdgeInsets.fromLTRB(kMargin, 0, kMargin, 16),
