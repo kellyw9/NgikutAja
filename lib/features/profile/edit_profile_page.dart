@@ -128,3 +128,4 @@ class _EditProfilePageState extends State<EditProfilePage> {
           ],
         ),
         bottomNavigationBar: SafeArea(
+          child: Padding(
