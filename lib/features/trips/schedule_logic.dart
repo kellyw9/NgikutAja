@@ -121,3 +121,4 @@ List<String> shiftCascade(List<Stop> day, Stop target, int newStart) {
           ],
         ),
       );
+      if (plan.length > 1) {
