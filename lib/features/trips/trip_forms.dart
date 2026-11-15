@@ -96,3 +96,4 @@ class _EditStopPageState extends State<EditStopPage> {
         back: 'close',
         actions: [NgButton('Simpan', kind: BtnKind.text, size: BtnSize.md, onPressed: _save)],
       ),
+      body: ListView(
