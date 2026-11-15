@@ -180,3 +180,4 @@ class Bell extends StatelessWidget {
                 decoration: BoxDecoration(
                   color: AppColors.negative,
                   shape: BoxShape.circle,
+                  border: Border.all(color: AppColors.ground, width: 2),
