@@ -88,3 +88,4 @@ class _PackingPageState extends State<PackingPage> {
           Gap(
             16,
             children: [
+              Column(
