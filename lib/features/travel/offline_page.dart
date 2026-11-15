@@ -33,3 +33,4 @@ class OfflinePage extends StatelessWidget {
       body: ListView(
         padding: const EdgeInsets.fromLTRB(kMargin, 8, kMargin, 16),
         children: [
+          Gap(
