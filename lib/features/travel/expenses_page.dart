@@ -211,3 +211,4 @@ class _AddExpensePageState extends State<AddExpensePage> {
           cat: cat,
           amount: n,
           by: by,
+          day: day,
