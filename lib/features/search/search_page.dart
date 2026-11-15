@@ -46,3 +46,4 @@ class SearchFilter {
       '4+' => 4.0,
       '4,5+' => 4.5,
       _ => null,
+    };
