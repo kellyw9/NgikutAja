@@ -235,3 +235,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
               mainAxisSize: MainAxisSize.min,
               children: [
                 if (anyError) ...[
+                  Row(
