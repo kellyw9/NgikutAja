@@ -214,3 +214,4 @@ class Grid2 extends StatelessWidget {
                       showWish: showWish,
                     )
                   : const SizedBox(),
+            ),
