@@ -200,3 +200,4 @@ class MembersPage extends StatelessWidget {
                                 Text(trip.members[i].handle, style: AppText.small.muted),
                               ],
                             ),
+                          ),
