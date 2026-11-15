@@ -336,3 +336,4 @@ class ListRow extends StatelessWidget {
 
 /// Blok putih bergaris tipis berisi baris yang dipisah garis (inset dari kiri).
 class BoxList extends StatelessWidget {
+  const BoxList({super.key, required this.children, this.inset = 48, this.padV = 2});
