@@ -73,3 +73,4 @@ class _AddStopPageState extends State<AddStopPage> {
               NgField(
                 label: 'Nama tempat',
                 icon: 'storefront',
+                controller: name,
