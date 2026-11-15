@@ -201,3 +201,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
                       padding: EdgeInsets.zero,
                       proxyDecorator: (child, _, _) => Material(
                         color: Colors.transparent,
+                        child: DecoratedBox(
