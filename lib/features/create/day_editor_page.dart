@@ -177,3 +177,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
                             child: const AppIcon('location_on', size: 30),
                           ),
                           const SizedBox(height: 12),
+                          Text('Belum ada stop', style: AppText.h2),
