@@ -84,3 +84,4 @@ class Seed {
       ),
       'komang': Creator(
         id: 'komang',
+        name: 'Komang Ayu',
