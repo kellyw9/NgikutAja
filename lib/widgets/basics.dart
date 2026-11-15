@@ -113,3 +113,4 @@ class IconBtn extends StatelessWidget {
     this.onTap,
     this.bg,
     this.color = AppColors.ink,
+    this.size = 44,
