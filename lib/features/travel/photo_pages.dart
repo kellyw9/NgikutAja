@@ -41,3 +41,4 @@ class _PhotoPreviewPageState extends State<PhotoPreviewPage> {
               NgField(
                 label: 'Aktivitas terkait',
                 icon: st?.cat.icon ?? 'pin_drop',
+                value: st == null ? 'Tanpa aktivitas' : '${st.name} (Hari ${widget.day + 1})',
