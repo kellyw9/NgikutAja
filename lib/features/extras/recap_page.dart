@@ -16,3 +16,4 @@ class RecapPage extends StatelessWidget {
   Widget build(BuildContext context) {
     final t = trip;
     final names = [
+      for (final d in t.plan)
