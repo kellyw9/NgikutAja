@@ -498,3 +498,4 @@ class PurchaseHistoryPage extends StatelessWidget {
 }
 
 /// 8.5 Detail transaksi.
+class TransactionDetailPage extends StatelessWidget {
