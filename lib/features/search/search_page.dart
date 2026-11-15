@@ -442,3 +442,4 @@ class _SearchPageState extends State<SearchPage> {
           Widget group(String label, Widget child) => Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
+              Text(label, style: AppText.bodyStrong),
