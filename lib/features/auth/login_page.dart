@@ -158,3 +158,4 @@ class _LoginPageState extends State<LoginPage> {
                                 'Daftar',
                                 color: AppColors.ink,
                                 onTap: () => widget.popOnSuccess
+                                    ? Navigator.pushReplacement(context, MaterialPageRoute(builder: (_) => const RegisterPage(popOnSuccess: true)))
