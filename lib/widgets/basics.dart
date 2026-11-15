@@ -141,3 +141,4 @@ class IconBtn extends StatelessWidget {
         excludeFromSemantics: true,
         child: Material(
           color: bg ?? Colors.transparent,
+          shape: RoundedRectangleBorder(
