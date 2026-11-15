@@ -291,3 +291,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
                 DayItem('Hari ${d + 1}', date: t.dayDate(d) == null ? null : dateShort(t.dayDate(d)!), sub: '${t.plan[d].length} tempat'),
             ],
             active: day,
+            today: status == TripStatus.berjalan ? app.currentDay(t) : null,
