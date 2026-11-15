@@ -165,3 +165,4 @@ class _SearchPageState extends State<SearchPage> {
               borderRadius: BorderRadius.circular(AppRadius.control),
               border: Border.all(color: focus.hasFocus ? AppColors.ink : AppColors.control, width: focus.hasFocus ? 2 : 1),
             ),
+            child: Row(
