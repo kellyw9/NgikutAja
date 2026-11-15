@@ -221,3 +221,4 @@ class _AddStopPageState extends State<AddStopPage> {
                                   mainAxisAlignment: MainAxisAlignment.center,
                                   children: [
                                     const AppIcon('add_a_photo', size: 22),
+                                    const SizedBox(height: 6),
