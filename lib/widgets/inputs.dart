@@ -251,3 +251,4 @@ class NgToggle extends StatelessWidget {
                       decoration: BoxDecoration(color: value ? AppColors.white : AppColors.control, shape: BoxShape.circle),
                     ),
                   ),
+                ),
