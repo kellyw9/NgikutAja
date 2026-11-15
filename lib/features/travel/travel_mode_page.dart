@@ -20,3 +20,4 @@ class TravelModePage extends StatelessWidget {
     final day = app.currentDay(t);
     final stops = t.plan[day];
     final next = app.nextIndex(t, day);
+    final date = t.dayDate(day);
