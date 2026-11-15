@@ -56,3 +56,4 @@ class _LoginPageState extends State<LoginPage> {
         resetTo(context, const HomeShell());
       }
     }
+  }
