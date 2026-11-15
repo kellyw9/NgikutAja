@@ -62,3 +62,4 @@ class _CustomizePageState extends State<CustomizePage> {
         DialogAction('Lanjut mengedit', kind: BtnKind.primary, value: false),
         DialogAction('Buang perubahan', kind: BtnKind.dangerText, value: true),
       ],
+    );
