@@ -144,3 +144,4 @@ class _SearchPageState extends State<SearchPage> {
         _searchRow(),
         if (submitted == null || typing)
           Padding(
+            padding: const EdgeInsets.symmetric(horizontal: kMargin),
