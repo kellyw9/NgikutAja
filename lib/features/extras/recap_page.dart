@@ -29,3 +29,4 @@ class RecapPage extends StatelessWidget {
         actions: [IconBtn('share', label: 'Bagikan recap', onTap: () => shareText(_summary(t)))],
       ),
       body: ListView(
+        padding: const EdgeInsets.fromLTRB(kMargin, 8, kMargin, 24),
