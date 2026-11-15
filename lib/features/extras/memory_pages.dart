@@ -88,3 +88,4 @@ class _PhotoViewerPageState extends State<PhotoViewerPage> {
     return AnnotatedRegion(
       value: kLightIcons,
       child: Scaffold(
+        backgroundColor: AppColors.ink,
