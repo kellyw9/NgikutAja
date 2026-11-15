@@ -66,3 +66,5 @@ class _JournalPageState extends State<JournalPage> {
     }
     AppScope.read(context).touch();
   }
+
+  Future<void> _addPhoto() async {
