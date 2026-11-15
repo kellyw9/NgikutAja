@@ -9,3 +9,4 @@ class SplitBudgetPage extends StatefulWidget {
 
   @override
   State<SplitBudgetPage> createState() => _SplitBudgetPageState();
+}
