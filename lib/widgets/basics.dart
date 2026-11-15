@@ -148,3 +148,4 @@ class IconBtn extends StatelessWidget {
           clipBehavior: Clip.antiAlias,
           child: InkWell(
             onTap: onTap,
+            customBorder: RoundedRectangleBorder(borderRadius: radius),
