@@ -189,3 +189,4 @@ class _PublishPageState extends State<PublishPage> {
 
 /// Langkah 6: Berhasil Publish.
 class PublishedPage extends StatelessWidget {
+  const PublishedPage({super.key, required this.d});
