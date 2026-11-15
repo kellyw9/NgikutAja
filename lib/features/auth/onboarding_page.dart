@@ -99,3 +99,5 @@ class _OnboardingPageState extends State<OnboardingPage> {
       ),
     );
   }
+
+  Widget _scroll(List<Widget> children) => LayoutBuilder(
