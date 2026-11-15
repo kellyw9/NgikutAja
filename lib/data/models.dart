@@ -326,3 +326,4 @@ class Trip {
 }
 
 class Review {
+  Review({required this.name, required this.tint, required this.stars, required this.date, required this.text});
