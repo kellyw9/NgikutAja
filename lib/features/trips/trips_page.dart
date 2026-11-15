@@ -149,3 +149,4 @@ class TripsPage extends StatelessWidget {
     return Column(
       children: [
         Row(
+          children: [
