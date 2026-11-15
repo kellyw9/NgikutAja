@@ -629,3 +629,4 @@ class Stars extends StatelessWidget {
           AppIcon('star', size: size, filled: k <= n, color: k <= n ? AppColors.ink : AppColors.control),
         ],
       ],
+    ),
