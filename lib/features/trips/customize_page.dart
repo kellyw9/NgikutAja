@@ -399,3 +399,4 @@ class _CustomizePageState extends State<CustomizePage> {
                       buildDefaultDragHandles: false,
                       padding: EdgeInsets.zero,
                       proxyDecorator: (child, _, _) => Material(
+                        color: AppColors.surface,
