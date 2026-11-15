@@ -35,3 +35,5 @@ class WishlistPage extends StatelessWidget {
     );
   }
 }
+
+class _Row extends StatelessWidget {
