@@ -330,3 +330,4 @@ class _SearchPageState extends State<SearchPage> {
                   Text(sub, style: AppText.small.muted),
                 ],
               ),
+            ),
