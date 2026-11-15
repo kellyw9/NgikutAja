@@ -189,3 +189,4 @@ class Expense {
     required this.amount,
     required this.by,
     required this.day,
+    required this.time,
