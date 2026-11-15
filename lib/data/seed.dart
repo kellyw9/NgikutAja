@@ -211,3 +211,4 @@ class Seed {
       region: 'Yogyakarta, DIY',
       days: 3,
       cover: 'prambanan',
+      creator: c['bayu']!,
