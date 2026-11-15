@@ -370,3 +370,4 @@ class NgCard extends StatelessWidget {
     this.fill = AppColors.surface,
   });
   final Widget child;
+  final EdgeInsets padding;
