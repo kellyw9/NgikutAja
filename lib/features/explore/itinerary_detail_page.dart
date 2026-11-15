@@ -219,3 +219,4 @@ class _ItineraryDetailPageState extends State<ItineraryDetailPage> {
               children: [
                 Text(it.isPaid ? rp(it.price) : 'Gratis', style: AppText.h2),
                 const SizedBox(height: 2),
+                Text('${it.places} tempat dalam ${it.days} hari', style: AppText.small.muted),
