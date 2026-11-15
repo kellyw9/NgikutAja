@@ -280,3 +280,4 @@ class _AddStopPageState extends State<AddStopPage> {
         ],
       ),
       bottomNavigationBar: SafeArea(
+        child: Padding(
