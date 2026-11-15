@@ -30,3 +30,4 @@ Future<String?> pickPhoto(PhotoSource source) async {
     source: source == PhotoSource.camera ? ImageSource.camera : ImageSource.gallery,
     maxWidth: 1600,
     imageQuality: 85,
+  );
