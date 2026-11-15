@@ -337,3 +337,4 @@ class AppState extends ChangeNotifier {
   }
 
   void addExpense(Trip t, Expense e) {
+    t.expenses.add(e);
