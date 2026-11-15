@@ -121,3 +121,4 @@ class _PublishPageState extends State<PublishPage> {
                     error: parseRupiah(price.text) < 5000 ? 'Harga minimal Rp5.000' : null,
                   ),
                 ),
+              Text('Kesiapan itinerary', style: AppText.h2),
