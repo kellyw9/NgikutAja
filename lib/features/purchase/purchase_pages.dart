@@ -490,3 +490,4 @@ class PurchaseHistoryPage extends StatelessWidget {
                       Text(rp(t.amount), style: AppText.bodyStrong),
                     ],
                   ),
+                );
