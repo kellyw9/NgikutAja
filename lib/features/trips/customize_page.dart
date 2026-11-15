@@ -58,3 +58,4 @@ class _CustomizePageState extends State<CustomizePage> {
       context,
       title: 'Buang perubahan?',
       body: 'Ada $changes perubahan yang belum disimpan.',
+      actions: const [
