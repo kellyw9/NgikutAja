@@ -52,3 +52,4 @@ class NgBanner extends StatelessWidget {
               const SizedBox(width: 10),
               Semantics(
                 button: true,
+                child: InkWell(
