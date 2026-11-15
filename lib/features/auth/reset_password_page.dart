@@ -90,3 +90,4 @@ class _ResetPasswordPageState extends State<ResetPasswordPage> {
                         kind: BannerKind.success,
                         title: 'Tautan terkirim',
                         text: 'Cek kotak masuk ${maskEmail(email.text.trim())}. Kalau tidak ada, lihat folder spam.',
+                      ),
