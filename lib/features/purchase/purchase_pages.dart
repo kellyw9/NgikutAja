@@ -191,3 +191,4 @@ class _PaymentPageState extends State<PaymentPage> {
         builder: (_) => PaymentStatusPage(tx: tx, offlineFail: !app.online, fromFlow: true),
       ),
     );
+  }
