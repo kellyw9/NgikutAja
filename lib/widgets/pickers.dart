@@ -128,3 +128,4 @@ class _CalendarState extends State<_Calendar> {
           ],
         ),
         Text(
+          widget.days > 1
