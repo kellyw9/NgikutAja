@@ -99,3 +99,4 @@ class _ExplorePageState extends State<ExplorePage> {
           child: Segmented(items: const ['Trending', 'Terbaru', 'Following'], active: tab, onChanged: _switch),
         ),
         Expanded(
+          child: RefreshIndicator(
