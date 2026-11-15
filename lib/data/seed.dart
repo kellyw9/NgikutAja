@@ -225,3 +225,4 @@ class Seed {
       plan: [
         [
           _s('08.00', '10.00', 'Malioboro', _so, 0, 'malioboro'),
+          _s('10.30', '12.00', 'Taman Sari', _b, 15000, 'tamansari'),
