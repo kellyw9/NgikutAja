@@ -67,3 +67,4 @@ class PurchaseDetailPage extends StatelessWidget {
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
+                        Text(it.creator.name, style: AppText.bodyStrong),
