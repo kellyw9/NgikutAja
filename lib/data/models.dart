@@ -313,3 +313,4 @@ class Trip {
     if (t.isBefore(start!)) return TripStatus.diadopsi;
     if (t.isAfter(end!)) return TripStatus.selesai;
     return TripStatus.berjalan;
+  }
