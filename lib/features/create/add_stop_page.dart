@@ -15,3 +15,5 @@ class AddStopPage extends StatefulWidget {
   @override
   State<AddStopPage> createState() => _AddStopPageState();
 }
+
+class _AddStopPageState extends State<AddStopPage> {
