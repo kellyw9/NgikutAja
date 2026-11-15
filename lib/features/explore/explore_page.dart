@@ -7,3 +7,4 @@ import '../shell/home_shell.dart';
 import 'itinerary_detail_page.dart';
 
 /// 2.1 Explore / Feed.
+class ExplorePage extends StatefulWidget {
