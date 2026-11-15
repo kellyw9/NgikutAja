@@ -7,3 +7,4 @@ class OfflinePage extends StatelessWidget {
   const OfflinePage({super.key});
 
   String _now() {
+    final n = DateTime.now();
