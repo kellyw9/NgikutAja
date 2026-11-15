@@ -428,3 +428,4 @@ class Seed {
         cover: 'toba',
         from: toba,
         plan: copyPlan(toba.plan),
+        dayTitles: [...toba.dayTitles],
