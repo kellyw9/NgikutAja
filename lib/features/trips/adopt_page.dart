@@ -150,3 +150,4 @@ class _AdoptPageState extends State<AdoptPage> {
                           const SizedBox(height: 2),
                           Text('Jadwal, catatan, dan foto tempat bisa dibuka tanpa sinyal.', style: AppText.small.muted),
                         ],
+                      ),
