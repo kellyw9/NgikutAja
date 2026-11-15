@@ -444,3 +444,4 @@ bool _closeFlow(NavigatorState nav) {
 
 /// 8.5 Riwayat Pembelian.
 class PurchaseHistoryPage extends StatelessWidget {
+  const PurchaseHistoryPage({super.key});
