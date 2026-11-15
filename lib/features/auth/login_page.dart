@@ -184,3 +184,4 @@ class GoogleButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) => SizedBox(
+    height: 48,
