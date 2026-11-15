@@ -92,3 +92,4 @@ class Seed {
         following: 61,
       ),
       'yosef': Creator(
+        id: 'yosef',
