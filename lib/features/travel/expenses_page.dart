@@ -8,3 +8,4 @@ String expenseTime(Trip t, Expense e) {
   return d == null
       ? 'Hari ${e.day + 1} pukul ${e.time}'
       : 'Hari ${e.day + 1}, ${weekdaysLong[d.weekday - 1]} ${d.day} ${monthsShort[d.month - 1]} pukul ${e.time}';
+}
