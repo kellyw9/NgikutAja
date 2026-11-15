@@ -33,3 +33,4 @@ void main() {
     expect(issues.single.conflict, isTrue);
     tips.first.apply([day]);
     expect(day[1].start, '14.45');
+    expect(conflictsIn(day), isEmpty);
