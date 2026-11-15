@@ -145,3 +145,4 @@ class AppState extends ChangeNotifier {
   /// Trending: adopsi per hari sejak terbit, itinerary yang cocok dengan minat pengguna diberi bobot 1,5x.
   List<Itinerary> trending() {
     final list = [...published];
+    double score(Itinerary x) {
