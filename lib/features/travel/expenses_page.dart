@@ -117,3 +117,4 @@ class ExpensesPage extends StatelessWidget {
                 )
               else
                 BoxList(
+                  children: [
