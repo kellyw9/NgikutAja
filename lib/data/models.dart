@@ -121,3 +121,4 @@ class Itinerary {
   int? estimateSeed;
   int? placesSeed;
   DateTime publishedAt;
+  bool isDraft;
