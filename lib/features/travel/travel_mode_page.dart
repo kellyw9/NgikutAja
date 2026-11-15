@@ -54,3 +54,4 @@ class TravelModePage extends StatelessWidget {
                             ),
                             Container(
                               height: 28,
+                              padding: const EdgeInsets.only(left: 6, right: 10),
