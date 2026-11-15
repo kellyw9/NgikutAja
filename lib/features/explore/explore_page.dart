@@ -104,3 +104,4 @@ class _ExplorePageState extends State<ExplorePage> {
             onRefresh: _load,
             child: ListView(
               padding: const EdgeInsets.only(top: 16, bottom: 24),
+              children: [
