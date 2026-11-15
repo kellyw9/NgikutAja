@@ -31,3 +31,4 @@ class AppState extends ChangeNotifier {
     trips = [...seed.trips];
     comments = {
       for (final e in seed.comments.entries) e.key: [...e.value],
+    };
