@@ -260,3 +260,4 @@ class Seed {
         region: 'Manggarai Barat, NTT',
         days: 3,
         cover: 'labuanbajo',
+        creator: c['yosef']!,
