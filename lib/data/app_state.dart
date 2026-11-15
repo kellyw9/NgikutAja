@@ -415,3 +415,5 @@ class AppState extends ChangeNotifier {
     }
     notifyListeners();
   }
+
+  void markRead(AppNotification n) {
