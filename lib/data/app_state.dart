@@ -77,3 +77,4 @@ class AppState extends ChangeNotifier {
   final Map<String, String> _accounts = {'dinda.saragi@gmail.com': 'ngikutaja'};
 
   void finishOnboarding(Set<String> picked) {
+    onboarded = true;
