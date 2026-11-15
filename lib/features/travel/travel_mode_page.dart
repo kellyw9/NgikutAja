@@ -472,3 +472,4 @@ class NavigationPage extends StatelessWidget {
                   'Buka Google Maps',
                   icon: 'map',
                   expand: true,
+                  onPressed: () async {
