@@ -21,3 +21,4 @@ class _PeoplePageState extends State<PeoplePage> {
     if (!widget.followers) {
       following.addAll(AppScope.read(context).seed.followingPeople.map((p) => p.handle));
     }
+  }
