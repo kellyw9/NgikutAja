@@ -85,3 +85,4 @@ class _NgFieldState extends State<NgField> {
 
   @override
   Widget build(BuildContext context) {
+    final err = widget.error != null;
