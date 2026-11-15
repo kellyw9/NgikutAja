@@ -9,3 +9,4 @@ class MembersPage extends StatelessWidget {
   final Trip trip;
 
   static PillKind _kind(MemberRole r) => switch (r) {
+    MemberRole.owner => PillKind.solid,
