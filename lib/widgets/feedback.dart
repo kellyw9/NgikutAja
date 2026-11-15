@@ -281,3 +281,4 @@ class ErrorBlock extends StatelessWidget {
       border: Border.all(color: AppColors.line),
     ),
     child: Row(
+      children: [
