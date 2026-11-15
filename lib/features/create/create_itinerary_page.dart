@@ -198,3 +198,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
                           title: 'Durasi itinerary',
                           scroll: true,
                           builder: (ctx) => Column(
+                            children: [
