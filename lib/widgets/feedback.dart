@@ -220,3 +220,4 @@ Future<Object?> showNgDialog(BuildContext context, {String? icon, required Strin
                   actions[i].label,
                   kind: actions[i].kind,
                   size: BtnSize.md,
+                  expand: true,
