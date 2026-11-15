@@ -213,3 +213,4 @@ class _PaymentPageState extends State<PaymentPage> {
                     Opacity(
                       opacity: processing && title != method ? .5 : 1,
                       child: Semantics(
+                        inMutuallyExclusiveGroup: true,
