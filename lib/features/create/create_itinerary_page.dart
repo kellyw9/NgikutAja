@@ -243,3 +243,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
                     const SizedBox(height: 8),
                     Wrap(
                       spacing: 8,
+                      runSpacing: 8,
