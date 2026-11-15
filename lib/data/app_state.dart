@@ -112,3 +112,4 @@ class AppState extends ChangeNotifier {
     loggedIn = v;
     _prefs?.setBool('loggedIn', v);
     notifyListeners();
+  }
