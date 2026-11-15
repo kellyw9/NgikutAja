@@ -373,3 +373,4 @@ class StatusView extends StatelessWidget {
   Widget build(BuildContext context) => SafeArea(
     child: LayoutBuilder(
       builder: (context, c) => SingleChildScrollView(
+        padding: EdgeInsets.fromLTRB(kMargin, top ? 28 : 24, kMargin, 24),
