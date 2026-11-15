@@ -328,3 +328,4 @@ class TravelStopPage extends StatelessWidget {
                     ],
                   ),
                 Row(
+                  children: [
