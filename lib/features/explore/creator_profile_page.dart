@@ -38,3 +38,4 @@ class _CreatorProfilePageState extends State<CreatorProfilePage> {
             action: c == app.me
                 ? const SizedBox()
                 : NgButton(
+                    following ? 'Mengikuti' : 'Ikuti',
