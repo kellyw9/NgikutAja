@@ -141,3 +141,4 @@ class AboutPage extends StatelessWidget {
                 if (!snap.hasData && !snap.hasError) const Align(alignment: Alignment.centerLeft, child: SpinIcon()),
                 for (final e in credits.entries)
                   Row(
+                    crossAxisAlignment: CrossAxisAlignment.start,
