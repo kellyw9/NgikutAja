@@ -119,3 +119,4 @@ class DashboardPage extends StatelessWidget {
                                     Text(rp(x.price * app.salesOf(x)), style: AppText.bodyStrong),
                                   ],
                                 ),
+                              ),
