@@ -326,3 +326,4 @@ class Seed {
         days: 3,
         cover: 'toba',
         creator: c['lestari']!,
+        price: 20000,
