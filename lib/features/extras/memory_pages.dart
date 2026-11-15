@@ -90,3 +90,4 @@ class _PhotoViewerPageState extends State<PhotoViewerPage> {
       child: Scaffold(
         backgroundColor: AppColors.ink,
         body: SafeArea(
+          child: Column(
