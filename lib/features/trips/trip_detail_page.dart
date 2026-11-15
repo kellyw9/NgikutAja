@@ -271,3 +271,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
                           'journal' => push(context, JournalPage(trip: t)),
                           'photo' => push(context, PhotoMemoryPage(trip: t)),
                           _ =>
+                            status == TripStatus.selesai
