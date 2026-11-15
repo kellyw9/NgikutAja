@@ -54,3 +54,4 @@ class ProfilePage extends StatelessWidget {
                 title: 'Creator dashboard',
                 sub: 'Pendapatan ${rp(app.revenue)} (simulasi)',
                 onTap: () => push(context, const DashboardPage()),
+              ),
