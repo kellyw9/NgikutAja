@@ -397,3 +397,4 @@ class _CustomizePageState extends State<CustomizePage> {
                       shrinkWrap: true,
                       physics: const NeverScrollableScrollPhysics(),
                       buildDefaultDragHandles: false,
+                      padding: EdgeInsets.zero,
