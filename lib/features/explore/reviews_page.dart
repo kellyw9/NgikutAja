@@ -122,3 +122,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
                     Row(
                       children: [
                         Avatar(r.name, size: 36, tint: r.tint),
+                        const SizedBox(width: 10),
