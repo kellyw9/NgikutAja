@@ -288,3 +288,4 @@ class _AddExpensePageState extends State<AddExpensePage> {
                           RadioRow(
                             title: 'Hari ${k + 1}',
                             sub: t.dayDate(k) == null ? null : dateLong(t.dayDate(k)!),
+                            selected: k == day,
