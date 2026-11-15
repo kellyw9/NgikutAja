@@ -66,3 +66,4 @@ class DashboardPage extends StatelessWidget {
                                           ),
                                         ),
                                         Container(height: 1, color: AppColors.line),
+                                        const SizedBox(height: 4),
