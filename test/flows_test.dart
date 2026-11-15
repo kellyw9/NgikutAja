@@ -136,3 +136,4 @@ void main() {
     await tester.pumpWidget(host(s, const CreateItineraryPage()));
     await tapText(tester, 'Lanjut ke hari & stop', button: true);
     await tester.pump();
+    expect(find.text('Judul wajib diisi'), findsOneWidget);
