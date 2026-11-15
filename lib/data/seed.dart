@@ -577,3 +577,4 @@ class Seed {
       ),
       AppNotification(
         id: 'n3',
+        kind: NotifKind.payment,
