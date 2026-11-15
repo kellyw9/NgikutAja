@@ -65,3 +65,4 @@ class _CheckinPageState extends State<CheckinPage> {
                 const NgBanner(
                   kind: BannerKind.warning,
                   title: 'Masih jauh dari lokasi',
+                  text:
