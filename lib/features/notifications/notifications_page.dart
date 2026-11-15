@@ -133,3 +133,4 @@ class NotificationsPage extends StatelessWidget {
         ),
       ),
     );
+  }
