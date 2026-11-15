@@ -167,3 +167,4 @@ class _PublishPageState extends State<PublishPage> {
                         _apply();
                         app.publish(d);
                         Navigator.of(context).pushAndRemoveUntil(MaterialPageRoute(builder: (_) => PublishedPage(d: d)), (r) => r.isFirst);
+                      }
