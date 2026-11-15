@@ -231,3 +231,4 @@ class JournalEntry {
 }
 
 class Trip {
+  Trip({
