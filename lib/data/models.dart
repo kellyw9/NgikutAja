@@ -58,3 +58,5 @@ class Stop {
   String? note;
   String? desc;
   String? address;
+
+  int get startMin => toMinutes(start);
