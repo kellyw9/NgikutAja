@@ -391,3 +391,4 @@ class Seed {
         title: 'Berastagi Sehari dari Medan',
         city: 'Berastagi',
         region: 'Karo, Sumatera Utara',
+        days: 1,
