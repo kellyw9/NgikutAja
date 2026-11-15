@@ -20,3 +20,5 @@ void saveDraftAndClose(BuildContext context, Itinerary d) {
 class CreateItineraryPage extends StatefulWidget {
   const CreateItineraryPage({super.key, this.draft});
   final Itinerary? draft;
+
+  @override
