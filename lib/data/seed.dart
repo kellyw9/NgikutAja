@@ -394,3 +394,4 @@ class Seed {
         days: 1,
         cover: null,
         creator: me,
+        isDraft: true,
