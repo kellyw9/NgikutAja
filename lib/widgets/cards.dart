@@ -193,3 +193,4 @@ class Grid2 extends StatelessWidget {
   final bool showWish;
 
   @override
+  Widget build(BuildContext context) => Column(
