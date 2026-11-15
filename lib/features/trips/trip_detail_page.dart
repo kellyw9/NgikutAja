@@ -109,3 +109,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
                 ),
               ),
               const SizedBox(width: 8),
+              Expanded(
