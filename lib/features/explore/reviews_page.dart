@@ -75,3 +75,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
                   width: 84,
                   child: Column(
                     children: [
+                      Text(decimal(it.rating!), style: AppText.display),
