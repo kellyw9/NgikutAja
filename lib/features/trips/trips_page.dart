@@ -142,3 +142,4 @@ class TripsPage extends StatelessWidget {
         const SizedBox(height: 12),
       ],
     ];
+  }
