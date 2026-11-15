@@ -241,3 +241,4 @@ class _SearchPageState extends State<SearchPage> {
             child: SizedBox(
               height: 44,
               child: Padding(
+                padding: const EdgeInsets.only(left: kMargin, right: 8),
