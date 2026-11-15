@@ -172,3 +172,4 @@ Future<T?> showNgSheet<T>(BuildContext context, {String? title, String? sub, req
                     child: IconBtn('close', label: 'Tutup', onTap: () => Navigator.pop(ctx)),
                   ),
                 ),
+              if (scroll) Flexible(child: SingleChildScrollView(child: content)) else content,
