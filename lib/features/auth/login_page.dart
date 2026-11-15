@@ -26,3 +26,4 @@ class LoginPage extends StatefulWidget {
 class _LoginPageState extends State<LoginPage> {
   final email = TextEditingController();
   final pass = TextEditingController();
+  bool obscure = true;
