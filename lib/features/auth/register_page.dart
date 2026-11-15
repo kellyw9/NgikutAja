@@ -148,3 +148,4 @@ class _RegisterPageState extends State<RegisterPage> {
                       Center(
                         child: Wrap(
                           crossAxisAlignment: WrapCrossAlignment.center,
+                          children: [
