@@ -577,3 +577,5 @@ class NgDivider extends StatelessWidget {
     child: Container(height: 1, color: color),
   );
 }
+
+class Progress extends StatelessWidget {
