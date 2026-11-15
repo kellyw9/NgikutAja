@@ -22,3 +22,4 @@ class Creator {
     required this.followers,
     required this.following,
     this.photo,
+  });
