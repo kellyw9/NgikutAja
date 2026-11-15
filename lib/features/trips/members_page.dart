@@ -183,3 +183,4 @@ class MembersPage extends StatelessWidget {
                       padding: const EdgeInsets.only(left: 14, right: 12),
                       child: Row(
                         children: [
+                          Avatar(trip.members[i].name, size: 36, tint: trip.members[i].tint),
