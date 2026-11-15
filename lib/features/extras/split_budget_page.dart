@@ -41,3 +41,4 @@ class _SplitBudgetPageState extends State<SplitBudgetPage> {
       final amt = (debt[di][1] as int) < (cred[ci][1] as int) ? debt[di][1] as int : cred[ci][1] as int;
       if (amt > 0) settle.add((debt[di][0] as String, cred[ci][0] as String, amt));
       debt[di][1] = (debt[di][1] as int) - amt;
+      cred[ci][1] = (cred[ci][1] as int) - amt;
