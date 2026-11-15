@@ -224,3 +224,4 @@ Future<Object?> showNgDialog(BuildContext context, {String? icon, required Strin
                   onPressed: () => Navigator.pop(ctx, actions[i].value ?? i),
                 ),
               ],
+            ],
