@@ -431,3 +431,4 @@ class Segmented extends StatelessWidget {
                 child: Material(
                   color: items[i] == active ? AppColors.surface : Colors.transparent,
                   shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(AppRadius.inner),
