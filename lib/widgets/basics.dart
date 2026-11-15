@@ -403,3 +403,4 @@ class Pill extends StatelessWidget {
       decoration: BoxDecoration(color: bg, borderRadius: BorderRadius.circular(AppRadius.tag)),
       child: Row(
         mainAxisSize: MainAxisSize.min,
+        children: [
