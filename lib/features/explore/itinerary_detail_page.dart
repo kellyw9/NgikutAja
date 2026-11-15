@@ -8,3 +8,5 @@ import 'reviews_page.dart';
 
 /// Buka itinerary: berbayar dan belum dibeli -> preview, selain itu detail lengkap.
 void openItinerary(BuildContext context, Itinerary it) => pushItinerary(Navigator.of(context), AppScope.read(context), it);
+
+/// Rute itinerary diberi nama 'itinerary' supaya alur pembelian bisa kembali ke sini.
