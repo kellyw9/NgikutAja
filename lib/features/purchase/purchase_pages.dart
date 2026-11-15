@@ -475,3 +475,4 @@ class PurchaseHistoryPage extends StatelessWidget {
                       Photo(t.item.cover, width: 52, height: 52, radius: AppRadius.inner),
                       const SizedBox(width: 12),
                       Expanded(
+                        child: Column(
