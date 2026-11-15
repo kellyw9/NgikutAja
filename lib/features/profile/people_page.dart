@@ -80,3 +80,4 @@ class _PeoplePageState extends State<PeoplePage> {
       label,
       kind: on ? BtnKind.ghost : BtnKind.secondary,
       size: BtnSize.md,
+      onPressed: () {
