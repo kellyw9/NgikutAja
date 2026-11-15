@@ -88,3 +88,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
       onPopInvokedWithResult: (didPop, _) => _saveTitle(),
       child: Scaffold(
         backgroundColor: AppColors.ground,
+        appBar: NgAppBar(title: d.title, sub: 'Editor hari & stop', trailingTitle: draftPill),
