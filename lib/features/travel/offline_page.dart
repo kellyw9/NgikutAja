@@ -24,3 +24,4 @@ class OfflinePage extends StatelessWidget {
           const SizedBox(width: 10),
           Expanded(child: Text(text, style: AppText.body)),
         ],
+      ),
