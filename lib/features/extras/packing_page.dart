@@ -64,3 +64,4 @@ class _PackingPageState extends State<PackingPage> {
     AppScope.read(context).touch();
     showNgSnack(
       context,
+      '${it.name} dihapus.',
