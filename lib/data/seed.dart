@@ -563,3 +563,4 @@ class Seed {
         text: 'Bukit Holbung pukul 12.30. Jaraknya 6,4 km dari posisimu.',
         time: '12.00',
         today: true,
+        unread: true,
