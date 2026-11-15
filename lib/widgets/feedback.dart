@@ -42,3 +42,4 @@ class NgBanner extends StatelessWidget {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
+                  if (title != null) Text(title!, style: AppText.bodyStrong.c(fg)),
