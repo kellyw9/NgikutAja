@@ -50,3 +50,4 @@ class MapView extends StatelessWidget {
       builder: (context, c) {
         final w = c.maxWidth;
         final h = height ?? c.maxHeight;
+        return SizedBox(
