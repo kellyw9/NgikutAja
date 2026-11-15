@@ -314,3 +314,4 @@ class SkeletonCard extends StatelessWidget {
   Widget build(BuildContext context) => Semantics(
     label: 'Memuat itinerary',
     child: Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
