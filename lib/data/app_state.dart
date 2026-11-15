@@ -401,3 +401,4 @@ class AppState extends ChangeNotifier {
       ..publishedAt = DateTime.now();
     itineraries.insert(0, d);
     notifyListeners();
+  }
