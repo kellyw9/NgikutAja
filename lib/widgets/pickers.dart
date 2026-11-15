@@ -47,3 +47,4 @@ class _CalendarState extends State<_Calendar> {
     while (cells.length % 7 != 0) {
       cells.add(null);
     }
+    final end = sel.add(Duration(days: widget.days - 1));
