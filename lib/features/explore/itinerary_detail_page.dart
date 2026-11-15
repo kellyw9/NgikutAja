@@ -14,3 +14,4 @@ void pushItinerary(NavigatorState nav, AppState app, Itinerary it) => nav.push(
   MaterialPageRoute(
     settings: const RouteSettings(name: 'itinerary'),
     builder: (_) => app.canOpen(it) ? ItineraryDetailPage(it: it) : PaidPreviewPage(it: it),
+  ),
