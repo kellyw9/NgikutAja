@@ -119,3 +119,4 @@ class _LoginPageState extends State<LoginPage> {
                           autofillHints: const [AutofillHints.password],
                           onSubmitted: (_) => _submit(),
                           trailing: ObscureToggle(obscured: obscure, onTap: () => setState(() => obscure = !obscure)),
+                          error: passErr,
