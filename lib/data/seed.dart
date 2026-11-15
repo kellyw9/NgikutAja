@@ -177,3 +177,4 @@ class Seed {
       publishedAt: _d(-10),
       desc:
           'Rute pelan mengelilingi Samosir: kapal dari Ajibata, menginap di Tuktuk, bukit Holbung saat cuaca cerah, '
+          'dan sore di pantai Parbaba.',
