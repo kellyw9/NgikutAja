@@ -51,3 +51,4 @@ ThemeData buildTheme() {
     colorScheme: scheme,
     scaffoldBackgroundColor: AppColors.ground,
     fontFamily: AppText.family,
+    textTheme: TextTheme(bodyMedium: AppText.body, bodyLarge: AppText.body, titleMedium: AppText.title, labelLarge: AppText.button),
