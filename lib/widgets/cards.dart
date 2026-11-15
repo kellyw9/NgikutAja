@@ -157,3 +157,4 @@ class WisataCard extends StatelessWidget {
                     if (showWish) Positioned(right: 10, top: 10, child: WishButton(it, onGuest: onGuest)),
                   ],
                 ),
+              ),
