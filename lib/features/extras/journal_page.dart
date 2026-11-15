@@ -153,3 +153,4 @@ class _JournalPageState extends State<JournalPage> {
                       child: NgButton('Tambah foto', kind: BtnKind.secondary, icon: 'add_a_photo', expand: true, onPressed: _addPhoto),
                     ),
                     const SizedBox(width: 8),
+                    Expanded(
