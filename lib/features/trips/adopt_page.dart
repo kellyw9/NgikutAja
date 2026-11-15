@@ -249,3 +249,4 @@ class _AdoptProgressPageState extends State<AdoptProgressPage> {
                 text: '${it.places} tempat, catatan, dan foto sedang disimpan ke Trip Saya${widget.offline ? ' dan memori HP untuk offline' : ''}.',
                 actions: const [NgButton('Menyalin...', expand: true)],
               )
+            : failed
