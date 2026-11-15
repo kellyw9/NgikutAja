@@ -82,3 +82,4 @@ class _ResetPasswordPageState extends State<ResetPasswordPage> {
                       error: err,
                       keyboardType: TextInputType.emailAddress,
                       readOnly: sent,
+                      onSubmitted: (_) => _send(),
