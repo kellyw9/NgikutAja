@@ -209,3 +209,4 @@ class _PaymentPageState extends State<PaymentPage> {
               Text('Pilih metode pembayaran', style: AppText.h2),
               BoxList(
                 children: [
+                  for (final (icon, title, sub) in _methods)
