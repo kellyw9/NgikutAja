@@ -65,3 +65,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
   );
 
   void _stopSheet(Trip t, int day, int i) {
+    final st = t.plan[day][i];
