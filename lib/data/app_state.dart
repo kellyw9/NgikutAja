@@ -12,3 +12,4 @@ import 'services.dart';
 /// Gagal menyimpan karena perangkat offline (simulasi panggilan ke server).
 class OfflineException implements Exception {
   const OfflineException();
+}
