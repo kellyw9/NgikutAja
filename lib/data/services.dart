@@ -42,3 +42,4 @@ Future<void> shareText(String text, {String? subject}) async {
 /// Buka Google Maps (aplikasi atau browser) untuk mencari tempat atau rute.
 Future<bool> openMaps(String query, {bool directions = false}) {
   final q = Uri.encodeComponent(query);
+  final url = directions ? 'https://www.google.com/maps/dir/?api=1&destination=$q' : 'https://www.google.com/maps/search/?api=1&query=$q';
