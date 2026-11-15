@@ -91,3 +91,4 @@ class _PublishPageState extends State<PublishPage> {
                           Meta('person', '${app.me.name} (${app.me.handle})'),
                           const SizedBox(height: 6),
                           MetaRow([('schedule', '${d.plan.length} hari'), ('pin_drop', '${d.stopCount} stop'), ('payments', rp(total))]),
+                        ],
