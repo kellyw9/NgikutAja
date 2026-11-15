@@ -123,3 +123,4 @@ void main() {
         await tester.pumpWidget(
           AppScope(
             state: s,
+            child: MaterialApp(theme: buildTheme(), home: e.value(s)),
