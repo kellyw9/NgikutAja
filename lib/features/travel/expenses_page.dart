@@ -235,3 +235,4 @@ class _AddExpensePageState extends State<AddExpensePage> {
     return Scaffold(
       backgroundColor: AppColors.ground,
       appBar: NgAppBar(title: e == null ? 'Tambah pengeluaran' : 'Edit pengeluaran', back: 'close'),
+      body: ListView(
