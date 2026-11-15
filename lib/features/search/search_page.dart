@@ -48,3 +48,4 @@ class SearchFilter {
       _ => null,
     };
     if (min != null && (it.rating ?? 0) < min) return false;
+    if (price == 'Gratis' && it.isPaid) return false;
