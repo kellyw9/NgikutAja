@@ -27,3 +27,4 @@ class _CheckinPageState extends State<CheckinPage> {
     final nextAfter = app.nextIndex(t, widget.day);
     final history = [
       for (var k = 0; k < stops.length; k++)
+        if (t.isChecked(widget.day, k)) k,
