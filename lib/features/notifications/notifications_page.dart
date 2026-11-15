@@ -152,3 +152,4 @@ class NotificationDetailPage extends StatelessWidget {
     final date = app.today;
     return Scaffold(
       backgroundColor: AppColors.ground,
+      appBar: const NgAppBar(),
