@@ -248,3 +248,4 @@ class PublishedPage extends StatelessWidget {
                       'Lihat itinerary',
                       expand: true,
                       onPressed: () {
+                        final nav = Navigator.of(context);
