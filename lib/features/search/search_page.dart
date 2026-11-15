@@ -52,3 +52,4 @@ class SearchFilter {
     if (price == 'Berbayar' && !it.isPaid) return false;
     return true;
   }
+}
