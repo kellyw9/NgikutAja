@@ -45,3 +45,4 @@ class _OnboardingPageState extends State<OnboardingPage> {
 
   @override
   void dispose() {
+    _pc.dispose();
