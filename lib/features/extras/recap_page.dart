@@ -78,3 +78,4 @@ class RecapPage extends StatelessWidget {
                               Expanded(
                                 flex: 3,
                                 child: Column(
+                                  children: [
