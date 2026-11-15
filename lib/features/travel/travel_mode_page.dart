@@ -302,3 +302,4 @@ class TravelStopPage extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Text('Catatan creator', style: AppText.bodyStrong),
+                              const SizedBox(height: 2),
