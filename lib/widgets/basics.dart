@@ -550,3 +550,4 @@ class Marker extends StatelessWidget {
     return Container(
       width: size,
       height: size,
+      alignment: Alignment.center,
