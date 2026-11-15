@@ -398,3 +398,4 @@ class AppState extends ChangeNotifier {
     drafts.remove(d);
     d
       ..isDraft = false
+      ..publishedAt = DateTime.now();
