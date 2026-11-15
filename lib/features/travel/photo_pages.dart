@@ -36,3 +36,4 @@ class _PhotoPreviewPageState extends State<PhotoPreviewPage> {
         children: [
           Gap(
             16,
+            children: [
