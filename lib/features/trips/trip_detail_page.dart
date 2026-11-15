@@ -206,3 +206,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
                         icon: 'edit',
                         expand: true,
                         onPressed: status == TripStatus.selesai ? null : () => push(context, CustomizePage(trip: t, initialDay: day)),
+                      ),
