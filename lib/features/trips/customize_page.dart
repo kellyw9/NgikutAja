@@ -274,3 +274,4 @@ class _CustomizePageState extends State<CustomizePage> {
                       children: [
                         Text(s.title, style: AppText.bodyStrong),
                         const SizedBox(height: 2),
+                        Text(s.sub, style: AppText.small.muted),
