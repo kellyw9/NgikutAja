@@ -289,3 +289,4 @@ class _AddExpensePageState extends State<AddExpensePage> {
                             title: 'Hari ${k + 1}',
                             sub: t.dayDate(k) == null ? null : dateLong(t.dayDate(k)!),
                             selected: k == day,
+                            onTap: () => Navigator.pop(ctx, k),
