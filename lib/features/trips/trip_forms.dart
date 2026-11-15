@@ -90,3 +90,4 @@ class _EditStopPageState extends State<EditStopPage> {
     final editing = s != null;
     return Scaffold(
       backgroundColor: AppColors.ground,
+      appBar: NgAppBar(
