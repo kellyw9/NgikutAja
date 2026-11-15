@@ -285,3 +285,4 @@ class _AddExpensePageState extends State<AddExpensePage> {
                     builder: (ctx) => Column(
                       children: [
                         for (var k = 0; k < t.days; k++)
+                          RadioRow(
