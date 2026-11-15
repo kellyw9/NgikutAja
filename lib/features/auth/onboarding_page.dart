@@ -75,3 +75,4 @@ class _OnboardingPageState extends State<OnboardingPage> {
                                 width: k == page ? 24 : 8,
                                 height: 8,
                                 decoration: BoxDecoration(color: k == page ? AppColors.ink : AppColors.sunk, borderRadius: BorderRadius.circular(4)),
+                              ),
