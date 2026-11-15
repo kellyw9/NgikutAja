@@ -180,3 +180,4 @@ class _ItineraryDetailPageState extends State<ItineraryDetailPage> {
             ),
             const SizedBox(height: 12),
             Padding(
+              padding: const EdgeInsets.symmetric(horizontal: kMargin),
