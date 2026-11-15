@@ -108,3 +108,4 @@ class _ItineraryDetailPageState extends State<ItineraryDetailPage> {
                   Text(it.title, style: AppText.h1),
                   MetaRow([('location_on', it.region)]),
                   FactStrip([
+                    ('Durasi', '${it.days} hari'),
