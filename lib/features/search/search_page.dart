@@ -346,3 +346,4 @@ class _SearchPageState extends State<SearchPage> {
           '${rp(filter.budget.start.round())}–${rp(filter.budget.end.round())}',
           selected: true,
           close: true,
+          onTap: () => setState(() => filter.budget = const RangeValues(0, _maxBudget)),
