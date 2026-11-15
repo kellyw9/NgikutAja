@@ -139,3 +139,4 @@ class PermissionDeniedPage extends StatelessWidget {
             Text('Izin lokasi dibutuhkan', style: AppText.h1),
             const SizedBox(height: 14),
             Text(
+              'Check-in memakai GPS untuk memastikan kamu benar-benar berada di lokasi. '
