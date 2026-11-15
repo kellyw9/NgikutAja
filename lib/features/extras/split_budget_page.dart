@@ -156,3 +156,4 @@ class _SplitBudgetPageState extends State<SplitBudgetPage> {
                                 padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 8),
                                 child: Row(
                                   children: [
+                                    Expanded(
