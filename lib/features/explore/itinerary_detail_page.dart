@@ -128,3 +128,4 @@ class _ItineraryDetailPageState extends State<ItineraryDetailPage> {
                           icon: 'star',
                           filled: true,
                           text: '${decimal(it.rating!)} (${it.reviews ?? 0} ulasan)',
+                          label: 'Rating ${decimal(it.rating!)}, buka ulasan',
