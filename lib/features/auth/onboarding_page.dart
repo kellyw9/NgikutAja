@@ -134,3 +134,4 @@ class _OnboardingPageState extends State<OnboardingPage> {
                 children: [
                   SizedBox(
                     width: 28,
+                    child: Column(
