@@ -97,3 +97,4 @@ class _CalendarState extends State<_Calendar> {
               size: 36,
               iconSize: 20,
               onTap: month.isAfter(firstMonth) ? () => setState(() => month = DateTime(month.year, month.month - 1)) : null,
+            ),
