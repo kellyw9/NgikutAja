@@ -87,3 +87,4 @@ class _RoutePainter extends CustomPainter {
     // M14 50 C 60 50, 70 14, 120 14 S 180 50, 226 30
     final p = Path()
       ..moveTo(14, 50)
+      ..cubicTo(60, 50, 70, 14, 120, 14)
