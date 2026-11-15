@@ -455,3 +455,4 @@ class AppState extends ChangeNotifier {
     'invites': true,
     'social': false,
     'payments': true,
+    'autoDownload': true,
