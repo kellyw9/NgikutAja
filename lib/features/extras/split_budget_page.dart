@@ -80,3 +80,4 @@ class _SplitBudgetPageState extends State<SplitBudgetPage> {
                     children: [
                       for (final m in members)
                         Padding(
+                          padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 10),
