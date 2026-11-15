@@ -569,3 +569,4 @@ class Seed {
         id: 'n2',
         kind: NotifKind.invite,
         icon: 'group',
+        lead: '@rinaharahap',
