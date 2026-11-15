@@ -590,3 +590,4 @@ class Progress extends StatelessWidget {
   Widget build(BuildContext context) => Semantics(
     value: '${(value * 100).round()}%',
     child: SizedBox(
+      width: width,
