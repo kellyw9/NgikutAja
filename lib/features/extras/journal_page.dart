@@ -12,3 +12,4 @@ class JournalPage extends StatefulWidget {
 }
 
 class _JournalPageState extends State<JournalPage> {
+  late int day = AppScope.read(context).statusOf(widget.trip) == TripStatus.berjalan ? AppScope.read(context).currentDay(widget.trip) : 0;
