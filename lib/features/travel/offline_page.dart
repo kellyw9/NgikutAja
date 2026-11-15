@@ -87,3 +87,4 @@ class OfflinePage extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text('Membutuhkan internet', style: AppText.h2),
+                  avail(false, 'Peta langsung dan navigasi Google Maps'),
