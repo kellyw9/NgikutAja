@@ -116,3 +116,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
                               label: 'Hari ${k + 1} perlu diperbaiki',
                               child: Container(
                                 width: 10,
+                                height: 10,
