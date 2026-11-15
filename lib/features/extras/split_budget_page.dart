@@ -105,3 +105,4 @@ class _SplitBudgetPageState extends State<SplitBudgetPage> {
                                         style: AppText.bodyStrong.c(net[m.first]! >= 0 ? AppColors.positive : AppColors.negative),
                                       ),
                                       const SizedBox(height: 2),
+                                      Text(net[m.first]! > 0 ? 'menerima' : (net[m.first]! < 0 ? 'kurang bayar' : 'pas'), style: AppText.small.muted),
