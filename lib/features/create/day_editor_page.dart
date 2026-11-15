@@ -251,3 +251,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
                   expand: true,
                   onPressed: anyError
                       ? null
+                      : () {
