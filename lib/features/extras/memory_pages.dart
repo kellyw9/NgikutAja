@@ -25,3 +25,4 @@ class PhotoMemoryPage extends StatelessWidget {
               icon: 'photo_library',
               title: 'Belum ada foto',
               text: 'Foto yang kamu tambahkan dari Travel Mode atau Trip journal tersimpan di sini.',
+            )
