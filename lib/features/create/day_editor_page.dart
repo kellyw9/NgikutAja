@@ -157,3 +157,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
                 12,
                 children: [
                   NgField(
+                    label: 'Judul hari',
