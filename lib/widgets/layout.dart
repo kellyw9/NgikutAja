@@ -435,3 +435,4 @@ class HeroPhoto extends StatelessWidget {
             if (right.isNotEmpty)
               Positioned(
                 right: 12,
+                top: top + 12,
