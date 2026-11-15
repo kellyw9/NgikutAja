@@ -59,3 +59,4 @@ class _CreatorProfilePageState extends State<CreatorProfilePage> {
                   ],
                 ),
                 const SizedBox(height: 14),
+                if (list.isEmpty)
