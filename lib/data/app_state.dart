@@ -447,3 +447,5 @@ class AppState extends ChangeNotifier {
     recentSearches.clear();
     notifyListeners();
   }
+
+  // ---------------- pengaturan ----------------
