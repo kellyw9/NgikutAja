@@ -77,3 +77,4 @@ class TripsPage extends StatelessWidget {
   List<Widget> _trips(BuildContext context, AppState app, TripStatus tab) {
     final list = app.tripsWith(tab);
     if (list.isEmpty) {
+      final (icon, title, text) = switch (tab) {
