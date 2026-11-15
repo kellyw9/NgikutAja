@@ -406,3 +406,4 @@ class Pill extends StatelessWidget {
         children: [
           if (icon != null) ...[AppIcon(icon!, size: 14, color: fg), const SizedBox(width: 4)],
           Text(text, style: AppText.smallStrong.c(fg)),
+        ],
