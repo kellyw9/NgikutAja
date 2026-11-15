@@ -241,3 +241,4 @@ class Photo extends StatelessWidget {
   Widget build(BuildContext context) {
     Widget img;
     final s = src;
+    if (s == null) {
