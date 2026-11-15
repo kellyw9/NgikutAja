@@ -96,3 +96,4 @@ class NotificationsPage extends StatelessWidget {
                       if (n.inviteState == null)
                         Row(
                           children: [
+                            NgButton(
