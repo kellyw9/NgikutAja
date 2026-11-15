@@ -110,3 +110,4 @@ class _EditStopPageState extends State<EditStopPage> {
                 onChanged: (_) => setState(() {}),
               ),
               NgField(
+                label: 'Kategori',
