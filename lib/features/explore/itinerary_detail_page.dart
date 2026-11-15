@@ -253,3 +253,4 @@ class PaidPreviewPage extends StatelessWidget {
     final lockedCount = it.places - day1.length;
 
     return Scaffold(
+      backgroundColor: AppColors.ground,
