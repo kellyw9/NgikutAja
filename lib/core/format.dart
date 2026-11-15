@@ -57,3 +57,4 @@ String durationText(int minutes) {
 bool isValidTime(String s) => RegExp(r'^([01]?\d|2[0-3])[.:]([0-5]\d)$').hasMatch(s.trim());
 
 String normalizeTime(String s) {
+  final p = s.trim().split(RegExp(r'[.:]'));
