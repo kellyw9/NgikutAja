@@ -285,3 +285,4 @@ class _StopCard extends StatelessWidget {
         ReorderableDragStartListener(
           index: index,
           child: Semantics(
+            label: 'Geser untuk mengurutkan ${stop.name}',
