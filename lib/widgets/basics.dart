@@ -140,3 +140,4 @@ class IconBtn extends StatelessWidget {
         message: label,
         excludeFromSemantics: true,
         child: Material(
+          color: bg ?? Colors.transparent,
