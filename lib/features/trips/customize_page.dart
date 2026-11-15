@@ -246,3 +246,4 @@ class _CustomizePageState extends State<CustomizePage> {
                   borderRadius: BorderRadius.circular(AppRadius.card),
                 ),
                 child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
