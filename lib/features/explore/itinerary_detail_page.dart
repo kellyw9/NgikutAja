@@ -290,3 +290,4 @@ class PaidPreviewPage extends StatelessWidget {
             const SizedBox(height: 8),
             DayStrip(
               days: [for (var d = 0; d < it.days; d++) DayItem('Hari ${d + 1}', sub: d == 0 ? 'Gratis' : 'Terkunci')],
+              active: 0,
