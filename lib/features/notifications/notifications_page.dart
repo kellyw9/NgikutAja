@@ -99,3 +99,4 @@ class NotificationsPage extends StatelessWidget {
                             NgButton(
                               'Terima',
                               size: BtnSize.md,
+                              onPressed: () {
