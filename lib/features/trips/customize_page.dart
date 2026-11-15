@@ -87,3 +87,4 @@ class _CustomizePageState extends State<CustomizePage> {
     final r = await showNgDialog(
       context,
       icon: 'delete',
+      title: 'Hapus ${st.name}?',
