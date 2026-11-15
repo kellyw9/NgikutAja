@@ -366,3 +366,4 @@ class _SearchPageState extends State<SearchPage> {
               icon: 'travel_explore',
               title: 'Itinerary tidak ditemukan',
               text: filter.count > 0
+                  ? 'Belum ada itinerary $q yang cocok dengan filter ini. Coba hapus filter durasi atau harga.'
