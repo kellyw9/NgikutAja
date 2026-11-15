@@ -153,3 +153,5 @@ class AppState extends ChangeNotifier {
     list.sort((a, b) => score(b).compareTo(score(a)));
     return list;
   }
+
+  List<Itinerary> latest() => [...itineraries.where((x) => !x.isDraft)]..sort((a, b) => b.publishedAt.compareTo(a.publishedAt));
