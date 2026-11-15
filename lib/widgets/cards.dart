@@ -294,3 +294,4 @@ class TripCard extends StatelessWidget {
           ),
         ),
         if (extra != null) ...[
+          Container(height: 1, color: AppColors.line),
