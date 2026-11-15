@@ -470,3 +470,4 @@ class _SearchPageState extends State<SearchPage> {
                             selected: q == city.name,
                             onTap: () => Navigator.pop(c2, city.name),
                           ),
+                      ],
