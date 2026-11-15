@@ -158,3 +158,4 @@ class TripsPage extends StatelessWidget {
         const SizedBox(height: 8),
         Progress(t.places() == 0 ? 0 : t.visited() / t.places()),
         const SizedBox(height: 8),
+        NgButton(
