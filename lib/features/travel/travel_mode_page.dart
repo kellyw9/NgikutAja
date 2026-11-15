@@ -227,3 +227,4 @@ class _NextCard extends StatelessWidget {
             children: [
               Expanded(
                 child: NgButton(
+                  'Navigasi',
