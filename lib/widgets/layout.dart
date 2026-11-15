@@ -68,3 +68,4 @@ class NgAppBar extends StatelessWidget implements PreferredSizeWidget {
       value: kDarkIcons,
       child: Material(
         color: AppColors.ground,
+        child: SafeArea(
