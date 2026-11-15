@@ -462,3 +462,4 @@ class _CustomizePageState extends State<CustomizePage> {
                           children: [
                             AddPhotoTile(
                               size: 72,
+                              onTap: () async {
