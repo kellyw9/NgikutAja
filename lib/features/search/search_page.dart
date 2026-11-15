@@ -319,3 +319,4 @@ class _SearchPageState extends State<SearchPage> {
               ),
               child: AppIcon(icon, size: 20),
             ),
+            const SizedBox(width: 12),
