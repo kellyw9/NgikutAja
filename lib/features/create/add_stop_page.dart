@@ -157,3 +157,4 @@ class _AddStopPageState extends State<AddStopPage> {
                 label: 'Catatan / local tip',
                 icon: 'notes',
                 controller: note,
+                area: true,
