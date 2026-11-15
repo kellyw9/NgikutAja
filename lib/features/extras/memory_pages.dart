@@ -106,3 +106,4 @@ class _PhotoViewerPageState extends State<PhotoViewerPage> {
                         'share',
                         label: 'Bagikan foto',
                         color: AppColors.white,
+                        onTap: () => shareText('${p.caption}, ${photoDayLabel(t, p.day)}. Dari trip "${t.title}" di NgikutAja.'),
