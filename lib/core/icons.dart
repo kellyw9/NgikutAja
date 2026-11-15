@@ -78,3 +78,4 @@ class _IconPainter extends CustomPainter {
 class SpinIcon extends StatefulWidget {
   const SpinIcon({super.key, this.size = 24, this.color = AppColors.ink});
   final double size;
+  final Color color;
