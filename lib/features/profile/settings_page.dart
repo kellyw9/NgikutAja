@@ -66,3 +66,4 @@ class SettingsPage extends StatelessWidget {
 
     return Scaffold(
       backgroundColor: AppColors.ground,
+      appBar: const NgAppBar(title: 'Pengaturan'),
