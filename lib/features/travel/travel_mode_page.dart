@@ -155,3 +155,4 @@ class TravelModePage extends StatelessWidget {
                 size: BtnSize.md,
                 icon: 'payments',
                 expand: true,
+                onPressed: () => push(context, ExpensesPage(trip: t)),
