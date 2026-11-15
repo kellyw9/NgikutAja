@@ -180,3 +180,4 @@ class Seed {
           'dan sore di pantai Parbaba.',
       dayTitles: ['Kapal, Tuktuk, dan Holbung', 'Desa adat dan pulang'],
       plan: [
+        [
