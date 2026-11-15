@@ -233,3 +233,4 @@ class _ItineraryDetailPageState extends State<ItineraryDetailPage> {
         ],
       ),
     );
+  }
