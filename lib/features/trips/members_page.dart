@@ -25,3 +25,4 @@ class MembersPage extends StatelessWidget {
       body: '${m.first} tidak bisa lagi membuka "${trip.title}". Pengeluaran yang dia catat tetap tersimpan.',
       actions: const [
         DialogAction('Hapus akses', kind: BtnKind.danger, value: true),
+        DialogAction('Batal'),
