@@ -40,3 +40,4 @@ class _EditStopPageState extends State<EditStopPage> {
   late final cost = TextEditingController(text: s == null || s!.cost == 0 ? '' : thousands(s!.cost));
   late final desc = TextEditingController(text: s?.desc ?? '');
   late final note = TextEditingController(text: s?.note ?? '');
+  late Category cat = s?.cat ?? Category.budaya;
