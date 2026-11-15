@@ -71,3 +71,4 @@ class PurchaseDetailPage extends StatelessWidget {
                         const SizedBox(height: 2),
                         Text('${it.creator.handle}, ${thousands(it.creator.followers)} pengikut', style: AppText.small.muted),
                       ],
+                    ),
