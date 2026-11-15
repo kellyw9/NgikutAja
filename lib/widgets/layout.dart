@@ -514,3 +514,4 @@ class Gap extends StatelessWidget {
     children: [
       for (var i = 0; i < children.length; i++) ...[if (i > 0) SizedBox(height: gap), children[i]],
     ],
+  );
