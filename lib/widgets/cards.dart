@@ -358,3 +358,4 @@ class StopRow extends StatelessWidget {
                           if (conflict) ...[const SizedBox(width: 6), const AppIcon('warning', size: 18, color: AppColors.negative)],
                         ],
                       ),
+                      if (!blur) ...[
