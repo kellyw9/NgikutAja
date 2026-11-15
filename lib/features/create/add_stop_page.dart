@@ -198,3 +198,4 @@ class _AddStopPageState extends State<AddStopPage> {
                                       bg: AppColors.surface,
                                       onTap: () => setState(() => photo = null),
                                     ),
+                                  ),
