@@ -50,3 +50,4 @@ class _PublishPageState extends State<PublishPage> {
             border: on ? AppColors.teal : AppColors.line,
             borderWidth: on ? 2 : 1,
             onTap: () => setState(() => paid = isPaid),
+            child: Column(
