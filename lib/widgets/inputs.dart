@@ -149,3 +149,4 @@ class _NgFieldState extends State<NgField> {
               child: content,
             ),
           ),
+          if (trailing is String) ...[const SizedBox(width: 10), AppIcon(trailing, size: 20, color: AppColors.muted)],
