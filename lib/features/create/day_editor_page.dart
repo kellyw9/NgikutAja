@@ -221,3 +221,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
                     ),
                     if (conflicts.isNotEmpty)
                       Text('Stop bertanda merah jamnya tumpang tindih. Ubah jam lewat ikon pensil.', style: AppText.small.c(AppColors.negative)),
+                    DashedAction('Tambah stop dari peta', icon: 'add_location_alt', color: AppColors.teal, onTap: () => _editStop()),
