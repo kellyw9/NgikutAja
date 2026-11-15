@@ -50,3 +50,4 @@ class _ExplorePageState extends State<ExplorePage> {
     final items = switch (tab) {
       'Terbaru' => app.latest().where((x) => x.creator != app.me).toList(),
       'Following' => app.fromFollowing(),
+      _ => app.trending(),
