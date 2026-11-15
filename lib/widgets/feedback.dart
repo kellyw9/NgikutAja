@@ -352,3 +352,4 @@ class StatusView extends StatelessWidget {
     required this.icon,
     required this.tone,
     required this.title,
+    required this.text,
