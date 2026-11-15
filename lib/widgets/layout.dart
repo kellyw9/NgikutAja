@@ -147,3 +147,4 @@ class SectionHead extends StatelessWidget {
               if (sub != null) ...[const SizedBox(height: 2), Text(sub!, style: AppText.small.muted)],
             ],
           ),
+        ),
