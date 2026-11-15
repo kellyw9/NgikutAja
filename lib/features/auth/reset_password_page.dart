@@ -120,3 +120,5 @@ class _ResetPasswordPageState extends State<ResetPasswordPage> {
 class NewPasswordPage extends StatefulWidget {
   const NewPasswordPage({super.key, required this.email});
   final String email;
+
+  @override
