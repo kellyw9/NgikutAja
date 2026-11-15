@@ -84,3 +84,4 @@ void main() {
   });
 
   testWidgets('Customize: jadwal bentrok terdeteksi, saran diterapkan, lalu tersimpan', (tester) async {
+    await phone(tester);
