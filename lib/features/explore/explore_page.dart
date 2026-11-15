@@ -71,3 +71,4 @@ class _ExplorePageState extends State<ExplorePage> {
           padding: const EdgeInsets.symmetric(horizontal: kMargin),
           child: EmptyState(
             icon: 'person_add',
+            title: 'Belum mengikuti creator',
