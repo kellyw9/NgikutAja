@@ -141,3 +141,4 @@ class _CustomizePageState extends State<CustomizePage> {
                         sub: d == day
                             ? 'Posisi sekarang'
                             : plan[d].isEmpty
+                            ? 'Belum ada aktivitas'
