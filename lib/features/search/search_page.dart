@@ -622,3 +622,4 @@ class _SquareThumb extends RangeSliderThumbShape {
       r.deflate(1),
       Paint()
         ..color = AppColors.ink
+        ..style = PaintingStyle.stroke
