@@ -115,3 +115,4 @@ class OfflinePage extends StatelessWidget {
               app.touch();
               showNgSnack(
                 context,
+                saved.isEmpty ? 'Belum ada trip yang disimpan offline.' : 'Data offline diperbarui.',
