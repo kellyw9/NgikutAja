@@ -271,3 +271,5 @@ class _StopCard extends StatelessWidget {
   final int index;
   final bool conflict;
   final VoidCallback onEdit;
+
+  @override
