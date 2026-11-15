@@ -65,3 +65,4 @@ final Map<String, PageFor> pages = {
   'adopt': (s) => AdoptPage(it: s.itinerary('medan')),
   'trip detail': (s) => TripDetailPage(trip: s.trips[1]),
   'trip detail berjalan': (s) => TripDetailPage(trip: s.trips[0]),
+  'customize': (s) => CustomizePage(trip: s.trips[1]),
