@@ -131,3 +131,4 @@ class PermissionDeniedPage extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
+            const Align(
