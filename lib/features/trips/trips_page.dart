@@ -22,3 +22,4 @@ class TripsPage extends StatelessWidget {
         children: [
           const TabHeader('Trip Saya'),
           Padding(
+            padding: const EdgeInsets.symmetric(horizontal: kMargin),
