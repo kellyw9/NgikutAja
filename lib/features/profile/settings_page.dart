@@ -125,3 +125,4 @@ class AboutPage extends StatelessWidget {
         final credits = snap.hasData ? (jsonDecode(snap.data!) as Map<String, dynamic>) : const <String, dynamic>{};
         return ListView(
           padding: const EdgeInsets.fromLTRB(kMargin, 8, kMargin, 24),
+          children: [
