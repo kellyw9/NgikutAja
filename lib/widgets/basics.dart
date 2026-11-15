@@ -336,3 +336,4 @@ class DashedAction extends StatelessWidget {
           children: [
             AppIcon(icon, size: 20),
             const SizedBox(width: 8),
+            Text(label, style: AppText.bodyStrong),
