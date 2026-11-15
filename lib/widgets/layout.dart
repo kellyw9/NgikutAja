@@ -467,3 +467,4 @@ class IconTile extends StatelessWidget {
     decoration: BoxDecoration(
       color: fill,
       borderRadius: BorderRadius.circular(size >= 44 ? AppRadius.card : AppRadius.inner),
+      border: border != null ? Border.all(color: border!) : null,
