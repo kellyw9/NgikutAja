@@ -77,3 +77,4 @@ class RecapPage extends StatelessWidget {
                               const SizedBox(width: 6),
                               Expanded(
                                 flex: 3,
+                                child: Column(
