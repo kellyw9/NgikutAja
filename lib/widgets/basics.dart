@@ -469,3 +469,4 @@ class MetaRow extends StatelessWidget {
 
 /// Avatar inisial (belum ada foto profil asli).
 class Avatar extends StatelessWidget {
+  const Avatar(this.name, {super.key, this.size = 32, this.tint = 0, this.photo});
