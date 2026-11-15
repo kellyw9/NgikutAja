@@ -468,3 +468,4 @@ class MetaRow extends StatelessWidget {
 }
 
 /// Avatar inisial (belum ada foto profil asli).
+class Avatar extends StatelessWidget {
