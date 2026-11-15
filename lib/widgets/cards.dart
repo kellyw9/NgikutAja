@@ -527,3 +527,4 @@ class _DayBox extends StatelessWidget {
                 if (item.sub != null) ...[const SizedBox(height: 2), Text(item.sub!, style: AppText.small.c(fg))],
               ],
             ),
+          ),
