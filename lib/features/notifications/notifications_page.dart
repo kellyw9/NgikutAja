@@ -30,3 +30,5 @@ class NotificationsPage extends StatelessWidget {
         break;
     }
   }
+
+  @override
