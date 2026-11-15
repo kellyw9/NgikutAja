@@ -169,3 +169,4 @@ Future<T?> showNgSheet<T>(BuildContext context, {String? title, String? sub, req
                   alignment: Alignment.centerRight,
                   child: Padding(
                     padding: const EdgeInsets.only(right: 4),
+                    child: IconBtn('close', label: 'Tutup', onTap: () => Navigator.pop(ctx)),
