@@ -148,3 +148,4 @@ class _CustomizePageState extends State<CustomizePage> {
                         height: 56,
                         onTap: () => set(() => pick = d),
                       ),
+                    ],
