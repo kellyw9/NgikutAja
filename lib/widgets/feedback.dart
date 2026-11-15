@@ -94,3 +94,4 @@ void showNgSnack(BuildContext context, String text, {SnackKind kind = SnackKind.
           Expanded(child: Text(text, style: AppText.body.white)),
           if (action != null) ...[
             const SizedBox(width: 12),
+            Semantics(
