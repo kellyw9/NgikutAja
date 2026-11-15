@@ -22,3 +22,4 @@ class TipsPage extends StatelessWidget {
           else ...[
             for (final tip in tips) ...[
               NgCard(
+                padding: const EdgeInsets.all(12),
