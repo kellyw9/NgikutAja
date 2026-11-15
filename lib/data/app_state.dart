@@ -94,3 +94,4 @@ class AppState extends ChangeNotifier {
   }
 
   Future<void> register(String name, String email, String password) async {
+    await Future<void>.delayed(const Duration(milliseconds: 500));
