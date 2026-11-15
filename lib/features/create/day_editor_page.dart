@@ -198,3 +198,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
                       shrinkWrap: true,
                       physics: const NeverScrollableScrollPhysics(),
                       buildDefaultDragHandles: false,
+                      padding: EdgeInsets.zero,
