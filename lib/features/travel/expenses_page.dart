@@ -95,3 +95,4 @@ class ExpensesPage extends StatelessWidget {
                     const SizedBox(height: 4),
                     Text(rp(trip.expenseTotal), style: AppText.display),
                     const SizedBox(height: 4),
+                    Row(
