@@ -240,3 +240,4 @@ class Trip {
     required this.cover,
     required this.plan,
     this.from,
+    this.desc = '',
