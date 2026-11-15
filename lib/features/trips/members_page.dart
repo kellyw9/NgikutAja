@@ -141,3 +141,4 @@ class MembersPage extends StatelessWidget {
               'Kirim undangan',
               expand: true,
               onPressed: () {
+                final v = input.text.trim();
