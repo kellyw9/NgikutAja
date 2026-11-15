@@ -192,3 +192,4 @@ class Bell extends StatelessWidget {
 
 /// Buka tab Cari, langsung dengan kata kunci (kosong = halaman awal Cari).
 void goSearch(BuildContext context, String query) {
+  searchRequest.value = SearchRequest(query);
