@@ -146,3 +146,4 @@ class _SplitBudgetPageState extends State<SplitBudgetPage> {
                   else
                     BoxList(
                       inset: 14,
+                      children: [
