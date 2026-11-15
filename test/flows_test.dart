@@ -137,3 +137,4 @@ void main() {
     await tapText(tester, 'Lanjut ke hari & stop', button: true);
     await tester.pump();
     expect(find.text('Judul wajib diisi'), findsOneWidget);
+    expect(find.text('Lengkapi data yang wajib diisi.'), findsOneWidget);
