@@ -288,3 +288,4 @@ class Trip {
   String story;
   bool offline;
   int offlineSize;
+  String? syncedAt;
