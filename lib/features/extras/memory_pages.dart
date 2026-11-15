@@ -31,3 +31,4 @@ class PhotoMemoryPage extends StatelessWidget {
               children: [
                 Text('${t.photos.length} foto tersimpan dari ${days.length} hari perjalanan', style: AppText.small.muted),
                 for (final d in days) ...[
+                  const SizedBox(height: 16),
