@@ -356,3 +356,4 @@ class StatusView extends StatelessWidget {
     this.iconColor = AppColors.ink,
     this.middle,
     required this.actions,
+    this.top = false,
