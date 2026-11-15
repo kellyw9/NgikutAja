@@ -100,3 +100,4 @@ class _ExplorePageState extends State<ExplorePage> {
         ),
         Expanded(
           child: RefreshIndicator(
+            color: AppColors.ink,
