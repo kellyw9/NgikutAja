@@ -195,3 +195,4 @@ class _AddStopPageState extends State<AddStopPage> {
                                       label: 'Hapus foto',
                                       size: 28,
                                       iconSize: 16,
+                                      bg: AppColors.surface,
