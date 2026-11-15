@@ -44,3 +44,4 @@ class Stop {
     required this.cat,
     this.cost = 0,
     this.photo,
+    this.note,
