@@ -15,3 +15,4 @@ class RecapPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final t = trip;
+    final names = [
