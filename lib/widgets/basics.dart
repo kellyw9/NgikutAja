@@ -84,3 +84,4 @@ class NgButton extends StatelessWidget {
           tapTargetSize: MaterialTapTargetSize.shrinkWrap,
           backgroundColor: WidgetStatePropertyAll(disabled && !textual ? AppColors.sunk : bg),
           foregroundColor: WidgetStatePropertyAll(color),
+          overlayColor: WidgetStateProperty.resolveWith((s) {
