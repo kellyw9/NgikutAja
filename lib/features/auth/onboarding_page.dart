@@ -94,3 +94,4 @@ class _OnboardingPageState extends State<OnboardingPage> {
                 child: NgButton(page == 2 ? 'Mulai cari itinerary' : 'Lanjut', expand: true, onPressed: page == 2 && picked.isEmpty ? null : _next),
               ),
             ],
+          ),
