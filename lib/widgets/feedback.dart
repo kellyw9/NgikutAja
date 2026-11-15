@@ -372,3 +372,4 @@ class StatusView extends StatelessWidget {
   @override
   Widget build(BuildContext context) => SafeArea(
     child: LayoutBuilder(
+      builder: (context, c) => SingleChildScrollView(
