@@ -91,3 +91,4 @@ class _PhotoPreviewPageState extends State<PhotoPreviewPage> {
                       day: widget.day,
                       caption: st?.name ?? t.title,
                       time: fromMinutes(now.hour * 60 + now.minute),
+                      publicVisible: vis == 'Public',
