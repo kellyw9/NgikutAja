@@ -237,3 +237,4 @@ class _EditTripInfoPageState extends State<EditTripInfoPage> {
     setState(() => tried = true);
     if (title.text.trim().isEmpty) return;
     t
+      ..title = title.text.trim()
