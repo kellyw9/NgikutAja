@@ -25,3 +25,4 @@ class NgButton extends StatelessWidget {
     this.trailingIcon,
     this.expand = false,
     this.loading = false,
+  });
