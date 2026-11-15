@@ -454,3 +454,4 @@ class Seed {
           0: JournalEntry(
             title: 'Kapal jam 8, langsung ke Tuktuk',
             text:
+                'Kapal dari Ajibata penuh anak sekolah. Di Tuktuk kami sarapan dulu, terus sewa motor buat ke Holbung. '
