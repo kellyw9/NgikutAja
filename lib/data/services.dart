@@ -20,3 +20,4 @@ class PhotoStore {
   }
 
   static Uint8List? get(String key) => _mem[key];
+}
