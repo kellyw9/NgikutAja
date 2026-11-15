@@ -459,3 +459,4 @@ class PurchaseHistoryPage extends StatelessWidget {
     return Scaffold(
       backgroundColor: AppColors.ground,
       appBar: const NgAppBar(title: 'Riwayat pembelian'),
+      body: list.isEmpty
