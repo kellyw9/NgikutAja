@@ -378,3 +378,4 @@ class _PickLocationPageState extends State<PickLocationPage> {
                     boxShadow: kFloatShadow,
                   ),
                   child: Row(
+                    children: [
