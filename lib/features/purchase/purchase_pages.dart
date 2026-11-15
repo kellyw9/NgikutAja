@@ -350,3 +350,4 @@ class _PaymentStatusPageState extends State<PaymentStatusPage> {
             top: true,
             icon: 'check',
             tone: AppColors.positivePale,
+            iconColor: AppColors.positiveInk,
