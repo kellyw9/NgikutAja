@@ -27,3 +27,4 @@ class MapView extends StatelessWidget {
     this.route = true,
     this.ring,
     this.onTapPoint,
+    this.label = true,
