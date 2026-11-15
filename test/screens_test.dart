@@ -62,3 +62,4 @@ final Map<String, PageFor> pages = {
   'pick location': (s) => const PickLocationPage(query: 'Soto Kesawan', city: 'Medan', photo: 'soto'),
   'publish': (s) => PublishPage(d: s.itinerary('samosirmotor')),
   'published': (s) => PublishedPage(d: s.itinerary('samosirmotor')),
+  'adopt': (s) => AdoptPage(it: s.itinerary('medan')),
