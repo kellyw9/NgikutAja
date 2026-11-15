@@ -62,3 +62,4 @@ class _ResetPasswordPageState extends State<ResetPasswordPage> {
       body: SafeArea(
         top: false,
         child: LayoutBuilder(
+          builder: (context, c) => SingleChildScrollView(
