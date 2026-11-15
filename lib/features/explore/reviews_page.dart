@@ -118,3 +118,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
               NgCard(
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
