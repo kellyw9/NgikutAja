@@ -503,3 +503,4 @@ class PageFrame extends StatelessWidget {
 /// Kolom dengan jarak seragam antar anak.
 class Gap extends StatelessWidget {
   const Gap(this.gap, {super.key, required this.children, this.cross = CrossAxisAlignment.stretch});
+  final double gap;
