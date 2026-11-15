@@ -28,3 +28,4 @@ class SearchFilter {
   SearchFilter copy() => SearchFilter()
     ..duration = duration
     ..budget = budget
+    ..rating = rating
