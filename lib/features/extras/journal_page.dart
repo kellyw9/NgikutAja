@@ -54,3 +54,4 @@ class _JournalPageState extends State<JournalPage> {
           NgButton('Simpan catatan', expand: true, onPressed: () => Navigator.pop(ctx, true)),
         ],
       ),
+    );
