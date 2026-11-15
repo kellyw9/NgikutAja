@@ -130,3 +130,4 @@ class _AdoptPageState extends State<AdoptPage> {
                   _switchRow('Sebelum tiap aktivitas', 'Notifikasi lokal di HP', each, (v) => setState(() => each = v)),
                   if (each)
                     Wrap(
+                      spacing: 8,
