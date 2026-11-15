@@ -414,3 +414,4 @@ class _SearchPageState extends State<SearchPage> {
     context,
     title: 'Urutkan hasil',
     builder: (ctx) => Column(
+      children: [
