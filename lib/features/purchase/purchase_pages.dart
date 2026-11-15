@@ -79,3 +79,4 @@ class PurchaseDetailPage extends StatelessWidget {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
+                    Text('Keuntungan yang kamu peroleh', style: AppText.title),
