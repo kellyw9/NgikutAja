@@ -418,3 +418,4 @@ class _CustomizePageState extends State<CustomizePage> {
                         for (var i = 0; i < stops.length; i++)
                           KeyedSubtree(
                             key: ObjectKey(stops[i]),
+                            child: StopRow(
