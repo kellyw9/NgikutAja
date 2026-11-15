@@ -115,3 +115,4 @@ class _RegisterPageState extends State<RegisterPage> {
                         controller: pass,
                         obscure: ob1,
                         onChanged: refresh,
+                        hint: 'Minimal 8 karakter',
