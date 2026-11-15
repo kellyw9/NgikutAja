@@ -146,3 +146,4 @@ class BottomNav extends StatelessWidget {
               Text(items[i].$2, style: (on ? AppText.smallStrong : AppText.small).c(on ? AppColors.ink : AppColors.muted)),
             ],
           ),
+        ),
