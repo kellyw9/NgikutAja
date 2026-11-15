@@ -219,3 +219,5 @@ class _EditStopPageState extends State<EditStopPage> {
 class EditTripInfoPage extends StatefulWidget {
   const EditTripInfoPage({super.key, required this.trip});
   final Trip trip;
+
+  @override
