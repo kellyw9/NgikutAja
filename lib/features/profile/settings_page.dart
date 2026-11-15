@@ -97,3 +97,4 @@ class SettingsPage extends StatelessWidget {
                 ListRow(
                   icon: 'info',
                   title: 'Tentang NgikutAja',
+                  sub: 'Versi 1.0.0, Tugas Besar Pemrograman Mobile',
