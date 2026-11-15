@@ -77,3 +77,4 @@ List<String> shiftCascade(List<Stop> day, Stop target, int newStart) {
   for (var d = 0; d < plan.length; d++) {
     final day = plan[d];
     final cs = conflictsIn(day);
+    if (cs.isNotEmpty) {
