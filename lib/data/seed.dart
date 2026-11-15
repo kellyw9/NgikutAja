@@ -90,3 +90,4 @@ class Seed {
         bio: 'Bali bagian utara: danau, air terjun, pantai pasir hitam.',
         followers: 540,
         following: 61,
+      ),
