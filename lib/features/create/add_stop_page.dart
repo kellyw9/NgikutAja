@@ -131,3 +131,4 @@ class _AddStopPageState extends State<AddStopPage> {
                           },
                         ),
                       ),
+                    ],
