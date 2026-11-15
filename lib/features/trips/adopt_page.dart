@@ -71,3 +71,4 @@ class _AdoptPageState extends State<AdoptPage> {
                           const SizedBox(height: 4),
                           MetaRow([('location_on', it.city), ('schedule', '${it.days} hari'), ('pin_drop', '${it.places} tempat')]),
                         ],
+                      ),
