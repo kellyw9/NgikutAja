@@ -74,3 +74,4 @@ class _PublishPageState extends State<PublishPage> {
       body: ListView(
         padding: const EdgeInsets.fromLTRB(kMargin, 8, kMargin, 24),
         children: [
+          Gap(
