@@ -45,3 +45,5 @@ class _EditStopPageState extends State<EditStopPage> {
   late int duration = s?.duration ?? 60;
   late String? photo = s?.photo;
   bool tried = false;
+
+  String get end => fromMinutes(toMinutes(start) + duration);
