@@ -321,3 +321,4 @@ class _AddExpensePageState extends State<AddExpensePage> {
                           label: 'Foto struk',
                           onTap: () async {
                             final p = await pickPhotoSheet(context, title: 'Foto struk');
+                            if (p != null && p.isNotEmpty) setState(() => receipt = p);
