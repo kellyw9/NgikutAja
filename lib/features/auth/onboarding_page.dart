@@ -9,3 +9,4 @@ class OnboardingPage extends StatefulWidget {
 
   @override
   State<OnboardingPage> createState() => _OnboardingPageState();
+}
