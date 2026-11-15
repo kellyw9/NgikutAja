@@ -19,3 +19,4 @@ class RecapPage extends StatelessWidget {
       for (final d in t.plan)
         for (final s in d) s.name,
     ];
+    final others = t.places() - names.length;
