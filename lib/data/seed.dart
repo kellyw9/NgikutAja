@@ -308,3 +308,4 @@ class Seed {
         id: 'kotatua',
         title: 'Kota Tua Medan dalam Setengah Hari',
         city: 'Medan',
+        region: 'Medan, Sumatera Utara',
