@@ -50,3 +50,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
           },
         ),
         const NgDivider(inset: 36, color: AppColors.line),
+        ListRow(
