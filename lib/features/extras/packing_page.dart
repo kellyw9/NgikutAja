@@ -68,3 +68,4 @@ class _PackingPageState extends State<PackingPage> {
       action: 'Urungkan',
       onAction: () {
         g.items.insert(i.clamp(0, g.items.length), it);
+        AppScope.read(context).touch();
