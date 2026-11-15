@@ -48,3 +48,4 @@ class NgAppBar extends StatelessWidget implements PreferredSizeWidget {
   final Widget? trailingTitle;
 
   @override
+  Size get preferredSize => Size.fromHeight(rule ? 57 : 56);
