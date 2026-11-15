@@ -222,3 +222,4 @@ class _SearchPageState extends State<SearchPage> {
                     child: Text('${filter.count}', style: AppText.smallStrong.white),
                   ),
                 ),
+              ),
