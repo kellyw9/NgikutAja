@@ -138,3 +138,4 @@ class Itinerary {
   int get places => hasFullPlan ? stopCount : (placesSeed ?? stopCount);
 
   String dayTitle(int d) => d < dayTitles.length && dayTitles[d].isNotEmpty ? dayTitles[d] : 'Hari ${d + 1}';
+}
