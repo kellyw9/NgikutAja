@@ -580,3 +580,4 @@ class Seed {
         kind: NotifKind.payment,
         icon: 'receipt_long',
         lead: 'Pembayaran menunggu: ',
+        text: 'Bali Utara yang Lebih Tenang, ${rp(35000)} via Transfer Bank.',
