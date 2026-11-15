@@ -484,3 +484,4 @@ class Seed {
         start: _d(-45),
         cover: 'prambanan',
         from: jogja,
+        plan: [copyPlan(jogja.plan).first, [], []],
