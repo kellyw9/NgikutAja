@@ -456,3 +456,4 @@ class PurchaseHistoryPage extends StatelessWidget {
   Widget build(BuildContext context) {
     final app = AppScope.of(context);
     final list = app.transactions;
+    return Scaffold(
