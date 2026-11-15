@@ -240,3 +240,4 @@ class _CustomizePageState extends State<CustomizePage> {
           children: [
             for (final iss in issues)
               Container(
+                padding: const EdgeInsets.all(12),
