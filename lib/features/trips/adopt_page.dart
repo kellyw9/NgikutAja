@@ -29,3 +29,4 @@ class _AdoptPageState extends State<AdoptPage> {
       icon: 'luggage',
       title: 'Adopt itinerary ini?',
       body: '${it.places} tempat akan disalin ke Trip Saya untuk ${dateRange(start, end)}. Kamu bisa mengubahnya kapan saja.',
+      actions: const [
