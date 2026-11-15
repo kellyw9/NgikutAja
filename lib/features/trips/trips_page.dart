@@ -34,3 +34,4 @@ class TripsPage extends StatelessWidget {
               padding: const EdgeInsets.fromLTRB(kMargin, 16, kMargin, 24),
               children: switch (tab) {
                 TripStatus.draft => _drafts(context, app),
+                _ => _trips(context, app, tab),
