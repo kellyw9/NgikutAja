@@ -333,3 +333,5 @@ class ListRow extends StatelessWidget {
     ),
   );
 }
+
+/// Blok putih bergaris tipis berisi baris yang dipisah garis (inset dari kiri).
