@@ -81,3 +81,4 @@ class NotificationsPage extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text.rich(
+                      TextSpan(
