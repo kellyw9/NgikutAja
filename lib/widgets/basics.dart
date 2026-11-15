@@ -234,3 +234,4 @@ class Photo extends StatelessWidget {
   final double? width;
   final double? height;
   final double radius;
+  final String placeholderIcon;
