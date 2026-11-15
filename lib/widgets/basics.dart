@@ -449,3 +449,4 @@ class Meta extends StatelessWidget {
       Flexible(child: Text(text, style: AppText.small.c(color))),
     ],
   );
+}
