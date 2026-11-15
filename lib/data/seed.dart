@@ -143,3 +143,4 @@ class Seed {
             _b,
             35000,
             'tjongafie',
+            'Ikut tur pemandu, durasi sekitar 45 menit.',
