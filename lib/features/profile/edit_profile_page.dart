@@ -101,3 +101,4 @@ class _EditProfilePageState extends State<EditProfilePage> {
                   ],
                 ),
                 NgField(
+                  label: 'Nama lengkap',
