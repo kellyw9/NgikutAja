@@ -244,3 +244,4 @@ class KeyValueBox extends StatelessWidget {
     padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 6),
     decoration: BoxDecoration(
       color: fill,
+      borderRadius: BorderRadius.circular(AppRadius.card),
