@@ -386,3 +386,4 @@ class Seed {
     ];
 
     drafts = [
+      Itinerary(
