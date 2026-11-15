@@ -294,3 +294,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
           children: [
             Photo(d.cover, radius: AppRadius.card, semantic: 'Foto sampul'),
             Positioned(
+              right: 10,
