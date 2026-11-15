@@ -81,3 +81,4 @@ class _RegisterPageState extends State<RegisterPage> {
                 child: AutofillGroup(
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.stretch,
+                    children: [
