@@ -276,3 +276,4 @@ class TravelStopPage extends StatelessWidget {
               14,
               children: [
                 Wrap(
+                  spacing: 6,
