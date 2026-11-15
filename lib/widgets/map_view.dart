@@ -191,3 +191,4 @@ class _MapPainter extends CustomPainter {
       canvas.drawCircle(c, ring!.$2, Paint()..color = AppColors.teal.withValues(alpha: .16));
       canvas.drawCircle(
         c,
+        ring!.$2,
