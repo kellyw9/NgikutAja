@@ -345,3 +345,4 @@ class _SearchPageState extends State<SearchPage> {
         NgChip(
           '${rp(filter.budget.start.round())}–${rp(filter.budget.end.round())}',
           selected: true,
+          close: true,
