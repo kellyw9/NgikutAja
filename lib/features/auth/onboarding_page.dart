@@ -68,3 +68,4 @@ class _OnboardingPageState extends State<OnboardingPage> {
                         label: 'Halaman ${page + 1} dari 3',
                         child: Row(
                           children: [
+                            for (var k = 0; k < 3; k++) ...[
