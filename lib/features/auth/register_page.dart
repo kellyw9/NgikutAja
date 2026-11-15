@@ -139,3 +139,4 @@ class _RegisterPageState extends State<RegisterPage> {
                         textInputAction: TextInputAction.done,
                         onSubmitted: (_) => _submit(),
                         trailing: ObscureToggle(obscured: ob2, onTap: () => setState(() => ob2 = !ob2)),
+                        error: confirmErr,
