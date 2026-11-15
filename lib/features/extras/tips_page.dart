@@ -72,3 +72,4 @@ class TipDetailPage extends StatelessWidget {
             if (tip.author != null)
               Row(
                 children: [
+                  Avatar(tip.author!.name, size: 24, tint: tip.author!.tint),
