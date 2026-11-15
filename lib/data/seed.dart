@@ -96,3 +96,4 @@ class Seed {
         name: 'Yosef Ndun',
         handle: '@bajoharian',
         tint: 5,
+        bio: 'Kapten kapal wisata di Labuan Bajo.',
