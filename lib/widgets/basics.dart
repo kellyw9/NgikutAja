@@ -444,3 +444,4 @@ class Meta extends StatelessWidget {
   Widget build(BuildContext context) => Row(
     mainAxisSize: MainAxisSize.min,
     children: [
+      AppIcon(icon, size: 16, color: color),
