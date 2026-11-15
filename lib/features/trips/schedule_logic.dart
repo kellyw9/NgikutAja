@@ -126,3 +126,4 @@ List<String> shiftCascade(List<Stop> day, Stop target, int newStart) {
         for (var k = 0; k < plan.length; k++) {
           if (k != d && activeMinutes(plan[k]) < activeMinutes(plan[lightest])) lightest = k;
         }
+        final longest = [...day]..sort((x, y) => y.duration.compareTo(x.duration));
