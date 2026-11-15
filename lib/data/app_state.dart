@@ -419,3 +419,4 @@ class AppState extends ChangeNotifier {
   void markRead(AppNotification n) {
     n.unread = false;
     notifyListeners();
+  }
