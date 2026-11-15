@@ -408,3 +408,5 @@ class AppState extends ChangeNotifier {
   late List<String> recentSearches;
 
   bool get hasUnread => notifications.any((n) => n.unread);
+
+  void markAllRead() {
