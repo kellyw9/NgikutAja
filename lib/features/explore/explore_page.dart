@@ -169,3 +169,4 @@ class Bell extends StatelessWidget {
     return Stack(
       children: [
         IconBtn('notifications', label: unread ? 'Notifikasi, ada yang belum dibaca' : 'Notifikasi', onTap: onTap),
+        if (unread)
