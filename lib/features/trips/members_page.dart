@@ -13,3 +13,5 @@ class MembersPage extends StatelessWidget {
     MemberRole.editor => PillKind.teal,
     MemberRole.viewer => PillKind.neutral,
   };
+
+  String _link(Trip t) => 'ngikutaja.app/t/${t.id}';
