@@ -14,3 +14,4 @@ import 'customize_page.dart';
 import 'members_page.dart';
 
 /// 5.3 Detail Trip.
+class TripDetailPage extends StatefulWidget {
