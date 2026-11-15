@@ -222,3 +222,4 @@ class _AdoptProgressPageState extends State<AdoptProgressPage> {
       failed = false;
       trip = null;
     });
+    try {
