@@ -242,3 +242,4 @@ class _SearchPageState extends State<SearchPage> {
               height: 44,
               child: Padding(
                 padding: const EdgeInsets.only(left: kMargin, right: 8),
+                child: Row(
