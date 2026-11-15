@@ -82,3 +82,4 @@ class _CheckinPageState extends State<CheckinPage> {
                         }
                       : null,
                 ),
+              Column(
