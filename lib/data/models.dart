@@ -141,3 +141,4 @@ class Itinerary {
 }
 
 enum TripStatus {
+  draft('Draft'),
