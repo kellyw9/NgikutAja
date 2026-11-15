@@ -290,3 +290,4 @@ class _PaymentStatusPageState extends State<PaymentStatusPage> {
       _t = Timer.periodic(const Duration(seconds: 1), (_) {
         if (!mounted) return;
         setState(() => left--);
+        if (left <= 0) {
