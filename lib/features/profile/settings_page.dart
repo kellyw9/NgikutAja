@@ -128,3 +128,4 @@ class AboutPage extends StatelessWidget {
           children: [
             Gap(
               16,
+              children: [
