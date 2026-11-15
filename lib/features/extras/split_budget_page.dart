@@ -165,3 +165,4 @@ class _SplitBudgetPageState extends State<SplitBudgetPage> {
                                               style: AppText.body,
                                               children: [
                                                 TextSpan(text: from, style: AppText.bodyStrong),
+                                                const TextSpan(text: ' transfer ke '),
