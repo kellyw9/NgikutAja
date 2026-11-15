@@ -269,3 +269,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
                   expand: true,
                   onPressed: () {
                     _apply();
+                    saveDraftAndClose(context, d);
