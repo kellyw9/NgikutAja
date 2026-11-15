@@ -54,3 +54,4 @@ List<String> shiftCascade(List<Stop> day, Stop target, int newStart) {
   final dur = target.duration;
   target
     ..start = fromMinutes(newStart)
+    ..end = fromMinutes(newStart + dur);
