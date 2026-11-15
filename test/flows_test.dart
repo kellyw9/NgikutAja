@@ -115,3 +115,4 @@ void main() {
     await tester.pumpWidget(host(s, PaidPreviewPage(it: toba)));
     expect(find.text('4 aktivitas di Hari 2 terkunci'), findsOneWidget);
     await tapText(tester, 'Beli Rp25.000', button: true);
+    await tester.pumpAndSettle();
