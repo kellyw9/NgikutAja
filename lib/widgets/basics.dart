@@ -179,3 +179,4 @@ class TextLink extends StatelessWidget {
       child: InkWell(
         onTap: onTap,
         borderRadius: BorderRadius.circular(4),
+        focusColor: AppColors.teal.withValues(alpha: .2),
