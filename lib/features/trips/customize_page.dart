@@ -13,3 +13,4 @@ class CustomizePage extends StatefulWidget {
   final int initialDay;
 
   @override
+  State<CustomizePage> createState() => _CustomizePageState();
