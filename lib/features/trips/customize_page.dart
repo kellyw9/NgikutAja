@@ -128,3 +128,4 @@ class _CustomizePageState extends State<CustomizePage> {
                             Text('${st.cat.label}, Hari ${day + 1} pukul ${st.start}–${st.end}', style: AppText.small.muted),
                           ],
                         ),
+                      ),
