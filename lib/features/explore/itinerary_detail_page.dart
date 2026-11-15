@@ -79,3 +79,4 @@ class _ItineraryDetailPageState extends State<ItineraryDetailPage> {
 
   @override
   Widget build(BuildContext context) {
+    final app = AppScope.of(context);
