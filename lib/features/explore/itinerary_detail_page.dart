@@ -38,3 +38,4 @@ class _StatChip extends StatelessWidget {
     child: Material(
       color: AppColors.surface,
       shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.circular(6),
