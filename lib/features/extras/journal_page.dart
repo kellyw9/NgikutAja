@@ -123,3 +123,4 @@ class _JournalPageState extends State<JournalPage> {
           Padding(
             padding: const EdgeInsets.fromLTRB(kMargin, 14, kMargin, 0),
             child: Gap(
+              12,
