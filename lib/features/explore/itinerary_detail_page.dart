@@ -265,3 +265,4 @@ class PaidPreviewPage extends StatelessWidget {
               right: [WishButton(it, onGuest: () => requireLogin(context))],
             ),
             Padding(
+              padding: const EdgeInsets.fromLTRB(kMargin, 16, kMargin, 0),
