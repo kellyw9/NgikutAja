@@ -554,3 +554,4 @@ class Marker extends StatelessWidget {
       decoration: BoxDecoration(
         color: fill,
         borderRadius: BorderRadius.circular(AppRadius.inner),
+        border: border != null ? Border.all(color: border, width: 2) : null,
