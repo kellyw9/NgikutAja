@@ -259,3 +259,4 @@ class TripCard extends StatelessWidget {
       border: Border.all(color: AppColors.line),
     ),
     clipBehavior: Clip.antiAlias,
+    child: Column(
