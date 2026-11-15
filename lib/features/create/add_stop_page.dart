@@ -124,3 +124,4 @@ class _AddStopPageState extends State<AddStopPage> {
                           label: 'Jam selesai',
                           icon: 'schedule',
                           value: end,
+                          error: timeErr == null ? null : '',
