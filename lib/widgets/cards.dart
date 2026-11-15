@@ -331,3 +331,4 @@ class StopRow extends StatelessWidget {
   final bool blur;
   final Color line;
   final bool conflict;
+  final VoidCallback? onTap;
