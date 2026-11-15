@@ -218,3 +218,4 @@ bool requireLogin(BuildContext context) {
           'Masuk ke akun',
           expand: true,
           onPressed: () {
+            Navigator.pop(ctx);
