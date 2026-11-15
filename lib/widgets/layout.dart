@@ -21,3 +21,5 @@ const kLightIcons = SystemUiOverlayStyle(
   systemNavigationBarColor: AppColors.ink,
   systemNavigationBarIconBrightness: Brightness.light,
 );
+
+/// App bar: tombol kembali, judul rata kiri (h2), subjudul kecil, aksi di kanan.
