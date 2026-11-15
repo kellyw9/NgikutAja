@@ -170,3 +170,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
                   error: showErr ? 'Judul wajib diisi' : null,
                   onChanged: (_) => setState(() => touched = true),
                 ),
+                NgField(
