@@ -223,3 +223,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
                     const SizedBox(height: 8),
                     Segmented(
                       items: const ['Gratis', 'Berbayar'],
+                      active: paid ? 'Berbayar' : 'Gratis',
