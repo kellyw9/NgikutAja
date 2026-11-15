@@ -348,3 +348,4 @@ class _SearchPageState extends State<SearchPage> {
           close: true,
           onTap: () => setState(() => filter.budget = const RangeValues(0, _maxBudget)),
         ),
+      if (filter.rating != null) NgChip('Rating ${filter.rating}', selected: true, close: true, onTap: () => setState(() => filter.rating = null)),
