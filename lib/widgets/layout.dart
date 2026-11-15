@@ -302,3 +302,4 @@ class ListRow extends StatelessWidget {
   final double padH;
 
   @override
+  Widget build(BuildContext context) => Tap(
