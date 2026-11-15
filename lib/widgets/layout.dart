@@ -44,3 +44,4 @@ class NgAppBar extends StatelessWidget implements PreferredSizeWidget {
   final VoidCallback? onBack;
   final List<Widget> actions;
   final bool rule;
+  final bool center;
