@@ -17,3 +17,4 @@ class PublishPage extends StatefulWidget {
 class _PublishPageState extends State<PublishPage> {
   late final d = widget.d;
   late bool paid = d.price > 0;
+  late final price = TextEditingController(text: thousands(d.price > 0 ? d.price : 25000));
