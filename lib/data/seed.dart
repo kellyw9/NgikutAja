@@ -522,3 +522,5 @@ class Seed {
         text: 'Hari kedua agak padat kalau bawa anak kecil. Kami geser museum ke hari ketiga.',
       ),
     ];
+
+    comments = {
