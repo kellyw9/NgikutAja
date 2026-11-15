@@ -185,3 +185,4 @@ class _AddStopPageState extends State<AddStopPage> {
                                       padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 2),
                                       decoration: BoxDecoration(color: AppColors.surface, borderRadius: BorderRadius.circular(AppRadius.tag)),
                                       child: Text('Terpasang', style: AppText.smallStrong),
+                                    ),
