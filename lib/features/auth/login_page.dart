@@ -228,3 +228,4 @@ class _GooglePainter extends CustomPainter {
   ];
 
   @override
+  void paint(Canvas canvas, Size size) {
