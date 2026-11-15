@@ -360,3 +360,4 @@ class Transaction {
   final DateTime date;
   final String method;
   final int amount;
+  TxStatus status;
