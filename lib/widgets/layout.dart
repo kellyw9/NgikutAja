@@ -511,3 +511,4 @@ class Gap extends StatelessWidget {
   Widget build(BuildContext context) => Column(
     crossAxisAlignment: cross,
     mainAxisSize: MainAxisSize.min,
+    children: [
