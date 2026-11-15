@@ -449,3 +449,4 @@ class AppState extends ChangeNotifier {
   }
 
   // ---------------- pengaturan ----------------
+  final Map<String, bool> settings = {
