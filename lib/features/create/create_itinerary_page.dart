@@ -43,3 +43,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
       ..region = city.text.trim()
       ..city = city.text.split(',').first.trim();
     if (!paid) d.price = 0;
+    if (paid && d.price == 0) d.price = 25000;
