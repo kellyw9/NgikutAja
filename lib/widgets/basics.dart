@@ -327,3 +327,4 @@ class DashedAction extends StatelessWidget {
     onTap: onTap,
     radius: AppRadius.control,
     child: DashedBox(
+      color: color,
