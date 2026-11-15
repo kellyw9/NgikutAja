@@ -88,3 +88,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
               decoration: BoxDecoration(color: AppColors.yellowPale, borderRadius: BorderRadius.circular(AppRadius.card)),
               child: Row(
                 children: [
+                  const AppIcon('lightbulb', size: 20),
