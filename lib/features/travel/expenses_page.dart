@@ -171,3 +171,4 @@ class ExpensesPage extends StatelessWidget {
 /// 6.5 Tambah / edit pengeluaran.
 class AddExpensePage extends StatefulWidget {
   const AddExpensePage({super.key, required this.trip, this.edit});
+  final Trip trip;
