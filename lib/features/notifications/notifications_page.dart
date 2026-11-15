@@ -147,3 +147,4 @@ class NotificationDetailPage extends StatelessWidget {
     final trip = app.runningTrip;
     final day = trip == null ? 0 : app.currentDay(trip);
     final idx = trip == null ? null : app.nextIndex(trip, day);
+    final st = trip != null && idx != null ? trip.plan[day][idx] : null;
