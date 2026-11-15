@@ -122,3 +122,4 @@ class _PackingPageState extends State<PackingPage> {
                               child: Row(
                                 mainAxisSize: MainAxisSize.min,
                                 children: [
+                                  const AppIcon('delete', size: 18, color: AppColors.white),
