@@ -37,3 +37,4 @@ Future<void> tapText(WidgetTester tester, String text, {bool button = false}) as
 void main() {
   // Pakai font asli supaya lebar teks sama dengan aplikasi (font tes bawaan jauh lebih lebar).
   setUpAll(() async {
+    final loader = FontLoader('PlusJakartaSans');
