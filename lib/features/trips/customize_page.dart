@@ -373,3 +373,4 @@ class _CustomizePageState extends State<CustomizePage> {
                 14,
                 children: [
                   if (conflicts.isNotEmpty)
+                    NgBanner(
