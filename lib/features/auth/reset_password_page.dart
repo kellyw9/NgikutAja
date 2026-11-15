@@ -81,3 +81,4 @@ class _ResetPasswordPageState extends State<ResetPasswordPage> {
                       hint: 'nama@email.com',
                       error: err,
                       keyboardType: TextInputType.emailAddress,
+                      readOnly: sent,
