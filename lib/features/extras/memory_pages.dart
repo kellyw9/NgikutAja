@@ -150,3 +150,4 @@ class _PhotoViewerPageState extends State<PhotoViewerPage> {
           ),
         ),
       ),
+    );
