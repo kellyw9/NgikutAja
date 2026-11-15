@@ -465,3 +465,4 @@ class _CustomizePageState extends State<CustomizePage> {
                               onTap: () async {
                                 final p = await pickPhotoSheet(context, title: 'Tambah foto perjalanan');
                                 if (p == null || p.isEmpty || !context.mounted) return;
+                                final now = DateTime.now();
