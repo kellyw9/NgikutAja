@@ -169,3 +169,4 @@ class NotificationDetailPage extends StatelessWidget {
                   Text(st == null ? 'Pengingat aktivitas' : '30 menit lagi: ${st.name}', style: AppText.h1),
                   const SizedBox(height: 4),
                   Text(
+                    'Pengingat aktivitas, ${weekdaysLong[date.weekday - 1]} ${date.day} ${monthsShort[date.month - 1]} ${date.year} pukul ${n.time}',
