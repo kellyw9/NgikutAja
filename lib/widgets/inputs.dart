@@ -368,3 +368,4 @@ class NgChip extends StatelessWidget {
     return Semantics(
       selected: selected,
       button: true,
+      label: close ? '$label, hapus filter' : null,
