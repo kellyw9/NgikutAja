@@ -198,3 +198,4 @@ class _InterestCard extends StatelessWidget {
       padding: const EdgeInsets.all(10),
       border: on ? AppColors.teal : AppColors.surface,
       borderWidth: on ? 2 : 0,
+      child: Row(
