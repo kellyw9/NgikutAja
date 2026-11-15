@@ -39,3 +39,4 @@ class DashboardPage extends StatelessWidget {
                       Text('Penjualan bulanan', style: AppText.title),
                       const SizedBox(height: 2),
                       Text('${chartItem.title}, ${rp(chartItem.price)} per transaksi', style: AppText.small.muted),
+                      const SizedBox(height: 10),
