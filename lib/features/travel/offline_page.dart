@@ -34,3 +34,4 @@ class OfflinePage extends StatelessWidget {
         padding: const EdgeInsets.fromLTRB(kMargin, 8, kMargin, 16),
         children: [
           Gap(
+            16,
