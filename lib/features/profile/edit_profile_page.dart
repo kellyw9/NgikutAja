@@ -60,3 +60,4 @@ class _EditProfilePageState extends State<EditProfilePage> {
           actions: const [
             DialogAction('Lanjut edit', kind: BtnKind.primary, value: false),
             DialogAction('Buang perubahan', kind: BtnKind.dangerText, value: true),
+          ],
