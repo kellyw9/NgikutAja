@@ -63,3 +63,4 @@ class MapView extends StatelessWidget {
                 for (final p in pins)
                   Positioned(
                     left: p.x * w - 12,
+                    top: p.y * h - 12,
