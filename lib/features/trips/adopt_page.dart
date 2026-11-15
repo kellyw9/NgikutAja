@@ -260,3 +260,4 @@ class _AdoptProgressPageState extends State<AdoptProgressPage> {
                   NgButton('Coba lagi', expand: true, onPressed: _run),
                   NgButton('Kembali', kind: BtnKind.secondary, expand: true, onPressed: () => Navigator.pop(context)),
                 ],
+              )
