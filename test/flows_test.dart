@@ -71,3 +71,4 @@ void main() {
     await tapText(tester, 'Adopt itinerary', button: true);
     await tester.pumpAndSettle();
     await tapText(tester, 'Adopt ke Trip Saya', button: true);
+    await tester.pumpAndSettle();
