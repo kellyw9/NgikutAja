@@ -249,3 +249,4 @@ class _AddStopPageState extends State<AddStopPage> {
                           const SizedBox(height: 2),
                           Text(address ?? 'Belum dipilih', style: AppText.small.muted, maxLines: 2, overflow: TextOverflow.ellipsis),
                         ],
+                      ),
