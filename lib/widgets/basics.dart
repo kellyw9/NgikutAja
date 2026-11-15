@@ -300,3 +300,4 @@ class _DashPainter extends CustomPainter {
       ..strokeWidth = width;
     final path = Path()..addRRect(rr);
     for (final ui.PathMetric m in path.computeMetrics()) {
+      var d = 0.0;
