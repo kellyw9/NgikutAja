@@ -567,3 +567,4 @@ class Marker extends StatelessWidget {
 
 /// Garis pemisah 1px dengan inset kiri.
 class NgDivider extends StatelessWidget {
+  const NgDivider({super.key, this.inset = 0, this.color = AppColors.rule});
