@@ -45,3 +45,4 @@ class ExpensesPage extends StatelessWidget {
                     body: '${e.name} (${rp(e.amount)}) dihapus dari catatan dan pembagian biaya.',
                     actions: const [
                       DialogAction('Hapus', kind: BtnKind.danger, value: true),
+                      DialogAction('Batal'),
