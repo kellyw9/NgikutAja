@@ -50,3 +50,4 @@ class OfflinePage extends StatelessWidget {
                             const SizedBox(height: 2),
                             Text(
                               t.offline ? 'Tersimpan offline (${t.offlineSize} MB), sinkronisasi pukul ${t.syncedAt}' : 'Belum diunduh',
+                              style: AppText.small.muted,
