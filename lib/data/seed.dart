@@ -47,3 +47,4 @@ class Seed {
     me = Creator(
       id: 'dinda',
       name: 'Dinda Saragi',
+      handle: '@dindasaragi',
