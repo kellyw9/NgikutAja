@@ -38,3 +38,4 @@ class OfflinePage extends StatelessWidget {
             children: [
               for (final t in trips)
                 NgCard(
+                  child: Row(
