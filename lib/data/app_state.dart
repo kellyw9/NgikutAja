@@ -56,3 +56,4 @@ class AppState extends ChangeNotifier {
               online = v;
               notifyListeners();
             })
+            .catchError((_) {});
