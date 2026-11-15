@@ -184,3 +184,4 @@ class _PaymentPageState extends State<PaymentPage> {
     } else if (method != 'Transfer Bank') {
       app.completePayment(tx);
     }
+    setState(() => processing = false);
