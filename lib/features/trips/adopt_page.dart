@@ -120,3 +120,4 @@ class _AdoptPageState extends State<AdoptPage> {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text('Pengingat', style: AppText.bodyStrong),
+                  const SizedBox(height: 6),
