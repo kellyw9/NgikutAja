@@ -91,3 +91,4 @@ class DashboardPage extends StatelessWidget {
                     Text('Belum ada itinerary yang terbit.', style: AppText.body.muted)
                   else
                     BoxList(
+                      inset: 78,
