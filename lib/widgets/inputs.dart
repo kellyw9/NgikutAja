@@ -296,3 +296,4 @@ class RadioRow extends StatelessWidget {
       opacity: enabled ? 1 : .6,
       child: Tap(
         onTap: enabled ? onTap : null,
+        radius: 6,
