@@ -27,3 +27,5 @@ class _ResetPasswordPageState extends State<ResetPasswordPage> {
   String? err;
   int wait = 0;
   Timer? _t;
+
+  Future<void> _send() async {
