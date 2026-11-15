@@ -54,3 +54,4 @@ class NotificationsPage extends StatelessWidget {
                 if (today.isNotEmpty) ...[_group('Hari ini'), for (final n in today) _row(context, app, n)],
                 if (older.isNotEmpty) ...[_group('Kemarin'), for (final n in older) _row(context, app, n)],
               ],
+            ),
