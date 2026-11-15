@@ -41,3 +41,4 @@ class Stop {
     required this.start,
     required this.end,
     required this.name,
+    required this.cat,
