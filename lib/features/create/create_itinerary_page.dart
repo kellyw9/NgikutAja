@@ -302,3 +302,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
         ),
       );
     }
+    return Tap(
