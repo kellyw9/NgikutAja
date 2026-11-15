@@ -76,3 +76,4 @@ class PurchaseDetailPage extends StatelessWidget {
                 ],
               ),
               NgCard(
+                child: Column(
