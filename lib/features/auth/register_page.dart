@@ -128,3 +128,4 @@ class _RegisterPageState extends State<RegisterPage> {
                           Expanded(child: Text(st, style: AppText.small.muted)),
                         ],
                       ),
+                      const SizedBox(height: 14),
