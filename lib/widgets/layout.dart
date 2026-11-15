@@ -13,3 +13,5 @@ const kDarkIcons = SystemUiOverlayStyle(
   systemNavigationBarColor: AppColors.surface,
   systemNavigationBarIconBrightness: Brightness.dark,
 );
+
+const kLightIcons = SystemUiOverlayStyle(
