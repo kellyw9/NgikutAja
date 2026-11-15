@@ -215,3 +215,4 @@ class PublishedPage extends StatelessWidget {
                     ),
                     const SizedBox(height: 20),
                     Semantics(
+                      liveRegion: true,
