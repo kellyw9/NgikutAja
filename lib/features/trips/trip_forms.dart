@@ -61,3 +61,4 @@ class _EditStopPageState extends State<EditStopPage> {
       ..note = note.text.trim().isEmpty ? null : note.text.trim()
       ..photo = photo;
     Navigator.pop(context, StopEditResult(stop: out));
+  }
