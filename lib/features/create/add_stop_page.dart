@@ -154,3 +154,4 @@ class _AddStopPageState extends State<AddStopPage> {
                 inputFormatters: [ThousandsFormatter()],
               ),
               NgField(
+                label: 'Catatan / local tip',
