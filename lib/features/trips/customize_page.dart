@@ -86,3 +86,4 @@ class _CustomizePageState extends State<CustomizePage> {
     final st = plan[day][i];
     final r = await showNgDialog(
       context,
+      icon: 'delete',
