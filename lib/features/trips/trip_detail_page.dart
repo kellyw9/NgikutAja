@@ -223,3 +223,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
                 if (status == TripStatus.berjalan)
                   NgButton(
                     'Buka Travel Mode',
+                    kind: BtnKind.secondary,
