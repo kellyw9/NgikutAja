@@ -103,3 +103,4 @@ class WisataCard extends StatelessWidget {
                           if (it.isPaid) PriceTag(rp(it.price)) else Text('Gratis', style: AppText.smallStrong.c(AppColors.positive)),
                         ],
                       ),
+                    ],
