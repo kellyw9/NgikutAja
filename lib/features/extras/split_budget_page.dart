@@ -8,3 +8,4 @@ class SplitBudgetPage extends StatefulWidget {
   final Trip trip;
 
   @override
+  State<SplitBudgetPage> createState() => _SplitBudgetPageState();
