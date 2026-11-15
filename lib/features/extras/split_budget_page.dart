@@ -69,3 +69,4 @@ class _SplitBudgetPageState extends State<SplitBudgetPage> {
                       const SizedBox(width: 6),
                       NgChip('Kustom', selected: custom, onTap: () => setState(() => custom = true)),
                     ],
+                  ),
