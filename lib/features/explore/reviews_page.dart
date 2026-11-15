@@ -173,3 +173,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
                         runSpacing: 4,
                         crossAxisAlignment: WrapCrossAlignment.center,
                         children: [
+                          Text(c.name, style: AppText.bodyStrong),
