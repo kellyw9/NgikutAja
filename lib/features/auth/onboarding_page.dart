@@ -126,3 +126,4 @@ class _OnboardingPageState extends State<OnboardingPage> {
       padding: const EdgeInsets.fromLTRB(16, 20, 20, 20),
       decoration: BoxDecoration(color: AppColors.surface, borderRadius: BorderRadius.circular(AppRadius.card)),
       child: Column(
+        children: [
