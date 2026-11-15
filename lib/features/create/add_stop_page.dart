@@ -225,3 +225,4 @@ class _AddStopPageState extends State<AddStopPage> {
                                     Text(photo == null ? 'Tambah foto' : 'Ganti foto', style: AppText.smallStrong),
                                   ],
                                 ),
+                              ),
