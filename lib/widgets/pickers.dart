@@ -165,3 +165,4 @@ Future<Category?> pickCategory(BuildContext context, Category current) {
                   ],
                 ),
               ),
+            ),
