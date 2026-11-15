@@ -310,3 +310,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
                           onTap: () => _stopSheet(t, day, i),
                         ),
                     ],
+                  ),
