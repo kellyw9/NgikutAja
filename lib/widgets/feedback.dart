@@ -11,3 +11,4 @@ class NgBanner extends StatelessWidget {
   const NgBanner({super.key, this.kind = BannerKind.warning, this.title, this.text, this.action, this.onAction, this.icon});
   final BannerKind kind;
   final String? title;
+  final String? text;
