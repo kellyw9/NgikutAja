@@ -382,3 +382,4 @@ class _CustomizePageState extends State<CustomizePage> {
                       action: 'Lihat saran',
                       onAction: _notes,
                     )
+                  else if (isPacked(stops))
