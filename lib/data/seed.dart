@@ -190,3 +190,4 @@ class Seed {
             _a,
             10000,
             'holbung',
+            'Naik 20 menit. Bawa air, tidak ada warung di atas.',
