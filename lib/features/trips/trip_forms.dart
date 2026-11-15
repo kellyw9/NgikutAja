@@ -314,3 +314,4 @@ class _EditTripInfoPageState extends State<EditTripInfoPage> {
                   if (d != null) setState(() => start = d);
                 },
               ),
+              NgField(label: 'Deskripsi', controller: desc, area: true, hint: 'Catatan untuk anggota trip.'),
