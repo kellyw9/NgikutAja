@@ -131,3 +131,4 @@ class _OnboardingPageState extends State<OnboardingPage> {
             IntrinsicHeight(
               child: Row(
                 crossAxisAlignment: CrossAxisAlignment.stretch,
+                children: [
