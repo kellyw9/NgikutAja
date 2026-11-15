@@ -116,3 +116,4 @@ class _EditProfilePageState extends State<EditProfilePage> {
                   error: uErr,
                 ),
                 Column(
+                  crossAxisAlignment: CrossAxisAlignment.stretch,
