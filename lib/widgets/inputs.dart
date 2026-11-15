@@ -122,3 +122,4 @@ class _NgFieldState extends State<NgField> {
     // Awalan (misalnya "Rp") selalu terlihat, tidak hanya saat field difokus.
     if (widget.prefixText != null) {
       content = Row(
+        children: [
