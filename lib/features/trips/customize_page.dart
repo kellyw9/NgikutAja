@@ -428,3 +428,4 @@ class _CustomizePageState extends State<CustomizePage> {
                                 index: i,
                                 child: Semantics(
                                   label: 'Geser untuk mengurutkan ${stops[i].name}',
+                                  child: const MouseRegion(
