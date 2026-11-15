@@ -67,3 +67,4 @@ void main() {
     await phone(tester);
     final s = newState();
     final before = s.trips.length;
+    await tester.pumpWidget(host(s, ItineraryDetailPage(it: s.itinerary('medan'))));
