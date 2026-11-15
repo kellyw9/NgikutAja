@@ -15,3 +15,4 @@ class PublishPage extends StatefulWidget {
 }
 
 class _PublishPageState extends State<PublishPage> {
+  late final d = widget.d;
