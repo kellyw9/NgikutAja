@@ -22,3 +22,4 @@ class AppColors {
   static const tealPale = Color(0xFFD3ECEF);
   static const yellowPale = Color(0xFFFFF1C4);
   static const positive = Color(0xFF1E6B44);
+  static const positivePale = Color(0xFFDCFAE5);
