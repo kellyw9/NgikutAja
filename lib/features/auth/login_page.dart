@@ -127,3 +127,4 @@ class _LoginPageState extends State<LoginPage> {
                             'Lupa password?',
                             color: AppColors.ink,
                             onTap: () => push(context, ResetPasswordPage(email: email.text)),
+                          ),
