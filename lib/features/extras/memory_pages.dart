@@ -39,3 +39,4 @@ class PhotoMemoryPage extends StatelessWidget {
                       final size = (c.maxWidth - 12) / 3;
                       final list = t.photos.where((p) => p.day == d).toList();
                       return Wrap(
+                        spacing: 6,
