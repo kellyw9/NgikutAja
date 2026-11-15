@@ -343,3 +343,4 @@ class SkeletonCard extends StatelessWidget {
       ],
     ),
   );
+}
