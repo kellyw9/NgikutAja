@@ -77,3 +77,4 @@ class Itinerary {
     required this.city,
     required this.region,
     required this.days,
+    required this.cover,
