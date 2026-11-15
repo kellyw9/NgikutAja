@@ -405,3 +405,4 @@ class _CustomizePageState extends State<CustomizePage> {
                           borderRadius: BorderRadius.circular(AppRadius.card),
                           side: const BorderSide(color: AppColors.ink),
                         ),
+                        child: DecoratedBox(
