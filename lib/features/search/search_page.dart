@@ -491,3 +491,4 @@ class _SearchPageState extends State<SearchPage> {
               group(
                 'Rating',
                 Wrap(
+                  spacing: 8,
