@@ -114,3 +114,4 @@ class _ExplorePageState extends State<ExplorePage> {
                       scrollDirection: Axis.horizontal,
                       padding: const EdgeInsets.symmetric(horizontal: kMargin),
                       itemCount: AppState.cities.length,
+                      separatorBuilder: (_, _) => const SizedBox(width: 12),
