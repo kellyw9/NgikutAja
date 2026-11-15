@@ -31,3 +31,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
     AppScope.read(context).addComment(widget.it, input.text, replyTo: replyTo);
     input.clear();
     setState(() => replyTo = null);
+    focus.unfocus();
