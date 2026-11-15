@@ -94,3 +94,4 @@ List<String> shiftCascade(List<Stop> day, Stop target, int newStart) {
       // Pratinjau di salinan supaya teks saran sesuai hasil sebenarnya.
       final preview = [for (final s in day) s.copy()];
       final pb = preview[day.indexOf(b)];
+      final others = shiftCascade(preview, pb, ns);
