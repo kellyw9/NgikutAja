@@ -265,3 +265,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
                         sub: toolSub(key),
                         padH: 0,
                         onTap: () => switch (key) {
+                          'split' => push(context, SplitBudgetPage(trip: t)),
