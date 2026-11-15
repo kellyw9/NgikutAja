@@ -190,3 +190,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
                     NgField(
                       label: 'Durasi',
                       icon: 'schedule',
+                      value: '${d.days} hari',
