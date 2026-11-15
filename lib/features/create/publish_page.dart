@@ -232,3 +232,4 @@ class PublishedPage extends StatelessWidget {
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
                                 const Pill('Live di Explore', kind: PillKind.positive, icon: 'check_circle'),
+                                const SizedBox(height: 8),
