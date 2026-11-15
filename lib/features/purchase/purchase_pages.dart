@@ -24,3 +24,4 @@ class _ItemRow extends StatelessWidget {
         Expanded(
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
