@@ -120,3 +120,4 @@ class _SearchPageState extends State<SearchPage> {
     final list = app.itineraries.where((x) => !x.isDraft && _matchQuery(x, q) && (f ?? filter).match(x)).toList();
     switch (sort) {
       case 'Rating tertinggi':
+        list.sort((a, b) => (b.rating ?? 0).compareTo(a.rating ?? 0));
