@@ -551,3 +551,4 @@ class CreatorRow extends StatelessWidget {
       child: Row(
         children: [
           Expanded(
+            child: Tap(
