@@ -132,3 +132,4 @@ class _RegisterPageState extends State<RegisterPage> {
                       NgField(
                         label: 'Konfirmasi password',
                         icon: 'lock',
+                        controller: confirm,
