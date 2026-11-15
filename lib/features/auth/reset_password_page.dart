@@ -32,3 +32,4 @@ class _ResetPasswordPageState extends State<ResetPasswordPage> {
     setState(() => err = validateEmail(email.text));
     if (err != null) return;
     setState(() => loading = true);
+    await Future<void>.delayed(const Duration(milliseconds: 700));
