@@ -7,3 +7,4 @@ import '../purchase/purchase_pages.dart';
 import 'dashboard_page.dart';
 import 'edit_profile_page.dart';
 import 'people_page.dart';
+import 'settings_page.dart';
