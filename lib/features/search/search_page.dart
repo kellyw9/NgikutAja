@@ -85,3 +85,4 @@ class _SearchPageState extends State<SearchPage> {
       setState(() {
         submitted = null;
         input.clear();
+      });
