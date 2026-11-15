@@ -154,3 +154,4 @@ class TripsPage extends StatelessWidget {
             const Spacer(),
             Text('${t.visited()} dari ${t.places()} tempat', style: AppText.small.muted),
           ],
+        ),
