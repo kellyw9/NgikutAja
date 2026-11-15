@@ -28,3 +28,4 @@ class _PeoplePageState extends State<PeoplePage> {
     final app = AppScope.of(context);
     final list = widget.followers ? app.seed.followers : app.seed.followingPeople;
     return Scaffold(
+      backgroundColor: AppColors.ground,
