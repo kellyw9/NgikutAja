@@ -78,3 +78,4 @@ class _ResetPasswordPageState extends State<ResetPasswordPage> {
                       label: 'Email',
                       icon: 'mail',
                       controller: email,
+                      hint: 'nama@email.com',
