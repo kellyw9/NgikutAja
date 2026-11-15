@@ -37,3 +37,4 @@ class _HomeShellState extends State<HomeShell> {
       if (requireLogin(context)) push(context, const CreateItineraryPage(), fullscreen: true);
       return;
     }
+    if ((i == tabTrips || i == tabProfile) && !requireLogin(context)) return;
