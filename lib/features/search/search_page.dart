@@ -555,3 +555,4 @@ class _BudgetSlider extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) => Column(
+    children: [
