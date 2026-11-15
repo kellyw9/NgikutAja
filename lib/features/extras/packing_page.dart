@@ -81,3 +81,4 @@ class _PackingPageState extends State<PackingPage> {
     final done = all.where((x) => x.done).length;
     return Scaffold(
       backgroundColor: AppColors.ground,
+      appBar: NgAppBar(title: 'Packing list', sub: t.title),
