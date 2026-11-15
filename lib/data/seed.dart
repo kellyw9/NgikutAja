@@ -399,3 +399,4 @@ class Seed {
         dayTitles: [''],
       ),
       Itinerary(
+        id: 'draft-sarapan',
