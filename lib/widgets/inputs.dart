@@ -190,3 +190,4 @@ class _NgFieldState extends State<NgField> {
           const SizedBox(height: 6),
           Text(widget.helper!, style: AppText.small.muted),
         ],
+      ],
