@@ -35,3 +35,5 @@ void main() {
     expect(day[1].start, '14.45');
     expect(conflictsIn(day), isEmpty);
   });
+
+  test('Format rupiah dan jam', () {
