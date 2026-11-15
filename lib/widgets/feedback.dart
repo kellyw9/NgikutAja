@@ -85,3 +85,4 @@ void showNgSnack(BuildContext context, String text, {SnackKind kind = SnackKind.
       backgroundColor: bg,
       elevation: 0,
       margin: const EdgeInsets.fromLTRB(kMargin, 0, kMargin, 12),
+      padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 12),
