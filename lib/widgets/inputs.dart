@@ -144,3 +144,4 @@ class _NgFieldState extends State<NgField> {
         children: [
           if (widget.icon != null) ...[AppIcon(widget.icon!, size: 20, color: AppColors.muted), const SizedBox(width: 10)],
           Expanded(
+            child: Padding(
