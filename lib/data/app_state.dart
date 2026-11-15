@@ -258,3 +258,4 @@ class AppState extends ChangeNotifier {
   int get totalAdopt => mine.fold(0, (a, x) => a + x.adopted);
 
   // ---------------- trip ----------------
+  late List<Trip> trips;
