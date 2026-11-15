@@ -356,3 +356,4 @@ class TravelStopPage extends StatelessWidget {
       ),
     );
   }
+}
