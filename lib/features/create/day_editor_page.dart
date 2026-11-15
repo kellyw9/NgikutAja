@@ -12,3 +12,4 @@ class DayEditorPage extends StatefulWidget {
   final Itinerary d;
 
   @override
+  State<DayEditorPage> createState() => _DayEditorPageState();
