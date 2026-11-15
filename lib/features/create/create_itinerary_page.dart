@@ -306,3 +306,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
       onTap: pick,
       radius: AppRadius.card,
       label: 'Tambah foto sampul',
+      child: DashedBox(
