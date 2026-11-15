@@ -60,3 +60,4 @@ class _RegisterPageState extends State<RegisterPage> {
     for (final c in [name, email, pass, confirm]) {
       c.dispose();
     }
+    super.dispose();
