@@ -24,3 +24,4 @@ class SettingsPage extends StatelessWidget {
       ],
     );
     if (r == true && context.mounted) {
+      AppScope.read(context).logout();
