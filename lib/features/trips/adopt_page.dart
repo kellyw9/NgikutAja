@@ -186,3 +186,4 @@ class _AdoptPageState extends State<AdoptPage> {
 }
 
 /// 5.2 Adopt: proses, berhasil, gagal.
+class AdoptProgressPage extends StatefulWidget {
