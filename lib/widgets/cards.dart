@@ -488,3 +488,4 @@ class _DayBox extends StatelessWidget {
   Widget build(BuildContext context) {
     final fg = on ? AppColors.white : AppColors.muted;
     return Semantics(
+      selected: on,
