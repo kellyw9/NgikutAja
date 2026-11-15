@@ -52,3 +52,4 @@ void main() {
     await tester.enterText(find.byType(TextField).at(1), 'salah1234');
     await tapText(tester, 'Masuk', button: true);
     await tester.pump(const Duration(milliseconds: 700));
+    expect(find.text('Email atau password salah'), findsOneWidget);
