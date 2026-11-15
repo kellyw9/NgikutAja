@@ -392,3 +392,4 @@ class NgChip extends StatelessWidget {
                   AppIcon(icon!, size: 18),
                   const SizedBox(width: 6),
                 ],
+                ExcludeSemantics(
