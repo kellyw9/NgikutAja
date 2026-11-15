@@ -230,3 +230,4 @@ class _CustomizePageState extends State<CustomizePage> {
       title: 'Catatan jadwal',
       sub: 'Hanya peringatan. Perubahan tetap bisa disimpan.',
       scroll: true,
+      builder: (ctx) {
