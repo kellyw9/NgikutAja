@@ -177,3 +177,4 @@ class _MapPainter extends CustomPainter {
           ..color = AppColors.mapWater
           ..style = PaintingStyle.stroke
           ..strokeWidth = 14,
+      );
