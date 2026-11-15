@@ -149,3 +149,4 @@ class IconBtn extends StatelessWidget {
           child: InkWell(
             onTap: onTap,
             customBorder: RoundedRectangleBorder(borderRadius: radius),
+            focusColor: AppColors.teal.withValues(alpha: .24),
