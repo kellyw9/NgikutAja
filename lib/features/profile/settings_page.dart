@@ -132,3 +132,4 @@ class AboutPage extends StatelessWidget {
                 const Align(alignment: Alignment.centerLeft, child: Wordmark(large: false)),
                 Text('Versi 1.0.0. Aplikasi itinerary liburan sosial untuk Tugas Besar Pemrograman Mobile.', style: AppText.body),
                 const NgBanner(
+                  kind: BannerKind.info,
