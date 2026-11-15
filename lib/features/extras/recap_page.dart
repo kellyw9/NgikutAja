@@ -25,3 +25,4 @@ class RecapPage extends StatelessWidget {
     return Scaffold(
       backgroundColor: AppColors.ground,
       appBar: NgAppBar(
+        title: 'Trip recap',
