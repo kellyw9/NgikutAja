@@ -63,3 +63,4 @@ class _JournalPageState extends State<JournalPage> {
       widget.trip.journal[day] = JournalEntry(title: tt.isEmpty ? _dayLabel(day) : tt, text: tx, photos: []);
     } else {
       e.text = '${e.text}\n\n$tx';
+    }
