@@ -172,3 +172,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
                           Container(
                             width: 64,
                             height: 64,
+                            alignment: Alignment.center,
