@@ -133,3 +133,4 @@ class _CalendarState extends State<_Calendar> {
                     '${weekdaysLong[end.weekday - 1]}, ${end.day} ${monthsShort[end.month - 1]} ${end.year} (durasi ${widget.days} hari)'
               : dateLong(sel),
           style: AppText.body.muted,
+        ),
