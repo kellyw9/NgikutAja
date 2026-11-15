@@ -430,3 +430,4 @@ class _PickLocationPageState extends State<PickLocationPage> {
                           const SizedBox(height: 4),
                           Text(
                             'Ketuk peta untuk memindah pin. Peta masih gambar sementara, alamat diisi dari nama tempat dan kota.',
+                            style: AppText.small.muted,
