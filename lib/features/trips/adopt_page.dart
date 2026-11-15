@@ -290,3 +290,4 @@ class _AdoptProgressPageState extends State<AdoptProgressPage> {
                       push(context, TripDetailPage(trip: trip!));
                     },
                   ),
+                ],
