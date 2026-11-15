@@ -375,3 +375,5 @@ class AddPhotoTile extends StatelessWidget {
 }
 
 // ---------------------------------------------------------------- label
+
+enum PillKind { neutral, teal, positive, negative, warning, solid }
