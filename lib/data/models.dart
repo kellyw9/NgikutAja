@@ -286,3 +286,4 @@ class Trip {
   List<TripPhoto> photos;
   Map<int, JournalEntry> journal;
   String story;
+  bool offline;
