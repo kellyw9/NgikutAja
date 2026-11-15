@@ -43,3 +43,4 @@ import 'package:ngikutaja/features/trips/trip_detail_page.dart';
 typedef PageFor = Widget Function(AppState s);
 
 final Map<String, PageFor> pages = {
+  'onboarding': (s) => const OnboardingPage(),
