@@ -58,3 +58,4 @@ class _HomeShellState extends State<HomeShell> {
               child: IndexedStack(index: t, children: _pages),
             ),
             bottomNavigationBar: BottomNav(active: t, onTap: _select),
+          ),
