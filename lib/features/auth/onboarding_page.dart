@@ -15,3 +15,5 @@ class _OnboardingPageState extends State<OnboardingPage> {
   final _pc = PageController();
   int page = 0;
   final Set<String> picked = {'Kuliner', 'Budaya'};
+
+  static const flow = [
