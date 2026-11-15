@@ -584,3 +584,4 @@ class Progress extends StatelessWidget {
   final double height;
   final Color fill;
   final Color track;
+  final double? width;
