@@ -106,3 +106,4 @@ class ExpensesPage extends StatelessWidget {
                       ],
                     ),
                   ],
+                ),
