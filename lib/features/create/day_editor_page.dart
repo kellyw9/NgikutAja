@@ -65,3 +65,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
   void dispose() {
     dayTitle.dispose();
     super.dispose();
+  }
