@@ -228,3 +228,4 @@ class _AdoptProgressPageState extends State<AdoptProgressPage> {
       ).adopt(widget.it, widget.start, remindDayBefore: widget.dayBefore, remindEach: widget.each, offset: widget.offset, offline: widget.offline);
       if (mounted) setState(() => trip = t);
     } catch (_) {
+      if (mounted) setState(() => failed = true);
