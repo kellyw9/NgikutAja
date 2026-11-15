@@ -53,3 +53,4 @@ class ProfilePage extends StatelessWidget {
                 icon: 'bar_chart',
                 title: 'Creator dashboard',
                 sub: 'Pendapatan ${rp(app.revenue)} (simulasi)',
+                onTap: () => push(context, const DashboardPage()),
