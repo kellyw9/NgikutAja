@@ -262,3 +262,4 @@ class KeyValueBox extends StatelessWidget {
               ],
             ),
           ),
+        if (total != null) ...[
