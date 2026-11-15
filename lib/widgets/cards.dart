@@ -145,3 +145,4 @@ class WisataCard extends StatelessWidget {
           label: label,
           radius: AppRadius.card,
           child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
