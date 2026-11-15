@@ -142,3 +142,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
                         setState(() {
                           d.plan.add([]);
                           d.dayTitles.add('');
+                          d.days = d.plan.length;
