@@ -67,3 +67,5 @@ class AppState extends ChangeNotifier {
 
   DateTime get today => seed.today;
   bool online = true;
+
+  // ---------------- akun ----------------
