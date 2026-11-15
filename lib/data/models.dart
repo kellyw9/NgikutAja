@@ -201,3 +201,5 @@ class Expense {
   String time;
   String? receipt;
 }
+
+class PackItem {
