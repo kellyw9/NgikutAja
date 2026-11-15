@@ -96,3 +96,4 @@ class BottomNav extends StatelessWidget {
                         label: items[i].$2,
                         child: InkWell(
                           onTap: () => onTap(i),
+                          focusColor: AppColors.teal.withValues(alpha: .2),
