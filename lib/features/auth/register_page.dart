@@ -135,3 +135,4 @@ class _RegisterPageState extends State<RegisterPage> {
                         controller: confirm,
                         obscure: ob2,
                         onChanged: refresh,
+                        hint: 'Ketik ulang password',
