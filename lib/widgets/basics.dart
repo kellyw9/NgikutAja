@@ -240,3 +240,4 @@ class Photo extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     Widget img;
+    final s = src;
