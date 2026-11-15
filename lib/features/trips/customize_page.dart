@@ -26,3 +26,4 @@ class _CustomizePageState extends State<CustomizePage> {
 
   void _changed(VoidCallback f) => setState(() {
     f();
+    changes++;
