@@ -199,3 +199,4 @@ class _EditStopPageState extends State<EditStopPage> {
                         onTap: () async {
                           final p = await pickPhotoSheet(context, title: 'Foto tempat');
                           if (p != null && p.isNotEmpty) setState(() => photo = p);
+                        },
