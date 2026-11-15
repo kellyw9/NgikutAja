@@ -501,3 +501,4 @@ class PageFrame extends StatelessWidget {
 }
 
 /// Kolom dengan jarak seragam antar anak.
+class Gap extends StatelessWidget {
