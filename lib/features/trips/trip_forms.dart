@@ -274,3 +274,4 @@ class _EditTripInfoPageState extends State<EditTripInfoPage> {
             children: [
               SizedBox(
                 height: 180,
+                child: Stack(
