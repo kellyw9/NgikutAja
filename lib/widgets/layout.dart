@@ -248,3 +248,4 @@ class KeyValueBox extends StatelessWidget {
       border: Border.all(color: AppColors.line),
     ),
     child: Column(
+      children: [
