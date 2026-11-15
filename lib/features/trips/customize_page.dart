@@ -146,3 +146,4 @@ class _CustomizePageState extends State<CustomizePage> {
                         selected: d == pick,
                         enabled: d != day,
                         height: 56,
+                        onTap: () => set(() => pick = d),
