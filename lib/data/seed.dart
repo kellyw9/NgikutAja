@@ -142,3 +142,4 @@ class Seed {
             'Tjong A Fie Mansion',
             _b,
             35000,
+            'tjongafie',
