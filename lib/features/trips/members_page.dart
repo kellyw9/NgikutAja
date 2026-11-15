@@ -111,3 +111,4 @@ class MembersPage extends StatelessWidget {
                   title: 'Edit',
                   sub: 'Bisa mengubah jadwal dan pengeluaran',
                   selected: role == MemberRole.editor,
+                  onTap: () => set(() => role = MemberRole.editor),
