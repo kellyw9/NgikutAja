@@ -187,3 +187,4 @@ class _CustomizePageState extends State<CustomizePage> {
     _changed(() {
       final s = plan[day].removeAt(i);
       appendToDay(plan[target], s);
+    });
