@@ -95,3 +95,4 @@ class _RoutePainter extends CustomPainter {
         ..color = AppColors.teal
         ..style = PaintingStyle.stroke
         ..strokeWidth = 4
+        ..strokeCap = StrokeCap.round,
