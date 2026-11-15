@@ -12,3 +12,4 @@ void main() {
     expect(find.text('Liburan tinggal ngikut.'), findsOneWidget);
 
     await tester.pump(const Duration(milliseconds: 1500));
+    await tester.pumpAndSettle();
