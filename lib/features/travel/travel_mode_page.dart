@@ -439,3 +439,4 @@ class NavigationPage extends StatelessWidget {
                             child: Padding(
                               padding: const EdgeInsets.symmetric(horizontal: 14),
                               child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
