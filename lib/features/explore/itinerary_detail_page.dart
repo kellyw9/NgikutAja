@@ -151,3 +151,4 @@ class _ItineraryDetailPageState extends State<ItineraryDetailPage> {
                     children: [
                       Text('Tentang itinerary ini', style: AppText.h2),
                       const SizedBox(height: 6),
+                      Text(
