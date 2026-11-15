@@ -51,3 +51,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
         ],
       ),
       bottomNavigationBar: tab == 'Komentar' ? _composer(app) : null,
+    );
