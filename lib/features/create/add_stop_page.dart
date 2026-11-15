@@ -213,3 +213,4 @@ class _AddStopPageState extends State<AddStopPage> {
                             label: 'Tambah foto',
                             child: DashedBox(
                               radius: AppRadius.card,
+                              fill: AppColors.surfaceSoft,
