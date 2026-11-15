@@ -117,3 +117,4 @@ class _CheckinPageState extends State<CheckinPage> {
 /// Hubungkan ke pengecekan izin GPS saat lokasi asli dipasang.
 class PermissionDeniedPage extends StatelessWidget {
   const PermissionDeniedPage({super.key, required this.place, required this.onOpenSettings});
+  final String place;
