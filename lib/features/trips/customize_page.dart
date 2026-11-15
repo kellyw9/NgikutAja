@@ -39,3 +39,4 @@ class _CustomizePageState extends State<CustomizePage> {
     setState(() => saving = true);
     try {
       await AppScope.read(context).saveTripPlan(t, copyPlan(plan), [...titles]);
+      if (!mounted) return;
