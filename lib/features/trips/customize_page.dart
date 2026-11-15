@@ -45,3 +45,4 @@ class _CustomizePageState extends State<CustomizePage> {
         changes = 0;
       });
       showNgSnack(context, 'Perubahan tersimpan. Pengingat ikut diperbarui.', kind: SnackKind.success);
+    } catch (_) {
