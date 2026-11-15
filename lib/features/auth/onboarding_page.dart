@@ -195,3 +195,4 @@ class _InterestCard extends StatelessWidget {
     checked: on,
     child: NgCard(
       onTap: onTap,
+      padding: const EdgeInsets.all(10),
