@@ -263,3 +263,5 @@ class AppState extends ChangeNotifier {
   TripStatus statusOf(Trip t) => t.statusOn(today);
 
   List<Trip> tripsWith(TripStatus s) => trips.where((t) => statusOf(t) == s).toList();
+
+  Trip? get runningTrip => trips.where((t) => statusOf(t) == TripStatus.berjalan).firstOrNull;
