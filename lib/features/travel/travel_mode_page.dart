@@ -66,3 +66,4 @@ class TravelModePage extends StatelessWidget {
                                     style: AppText.smallStrong.white,
                                   ),
                                 ],
+                              ),
