@@ -21,3 +21,4 @@ class DashboardPage extends StatelessWidget {
       backgroundColor: AppColors.ground,
       appBar: const NgAppBar(title: 'Creator dashboard', sub: 'Juli sampai November 2026'),
       body: ListView(
+        padding: const EdgeInsets.fromLTRB(kMargin, 8, kMargin, 24),
