@@ -24,3 +24,4 @@ class _PhotoPreviewPageState extends State<PhotoPreviewPage> {
   String vis = 'Trip-only';
 
   @override
+  Widget build(BuildContext context) {
