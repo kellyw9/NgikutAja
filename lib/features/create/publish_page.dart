@@ -84,3 +84,4 @@ class _PublishPageState extends State<PublishPage> {
                     const SizedBox(width: 14),
                     Expanded(
                       child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
