@@ -305,3 +305,4 @@ class TravelStopPage extends StatelessWidget {
                               const SizedBox(height: 2),
                               Text(st.note!, style: AppText.body),
                             ],
+                          ),
