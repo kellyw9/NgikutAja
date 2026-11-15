@@ -32,3 +32,4 @@ class _PeoplePageState extends State<PeoplePage> {
       appBar: NgAppBar(
         title: widget.followers ? 'Pengikut' : 'Mengikuti',
         sub: widget.followers ? '${app.me.followers} pengikut' : '${app.me.following} mengikuti',
+      ),
