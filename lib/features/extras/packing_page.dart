@@ -99,3 +99,4 @@ class _PackingPageState extends State<PackingPage> {
                   const SizedBox(height: 6),
                   Progress(all.isEmpty ? 0 : done / all.length),
                 ],
+              ),
