@@ -129,3 +129,4 @@ class _LoginPageState extends State<LoginPage> {
                             onTap: () => push(context, ResetPasswordPage(email: email.text)),
                           ),
                         ),
+                        const SizedBox(height: 8),
