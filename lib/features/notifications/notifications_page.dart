@@ -100,3 +100,4 @@ class NotificationsPage extends StatelessWidget {
                               'Terima',
                               size: BtnSize.md,
                               onPressed: () {
+                                app.answerInvite(n, true);
