@@ -237,3 +237,4 @@ class _AddStopPageState extends State<AddStopPage> {
               NgCard(
                 padding: const EdgeInsets.all(12),
                 onTap: _pickPoint,
+                child: Row(
