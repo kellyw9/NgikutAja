@@ -13,3 +13,4 @@ class PhotoPreviewPage extends StatefulWidget {
   const PhotoPreviewPage({super.key, required this.trip, required this.day, required this.src});
   final Trip trip;
   final int day;
+  final String src;
