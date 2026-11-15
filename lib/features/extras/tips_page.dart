@@ -67,3 +67,4 @@ class TipDetailPage extends StatelessWidget {
       children: [
         Gap(
           14,
+          children: [
