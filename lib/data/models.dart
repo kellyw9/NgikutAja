@@ -34,3 +34,4 @@ class Creator {
 
   /// Foto profil (kunci foto). Null = avatar inisial.
   String? photo;
+}
