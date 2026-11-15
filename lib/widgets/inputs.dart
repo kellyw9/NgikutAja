@@ -293,3 +293,4 @@ class RadioRow extends StatelessWidget {
     checked: selected,
     enabled: enabled,
     child: Opacity(
+      opacity: enabled ? 1 : .6,
