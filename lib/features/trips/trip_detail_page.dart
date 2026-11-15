@@ -99,3 +99,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
               Expanded(
                 child: NgButton(
                   'Edit',
+                  kind: BtnKind.secondary,
