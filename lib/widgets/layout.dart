@@ -394,3 +394,4 @@ class NgCard extends StatelessWidget {
 
 /// Foto sampul selebar layar dengan tombol kotak putih di atasnya.
 class HeroPhoto extends StatelessWidget {
+  const HeroPhoto(this.photo, {super.key, this.height = 260, this.left = 'arrow_back', this.onLeft, this.right = const [], this.semantic});
