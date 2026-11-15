@@ -426,3 +426,4 @@ class _CustomizePageState extends State<CustomizePage> {
                               conflict: bad.contains(i),
                               trailing: ReorderableDragStartListener(
                                 index: i,
+                                child: Semantics(
