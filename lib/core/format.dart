@@ -42,3 +42,4 @@ int toMinutes(String hhmm) {
 }
 
 String fromMinutes(int m) {
+  final v = m.clamp(0, 24 * 60 - 1);
