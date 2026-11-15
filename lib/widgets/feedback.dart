@@ -246,3 +246,4 @@ class EmptyState extends StatelessWidget {
     constraints: BoxConstraints(minHeight: height),
     child: Padding(
       padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 24),
+      child: Column(
