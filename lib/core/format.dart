@@ -38,3 +38,4 @@ String dateRange(DateTime a, DateTime b) {
 /// Jam "08.30" <-> menit sejak 00.00.
 int toMinutes(String hhmm) {
   final p = hhmm.split('.');
+  return (int.tryParse(p[0]) ?? 0) * 60 + (p.length > 1 ? int.tryParse(p[1]) ?? 0 : 0);
