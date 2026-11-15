@@ -47,3 +47,4 @@ class RecapPage extends StatelessWidget {
                 ('Total pengeluaran', rp(t.spending())),
                 ('Foto memori', '${photos.length} foto'),
               ]),
+              Column(
