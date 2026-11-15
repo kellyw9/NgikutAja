@@ -264,3 +264,4 @@ class _AdoptProgressPageState extends State<AdoptProgressPage> {
             : StatusView(
                 icon: 'check',
                 tone: AppColors.positivePale,
+                iconColor: AppColors.positiveInk,
