@@ -120,3 +120,4 @@ class ExpensesPage extends StatelessWidget {
                   children: [
                     for (final e in list)
                       Tap(
+                        onTap: () => _detail(context, e),
