@@ -278,3 +278,4 @@ class Trip {
   String desc;
   List<String> dayTitles;
   List<Member> members;
+  List<Expense> expenses;
