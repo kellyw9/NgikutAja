@@ -531,3 +531,4 @@ class Seed {
           tint: 1,
           time: '1 jam lalu',
           text: 'Buka setiap hari, jam 9 sampai 17.',
+          creator: true,
