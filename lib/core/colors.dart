@@ -32,3 +32,5 @@ class AppColors {
 
   // Header Travel Mode (tinta satu tingkat lebih terang)
   static const inkRaised = Color(0xFF17505C);
+
+  // Peta sementara
