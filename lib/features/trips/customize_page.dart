@@ -216,3 +216,4 @@ class _CustomizePageState extends State<CustomizePage> {
       ),
     );
     if (ok == true) {
+      _changed(() {
