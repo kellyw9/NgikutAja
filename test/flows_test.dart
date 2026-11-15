@@ -92,3 +92,4 @@ void main() {
     expect(find.text('Jadwal bertabrakan di Hari 1'), findsOneWidget);
     await tapText(tester, 'Lihat saran');
     await tester.pumpAndSettle();
+    expect(find.text('Geser Mie Aceh Titi Bobrok ke 14.45'), findsOneWidget);
