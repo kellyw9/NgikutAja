@@ -608,3 +608,4 @@ class ProfileHead extends StatelessWidget {
       onTap: onTap,
       radius: 6,
       label: '${thousands(v)} $l',
+      child: Padding(
