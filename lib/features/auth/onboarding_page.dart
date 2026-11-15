@@ -184,3 +184,4 @@ class _OnboardingPageState extends State<OnboardingPage> {
 
 class _InterestCard extends StatelessWidget {
   const _InterestCard({required this.title, required this.sub, required this.photo, required this.on, required this.onTap});
+  final String title;
