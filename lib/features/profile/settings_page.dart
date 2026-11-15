@@ -22,3 +22,4 @@ class SettingsPage extends StatelessWidget {
         DialogAction('Keluar', kind: BtnKind.danger, value: true),
         DialogAction('Batal'),
       ],
+    );
