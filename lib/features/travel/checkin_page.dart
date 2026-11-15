@@ -40,3 +40,4 @@ class _CheckinPageState extends State<CheckinPage> {
             14,
             children: [
               MapView(
+                height: 210,
