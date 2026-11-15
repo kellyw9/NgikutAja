@@ -192,3 +192,4 @@ class _MapPainter extends CustomPainter {
       canvas.drawCircle(
         c,
         ring!.$2,
+        Paint()
