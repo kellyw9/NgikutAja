@@ -286,3 +286,4 @@ class ListRow extends StatelessWidget {
     this.icon,
     required this.title,
     this.sub,
+    this.trailing = const AppIcon('chevron_right', size: 20, color: AppColors.muted),
