@@ -377,3 +377,4 @@ class _CustomizePageState extends State<CustomizePage> {
                       kind: BannerKind.error,
                       title: 'Jadwal bertabrakan di Hari ${day + 1}',
                       text:
+                          '${stops[conflicts.first.$1].name} (${stops[conflicts.first.$1].start}–${stops[conflicts.first.$1].end}) dan '
