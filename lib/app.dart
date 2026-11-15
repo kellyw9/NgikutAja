@@ -45,3 +45,4 @@ ThemeData buildTheme() {
     surface: AppColors.surface,
     onSurface: AppColors.ink,
     error: AppColors.negative,
+  );
