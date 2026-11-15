@@ -195,3 +195,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
                       onTap: () async {
                         final n = await showNgSheet<int>(
                           context,
+                          title: 'Durasi itinerary',
