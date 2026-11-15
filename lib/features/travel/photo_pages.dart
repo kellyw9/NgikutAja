@@ -14,3 +14,5 @@ class PhotoPreviewPage extends StatefulWidget {
   final Trip trip;
   final int day;
   final String src;
+
+  @override
