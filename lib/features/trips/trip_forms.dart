@@ -123,3 +123,4 @@ class _EditStopPageState extends State<EditStopPage> {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Expanded(
+                    child: NgField(
