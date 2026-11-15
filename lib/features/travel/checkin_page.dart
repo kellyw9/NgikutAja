@@ -16,3 +16,5 @@ class CheckinPage extends StatefulWidget {
 
 class _CheckinPageState extends State<CheckinPage> {
   bool done = false;
+
+  @override
