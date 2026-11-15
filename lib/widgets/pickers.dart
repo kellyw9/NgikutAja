@@ -94,3 +94,4 @@ class _CalendarState extends State<_Calendar> {
             IconBtn(
               'chevron_left',
               label: 'Bulan sebelumnya',
+              size: 36,
