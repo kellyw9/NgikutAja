@@ -313,3 +313,4 @@ class SkeletonCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) => Semantics(
     label: 'Memuat itinerary',
+    child: Column(
