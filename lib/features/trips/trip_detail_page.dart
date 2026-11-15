@@ -188,3 +188,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
                           child: Text.rich(
                             TextSpan(
                               style: AppText.small,
+                              children: [
