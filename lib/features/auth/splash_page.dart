@@ -51,3 +51,4 @@ class _SplashPageState extends State<SplashPage> {
                         width: 240,
                         height: 64,
                         child: Stack(
+                          children: [
