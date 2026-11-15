@@ -103,3 +103,5 @@ class _SpinIconState extends State<SpinIcon> with SingleTickerProviderStateMixin
     _c.dispose();
     super.dispose();
   }
+
+  @override
