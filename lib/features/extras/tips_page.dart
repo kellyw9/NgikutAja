@@ -75,3 +75,4 @@ class TipDetailPage extends StatelessWidget {
                   Avatar(tip.author!.name, size: 24, tint: tip.author!.tint),
                   const SizedBox(width: 8),
                   Expanded(
+                    child: Text('oleh ${tip.author!.handle}${tip.updated != null ? ', diperbarui ${tip.updated}' : ''}', style: AppText.small.muted),
