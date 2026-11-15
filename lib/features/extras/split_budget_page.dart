@@ -94,3 +94,4 @@ class _SplitBudgetPageState extends State<SplitBudgetPage> {
                                         Text(m.first, style: AppText.bodyStrong),
                                         const SizedBox(height: 2),
                                         Text('Sudah bayar ${rp(paidBy(m))}', style: AppText.small.muted),
+                                      ],
