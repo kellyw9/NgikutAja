@@ -4,3 +4,5 @@ import '../../widgets/ui.dart';
 import '../shell/home_shell.dart';
 import 'customize_page.dart';
 import 'trip_detail_page.dart';
+
+/// 5.2 Adopt Itinerary: tanggal, pengingat, simpan offline.
