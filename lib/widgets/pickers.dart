@@ -228,3 +228,4 @@ bool requireLogin(BuildContext context) {
           expand: true,
           onPressed: () {
             Navigator.pop(ctx);
+            push(context, const RegisterPage(popOnSuccess: true));
