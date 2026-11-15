@@ -39,3 +39,4 @@ class _JournalPageState extends State<JournalPage> {
   }
 
   Future<void> _write() async {
+    final e = widget.trip.journal[day];
