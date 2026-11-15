@@ -152,3 +152,4 @@ enum TripStatus {
 
 enum MemberRole {
   owner('Pemilik'),
+  editor('Bisa edit'),
