@@ -233,3 +233,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
                   Avatar(app.me.name, size: 32, tint: app.me.tint, photo: app.me.photo),
                   const SizedBox(width: 10),
                   Expanded(
+                    child: Container(
