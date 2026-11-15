@@ -64,3 +64,4 @@ class _JournalPageState extends State<JournalPage> {
     } else {
       e.text = '${e.text}\n\n$tx';
     }
+    AppScope.read(context).touch();
