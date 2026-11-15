@@ -240,3 +240,4 @@ class _AddStopPageState extends State<AddStopPage> {
                 child: Row(
                   children: [
                     const IconTile('location_on', size: 40, iconSize: 22, fill: AppColors.tealPale),
+                    const SizedBox(width: 12),
