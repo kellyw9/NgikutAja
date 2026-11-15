@@ -144,3 +144,4 @@ class _PublishPageState extends State<PublishPage> {
                             Text(ok ? 'Selesai' : 'Belum', style: AppText.smallStrong.c(ok ? AppColors.positive : AppColors.negative)),
                           ],
                         ),
+                      ),
