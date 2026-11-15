@@ -22,3 +22,4 @@ class _CreatorProfilePageState extends State<CreatorProfilePage> {
     final all = app.byCreator(c).where((x) => !x.isDraft).toList();
     final list = paidOnly ? all.where((x) => x.isPaid).toList() : all;
     final following = app.isFollowing(c);
+    return Scaffold(
