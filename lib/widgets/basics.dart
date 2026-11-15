@@ -533,3 +533,4 @@ class Wordmark extends StatelessWidget {
 enum MarkerState { todo, done, next, locked }
 
 /// Penanda urutan di rute: kotak radius 6, sama di jadwal dan di peta.
+class Marker extends StatelessWidget {
