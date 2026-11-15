@@ -321,3 +321,4 @@ class SkeletonCard extends StatelessWidget {
           decoration: BoxDecoration(color: AppColors.sunk, borderRadius: BorderRadius.circular(AppRadius.card)),
         ),
         const SizedBox(height: 10),
+        _bar(280, 18),
