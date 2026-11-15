@@ -230,3 +230,4 @@ class FactStrip extends StatelessWidget {
       Container(height: 1, color: AppColors.rule),
     ],
   );
+}
