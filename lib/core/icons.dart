@@ -13,3 +13,5 @@ class AppIcon extends StatelessWidget {
   final double size;
   final Color color;
   final bool filled;
+
+  static final Map<String, Path> _cache = {};
