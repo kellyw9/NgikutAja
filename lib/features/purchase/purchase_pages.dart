@@ -354,3 +354,4 @@ class _PaymentStatusPageState extends State<PaymentStatusPage> {
             title: 'Pembayaran berhasil',
             text: '"${it.title}" sudah terbuka penuh. Seluruh ${it.places} tempat kini bisa dilihat dan diadopsi.',
             middle: KeyValueBox([
+              ('ID transaksi', tx.id),
