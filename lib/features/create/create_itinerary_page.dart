@@ -293,3 +293,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
           fit: StackFit.expand,
           children: [
             Photo(d.cover, radius: AppRadius.card, semantic: 'Foto sampul'),
+            Positioned(
