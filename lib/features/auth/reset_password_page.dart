@@ -174,3 +174,4 @@ class _NewPasswordPageState extends State<NewPasswordPage> {
                     Text('Buat password baru', style: AppText.h1),
                     const SizedBox(height: 8),
                     Text('Untuk akun ${widget.email}.', style: AppText.body.muted),
+                    const SizedBox(height: 24),
