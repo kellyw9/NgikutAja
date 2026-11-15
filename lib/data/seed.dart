@@ -235,3 +235,4 @@ class Seed {
       medan,
       toba,
       jogja,
+      Itinerary(
