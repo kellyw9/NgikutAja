@@ -401,3 +401,4 @@ class LocalTip {
 
 class Person {
   Person(this.name, this.handle, this.tint);
+  final String name;
