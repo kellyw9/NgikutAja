@@ -233,3 +233,4 @@ class _AdoptProgressPageState extends State<AdoptProgressPage> {
   }
 
   @override
+  Widget build(BuildContext context) {
