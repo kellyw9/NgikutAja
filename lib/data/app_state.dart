@@ -411,3 +411,4 @@ class AppState extends ChangeNotifier {
 
   void markAllRead() {
     for (final n in notifications) {
+      n.unread = false;
