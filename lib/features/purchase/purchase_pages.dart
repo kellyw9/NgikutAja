@@ -429,3 +429,4 @@ class _PaymentStatusPageState extends State<PaymentStatusPage> {
     appBar: NgAppBar(back: 'close', onBack: () => widget.fromFlow ? _closeFlow(Navigator.of(context)) : Navigator.pop(context)),
     body: child,
   );
+}
