@@ -71,3 +71,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
       scroll: true,
       builder: (ctx) => Gap(
         16,
+        children: [
