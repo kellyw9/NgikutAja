@@ -145,3 +145,4 @@ class _NgFieldState extends State<NgField> {
           if (widget.icon != null) ...[AppIcon(widget.icon!, size: 20, color: AppColors.muted), const SizedBox(width: 10)],
           Expanded(
             child: Padding(
+              padding: EdgeInsets.symmetric(vertical: widget.area ? 0 : 14),
