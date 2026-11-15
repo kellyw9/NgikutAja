@@ -57,3 +57,4 @@ class ExpensesPage extends StatelessWidget {
               const SizedBox(width: 8),
               Expanded(
                 child: NgButton(
+                  'Edit',
