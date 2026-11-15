@@ -73,3 +73,4 @@ class TipDetailPage extends StatelessWidget {
               Row(
                 children: [
                   Avatar(tip.author!.name, size: 24, tint: tip.author!.tint),
+                  const SizedBox(width: 8),
