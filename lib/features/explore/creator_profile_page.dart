@@ -42,3 +42,4 @@ class _CreatorProfilePageState extends State<CreatorProfilePage> {
                     kind: following ? BtnKind.ghost : BtnKind.primary,
                     size: BtnSize.md,
                     expand: true,
+                    icon: following ? 'check' : null,
