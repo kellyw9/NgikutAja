@@ -256,3 +256,5 @@ class AppState extends ChangeNotifier {
   int get revenue => mine.fold(0, (a, x) => a + x.price * salesOf(x));
   int salesOf(Itinerary x) => x.id == 'samosirmotor' ? Seed.monthly.fold(0, (a, m) => a + m.$2) : (x.isPaid ? x.adopted : 0);
   int get totalAdopt => mine.fold(0, (a, x) => a + x.adopted);
+
+  // ---------------- trip ----------------
