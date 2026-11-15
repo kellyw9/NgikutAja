@@ -165,3 +165,4 @@ class PaymentPage extends StatefulWidget {
   final String method;
 
   @override
+  State<PaymentPage> createState() => _PaymentPageState();
