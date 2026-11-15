@@ -492,3 +492,4 @@ class Seed {
           TripPhoto(src: 'gudeg', day: 0, caption: 'Gudeg Yu Djum', time: '12.47'),
           TripPhoto(src: 'prambanan', day: 1, caption: 'Candi Prambanan', time: '16.20'),
         ],
+        seedPlaces: 11,
