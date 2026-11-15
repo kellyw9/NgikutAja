@@ -31,3 +31,4 @@ class _EditProfilePageState extends State<EditProfilePage> {
     if (name.text.trim().isEmpty || userErr != null) {
       setState(() {});
       return;
+    }
