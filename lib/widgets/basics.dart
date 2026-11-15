@@ -182,3 +182,4 @@ class TextLink extends StatelessWidget {
         focusColor: AppColors.teal.withValues(alpha: .2),
         child: ConstrainedBox(
           constraints: const BoxConstraints(minHeight: 44),
+          child: Row(
