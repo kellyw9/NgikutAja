@@ -383,3 +383,4 @@ class NgCard extends StatelessWidget {
       borderRadius: BorderRadius.circular(AppRadius.card),
       side: BorderSide(color: border, width: borderWidth),
     ),
+    clipBehavior: Clip.antiAlias,
