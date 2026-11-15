@@ -51,3 +51,4 @@ class _PackingPageState extends State<PackingPage> {
     c.dispose();
     if (r == null || !mounted) return;
     if (r.isEmpty) {
+      _remove(g, it);
