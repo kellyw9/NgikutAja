@@ -429,3 +429,4 @@ class AppState extends ChangeNotifier {
   }
 
   void addRecent(String q) {
+    final v = q.trim();
