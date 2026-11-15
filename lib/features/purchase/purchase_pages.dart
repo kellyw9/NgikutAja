@@ -217,3 +217,4 @@ class _PaymentPageState extends State<PaymentPage> {
                         checked: title == method,
                         child: Tap(
                           onTap: processing ? null : () => setState(() => method = title),
+                          child: SizedBox(
