@@ -174,3 +174,4 @@ class _OnboardingPageState extends State<OnboardingPage> {
         sub: sub,
         photo: img,
         on: picked.contains(t),
+        onTap: () => setState(() => picked.contains(t) ? picked.remove(t) : picked.add(t)),
