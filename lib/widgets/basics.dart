@@ -99,3 +99,4 @@ class NgButton extends StatelessWidget {
           mouseCursor: WidgetStatePropertyAll(disabled ? SystemMouseCursors.forbidden : SystemMouseCursors.click),
         ),
         child: child,
+      ),
