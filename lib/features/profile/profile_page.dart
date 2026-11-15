@@ -33,3 +33,4 @@ class ProfilePage extends StatelessWidget {
           action: NgButton(
             'Edit profil',
             kind: BtnKind.secondary,
+            size: BtnSize.md,
