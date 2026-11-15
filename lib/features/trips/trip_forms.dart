@@ -25,3 +25,4 @@ Future<String?> pickTime(BuildContext context, String current) async {
 
 /// 5.5 Tambah / Edit aktivitas pada trip.
 class EditStopPage extends StatefulWidget {
+  const EditStopPage({super.key, this.stop, required this.dayLabel, this.defaultStart = '09.00'});
