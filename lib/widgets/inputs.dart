@@ -126,3 +126,4 @@ class _NgFieldState extends State<NgField> {
           Text(widget.prefixText!, style: AppText.body.muted),
           const SizedBox(width: 4),
           Expanded(child: content),
+        ],
