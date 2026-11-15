@@ -157,3 +157,4 @@ enum MemberRole {
 
   const MemberRole(this.label);
   final String label;
+}
