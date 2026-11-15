@@ -271,3 +271,5 @@ class PublishedPage extends StatelessWidget {
     );
   }
 }
+
+class _CloseBtn extends StatelessWidget {
