@@ -237,3 +237,4 @@ class AppState extends ChangeNotifier {
     final tx = Transaction(
       id: Seed.trxId(now, (1000 + transactions.length * 37 % 9000).toString().padLeft(4, '0')),
       item: it,
+      date: now,
