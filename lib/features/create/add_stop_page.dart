@@ -305,3 +305,4 @@ class _PickLocationPageState extends State<PickLocationPage> {
   Offset pin = const Offset(.5, .45);
 
   @override
+  void dispose() {
