@@ -437,3 +437,4 @@ class Segmented extends StatelessWidget {
                   clipBehavior: Clip.antiAlias,
                   child: InkWell(
                     onTap: () => onChanged(items[i]),
+                    focusColor: AppColors.teal.withValues(alpha: .25),
