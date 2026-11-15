@@ -100,3 +100,4 @@ class _RegisterPageState extends State<RegisterPage> {
                       NgField(
                         label: 'Email',
                         icon: 'mail',
+                        controller: email,
