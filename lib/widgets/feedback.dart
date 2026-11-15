@@ -380,3 +380,4 @@ class StatusView extends StatelessWidget {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
+                if (!top) const Spacer(),
