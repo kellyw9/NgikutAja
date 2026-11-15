@@ -450,3 +450,5 @@ class Meta extends StatelessWidget {
     ],
   );
 }
+
+/// Baris metadata dipisah jarak 12 (tanpa titik tengah).
