@@ -205,3 +205,4 @@ class _InterestCard extends StatelessWidget {
           Expanded(
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
