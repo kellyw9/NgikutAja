@@ -63,3 +63,4 @@ class _CreatorProfilePageState extends State<CreatorProfilePage> {
                   const EmptyState(
                     icon: 'map',
                     title: 'Belum ada itinerary berbayar',
+                    text: 'Semua itinerary creator ini bisa diadopsi gratis.',
