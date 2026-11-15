@@ -49,3 +49,4 @@ class _SplashPageState extends State<SplashPage> {
                     children: [
                       SizedBox(
                         width: 240,
+                        height: 64,
