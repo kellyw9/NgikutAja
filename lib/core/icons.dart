@@ -81,3 +81,4 @@ class SpinIcon extends StatefulWidget {
   final Color color;
 
   @override
+  State<SpinIcon> createState() => _SpinIconState();
