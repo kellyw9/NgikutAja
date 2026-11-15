@@ -180,3 +180,4 @@ class _SearchPageState extends State<SearchPage> {
                     decoration: InputDecoration.collapsed(hintText: 'Cari kota atau itinerary', hintStyle: AppText.body.muted),
                   ),
                 ),
+                if (input.text.isNotEmpty)
