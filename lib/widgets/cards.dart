@@ -438,3 +438,5 @@ class DayItem {
   final String? sub;
   final bool alert;
 }
+
+/// Strip hari: kotak per hari. Hari aktif berisi tinta; hari ini diberi titik kuning.
