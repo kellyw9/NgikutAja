@@ -95,3 +95,4 @@ class _ExplorePageState extends State<ExplorePage> {
       children: [
         TabHeader('Explore', actions: [Bell(onTap: () => push(context, const NotificationsPage()))]),
         Padding(
+          padding: const EdgeInsets.symmetric(horizontal: kMargin),
