@@ -18,3 +18,5 @@ class _JournalPageState extends State<JournalPage> {
     final date = widget.trip.dayDate(d);
     return date == null ? 'Hari ${d + 1}' : 'Hari ${d + 1}, ${date.day} ${monthsShort[date.month - 1]}';
   }
+
+  Future<void> _editStory() async {
