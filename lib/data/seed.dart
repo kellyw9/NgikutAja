@@ -512,3 +512,4 @@ class Seed {
         tint: 4,
         stars: 5,
         date: 'Sep 2026',
+        text: 'Soto Kesawan enak, tapi datang jam 7.30 sudah ramai. Bika Ambon yang direkomendasikan beda dari yang di bandara.',
