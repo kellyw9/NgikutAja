@@ -650,3 +650,4 @@ class Seed {
     };
 
     followers = [
+      Person('Kevin Tambunan', '@kevintbn', 2),
