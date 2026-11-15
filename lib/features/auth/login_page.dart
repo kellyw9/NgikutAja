@@ -62,3 +62,4 @@ class _LoginPageState extends State<LoginPage> {
   void dispose() {
     email.dispose();
     pass.dispose();
+    super.dispose();
