@@ -169,3 +169,4 @@ class _CustomizePageState extends State<CustomizePage> {
     );
     if (target == null || !mounted) return;
     final lastEnd = plan[target].isEmpty ? null : plan[target].map((s) => s.endMin).reduce((a, b) => a > b ? a : b);
+    final ns = lastEnd == null ? st.start : fromMinutes(lastEnd + 15);
