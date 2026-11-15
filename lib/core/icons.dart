@@ -82,3 +82,4 @@ class SpinIcon extends StatefulWidget {
 
   @override
   State<SpinIcon> createState() => _SpinIconState();
+}
