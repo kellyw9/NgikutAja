@@ -359,3 +359,4 @@ class BoxList extends StatelessWidget {
 }
 
 /// Kartu putih bergaris tipis.
+class NgCard extends StatelessWidget {
