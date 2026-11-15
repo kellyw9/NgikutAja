@@ -77,3 +77,4 @@ class _PhotoViewerPageState extends State<PhotoViewerPage> {
   @override
   void dispose() {
     pc.dispose();
+    super.dispose();
