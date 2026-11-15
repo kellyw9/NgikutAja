@@ -183,3 +183,4 @@ class _CustomizePageState extends State<CustomizePage> {
         DialogAction('Batal'),
       ],
     );
+    if (ok != true) return;
