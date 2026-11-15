@@ -50,3 +50,4 @@ class MembersPage extends StatelessWidget {
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
+                      Text(m.name, style: AppText.h2),
