@@ -241,3 +241,4 @@ class TripCard extends StatelessWidget {
     this.cover,
     this.extra,
     this.onTap,
+  });
