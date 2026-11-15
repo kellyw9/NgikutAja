@@ -74,3 +74,4 @@ enum SnackKind { neutral, success, error }
 void showNgSnack(BuildContext context, String text, {SnackKind kind = SnackKind.neutral, String? action, VoidCallback? onAction}) {
   final (bg, ic) = switch (kind) {
     SnackKind.neutral => (AppColors.ink, null),
+    SnackKind.success => (AppColors.positive, 'check_circle'),
