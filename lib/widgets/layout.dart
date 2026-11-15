@@ -298,3 +298,4 @@ class ListRow extends StatelessWidget {
   final Widget? trailing;
   final bool danger;
   final Widget? lead;
+  final VoidCallback? onTap;
