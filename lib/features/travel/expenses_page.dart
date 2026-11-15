@@ -154,3 +154,4 @@ class ExpensesPage extends StatelessWidget {
         ],
       ),
       bottomNavigationBar: SafeArea(
+        child: Padding(
