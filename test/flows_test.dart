@@ -143,3 +143,4 @@ void main() {
     await tapText(tester, 'Lanjut ke hari & stop', button: true);
     await tester.pumpAndSettle();
     expect(find.text('Selesaikan error sebelum lanjut'), findsOneWidget);
+    expect(find.text('Belum ada stop'), findsOneWidget);
