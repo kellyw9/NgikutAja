@@ -209,3 +209,4 @@ class _EditStopPageState extends State<EditStopPage> {
               if (editing) NgButton('Hapus aktivitas', kind: BtnKind.dangerText, icon: 'delete', expand: true, onPressed: _delete),
             ],
           ),
+        ],
