@@ -143,3 +143,4 @@ class IconBtn extends StatelessWidget {
           color: bg ?? Colors.transparent,
           shape: RoundedRectangleBorder(
             borderRadius: radius,
+            side: stroke != null ? BorderSide(color: stroke!) : BorderSide.none,
