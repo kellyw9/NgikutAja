@@ -205,3 +205,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
                           decoration: BoxDecoration(borderRadius: BorderRadius.circular(AppRadius.card), boxShadow: kFloatShadow),
                           child: child,
                         ),
+                      ),
