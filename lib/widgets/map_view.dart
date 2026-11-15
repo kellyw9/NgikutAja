@@ -166,3 +166,4 @@ class _MapPainter extends CustomPainter {
     } else {
       final park = Paint()..color = AppColors.mapPark;
       canvas.drawRRect(RRect.fromRectAndRadius(Rect.fromLTWH(.08 * w, .12 * h, .2 * w, .24 * h), const Radius.circular(4)), park);
+      canvas.drawRRect(RRect.fromRectAndRadius(Rect.fromLTWH(.66 * w, .08 * h, .18 * w, .2 * h), const Radius.circular(4)), park);
