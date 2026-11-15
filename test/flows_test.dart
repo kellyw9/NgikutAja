@@ -159,3 +159,4 @@ void main() {
     await tester.tap(find.text('Urungkan'));
     await tester.pump(const Duration(milliseconds: 300));
     expect(s.wishlist.length, 3);
+  });
