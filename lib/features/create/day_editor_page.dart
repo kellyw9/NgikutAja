@@ -310,3 +310,4 @@ class _StopCard extends StatelessWidget {
                   Text(stop.name, style: AppText.title),
                   Pill(stop.cat.label, kind: PillKind.teal),
                 ],
+              ),
