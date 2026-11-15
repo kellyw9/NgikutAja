@@ -66,3 +66,4 @@ class _SearchPageState extends State<SearchPage> {
   final input = TextEditingController();
   final focus = FocusNode();
   String mode = 'Kota';
+  String? submitted;
