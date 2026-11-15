@@ -35,3 +35,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
           title: 'Edit informasi trip',
           padH: 0,
           onTap: () {
+            Navigator.pop(ctx);
