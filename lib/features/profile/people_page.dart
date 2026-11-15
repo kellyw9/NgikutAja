@@ -20,3 +20,4 @@ class _PeoplePageState extends State<PeoplePage> {
     super.initState();
     if (!widget.followers) {
       following.addAll(AppScope.read(context).seed.followingPeople.map((p) => p.handle));
+    }
