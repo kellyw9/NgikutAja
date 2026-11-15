@@ -185,3 +185,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
                   onChanged: (_) => touched = true,
                 ),
                 Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
