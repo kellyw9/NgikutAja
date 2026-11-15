@@ -243,3 +243,4 @@ class NgToggle extends StatelessWidget {
                   duration: const Duration(milliseconds: 160),
                   alignment: value ? Alignment.centerRight : Alignment.centerLeft,
                   child: Padding(
+                    padding: EdgeInsets.symmetric(horizontal: value ? 4 : 6),
