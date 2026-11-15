@@ -285,3 +285,4 @@ class _CustomizePageState extends State<CustomizePage> {
                     size: BtnSize.md,
                     onPressed: () {
                       Navigator.pop(ctx);
+                      _changed(() => s.apply(plan));
