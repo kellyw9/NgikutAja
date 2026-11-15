@@ -74,3 +74,4 @@ class _ResetPasswordPageState extends State<ResetPasswordPage> {
                     const SizedBox(height: 8),
                     Text('Masukkan email akunmu. Kami kirim tautan untuk membuat password baru.', style: AppText.body.muted),
                     const SizedBox(height: 24),
+                    NgField(
