@@ -23,3 +23,4 @@ class _JournalPageState extends State<JournalPage> {
     final c = TextEditingController(text: widget.trip.story);
     final r = await showNgSheet<String>(
       context,
+      title: 'Cerita perjalanan',
