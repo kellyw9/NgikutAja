@@ -54,3 +54,4 @@ class Stop {
   String name;
   Category cat;
   int cost;
+  String? photo;
