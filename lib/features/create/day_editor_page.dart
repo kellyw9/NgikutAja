@@ -178,3 +178,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
                           ),
                           const SizedBox(height: 12),
                           Text('Belum ada stop', style: AppText.h2),
+                          const SizedBox(height: 6),
