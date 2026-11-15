@@ -124,3 +124,4 @@ class _SearchPageState extends State<SearchPage> {
       case 'Paling banyak diadopsi':
         list.sort((a, b) => b.adopted.compareTo(a.adopted));
       case 'Harga terendah':
+        list.sort((a, b) => a.price.compareTo(b.price));
