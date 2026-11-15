@@ -135,3 +135,4 @@ class _CalendarState extends State<_Calendar> {
           style: AppText.body.muted,
         ),
         NgButton('Pilih tanggal ini', expand: true, onPressed: () => Navigator.pop(context, sel)),
+      ],
