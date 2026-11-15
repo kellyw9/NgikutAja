@@ -32,3 +32,4 @@ void main() {
     final (issues, tips) = analyze([day]);
     expect(issues.single.conflict, isTrue);
     tips.first.apply([day]);
+    expect(day[1].start, '14.45');
