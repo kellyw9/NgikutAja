@@ -489,3 +489,4 @@ class Seed {
         photos: [
           TripPhoto(src: 'malioboro', day: 0, caption: 'Malioboro', time: '08.31'),
           TripPhoto(src: 'tamansari', day: 0, caption: 'Taman Sari', time: '10.52'),
+          TripPhoto(src: 'gudeg', day: 0, caption: 'Gudeg Yu Djum', time: '12.47'),
