@@ -127,3 +127,4 @@ class AppState extends ChangeNotifier {
 
   bool usernameAvailable(String u) {
     final h = '@${u.trim().toLowerCase()}';
+    if (h == me.handle.toLowerCase()) return true;
