@@ -113,3 +113,4 @@ class SettingsPage extends StatelessWidget {
 
 /// Tentang aplikasi + kredit foto (wajib untuk lisensi CC BY / CC BY-SA).
 class AboutPage extends StatelessWidget {
+  const AboutPage({super.key});
