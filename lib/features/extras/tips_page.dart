@@ -24,3 +24,4 @@ class TipsPage extends StatelessWidget {
               NgCard(
                 padding: const EdgeInsets.all(12),
                 onTap: () => push(context, TipDetailPage(tip: tip)),
+                child: Row(
