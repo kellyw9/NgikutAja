@@ -263,3 +263,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
                         icon: icon,
                         title: title,
                         sub: toolSub(key),
+                        padH: 0,
