@@ -257,3 +257,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
         ),
         bottomNavigationBar: SafeArea(
           child: Padding(
+            padding: const EdgeInsets.fromLTRB(kMargin, 8, kMargin, 16),
