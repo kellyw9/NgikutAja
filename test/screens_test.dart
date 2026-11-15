@@ -134,3 +134,4 @@ void main() {
   }
 
   // Semua status trip ikut dirender di tab Trip Saya.
+  for (final st in TripStatus.values) {
