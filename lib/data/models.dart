@@ -23,3 +23,5 @@ class Creator {
     required this.following,
     this.photo,
   });
+
+  final String id;
