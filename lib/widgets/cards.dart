@@ -390,3 +390,4 @@ class StopRow extends StatelessWidget {
         children: [
           SizedBox(
             width: 48,
+            child: Padding(
