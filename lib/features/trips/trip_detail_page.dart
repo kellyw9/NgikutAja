@@ -233,3 +233,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
                     padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 10),
                     decoration: BoxDecoration(
                       color: AppColors.surface,
+                      borderRadius: BorderRadius.circular(AppRadius.card),
