@@ -313,3 +313,4 @@ class TravelStopPage extends StatelessWidget {
                 if (photos.isNotEmpty)
                   Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
