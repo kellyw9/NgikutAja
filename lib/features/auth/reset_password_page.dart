@@ -85,3 +85,4 @@ class _ResetPasswordPageState extends State<ResetPasswordPage> {
                       onSubmitted: (_) => _send(),
                     ),
                     if (sent) ...[
+                      const SizedBox(height: 24),
