@@ -57,3 +57,4 @@ class NgAppBar extends StatelessWidget implements PreferredSizeWidget {
       crossAxisAlignment: center ? CrossAxisAlignment.center : CrossAxisAlignment.start,
       children: [
         if (title != null && title!.isNotEmpty)
+          Semantics(
