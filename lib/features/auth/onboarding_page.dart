@@ -84,3 +84,4 @@ class _OnboardingPageState extends State<OnboardingPage> {
                       NgButton('Lewati', kind: BtnKind.text, size: BtnSize.md, onPressed: _finish),
                     ],
                   ),
+                ),
