@@ -210,3 +210,4 @@ class _SearchPageState extends State<SearchPage> {
               onTap: _openFilter,
             ),
             if (filter.count > 0)
+              Positioned(
