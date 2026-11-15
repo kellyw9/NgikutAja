@@ -203,3 +203,4 @@ class AppState extends ChangeNotifier {
 
   void toggleLike(Itinerary it) {
     if (liked.remove(it.id)) {
+      it.likes--;
