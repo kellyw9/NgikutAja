@@ -80,3 +80,4 @@ class SettingsPage extends StatelessWidget {
                 sw('invites', 'Undangan trip bersama'),
                 sw('social', 'Interaksi sosial (like dan komentar)'),
                 sw('payments', 'Status transaksi dan pembelian'),
+              ]),
