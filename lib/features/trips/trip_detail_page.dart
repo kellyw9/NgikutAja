@@ -147,3 +147,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
       'journal' => t.journal.isEmpty ? 'Ditulis saat trip berjalan' : '${t.journal.length} catatan harian',
       'photo' => t.photos.isEmpty ? 'Belum ada foto' : '${t.photos.length} foto',
       _ =>
+        status == TripStatus.selesai ? 'Ringkasan trip sudah siap' : 'Tersedia setelah ${t.end != null ? dateRange(t.end!, t.end!) : 'trip selesai'}',
