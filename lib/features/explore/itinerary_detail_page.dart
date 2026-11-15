@@ -46,3 +46,4 @@ class _StatChip extends StatelessWidget {
         onTap: onTap,
         child: Container(
           height: 36,
+          padding: const EdgeInsets.symmetric(horizontal: 12),
