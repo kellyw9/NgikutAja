@@ -344,3 +344,4 @@ class _PickLocationPageState extends State<PickLocationPage> {
                                 const SizedBox(width: 6),
                                 Flexible(
                                   child: Text(label, style: AppText.smallStrong.white, maxLines: 1, overflow: TextOverflow.ellipsis),
+                                ),
