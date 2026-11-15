@@ -132,3 +132,4 @@ class TravelModePage extends StatelessWidget {
                   for (var i = 0; i < stops.length; i++)
                     StopRow(
                       stops[i],
+                      n: i + 1,
