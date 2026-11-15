@@ -151,3 +151,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
     };
 
     return Scaffold(
+      backgroundColor: AppColors.ground,
