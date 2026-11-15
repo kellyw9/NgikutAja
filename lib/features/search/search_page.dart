@@ -181,3 +181,4 @@ class _SearchPageState extends State<SearchPage> {
                   ),
                 ),
                 if (input.text.isNotEmpty)
+                  IconBtn(
