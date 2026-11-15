@@ -154,3 +154,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
       backgroundColor: AppColors.ground,
       body: ListView(
         padding: EdgeInsets.zero,
+        children: [
