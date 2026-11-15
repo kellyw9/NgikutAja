@@ -338,3 +338,4 @@ class DashedAction extends StatelessWidget {
             const SizedBox(width: 8),
             Text(label, style: AppText.bodyStrong),
           ],
+        ),
