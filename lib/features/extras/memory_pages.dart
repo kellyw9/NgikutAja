@@ -103,3 +103,4 @@ class _PhotoViewerPageState extends State<PhotoViewerPage> {
                         child: Text('${i + 1} dari ${t.photos.length}', style: AppText.bodyStrong.white, textAlign: TextAlign.center),
                       ),
                       IconBtn(
+                        'share',
