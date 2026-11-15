@@ -79,3 +79,4 @@ class _AddStopPageState extends State<AddStopPage> {
                 onChanged: (_) => setState(() {}),
               ),
               Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
