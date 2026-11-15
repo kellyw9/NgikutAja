@@ -476,3 +476,4 @@ class Avatar extends StatelessWidget {
   final String? photo;
 
   static String initials(String name) =>
+      name.replaceAll('@', '').split(RegExp(r'[\s.]')).where((w) => w.isNotEmpty).take(2).map((w) => w[0].toUpperCase()).join();
