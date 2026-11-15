@@ -175,3 +175,4 @@ class _AddStopPageState extends State<AddStopPage> {
                               width: w,
                               height: 94,
                               child: Stack(
+                                fit: StackFit.expand,
