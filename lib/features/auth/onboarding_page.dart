@@ -194,3 +194,4 @@ class _InterestCard extends StatelessWidget {
   Widget build(BuildContext context) => Semantics(
     checked: on,
     child: NgCard(
+      onTap: onTap,
