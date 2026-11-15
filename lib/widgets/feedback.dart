@@ -210,3 +210,4 @@ Future<Object?> showNgDialog(BuildContext context, {String? icon, required Strin
                 AppIcon(icon, size: 28, color: const {'delete', 'logout', 'person_remove'}.contains(icon) ? AppColors.negative : AppColors.ink),
                 const SizedBox(height: 10),
               ],
+              Semantics(header: true, child: Text(title, style: AppText.h2)),
