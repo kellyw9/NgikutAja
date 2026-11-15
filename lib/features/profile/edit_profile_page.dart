@@ -70,3 +70,4 @@ class _EditProfilePageState extends State<EditProfilePage> {
           Navigator.pop(context);
         }
       },
+      child: Scaffold(
