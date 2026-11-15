@@ -284,3 +284,4 @@ class _PaymentStatusPageState extends State<PaymentStatusPage> {
   bool expired = false;
 
   @override
+  void initState() {
