@@ -439,3 +439,4 @@ class Segmented extends StatelessWidget {
                     onTap: () => onChanged(items[i]),
                     focusColor: AppColors.teal.withValues(alpha: .25),
                     child: Center(
+                      child: Row(
