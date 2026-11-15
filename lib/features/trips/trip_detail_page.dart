@@ -142,3 +142,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
       'pack' =>
         t.packing.isEmpty
             ? 'Belum ada barang'
+            : '${t.packing.fold(0, (a, g) => a + g.items.where((x) => x.done).length)} dari ${t.packing.fold(0, (a, g) => a + g.items.length)} barang siap',
