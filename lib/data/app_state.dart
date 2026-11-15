@@ -374,3 +374,4 @@ class AppState extends ChangeNotifier {
   Itinerary newDraft() => Itinerary(
     id: 'draft-${DateTime.now().microsecondsSinceEpoch}',
     title: '',
+    city: '',
