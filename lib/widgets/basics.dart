@@ -175,3 +175,4 @@ class TextLink extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Semantics(
+      button: true,
