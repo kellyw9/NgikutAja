@@ -28,3 +28,4 @@ class NgBanner extends StatelessWidget {
     final offline = kind == BannerKind.offline;
     return Semantics(
       liveRegion: kind == BannerKind.error,
+      container: true,
