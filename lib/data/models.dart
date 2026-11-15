@@ -30,3 +30,4 @@ class Creator {
   final int tint;
   String bio;
   int followers;
+  int following;
