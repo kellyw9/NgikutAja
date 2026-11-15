@@ -174,3 +174,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
                     if (status == TripStatus.berjalan) Text('Hari ${app.currentDay(t) + 1} dari ${t.days}', style: AppText.small.muted),
                   ],
                 ),
+                Text(t.title, style: AppText.h1),
