@@ -350,3 +350,4 @@ class AddPhotoTile extends StatelessWidget {
   final VoidCallback onTap;
   final double size;
   final String label;
+  final String icon;
