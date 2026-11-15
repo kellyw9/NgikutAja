@@ -250,3 +250,4 @@ class _CustomizePageState extends State<CustomizePage> {
                   children: [
                     Row(
                       children: [
+                        AppIcon(iss.conflict ? 'error' : 'warning', size: 20, color: iss.conflict ? AppColors.negativeInk : AppColors.ink),
