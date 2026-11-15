@@ -91,3 +91,4 @@ class _EditProfilePageState extends State<EditProfilePage> {
                     NgButton(
                       'Ganti foto profil',
                       kind: BtnKind.secondary,
+                      size: BtnSize.md,
