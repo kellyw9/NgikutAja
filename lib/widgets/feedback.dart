@@ -292,3 +292,4 @@ class ErrorBlock extends StatelessWidget {
               const SizedBox(height: 2),
               Text(text, style: AppText.small.muted),
             ],
+          ),
