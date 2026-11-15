@@ -219,3 +219,4 @@ class TripPhoto {
   final String src;
   final int day;
   final String caption;
+  final String time;
