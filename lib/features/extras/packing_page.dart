@@ -27,3 +27,4 @@ class _PackingPageState extends State<PackingPage> {
     var g = t.packing.where((g) => g.name == 'Lainnya').firstOrNull;
     if (g == null) {
       g = PackGroup('Lainnya', []);
+      t.packing.add(g);
