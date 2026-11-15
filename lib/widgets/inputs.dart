@@ -440,3 +440,4 @@ class Segmented extends StatelessWidget {
                     focusColor: AppColors.teal.withValues(alpha: .25),
                     child: Center(
                       child: Row(
+                        mainAxisSize: MainAxisSize.min,
