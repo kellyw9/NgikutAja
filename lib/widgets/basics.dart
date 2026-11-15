@@ -123,3 +123,4 @@ class IconBtn extends StatelessWidget {
   final String label;
   final VoidCallback? onTap;
   final Color? bg;
+  final Color color;
