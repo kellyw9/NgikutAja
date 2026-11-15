@@ -55,3 +55,4 @@ class SearchFilter {
 }
 
 /// 3.1 sampai 3.3: Pencarian, mengetik, hasil, kosong. Filter di bottom sheet (3.2).
+class SearchPage extends StatefulWidget {
