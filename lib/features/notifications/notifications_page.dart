@@ -90,3 +90,4 @@ class NotificationsPage extends StatelessWidget {
                       ),
                     ),
                     const SizedBox(height: 4),
+                    Text(n.time, style: AppText.small.muted),
