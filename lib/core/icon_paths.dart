@@ -3,3 +3,4 @@
 // ignore_for_file: lines_longer_than_80_chars
 
 const Map<String, String> kIconPaths = {
+  'account_balance':
