@@ -374,3 +374,4 @@ class NavigationPage extends StatelessWidget {
       backgroundColor: AppColors.mapLand,
       body: Stack(
         children: [
+          Positioned.fill(
