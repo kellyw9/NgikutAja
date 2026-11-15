@@ -306,3 +306,4 @@ class TravelStopPage extends StatelessWidget {
                               Text(st.note!, style: AppText.body),
                             ],
                           ),
+                        ),
