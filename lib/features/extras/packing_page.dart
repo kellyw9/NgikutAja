@@ -63,3 +63,4 @@ class _PackingPageState extends State<PackingPage> {
     g.items.remove(it);
     AppScope.read(context).touch();
     showNgSnack(
+      context,
