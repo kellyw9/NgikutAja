@@ -43,3 +43,4 @@ class ProfilePage extends StatelessWidget {
           padding: const EdgeInsets.fromLTRB(kMargin, 16, kMargin, 0),
           child: BoxList(
             children: [
+              ListRow(
