@@ -115,3 +115,4 @@ class _LoginPageState extends State<LoginPage> {
                           controller: pass,
                           obscure: obscure,
                           hint: 'Minimal 8 karakter',
+                          textInputAction: TextInputAction.done,
