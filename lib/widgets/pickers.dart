@@ -55,3 +55,4 @@ class _CalendarState extends State<_Calendar> {
       if (d == null) return const Expanded(child: SizedBox(height: 40));
       final date = DateTime(month.year, month.month, d);
       final disabled = date.isBefore(widget.first);
+      final isEdge = same(date, sel) || same(date, end);
