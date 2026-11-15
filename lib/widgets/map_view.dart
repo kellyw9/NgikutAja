@@ -180,3 +180,4 @@ class _MapPainter extends CustomPainter {
       );
       void line(Offset a, Offset b, double sw) => canvas.drawLine(a, b, road..strokeWidth = sw);
       line(Offset(-5, .45 * h), Offset(w + 5, .4 * h), 9);
+      line(Offset(.35 * w, -5), Offset(.42 * w, h + 5), 9);
