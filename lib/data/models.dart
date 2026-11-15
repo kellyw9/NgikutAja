@@ -163,3 +163,4 @@ class Member {
   Member({required this.name, required this.handle, required this.role, required this.tint, this.joined});
   final String name;
   final String handle;
+  MemberRole role;
