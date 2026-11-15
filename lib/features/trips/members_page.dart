@@ -191,3 +191,4 @@ class MembersPage extends StatelessWidget {
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
                                 Text(
+                                  i == 0 && ownerIsMe ? '${trip.members[i].name} (kamu)' : trip.members[i].name,
