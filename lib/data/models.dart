@@ -220,3 +220,4 @@ class TripPhoto {
   final int day;
   final String caption;
   final String time;
+  final bool publicVisible;
