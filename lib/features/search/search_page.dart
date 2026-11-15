@@ -138,3 +138,4 @@ class _SearchPageState extends State<SearchPage> {
     final app = AppScope.of(context);
     final typing = focus.hasFocus && input.text.trim().isNotEmpty;
     return Column(
+      crossAxisAlignment: CrossAxisAlignment.stretch,
