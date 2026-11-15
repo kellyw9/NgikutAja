@@ -15,3 +15,5 @@ void main() {
     await tester.pumpAndSettle();
     expect(find.text('Rencana liburan dari orang yang sudah ke sana'), findsOneWidget);
   });
+
+  test('Estimasi itinerary dihitung dari biaya aktivitas', () {
