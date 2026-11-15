@@ -82,3 +82,5 @@ class ProfilePage extends StatelessWidget {
     );
   }
 }
+
+/// Buka profil creator lain (dipakai dari daftar orang).
