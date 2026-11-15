@@ -70,3 +70,4 @@ class TripsPage extends StatelessWidget {
           onTap: () => push(context, CreateItineraryPage(draft: d), fullscreen: true),
         ),
         const SizedBox(height: 12),
+      ],
