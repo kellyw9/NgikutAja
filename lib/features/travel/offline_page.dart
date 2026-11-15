@@ -31,3 +31,4 @@ class OfflinePage extends StatelessWidget {
       backgroundColor: AppColors.ground,
       appBar: const NgAppBar(title: 'Data offline'),
       body: ListView(
+        padding: const EdgeInsets.fromLTRB(kMargin, 8, kMargin, 16),
