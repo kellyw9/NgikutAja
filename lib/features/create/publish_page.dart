@@ -132,3 +132,4 @@ class _PublishPageState extends State<PublishPage> {
                         padding: const EdgeInsets.symmetric(horizontal: 14),
                         child: Row(
                           children: [
+                            IconTile(
