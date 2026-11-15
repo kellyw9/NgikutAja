@@ -312,3 +312,4 @@ class ListRow extends StatelessWidget {
           children: [
             if (lead != null) ...[
               lead!,
+              const SizedBox(width: 14),
