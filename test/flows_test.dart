@@ -54,3 +54,5 @@ void main() {
     await tester.pump(const Duration(milliseconds: 700));
     expect(find.text('Email atau password salah'), findsOneWidget);
     expect(find.text('Password tidak cocok dengan email ini'), findsOneWidget);
+
+    await tester.enterText(find.byType(TextField).at(1), 'ngikutaja');
