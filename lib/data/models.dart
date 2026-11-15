@@ -99,3 +99,4 @@ class Itinerary {
 
   final String id;
   String title;
+  String city;
