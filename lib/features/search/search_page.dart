@@ -30,3 +30,5 @@ class SearchFilter {
     ..budget = budget
     ..rating = rating
     ..price = price;
+
+  bool match(Itinerary it) {
