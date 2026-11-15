@@ -157,3 +157,5 @@ class AppState extends ChangeNotifier {
   List<Itinerary> latest() => [...itineraries.where((x) => !x.isDraft)]..sort((a, b) => b.publishedAt.compareTo(a.publishedAt));
 
   List<Itinerary> fromFollowing() => latest().where((x) => following.contains(x.creator.id)).toList();
+
+  /// Simulasi mengambil feed dari server.
