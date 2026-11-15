@@ -35,3 +35,4 @@ class _PeoplePageState extends State<PeoplePage> {
       ),
       body: ListView(
         padding: const EdgeInsets.symmetric(vertical: 8),
+        children: [
