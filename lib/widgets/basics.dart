@@ -79,3 +79,4 @@ class NgButton extends StatelessWidget {
       child: TextButton(
         onPressed: disabled ? null : onPressed,
         style: ButtonStyle(
+          padding: WidgetStatePropertyAll(EdgeInsets.symmetric(horizontal: textual ? 8 : (lg ? 20 : 16))),
