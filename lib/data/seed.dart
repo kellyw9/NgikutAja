@@ -32,3 +32,4 @@ class Seed {
   late final List<AppNotification> notifications;
   late final Map<String, List<LocalTip>> tips;
   late final List<Person> followers;
+  late final List<Person> followingPeople;
