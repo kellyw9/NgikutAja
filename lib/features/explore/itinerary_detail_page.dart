@@ -116,3 +116,4 @@ class _ItineraryDetailPageState extends State<ItineraryDetailPage> {
                     spacing: 8,
                     runSpacing: 8,
                     children: [
+                      _StatChip(
