@@ -352,3 +352,4 @@ class _PickLocationPageState extends State<PickLocationPage> {
                       ),
                     ),
                     Positioned(
+                      left: x - 24,
