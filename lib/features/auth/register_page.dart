@@ -21,3 +21,4 @@ class _RegisterPageState extends State<RegisterPage> {
   bool ob1 = true, ob2 = true, loading = false, tried = false;
 
   (double, String, Color) get strength {
+    final p = pass.text;
