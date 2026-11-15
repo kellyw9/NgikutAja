@@ -160,3 +160,4 @@ class _ItineraryDetailPageState extends State<ItineraryDetailPage> {
                       if (it.desc.length > 160) TextLink(more ? 'Tutup' : 'Selengkapnya', onTap: () => setState(() => more = !more)),
                     ],
                   ),
+                ],
