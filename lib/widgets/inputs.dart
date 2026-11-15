@@ -411,3 +411,4 @@ class Segmented extends StatelessWidget {
   const Segmented({super.key, required this.items, required this.active, required this.onChanged, this.counts});
   final List<String> items;
   final String active;
+  final ValueChanged<String> onChanged;
