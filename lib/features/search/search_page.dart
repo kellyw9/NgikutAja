@@ -249,3 +249,4 @@ class _SearchPageState extends State<SearchPage> {
                     Expanded(child: Text(q, style: AppText.body)),
                     IconBtn(
                       'close',
+                      label: 'Hapus $q dari riwayat',
