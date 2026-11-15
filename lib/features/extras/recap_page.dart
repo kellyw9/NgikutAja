@@ -28,3 +28,4 @@ class RecapPage extends StatelessWidget {
         title: 'Trip recap',
         actions: [IconBtn('share', label: 'Bagikan recap', onTap: () => shareText(_summary(t)))],
       ),
+      body: ListView(
