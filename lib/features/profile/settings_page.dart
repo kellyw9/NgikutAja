@@ -154,3 +154,4 @@ class AboutPage extends StatelessWidget {
                             Text('${(e.value as Map)['artist']}, ${(e.value as Map)['license']}, Wikimedia Commons', style: AppText.small.muted),
                           ],
                         ),
+                      ),
