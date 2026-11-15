@@ -533,3 +533,4 @@ class Seed {
           text: 'Buka setiap hari, jam 9 sampai 17.',
           creator: true,
           replyTo: 'Putri Hasibuan',
+        ),
