@@ -437,3 +437,4 @@ class _SearchPageState extends State<SearchPage> {
       title: 'Filter pencarian',
       scroll: true,
       builder: (ctx) => StatefulBuilder(
+        builder: (ctx, set) {
