@@ -76,3 +76,4 @@ class _ResetPasswordPageState extends State<ResetPasswordPage> {
                     const SizedBox(height: 24),
                     NgField(
                       label: 'Email',
+                      icon: 'mail',
