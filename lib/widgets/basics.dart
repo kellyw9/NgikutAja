@@ -351,3 +351,5 @@ class AddPhotoTile extends StatelessWidget {
   final double size;
   final String label;
   final String icon;
+
+  @override
