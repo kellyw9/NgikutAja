@@ -206,3 +206,4 @@ class ObscureToggle extends StatelessWidget {
     obscured ? 'visibility' : 'visibility_off',
     label: obscured ? 'Tampilkan password' : 'Sembunyikan password',
     onTap: onTap,
+    size: 40,
