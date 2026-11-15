@@ -223,3 +223,4 @@ class _AddExpensePageState extends State<AddExpensePage> {
 
   @override
   void dispose() {
+    name.dispose();
