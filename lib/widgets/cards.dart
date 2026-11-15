@@ -504,3 +504,4 @@ class _DayBox extends StatelessWidget {
             width: 92,
             padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 8),
             child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
