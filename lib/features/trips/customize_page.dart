@@ -310,3 +310,4 @@ class _CustomizePageState extends State<CustomizePage> {
       },
       child: Scaffold(
         backgroundColor: AppColors.ground,
+        appBar: NgAppBar(
