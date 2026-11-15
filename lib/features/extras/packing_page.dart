@@ -47,3 +47,4 @@ class _PackingPageState extends State<PackingPage> {
           NgButton('Hapus barang', kind: BtnKind.dangerText, icon: 'delete', expand: true, onPressed: () => Navigator.pop(ctx, '')),
         ],
       ),
+    );
