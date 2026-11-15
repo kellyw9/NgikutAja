@@ -145,3 +145,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
             : '${t.packing.fold(0, (a, g) => a + g.items.where((x) => x.done).length)} dari ${t.packing.fold(0, (a, g) => a + g.items.length)} barang siap',
       'tips' => tips.isEmpty ? 'Belum ada tips untuk ${t.city}' : '${tips.length} tips untuk ${t.city}',
       'journal' => t.journal.isEmpty ? 'Ditulis saat trip berjalan' : '${t.journal.length} catatan harian',
+      'photo' => t.photos.isEmpty ? 'Belum ada foto' : '${t.photos.length} foto',
