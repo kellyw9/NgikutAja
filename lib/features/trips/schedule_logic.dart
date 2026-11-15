@@ -87,3 +87,4 @@ List<String> shiftCascade(List<Stop> day, Stop target, int newStart) {
           lines: [for (final i in involved) '${day[i].name}: ${day[i].start}–${day[i].end}'],
         ),
       );
+      final (i, j) = cs.first;
