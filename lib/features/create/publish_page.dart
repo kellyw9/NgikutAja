@@ -37,3 +37,4 @@ class _PublishPageState extends State<PublishPage> {
       if (paid) ('Harga minimal Rp5.000', parseRupiah(price.text) >= 5000),
     ];
     final ready = checks.every((c) => c.$2);
+    final total = d.plan.fold<int>(0, (a, x) => a + x.fold(0, (b, s) => b + s.cost));
