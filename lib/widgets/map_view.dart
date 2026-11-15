@@ -126,3 +126,5 @@ class _MapPainter extends CustomPainter {
       ..color = AppColors.white
       ..style = PaintingStyle.stroke
       ..strokeCap = StrokeCap.butt;
+
+    if (kind == MapKind.lake) {
