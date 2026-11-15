@@ -123,3 +123,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
     );
     if (r == 'save' && mounted) {
       _apply();
+      saveDraftAndClose(context, d);
