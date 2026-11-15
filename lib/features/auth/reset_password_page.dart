@@ -35,3 +35,4 @@ class _ResetPasswordPageState extends State<ResetPasswordPage> {
     await Future<void>.delayed(const Duration(milliseconds: 700));
     if (!mounted) return;
     setState(() {
+      loading = false;
