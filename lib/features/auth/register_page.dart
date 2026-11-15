@@ -43,3 +43,4 @@ class _RegisterPageState extends State<RegisterPage> {
 
   Future<void> _submit() async {
     setState(() => tried = true);
+    if (!valid) return;
