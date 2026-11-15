@@ -473,3 +473,4 @@ class ThousandsFormatter extends TextInputFormatter {
     if (digits.isEmpty) return const TextEditingValue();
     final n = int.parse(digits);
     final s = n.toString();
+    final buf = StringBuffer();
