@@ -204,3 +204,4 @@ class _AddExpensePageState extends State<AddExpensePage> {
     } else {
       final now = DateTime.now();
       app.addExpense(
+        widget.trip,
