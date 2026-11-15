@@ -464,3 +464,4 @@ class _SearchPageState extends State<SearchPage> {
                       children: [
                         RadioRow(title: 'Semua kota', selected: q.isEmpty, onTap: () => Navigator.pop(c2, '')),
                         for (final city in AppState.cities)
+                          RadioRow(
