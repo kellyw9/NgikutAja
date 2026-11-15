@@ -22,3 +22,4 @@ class WishlistPage extends StatelessWidget {
                 icon: 'bookmark',
                 title: 'Wishlist masih kosong',
                 text: 'Tekan ikon bookmark pada Card Wisata untuk menyimpan itinerary yang ingin kamu jalani nanti.',
+                action: NgButton('Cari itinerary', kind: BtnKind.secondary, size: BtnSize.md, onPressed: () => goTab(context, tabSearch)),
