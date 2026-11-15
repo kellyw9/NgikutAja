@@ -466,3 +466,4 @@ class PurchaseHistoryPage extends StatelessWidget {
               itemCount: list.length,
               separatorBuilder: (_, _) => const SizedBox(height: 10),
               itemBuilder: (_, i) {
+                final t = list[i];
