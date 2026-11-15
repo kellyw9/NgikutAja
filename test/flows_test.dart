@@ -98,3 +98,4 @@ void main() {
     expect(find.text('Jadwal bertabrakan di Hari 1'), findsNothing);
 
     await tapText(tester, 'Simpan perubahan', button: true);
+    await tester.pump(const Duration(milliseconds: 200));
