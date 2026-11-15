@@ -27,3 +27,4 @@ class DashboardPage extends StatelessWidget {
             16,
             children: [
               FactStrip([
+                ('Itinerary terbit', '${mine.length}'),
