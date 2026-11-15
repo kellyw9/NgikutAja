@@ -516,3 +516,4 @@ class Seed {
       ),
       Review(
         name: 'Meiliana',
+        tint: 5,
