@@ -75,3 +75,4 @@ class Itinerary {
     required this.id,
     required this.title,
     required this.city,
+    required this.region,
