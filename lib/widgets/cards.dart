@@ -645,3 +645,4 @@ class ProfileHead extends StatelessWidget {
           const SizedBox(height: 14),
           action,
         ],
+      ),
