@@ -194,3 +194,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
                         MetaRow([('pin_drop', '${stops.length} tempat'), ('payments', rp(cost))], color: AppColors.ink),
                       ],
                     ),
+                    ReorderableListView(
