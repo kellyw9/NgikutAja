@@ -435,3 +435,4 @@ class _PaymentStatusPageState extends State<PaymentStatusPage> {
 /// setelah dibeli). Mengembalikan false kalau tidak ada halaman itinerary di tumpukan.
 bool _closeFlow(NavigatorState nav) {
   var found = false;
+  nav.popUntil((r) {
