@@ -304,3 +304,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
     }
     return Tap(
       onTap: pick,
+      radius: AppRadius.card,
