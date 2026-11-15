@@ -82,3 +82,4 @@ class _EditStopPageState extends State<EditStopPage> {
     for (final c in [name, cost, desc, note]) {
       c.dispose();
     }
+    super.dispose();
