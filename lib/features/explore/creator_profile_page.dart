@@ -23,3 +23,4 @@ class _CreatorProfilePageState extends State<CreatorProfilePage> {
     final list = paidOnly ? all.where((x) => x.isPaid).toList() : all;
     final following = app.isFollowing(c);
     return Scaffold(
+      backgroundColor: AppColors.ground,
