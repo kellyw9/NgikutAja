@@ -297,3 +297,4 @@ class _SearchPageState extends State<SearchPage> {
       children: [
         for (var i = 0; i < rows.length; i++) ...[if (i > 0) const NgDivider(inset: kMargin), rows[i]],
       ],
+    );
