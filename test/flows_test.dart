@@ -60,3 +60,4 @@ void main() {
     await tester.pump(const Duration(milliseconds: 700));
     await tester.pump(const Duration(seconds: 1));
     expect(s.loggedIn, isTrue);
+    expect(find.byType(HomeShell), findsOneWidget);
