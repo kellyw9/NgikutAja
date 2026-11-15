@@ -223,3 +223,4 @@ class _AdoptProgressPageState extends State<AdoptProgressPage> {
       trip = null;
     });
     try {
+      final t = await AppScope.read(
