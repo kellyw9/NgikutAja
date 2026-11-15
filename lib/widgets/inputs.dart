@@ -87,3 +87,4 @@ class _NgFieldState extends State<NgField> {
   Widget build(BuildContext context) {
     final err = widget.error != null;
     final borderColor = err ? AppColors.negative : (_focused ? AppColors.ink : AppColors.control);
+    final borderW = err || _focused ? 2.0 : 1.0;
