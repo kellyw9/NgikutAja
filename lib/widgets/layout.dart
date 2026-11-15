@@ -176,3 +176,4 @@ class BottomBar extends StatelessWidget {
             padding: const EdgeInsets.symmetric(horizontal: kMargin, vertical: 12),
             child: Row(
               children: [
+                for (var i = 0; i < children.length; i++) ...[if (i > 0) const SizedBox(width: 12), children[i]],
