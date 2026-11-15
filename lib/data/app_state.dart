@@ -375,3 +375,4 @@ class AppState extends ChangeNotifier {
     id: 'draft-${DateTime.now().microsecondsSinceEpoch}',
     title: '',
     city: '',
+    region: '',
