@@ -441,3 +441,4 @@ class Segmented extends StatelessWidget {
                     child: Center(
                       child: Row(
                         mainAxisSize: MainAxisSize.min,
+                        children: [
