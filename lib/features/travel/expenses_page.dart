@@ -87,3 +87,4 @@ class ExpensesPage extends StatelessWidget {
           Gap(
             14,
             children: [
+              NgCard(
