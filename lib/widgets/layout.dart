@@ -293,3 +293,4 @@ class ListRow extends StatelessWidget {
     this.padH = kMargin,
   });
   final String? icon;
+  final String title;
