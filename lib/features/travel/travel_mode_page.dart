@@ -404,3 +404,4 @@ class NavigationPage extends StatelessWidget {
           color: AppColors.surface,
           borderRadius: BorderRadius.vertical(top: Radius.circular(AppRadius.sheet)),
           boxShadow: kFloatShadow,
+        ),
