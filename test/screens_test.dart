@@ -153,3 +153,4 @@ void main() {
       );
       await tester.pump(const Duration(milliseconds: 800));
       expect(tester.takeException(), isNull);
+    });
