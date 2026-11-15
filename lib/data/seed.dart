@@ -272,3 +272,4 @@ class Seed {
         publishedAt: _d(-30),
       ),
       Itinerary(
+        id: 'bandung',
