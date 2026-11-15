@@ -122,3 +122,4 @@ class _EditProfilePageState extends State<EditProfilePage> {
                     const SizedBox(height: 4),
                     Text('${bio.text.length}/150', style: AppText.small.muted, textAlign: TextAlign.right),
                   ],
+                ),
