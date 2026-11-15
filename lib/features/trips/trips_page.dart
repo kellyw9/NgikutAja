@@ -49,3 +49,4 @@ class TripsPage extends StatelessWidget {
         EmptyState(
           icon: 'edit_note',
           title: 'Belum ada draft',
+          text: 'Itinerary yang kamu simpan sebagai draft muncul di sini sampai diterbitkan.',
