@@ -111,3 +111,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
     if (!dirty || widget.draft != null) {
       if (widget.draft != null) _apply();
       return true;
+    }
