@@ -143,3 +143,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
     return PopScope(
       canPop: false,
       onPopInvokedWithResult: (didPop, _) async {
+        if (didPop) return;
