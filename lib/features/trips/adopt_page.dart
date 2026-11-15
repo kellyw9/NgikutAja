@@ -47,3 +47,4 @@ class _AdoptPageState extends State<AdoptPage> {
   Widget build(BuildContext context) {
     final it = widget.it;
     final end = start.add(Duration(days: it.days - 1));
+    final before = start.subtract(const Duration(days: 1));
