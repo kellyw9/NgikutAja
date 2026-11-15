@@ -223,3 +223,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
                       color: AppColors.muted,
                       onTap: () => setState(() => replyTo = null),
                     ),
+                  ],
