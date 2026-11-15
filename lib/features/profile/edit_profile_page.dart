@@ -23,3 +23,4 @@ class _EditProfilePageState extends State<EditProfilePage> {
     final u = user.text.trim();
     if (u.length < 3) return 'Minimal 3 karakter';
     if (!RegExp(r'^[a-z0-9_.]+$').hasMatch(u)) return 'Pakai huruf kecil, angka, titik, atau garis bawah';
+    if (!AppScope.read(context).usernameAvailable(u)) return 'Username sudah dipakai';
