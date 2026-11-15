@@ -153,3 +153,4 @@ class WisataCard extends StatelessWidget {
                   fit: StackFit.expand,
                   children: [
                     Photo(it.cover, radius: AppRadius.card),
+                    if (it.isPaid) Positioned(left: 10, top: 10, child: PriceTag(rp(it.price))),
