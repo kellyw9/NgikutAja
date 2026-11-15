@@ -109,3 +109,4 @@ class _PackingPageState extends State<PackingPage> {
                     const SizedBox(height: 6),
                     BoxList(
                       inset: 42,
+                      padV: 0,
