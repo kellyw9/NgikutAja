@@ -161,3 +161,4 @@ class _SearchPageState extends State<SearchPage> {
             height: 48,
             padding: const EdgeInsets.only(left: 12, right: 4),
             decoration: BoxDecoration(
+              color: AppColors.surface,
