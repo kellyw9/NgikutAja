@@ -164,3 +164,4 @@ class _AddStopPageState extends State<AddStopPage> {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text('Foto referensi', style: AppText.bodyStrong),
+                  const SizedBox(height: 8),
