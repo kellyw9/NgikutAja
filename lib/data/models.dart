@@ -268,3 +268,4 @@ class Trip {
        journal = journal ?? {};
 
   final String id;
+  String title;
