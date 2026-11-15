@@ -110,3 +110,4 @@ class _NgFieldState extends State<NgField> {
         minLines: widget.area ? 3 : 1,
         onChanged: widget.onChanged,
         onSubmitted: widget.onSubmitted,
+        inputFormatters: [...?widget.inputFormatters, if (widget.maxLength != null) LengthLimitingTextInputFormatter(widget.maxLength)],
