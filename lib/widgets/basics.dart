@@ -398,3 +398,4 @@ class Pill extends StatelessWidget {
   Widget build(BuildContext context) {
     final (bg, fg) = colors(kind);
     return Container(
+      height: 22,
