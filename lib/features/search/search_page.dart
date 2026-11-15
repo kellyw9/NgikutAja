@@ -40,3 +40,4 @@ class SearchFilter {
     if (budgetOn) {
       final e = it.estimate;
       if (e == null || e < budget.start || e > budget.end) return false;
+    }
