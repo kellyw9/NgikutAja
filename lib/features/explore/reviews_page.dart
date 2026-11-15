@@ -56,3 +56,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
 
   Widget _reviews(AppState app, Itinerary it) {
     final list = app.reviewsOf(it);
+    final dist = app.ratingDistOf(it);
