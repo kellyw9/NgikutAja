@@ -250,3 +250,4 @@ class _AdoptProgressPageState extends State<AdoptProgressPage> {
                 actions: const [NgButton('Menyalin...', expand: true)],
               )
             : failed
+            ? StatusView(
