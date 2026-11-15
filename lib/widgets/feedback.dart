@@ -237,3 +237,4 @@ class EmptyState extends StatelessWidget {
   const EmptyState({super.key, required this.icon, required this.title, required this.text, this.action, this.height = 260});
   final String icon;
   final String title;
+  final String text;
