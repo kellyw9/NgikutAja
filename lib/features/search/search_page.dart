@@ -279,3 +279,4 @@ class _SearchPageState extends State<SearchPage> {
     final q = input.text.trim().toLowerCase();
     final cities = AppState.cities.where((c) => c.name.toLowerCase().contains(q)).toList();
     final itins = app.itineraries.where((x) => !x.isDraft && x.title.toLowerCase().contains(q)).take(5).toList();
+    final rows = <Widget>[
