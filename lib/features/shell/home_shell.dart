@@ -131,3 +131,4 @@ class BottomNav extends StatelessWidget {
       children: [
         Container(
           width: 32,
+          height: 3,
