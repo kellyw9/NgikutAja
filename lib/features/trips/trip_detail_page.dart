@@ -257,3 +257,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
                       ('menu_book', 'Trip journal', 'journal'),
                       ('photo_library', 'Photo memory', 'photo'),
                       ('flag', 'Trip recap', 'recap'),
+                    ].indexed) ...[
