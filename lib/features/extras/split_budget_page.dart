@@ -22,3 +22,4 @@ class _SplitBudgetPageState extends State<SplitBudgetPage> {
     final total = t.expenseTotal;
     final members = t.members;
     final parts = custom ? members.fold<int>(0, (a, m) => a + (portion[m.first] ?? 1)) : members.length;
+    int shareOf(Member m) => parts == 0 ? 0 : (total * (custom ? (portion[m.first] ?? 1) : 1) / parts).round();
