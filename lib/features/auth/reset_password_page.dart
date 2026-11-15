@@ -196,3 +196,4 @@ class _NewPasswordPageState extends State<NewPasswordPage> {
                       trailing: ObscureToggle(obscured: o2, onTap: () => setState(() => o2 = !o2)),
                     ),
                     const Spacer(),
+                    const SizedBox(height: 24),
