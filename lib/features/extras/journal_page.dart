@@ -71,3 +71,4 @@ class _JournalPageState extends State<JournalPage> {
     final p = await pickPhotoSheet(context, title: 'Tambah foto ke catatan');
     if (p == null || p.isEmpty || !mounted) return;
     final t = widget.trip;
+    final e = t.journal.putIfAbsent(day, () => JournalEntry(title: _dayLabel(day), text: '', photos: []));
