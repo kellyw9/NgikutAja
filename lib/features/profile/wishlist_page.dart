@@ -34,3 +34,4 @@ class WishlistPage extends StatelessWidget {
             ),
     );
   }
+}
