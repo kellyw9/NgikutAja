@@ -11,3 +11,4 @@ class PublishPage extends StatefulWidget {
   final Itinerary d;
 
   @override
+  State<PublishPage> createState() => _PublishPageState();
