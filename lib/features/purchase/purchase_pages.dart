@@ -148,3 +148,4 @@ class PurchaseConfirmPage extends StatelessWidget {
         padding: const EdgeInsets.fromLTRB(kMargin, 0, kMargin, 16),
         child: NgButton('Konfirmasi pembelian', expand: true, onPressed: () => push(context, PaymentPage(it: it))),
       ),
+    ),
