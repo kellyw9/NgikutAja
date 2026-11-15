@@ -212,3 +212,4 @@ class PackGroup {
   PackGroup(this.name, this.items);
   final String name;
   final List<PackItem> items;
+}
