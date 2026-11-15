@@ -15,3 +15,4 @@ class NgikutAjaApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return AppScope(
       state: state,
+      child: MaterialApp(
