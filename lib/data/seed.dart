@@ -600,3 +600,4 @@ class Seed {
         lead: '@putrihsb',
         text: ' dan 4 orang lain menyukai "Samosir Naik Motor 2 Hari".',
         time: '$yday 15.20',
+        today: false,
