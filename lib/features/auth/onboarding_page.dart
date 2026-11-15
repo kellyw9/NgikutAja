@@ -72,3 +72,4 @@ class _OnboardingPageState extends State<OnboardingPage> {
                               if (k > 0) const SizedBox(width: 6),
                               AnimatedContainer(
                                 duration: const Duration(milliseconds: 200),
+                                width: k == page ? 24 : 8,
