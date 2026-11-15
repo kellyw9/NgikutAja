@@ -369,3 +369,4 @@ class StopRow extends StatelessWidget {
                   const SizedBox(width: 10),
                   trailing!,
                 ] else if (thumb && st.photo != null && !blur) ...[
+                  const SizedBox(width: 10),
