@@ -105,3 +105,4 @@ class _NgFieldState extends State<NgField> {
         readOnly: widget.readOnly,
         obscureText: widget.obscure,
         obscuringCharacter: '•',
+        keyboardType: widget.area ? TextInputType.multiline : widget.keyboardType,
