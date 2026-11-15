@@ -133,3 +133,4 @@ class PurchaseConfirmPage extends StatelessWidget {
           14,
           children: [
             _ItemRow(it),
+            KeyValueBox(
