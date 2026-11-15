@@ -53,3 +53,4 @@ class DashboardPage extends StatelessWidget {
                                   SizedBox(
                                     width: 36,
                                     child: Column(
+                                      mainAxisAlignment: MainAxisAlignment.end,
