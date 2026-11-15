@@ -476,3 +476,4 @@ class _CustomizePageState extends State<CustomizePage> {
                             if (t.photos.isEmpty)
                               Text('Belum ada foto untuk trip ini.', style: AppText.body.muted)
                             else
+                              for (final p in t.photos) ...[
