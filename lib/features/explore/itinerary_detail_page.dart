@@ -47,3 +47,4 @@ class _StatChip extends StatelessWidget {
         child: Container(
           height: 36,
           padding: const EdgeInsets.symmetric(horizontal: 12),
+          child: ExcludeSemantics(
