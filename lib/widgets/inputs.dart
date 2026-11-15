@@ -363,3 +363,4 @@ class NgChip extends StatelessWidget {
   final VoidCallback? onTap;
 
   @override
+  Widget build(BuildContext context) {
