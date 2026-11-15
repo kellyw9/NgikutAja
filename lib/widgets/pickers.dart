@@ -60,3 +60,4 @@ class _CalendarState extends State<_Calendar> {
       return Expanded(
         child: Container(
           height: 40,
+          color: inRange ? AppColors.tealPale : null,
