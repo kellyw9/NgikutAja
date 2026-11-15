@@ -106,3 +106,4 @@ void main() {
     await tester.pump(const Duration(milliseconds: 500));
     expect(find.text('Perubahan tersimpan. Pengingat ikut diperbarui.'), findsOneWidget);
     expect(t.plan[0].last.start, '14.45');
+  });
