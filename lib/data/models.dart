@@ -262,3 +262,4 @@ class Trip {
   }) : dayTitles = dayTitles ?? [],
        members = members ?? [],
        expenses = expenses ?? [],
+       packing = packing ?? [],
