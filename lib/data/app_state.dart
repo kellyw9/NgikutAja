@@ -293,3 +293,4 @@ class AppState extends ChangeNotifier {
       city: it.city,
       region: it.region,
       start: start,
+      cover: it.cover,
