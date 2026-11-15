@@ -98,3 +98,4 @@ class Itinerary {
        publishedAt = publishedAt ?? DateTime(2026, 1, 1);
 
   final String id;
+  String title;
