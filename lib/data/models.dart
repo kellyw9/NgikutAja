@@ -254,3 +254,4 @@ class Trip {
     this.syncedAt,
     this.remindDayBefore = true,
     this.remindEach = true,
+    this.remindOffset = 30,
