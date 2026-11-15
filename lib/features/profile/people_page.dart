@@ -22,3 +22,5 @@ class _PeoplePageState extends State<PeoplePage> {
       following.addAll(AppScope.read(context).seed.followingPeople.map((p) => p.handle));
     }
   }
+
+  @override
