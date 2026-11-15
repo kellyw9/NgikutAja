@@ -241,3 +241,4 @@ class AppState extends ChangeNotifier {
       method: method,
       amount: it.price,
       status: TxStatus.pending,
+    );
