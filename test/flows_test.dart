@@ -129,3 +129,5 @@ void main() {
     expect(s.purchased, contains('toba'));
     expect(s.transactions.first.status, TxStatus.berhasil);
   });
+
+  testWidgets('Create: judul wajib, hari tanpa stop menahan publish', (tester) async {
