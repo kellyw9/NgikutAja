@@ -113,3 +113,4 @@ class _RegisterPageState extends State<RegisterPage> {
                         label: 'Password',
                         icon: 'lock',
                         controller: pass,
+                        obscure: ob1,
