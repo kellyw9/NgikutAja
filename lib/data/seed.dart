@@ -566,3 +566,4 @@ class Seed {
         unread: true,
       ),
       AppNotification(
+        id: 'n2',
