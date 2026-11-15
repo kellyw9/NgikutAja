@@ -52,3 +52,4 @@ class _CalendarState extends State<_Calendar> {
     final firstMonth = DateTime(widget.first.year, widget.first.month);
 
     Widget cell(int? d) {
+      if (d == null) return const Expanded(child: SizedBox(height: 40));
