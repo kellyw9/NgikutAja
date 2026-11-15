@@ -626,3 +626,4 @@ class _SquareThumb extends RangeSliderThumbShape {
         ..strokeWidth = 2,
     );
   }
+}
