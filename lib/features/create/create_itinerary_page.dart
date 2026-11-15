@@ -45,3 +45,5 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
     if (!paid) d.price = 0;
     if (paid && d.price == 0) d.price = 25000;
   }
+
+  void _setDays(int n) {
