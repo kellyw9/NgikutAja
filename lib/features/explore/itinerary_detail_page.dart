@@ -321,3 +321,4 @@ class PaidPreviewPage extends StatelessWidget {
                       borderRadius: BorderRadius.circular(AppRadius.card),
                       border: Border.all(color: AppColors.ink, width: 1.5),
                     ),
+                    child: Column(
