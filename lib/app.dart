@@ -19,3 +19,4 @@ class NgikutAjaApp extends StatelessWidget {
         title: 'NgikutAja',
         debugShowCheckedModeBanner: false,
         theme: buildTheme(),
+        locale: const Locale('id'),
