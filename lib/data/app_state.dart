@@ -195,3 +195,4 @@ class AppState extends ChangeNotifier {
     if (following.remove(c.id)) {
       c.followers--;
     } else {
+      following.add(c.id);
