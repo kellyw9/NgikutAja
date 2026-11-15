@@ -53,3 +53,5 @@ class AppRadius {
   static const double sheet = 16;
   static const double dialog = 12;
 }
+
+/// Margin layar kiri-kanan.
