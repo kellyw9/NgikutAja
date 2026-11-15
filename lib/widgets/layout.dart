@@ -407,3 +407,4 @@ class HeroPhoto extends StatelessWidget {
     final top = MediaQuery.paddingOf(context).top;
     return AnnotatedRegion<SystemUiOverlayStyle>(
       value: kLightIcons.copyWith(systemNavigationBarColor: AppColors.surface, systemNavigationBarIconBrightness: Brightness.dark),
+      child: SizedBox(
