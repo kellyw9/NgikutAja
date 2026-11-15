@@ -91,3 +91,4 @@ class _NgFieldState extends State<NgField> {
 
     Widget content;
     if (_select || widget.controller == null) {
+      final v = widget.value ?? '';
