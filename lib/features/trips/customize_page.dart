@@ -201,3 +201,4 @@ class _CustomizePageState extends State<CustomizePage> {
       builder: (ctx) => Gap(
         16,
         children: [
+          NgField(label: 'Nomor hari', value: 'Hari $n', readOnly: true, fill: AppColors.surfaceSoft),
