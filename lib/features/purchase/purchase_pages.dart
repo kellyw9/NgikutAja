@@ -159,3 +159,4 @@ const _methods = [
 ];
 
 /// 8.3 Pembayaran Simulasi.
+class PaymentPage extends StatefulWidget {
