@@ -87,3 +87,4 @@ class _ResetPasswordPageState extends State<ResetPasswordPage> {
                     if (sent) ...[
                       const SizedBox(height: 24),
                       NgBanner(
+                        kind: BannerKind.success,
