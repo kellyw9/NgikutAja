@@ -323,3 +323,4 @@ class RadioRow extends StatelessWidget {
 
 class NgStepper extends StatelessWidget {
   const NgStepper({super.key, required this.value, this.unit = '', required this.onChanged, this.min = 1, this.max = 14});
+  final int value;
