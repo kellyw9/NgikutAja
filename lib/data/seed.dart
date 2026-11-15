@@ -48,3 +48,4 @@ class Seed {
       id: 'dinda',
       name: 'Dinda Saragi',
       handle: '@dindasaragi',
+      tint: 0,
