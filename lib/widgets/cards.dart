@@ -533,3 +533,5 @@ class _DayBox extends StatelessWidget {
     );
   }
 }
+
+/// Info kreator: avatar 40, nama, handle + pengikut, tombol Ikuti.
