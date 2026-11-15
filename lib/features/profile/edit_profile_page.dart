@@ -35,3 +35,4 @@ class _EditProfilePageState extends State<EditProfilePage> {
     me.photo = photo;
     AppScope.read(context).updateProfile(name: name.text, username: user.text, bio: bio.text);
     Navigator.pop(context);
+    showNgSnack(context, 'Profil tersimpan.', kind: SnackKind.success);
