@@ -148,3 +148,4 @@ class TripsPage extends StatelessWidget {
     final d = app.currentDay(t);
     return Column(
       children: [
+        Row(
