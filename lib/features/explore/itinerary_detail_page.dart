@@ -342,3 +342,4 @@ class PaidPreviewPage extends StatelessWidget {
                           'dan catatan creator. Bisa diadopsi dan dibuka offline.',
                           style: AppText.body.muted,
                         ),
+                      ],
