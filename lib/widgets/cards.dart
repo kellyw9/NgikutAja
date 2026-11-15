@@ -564,3 +564,4 @@ class CreatorRow extends StatelessWidget {
                       children: [
                         Text(c.name, style: AppText.bodyStrong, maxLines: 1, overflow: TextOverflow.ellipsis),
                         const SizedBox(height: 2),
+                        Text(
