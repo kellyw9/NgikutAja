@@ -81,3 +81,4 @@ class _ExplorePageState extends State<ExplorePage> {
       return Padding(
         padding: const EdgeInsets.symmetric(horizontal: kMargin),
         child: Column(
+          children: [
