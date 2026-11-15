@@ -319,3 +319,5 @@ class AppState extends ChangeNotifier {
     t.dayTitles = titles;
     notifyListeners();
   }
+
+  void touch() => notifyListeners();
