@@ -82,3 +82,4 @@ class _JournalPageState extends State<JournalPage> {
     AppScope.of(context);
     final t = widget.trip;
     final e = t.journal[day];
+    return Scaffold(
