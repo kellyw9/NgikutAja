@@ -287,3 +287,4 @@ class TripCard extends StatelessWidget {
                     ],
                   ),
                 ),
+                const SizedBox(width: 12),
