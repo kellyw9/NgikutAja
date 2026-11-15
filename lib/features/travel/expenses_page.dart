@@ -48,3 +48,4 @@ class ExpensesPage extends StatelessWidget {
                       DialogAction('Batal'),
                     ],
                   );
+                  if (r == true && ctx.mounted) {
