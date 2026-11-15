@@ -39,3 +39,4 @@ class _CheckinPageState extends State<CheckinPage> {
           Gap(
             14,
             children: [
+              MapView(
