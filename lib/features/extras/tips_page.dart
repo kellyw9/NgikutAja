@@ -15,3 +15,4 @@ class TipsPage extends StatelessWidget {
       backgroundColor: AppColors.ground,
       appBar: NgAppBar(title: 'Local tips', sub: trip.city == 'Samosir' ? 'Samosir dan Danau Toba' : trip.city),
       body: ListView(
+        padding: const EdgeInsets.fromLTRB(kMargin, 8, kMargin, 16),
