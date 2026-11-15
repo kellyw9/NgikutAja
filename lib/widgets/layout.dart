@@ -162,3 +162,5 @@ class SectionHead extends StatelessWidget {
 class BottomBar extends StatelessWidget {
   const BottomBar({super.key, required this.children});
   final List<Widget> children;
+
+  @override
