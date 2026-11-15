@@ -471,3 +471,4 @@ class _SearchPageState extends State<SearchPage> {
                             onTap: () => Navigator.pop(c2, city.name),
                           ),
                       ],
+                    ),
