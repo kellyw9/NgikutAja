@@ -116,3 +116,4 @@ class Seed {
       id: 'medan',
       title: '3 Hari Kuliner dan Sejarah di Medan',
       city: 'Medan',
+      region: 'Medan, Sumatera Utara',
