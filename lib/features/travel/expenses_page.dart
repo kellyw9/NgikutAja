@@ -320,3 +320,4 @@ class _AddExpensePageState extends State<AddExpensePage> {
                           icon: 'photo_camera',
                           label: 'Foto struk',
                           onTap: () async {
+                            final p = await pickPhotoSheet(context, title: 'Foto struk');
