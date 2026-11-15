@@ -375,3 +375,4 @@ class StopRow extends StatelessWidget {
               ],
             ),
             if (note && st.note != null && !blur) ...[
+              const SizedBox(height: 4),
