@@ -5,3 +5,4 @@ import '../core/format.dart';
 import 'models.dart';
 
 Stop _s(String start, String end, String name, Category cat, int cost, [String? photo, String? note, String? desc]) =>
+    Stop(start: start, end: end, name: name, cat: cat, cost: cost, photo: photo, note: note, desc: desc);
