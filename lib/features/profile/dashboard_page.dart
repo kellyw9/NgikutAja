@@ -59,3 +59,4 @@ class DashboardPage extends StatelessWidget {
                                         const SizedBox(height: 4),
                                         Container(
                                           height: 106 * monthly[i].$2 / maxN,
+                                          decoration: BoxDecoration(
