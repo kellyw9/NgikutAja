@@ -39,3 +39,4 @@ class AppState extends ChangeNotifier {
     loggedIn = _prefs?.getBool('loggedIn') ?? false;
     interests = (_prefs?.getStringList('interests') ?? ['Kuliner', 'Budaya']).toSet();
     final saved = _prefs?.getString('accounts');
+    if (saved != null) {
