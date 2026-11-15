@@ -197,3 +197,4 @@ class _SplitBudgetPageState extends State<SplitBudgetPage> {
               Text('Dihitung otomatis dari ${t.expenses.length} transaksi di menu Pengeluaran.', style: AppText.small.muted),
             ],
           ),
+        ],
