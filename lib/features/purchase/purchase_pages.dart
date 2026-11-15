@@ -294,3 +294,4 @@ class _PaymentStatusPageState extends State<PaymentStatusPage> {
           _t?.cancel();
           expired = true;
           AppScope.read(context).completePayment(widget.tx, success: false);
+        }
