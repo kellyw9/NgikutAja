@@ -132,3 +132,4 @@ class NotificationsPage extends StatelessWidget {
           ),
         ),
       ),
+    );
