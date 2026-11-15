@@ -51,3 +51,4 @@ class _PublishPageState extends State<PublishPage> {
             borderWidth: on ? 2 : 1,
             onTap: () => setState(() => paid = isPaid),
             child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
