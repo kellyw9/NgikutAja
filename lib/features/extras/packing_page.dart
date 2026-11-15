@@ -78,3 +78,4 @@ class _PackingPageState extends State<PackingPage> {
     final app = AppScope.of(context);
     final t = widget.trip;
     final all = t.packing.expand((g) => g.items).toList();
+    final done = all.where((x) => x.done).length;
