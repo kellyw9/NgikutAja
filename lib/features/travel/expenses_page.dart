@@ -35,3 +35,4 @@ class ExpensesPage extends StatelessWidget {
             children: [
               NgButton(
                 'Hapus',
+                kind: BtnKind.dangerText,
