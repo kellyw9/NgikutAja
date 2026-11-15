@@ -214,3 +214,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
                         'Anggota',
                         kind: BtnKind.secondary,
                         icon: 'group',
+                        expand: true,
