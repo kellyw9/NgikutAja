@@ -10,3 +10,4 @@ enum Category {
   const Category(this.label, this.icon);
   final String label;
   final String icon;
+}
