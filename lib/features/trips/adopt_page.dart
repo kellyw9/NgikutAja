@@ -230,3 +230,4 @@ class _AdoptProgressPageState extends State<AdoptProgressPage> {
     } catch (_) {
       if (mounted) setState(() => failed = true);
     }
+  }
