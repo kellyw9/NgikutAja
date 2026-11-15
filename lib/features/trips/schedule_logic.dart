@@ -75,3 +75,4 @@ List<String> shiftCascade(List<Stop> day, Stop target, int newStart) {
   final issues = <DayIssue>[];
   final tips = <Suggestion>[];
   for (var d = 0; d < plan.length; d++) {
+    final day = plan[d];
