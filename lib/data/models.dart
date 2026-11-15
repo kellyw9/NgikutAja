@@ -361,3 +361,4 @@ class Transaction {
   final String method;
   final int amount;
   TxStatus status;
+}
