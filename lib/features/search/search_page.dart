@@ -380,3 +380,4 @@ class _SearchPageState extends State<SearchPage> {
                       },
                     ),
               height: 280,
+            ),
