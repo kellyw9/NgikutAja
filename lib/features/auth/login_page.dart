@@ -235,3 +235,4 @@ class _GooglePainter extends CustomPainter {
       writeSvgPathDataToPath(d, b);
       canvas.drawPath(b.path, Paint()..color = color);
     }
+  }
