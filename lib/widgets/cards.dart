@@ -420,3 +420,4 @@ class StopRow extends StatelessWidget {
           Expanded(child: content),
         ],
       ),
+    );
