@@ -92,3 +92,4 @@ class WisataCard extends StatelessWidget {
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
+                      Text(it.title, style: AppText.title, maxLines: 2, overflow: TextOverflow.ellipsis),
