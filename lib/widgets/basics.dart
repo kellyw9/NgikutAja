@@ -26,3 +26,5 @@ class NgButton extends StatelessWidget {
     this.expand = false,
     this.loading = false,
   });
+
+  final String label;
