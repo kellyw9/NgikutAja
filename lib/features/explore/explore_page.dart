@@ -109,3 +109,4 @@ class _ExplorePageState extends State<ExplorePage> {
                   SectionHead('Kota populer', action: 'Lihat semua', onAction: () => goSearch(context, '')),
                   const SizedBox(height: 12),
                   SizedBox(
+                    height: 190,
