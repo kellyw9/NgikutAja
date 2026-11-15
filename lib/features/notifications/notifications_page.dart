@@ -95,3 +95,4 @@ class NotificationsPage extends StatelessWidget {
                       const SizedBox(height: 8),
                       if (n.inviteState == null)
                         Row(
+                          children: [
