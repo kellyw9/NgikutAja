@@ -89,3 +89,4 @@ class _RegisterPageState extends State<RegisterPage> {
                       NgField(
                         label: 'Nama',
                         icon: 'person',
+                        controller: name,
