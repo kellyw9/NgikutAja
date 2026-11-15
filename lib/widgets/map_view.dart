@@ -41,3 +41,4 @@ class MapView extends StatelessWidget {
   /// Lingkaran radius check-in: (pusat relatif, radius piksel).
   final (Offset, double)? ring;
   final ValueChanged<Offset>? onTapPoint;
+  final bool label;
