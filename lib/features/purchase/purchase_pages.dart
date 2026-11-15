@@ -80,3 +80,4 @@ class PurchaseDetailPage extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text('Keuntungan yang kamu peroleh', style: AppText.title),
+                    for (final p in perks) ...[
