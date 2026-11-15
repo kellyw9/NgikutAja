@@ -290,3 +290,4 @@ class _DashPainter extends CustomPainter {
   final Color? fill;
 
   @override
+  void paint(Canvas canvas, Size size) {
