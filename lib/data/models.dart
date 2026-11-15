@@ -404,3 +404,4 @@ class Person {
   final String name;
   final String handle;
   final int tint;
+}
