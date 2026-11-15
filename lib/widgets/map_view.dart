@@ -153,3 +153,4 @@ class _MapPainter extends CustomPainter {
         road
           ..strokeWidth = 5
           ..strokeCap = StrokeCap.round,
+      );
