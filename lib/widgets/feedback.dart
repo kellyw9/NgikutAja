@@ -184,3 +184,4 @@ Future<T?> showNgSheet<T>(BuildContext context, {String? title, String? sub, req
 class DialogAction {
   const DialogAction(this.label, {this.kind = BtnKind.secondary, this.value});
   final String label;
+  final BtnKind kind;
