@@ -230,3 +230,4 @@ class _PaymentPageState extends State<PaymentPage> {
                                       mainAxisAlignment: MainAxisAlignment.center,
                                       crossAxisAlignment: CrossAxisAlignment.start,
                                       children: [
+                                        Text(title, style: AppText.bodyStrong),
