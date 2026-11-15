@@ -108,3 +108,4 @@ class _RegisterPageState extends State<RegisterPage> {
                         autofillHints: const [AutofillHints.email],
                         error: emailErr,
                       ),
+                      const SizedBox(height: 14),
