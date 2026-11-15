@@ -93,3 +93,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
                               Row(
                                 children: [
                                   SizedBox(width: 10, child: Text('${e.key}', style: AppText.small.muted)),
+                                  const SizedBox(width: 8),
