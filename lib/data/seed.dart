@@ -582,3 +582,4 @@ class Seed {
         lead: 'Pembayaran menunggu: ',
         text: 'Bali Utara yang Lebih Tenang, ${rp(35000)} via Transfer Bank.',
         time: pendingTime,
+        today: true,
