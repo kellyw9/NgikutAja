@@ -276,3 +276,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
                                 : Future.sync(() => showNgSnack(context, 'Trip recap tersedia setelah trip selesai.')),
                         },
                       ),
+                    ],
