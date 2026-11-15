@@ -103,3 +103,4 @@ class _ResetPasswordPageState extends State<ResetPasswordPage> {
                     const Spacer(),
                     const SizedBox(height: 24),
                     sent
+                        ? NgButton('Kembali ke Masuk', kind: BtnKind.secondary, expand: true, onPressed: () => Navigator.pop(context))
