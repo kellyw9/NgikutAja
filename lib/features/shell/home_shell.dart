@@ -24,3 +24,5 @@ void goTab(BuildContext context, int tab, {TripStatus? trips}) {
 
 class HomeShell extends StatefulWidget {
   const HomeShell({super.key});
+
+  @override
