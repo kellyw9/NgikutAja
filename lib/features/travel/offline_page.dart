@@ -57,3 +57,4 @@ class OfflinePage extends StatelessWidget {
                       ),
                       NgToggle(
                         t.offline,
+                        label: 'Simpan ${t.title} untuk offline',
