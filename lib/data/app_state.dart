@@ -464,3 +464,4 @@ class AppState extends ChangeNotifier {
   }
 
   @override
+  void dispose() {
