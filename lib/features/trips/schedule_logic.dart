@@ -41,3 +41,4 @@ class Suggestion {
 
 class DayIssue {
   DayIssue({required this.day, required this.conflict, required this.title, required this.lines});
+  final int day;
