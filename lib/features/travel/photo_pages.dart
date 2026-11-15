@@ -72,3 +72,4 @@ class _PhotoPreviewPageState extends State<PhotoPreviewPage> {
                   Segmented(items: const ['Public', 'Trip-only'], active: vis, onChanged: (v) => setState(() => vis = v)),
                   const SizedBox(height: 6),
                   Text(
+                    vis == 'Public'
