@@ -43,3 +43,4 @@ class DayIssue {
   DayIssue({required this.day, required this.conflict, required this.title, required this.lines});
   final int day;
   final bool conflict;
+  final String title;
