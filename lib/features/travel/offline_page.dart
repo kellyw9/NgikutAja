@@ -118,3 +118,4 @@ class OfflinePage extends StatelessWidget {
                 saved.isEmpty ? 'Belum ada trip yang disimpan offline.' : 'Data offline diperbarui.',
                 kind: saved.isEmpty ? SnackKind.neutral : SnackKind.success,
               );
+            },
