@@ -147,3 +147,4 @@ class CityCard extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Photo(c.photo, width: 124, height: 140, radius: AppRadius.card),
+            const SizedBox(height: 6),
