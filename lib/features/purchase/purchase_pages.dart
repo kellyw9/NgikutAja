@@ -72,3 +72,4 @@ class PurchaseDetailPage extends StatelessWidget {
                         Text('${it.creator.handle}, ${thousands(it.creator.followers)} pengikut', style: AppText.small.muted),
                       ],
                     ),
+                  ),
