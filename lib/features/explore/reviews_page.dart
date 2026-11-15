@@ -98,3 +98,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
                                   const SizedBox(width: 8),
                                   SizedBox(
                                     width: 18,
+                                    child: Text('${e.value}', style: AppText.small.muted, textAlign: TextAlign.right),
