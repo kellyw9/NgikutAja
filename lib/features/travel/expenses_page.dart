@@ -253,3 +253,4 @@ class _AddExpensePageState extends State<AddExpensePage> {
                 controller: amount,
                 prefixText: 'Rp',
                 keyboardType: TextInputType.number,
+                inputFormatters: [ThousandsFormatter()],
