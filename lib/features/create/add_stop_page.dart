@@ -37,3 +37,4 @@ class _AddStopPageState extends State<AddStopPage> {
       ..name = name.text.trim()
       ..cat = cat
       ..start = start
+      ..end = end
