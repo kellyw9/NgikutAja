@@ -149,3 +149,4 @@ class _JournalPageState extends State<JournalPage> {
                 ],
                 Row(
                   children: [
+                    Expanded(
