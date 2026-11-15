@@ -72,3 +72,4 @@ class _EditStopPageState extends State<EditStopPage> {
       actions: const [
         DialogAction('Hapus aktivitas', kind: BtnKind.danger, value: true),
         DialogAction('Batal'),
+      ],
