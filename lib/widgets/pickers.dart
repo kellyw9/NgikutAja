@@ -164,3 +164,4 @@ Future<Category?> pickCategory(BuildContext context, Category current) {
                     RadioMark(Category.values[i] == current),
                   ],
                 ),
+              ),
