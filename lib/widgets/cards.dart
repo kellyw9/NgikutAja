@@ -26,3 +26,4 @@ class Proof extends StatelessWidget {
         Text(decimal(it.rating!), style: AppText.smallStrong),
         if (!compact && it.reviews != null) ...[const SizedBox(width: 3), Text('(${it.reviews})', style: AppText.small.muted)],
         const SizedBox(width: 10),
+      ],
