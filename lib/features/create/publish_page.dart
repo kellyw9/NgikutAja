@@ -44,3 +44,4 @@ class _PublishPageState extends State<PublishPage> {
       return Expanded(
         child: Semantics(
           inMutuallyExclusiveGroup: true,
+          checked: on,
