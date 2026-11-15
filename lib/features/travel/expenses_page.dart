@@ -159,3 +159,4 @@ class ExpensesPage extends StatelessWidget {
           child: NgButton(
             'Tambah pengeluaran',
             icon: 'add',
+            expand: true,
