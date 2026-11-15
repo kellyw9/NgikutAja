@@ -37,3 +37,4 @@ class DashboardPage extends StatelessWidget {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Text('Penjualan bulanan', style: AppText.title),
+                      const SizedBox(height: 2),
