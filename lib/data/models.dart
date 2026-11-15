@@ -393,3 +393,4 @@ class LocalTip {
   final String icon;
   final String title;
   final String text;
+  final List<String> body;
