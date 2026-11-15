@@ -147,3 +147,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
                           dayTitle.text = '';
                         });
                       },
+                    ),
