@@ -146,3 +146,4 @@ class _RegisterPageState extends State<RegisterPage> {
                       NgButton('Buat akun', expand: true, loading: loading, onPressed: valid ? _submit : null),
                       const SizedBox(height: 12),
                       Center(
+                        child: Wrap(
