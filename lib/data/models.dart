@@ -228,3 +228,4 @@ class JournalEntry {
   String title;
   String text;
   List<String> photos;
+}
