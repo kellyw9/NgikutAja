@@ -174,3 +174,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
                             height: 64,
                             alignment: Alignment.center,
                             decoration: BoxDecoration(color: AppColors.yellowPale, borderRadius: BorderRadius.circular(AppRadius.card)),
+                            child: const AppIcon('location_on', size: 30),
