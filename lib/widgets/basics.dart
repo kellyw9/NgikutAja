@@ -169,3 +169,4 @@ class TextLink extends StatelessWidget {
   final String label;
   final VoidCallback? onTap;
   final String? icon;
+  final TextStyle? style;
