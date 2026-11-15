@@ -112,3 +112,4 @@ class _PublishPageState extends State<PublishPage> {
                 NgCard(
                   child: NgField(
                     label: 'Harga adopsi',
+                    controller: price,
