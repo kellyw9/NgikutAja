@@ -109,3 +109,4 @@ class _JournalPageState extends State<JournalPage> {
             ),
           ),
           const SizedBox(height: 12),
+          if (t.days <= 3)
