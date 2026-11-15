@@ -173,3 +173,4 @@ class MembersPage extends StatelessWidget {
         children: [
           BoxList(
             inset: 56,
+            children: [
