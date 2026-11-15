@@ -191,3 +191,5 @@ class _PublishPageState extends State<PublishPage> {
 class PublishedPage extends StatelessWidget {
   const PublishedPage({super.key, required this.d});
   final Itinerary d;
+
+  @override
