@@ -259,3 +259,4 @@ class Trip {
     this.seedVisited,
     this.seedSpending,
     this.recapNote,
+  }) : dayTitles = dayTitles ?? [],
