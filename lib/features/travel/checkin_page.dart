@@ -19,3 +19,4 @@ class _CheckinPageState extends State<CheckinPage> {
 
   @override
   Widget build(BuildContext context) {
+    final app = AppScope.of(context);
