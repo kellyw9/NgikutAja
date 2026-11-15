@@ -320,3 +320,4 @@ class _PaymentStatusPageState extends State<PaymentStatusPage> {
             tone: AppColors.yellowPale,
             title: 'Menunggu pembayaran',
             text: 'Selesaikan transaksi dalam $mm.$ss menit. Status akan diperbarui otomatis setelah pembayaran diterima.',
+            middle: KeyValueBox([
