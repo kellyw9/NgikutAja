@@ -343,3 +343,5 @@ class Comment {
   final bool creator;
   final String? replyTo;
 }
+
+enum TxStatus {
