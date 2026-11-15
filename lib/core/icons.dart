@@ -18,3 +18,4 @@ class AppIcon extends StatelessWidget {
 
   static Path _path(String name, bool filled) {
     final key = filled && kIconPaths.containsKey('${name}__fill') ? '${name}__fill' : name;
+    return _cache.putIfAbsent(key, () {
