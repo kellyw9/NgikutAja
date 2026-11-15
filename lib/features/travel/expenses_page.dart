@@ -142,3 +142,4 @@ class ExpensesPage extends StatelessWidget {
                                 ),
                                 const SizedBox(width: 12),
                                 Text(rp(e.amount), style: AppText.bodyStrong),
+                              ],
