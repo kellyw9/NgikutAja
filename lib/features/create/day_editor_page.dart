@@ -188,3 +188,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
                   ] else ...[
                     Row(
                       children: [
+                        const AppIcon('drag_indicator', size: 16, color: AppColors.muted),
