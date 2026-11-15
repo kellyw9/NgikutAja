@@ -155,3 +155,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
       body: ListView(
         padding: EdgeInsets.zero,
         children: [
+          HeroPhoto(
