@@ -64,3 +64,4 @@ class _SplitBudgetPageState extends State<SplitBudgetPage> {
                 children: [
                   Row(
                     children: [
+                      Expanded(child: Text('Pembagian biaya', style: AppText.h2)),
