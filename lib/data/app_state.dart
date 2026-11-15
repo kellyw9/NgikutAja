@@ -82,3 +82,4 @@ class AppState extends ChangeNotifier {
     _prefs?.setBool('onboarded', true);
     _prefs?.setStringList('interests', picked.toList());
     notifyListeners();
+  }
