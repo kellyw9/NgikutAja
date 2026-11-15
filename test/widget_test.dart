@@ -22,3 +22,5 @@ void main() {
     expect(state.itinerary('toba').estimate, 1100000);
     expect(state.itinerary('medan').places, 12);
   });
+
+  test('Jadwal bertabrakan terdeteksi dan saran menggeser jam', () {
