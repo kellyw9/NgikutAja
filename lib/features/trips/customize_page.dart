@@ -353,3 +353,4 @@ class _CustomizePageState extends State<CustomizePage> {
               ),
             ),
             const SizedBox(height: 10),
+            DayStrip(
