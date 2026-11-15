@@ -77,3 +77,4 @@ class OfflinePage extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text('Bisa dibuka tanpa sinyal', style: AppText.h2),
+                  avail(true, 'Jadwal, jam, dan urutan tempat'),
