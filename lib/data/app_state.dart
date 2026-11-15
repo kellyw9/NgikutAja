@@ -298,3 +298,4 @@ class AppState extends ChangeNotifier {
       dayTitles: [...it.dayTitles],
       plan: it.plan.length >= it.days ? copyPlan(it.plan) : [...copyPlan(it.plan), for (var i = it.plan.length; i < it.days; i++) <Stop>[]],
       members: [Member(name: me.name, handle: me.handle, role: MemberRole.owner, tint: me.tint)],
+      remindDayBefore: remindDayBefore,
