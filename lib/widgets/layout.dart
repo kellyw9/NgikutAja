@@ -324,3 +324,4 @@ class ListRow extends StatelessWidget {
                   Text(title, style: AppText.body.c(danger ? AppColors.negative : AppColors.ink)),
                   if (sub != null) ...[const SizedBox(height: 2), Text(sub!, style: AppText.small.muted)],
                 ],
+              ),
