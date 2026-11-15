@@ -23,3 +23,4 @@ class AppIcon extends StatelessWidget {
       assert(data != null, 'Ikon tidak ada: $name');
       final b = _PathBuilder();
       writeSvgPathDataToPath(data ?? '', b);
+      return b.path;
