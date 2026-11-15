@@ -271,3 +271,4 @@ class Trip {
   String title;
   String city;
   String region;
+  DateTime? start;
