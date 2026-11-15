@@ -290,3 +290,4 @@ class Seed {
         publishedAt: _d(-120),
       ),
       Itinerary(
+        id: 'medanmalam',
