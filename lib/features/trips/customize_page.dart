@@ -149,3 +149,4 @@ class _CustomizePageState extends State<CustomizePage> {
                         onTap: () => set(() => pick = d),
                       ),
                     ],
+                  ],
