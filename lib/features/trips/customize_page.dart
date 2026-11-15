@@ -231,3 +231,4 @@ class _CustomizePageState extends State<CustomizePage> {
       sub: 'Hanya peringatan. Perubahan tetap bisa disimpan.',
       scroll: true,
       builder: (ctx) {
+        final (issues, tips) = analyze(plan);
