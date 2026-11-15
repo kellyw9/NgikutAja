@@ -58,3 +58,4 @@ class NgButton extends StatelessWidget {
     final child = Row(
       mainAxisSize: expand ? MainAxisSize.max : MainAxisSize.min,
       mainAxisAlignment: MainAxisAlignment.center,
+      children: [
