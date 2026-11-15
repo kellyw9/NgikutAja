@@ -144,3 +144,4 @@ class CityCard extends StatelessWidget {
         radius: AppRadius.card,
         label: '${c.name}, $n itinerary',
         child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
