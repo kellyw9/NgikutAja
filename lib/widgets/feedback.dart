@@ -192,3 +192,4 @@ class DialogAction {
 Future<Object?> showNgDialog(BuildContext context, {String? icon, required String title, required String body, required List<DialogAction> actions}) {
   return showDialog<Object?>(
     context: context,
+    barrierColor: AppColors.scrim,
