@@ -221,3 +221,4 @@ class TripPhoto {
   final String caption;
   final String time;
   final bool publicVisible;
+}
