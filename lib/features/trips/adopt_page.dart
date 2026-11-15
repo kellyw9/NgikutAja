@@ -271,3 +271,4 @@ class _AdoptProgressPageState extends State<AdoptProgressPage> {
                   status: app.statusOf(trip!),
                   title: trip!.title,
                   city: trip!.city,
+                  days: trip!.days,
