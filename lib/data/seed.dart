@@ -275,3 +275,4 @@ class Seed {
         id: 'bandung',
         title: 'Bandung 2 Hari Gedung Tua dan Kopi',
         city: 'Bandung',
+        region: 'Bandung, Jawa Barat',
