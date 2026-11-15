@@ -62,3 +62,4 @@ class MembersPage extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text('Hak akses', style: AppText.bodyStrong),
+                const SizedBox(height: 6),
