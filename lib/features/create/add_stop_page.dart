@@ -426,3 +426,4 @@ class _PickLocationPageState extends State<PickLocationPage> {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
+                          Text(label, style: AppText.h2),
