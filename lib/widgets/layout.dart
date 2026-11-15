@@ -453,3 +453,4 @@ class HeroPhoto extends StatelessWidget {
 class IconTile extends StatelessWidget {
   const IconTile(this.icon, {super.key, this.size = 56, this.fill = AppColors.sunk, this.color = AppColors.ink, this.iconSize = 28, this.border});
   final String icon;
+  final double size;
