@@ -34,3 +34,4 @@ void main() {
     tips.first.apply([day]);
     expect(day[1].start, '14.45');
     expect(conflictsIn(day), isEmpty);
+  });
