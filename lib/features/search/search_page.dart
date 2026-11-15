@@ -356,3 +356,4 @@ class _SearchPageState extends State<SearchPage> {
       children: [
         if (chips.isNotEmpty)
           Padding(
+            padding: const EdgeInsets.fromLTRB(kMargin, 2, kMargin, 0),
