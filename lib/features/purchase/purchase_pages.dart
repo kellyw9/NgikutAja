@@ -150,3 +150,4 @@ class PurchaseConfirmPage extends StatelessWidget {
       ),
     ),
   );
+}
