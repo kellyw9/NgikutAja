@@ -233,3 +233,4 @@ bool requireLogin(BuildContext context) {
         ),
       ],
     ),
+  );
