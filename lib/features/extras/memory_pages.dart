@@ -85,3 +85,4 @@ class _PhotoViewerPageState extends State<PhotoViewerPage> {
     final t = widget.trip;
     final p = t.photos[i];
     final date = t.dayDate(p.day);
+    return AnnotatedRegion(
