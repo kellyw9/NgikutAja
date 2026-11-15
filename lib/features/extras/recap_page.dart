@@ -103,3 +103,4 @@ class RecapPage extends StatelessWidget {
                       const SizedBox(height: 4),
                       Text(t.recapNote!.$2, style: AppText.body),
                     ],
+                  ),
