@@ -67,3 +67,4 @@ class _IconPainter extends CustomPainter {
         ..color = color
         ..isAntiAlias = true,
     );
+    canvas.restore();
