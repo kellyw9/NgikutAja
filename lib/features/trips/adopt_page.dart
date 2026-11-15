@@ -151,3 +151,4 @@ class _AdoptPageState extends State<AdoptPage> {
                           Text('Jadwal, catatan, dan foto tempat bisa dibuka tanpa sinyal.', style: AppText.small.muted),
                         ],
                       ),
+                    ),
