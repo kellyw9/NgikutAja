@@ -638,3 +638,4 @@ class Seed {
           icon: 'museum',
           title: 'Sopan santun di Huta Bolon',
           text: 'Pakai kain ulos pinjaman saat masuk rumah adat. Minta izin sebelum memotret warga lokal.',
+          body: ['Pakai kain ulos pinjaman saat masuk rumah adat. Minta izin sebelum memotret warga lokal.'],
