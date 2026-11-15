@@ -381,3 +381,4 @@ class StopRow extends StatelessWidget {
             if (extra != null) ...[const SizedBox(height: 4), extra!],
           ],
         ),
+      ),
