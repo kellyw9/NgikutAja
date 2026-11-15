@@ -295,3 +295,4 @@ class _AdoptProgressPageState extends State<AdoptProgressPage> {
       ),
     );
   }
+}
