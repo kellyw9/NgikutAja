@@ -56,3 +56,4 @@ class _HomeShellState extends State<HomeShell> {
             body: SafeArea(
               bottom: false,
               child: IndexedStack(index: t, children: _pages),
+            ),
