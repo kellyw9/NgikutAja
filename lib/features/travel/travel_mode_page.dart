@@ -376,3 +376,4 @@ class NavigationPage extends StatelessWidget {
         children: [
           Positioned.fill(
             child: MapView(
+              height: null,
