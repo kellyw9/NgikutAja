@@ -242,3 +242,4 @@ class Trip {
     this.from,
     this.desc = '',
     List<String>? dayTitles,
+    List<Member>? members,
