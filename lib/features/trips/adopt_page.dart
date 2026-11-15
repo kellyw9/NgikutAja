@@ -25,3 +25,4 @@ class _AdoptPageState extends State<AdoptPage> {
     final it = widget.it;
     final end = start.add(Duration(days: it.days - 1));
     final r = await showNgDialog(
+      context,
