@@ -54,3 +54,4 @@ class TripsPage extends StatelessWidget {
             'Buat itinerary',
             kind: BtnKind.secondary,
             size: BtnSize.md,
+            onPressed: () => push(context, const CreateItineraryPage(), fullscreen: true),
