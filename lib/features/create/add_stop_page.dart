@@ -294,3 +294,4 @@ class PickLocationPage extends StatefulWidget {
   const PickLocationPage({super.key, required this.query, required this.city, this.photo});
   final String query;
   final String city;
+  final String? photo;
