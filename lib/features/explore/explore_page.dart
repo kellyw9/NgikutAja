@@ -62,3 +62,4 @@ class _ExplorePageState extends State<ExplorePage> {
       }
       if (error != null) {
         return Padding(
+          padding: const EdgeInsets.symmetric(horizontal: kMargin),
