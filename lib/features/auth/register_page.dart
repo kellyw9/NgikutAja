@@ -6,3 +6,4 @@ import 'login_page.dart';
 
 /// 1.4 Register.
 class RegisterPage extends StatefulWidget {
+  const RegisterPage({super.key, this.popOnSuccess = false});
