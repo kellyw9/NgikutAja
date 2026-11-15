@@ -495,3 +495,4 @@ class PageFrame extends StatelessWidget {
   Widget build(BuildContext context) => Scaffold(
     backgroundColor: background,
     appBar: appBar,
+    bottomNavigationBar: bottom,
