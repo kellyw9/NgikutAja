@@ -183,3 +183,4 @@ enum ExpenseCat {
 
 class Expense {
   Expense({
+    required this.id,
