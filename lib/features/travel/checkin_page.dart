@@ -125,3 +125,4 @@ class PermissionDeniedPage extends StatelessWidget {
     backgroundColor: AppColors.ground,
     appBar: NgAppBar(title: 'Check-in', sub: place),
     body: SafeArea(
+      top: false,
