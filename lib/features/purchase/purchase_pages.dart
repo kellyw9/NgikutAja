@@ -281,3 +281,4 @@ class PaymentStatusPage extends StatefulWidget {
 class _PaymentStatusPageState extends State<PaymentStatusPage> {
   Timer? _t;
   late int left = (15 * 60 - DateTime.now().difference(widget.tx.date).inSeconds).clamp(0, 15 * 60);
+  bool expired = false;
