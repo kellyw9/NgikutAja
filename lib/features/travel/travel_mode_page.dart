@@ -320,3 +320,4 @@ class TravelStopPage extends StatelessWidget {
                         children: [
                           for (var k = 0; k < photos.length; k++) ...[
                             if (k > 0) const SizedBox(width: 10),
+                            Expanded(child: Photo(photos[k], height: 110, radius: AppRadius.inner)),
