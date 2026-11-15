@@ -23,3 +23,4 @@ void shareItinerary(Itinerary it) => shareText(
 );
 
 /// Kotak statistik kecil: suka, ulasan, komentar.
+class _StatChip extends StatelessWidget {
