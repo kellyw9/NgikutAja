@@ -103,3 +103,4 @@ class Itinerary {
   String region;
   int days;
   String? cover;
+  Creator creator;
