@@ -437,3 +437,5 @@ class AppState extends ChangeNotifier {
     if (recentSearches.length > 6) recentSearches.removeLast();
     notifyListeners();
   }
+
+  void removeRecent(String q) {
