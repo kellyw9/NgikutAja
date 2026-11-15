@@ -274,3 +274,4 @@ class _AdoptProgressPageState extends State<AdoptProgressPage> {
                   days: trip!.days,
                   dates: trip!.dates,
                   cover: trip!.cover,
+                ),
