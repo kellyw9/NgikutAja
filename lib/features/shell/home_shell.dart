@@ -91,3 +91,4 @@ class BottomNav extends StatelessWidget {
                   for (var i = 0; i < items.length; i++)
                     Expanded(
                       child: Semantics(
+                        selected: i == active,
