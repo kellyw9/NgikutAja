@@ -513,3 +513,4 @@ class TransactionDetailPage extends StatelessWidget {
         children: [
           Gap(
             14,
+            children: [
