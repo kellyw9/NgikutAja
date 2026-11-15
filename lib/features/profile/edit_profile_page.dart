@@ -26,3 +26,5 @@ class _EditProfilePageState extends State<EditProfilePage> {
     if (!AppScope.read(context).usernameAvailable(u)) return 'Username sudah dipakai';
     return null;
   }
+
+  void _save() {
