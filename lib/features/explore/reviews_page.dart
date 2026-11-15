@@ -88,3 +88,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
                   child: dist == null
                       ? Text('Rincian bintang belum tersedia untuk itinerary ini.', style: AppText.small.muted)
                       : Column(
+                          children: [
