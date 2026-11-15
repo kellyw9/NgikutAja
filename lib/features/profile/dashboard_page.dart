@@ -97,3 +97,4 @@ class DashboardPage extends StatelessWidget {
                           Tap(
                             onTap: () => openItinerary(context, x),
                             child: SizedBox(
+                              height: 76,
