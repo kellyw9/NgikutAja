@@ -199,3 +199,4 @@ class _NextCard extends StatelessWidget {
             radius: 6,
             child: Row(
               crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
