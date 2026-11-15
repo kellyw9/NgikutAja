@@ -177,3 +177,4 @@ class _NewPasswordPageState extends State<NewPasswordPage> {
                     const SizedBox(height: 24),
                     NgField(
                       label: 'Password baru',
+                      icon: 'lock',
