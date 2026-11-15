@@ -59,3 +59,4 @@ class NotificationsPage extends StatelessWidget {
   }
 
   Widget _group(String t) => Padding(
+    padding: const EdgeInsets.fromLTRB(kMargin, 14, kMargin, 6),
