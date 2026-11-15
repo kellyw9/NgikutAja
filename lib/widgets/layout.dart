@@ -319,3 +319,4 @@ class ListRow extends StatelessWidget {
             ],
             Expanded(
               child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
