@@ -431,3 +431,4 @@ class _CustomizePageState extends State<CustomizePage> {
                                   child: const MouseRegion(
                                     cursor: SystemMouseCursors.grab,
                                     child: SizedBox(
+                                      width: 44,
