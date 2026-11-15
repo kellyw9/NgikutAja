@@ -473,3 +473,4 @@ class Seed {
         from: medan,
         plan: copyPlan(medan.plan),
         dayTitles: [...medan.dayTitles],
+        desc: 'Liburan sekolah bareng Mama dan adik. Fokus kuliner, jangan terlalu banyak jalan siang.',
