@@ -91,3 +91,4 @@ class _EditStopPageState extends State<EditStopPage> {
     return Scaffold(
       backgroundColor: AppColors.ground,
       appBar: NgAppBar(
+        title: editing ? 'Edit aktivitas' : 'Tambah aktivitas',
