@@ -171,3 +171,4 @@ class _NewPasswordPageState extends State<NewPasswordPage> {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.stretch,
                   children: [
+                    Text('Buat password baru', style: AppText.h1),
