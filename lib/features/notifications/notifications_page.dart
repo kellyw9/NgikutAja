@@ -217,3 +217,4 @@ class NotificationDetailPage extends StatelessWidget {
                 child: NgButton(
                   'Buka Travel Mode',
                   icon: 'near_me',
+                  expand: true,
