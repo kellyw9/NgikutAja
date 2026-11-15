@@ -81,3 +81,4 @@ class TripsPage extends StatelessWidget {
         TripStatus.diadopsi => ('luggage', 'Belum ada trip yang diadopsi', 'Adopt itinerary dari tab Explore. Trip pilihanmu akan muncul di sini.'),
         TripStatus.berjalan => ('near_me', 'Tidak ada trip yang berjalan', 'Trip yang diadopsi pindah ke sini pada hari keberangkatan.'),
         _ => ('flag', 'Belum ada trip selesai', 'Recap dan foto perjalanan tersimpan di sini setelah trip selesai.'),
+      };
