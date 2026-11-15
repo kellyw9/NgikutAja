@@ -201,3 +201,4 @@ class FactStrip extends StatelessWidget {
           child: Row(
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
+              for (var i = 0; i < cells.length; i++) ...[
