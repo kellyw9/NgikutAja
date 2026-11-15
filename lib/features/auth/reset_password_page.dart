@@ -198,3 +198,4 @@ class _NewPasswordPageState extends State<NewPasswordPage> {
                     const Spacer(),
                     const SizedBox(height: 24),
                     NgButton('Simpan password', expand: true, onPressed: _save),
+                  ],
