@@ -118,3 +118,5 @@ class IconBtn extends StatelessWidget {
     this.filled = false,
     this.stroke,
   });
+
+  final String icon;
