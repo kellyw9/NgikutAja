@@ -47,3 +47,4 @@ Future<bool> openMaps(String query, {bool directions = false}) {
 }
 
 /// Status koneksi perangkat. Dipakai untuk banner offline dan simpan ke server.
+class Network {
