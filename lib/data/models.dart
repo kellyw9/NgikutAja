@@ -308,3 +308,4 @@ class Trip {
   DateTime? dayDate(int d) => start?.add(Duration(days: d));
 
   TripStatus statusOn(DateTime today) {
+    if (start == null) return TripStatus.draft;
