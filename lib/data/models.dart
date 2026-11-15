@@ -249,3 +249,4 @@ class Trip {
     List<TripPhoto>? photos,
     Map<int, JournalEntry>? journal,
     this.story = '',
+    this.offline = false,
