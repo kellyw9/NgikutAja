@@ -368,3 +368,4 @@ class NgCard extends StatelessWidget {
     this.borderWidth = 1,
     this.onTap,
     this.fill = AppColors.surface,
+  });
