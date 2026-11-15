@@ -164,3 +164,4 @@ class TripsPage extends StatelessWidget {
           expand: true,
           onPressed: () => push(context, TravelModePage(trip: t), fullscreen: true),
         ),
+      ],
