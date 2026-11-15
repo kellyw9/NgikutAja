@@ -78,3 +78,4 @@ class _CustomizePageState extends State<CustomizePage> {
       context,
       EditStopPage(dayLabel: _dayLabel(day), defaultStart: last == null ? '09.00' : fromMinutes(last + 15)),
       fullscreen: true,
+    );
