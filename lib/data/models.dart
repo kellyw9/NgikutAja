@@ -15,3 +15,4 @@ enum Category {
 class Creator {
   Creator({
     required this.id,
+    required this.name,
