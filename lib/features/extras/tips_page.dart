@@ -14,3 +14,4 @@ class TipsPage extends StatelessWidget {
     return Scaffold(
       backgroundColor: AppColors.ground,
       appBar: NgAppBar(title: 'Local tips', sub: trip.city == 'Samosir' ? 'Samosir dan Danau Toba' : trip.city),
+      body: ListView(
