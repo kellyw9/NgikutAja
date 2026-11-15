@@ -24,3 +24,5 @@ class _ExplorePageState extends State<ExplorePage> {
     super.initState();
     _load();
   }
+
+  Future<void> _load() async {
