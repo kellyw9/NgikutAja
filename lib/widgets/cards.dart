@@ -461,3 +461,4 @@ class DayStrip extends StatelessWidget {
             _DayBox(item: days[i], on: i == active, today: today == i, onTap: () => onTap(i)),
           ],
           if (onAdd != null) ...[
+            const SizedBox(width: 8),
