@@ -221,3 +221,4 @@ class EditTripInfoPage extends StatefulWidget {
   final Trip trip;
 
   @override
+  State<EditTripInfoPage> createState() => _EditTripInfoPageState();
