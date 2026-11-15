@@ -42,3 +42,4 @@ class _StatChip extends StatelessWidget {
         side: const BorderSide(color: AppColors.line),
       ),
       clipBehavior: Clip.antiAlias,
+      child: InkWell(
