@@ -89,3 +89,4 @@ class _RoutePainter extends CustomPainter {
       ..moveTo(14, 50)
       ..cubicTo(60, 50, 70, 14, 120, 14)
       ..cubicTo(170, 14, 180, 50, 226, 30);
+    canvas.drawPath(
