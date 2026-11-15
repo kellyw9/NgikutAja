@@ -253,3 +253,4 @@ class _CustomizePageState extends State<CustomizePage> {
                         AppIcon(iss.conflict ? 'error' : 'warning', size: 20, color: iss.conflict ? AppColors.negativeInk : AppColors.ink),
                         const SizedBox(width: 8),
                         Expanded(child: Text(iss.title, style: AppText.bodyStrong.c(iss.conflict ? AppColors.negativeInk : AppColors.ink))),
+                      ],
