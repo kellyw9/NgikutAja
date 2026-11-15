@@ -78,3 +78,4 @@ class _PhotoViewerPageState extends State<PhotoViewerPage> {
   void dispose() {
     pc.dispose();
     super.dispose();
+  }
