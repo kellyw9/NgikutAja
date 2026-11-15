@@ -354,3 +354,4 @@ class StopRow extends StatelessWidget {
                         children: [
                           Expanded(
                             child: Text(blur ? 'Tempat terkunci' : st.name, style: AppText.title, maxLines: 2, overflow: TextOverflow.ellipsis),
+                          ),
