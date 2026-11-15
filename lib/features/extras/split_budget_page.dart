@@ -43,3 +43,4 @@ class _SplitBudgetPageState extends State<SplitBudgetPage> {
       debt[di][1] = (debt[di][1] as int) - amt;
       cred[ci][1] = (cred[ci][1] as int) - amt;
       if (debt[di][1] == 0) di++;
+      if (cred[ci][1] == 0) ci++;
