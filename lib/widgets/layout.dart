@@ -499,3 +499,5 @@ class PageFrame extends StatelessWidget {
     body: scroll ? SingleChildScrollView(padding: padding, child: body) : Padding(padding: padding, child: body),
   );
 }
+
+/// Kolom dengan jarak seragam antar anak.
