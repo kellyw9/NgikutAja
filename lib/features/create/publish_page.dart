@@ -175,3 +175,4 @@ class _PublishPageState extends State<PublishPage> {
                 kind: BtnKind.secondary,
                 expand: true,
                 onPressed: () {
+                  _apply();
