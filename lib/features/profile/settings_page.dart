@@ -149,3 +149,4 @@ class AboutPage extends StatelessWidget {
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
+                            Text((e.value as Map)['title'] as String, style: AppText.bodyStrong),
