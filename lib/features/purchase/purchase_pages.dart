@@ -272,3 +272,4 @@ class PaymentStatusPage extends StatefulWidget {
   final bool offlineFail;
 
   /// Dibuka langsung dari alur bayar: tombol tutup kembali ke halaman itinerary.
+  final bool fromFlow;
