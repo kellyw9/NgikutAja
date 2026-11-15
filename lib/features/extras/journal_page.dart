@@ -36,3 +36,4 @@ class _JournalPageState extends State<JournalPage> {
     if (r == null || !mounted) return;
     widget.trip.story = r;
     AppScope.read(context).touch();
+  }
