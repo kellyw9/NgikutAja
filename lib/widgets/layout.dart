@@ -51,3 +51,4 @@ class NgAppBar extends StatelessWidget implements PreferredSizeWidget {
   Size get preferredSize => Size.fromHeight(rule ? 57 : 56);
 
   @override
+  Widget build(BuildContext context) {
