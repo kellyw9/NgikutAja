@@ -42,3 +42,4 @@ class NotificationsPage extends StatelessWidget {
         title: 'Notifikasi',
         actions: [NgButton('Tandai dibaca', kind: BtnKind.text, size: BtnSize.md, onPressed: app.hasUnread ? app.markAllRead : null)],
       ),
+      body: app.notifications.isEmpty
