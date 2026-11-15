@@ -31,3 +31,4 @@ class WishlistPage extends StatelessWidget {
               children: [
                 for (var i = 0; i < list.length; i++) ...[if (i > 0) const NgDivider(), _Row(list[i])],
               ],
+            ),
