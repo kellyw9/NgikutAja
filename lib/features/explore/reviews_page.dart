@@ -169,3 +169,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Wrap(
+                        spacing: 8,
