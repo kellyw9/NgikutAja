@@ -607,3 +607,4 @@ class _SquareThumb extends RangeSliderThumbShape {
     PaintingContext context,
     Offset center, {
     required Animation<double> activationAnimation,
+    required Animation<double> enableAnimation,
