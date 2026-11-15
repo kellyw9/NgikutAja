@@ -29,3 +29,4 @@ class _PeoplePageState extends State<PeoplePage> {
     final list = widget.followers ? app.seed.followers : app.seed.followingPeople;
     return Scaffold(
       backgroundColor: AppColors.ground,
+      appBar: NgAppBar(
