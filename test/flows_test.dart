@@ -100,3 +100,4 @@ void main() {
     await tapText(tester, 'Simpan perubahan', button: true);
     await tester.pump(const Duration(milliseconds: 200));
     expect(find.text('Menyimpan...'), findsOneWidget);
+    await tester.pump(const Duration(seconds: 2));
