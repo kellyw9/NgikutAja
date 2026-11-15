@@ -153,3 +153,4 @@ Future<Category?> pickCategory(BuildContext context, Category current) {
             onTap: () => Navigator.pop(ctx, Category.values[i]),
             child: Semantics(
               inMutuallyExclusiveGroup: true,
+              checked: Category.values[i] == current,
