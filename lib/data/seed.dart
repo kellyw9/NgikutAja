@@ -575,3 +575,4 @@ class Seed {
         today: true,
         unread: true,
       ),
+      AppNotification(
