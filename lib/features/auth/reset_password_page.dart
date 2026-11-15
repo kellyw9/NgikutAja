@@ -172,3 +172,4 @@ class _NewPasswordPageState extends State<NewPasswordPage> {
                   crossAxisAlignment: CrossAxisAlignment.stretch,
                   children: [
                     Text('Buat password baru', style: AppText.h1),
+                    const SizedBox(height: 8),
