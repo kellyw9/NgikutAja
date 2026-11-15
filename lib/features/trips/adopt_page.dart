@@ -11,3 +11,4 @@ class AdoptPage extends StatefulWidget {
   final Itinerary it;
 
   @override
+  State<AdoptPage> createState() => _AdoptPageState();
