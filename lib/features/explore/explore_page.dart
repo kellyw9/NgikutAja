@@ -48,3 +48,4 @@ class _ExplorePageState extends State<ExplorePage> {
   Widget build(BuildContext context) {
     final app = AppScope.of(context);
     final items = switch (tab) {
+      'Terbaru' => app.latest().where((x) => x.creator != app.me).toList(),
