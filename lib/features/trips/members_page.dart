@@ -97,3 +97,4 @@ class MembersPage extends StatelessWidget {
           children: [
             NgField(label: 'Username atau email', icon: 'person_add', controller: input, hint: '@username', error: err, autofocus: true),
             Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
