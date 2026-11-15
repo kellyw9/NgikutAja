@@ -89,3 +89,4 @@ class _ItineraryDetailPageState extends State<ItineraryDetailPage> {
       body: SingleChildScrollView(
         padding: EdgeInsets.zero,
         child: Column(
+          crossAxisAlignment: CrossAxisAlignment.stretch,
