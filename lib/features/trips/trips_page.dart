@@ -35,3 +35,4 @@ class TripsPage extends StatelessWidget {
               children: switch (tab) {
                 TripStatus.draft => _drafts(context, app),
                 _ => _trips(context, app, tab),
+              },
