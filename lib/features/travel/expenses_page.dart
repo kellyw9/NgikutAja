@@ -225,3 +225,4 @@ class _AddExpensePageState extends State<AddExpensePage> {
   void dispose() {
     name.dispose();
     amount.dispose();
+    super.dispose();
