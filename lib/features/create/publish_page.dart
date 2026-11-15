@@ -137,3 +137,4 @@ class _PublishPageState extends State<PublishPage> {
                               size: 28,
                               iconSize: 18,
                               fill: ok ? AppColors.positivePale : AppColors.negativePale,
+                              color: ok ? AppColors.positiveInk : AppColors.negativeInk,
