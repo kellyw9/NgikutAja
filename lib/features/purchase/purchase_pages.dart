@@ -42,3 +42,4 @@ class PurchaseDetailPage extends StatelessWidget {
   final Itinerary it;
 
   @override
+  Widget build(BuildContext context) {
