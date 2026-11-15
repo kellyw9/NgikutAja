@@ -143,3 +143,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
         t.packing.isEmpty
             ? 'Belum ada barang'
             : '${t.packing.fold(0, (a, g) => a + g.items.where((x) => x.done).length)} dari ${t.packing.fold(0, (a, g) => a + g.items.length)} barang siap',
+      'tips' => tips.isEmpty ? 'Belum ada tips untuk ${t.city}' : '${tips.length} tips untuk ${t.city}',
