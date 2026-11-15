@@ -28,3 +28,4 @@ class _PhotoPreviewPageState extends State<PhotoPreviewPage> {
     final t = widget.trip;
     final stops = t.plan[widget.day];
     final st = stop != null && stop! < stops.length ? stops[stop!] : null;
+    return Scaffold(
