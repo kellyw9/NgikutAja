@@ -24,3 +24,4 @@ void main() {
   });
 
   test('Jadwal bertabrakan terdeteksi dan saran menggeser jam', () {
+    final day = [
