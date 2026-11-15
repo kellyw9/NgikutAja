@@ -205,3 +205,4 @@ class _PaymentPageState extends State<PaymentPage> {
           Gap(
             14,
             children: [
+              _simNote,
