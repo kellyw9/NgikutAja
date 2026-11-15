@@ -6,3 +6,5 @@ import 'colors.dart';
 /// di sini sudah dikonversi ke piksel (persen x ukuran / 100).
 class AppText {
   AppText._();
+
+  static const family = 'PlusJakartaSans';
