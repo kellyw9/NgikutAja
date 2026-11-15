@@ -515,3 +515,4 @@ class Seed {
         text: 'Soto Kesawan enak, tapi datang jam 7.30 sudah ramai. Bika Ambon yang direkomendasikan beda dari yang di bandara.',
       ),
       Review(
+        name: 'Meiliana',
