@@ -17,3 +17,4 @@ class WishlistPage extends StatelessWidget {
       appBar: NgAppBar(title: 'Wishlist', sub: list.isEmpty ? null : '${list.length} itinerary tersimpan'),
       body: list.isEmpty
           ? Padding(
+              padding: const EdgeInsets.fromLTRB(kMargin, 8, kMargin, 16),
