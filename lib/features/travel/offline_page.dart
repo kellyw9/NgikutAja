@@ -18,3 +18,4 @@ class OfflinePage extends StatelessWidget {
 
     Widget avail(bool ok, String text) => Padding(
       padding: const EdgeInsets.only(top: 8),
+      child: Row(
