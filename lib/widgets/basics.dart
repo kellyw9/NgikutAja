@@ -138,3 +138,4 @@ class IconBtn extends StatelessWidget {
       label: label,
       child: Tooltip(
         message: label,
+        excludeFromSemantics: true,
