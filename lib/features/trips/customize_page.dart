@@ -96,3 +96,5 @@ class _CustomizePageState extends State<CustomizePage> {
     );
     if (r == true) _changed(() => plan[day].removeAt(i));
   }
+
+  Future<void> _move(int i) async {
