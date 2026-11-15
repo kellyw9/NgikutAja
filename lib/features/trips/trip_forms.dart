@@ -64,3 +64,4 @@ class _EditStopPageState extends State<EditStopPage> {
   }
 
   Future<void> _delete() async {
+    final r = await showNgDialog(
