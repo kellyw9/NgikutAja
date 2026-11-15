@@ -211,3 +211,4 @@ class _PaymentPageState extends State<PaymentPage> {
                 children: [
                   for (final (icon, title, sub) in _methods)
                     Opacity(
+                      opacity: processing && title != method ? .5 : 1,
