@@ -432,3 +432,4 @@ class _CustomizePageState extends State<CustomizePage> {
                                     cursor: SystemMouseCursors.grab,
                                     child: SizedBox(
                                       width: 44,
+                                      height: 44,
