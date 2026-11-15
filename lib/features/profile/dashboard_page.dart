@@ -94,3 +94,4 @@ class DashboardPage extends StatelessWidget {
                       inset: 78,
                       children: [
                         for (final x in mine)
+                          Tap(
