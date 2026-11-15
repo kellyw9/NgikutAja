@@ -265,3 +265,4 @@ class Trip {
        packing = packing ?? [],
        checkins = checkins ?? {},
        photos = photos ?? [],
+       journal = journal ?? {};
