@@ -45,3 +45,4 @@ class _CreatorProfilePageState extends State<CreatorProfilePage> {
                     icon: following ? 'check' : null,
                     onPressed: () => requireLogin(context) ? app.toggleFollow(c) : null,
                   ),
+          ),
