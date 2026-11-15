@@ -109,3 +109,4 @@ class ExpensesPage extends StatelessWidget {
                 ),
               ),
               if (list.isEmpty)
+                const EmptyState(
