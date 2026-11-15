@@ -76,3 +76,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
                   child: Column(
                     children: [
                       Text(decimal(it.rating!), style: AppText.display),
+                      const SizedBox(height: 4),
