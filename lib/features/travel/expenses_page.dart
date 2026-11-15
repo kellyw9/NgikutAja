@@ -102,3 +102,4 @@ class ExpensesPage extends StatelessWidget {
                           'Split budget',
                           style: AppText.smallStrong,
                           onTap: () => push(context, SplitBudgetPage(trip: trip)),
+                        ),
