@@ -269,3 +269,4 @@ class Trip {
 
   final String id;
   String title;
+  String city;
