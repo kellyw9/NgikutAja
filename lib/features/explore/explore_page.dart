@@ -110,3 +110,4 @@ class _ExplorePageState extends State<ExplorePage> {
                   const SizedBox(height: 12),
                   SizedBox(
                     height: 190,
+                    child: ListView.separated(
