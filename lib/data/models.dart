@@ -319,3 +319,4 @@ class Trip {
   int visited() => seedVisited ?? checkins.length;
   int spending() => seedSpending ?? expenses.fold(0, (a, e) => a + e.amount);
   int get expenseTotal => expenses.fold(0, (a, e) => a + e.amount);
+  bool isChecked(int day, int i) => checkins.containsKey('$day-$i');
