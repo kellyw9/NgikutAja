@@ -180,3 +180,4 @@ class _EditStopPageState extends State<EditStopPage> {
                           children: [
                             Photo(photo, width: 80, height: 80, radius: AppRadius.inner, semantic: 'Foto ${name.text}'),
                             Positioned(
+                              right: 2,
