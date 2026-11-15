@@ -55,3 +55,4 @@ class AppState extends ChangeNotifier {
             .then((v) {
               online = v;
               notifyListeners();
+            })
