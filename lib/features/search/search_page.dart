@@ -10,3 +10,5 @@ class SearchRequest {
 
 /// Permintaan pencarian dari halaman lain (misalnya kartu kota di Explore).
 final searchRequest = ValueNotifier<SearchRequest?>(null);
+
+const _maxBudget = 5000000.0;
