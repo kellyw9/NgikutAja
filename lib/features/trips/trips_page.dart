@@ -121,3 +121,4 @@ class TripsPage extends StatelessWidget {
                     'Lihat recap',
                     kind: BtnKind.secondary,
                     size: BtnSize.md,
+                    expand: true,
