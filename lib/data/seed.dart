@@ -591,3 +591,4 @@ class Seed {
         lead: 'Besok berangkat. ',
         text: 'Trip "Danau Toba bareng teman kampus" mulai ${weekdaysLong[today.weekday - 1]}, ${today.day} ${monthsShort[today.month - 1]}.',
         time: '$yday 19.00',
+        today: false,
