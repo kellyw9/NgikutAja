@@ -81,3 +81,4 @@ class OfflinePage extends StatelessWidget {
                   avail(true, 'Catatan creator dan foto tempat'),
                   avail(true, 'Pengeluaran dan packing list'),
                   avail(true, 'Check-in (disimpan dulu di HP)'),
+                ],
