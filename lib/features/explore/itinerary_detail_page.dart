@@ -156,3 +156,4 @@ class _ItineraryDetailPageState extends State<ItineraryDetailPage> {
                         style: it.desc.isEmpty ? AppText.body.muted : AppText.body,
                         maxLines: more ? null : 4,
                         overflow: more ? null : TextOverflow.ellipsis,
+                      ),
