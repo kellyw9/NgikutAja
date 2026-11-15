@@ -162,3 +162,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
             right: [IconBtn('more_vert', label: 'Menu trip', bg: AppColors.surface, size: 40, onTap: _menu)],
           ),
           Padding(
+            padding: const EdgeInsets.fromLTRB(kMargin, 16, kMargin, 0),
