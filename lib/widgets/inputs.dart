@@ -187,3 +187,4 @@ class _NgFieldState extends State<NgField> {
             ],
           ),
         ] else if (widget.helper != null) ...[
+          const SizedBox(height: 6),
