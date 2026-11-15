@@ -286,3 +286,4 @@ class Seed {
         reviews: 24,
         tags: ['Budaya'],
         estimateSeed: 640000,
+        placesSeed: 8,
