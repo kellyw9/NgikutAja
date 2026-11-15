@@ -135,3 +135,4 @@ class AboutPage extends StatelessWidget {
                   kind: BannerKind.info,
                   text:
                       'Semua nama, itinerary, ulasan, dan transaksi di aplikasi ini adalah data contoh. Pembayaran dan lokasi check-in masih simulasi.',
+                ),
