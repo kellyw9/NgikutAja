@@ -141,3 +141,4 @@ class _SearchPageState extends State<SearchPage> {
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: [
         const TabHeader('Cari'),
+        _searchRow(),
