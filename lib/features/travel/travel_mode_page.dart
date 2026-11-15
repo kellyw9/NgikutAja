@@ -436,3 +436,4 @@ class NavigationPage extends StatelessWidget {
                       child: Row(
                         children: [
                           Expanded(
+                            child: Padding(
