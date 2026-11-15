@@ -45,3 +45,4 @@ class Seed {
 
   void _build() {
     me = Creator(
+      id: 'dinda',
