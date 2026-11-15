@@ -83,3 +83,4 @@ class _CustomizePageState extends State<CustomizePage> {
   }
 
   Future<void> _delete(int i) async {
+    final st = plan[day][i];
