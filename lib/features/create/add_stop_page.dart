@@ -385,3 +385,4 @@ class _PickLocationPageState extends State<PickLocationPage> {
                       Expanded(
                         child: TextField(
                           controller: q,
+                          style: AppText.body,
