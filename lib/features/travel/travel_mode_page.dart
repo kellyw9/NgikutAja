@@ -180,3 +180,5 @@ class _NextCard extends StatelessWidget {
   final Trip trip;
   final int day;
   final int i;
+
+  @override
