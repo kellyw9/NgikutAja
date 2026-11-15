@@ -59,3 +59,4 @@ class OfflinePage extends StatelessWidget {
                         t.offline,
                         label: 'Simpan ${t.title} untuk offline',
                         onChanged: (v) {
+                          if (v && !app.online) {
