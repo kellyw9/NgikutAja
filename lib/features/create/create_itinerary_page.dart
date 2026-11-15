@@ -104,3 +104,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
     );
     input.dispose();
     if (r != null && r.isNotEmpty && !d.tags.contains(r)) setState(() => d.tags = [...d.tags, r]);
+  }
