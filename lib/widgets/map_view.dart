@@ -145,3 +145,4 @@ class _MapPainter extends CustomPainter {
       canvas.drawPath(island, Paint()..color = AppColors.mapLand);
       canvas.drawOval(Rect.fromCenter(center: p(.55, .5), width: .26 * w, height: .28 * h), Paint()..color = AppColors.mapPark);
       final ring1 = Path()
+        ..moveTo(.48 * w, .2 * h)
