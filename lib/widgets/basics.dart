@@ -333,3 +333,4 @@ class DashedAction extends StatelessWidget {
         height: height,
         child: Row(
           mainAxisAlignment: MainAxisAlignment.center,
+          children: [
