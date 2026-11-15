@@ -238,3 +238,4 @@ class PublishedPage extends StatelessWidget {
                                 Text('${app.me.name} (${app.me.handle})', style: AppText.small.muted),
                               ],
                             ),
+                          ),
