@@ -142,3 +142,4 @@ class AboutPage extends StatelessWidget {
                 for (final e in credits.entries)
                   Row(
                     crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
