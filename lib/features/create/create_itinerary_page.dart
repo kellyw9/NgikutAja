@@ -116,3 +116,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
       context,
       title: 'Simpan sebagai draft?',
       body: 'Itinerary ini belum disimpan. Draft bisa dilanjutkan dari Trip Saya.',
+      actions: const [
