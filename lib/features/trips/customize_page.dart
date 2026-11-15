@@ -43,3 +43,4 @@ class _CustomizePageState extends State<CustomizePage> {
       setState(() {
         saving = false;
         changes = 0;
+      });
