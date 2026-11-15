@@ -154,3 +154,4 @@ class _PublishPageState extends State<PublishPage> {
       ),
       bottomNavigationBar: SafeArea(
         child: Padding(
+          padding: const EdgeInsets.fromLTRB(kMargin, 8, kMargin, 16),
