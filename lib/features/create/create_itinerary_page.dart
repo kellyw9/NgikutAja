@@ -67,3 +67,5 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
     _apply();
     push(context, DayEditorPage(d: d));
   }
+
+  Future<void> _addTag() async {
