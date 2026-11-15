@@ -48,3 +48,4 @@ class _PackingPageState extends State<PackingPage> {
         ],
       ),
     );
+    c.dispose();
