@@ -122,3 +122,4 @@ class NewPasswordPage extends StatefulWidget {
   final String email;
 
   @override
+  State<NewPasswordPage> createState() => _NewPasswordPageState();
