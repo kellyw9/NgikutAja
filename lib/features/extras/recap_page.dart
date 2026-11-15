@@ -34,3 +34,4 @@ class RecapPage extends StatelessWidget {
           Gap(
             16,
             children: [
+              Column(
