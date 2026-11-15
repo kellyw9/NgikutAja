@@ -99,3 +99,4 @@ class SettingsPage extends StatelessWidget {
                   title: 'Tentang NgikutAja',
                   sub: 'Versi 1.0.0, Tugas Besar Pemrograman Mobile',
                   padH: 14,
+                  onTap: () => push(context, const AboutPage()),
