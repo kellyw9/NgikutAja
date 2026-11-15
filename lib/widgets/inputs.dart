@@ -153,3 +153,4 @@ class _NgFieldState extends State<NgField> {
           if (trailing is Widget) ...[const SizedBox(width: 6), trailing],
         ],
       ),
+    );
