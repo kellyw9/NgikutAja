@@ -444,3 +444,4 @@ class _PickLocationPageState extends State<PickLocationPage> {
                   expand: true,
                   onPressed: () {
                     Navigator.pop(context, widget.city.isEmpty ? label : '$label, ${widget.city}');
+                  },
