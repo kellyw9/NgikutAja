@@ -168,3 +168,4 @@ class _EditStopPageState extends State<EditStopPage> {
               ),
               NgField(label: 'Deskripsi', controller: desc, area: true, hint: 'Ceritakan tempatnya dalam satu atau dua kalimat.'),
               NgField(label: 'Catatan', controller: note, area: true, hint: 'Tips untuk yang mengikuti jadwal ini.'),
+              Column(
