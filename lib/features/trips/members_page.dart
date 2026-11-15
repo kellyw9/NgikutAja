@@ -103,3 +103,4 @@ class MembersPage extends StatelessWidget {
                 const SizedBox(height: 6),
                 RadioRow(
                   title: 'Lihat',
+                  sub: 'Bisa membuka jadwal dan catatan',
