@@ -301,3 +301,4 @@ class _CustomizePageState extends State<CustomizePage> {
   Widget build(BuildContext context) {
     final stops = plan[day];
     final conflicts = conflictsIn(stops);
+    final bad = conflictIndexes(stops);
