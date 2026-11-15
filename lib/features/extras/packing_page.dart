@@ -142,3 +142,4 @@ class _PackingPageState extends State<PackingPage> {
                                     padding: const EdgeInsets.only(left: 12),
                                     child: Row(
                                       children: [
+                                        CheckMark(it.done),
