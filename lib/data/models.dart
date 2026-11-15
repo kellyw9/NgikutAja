@@ -293,3 +293,5 @@ class Trip {
   bool remindEach;
   int remindOffset;
   final Set<String> settled = {};
+
+  // Ringkasan dari data contoh untuk trip lama yang jadwal lengkapnya tidak tersimpan.
