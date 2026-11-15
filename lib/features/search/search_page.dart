@@ -590,3 +590,4 @@ class _BudgetSlider extends StatelessWidget {
           const Spacer(),
           Text('${rp(_maxBudget.round())}+', style: AppText.small.muted),
         ],
+      ),
