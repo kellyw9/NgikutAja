@@ -167,3 +167,4 @@ class Bell extends StatelessWidget {
   Widget build(BuildContext context) {
     final unread = AppScope.of(context).hasUnread;
     return Stack(
+      children: [
