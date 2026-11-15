@@ -139,3 +139,4 @@ class _JournalPageState extends State<JournalPage> {
                         ],
                         if (e.photos.length == 1) ...[const SizedBox(width: 8), const Expanded(child: SizedBox())],
                       ],
+                    ),
