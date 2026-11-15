@@ -186,3 +186,4 @@ class _NgFieldState extends State<NgField> {
               Expanded(child: Text(widget.error!, style: AppText.small.c(AppColors.negative))),
             ],
           ),
+        ] else if (widget.helper != null) ...[
