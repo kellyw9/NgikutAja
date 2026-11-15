@@ -219,3 +219,4 @@ class PublishedPage extends StatelessWidget {
                       child: Text('Itinerary berhasil dipublish!', style: AppText.h1, textAlign: TextAlign.center),
                     ),
                     const SizedBox(height: 8),
+                    Text('Itinerary kamu sekarang bisa ditemukan di Explore.', style: AppText.body.muted, textAlign: TextAlign.center),
