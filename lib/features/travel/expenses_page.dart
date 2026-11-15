@@ -239,3 +239,4 @@ class _AddExpensePageState extends State<AddExpensePage> {
         padding: const EdgeInsets.fromLTRB(kMargin, 8, kMargin, 24),
         children: [
           Gap(
+            16,
