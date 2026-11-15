@@ -49,3 +49,4 @@ class _SplitBudgetPageState extends State<SplitBudgetPage> {
     return Scaffold(
       backgroundColor: AppColors.ground,
       appBar: NgAppBar(title: 'Split budget', sub: t.title),
+      body: ListView(
