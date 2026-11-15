@@ -28,3 +28,4 @@ class ExpensesPage extends StatelessWidget {
           KeyValueBox([
             ('Kategori', e.cat.label),
             ('Waktu', expenseTime(trip, e)),
+            ('Dibayar oleh', e.by),
