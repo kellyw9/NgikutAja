@@ -82,3 +82,5 @@ void main() {
     expect(s.trips.length, before + 1);
     expect(s.statusOf(s.trips.first), TripStatus.diadopsi);
   });
+
+  testWidgets('Customize: jadwal bentrok terdeteksi, saran diterapkan, lalu tersimpan', (tester) async {
