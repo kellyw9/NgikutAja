@@ -286,3 +286,4 @@ class _SearchPageState extends State<SearchPage> {
       if (mode == 'Itinerary')
         for (final c in cities) _suggest('location_on', c.name, 'Kota, ${app.cityCount(c)} itinerary', () => _submit(c.name)),
     ];
+    if (rows.isEmpty) {
