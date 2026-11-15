@@ -22,3 +22,4 @@ class _EditProfilePageState extends State<EditProfilePage> {
   String? get userErr {
     final u = user.text.trim();
     if (u.length < 3) return 'Minimal 3 karakter';
+    if (!RegExp(r'^[a-z0-9_.]+$').hasMatch(u)) return 'Pakai huruf kecil, angka, titik, atau garis bawah';
