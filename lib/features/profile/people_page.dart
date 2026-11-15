@@ -26,3 +26,4 @@ class _PeoplePageState extends State<PeoplePage> {
   @override
   Widget build(BuildContext context) {
     final app = AppScope.of(context);
+    final list = widget.followers ? app.seed.followers : app.seed.followingPeople;
