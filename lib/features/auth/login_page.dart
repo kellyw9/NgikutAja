@@ -202,3 +202,4 @@ class GoogleButton extends StatelessWidget {
             const SizedBox(width: 10),
             Text(label, style: AppText.button),
           ],
+        ),
