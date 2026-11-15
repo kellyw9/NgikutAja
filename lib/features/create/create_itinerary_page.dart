@@ -41,3 +41,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
       ..title = title.text.trim()
       ..desc = desc.text.trim()
       ..region = city.text.trim()
+      ..city = city.text.split(',').first.trim();
