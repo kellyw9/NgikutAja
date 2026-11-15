@@ -37,3 +37,5 @@ class _JournalPageState extends State<JournalPage> {
     widget.trip.story = r;
     AppScope.read(context).touch();
   }
+
+  Future<void> _write() async {
