@@ -131,3 +131,4 @@ void main() {
   });
 
   testWidgets('Create: judul wajib, hari tanpa stop menahan publish', (tester) async {
+    await phone(tester);
