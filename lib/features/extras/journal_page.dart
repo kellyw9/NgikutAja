@@ -8,3 +8,4 @@ class JournalPage extends StatefulWidget {
   final Trip trip;
 
   @override
+  State<JournalPage> createState() => _JournalPageState();
