@@ -332,3 +332,4 @@ class _PickLocationPageState extends State<PickLocationPage> {
                         child: Center(
                           child: Container(
                             padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 6),
+                            decoration: BoxDecoration(color: AppColors.ink, borderRadius: BorderRadius.circular(AppRadius.chip)),
