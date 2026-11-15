@@ -331,3 +331,4 @@ class _PickLocationPageState extends State<PickLocationPage> {
                       child: IgnorePointer(
                         child: Center(
                           child: Container(
+                            padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 6),
