@@ -244,3 +244,4 @@ class PaidPreviewPage extends StatelessWidget {
   void _locked(BuildContext context, int d) => showNgSnack(context, 'Hari ${d + 1} terbuka setelah itinerary dibeli.');
 
   @override
+  Widget build(BuildContext context) {
