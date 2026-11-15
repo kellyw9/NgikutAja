@@ -221,3 +221,4 @@ class _NextCard extends StatelessWidget {
                 if (st.photo != null) ...[const SizedBox(width: 12), Photo(st.photo, width: 68, height: 68, radius: AppRadius.inner)],
               ],
             ),
+          ),
