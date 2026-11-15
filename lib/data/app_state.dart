@@ -318,3 +318,4 @@ class AppState extends ChangeNotifier {
     t.plan = plan;
     t.dayTitles = titles;
     notifyListeners();
+  }
