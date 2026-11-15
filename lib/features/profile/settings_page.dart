@@ -94,3 +94,4 @@ class SettingsPage extends StatelessWidget {
                 ),
               ]),
               group('Informasi aplikasi', [
+                ListRow(
