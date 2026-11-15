@@ -171,3 +171,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
                       Wrap(
                         spacing: 8,
                         runSpacing: 4,
+                        crossAxisAlignment: WrapCrossAlignment.center,
