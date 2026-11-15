@@ -256,3 +256,4 @@ class _SearchPageState extends State<SearchPage> {
                       onTap: () => app.removeRecent(q),
                     ),
                   ],
+                ),
