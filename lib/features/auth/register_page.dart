@@ -109,3 +109,4 @@ class _RegisterPageState extends State<RegisterPage> {
                         error: emailErr,
                       ),
                       const SizedBox(height: 14),
+                      NgField(
