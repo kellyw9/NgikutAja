@@ -14,3 +14,4 @@ class NgField extends StatefulWidget {
     super.key,
     this.label,
     this.controller,
+    this.value,
