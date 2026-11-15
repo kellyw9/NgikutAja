@@ -310,3 +310,4 @@ class PaidPreviewPage extends StatelessWidget {
                           Text('Hari 2: ${it.dayTitle(1)}', style: AppText.title.muted),
                           const SizedBox(height: 6),
                           for (var i = 0; i < day2.length && i < 2; i++)
+                            StopRow(day2[i], n: day1.length + i + 1, blur: true, last: i == 1 || i == day2.length - 1),
