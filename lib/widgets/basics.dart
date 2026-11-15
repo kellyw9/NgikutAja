@@ -492,3 +492,4 @@ class Avatar extends StatelessWidget {
         width: size,
         height: size,
         alignment: Alignment.center,
+        decoration: BoxDecoration(color: AppColors.tints[tint % AppColors.tints.length], shape: BoxShape.circle),
