@@ -32,3 +32,4 @@ class AppState extends ChangeNotifier {
     comments = {
       for (final e in seed.comments.entries) e.key: [...e.value],
     };
+    transactions = [...seed.transactions];
