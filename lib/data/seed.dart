@@ -27,3 +27,4 @@ class Seed {
   late final List<Itinerary> drafts;
   late final List<Trip> trips;
   late final List<Review> reviews;
+  late final Map<String, List<Comment>> comments;
