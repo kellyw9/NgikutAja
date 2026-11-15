@@ -362,3 +362,4 @@ class TravelStopPage extends StatelessWidget {
 class NavigationPage extends StatelessWidget {
   const NavigationPage({super.key, required this.trip, required this.day, required this.i});
   final Trip trip;
+  final int day;
