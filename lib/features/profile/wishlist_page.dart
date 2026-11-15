@@ -19,3 +19,4 @@ class WishlistPage extends StatelessWidget {
           ? Padding(
               padding: const EdgeInsets.fromLTRB(kMargin, 8, kMargin, 16),
               child: EmptyState(
+                icon: 'bookmark',
