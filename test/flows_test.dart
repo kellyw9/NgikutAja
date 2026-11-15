@@ -127,3 +127,4 @@ void main() {
     await tester.pumpAndSettle();
     expect(find.text('Pembayaran berhasil'), findsOneWidget);
     expect(s.purchased, contains('toba'));
+    expect(s.transactions.first.status, TxStatus.berhasil);
