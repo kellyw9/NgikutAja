@@ -463,3 +463,4 @@ class PurchaseHistoryPage extends StatelessWidget {
           ? const EmptyState(icon: 'receipt_long', title: 'Belum ada pembelian', text: 'Itinerary berbayar yang kamu beli tercatat di sini.')
           : ListView.separated(
               padding: const EdgeInsets.fromLTRB(kMargin, 8, kMargin, 16),
+              itemCount: list.length,
