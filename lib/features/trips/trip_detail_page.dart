@@ -259,3 +259,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
                       ('flag', 'Trip recap', 'recap'),
                     ].indexed) ...[
                       if (i > 0) const NgDivider(inset: 36),
+                      ListRow(
