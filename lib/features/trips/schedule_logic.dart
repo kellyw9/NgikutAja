@@ -96,3 +96,4 @@ List<String> shiftCascade(List<Stop> day, Stop target, int newStart) {
       final pb = preview[day.indexOf(b)];
       final others = shiftCascade(preview, pb, ns);
       tips.add(
+        Suggestion(
