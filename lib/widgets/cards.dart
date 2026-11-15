@@ -519,3 +519,4 @@ class _DayBox extends StatelessWidget {
                       Container(
                         width: 8,
                         height: 8,
+                        decoration: const BoxDecoration(color: AppColors.negative, shape: BoxShape.circle),
