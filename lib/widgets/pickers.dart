@@ -158,3 +158,4 @@ Future<Category?> pickCategory(BuildContext context, Category current) {
                 height: 52,
                 child: Row(
                   children: [
+                    AppIcon(Category.values[i].icon, size: 22),
