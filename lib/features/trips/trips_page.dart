@@ -116,3 +116,4 @@ class TripsPage extends StatelessWidget {
             ),
             _ => Row(
               children: [
+                Expanded(
