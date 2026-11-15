@@ -558,3 +558,4 @@ class Seed {
       AppNotification(
         id: 'n1',
         kind: NotifKind.reminder,
+        icon: 'alarm',
