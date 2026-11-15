@@ -182,3 +182,4 @@ class _AddExpensePageState extends State<AddExpensePage> {
   late final e = widget.edit;
   late final name = TextEditingController(text: e?.name ?? '');
   late final amount = TextEditingController(text: e == null ? '' : thousands(e!.amount));
+  late ExpenseCat cat = e?.cat ?? ExpenseCat.makan;
