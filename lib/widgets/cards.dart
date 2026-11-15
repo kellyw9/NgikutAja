@@ -612,3 +612,4 @@ class ProfileHead extends StatelessWidget {
         padding: const EdgeInsets.symmetric(horizontal: 2, vertical: 4),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
