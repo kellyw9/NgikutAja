@@ -210,3 +210,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
                         final s = stops.removeAt(a);
                         stops.insert(b, s);
                       }),
+                      children: [
