@@ -194,3 +194,4 @@ class AdoptProgressPage extends StatefulWidget {
     required this.dayBefore,
     required this.each,
     required this.offset,
+    required this.offline,
