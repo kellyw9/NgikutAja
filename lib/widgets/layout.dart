@@ -88,3 +88,4 @@ class NgAppBar extends StatelessWidget implements PreferredSizeWidget {
                       if (center && actions.isEmpty && trailingTitle == null) const SizedBox(width: 44),
                     ],
                   ),
+                ),
