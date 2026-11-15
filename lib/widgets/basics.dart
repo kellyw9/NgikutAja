@@ -65,3 +65,4 @@ class NgButton extends StatelessWidget {
         ] else if (icon != null) ...[
           AppIcon(icon!, size: 20, color: color),
           const SizedBox(width: 8),
+        ],
