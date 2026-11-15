@@ -128,3 +128,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
                       ],
                     ),
                   ],
+                  const SizedBox(width: 8),
