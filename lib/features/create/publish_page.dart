@@ -85,3 +85,4 @@ class _PublishPageState extends State<PublishPage> {
                     Expanded(
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
