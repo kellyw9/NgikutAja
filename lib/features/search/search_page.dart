@@ -374,3 +374,4 @@ class _SearchPageState extends State<SearchPage> {
                       'Lihat kota populer',
                       kind: BtnKind.secondary,
                       size: BtnSize.md,
+                      onPressed: () {
