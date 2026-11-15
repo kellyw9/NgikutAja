@@ -207,3 +207,4 @@ class _MapPainter extends CustomPainter {
       canvas.drawPath(
         route,
         Paint()
+          ..color = AppColors.teal
