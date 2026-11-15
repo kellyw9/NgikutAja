@@ -510,3 +510,4 @@ class Wordmark extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final mark = large ? 14.0 : 10.0;
+    return Semantics(
