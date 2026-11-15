@@ -133,3 +133,4 @@ class _EditProfilePageState extends State<EditProfilePage> {
             child: NgButton('Simpan perubahan', expand: true, onPressed: dirty ? _save : null),
           ),
         ),
+      ),
