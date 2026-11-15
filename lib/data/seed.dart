@@ -536,3 +536,4 @@ class Seed {
         ),
         Comment(name: 'Dodi Ginting', tint: 4, time: 'Kemarin', text: 'Bika Ambon Mojopahit cepat habis kalau sore, mending beli pagi.'),
       ],
+    };
