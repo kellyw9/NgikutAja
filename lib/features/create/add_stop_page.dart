@@ -100,3 +100,4 @@ class _AddStopPageState extends State<AddStopPage> {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Row(
+                    crossAxisAlignment: CrossAxisAlignment.start,
