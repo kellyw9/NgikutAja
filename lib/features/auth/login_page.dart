@@ -153,3 +153,4 @@ class _LoginPageState extends State<LoginPage> {
                           child: Wrap(
                             crossAxisAlignment: WrapCrossAlignment.center,
                             children: [
+                              Text('Belum punya akun? ', style: AppText.body.muted),
