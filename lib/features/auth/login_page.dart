@@ -18,3 +18,5 @@ String? validateEmail(String v) {
 class LoginPage extends StatefulWidget {
   const LoginPage({super.key, this.popOnSuccess = false});
   final bool popOnSuccess;
+
+  @override
