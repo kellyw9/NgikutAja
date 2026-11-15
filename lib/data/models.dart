@@ -5,3 +5,4 @@ enum Category {
   budaya('Budaya', 'museum'),
   alam('Alam', 'landscape'),
   sosial('Sosial', 'groups'),
+  lainnya('Lainnya', 'category');
