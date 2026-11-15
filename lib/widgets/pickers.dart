@@ -43,3 +43,4 @@ class _CalendarState extends State<_Calendar> {
   Widget build(BuildContext context) {
     final lead = DateTime(month.year, month.month, 1).weekday - 1; // Senin = 0
     final count = DateUtils.getDaysInMonth(month.year, month.month);
+    final cells = <int?>[...List.filled(lead, null), for (var d = 1; d <= count; d++) d];
