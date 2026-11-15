@@ -173,3 +173,4 @@ class NotificationDetailPage extends StatelessWidget {
                     style: AppText.small.muted,
                   ),
                 ],
+              ),
