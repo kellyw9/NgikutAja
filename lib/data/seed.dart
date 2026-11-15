@@ -313,3 +313,4 @@ class Seed {
         cover: 'tjongafie',
         creator: c['rahmat']!,
         price: 0,
+        adopted: 140,
