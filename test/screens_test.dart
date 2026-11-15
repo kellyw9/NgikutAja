@@ -32,3 +32,4 @@ import 'package:ngikutaja/features/profile/wishlist_page.dart';
 import 'package:ngikutaja/features/purchase/purchase_pages.dart';
 import 'package:ngikutaja/features/shell/home_shell.dart';
 import 'package:ngikutaja/features/travel/checkin_page.dart';
+import 'package:ngikutaja/features/travel/expenses_page.dart';
