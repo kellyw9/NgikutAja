@@ -655,3 +655,4 @@ class Seed {
       Person('Putri Hasibuan', '@putrihsb', 1),
       Person('Dodi Ginting', '@dodiginting', 4),
       Person('Yohana Pardede', '@yohanapdd', 2),
+    ];
