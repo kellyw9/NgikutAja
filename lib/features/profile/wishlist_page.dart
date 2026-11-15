@@ -61,3 +61,4 @@ class _Row extends StatelessWidget {
                   MetaRow([('location_on', it.city), ('schedule', '${it.days} hari')]),
                   const SizedBox(height: 4),
                   Row(
+                    children: [
