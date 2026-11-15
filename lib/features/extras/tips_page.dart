@@ -39,3 +39,4 @@ class TipsPage extends StatelessWidget {
                         ],
                       ),
                     ),
+                    const SizedBox(width: 12),
