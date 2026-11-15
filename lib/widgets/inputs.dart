@@ -318,3 +318,4 @@ class RadioRow extends StatelessWidget {
         ),
       ),
     ),
+  );
