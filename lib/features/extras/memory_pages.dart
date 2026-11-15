@@ -37,3 +37,4 @@ class PhotoMemoryPage extends StatelessWidget {
                   LayoutBuilder(
                     builder: (context, c) {
                       final size = (c.maxWidth - 12) / 3;
+                      final list = t.photos.where((p) => p.day == d).toList();
