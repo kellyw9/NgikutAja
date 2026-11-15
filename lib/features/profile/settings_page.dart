@@ -129,3 +129,4 @@ class AboutPage extends StatelessWidget {
             Gap(
               16,
               children: [
+                const Align(alignment: Alignment.centerLeft, child: Wordmark(large: false)),
