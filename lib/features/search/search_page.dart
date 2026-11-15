@@ -518,3 +518,4 @@ class _SearchPageState extends State<SearchPage> {
                       onPressed: () => set(() {
                         draft
                           ..duration = null
+                          ..budget = const RangeValues(0, _maxBudget)
