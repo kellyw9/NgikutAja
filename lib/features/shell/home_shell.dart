@@ -71,3 +71,5 @@ class BottomNav extends StatelessWidget {
   const BottomNav({super.key, required this.active, required this.onTap});
   final int active;
   final ValueChanged<int> onTap;
+
+  static const items = [('explore', 'Explore'), ('search', 'Cari'), ('add', 'Create'), ('luggage', 'Trip Saya'), ('person', 'Profil')];
