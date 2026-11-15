@@ -35,3 +35,4 @@ class _ExplorePageState extends State<ExplorePage> {
     } catch (e) {
       error = e;
     }
+    if (mounted) setState(() => loading = false);
