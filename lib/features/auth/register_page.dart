@@ -95,3 +95,4 @@ class _RegisterPageState extends State<RegisterPage> {
                         textInputAction: TextInputAction.next,
                         autofillHints: const [AutofillHints.name],
                         error: tried && name.text.trim().isEmpty ? 'Isi nama dulu' : null,
+                      ),
