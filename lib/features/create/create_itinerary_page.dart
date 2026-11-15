@@ -259,3 +259,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
           child: Padding(
             padding: const EdgeInsets.fromLTRB(kMargin, 8, kMargin, 16),
             child: Gap(
+              12,
