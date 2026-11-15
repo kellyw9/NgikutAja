@@ -21,3 +21,4 @@ class NgikutAjaApp extends StatelessWidget {
         theme: buildTheme(),
         locale: const Locale('id'),
         supportedLocales: const [Locale('id'), Locale('en')],
+        localizationsDelegates: GlobalMaterialLocalizations.delegates,
