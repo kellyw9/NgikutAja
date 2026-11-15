@@ -75,3 +75,4 @@ class PurchaseDetailPage extends StatelessWidget {
                   ),
                 ],
               ),
+              NgCard(
