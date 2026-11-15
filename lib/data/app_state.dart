@@ -205,3 +205,4 @@ class AppState extends ChangeNotifier {
     if (liked.remove(it.id)) {
       it.likes--;
     } else {
+      liked.add(it.id);
