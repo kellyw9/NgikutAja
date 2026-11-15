@@ -345,3 +345,4 @@ class _PickLocationPageState extends State<PickLocationPage> {
                                 Flexible(
                                   child: Text(label, style: AppText.smallStrong.white, maxLines: 1, overflow: TextOverflow.ellipsis),
                                 ),
+                              ],
