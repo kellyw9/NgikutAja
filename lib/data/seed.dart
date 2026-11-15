@@ -390,3 +390,4 @@ class Seed {
         id: 'draft-berastagi',
         title: 'Berastagi Sehari dari Medan',
         city: 'Berastagi',
+        region: 'Karo, Sumatera Utara',
