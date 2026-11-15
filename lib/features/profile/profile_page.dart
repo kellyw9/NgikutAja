@@ -68,3 +68,4 @@ class ProfilePage extends StatelessWidget {
           padding: const EdgeInsets.fromLTRB(kMargin, 20, kMargin, 0),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
