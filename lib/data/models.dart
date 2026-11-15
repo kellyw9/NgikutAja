@@ -6,3 +6,5 @@ enum Category {
   alam('Alam', 'landscape'),
   sosial('Sosial', 'groups'),
   lainnya('Lainnya', 'category');
+
+  const Category(this.label, this.icon);
