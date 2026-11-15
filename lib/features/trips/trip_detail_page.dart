@@ -160,3 +160,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
             height: 220,
             semantic: 'Foto sampul ${t.title}',
             right: [IconBtn('more_vert', label: 'Menu trip', bg: AppColors.surface, size: 40, onTap: _menu)],
+          ),
