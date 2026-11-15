@@ -50,3 +50,4 @@ class PhotoMemoryPage extends StatelessWidget {
                               child: Photo(p.src, width: size, height: size, radius: AppRadius.inner),
                             ),
                         ],
+                      );
