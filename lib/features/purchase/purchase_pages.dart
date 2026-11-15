@@ -34,3 +34,4 @@ class _ItemRow extends StatelessWidget {
       ],
     ),
   );
+}
