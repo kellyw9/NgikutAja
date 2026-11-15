@@ -47,3 +47,4 @@ class _PhotoPreviewPageState extends State<PhotoPreviewPage> {
                   final r = await showNgSheet<int>(
                     context,
                     title: 'Aktivitas terkait',
+                    scroll: true,
