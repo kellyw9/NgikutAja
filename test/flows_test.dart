@@ -160,3 +160,5 @@ void main() {
     await tester.pump(const Duration(milliseconds: 300));
     expect(s.wishlist.length, 3);
   });
+
+  testWidgets('Tamu: tombol wishlist membuka sheet login', (tester) async {
