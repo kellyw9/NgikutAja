@@ -340,3 +340,4 @@ class Comment {
   final int tint;
   final String time;
   final String text;
+  final bool creator;
