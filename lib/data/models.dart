@@ -65,3 +65,5 @@ class Stop {
 
   Stop copy() => Stop(start: start, end: end, name: name, cat: cat, cost: cost, photo: photo, note: note, desc: desc, address: address);
 }
+
+List<List<Stop>> copyPlan(List<List<Stop>> plan) => [
