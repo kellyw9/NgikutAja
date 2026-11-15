@@ -165,3 +165,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
                 Avatar(c.name, size: 36, tint: c.tint),
                 const SizedBox(width: 12),
                 Expanded(
+                  child: Column(
