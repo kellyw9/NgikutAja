@@ -129,3 +129,4 @@ class _PublishPageState extends State<PublishPage> {
                     SizedBox(
                       height: 52,
                       child: Padding(
+                        padding: const EdgeInsets.symmetric(horizontal: 14),
