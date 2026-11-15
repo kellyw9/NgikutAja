@@ -267,3 +267,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
                   'Simpan draft',
                   kind: BtnKind.secondary,
                   expand: true,
+                  onPressed: () {
