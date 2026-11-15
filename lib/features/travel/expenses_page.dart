@@ -198,3 +198,4 @@ class _AddExpensePageState extends State<AddExpensePage> {
         ..name = name.text.trim()
         ..amount = n
         ..cat = cat
+        ..day = day
