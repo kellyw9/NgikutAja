@@ -86,3 +86,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
                 const SizedBox(width: 16),
                 Expanded(
                   child: dist == null
+                      ? Text('Rincian bintang belum tersedia untuk itinerary ini.', style: AppText.small.muted)
