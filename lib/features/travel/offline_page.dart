@@ -23,3 +23,4 @@ class OfflinePage extends StatelessWidget {
           AppIcon(ok ? 'check_circle' : 'cloud_off', size: 18, color: ok ? AppColors.positive : AppColors.muted, filled: ok),
           const SizedBox(width: 10),
           Expanded(child: Text(text, style: AppText.body)),
+        ],
