@@ -284,3 +284,4 @@ class _SearchPageState extends State<SearchPage> {
         for (final c in cities) _suggest('location_on', c.name, 'Kota, ${app.cityCount(c)} itinerary', () => _submit(c.name)),
       for (final it in itins) _suggest('map', it.title, 'Itinerary oleh ${it.creator.handle}', () => openItinerary(context, it)),
       if (mode == 'Itinerary')
+        for (final c in cities) _suggest('location_on', c.name, 'Kota, ${app.cityCount(c)} itinerary', () => _submit(c.name)),
