@@ -185,3 +185,4 @@ class _ItineraryDetailPageState extends State<ItineraryDetailPage> {
             ),
             const SizedBox(height: 24),
             const SectionHead('Jadwal per hari'),
+            const SizedBox(height: 12),
