@@ -592,3 +592,5 @@ class CreatorRow extends StatelessWidget {
     );
   }
 }
+
+/// Kepala profil: avatar 64 kiri, angka statistik sebaris di kanan, bio, aksi.
