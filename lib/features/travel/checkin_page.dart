@@ -98,3 +98,4 @@ class _CheckinPageState extends State<CheckinPage> {
                             title: stops[k].name,
                             sub: 'Check-in pukul ${t.checkins['${widget.day}-$k']}',
                             trailing: null,
+                            padH: 14,
