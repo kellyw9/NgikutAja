@@ -61,3 +61,4 @@ class _CheckinPageState extends State<CheckinPage> {
                   title: 'Kamu sudah di lokasi',
                   text: 'Posisimu (simulasi) 40 m dari titik ${st.name}. Batas check-in 100 m.',
                 )
+              else
