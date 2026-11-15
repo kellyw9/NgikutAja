@@ -308,3 +308,4 @@ class _AddExpensePageState extends State<AddExpensePage> {
                     children: [for (final m in t.members) NgChip(m.first, selected: m.first == by, onTap: () => setState(() => by = m.first))],
                   ),
                 ],
+              ),
