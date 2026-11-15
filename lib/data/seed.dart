@@ -222,3 +222,4 @@ class Seed {
       estimateSeed: 520000,
       placesSeed: 11,
       publishedAt: _d(-300),
+      plan: [
