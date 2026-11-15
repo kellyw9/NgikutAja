@@ -295,3 +295,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
             onTap: (d) => setState(() => _day = d),
           ),
           Padding(
+            padding: const EdgeInsets.fromLTRB(kMargin, 12, kMargin, 24),
