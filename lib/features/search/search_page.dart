@@ -422,3 +422,4 @@ class _SearchPageState extends State<SearchPage> {
             onTap: () {
               setState(() => sort = s);
               Navigator.pop(ctx);
+            },
