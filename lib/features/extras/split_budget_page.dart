@@ -150,3 +150,4 @@ class _SplitBudgetPageState extends State<SplitBudgetPage> {
                         for (final (from, to, amt) in settle)
                           Builder(
                             builder: (context) {
+                              final key = '$from>$to';
