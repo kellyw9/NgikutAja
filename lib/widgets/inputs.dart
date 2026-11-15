@@ -167,3 +167,4 @@ class _NgFieldState extends State<NgField> {
             value: widget.value,
             child: Material(
               type: MaterialType.transparency,
+              child: InkWell(
