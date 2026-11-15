@@ -238,3 +238,4 @@ class Trip {
     required this.region,
     required this.start,
     required this.cover,
+    required this.plan,
