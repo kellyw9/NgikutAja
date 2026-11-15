@@ -339,3 +339,4 @@ class BoxList extends StatelessWidget {
   const BoxList({super.key, required this.children, this.inset = 48, this.padV = 2});
   final List<Widget> children;
   final double inset;
+  final double padV;
