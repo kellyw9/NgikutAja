@@ -84,3 +84,4 @@ class _PeoplePageState extends State<PeoplePage> {
         setState(() => on ? following.remove(p.handle) : following.add(p.handle));
         app.me.following += on ? -1 : 1;
         app.touch();
+      },
