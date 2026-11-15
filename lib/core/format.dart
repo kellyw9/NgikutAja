@@ -59,3 +59,4 @@ bool isValidTime(String s) => RegExp(r'^([01]?\d|2[0-3])[.:]([0-5]\d)$').hasMatc
 String normalizeTime(String s) {
   final p = s.trim().split(RegExp(r'[.:]'));
   return '${p[0].padLeft(2, '0')}.${p[1]}';
+}
