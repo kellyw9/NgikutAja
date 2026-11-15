@@ -188,3 +188,4 @@ class _InterestCard extends StatelessWidget {
   final String sub;
   final String photo;
   final bool on;
+  final VoidCallback onTap;
