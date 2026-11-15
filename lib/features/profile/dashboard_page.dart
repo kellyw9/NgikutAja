@@ -114,3 +114,4 @@ class DashboardPage extends StatelessWidget {
                                           Text('${x.adopted} adopsi, ${x.isPaid ? rp(x.price) : 'Gratis'}', style: AppText.small.muted),
                                         ],
                                       ),
+                                    ),
