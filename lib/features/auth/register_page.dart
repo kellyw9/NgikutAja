@@ -120,3 +120,4 @@ class _RegisterPageState extends State<RegisterPage> {
                         autofillHints: const [AutofillHints.newPassword],
                         trailing: ObscureToggle(obscured: ob1, onTap: () => setState(() => ob1 = !ob1)),
                       ),
+                      const SizedBox(height: 8),
