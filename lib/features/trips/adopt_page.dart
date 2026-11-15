@@ -224,3 +224,4 @@ class _AdoptProgressPageState extends State<AdoptProgressPage> {
     });
     try {
       final t = await AppScope.read(
+        context,
