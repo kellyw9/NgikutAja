@@ -37,3 +37,4 @@ class NgBanner extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             AppIcon(icon ?? ic, size: 20, color: fg),
+            const SizedBox(width: 10),
