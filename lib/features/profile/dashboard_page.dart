@@ -41,3 +41,4 @@ class DashboardPage extends StatelessWidget {
                       Text('${chartItem.title}, ${rp(chartItem.price)} per transaksi', style: AppText.small.muted),
                       const SizedBox(height: 10),
                       Semantics(
+                        label: 'Grafik penjualan: ${monthly.map((m) => '${m.$1} ${m.$2}').join(', ')}',
