@@ -528,3 +528,4 @@ class TransactionDetailPage extends StatelessWidget {
         child: Padding(
           padding: const EdgeInsets.fromLTRB(kMargin, 0, kMargin, 16),
           child: switch (tx.status) {
+            TxStatus.berhasil => NgButton('Buka itinerary', expand: true, onPressed: () => openItinerary(context, tx.item)),
