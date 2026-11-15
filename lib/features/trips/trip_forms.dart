@@ -301,3 +301,4 @@ class _EditTripInfoPageState extends State<EditTripInfoPage> {
                 error: tried && title.text.trim().isEmpty ? 'Judul wajib diisi' : null,
                 onChanged: (_) => setState(() {}),
               ),
+              NgField(label: 'Destinasi', icon: 'location_on', controller: region),
