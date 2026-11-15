@@ -273,3 +273,4 @@ class _StopCard extends StatelessWidget {
   final VoidCallback onEdit;
 
   @override
+  Widget build(BuildContext context) => Container(
