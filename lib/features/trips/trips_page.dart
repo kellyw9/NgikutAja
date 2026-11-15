@@ -47,3 +47,4 @@ class TripsPage extends StatelessWidget {
     if (app.drafts.isEmpty) {
       return [
         EmptyState(
+          icon: 'edit_note',
