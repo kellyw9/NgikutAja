@@ -77,3 +77,4 @@ class _PublishPageState extends State<PublishPage> {
           Gap(
             16,
             children: [
+              NgCard(
