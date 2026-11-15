@@ -383,3 +383,4 @@ class AppNotification {
   final String lead; // bagian tebal di awal
   final String text;
   final String time;
+  final bool today;
