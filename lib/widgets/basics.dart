@@ -623,3 +623,4 @@ class Stars extends StatelessWidget {
     label: '$n dari 5 bintang',
     child: Row(
       mainAxisSize: MainAxisSize.min,
+      children: [
