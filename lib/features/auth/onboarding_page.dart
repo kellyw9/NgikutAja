@@ -197,3 +197,4 @@ class _InterestCard extends StatelessWidget {
       onTap: onTap,
       padding: const EdgeInsets.all(10),
       border: on ? AppColors.teal : AppColors.surface,
+      borderWidth: on ? 2 : 0,
