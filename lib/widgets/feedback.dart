@@ -198,3 +198,4 @@ Future<Object?> showNgDialog(BuildContext context, {String? icon, required Strin
       surfaceTintColor: Colors.transparent,
       insetPadding: const EdgeInsets.symmetric(horizontal: 32, vertical: 24),
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(AppRadius.dialog)),
+      child: ConstrainedBox(
