@@ -281,3 +281,4 @@ class _AdoptProgressPageState extends State<AdoptProgressPage> {
                     kind: BtnKind.secondary,
                     expand: true,
                     onPressed: () => Navigator.pushReplacement(context, MaterialPageRoute(builder: (_) => CustomizePage(trip: trip!))),
+                  ),
