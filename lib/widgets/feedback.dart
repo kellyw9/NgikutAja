@@ -291,3 +291,4 @@ class ErrorBlock extends StatelessWidget {
               Text('Gagal memuat', style: AppText.bodyStrong),
               const SizedBox(height: 2),
               Text(text, style: AppText.small.muted),
+            ],
