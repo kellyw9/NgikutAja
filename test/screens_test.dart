@@ -85,3 +85,4 @@ final Map<String, PageFor> pages = {
   'tip': (s) => TipDetailPage(tip: s.seed.tips['Samosir']![0]),
   'journal': (s) => JournalPage(trip: s.trips[0]),
   'memory': (s) => PhotoMemoryPage(trip: s.trips[2]),
+  'viewer': (s) => PhotoViewerPage(trip: s.trips[2], index: 1),
