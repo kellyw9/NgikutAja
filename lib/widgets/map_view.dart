@@ -221,3 +221,4 @@ class _MapPainter extends CustomPainter {
 }
 
 /// Sebar penanda rute di peta sementara dengan pola zig-zag yang konsisten.
+List<MapPin> spreadPins(int count, {List<MarkerState>? states}) {
