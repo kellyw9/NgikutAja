@@ -38,3 +38,5 @@ class AppColors {
   static const mapWater = Color(0xFFBCDCE1);
   static const mapPark = Color(0xFFDCE8D3);
   static const myLocation = Color(0xFF1A73E8);
+
+  /// Warna latar avatar inisial.
