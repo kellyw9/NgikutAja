@@ -429,3 +429,4 @@ class PriceTag extends StatelessWidget {
         const SizedBox(width: 4),
         Text(text, style: AppText.smallStrong),
       ],
+    ),
