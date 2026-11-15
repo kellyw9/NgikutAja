@@ -176,3 +176,4 @@ class MembersPage extends StatelessWidget {
             children: [
               for (var i = 0; i < trip.members.length; i++)
                 Tap(
+                  onTap: i == 0 || !ownerIsMe ? null : () => _detail(context, trip.members[i]),
