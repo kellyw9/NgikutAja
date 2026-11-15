@@ -67,3 +67,4 @@ class _PackingPageState extends State<PackingPage> {
       '${it.name} dihapus.',
       action: 'Urungkan',
       onAction: () {
+        g.items.insert(i.clamp(0, g.items.length), it);
