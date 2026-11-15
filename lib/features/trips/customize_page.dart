@@ -450,3 +450,4 @@ class _CustomizePageState extends State<CustomizePage> {
                           ),
                       ],
                     ),
+                  DashedAction('Tambah aktivitas', onTap: _add),
