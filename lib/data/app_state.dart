@@ -74,3 +74,4 @@ class AppState extends ChangeNotifier {
   late Set<String> interests;
 
   /// Akun demo: dinda.saragi@gmail.com / ngikutaja. Akun baru dari Register ikut tersimpan di perangkat.
+  final Map<String, String> _accounts = {'dinda.saragi@gmail.com': 'ngikutaja'};
