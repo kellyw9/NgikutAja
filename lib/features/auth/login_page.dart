@@ -206,3 +206,4 @@ class GoogleButton extends StatelessWidget {
       ),
     ),
   );
+}
