@@ -142,3 +142,4 @@ class _SearchPageState extends State<SearchPage> {
       children: [
         const TabHeader('Cari'),
         _searchRow(),
+        if (submitted == null || typing)
