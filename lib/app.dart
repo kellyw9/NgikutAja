@@ -28,3 +28,4 @@ class NgikutAjaApp extends StatelessWidget {
           final uri = Uri.parse(settings.name ?? '/');
           if (uri.path == '/reset-password') {
             return MaterialPageRoute(builder: (_) => NewPasswordPage(email: uri.queryParameters['email'] ?? ''));
+          }
