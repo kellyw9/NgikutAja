@@ -109,3 +109,4 @@ void main() {
       loader.addFont(rootBundle.load('assets/fonts/PlusJakartaSans-$w.ttf'));
     }
     await loader.load();
+  });
