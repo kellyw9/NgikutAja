@@ -8,3 +8,4 @@ class CheckinPage extends StatefulWidget {
   const CheckinPage({super.key, required this.trip, required this.day, required this.i});
   final Trip trip;
   final int day;
+  final int i;
