@@ -12,3 +12,4 @@ enum CardVariant { feed, row, grid }
 
 /// Rating + jumlah adopsi. Rating hanya tampil kalau datanya ada.
 class Proof extends StatelessWidget {
+  const Proof(this.it, {super.key, this.compact = false});
