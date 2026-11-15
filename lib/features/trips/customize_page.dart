@@ -229,3 +229,4 @@ class _CustomizePageState extends State<CustomizePage> {
       context,
       title: 'Catatan jadwal',
       sub: 'Hanya peringatan. Perubahan tetap bisa disimpan.',
+      scroll: true,
