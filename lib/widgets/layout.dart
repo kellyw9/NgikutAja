@@ -346,3 +346,4 @@ class BoxList extends StatelessWidget {
     clipBehavior: Clip.antiAlias,
     padding: EdgeInsets.symmetric(vertical: padV),
     decoration: BoxDecoration(
+      color: AppColors.surface,
