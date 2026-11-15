@@ -76,3 +76,5 @@ class _ItineraryDetailPageState extends State<ItineraryDetailPage> {
   int mapDay = 0;
   int day = 0;
   bool more = false;
+
+  @override
