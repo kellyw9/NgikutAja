@@ -91,3 +91,4 @@ class OfflinePage extends StatelessWidget {
                   avail(false, 'Komentar dan undangan anggota baru'),
                 ],
               ),
+            ],
