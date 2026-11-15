@@ -135,3 +135,4 @@ class _MapPainter extends CustomPainter {
         ..lineTo(1.05 * w, -.05 * h)
         ..close();
       canvas.drawPath(lake, Paint()..color = AppColors.mapWater);
+      final island = Path()
