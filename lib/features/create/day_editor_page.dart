@@ -295,3 +295,4 @@ class _StopCard extends StatelessWidget {
               ),
             ),
           ),
+        ),
