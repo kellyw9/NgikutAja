@@ -33,3 +33,5 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
   late bool paid = d.price > 0;
   bool tried = false;
   bool touched = false;
+
+  bool get titleOk => title.text.trim().isNotEmpty;
