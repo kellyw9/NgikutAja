@@ -70,3 +70,4 @@ class _SplitBudgetPageState extends State<SplitBudgetPage> {
                       NgChip('Kustom', selected: custom, onTap: () => setState(() => custom = true)),
                     ],
                   ),
+                  if (custom) ...[
