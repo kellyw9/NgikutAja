@@ -38,3 +38,5 @@ class Suggestion {
   final String sub;
   final void Function(List<List<Stop>> plan) apply;
 }
+
+class DayIssue {
