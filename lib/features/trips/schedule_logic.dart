@@ -153,3 +153,4 @@ int appendToDay(List<Stop> day, Stop s) {
   final last = day.isEmpty ? null : day.map((x) => x.endMin).reduce((a, b) => a > b ? a : b);
   final ns = last == null ? s.startMin : last + 15;
   s
+    ..start = fromMinutes(ns)
