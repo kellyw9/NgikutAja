@@ -482,3 +482,4 @@ class Seed {
         city: 'Yogyakarta',
         region: 'Yogyakarta, DIY',
         start: _d(-45),
+        cover: 'prambanan',
