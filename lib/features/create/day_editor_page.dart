@@ -180,3 +180,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
                           Text('Belum ada stop', style: AppText.h2),
                           const SizedBox(height: 6),
                           Text('Hari ini belum punya stop. Tambahkan minimal 1 stop.', style: AppText.body.muted, textAlign: TextAlign.center),
+                          const SizedBox(height: 14),
