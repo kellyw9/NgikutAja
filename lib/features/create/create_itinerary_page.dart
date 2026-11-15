@@ -309,3 +309,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
       child: DashedBox(
         radius: AppRadius.card,
         child: SizedBox(
+          height: 180,
