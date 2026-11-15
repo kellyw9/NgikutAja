@@ -189,3 +189,4 @@ class DialogAction {
 }
 
 /// Dialog: radius 12, tombol bertumpuk selebar dialog, aksi utama di atas.
+Future<Object?> showNgDialog(BuildContext context, {String? icon, required String title, required String body, required List<DialogAction> actions}) {
