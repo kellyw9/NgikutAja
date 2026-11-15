@@ -59,3 +59,4 @@ class _IconPainter extends CustomPainter {
   void paint(Canvas canvas, Size size) {
     final s = size.width / 960;
     canvas.save();
+    canvas.scale(s, s);
