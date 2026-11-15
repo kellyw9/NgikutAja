@@ -65,3 +65,4 @@ class _SplashPageState extends State<SplashPage> {
                       Text('Liburan tinggal ngikut.', style: AppText.title.white),
                     ],
                   ),
+                ),
