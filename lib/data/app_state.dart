@@ -413,3 +413,4 @@ class AppState extends ChangeNotifier {
     for (final n in notifications) {
       n.unread = false;
     }
+    notifyListeners();
