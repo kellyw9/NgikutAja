@@ -43,3 +43,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
         ListRow(
           icon: 'download_for_offline',
           title: 'Data offline',
+          padH: 0,
