@@ -399,3 +399,4 @@ class StatusView extends StatelessWidget {
               ],
             ),
           ),
+        ),
