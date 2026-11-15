@@ -54,3 +54,4 @@ class NgField extends StatefulWidget {
   final ValueChanged<String>? onSubmitted;
   final List<TextInputFormatter>? inputFormatters;
   final String? prefixText;
+  final TextInputAction? textInputAction;
