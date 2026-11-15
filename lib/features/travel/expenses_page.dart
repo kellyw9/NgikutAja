@@ -93,3 +93,4 @@ class ExpensesPage extends StatelessWidget {
                   children: [
                     Text('Total pengeluaran tercatat', style: AppText.small.muted),
                     const SizedBox(height: 4),
+                    Text(rp(trip.expenseTotal), style: AppText.display),
