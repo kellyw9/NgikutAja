@@ -202,3 +202,4 @@ class _CustomizePageState extends State<CustomizePage> {
         16,
         children: [
           NgField(label: 'Nomor hari', value: 'Hari $n', readOnly: true, fill: AppColors.surfaceSoft),
+          if (newDate != null)
