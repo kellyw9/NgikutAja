@@ -238,3 +238,4 @@ class _SearchPageState extends State<SearchPage> {
         for (final q in app.recentSearches)
           Tap(
             onTap: () => _submit(q),
+            child: SizedBox(
