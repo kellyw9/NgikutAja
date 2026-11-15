@@ -126,3 +126,4 @@ class NotificationsPage extends StatelessWidget {
                           decoration: const BoxDecoration(color: AppColors.negative, shape: BoxShape.circle),
                         ),
                       )
+                    : const SizedBox(width: 8),
