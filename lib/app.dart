@@ -43,3 +43,4 @@ ThemeData buildTheme() {
     onPrimary: AppColors.white,
     secondary: AppColors.teal,
     surface: AppColors.surface,
+    onSurface: AppColors.ink,
