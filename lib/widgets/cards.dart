@@ -647,3 +647,4 @@ class ProfileHead extends StatelessWidget {
         ],
       ),
     );
+  }
