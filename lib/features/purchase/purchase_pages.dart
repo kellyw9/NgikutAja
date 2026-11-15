@@ -121,3 +121,5 @@ class PurchaseDetailPage extends StatelessWidget {
 class PurchaseConfirmPage extends StatelessWidget {
   const PurchaseConfirmPage({super.key, required this.it});
   final Itinerary it;
+
+  @override
