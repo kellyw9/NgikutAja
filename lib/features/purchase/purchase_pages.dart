@@ -489,3 +489,4 @@ class PurchaseHistoryPage extends StatelessWidget {
                       const SizedBox(width: 12),
                       Text(rp(t.amount), style: AppText.bodyStrong),
                     ],
+                  ),
