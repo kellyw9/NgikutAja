@@ -53,3 +53,5 @@ class Seed {
       followers: 86,
       following: 112,
     );
+
+    creators = {
