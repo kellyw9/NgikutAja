@@ -29,3 +29,4 @@ class _ResetPasswordPageState extends State<ResetPasswordPage> {
   Timer? _t;
 
   Future<void> _send() async {
+    setState(() => err = validateEmail(email.text));
