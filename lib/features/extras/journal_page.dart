@@ -87,3 +87,4 @@ class _JournalPageState extends State<JournalPage> {
       appBar: NgAppBar(
         title: 'Trip journal',
         sub: t.title,
+        actions: [IconBtn('edit', label: 'Ubah cerita perjalanan', onTap: _editStory)],
