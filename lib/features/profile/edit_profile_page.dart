@@ -119,3 +119,4 @@ class _EditProfilePageState extends State<EditProfilePage> {
                   crossAxisAlignment: CrossAxisAlignment.stretch,
                   children: [
                     NgField(label: 'Bio', controller: bio, area: true, maxLength: 150, onChanged: (_) => setState(() {})),
+                    const SizedBox(height: 4),
