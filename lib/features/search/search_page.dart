@@ -218,3 +218,4 @@ class _SearchPageState extends State<SearchPage> {
                     width: 18,
                     height: 18,
                     alignment: Alignment.center,
+                    decoration: BoxDecoration(color: AppColors.ink, borderRadius: BorderRadius.circular(4)),
