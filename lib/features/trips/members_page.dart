@@ -146,3 +146,4 @@ class MembersPage extends StatelessWidget {
                   set(() => err = 'Isi username atau email anggota');
                   return;
                 }
+                if (trip.members.any((m) => m.handle.toLowerCase() == (v.startsWith('@') ? v : '@$v').toLowerCase())) {
