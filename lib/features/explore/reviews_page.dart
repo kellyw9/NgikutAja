@@ -210,3 +210,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
           children: [
             Container(height: 1, color: AppColors.line),
             if (replyTo != null)
+              Padding(
