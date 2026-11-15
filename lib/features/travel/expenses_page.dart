@@ -127,3 +127,4 @@ class ExpensesPage extends StatelessWidget {
                             padding: const EdgeInsets.symmetric(horizontal: 14),
                             child: Row(
                               children: [
+                                AppIcon(e.cat.icon, size: 22, color: AppColors.muted),
