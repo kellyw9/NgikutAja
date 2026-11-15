@@ -656,3 +656,4 @@ class Seed {
       Person('Dodi Ginting', '@dodiginting', 4),
       Person('Yohana Pardede', '@yohanapdd', 2),
     ];
+    followingPeople = [...followers];
