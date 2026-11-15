@@ -248,3 +248,4 @@ class PaidPreviewPage extends StatelessWidget {
     final app = AppScope.of(context);
     // Sudah dibeli selagi halaman ini terbuka: ganti ke detail lengkap.
     if (app.canOpen(it)) return ItineraryDetailPage(it: it);
+    final day1 = it.plan.isNotEmpty ? it.plan[0] : <Stop>[];
