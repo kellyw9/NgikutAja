@@ -254,3 +254,4 @@ class PaidPreviewPage extends StatelessWidget {
 
     return Scaffold(
       backgroundColor: AppColors.ground,
+      body: SingleChildScrollView(
