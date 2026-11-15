@@ -86,3 +86,4 @@ class WisataCard extends StatelessWidget {
             child: Row(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
+                Photo(it.cover, width: 88, height: 88, radius: AppRadius.inner),
