@@ -9,3 +9,4 @@ import 'publish_page.dart';
 /// Langkah 2: Editor Hari & Stop (+ state error: jam bentrok, hari tanpa stop).
 class DayEditorPage extends StatefulWidget {
   const DayEditorPage({super.key, required this.d});
+  final Itinerary d;
