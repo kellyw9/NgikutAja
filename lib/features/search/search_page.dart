@@ -26,3 +26,4 @@ class SearchFilter {
   int get count => [duration != null, budgetOn, rating != null, price != 'Semua'].where((x) => x).length;
 
   SearchFilter copy() => SearchFilter()
+    ..duration = duration
