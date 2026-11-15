@@ -365,3 +365,4 @@ class StopRow extends StatelessWidget {
                     ],
                   ),
                 ),
+                if (trailing != null) ...[
