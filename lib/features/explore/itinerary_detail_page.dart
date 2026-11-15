@@ -27,3 +27,4 @@ class _StatChip extends StatelessWidget {
   const _StatChip({required this.icon, required this.text, this.filled = false, required this.onTap, required this.label});
   final String icon;
   final String text;
+  final bool filled;
