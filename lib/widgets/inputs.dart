@@ -224,3 +224,4 @@ class NgToggle extends StatelessWidget {
     return Semantics(
       toggled: value,
       label: label,
+      button: true,
