@@ -371,3 +371,4 @@ class Seed {
         cover: 'soto',
         creator: me,
         price: 0,
+        adopted: 34,
