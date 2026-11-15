@@ -430,3 +430,4 @@ class Segmented extends StatelessWidget {
                 button: true,
                 child: Material(
                   color: items[i] == active ? AppColors.surface : Colors.transparent,
+                  shape: RoundedRectangleBorder(
