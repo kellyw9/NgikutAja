@@ -68,3 +68,4 @@ class _IconPainter extends CustomPainter {
         ..isAntiAlias = true,
     );
     canvas.restore();
+  }
