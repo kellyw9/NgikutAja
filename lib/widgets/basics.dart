@@ -393,3 +393,5 @@ class Pill extends StatelessWidget {
     PillKind.warning => (AppColors.yellowPale, AppColors.ink),
     PillKind.solid => (AppColors.ink, AppColors.white),
   };
+
+  @override
