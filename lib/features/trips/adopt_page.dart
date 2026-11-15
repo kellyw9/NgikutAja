@@ -17,3 +17,4 @@ class AdoptPage extends StatefulWidget {
 class _AdoptPageState extends State<AdoptPage> {
   late DateTime start = AppScope.read(context).today.add(const Duration(days: 7));
   bool dayBefore = true;
+  bool each = true;
