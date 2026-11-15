@@ -42,3 +42,4 @@ class TravelModePage extends StatelessWidget {
                         text: 'Kamu sedang offline. Jadwal dan catatan tetap bisa dibuka, check-in disimpan dulu di HP.',
                       ),
                     SizedBox(
+                      height: 56,
