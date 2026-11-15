@@ -35,3 +35,4 @@ class _PackingPageState extends State<PackingPage> {
   }
 
   Future<void> _edit(PackGroup g, PackItem it) async {
+    final c = TextEditingController(text: it.name);
