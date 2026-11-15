@@ -155,3 +155,4 @@ class PurchaseConfirmPage extends StatelessWidget {
 const _methods = [
   ('account_balance_wallet', 'E-Wallet', 'GoPay, OVO, DANA'),
   ('account_balance', 'Transfer Bank', 'Virtual account bank'),
+  ('qr_code_2', 'QRIS', 'Scan dari aplikasi mobile banking mana pun'),
