@@ -203,3 +203,4 @@ class MembersPage extends StatelessWidget {
                           ),
                           Pill(trip.members[i].role.label, kind: _kind(trip.members[i].role)),
                           const SizedBox(width: 8),
+                          i > 0 && ownerIsMe ? const AppIcon('chevron_right', size: 20, color: AppColors.muted) : const SizedBox(width: 20),
