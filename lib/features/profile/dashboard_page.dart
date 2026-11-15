@@ -116,3 +116,4 @@ class DashboardPage extends StatelessWidget {
                                       ),
                                     ),
                                     const SizedBox(width: 12),
+                                    Text(rp(x.price * app.salesOf(x)), style: AppText.bodyStrong),
