@@ -198,3 +198,4 @@ class _PaymentPageState extends State<PaymentPage> {
     canPop: !processing,
     child: Scaffold(
       backgroundColor: AppColors.ground,
+      appBar: NgAppBar(title: 'Pembayaran', sub: 'Total ${rp(widget.it.price)}'),
