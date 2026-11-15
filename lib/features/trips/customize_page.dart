@@ -372,3 +372,4 @@ class _CustomizePageState extends State<CustomizePage> {
               child: Gap(
                 14,
                 children: [
+                  if (conflicts.isNotEmpty)
