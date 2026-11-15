@@ -238,3 +238,4 @@ class NgToggle extends StatelessWidget {
               focusColor: AppColors.teal.withValues(alpha: .35),
               child: SizedBox(
                 width: 52,
+                height: 32,
