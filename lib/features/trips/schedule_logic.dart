@@ -83,3 +83,4 @@ List<String> shiftCascade(List<Stop> day, Stop target, int newStart) {
         DayIssue(
           day: d,
           conflict: true,
+          title: 'Jadwal bertabrakan di Hari ${d + 1}',
