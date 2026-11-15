@@ -29,3 +29,4 @@ class _PhotoPreviewPageState extends State<PhotoPreviewPage> {
     final stops = t.plan[widget.day];
     final st = stop != null && stop! < stops.length ? stops[stop!] : null;
     return Scaffold(
+      backgroundColor: AppColors.ground,
