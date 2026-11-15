@@ -29,3 +29,4 @@ class _Calendar extends StatefulWidget {
   const _Calendar({required this.initial, required this.days, required this.first});
   final DateTime initial;
   final int days;
+  final DateTime first;
