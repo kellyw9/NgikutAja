@@ -295,3 +295,4 @@ class RadioRow extends StatelessWidget {
     child: Opacity(
       opacity: enabled ? 1 : .6,
       child: Tap(
+        onTap: enabled ? onTap : null,
