@@ -260,3 +260,4 @@ class _AddStopPageState extends State<AddStopPage> {
                   'Hapus stop',
                   kind: BtnKind.dangerText,
                   icon: 'delete',
+                  expand: true,
