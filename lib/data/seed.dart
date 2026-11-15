@@ -652,3 +652,4 @@ class Seed {
     followers = [
       Person('Kevin Tambunan', '@kevintbn', 2),
       Person('Sari Lubis', '@sarilubis', 3),
+      Person('Putri Hasibuan', '@putrihsb', 1),
