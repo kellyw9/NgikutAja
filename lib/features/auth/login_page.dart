@@ -7,3 +7,5 @@ import 'register_page.dart';
 import 'reset_password_page.dart';
 
 final _emailRe = RegExp(r'^[^@\s]+@[^@\s]+\.[^@\s]+$');
+
+String? validateEmail(String v) {
