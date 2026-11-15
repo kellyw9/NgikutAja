@@ -43,3 +43,4 @@ class _AddStopPageState extends State<AddStopPage> {
       ..photo = photo
       ..address = address;
     Navigator.pop(context, StopEditResult(stop: out));
+  }
