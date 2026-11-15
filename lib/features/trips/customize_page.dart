@@ -111,3 +111,4 @@ class _CustomizePageState extends State<CustomizePage> {
             final lastEnd = dest == null || plan[dest].isEmpty ? null : plan[dest].map((s) => s.endMin).reduce((a, b) => a > b ? a : b);
             return Gap(
               16,
+              children: [
