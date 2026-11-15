@@ -272,3 +272,4 @@ class _CustomizePageState extends State<CustomizePage> {
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
+                        Text(s.title, style: AppText.bodyStrong),
