@@ -56,3 +56,4 @@ class TravelModePage extends StatelessWidget {
                               height: 28,
                               padding: const EdgeInsets.only(left: 6, right: 10),
                               decoration: BoxDecoration(color: AppColors.inkRaised, borderRadius: BorderRadius.circular(AppRadius.tag)),
+                              child: Row(
