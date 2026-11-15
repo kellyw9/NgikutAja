@@ -5,3 +5,4 @@ import '../../widgets/ui.dart';
 /// 7.3 Local Tips.
 class TipsPage extends StatelessWidget {
   const TipsPage({super.key, required this.trip});
+  final Trip trip;
