@@ -351,3 +351,4 @@ class _PaymentStatusPageState extends State<PaymentStatusPage> {
             icon: 'check',
             tone: AppColors.positivePale,
             iconColor: AppColors.positiveInk,
+            title: 'Pembayaran berhasil',
