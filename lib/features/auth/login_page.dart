@@ -76,3 +76,4 @@ class _LoginPageState extends State<LoginPage> {
           top: !widget.popOnSuccess,
           child: LayoutBuilder(
             builder: (context, c) => SingleChildScrollView(
+              padding: const EdgeInsets.fromLTRB(kMargin, 24, kMargin, 24),
