@@ -31,3 +31,4 @@ Future<String?> pickPhoto(PhotoSource source) async {
     maxWidth: 1600,
     imageQuality: 85,
   );
+  if (x == null) return null;
