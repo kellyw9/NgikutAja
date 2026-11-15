@@ -57,3 +57,4 @@ class _CustomizePageState extends State<CustomizePage> {
     final r = await showNgDialog(
       context,
       title: 'Buang perubahan?',
+      body: 'Ada $changes perubahan yang belum disimpan.',
