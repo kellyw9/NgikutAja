@@ -52,3 +52,4 @@ class ProfilePage extends StatelessWidget {
               ListRow(
                 icon: 'bar_chart',
                 title: 'Creator dashboard',
+                sub: 'Pendapatan ${rp(app.revenue)} (simulasi)',
