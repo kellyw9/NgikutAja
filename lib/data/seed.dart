@@ -303,3 +303,4 @@ class Seed {
         tags: ['Kuliner'],
         placesSeed: 6,
         publishedAt: _d(-45),
+      ),
