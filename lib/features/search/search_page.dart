@@ -502,3 +502,4 @@ class _SearchPageState extends State<SearchPage> {
                 'Harga itinerary',
                 Wrap(
                   spacing: 8,
+                  children: [
