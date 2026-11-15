@@ -177,3 +177,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
                           if (c.creator) const Pill('Creator', kind: PillKind.teal),
                           Text(c.time, style: AppText.small.muted),
                         ],
+                      ),
