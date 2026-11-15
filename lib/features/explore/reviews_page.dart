@@ -214,3 +214,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
                 padding: const EdgeInsets.fromLTRB(kMargin, 6, 4, 0),
                 child: Row(
                   children: [
+                    Expanded(child: Text('Membalas $replyTo', style: AppText.small.muted)),
