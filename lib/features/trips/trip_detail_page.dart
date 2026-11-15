@@ -80,3 +80,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
               const SizedBox(height: 4),
               MetaRow([(st.cat.icon, st.cat.label), ('schedule', '${st.start}–${st.end}'), ('payments', st.cost > 0 ? rp(st.cost) : 'Gratis')]),
             ],
+          ),
