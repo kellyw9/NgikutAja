@@ -112,3 +112,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
               Expanded(
                 child: NgButton(
                   'Buka di peta',
+                  icon: 'map',
