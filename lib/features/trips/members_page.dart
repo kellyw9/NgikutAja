@@ -199,3 +199,4 @@ class MembersPage extends StatelessWidget {
                                 const SizedBox(height: 2),
                                 Text(trip.members[i].handle, style: AppText.small.muted),
                               ],
+                            ),
