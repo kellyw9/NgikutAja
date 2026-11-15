@@ -124,3 +124,4 @@ void main() {
     await tester.pump(const Duration(milliseconds: 300));
     expect(find.text('Memproses pembayaran...'), findsOneWidget);
     await tester.pump(const Duration(seconds: 2));
+    await tester.pumpAndSettle();
