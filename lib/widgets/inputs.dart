@@ -185,3 +185,4 @@ class _NgFieldState extends State<NgField> {
               const SizedBox(width: 6),
               Expanded(child: Text(widget.error!, style: AppText.small.c(AppColors.negative))),
             ],
+          ),
