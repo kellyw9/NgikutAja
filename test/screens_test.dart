@@ -121,3 +121,4 @@ void main() {
           ..onboarded = true
           ..loggedIn = true;
         await tester.pumpWidget(
+          AppScope(
