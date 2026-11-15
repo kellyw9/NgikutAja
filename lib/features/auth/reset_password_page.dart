@@ -161,3 +161,4 @@ class _NewPasswordPageState extends State<NewPasswordPage> {
       backgroundColor: AppColors.ground,
       appBar: NgAppBar(back: 'close', onBack: () => resetTo(context, const LoginPage())),
       body: SafeArea(
+        top: false,
