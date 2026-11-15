@@ -181,3 +181,4 @@ class Seed {
       dayTitles: ['Kapal, Tuktuk, dan Holbung', 'Desa adat dan pulang'],
       plan: [
         [
+          _s('08.00', '09.00', 'Kapal dari Pelabuhan Ajibata', _l, 15000, null, 'Kapal berangkat tiap jam. Duduk di dek atas.'),
