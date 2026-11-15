@@ -113,3 +113,4 @@ class _EditProfilePageState extends State<EditProfilePage> {
                   onChanged: (_) => setState(() {}),
                   trailing: uErr == null ? const AppIcon('check_circle', size: 20, color: AppColors.positive, filled: true) : null,
                   helper: uErr == null ? 'Username tersedia.' : null,
+                  error: uErr,
