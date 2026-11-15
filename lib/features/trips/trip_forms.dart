@@ -298,3 +298,4 @@ class _EditTripInfoPageState extends State<EditTripInfoPage> {
               NgField(
                 label: 'Judul',
                 controller: title,
+                error: tried && title.text.trim().isEmpty ? 'Judul wajib diisi' : null,
