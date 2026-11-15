@@ -42,3 +42,4 @@ class SettingsPage extends StatelessWidget {
           children: [
             Expanded(
               child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
