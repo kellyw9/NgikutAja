@@ -120,3 +120,4 @@ class _CustomizePageState extends State<CustomizePage> {
                       Marker(i + 1),
                       const SizedBox(width: 10),
                       Expanded(
+                        child: Column(
