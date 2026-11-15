@@ -93,3 +93,4 @@ class _LoginPageState extends State<LoginPage> {
                           const SizedBox(height: 24),
                           const NgBanner(
                             kind: BannerKind.error,
+                            title: 'Email atau password salah',
