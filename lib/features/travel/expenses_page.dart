@@ -19,3 +19,4 @@ class ExpensesPage extends StatelessWidget {
     final app = AppScope.read(context);
     final n = trip.members.length;
     showNgSheet<void>(
+      context,
