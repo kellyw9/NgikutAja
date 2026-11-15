@@ -203,3 +203,4 @@ class _ItineraryDetailPageState extends State<ItineraryDetailPage> {
                   if (dayStops.isEmpty)
                     Text('Creator belum menulis jadwal untuk hari ini.', style: AppText.body.muted)
                   else
+                    for (var i = 0; i < dayStops.length; i++) StopRow(dayStops[i], n: i + 1, last: i == dayStops.length - 1),
