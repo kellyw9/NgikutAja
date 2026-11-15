@@ -541,3 +541,4 @@ class _SearchPageState extends State<SearchPage> {
         // "Semua kota": tampilkan semua itinerary yang lolos filter.
         setState(() {
           input.clear();
+          submitted = '';
