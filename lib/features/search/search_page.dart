@@ -513,3 +513,4 @@ class _SearchPageState extends State<SearchPage> {
                 child: Row(
                   children: [
                     NgButton(
+                      'Reset',
