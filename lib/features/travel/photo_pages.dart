@@ -6,3 +6,4 @@ import '../../widgets/ui.dart';
 Future<void> addTripPhoto(BuildContext context, Trip trip, int day) async {
   final p = await pickPhotoSheet(context, title: 'Tambah foto perjalanan');
   if (p == null || p.isEmpty || !context.mounted) return;
+  push(context, PhotoPreviewPage(trip: trip, day: day, src: p), fullscreen: true);
