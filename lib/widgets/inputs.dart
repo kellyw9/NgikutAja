@@ -48,3 +48,4 @@ class NgField extends StatefulWidget {
   final bool area;
   final bool readOnly;
   final bool obscure;
+  final TextInputType? keyboardType;
