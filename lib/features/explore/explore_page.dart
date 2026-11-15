@@ -186,3 +186,4 @@ class Bell extends StatelessWidget {
             ),
           ),
       ],
+    );
