@@ -157,3 +157,4 @@ class _NgFieldState extends State<NgField> {
 
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
+      mainAxisSize: MainAxisSize.min,
