@@ -120,3 +120,4 @@ class OfflinePage extends StatelessWidget {
               );
             },
           ),
+        ),
