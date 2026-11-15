@@ -179,3 +179,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
                 if (it != null)
                   Tap(
                     onTap: () => openItinerary(context, it),
+                    radius: 4,
