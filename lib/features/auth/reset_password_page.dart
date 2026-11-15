@@ -168,3 +168,4 @@ class _NewPasswordPageState extends State<NewPasswordPage> {
             child: ConstrainedBox(
               constraints: BoxConstraints(minHeight: c.maxHeight - 24),
               child: IntrinsicHeight(
+                child: Column(
