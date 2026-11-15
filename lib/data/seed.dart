@@ -59,3 +59,4 @@ class Seed {
         id: 'rahmat',
         name: 'Rahmat Siregar',
         handle: '@jalanjalanmedan',
+        tint: 1,
