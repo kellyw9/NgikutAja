@@ -196,3 +196,4 @@ class _PaymentPageState extends State<PaymentPage> {
   @override
   Widget build(BuildContext context) => PopScope(
     canPop: !processing,
+    child: Scaffold(
