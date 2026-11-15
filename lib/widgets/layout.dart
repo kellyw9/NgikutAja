@@ -240,3 +240,4 @@ class KeyValueBox extends StatelessWidget {
   final Color fill;
 
   @override
+  Widget build(BuildContext context) => Container(
