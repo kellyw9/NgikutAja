@@ -165,3 +165,4 @@ class _OnboardingPageState extends State<OnboardingPage> {
 
   Widget _interests() => _scroll([
     Text('Kamu suka liburan yang seperti apa?', style: AppText.h1),
+    const SizedBox(height: 12),
