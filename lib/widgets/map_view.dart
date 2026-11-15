@@ -160,3 +160,4 @@ class _MapPainter extends CustomPainter {
       canvas.drawPath(
         shore,
         road
+          ..strokeWidth = 7
