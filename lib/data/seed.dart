@@ -13,3 +13,5 @@ class Seed {
   Seed(this.now) : today = DateTime(now.year, now.month, now.day) {
     _build();
   }
+
+  final DateTime now;
