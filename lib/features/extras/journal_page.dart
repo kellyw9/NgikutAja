@@ -59,3 +59,4 @@ class _JournalPageState extends State<JournalPage> {
     title.dispose();
     text.dispose();
     if (r != true || tx.isEmpty || !mounted) return;
+    if (e == null) {
