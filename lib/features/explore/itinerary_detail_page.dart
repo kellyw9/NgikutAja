@@ -307,3 +307,4 @@ class PaidPreviewPage extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
+                          Text('Hari 2: ${it.dayTitle(1)}', style: AppText.title.muted),
