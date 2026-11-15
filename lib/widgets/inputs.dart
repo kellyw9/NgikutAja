@@ -15,3 +15,4 @@ class NgField extends StatefulWidget {
     this.label,
     this.controller,
     this.value,
+    this.hint = '',
