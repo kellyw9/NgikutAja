@@ -18,3 +18,4 @@ class NgikutAjaApp extends StatelessWidget {
       child: MaterialApp(
         title: 'NgikutAja',
         debugShowCheckedModeBanner: false,
+        theme: buildTheme(),
