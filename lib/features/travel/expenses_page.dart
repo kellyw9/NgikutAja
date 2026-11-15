@@ -60,3 +60,4 @@ class ExpensesPage extends StatelessWidget {
                   'Edit',
                   kind: BtnKind.secondary,
                   icon: 'edit',
+                  expand: true,
