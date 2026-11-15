@@ -255,3 +255,4 @@ class KeyValueBox extends StatelessWidget {
             child: Row(
               children: [
                 Text(r.$1, style: AppText.body.muted),
+                const SizedBox(width: 12),
