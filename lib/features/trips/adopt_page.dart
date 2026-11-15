@@ -113,3 +113,4 @@ class _AdoptPageState extends State<AdoptPage> {
                 helper: 'Trip selesai ${dateLong(end)} (${it.days} hari).',
                 onTap: () async {
                   final d = await pickDate(context, initial: start, days: it.days);
+                  if (d != null) setState(() => start = d);
