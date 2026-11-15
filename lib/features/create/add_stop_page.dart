@@ -41,3 +41,4 @@ class _AddStopPageState extends State<AddStopPage> {
       ..cost = parseRupiah(cost.text)
       ..note = note.text.trim().isEmpty ? null : note.text.trim()
       ..photo = photo
+      ..address = address;
