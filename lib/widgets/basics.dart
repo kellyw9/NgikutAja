@@ -426,3 +426,4 @@ class PriceTag extends StatelessWidget {
       mainAxisSize: MainAxisSize.min,
       children: [
         const AppIcon('sell', size: 16),
+        const SizedBox(width: 4),
