@@ -23,3 +23,5 @@ class TravelModePage extends StatelessWidget {
     final date = t.dayDate(day);
     final done = t.visited();
     final total = t.places();
+
+    return AnnotatedRegion(
