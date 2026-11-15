@@ -154,3 +154,4 @@ class MembersPage extends StatelessWidget {
                 Navigator.pop(ctx);
                 showNgSnack(context, 'Undangan terkirim ke $v.', kind: SnackKind.success);
               },
+            ),
