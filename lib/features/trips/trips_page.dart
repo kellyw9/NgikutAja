@@ -108,3 +108,4 @@ class TripsPage extends StatelessWidget {
               decoration: BoxDecoration(color: AppColors.ground, borderRadius: BorderRadius.circular(AppRadius.inner)),
               child: Row(
                 children: [
+                  const AppIcon('event', size: 18),
