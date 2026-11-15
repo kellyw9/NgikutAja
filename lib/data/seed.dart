@@ -602,3 +602,4 @@ class Seed {
         time: '$yday 15.20',
         today: false,
       ),
+      AppNotification(
