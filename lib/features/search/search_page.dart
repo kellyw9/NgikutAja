@@ -47,3 +47,4 @@ class SearchFilter {
       '4,5+' => 4.5,
       _ => null,
     };
+    if (min != null && (it.rating ?? 0) < min) return false;
