@@ -36,3 +36,5 @@ class NgField extends StatefulWidget {
     this.focusNode,
     this.fill,
   });
+
+  final String? label;
