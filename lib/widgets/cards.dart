@@ -261,3 +261,4 @@ class TripCard extends StatelessWidget {
     clipBehavior: Clip.antiAlias,
     child: Column(
       children: [
+        Tap(
