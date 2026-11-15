@@ -48,3 +48,4 @@ class _RegisterPageState extends State<RegisterPage> {
     await AppScope.read(context).register(name.text, email.text, pass.text);
     if (!mounted) return;
     if (widget.popOnSuccess) {
+      Navigator.pop(context);
