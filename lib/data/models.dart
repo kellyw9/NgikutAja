@@ -321,3 +321,5 @@ class Trip {
   int get expenseTotal => expenses.fold(0, (a, e) => a + e.amount);
   bool isChecked(int day, int i) => checkins.containsKey('$day-$i');
   int dayCost(int d) => plan[d].fold(0, (a, s) => a + s.cost);
+
+  String dayTitle(int d) => d < dayTitles.length && dayTitles[d].isNotEmpty ? dayTitles[d] : 'Hari ${d + 1}';
