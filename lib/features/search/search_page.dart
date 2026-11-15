@@ -80,3 +80,4 @@ class _SearchPageState extends State<SearchPage> {
   void _onRequest() {
     final r = searchRequest.value;
     if (r == null) return;
+    searchRequest.value = null;
