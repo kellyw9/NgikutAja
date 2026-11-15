@@ -115,3 +115,4 @@ class _CalendarState extends State<_Calendar> {
             Row(
               children: [
                 for (final d in weekdaysShort)
+                  Expanded(
