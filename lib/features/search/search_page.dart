@@ -270,3 +270,4 @@ class _SearchPageState extends State<SearchPage> {
           spacing: 8,
           runSpacing: 8,
           children: [for (final c in AppState.cities) NgChip(c.name, icon: 'location_on', onTap: () => _submit(c.name))],
+        ),
