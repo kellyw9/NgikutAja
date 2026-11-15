@@ -49,3 +49,4 @@ String fromMinutes(int m) {
 /// "1 jam 30 menit", "2 jam", "45 menit"
 String durationText(int minutes) {
   final h = minutes ~/ 60, m = minutes % 60;
+  if (h == 0) return '$m menit';
