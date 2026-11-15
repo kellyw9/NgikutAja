@@ -132,3 +132,4 @@ class _JournalPageState extends State<JournalPage> {
                   if (e.text.isNotEmpty) Text(e.text, style: AppText.body),
                   if (e.photos.isNotEmpty)
                     Row(
+                      children: [
