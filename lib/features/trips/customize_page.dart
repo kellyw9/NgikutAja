@@ -367,3 +367,4 @@ class _CustomizePageState extends State<CustomizePage> {
               onTap: (d) => setState(() => day = d),
               onAdd: _addDay,
             ),
+            Padding(
