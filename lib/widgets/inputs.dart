@@ -67,3 +67,4 @@ class NgField extends StatefulWidget {
 
 class _NgFieldState extends State<NgField> {
   late final FocusNode _focus = widget.focusNode ?? FocusNode();
+  bool _focused = false;
