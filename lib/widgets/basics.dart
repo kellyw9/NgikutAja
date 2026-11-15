@@ -560,3 +560,4 @@ class Marker extends StatelessWidget {
         MarkerState.done => AppIcon('check', size: size * .66, color: AppColors.white),
         MarkerState.locked => AppIcon('lock', size: 14, color: AppColors.muted),
         _ => Text('$n', style: AppText.smallStrong.c(fg)),
+      },
