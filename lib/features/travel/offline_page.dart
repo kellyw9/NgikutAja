@@ -76,3 +76,4 @@ class OfflinePage extends StatelessWidget {
               Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
+                  Text('Bisa dibuka tanpa sinyal', style: AppText.h2),
