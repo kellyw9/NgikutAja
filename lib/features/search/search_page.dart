@@ -253,3 +253,4 @@ class _SearchPageState extends State<SearchPage> {
                       size: 40,
                       iconSize: 18,
                       color: AppColors.muted,
+                      onTap: () => app.removeRecent(q),
