@@ -319,3 +319,4 @@ class Seed {
         publishedAt: _d(-200),
       ),
       Itinerary(
+        id: 'medantoba',
