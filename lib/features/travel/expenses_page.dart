@@ -220,3 +220,5 @@ class _AddExpensePageState extends State<AddExpensePage> {
     Navigator.pop(context);
     showNgSnack(context, 'Pengeluaran tersimpan.', kind: SnackKind.success);
   }
+
+  @override
