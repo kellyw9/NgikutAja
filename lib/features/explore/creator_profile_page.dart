@@ -25,3 +25,4 @@ class _CreatorProfilePageState extends State<CreatorProfilePage> {
     return Scaffold(
       backgroundColor: AppColors.ground,
       appBar: NgAppBar(
+        actions: [
