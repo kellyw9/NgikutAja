@@ -322,3 +322,4 @@ class PaidPreviewPage extends StatelessWidget {
                       border: Border.all(color: AppColors.ink, width: 1.5),
                     ),
                     child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
