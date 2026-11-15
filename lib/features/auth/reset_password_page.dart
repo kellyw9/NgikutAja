@@ -162,3 +162,4 @@ class _NewPasswordPageState extends State<NewPasswordPage> {
       appBar: NgAppBar(back: 'close', onBack: () => resetTo(context, const LoginPage())),
       body: SafeArea(
         top: false,
+        child: LayoutBuilder(
