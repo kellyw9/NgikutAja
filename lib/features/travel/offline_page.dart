@@ -119,3 +119,4 @@ class OfflinePage extends StatelessWidget {
                 kind: saved.isEmpty ? SnackKind.neutral : SnackKind.success,
               );
             },
+          ),
