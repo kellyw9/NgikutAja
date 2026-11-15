@@ -425,3 +425,4 @@ class NavigationPage extends StatelessWidget {
                           Text(st.address ?? trip.region, style: AppText.small.muted),
                         ],
                       ),
+                    ),
