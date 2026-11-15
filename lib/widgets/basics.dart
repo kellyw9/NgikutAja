@@ -137,3 +137,4 @@ class IconBtn extends StatelessWidget {
       button: true,
       label: label,
       child: Tooltip(
+        message: label,
