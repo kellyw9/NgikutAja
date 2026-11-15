@@ -157,3 +157,4 @@ class _CustomizePageState extends State<CustomizePage> {
                     style: AppText.small.muted,
                   ),
                 NgButton(
+                  dest == null ? 'Tambah hari dulu' : 'Pindahkan ke Hari ${dest + 1}',
