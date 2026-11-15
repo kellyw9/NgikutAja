@@ -139,3 +139,4 @@ void main() {
       tester.view.physicalSize = const Size(360, 740) * 3;
       tester.view.devicePixelRatio = 3;
       addTearDown(tester.view.reset);
+      final s = AppState(null, now: DateTime(2026, 11, 4, 9, 41), watchNetwork: false)
