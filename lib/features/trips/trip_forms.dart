@@ -135,3 +135,4 @@ class _EditStopPageState extends State<EditStopPage> {
                   ),
                   const SizedBox(width: 12),
                   Expanded(
+                    child: NgField(
