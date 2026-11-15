@@ -66,3 +66,4 @@ class NgButton extends StatelessWidget {
           AppIcon(icon!, size: 20, color: color),
           const SizedBox(width: 8),
         ],
+        Flexible(
