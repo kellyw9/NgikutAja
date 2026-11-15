@@ -215,3 +215,4 @@ class _SearchPageState extends State<SearchPage> {
                 top: -2,
                 child: IgnorePointer(
                   child: Container(
+                    width: 18,
