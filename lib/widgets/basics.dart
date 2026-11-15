@@ -624,3 +624,4 @@ class Stars extends StatelessWidget {
     child: Row(
       mainAxisSize: MainAxisSize.min,
       children: [
+        for (var k = 1; k <= 5; k++) ...[
