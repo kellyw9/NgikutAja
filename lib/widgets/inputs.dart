@@ -436,3 +436,4 @@ class Segmented extends StatelessWidget {
                   ),
                   clipBehavior: Clip.antiAlias,
                   child: InkWell(
+                    onTap: () => onChanged(items[i]),
