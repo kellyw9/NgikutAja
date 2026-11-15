@@ -185,3 +185,4 @@ class WisataCard extends StatelessWidget {
 }
 
 /// Dua kolom Card Wisata grid.
+class Grid2 extends StatelessWidget {
