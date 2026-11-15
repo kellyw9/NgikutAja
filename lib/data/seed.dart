@@ -342,3 +342,4 @@ class Seed {
         creator: me,
         price: 20000,
         adopted: 18,
+        likes: 52,
