@@ -89,3 +89,4 @@ class NotificationsPage extends StatelessWidget {
                         ],
                       ),
                     ),
+                    const SizedBox(height: 4),
