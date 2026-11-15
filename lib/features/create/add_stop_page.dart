@@ -49,3 +49,5 @@ class _AddStopPageState extends State<AddStopPage> {
     final r = await push<String>(context, PickLocationPage(query: name.text.trim(), city: widget.city, photo: photo), fullscreen: true);
     if (r != null) setState(() => address = r);
   }
+
+  @override
