@@ -70,3 +70,4 @@ class _HomeShellState extends State<HomeShell> {
 class BottomNav extends StatelessWidget {
   const BottomNav({super.key, required this.active, required this.onTap});
   final int active;
+  final ValueChanged<int> onTap;
