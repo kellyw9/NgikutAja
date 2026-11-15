@@ -351,3 +351,4 @@ enum TxStatus {
 
   const TxStatus(this.label);
   final String label;
+}
