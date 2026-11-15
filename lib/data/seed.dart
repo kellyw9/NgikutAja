@@ -311,3 +311,4 @@ class Seed {
         region: 'Medan, Sumatera Utara',
         days: 1,
         cover: 'tjongafie',
+        creator: c['rahmat']!,
