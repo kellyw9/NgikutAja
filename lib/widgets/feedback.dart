@@ -289,3 +289,4 @@ class ErrorBlock extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text('Gagal memuat', style: AppText.bodyStrong),
+              const SizedBox(height: 2),
