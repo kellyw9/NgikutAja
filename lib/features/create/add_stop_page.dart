@@ -209,3 +209,4 @@ class _AddStopPageState extends State<AddStopPage> {
                               final p = await pickPhotoSheet(context, title: 'Foto referensi');
                               if (p != null && p.isNotEmpty) setState(() => photo = p);
                             },
+                            radius: AppRadius.card,
