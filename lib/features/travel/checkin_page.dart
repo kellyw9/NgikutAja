@@ -31,3 +31,4 @@ class _CheckinPageState extends State<CheckinPage> {
     ];
 
     return Scaffold(
+      backgroundColor: AppColors.ground,
