@@ -87,3 +87,4 @@ class _SplitBudgetPageState extends State<SplitBudgetPage> {
                                 children: [
                                   Avatar(m.name, size: 36, tint: m.tint),
                                   const SizedBox(width: 12),
+                                  Expanded(
