@@ -48,3 +48,4 @@ class NgBanner extends StatelessWidget {
                 ],
               ),
             ),
+            if (action != null) ...[
