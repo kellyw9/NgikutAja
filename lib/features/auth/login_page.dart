@@ -178,3 +178,4 @@ class _LoginPageState extends State<LoginPage> {
 }
 
 class GoogleButton extends StatelessWidget {
+  const GoogleButton({super.key, required this.label, required this.onTap});
