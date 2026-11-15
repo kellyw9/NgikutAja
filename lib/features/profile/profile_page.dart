@@ -61,3 +61,4 @@ class ProfilePage extends StatelessWidget {
                 sub: '${app.transactions.length} transaksi',
                 onTap: () => push(context, const PurchaseHistoryPage()),
               ),
+            ],
