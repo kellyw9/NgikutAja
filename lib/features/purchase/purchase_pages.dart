@@ -231,3 +231,4 @@ class _PaymentPageState extends State<PaymentPage> {
                                       crossAxisAlignment: CrossAxisAlignment.start,
                                       children: [
                                         Text(title, style: AppText.bodyStrong),
+                                        const SizedBox(height: 2),
