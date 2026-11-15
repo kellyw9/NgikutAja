@@ -62,3 +62,4 @@ class _CheckinPageState extends State<CheckinPage> {
                   text: 'Posisimu (simulasi) 40 m dari titik ${st.name}. Batas check-in 100 m.',
                 )
               else
+                const NgBanner(
