@@ -148,3 +148,4 @@ Future<Category?> pickCategory(BuildContext context, Category current) {
     builder: (ctx) => Column(
       children: [
         for (var i = 0; i < Category.values.length; i++) ...[
+          if (i > 0) const NgDivider(inset: 40, color: AppColors.line),
