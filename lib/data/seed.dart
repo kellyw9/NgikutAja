@@ -281,3 +281,4 @@ class Seed {
         creator: c['nadia']!,
         price: 0,
         adopted: 129,
+        likes: 266,
