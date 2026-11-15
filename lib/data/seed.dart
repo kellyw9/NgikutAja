@@ -119,3 +119,4 @@ class Seed {
       region: 'Medan, Sumatera Utara',
       days: 3,
       cover: 'maimun',
+      creator: c['rahmat']!,
