@@ -20,3 +20,4 @@ class NgField extends StatefulWidget {
     this.trailing,
     this.helper,
     this.error,
+    this.area = false,
