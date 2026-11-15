@@ -129,3 +129,4 @@ class _EditStopPageState extends State<EditStopPage> {
                       value: start,
                       onTap: () async {
                         final t = await pickTime(context, start);
+                        if (t != null) setState(() => start = t);
