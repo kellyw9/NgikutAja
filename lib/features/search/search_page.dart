@@ -321,3 +321,4 @@ class _SearchPageState extends State<SearchPage> {
             ),
             const SizedBox(width: 12),
             Expanded(
+              child: Column(
