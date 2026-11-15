@@ -442,3 +442,4 @@ class _CustomizePageState extends State<CustomizePage> {
                                 spacing: 16,
                                 children: [
                                   TextLink('Edit', style: AppText.smallStrong, onTap: () => _edit(i)),
+                                  TextLink('Pindahkan', style: AppText.smallStrong, onTap: () => _move(i)),
