@@ -104,3 +104,4 @@ class DashboardPage extends StatelessWidget {
                                   children: [
                                     Photo(x.cover, width: 52, height: 52, radius: AppRadius.inner),
                                     const SizedBox(width: 12),
+                                    Expanded(
