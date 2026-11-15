@@ -70,3 +70,4 @@ class MembersPage extends StatelessWidget {
             NgButton(
               'Hapus dari trip',
               kind: BtnKind.dangerText,
+              icon: 'person_remove',
