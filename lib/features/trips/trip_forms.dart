@@ -31,3 +31,4 @@ class EditStopPage extends StatefulWidget {
   final String defaultStart;
 
   @override
+  State<EditStopPage> createState() => _EditStopPageState();
