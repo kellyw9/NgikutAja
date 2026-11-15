@@ -18,3 +18,4 @@ class TipsPage extends StatelessWidget {
         padding: const EdgeInsets.fromLTRB(kMargin, 8, kMargin, 16),
         children: [
           if (tips.isEmpty)
+            EmptyState(icon: 'lightbulb', title: 'Belum ada tips untuk ${trip.city}', text: 'Tips dari creator dan komunitas akan muncul di sini.')
