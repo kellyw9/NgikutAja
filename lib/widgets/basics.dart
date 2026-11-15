@@ -303,3 +303,4 @@ class _DashPainter extends CustomPainter {
       var d = 0.0;
       while (d < m.length) {
         canvas.drawPath(m.extractPath(d, d + 6), paint);
+        d += 10;
