@@ -277,3 +277,4 @@ class TripCard extends StatelessWidget {
                         children: [
                           Pill(status.label, kind: tripPill(status)),
                           const SizedBox(width: 8),
+                          Text('$days hari', style: AppText.small.muted),
