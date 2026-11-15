@@ -359,3 +359,4 @@ class NgChip extends StatelessWidget {
   final String label;
   final bool selected;
   final String? icon;
+  final bool close;
