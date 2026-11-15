@@ -228,3 +228,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
                         paid = v == 'Berbayar';
                         touched = true;
                       }),
+                    ),
