@@ -335,3 +335,4 @@ class _CustomizePageState extends State<CustomizePage> {
                           Text(t.title, style: AppText.bodyStrong, maxLines: 1, overflow: TextOverflow.ellipsis),
                           const SizedBox(height: 2),
                           Text(
+                            t.start == null ? 'Tanggal belum diatur' : dateRange(t.start!, t.start!.add(Duration(days: plan.length - 1))),
