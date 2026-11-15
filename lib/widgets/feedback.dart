@@ -23,3 +23,4 @@ class NgBanner extends StatelessWidget {
       BannerKind.error => (AppColors.negativePale, AppColors.negativeInk, 'error'),
       BannerKind.info => (AppColors.tealPale, AppColors.ink, 'info'),
       BannerKind.offline => (AppColors.ink, AppColors.white, 'cloud_off'),
+      BannerKind.success => (AppColors.positivePale, AppColors.positiveInk, 'check_circle'),
