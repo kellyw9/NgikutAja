@@ -24,3 +24,4 @@ class AppIcon extends StatelessWidget {
       final b = _PathBuilder();
       writeSvgPathDataToPath(data ?? '', b);
       return b.path;
+    });
