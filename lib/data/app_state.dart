@@ -235,3 +235,4 @@ class AppState extends ChangeNotifier {
   Transaction startPayment(Itinerary it, String method) {
     final now = DateTime.now();
     final tx = Transaction(
+      id: Seed.trxId(now, (1000 + transactions.length * 37 % 9000).toString().padLeft(4, '0')),
