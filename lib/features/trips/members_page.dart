@@ -33,3 +33,5 @@ class MembersPage extends StatelessWidget {
       if (context.mounted) showNgSnack(context, 'Akses ${m.first} dicabut.');
     }
   }
+
+  void _detail(BuildContext context, Member m) {
