@@ -125,3 +125,4 @@ class _LoginPageState extends State<LoginPage> {
                           alignment: Alignment.centerRight,
                           child: TextLink(
                             'Lupa password?',
+                            color: AppColors.ink,
