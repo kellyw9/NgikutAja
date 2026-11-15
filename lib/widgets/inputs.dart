@@ -62,3 +62,4 @@ class NgField extends StatefulWidget {
   final Color? fill;
 
   @override
+  State<NgField> createState() => _NgFieldState();
