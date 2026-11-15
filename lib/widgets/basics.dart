@@ -54,3 +54,5 @@ class NgButton extends StatelessWidget {
     final lg = size == BtnSize.lg;
     final color = disabled ? AppColors.muted : fg;
     final style = (lg ? AppText.button : AppText.bodyStrong).c(color);
+
+    final child = Row(
