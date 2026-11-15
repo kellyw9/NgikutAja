@@ -349,3 +349,4 @@ class AddPhotoTile extends StatelessWidget {
   const AddPhotoTile({super.key, required this.onTap, this.size = 80, this.label = 'Tambah', this.icon = 'add_a_photo'});
   final VoidCallback onTap;
   final double size;
+  final String label;
