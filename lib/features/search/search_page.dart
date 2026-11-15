@@ -292,3 +292,4 @@ class _SearchPageState extends State<SearchPage> {
         children: [Text('Tekan cari untuk melihat hasil "${input.text.trim()}".', style: AppText.body.muted)],
       );
     }
+    return ListView(
