@@ -153,3 +153,4 @@ class MembersPage extends StatelessWidget {
                 app.inviteMember(trip, v.contains('@') && !v.startsWith('@') ? '@${v.split('@').first}' : v, role);
                 Navigator.pop(ctx);
                 showNgSnack(context, 'Undangan terkirim ke $v.', kind: SnackKind.success);
+              },
