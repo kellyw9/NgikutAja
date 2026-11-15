@@ -19,3 +19,4 @@ class _OnboardingPageState extends State<OnboardingPage> {
   static const flow = [
     ('Create', 'Susun itinerary per hari: tempat, jam, dan biaya.'),
     ('Publish', 'Terbitkan gratis atau berbayar.'),
+    ('Adopt', 'Salin itinerary orang lain ke Trip Saya.'),
