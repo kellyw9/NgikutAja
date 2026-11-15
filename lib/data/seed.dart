@@ -64,3 +64,4 @@ class Seed {
         followers: 1240,
         following: 75,
       ),
+      'lestari': Creator(
