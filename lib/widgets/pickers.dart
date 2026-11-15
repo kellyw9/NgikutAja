@@ -13,3 +13,4 @@ import '../features/auth/register_page.dart';
 import 'basics.dart';
 import 'feedback.dart';
 import 'inputs.dart';
+import 'layout.dart';
