@@ -88,3 +88,4 @@ class _EditProfilePageState extends State<EditProfilePage> {
                   children: [
                     Avatar(me.name, size: 64, tint: me.tint, photo: photo),
                     const SizedBox(width: 14),
+                    NgButton(
