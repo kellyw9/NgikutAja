@@ -128,3 +128,4 @@ class _EditStopPageState extends State<EditStopPage> {
                       icon: 'schedule',
                       value: start,
                       onTap: () async {
+                        final t = await pickTime(context, start);
