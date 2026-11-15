@@ -171,3 +171,5 @@ class TextLink extends StatelessWidget {
   final String? icon;
   final TextStyle? style;
   final Color color;
+
+  @override
