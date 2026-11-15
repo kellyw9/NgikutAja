@@ -168,3 +168,4 @@ class _ItineraryDetailPageState extends State<ItineraryDetailPage> {
             const SizedBox(height: 12),
             SingleChildScrollView(
               scrollDirection: Axis.horizontal,
+              padding: const EdgeInsets.symmetric(horizontal: kMargin),
