@@ -135,3 +135,4 @@ class _PublishPageState extends State<PublishPage> {
                             IconTile(
                               ok ? 'check' : 'close',
                               size: 28,
+                              iconSize: 18,
