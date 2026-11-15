@@ -244,3 +244,4 @@ class _GooglePainter extends CustomPainter {
 class _P extends PathProxy {
   final path = Path();
   @override
+  void close() => path.close();
