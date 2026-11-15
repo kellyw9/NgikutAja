@@ -155,3 +155,4 @@ class MembersPage extends StatelessWidget {
                 showNgSnack(context, 'Undangan terkirim ke $v.', kind: SnackKind.success);
               },
             ),
+          ],
