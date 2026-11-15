@@ -273,3 +273,4 @@ class TravelStopPage extends StatelessWidget {
           Padding(
             padding: const EdgeInsets.fromLTRB(kMargin, 16, kMargin, 24),
             child: Gap(
+              14,
