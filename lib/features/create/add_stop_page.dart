@@ -38,3 +38,4 @@ class _AddStopPageState extends State<AddStopPage> {
       ..cat = cat
       ..start = start
       ..end = end
+      ..cost = parseRupiah(cost.text)
