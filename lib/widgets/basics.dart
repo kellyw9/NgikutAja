@@ -21,3 +21,4 @@ class NgButton extends StatelessWidget {
     this.onPressed,
     this.kind = BtnKind.primary,
     this.size = BtnSize.lg,
+    this.icon,
