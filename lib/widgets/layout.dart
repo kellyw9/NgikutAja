@@ -272,3 +272,4 @@ class KeyValueBox extends StatelessWidget {
                 Text(total!.$2, style: AppText.h2),
               ],
             ),
+          ),
