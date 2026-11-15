@@ -294,3 +294,4 @@ class _SearchPageState extends State<SearchPage> {
     }
     return ListView(
       padding: const EdgeInsets.only(top: 12),
+      children: [
