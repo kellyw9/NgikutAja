@@ -60,3 +60,4 @@ class Seed {
         name: 'Rahmat Siregar',
         handle: '@jalanjalanmedan',
         tint: 1,
+        bio: 'Pemandu lokal Medan. Rute pagi sampai malam tanpa buang waktu di jalan.',
