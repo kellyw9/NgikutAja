@@ -399,3 +399,4 @@ class _PaymentStatusPageState extends State<PaymentStatusPage> {
             actions: [
               NgButton(
                 'Pilih metode lain',
+                kind: BtnKind.secondary,
