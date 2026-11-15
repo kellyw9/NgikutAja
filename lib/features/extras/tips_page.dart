@@ -53,3 +53,5 @@ class TipsPage extends StatelessWidget {
     );
   }
 }
+
+class TipDetailPage extends StatelessWidget {
