@@ -452,3 +452,4 @@ class _SearchPageState extends State<SearchPage> {
             children: [
               NgField(
                 label: 'Kota',
+                icon: 'location_on',
