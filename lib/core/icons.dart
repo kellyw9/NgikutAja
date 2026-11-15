@@ -37,3 +37,5 @@ class AppIcon extends StatelessWidget {
     );
   }
 }
+
+class _PathBuilder extends PathProxy {
