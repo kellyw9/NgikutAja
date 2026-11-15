@@ -116,3 +116,5 @@ class AppState extends ChangeNotifier {
 
   // ---------------- profil ----------------
   late Creator me;
+
+  void updateProfile({required String name, required String username, required String bio}) {
