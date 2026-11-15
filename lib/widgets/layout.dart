@@ -192,3 +192,4 @@ class FactStrip extends StatelessWidget {
   final List<(String, String)> cells;
 
   @override
+  Widget build(BuildContext context) => Column(
