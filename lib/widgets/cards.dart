@@ -168,3 +168,4 @@ class WisataCard extends StatelessWidget {
               ]),
               const SizedBox(height: 10),
               Row(
+                children: [
