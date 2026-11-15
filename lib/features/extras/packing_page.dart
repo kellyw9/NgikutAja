@@ -21,3 +21,4 @@ class _PackingPageState extends State<PackingPage> {
   }
 
   void _add() {
+    final v = input.text.trim();
