@@ -82,3 +82,4 @@ class TripsPage extends StatelessWidget {
         TripStatus.berjalan => ('near_me', 'Tidak ada trip yang berjalan', 'Trip yang diadopsi pindah ke sini pada hari keberangkatan.'),
         _ => ('flag', 'Belum ada trip selesai', 'Recap dan foto perjalanan tersimpan di sini setelah trip selesai.'),
       };
+      return [
