@@ -42,3 +42,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
         const NgDivider(inset: 36, color: AppColors.line),
         ListRow(
           icon: 'download_for_offline',
+          title: 'Data offline',
