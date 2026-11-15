@@ -46,3 +46,4 @@ class _JournalPageState extends State<JournalPage> {
       context,
       title: e == null ? 'Tulis catatan ${_dayLabel(day)}' : 'Tulis lanjutan',
       scroll: true,
+      builder: (ctx) => Gap(
