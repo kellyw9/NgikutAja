@@ -80,3 +80,4 @@ class _SplashPageState extends State<SplashPage> {
 }
 
 class _RoutePainter extends CustomPainter {
+  const _RoutePainter();
