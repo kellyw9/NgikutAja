@@ -491,3 +491,4 @@ class Avatar extends StatelessWidget {
       child: Container(
         width: size,
         height: size,
+        alignment: Alignment.center,
