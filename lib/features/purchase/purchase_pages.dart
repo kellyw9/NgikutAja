@@ -210,3 +210,4 @@ class _PaymentPageState extends State<PaymentPage> {
               BoxList(
                 children: [
                   for (final (icon, title, sub) in _methods)
+                    Opacity(
