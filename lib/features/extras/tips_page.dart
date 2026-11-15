@@ -23,3 +23,4 @@ class TipsPage extends StatelessWidget {
             for (final tip in tips) ...[
               NgCard(
                 padding: const EdgeInsets.all(12),
+                onTap: () => push(context, TipDetailPage(tip: tip)),
