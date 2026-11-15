@@ -213,3 +213,4 @@ class _SearchPageState extends State<SearchPage> {
               Positioned(
                 left: 30,
                 top: -2,
+                child: IgnorePointer(
