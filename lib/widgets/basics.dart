@@ -489,3 +489,4 @@ class Avatar extends StatelessWidget {
     return Semantics(
       label: name,
       child: Container(
+        width: size,
