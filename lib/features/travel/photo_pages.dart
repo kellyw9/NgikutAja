@@ -37,3 +37,4 @@ class _PhotoPreviewPageState extends State<PhotoPreviewPage> {
           Gap(
             16,
             children: [
+              Photo(widget.src, height: 250, radius: AppRadius.card, semantic: 'Foto baru'),
