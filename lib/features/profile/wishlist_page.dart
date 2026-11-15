@@ -45,3 +45,4 @@ class _Row extends StatelessWidget {
     final app = AppScope.of(context);
     return Tap(
       onTap: () => openItinerary(context, it),
+      child: Padding(
