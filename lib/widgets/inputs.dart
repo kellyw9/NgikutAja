@@ -135,3 +135,4 @@ class _NgFieldState extends State<NgField> {
       constraints: BoxConstraints(minHeight: widget.area ? 100 : 48),
       padding: EdgeInsets.symmetric(horizontal: 14, vertical: widget.area ? 12 : 0),
       decoration: BoxDecoration(
+        color: widget.fill ?? (widget.readOnly && !_select ? AppColors.surfaceSoft : AppColors.surface),
