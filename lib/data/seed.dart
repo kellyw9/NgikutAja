@@ -19,3 +19,4 @@ class Seed {
 
   /// Transaksi transfer bank contoh dibuat 1 menit sebelum aplikasi dibuka,
   /// supaya batas bayar 15 menitnya masih berjalan.
+  DateTime get _pendingAt => now.subtract(const Duration(minutes: 1));
