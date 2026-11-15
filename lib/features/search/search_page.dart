@@ -547,3 +547,5 @@ class _SearchPageState extends State<SearchPage> {
     }
   }
 }
+
+class _BudgetSlider extends StatelessWidget {
