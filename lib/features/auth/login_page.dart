@@ -116,3 +116,4 @@ class _LoginPageState extends State<LoginPage> {
                           obscure: obscure,
                           hint: 'Minimal 8 karakter',
                           textInputAction: TextInputAction.done,
+                          autofillHints: const [AutofillHints.password],
