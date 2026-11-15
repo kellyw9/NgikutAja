@@ -231,3 +231,4 @@ List<MapPin> spreadPins(int count, {List<MarkerState>? states}) {
     Offset(.9, .36),
     Offset(.82, .78),
     Offset(.6, .76),
+  ];
