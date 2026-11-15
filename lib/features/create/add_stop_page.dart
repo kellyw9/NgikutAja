@@ -248,3 +248,4 @@ class _AddStopPageState extends State<AddStopPage> {
                           Text('Pilih titik di peta', style: AppText.bodyStrong),
                           const SizedBox(height: 2),
                           Text(address ?? 'Belum dipilih', style: AppText.small.muted, maxLines: 2, overflow: TextOverflow.ellipsis),
+                        ],
