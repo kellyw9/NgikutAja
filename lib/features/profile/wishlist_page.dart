@@ -11,3 +11,4 @@ class WishlistPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final app = AppScope.of(context);
+    final list = app.itineraries.where((x) => app.wishlist.contains(x.id)).toList();
