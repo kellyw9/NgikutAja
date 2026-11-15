@@ -109,3 +109,4 @@ class MembersPage extends StatelessWidget {
                 ),
                 RadioRow(
                   title: 'Edit',
+                  sub: 'Bisa mengubah jadwal dan pengeluaran',
