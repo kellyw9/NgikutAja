@@ -15,3 +15,4 @@ class DashboardPage extends StatelessWidget {
     final top = mine.where((x) => x.isPaid).toList()..sort((a, b) => app.salesOf(b).compareTo(app.salesOf(a)));
     final chartItem = top.firstOrNull;
     final monthly = Seed.monthly;
+    final maxN = monthly.fold<int>(1, (a, m) => m.$2 > a ? m.$2 : a);
