@@ -93,3 +93,4 @@ final Map<String, PageFor> pages = {
   'pay status gagal': (s) => PaymentStatusPage(tx: s.transactions[0]),
   'history': (s) => const PurchaseHistoryPage(),
   'tx detail': (s) => TransactionDetailPage(tx: s.transactions[0]),
+  'edit profile': (s) => const EditProfilePage(),
