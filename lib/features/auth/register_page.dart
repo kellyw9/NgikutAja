@@ -137,3 +137,4 @@ class _RegisterPageState extends State<RegisterPage> {
                         onChanged: refresh,
                         hint: 'Ketik ulang password',
                         textInputAction: TextInputAction.done,
+                        onSubmitted: (_) => _submit(),
