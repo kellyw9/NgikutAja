@@ -356,3 +356,4 @@ class _CustomizePageState extends State<CustomizePage> {
             DayStrip(
               days: [
                 for (var d = 0; d < plan.length; d++)
+                  DayItem(
