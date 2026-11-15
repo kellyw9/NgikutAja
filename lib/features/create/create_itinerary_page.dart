@@ -222,3 +222,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
                     Text('Tipe publikasi', style: AppText.bodyStrong),
                     const SizedBox(height: 8),
                     Segmented(
+                      items: const ['Gratis', 'Berbayar'],
