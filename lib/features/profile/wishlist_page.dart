@@ -21,3 +21,4 @@ class WishlistPage extends StatelessWidget {
               child: EmptyState(
                 icon: 'bookmark',
                 title: 'Wishlist masih kosong',
+                text: 'Tekan ikon bookmark pada Card Wisata untuk menyimpan itinerary yang ingin kamu jalani nanti.',
