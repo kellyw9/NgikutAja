@@ -40,3 +40,4 @@ class _ResetPasswordPageState extends State<ResetPasswordPage> {
       wait = 59;
     });
     _t?.cancel();
+    _t = Timer.periodic(const Duration(seconds: 1), (t) {
