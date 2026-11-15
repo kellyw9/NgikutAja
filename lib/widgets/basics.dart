@@ -472,3 +472,4 @@ class Avatar extends StatelessWidget {
   const Avatar(this.name, {super.key, this.size = 32, this.tint = 0, this.photo});
   final String name;
   final double size;
+  final int tint;
