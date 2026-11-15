@@ -62,3 +62,4 @@ class TripsPage extends StatelessWidget {
     return [
       for (final d in app.drafts) ...[
         TripCard(
+          status: TripStatus.draft,
