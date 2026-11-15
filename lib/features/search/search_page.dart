@@ -263,3 +263,4 @@ class _SearchPageState extends State<SearchPage> {
         const SizedBox(height: 16),
       ],
       const SectionHead('Kota populer'),
+      const SizedBox(height: 12),
