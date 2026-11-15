@@ -68,3 +68,4 @@ final Map<String, PageFor> pages = {
   'customize': (s) => CustomizePage(trip: s.trips[1]),
   'edit stop': (s) => EditStopPage(stop: s.trips[1].plan[0][3].copy(), dayLabel: 'Hari 1, Sabtu 12 Des'),
   'edit trip info': (s) => EditTripInfoPage(trip: s.trips[1]),
+  'members': (s) => MembersPage(trip: s.trips[0]),
