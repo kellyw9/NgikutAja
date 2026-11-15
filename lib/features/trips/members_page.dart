@@ -180,3 +180,4 @@ class MembersPage extends StatelessWidget {
                   child: SizedBox(
                     height: 60,
                     child: Padding(
+                      padding: const EdgeInsets.only(left: 14, right: 12),
