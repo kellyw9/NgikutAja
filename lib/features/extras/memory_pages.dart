@@ -134,3 +134,4 @@ class _PhotoViewerPageState extends State<PhotoViewerPage> {
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
+                      Text(p.caption, style: AppText.title.white),
