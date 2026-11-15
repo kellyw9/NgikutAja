@@ -147,3 +147,4 @@ class _PackingPageState extends State<PackingPage> {
                                         Expanded(child: Text(it.name, style: AppText.body.c(it.done ? AppColors.muted : AppColors.ink))),
                                         IconBtn(
                                           'edit',
+                                          label: 'Ubah ${it.name}',
