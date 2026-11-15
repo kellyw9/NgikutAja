@@ -19,3 +19,4 @@ class NgButton extends StatelessWidget {
     this.label, {
     super.key,
     this.onPressed,
+    this.kind = BtnKind.primary,
