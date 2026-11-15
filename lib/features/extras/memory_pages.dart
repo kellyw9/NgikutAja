@@ -20,3 +20,4 @@ class PhotoMemoryPage extends StatelessWidget {
     return Scaffold(
       backgroundColor: AppColors.ground,
       appBar: NgAppBar(title: 'Photo memory', sub: t.title),
+      body: t.photos.isEmpty
