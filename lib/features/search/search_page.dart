@@ -379,3 +379,4 @@ class _SearchPageState extends State<SearchPage> {
                         setState(() => submitted = null);
                       },
                     ),
+              height: 280,
