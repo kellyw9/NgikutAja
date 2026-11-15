@@ -113,3 +113,4 @@ class _PhotoViewerPageState extends State<PhotoViewerPage> {
                 ),
               ),
               Expanded(
+                child: PageView.builder(
