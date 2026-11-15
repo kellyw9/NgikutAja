@@ -160,3 +160,5 @@ class AppState extends ChangeNotifier {
 
   /// Simulasi mengambil feed dari server.
   Future<void> loadFeed() => Future<void>.delayed(const Duration(milliseconds: 700));
+
+  static final cities = <CityInfo>[
