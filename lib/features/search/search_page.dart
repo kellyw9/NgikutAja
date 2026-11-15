@@ -131,3 +131,4 @@ class _SearchPageState extends State<SearchPage> {
         list.sort((a, b) => score(b).compareTo(score(a)));
     }
     return list;
+  }
