@@ -166,3 +166,4 @@ class Seed {
       region: 'Samosir, Sumatera Utara',
       days: 2,
       cover: 'toba',
+      creator: c['lestari']!,
