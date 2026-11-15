@@ -17,3 +17,4 @@ class CustomizePage extends StatefulWidget {
 }
 
 class _CustomizePageState extends State<CustomizePage> {
+  late Trip t = widget.trip;
