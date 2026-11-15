@@ -409,3 +409,4 @@ class HeroPhoto extends StatelessWidget {
       value: kLightIcons.copyWith(systemNavigationBarColor: AppColors.surface, systemNavigationBarIconBrightness: Brightness.dark),
       child: SizedBox(
         height: height + top,
+        child: Stack(
