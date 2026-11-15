@@ -139,3 +139,4 @@ class _CustomizePageState extends State<CustomizePage> {
                       RadioRow(
                         title: _dayLabel(d),
                         sub: d == day
+                            ? 'Posisi sekarang'
