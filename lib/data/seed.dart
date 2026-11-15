@@ -441,3 +441,4 @@ class Seed {
           Expense(id: 'e4', name: 'Tiket Bukit Holbung', cat: ExpenseCat.tiket, amount: 30000, by: 'Sari', day: 0, time: '12.40'),
         ],
         packing: [
+          PackGroup('Dokumen', [PackItem('KTP', true), PackItem('Tiket kapal (foto)', true)]),
