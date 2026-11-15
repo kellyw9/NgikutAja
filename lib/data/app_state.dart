@@ -340,3 +340,5 @@ class AppState extends ChangeNotifier {
     t.expenses.add(e);
     notifyListeners();
   }
+
+  void removeExpense(Trip t, Expense e) {
