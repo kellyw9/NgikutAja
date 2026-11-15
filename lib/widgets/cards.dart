@@ -430,3 +430,5 @@ class StopRow extends StatelessWidget {
     );
   }
 }
+
+class DayItem {
