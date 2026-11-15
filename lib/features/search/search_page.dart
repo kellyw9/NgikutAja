@@ -329,3 +329,4 @@ class _SearchPageState extends State<SearchPage> {
                   const SizedBox(height: 2),
                   Text(sub, style: AppText.small.muted),
                 ],
+              ),
