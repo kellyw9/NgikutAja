@@ -63,3 +63,4 @@ class ExpensesPage extends StatelessWidget {
                   expand: true,
                   onPressed: () {
                     Navigator.pop(ctx);
+                    push(context, AddExpensePage(trip: trip, edit: e), fullscreen: true);
