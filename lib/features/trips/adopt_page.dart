@@ -19,3 +19,4 @@ class _AdoptPageState extends State<AdoptPage> {
   bool dayBefore = true;
   bool each = true;
   int offset = 30;
+  bool offline = true;
