@@ -183,3 +183,4 @@ class _AddStopPageState extends State<AddStopPage> {
                                     bottom: 8,
                                     child: Container(
                                       padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 2),
+                                      decoration: BoxDecoration(color: AppColors.surface, borderRadius: BorderRadius.circular(AppRadius.tag)),
