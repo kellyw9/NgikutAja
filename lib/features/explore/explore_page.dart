@@ -161,3 +161,4 @@ class CityCard extends StatelessWidget {
 /// Lonceng notifikasi dengan titik merah saat ada yang belum dibaca.
 class Bell extends StatelessWidget {
   const Bell({super.key, required this.onTap});
+  final VoidCallback onTap;
