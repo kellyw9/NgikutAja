@@ -32,3 +32,4 @@ class NgButton extends StatelessWidget {
   final BtnKind kind;
   final BtnSize size;
   final String? icon;
+  final String? trailingIcon;
