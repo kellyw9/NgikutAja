@@ -317,3 +317,4 @@ class Seed {
         rating: 4.7,
         tags: ['Budaya'],
         publishedAt: _d(-200),
+      ),
