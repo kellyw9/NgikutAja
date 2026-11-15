@@ -122,3 +122,4 @@ class _SplitBudgetPageState extends State<SplitBudgetPage> {
                                       min: 0,
                                       max: 5,
                                       onChanged: (v) => setState(() => portion[m.first] = v),
+                                    ),
