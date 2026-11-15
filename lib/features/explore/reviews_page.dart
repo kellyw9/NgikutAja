@@ -111,3 +111,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
             ),
           ),
           const SizedBox(height: 16),
+          if (list.isEmpty)
