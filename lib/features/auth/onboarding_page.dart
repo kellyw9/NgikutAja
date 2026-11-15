@@ -92,3 +92,4 @@ class _OnboardingPageState extends State<OnboardingPage> {
               Padding(
                 padding: const EdgeInsets.fromLTRB(kMargin, 0, kMargin, 24),
                 child: NgButton(page == 2 ? 'Mulai cari itinerary' : 'Lanjut', expand: true, onPressed: page == 2 && picked.isEmpty ? null : _next),
+              ),
