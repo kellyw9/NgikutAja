@@ -485,3 +485,4 @@ class Avatar extends StatelessWidget {
         child: Photo(photo, width: size, height: size, semantic: 'Foto profil $name'),
       );
     }
+    final style = size >= 56 ? AppText.h2 : (size >= 32 ? AppText.bodyStrong : AppText.smallStrong);
