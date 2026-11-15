@@ -113,3 +113,4 @@ class _CheckinPageState extends State<CheckinPage> {
 }
 
 /// 11 Permission denied: dipakai saat izin lokasi perangkat dimatikan.
+/// Catatan: check-in di versi ini memakai lokasi simulasi, jadi layar ini belum dipanggil.
