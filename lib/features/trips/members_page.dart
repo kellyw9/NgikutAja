@@ -60,3 +60,4 @@ class MembersPage extends StatelessWidget {
             ),
             Column(
               crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
