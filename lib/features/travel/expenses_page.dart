@@ -20,3 +20,4 @@ class ExpensesPage extends StatelessWidget {
     final n = trip.members.length;
     showNgSheet<void>(
       context,
+      title: e.name,
