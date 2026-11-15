@@ -6,3 +6,5 @@ import '../../widgets/ui.dart';
 class PackingPage extends StatefulWidget {
   const PackingPage({super.key, required this.trip});
   final Trip trip;
+
+  @override
