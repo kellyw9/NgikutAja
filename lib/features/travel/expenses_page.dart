@@ -185,3 +185,4 @@ class _AddExpensePageState extends State<AddExpensePage> {
   late ExpenseCat cat = e?.cat ?? ExpenseCat.makan;
   late int day = e?.day ?? AppScope.read(context).currentDay(widget.trip);
   late String by = e?.by ?? widget.trip.members.first.first;
+  String? receipt;
