@@ -625,3 +625,4 @@ class _SquareThumb extends RangeSliderThumbShape {
         ..style = PaintingStyle.stroke
         ..strokeWidth = 2,
     );
+  }
