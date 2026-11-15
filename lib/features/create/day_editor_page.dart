@@ -31,3 +31,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
   }
 
   void _saveTitle() {
+    while (d.dayTitles.length < d.plan.length) {
