@@ -295,3 +295,5 @@ class PickLocationPage extends StatefulWidget {
   final String query;
   final String city;
   final String? photo;
+
+  @override
