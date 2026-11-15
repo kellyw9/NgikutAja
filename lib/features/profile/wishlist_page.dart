@@ -55,3 +55,4 @@ class _Row extends StatelessWidget {
             Expanded(
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
