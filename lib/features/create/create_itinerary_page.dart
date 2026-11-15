@@ -291,3 +291,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
         height: 180,
         child: Stack(
           fit: StackFit.expand,
+          children: [
