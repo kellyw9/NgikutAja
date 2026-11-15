@@ -269,3 +269,4 @@ class KeyValueBox extends StatelessWidget {
             child: Row(
               children: [
                 Expanded(child: Text(total!.$1, style: AppText.bodyStrong)),
+                Text(total!.$2, style: AppText.h2),
