@@ -127,3 +127,4 @@ class _EditStopPageState extends State<EditStopPage> {
                       label: 'Jam mulai',
                       icon: 'schedule',
                       value: start,
+                      onTap: () async {
