@@ -509,3 +509,4 @@ class TransactionDetailPage extends StatelessWidget {
       backgroundColor: AppColors.ground,
       appBar: const NgAppBar(title: 'Detail transaksi'),
       body: ListView(
+        padding: const EdgeInsets.fromLTRB(kMargin, 8, kMargin, 16),
