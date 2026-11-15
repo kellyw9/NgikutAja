@@ -36,3 +36,4 @@ class MapView extends StatelessWidget {
   final List<MapPin> pins;
   final Offset? me;
   final double radius;
+  final bool route;
