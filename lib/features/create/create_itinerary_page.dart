@@ -140,3 +140,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
   @override
   Widget build(BuildContext context) {
     final showErr = tried && !titleOk;
+    return PopScope(
