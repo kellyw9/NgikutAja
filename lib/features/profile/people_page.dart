@@ -38,3 +38,4 @@ class _PeoplePageState extends State<PeoplePage> {
         children: [
           for (var i = 0; i < list.length; i++) ...[
             if (i > 0) const NgDivider(inset: kMargin + 52),
+            SizedBox(
