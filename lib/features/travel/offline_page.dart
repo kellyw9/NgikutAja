@@ -36,3 +36,4 @@ class OfflinePage extends StatelessWidget {
           Gap(
             16,
             children: [
+              for (final t in trips)
