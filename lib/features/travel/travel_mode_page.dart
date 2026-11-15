@@ -184,3 +184,4 @@ class _NextCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final st = trip.plan[day][i];
+    final info = travelInfo[st.name];
