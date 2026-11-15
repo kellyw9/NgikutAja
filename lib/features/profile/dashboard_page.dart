@@ -43,3 +43,4 @@ class DashboardPage extends StatelessWidget {
                       Semantics(
                         label: 'Grafik penjualan: ${monthly.map((m) => '${m.$1} ${m.$2}').join(', ')}',
                         child: ExcludeSemantics(
+                          child: SizedBox(
