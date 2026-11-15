@@ -46,3 +46,4 @@ class _HomeShellState extends State<HomeShell> {
     final app = AppScope.of(context);
     return ValueListenableBuilder<int>(
       valueListenable: shellTab,
+      builder: (context, tab, _) {
