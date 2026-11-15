@@ -125,3 +125,4 @@ class MembersPage extends StatelessWidget {
                   Expanded(
                     child: Text(_link(trip), style: AppText.body, maxLines: 1, overflow: TextOverflow.ellipsis),
                   ),
+                  NgButton(
