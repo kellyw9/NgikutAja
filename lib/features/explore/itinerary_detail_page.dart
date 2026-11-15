@@ -201,3 +201,4 @@ class _ItineraryDetailPageState extends State<ItineraryDetailPage> {
                   MetaRow([('pin_drop', '${dayStops.length} tempat'), ('payments', rp(it.dayCost(day)))]),
                   const SizedBox(height: 18),
                   if (dayStops.isEmpty)
+                    Text('Creator belum menulis jadwal untuk hari ini.', style: AppText.body.muted)
