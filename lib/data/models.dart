@@ -46,3 +46,4 @@ class Stop {
     this.photo,
     this.note,
     this.desc,
+    this.address,
