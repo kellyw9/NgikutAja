@@ -11,3 +11,4 @@ void openItinerary(BuildContext context, Itinerary it) => pushItinerary(Navigato
 
 /// Rute itinerary diberi nama 'itinerary' supaya alur pembelian bisa kembali ke sini.
 void pushItinerary(NavigatorState nav, AppState app, Itinerary it) => nav.push(
+  MaterialPageRoute(
