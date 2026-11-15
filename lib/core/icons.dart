@@ -96,3 +96,4 @@ class _SpinIconState extends State<SpinIcon> with SingleTickerProviderStateMixin
     } else if (!_c.isAnimating) {
       _c.repeat();
     }
+  }
