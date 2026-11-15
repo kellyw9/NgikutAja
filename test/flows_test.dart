@@ -150,3 +150,4 @@ void main() {
     await phone(tester);
     final s = newState();
     await tester.pumpWidget(host(s, const WishlistPage()));
+    expect(s.wishlist.length, 3);
