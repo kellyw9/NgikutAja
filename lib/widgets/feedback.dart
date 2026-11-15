@@ -254,3 +254,4 @@ class EmptyState extends StatelessWidget {
             height: 56,
             alignment: Alignment.center,
             decoration: BoxDecoration(color: AppColors.sunk, borderRadius: BorderRadius.circular(AppRadius.card)),
+            child: AppIcon(icon, size: 28),
