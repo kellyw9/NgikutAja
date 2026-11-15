@@ -209,3 +209,4 @@ class PackItem {
 }
 
 class PackGroup {
+  PackGroup(this.name, this.items);
