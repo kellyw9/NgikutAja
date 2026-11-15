@@ -83,3 +83,4 @@ class _ExplorePageState extends State<ExplorePage> {
         child: Column(
           children: [
             for (var i = 0; i < items.length; i++) ...[
+              if (i > 0) const Padding(padding: EdgeInsets.symmetric(vertical: 20), child: NgDivider()),
