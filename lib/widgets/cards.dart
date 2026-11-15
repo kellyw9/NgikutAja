@@ -198,3 +198,4 @@ class Grid2 extends StatelessWidget {
       for (var r = 0; r < (items.length + 1) ~/ 2; r++) ...[
         if (r > 0) const SizedBox(height: 20),
         Row(
+          crossAxisAlignment: CrossAxisAlignment.start,
