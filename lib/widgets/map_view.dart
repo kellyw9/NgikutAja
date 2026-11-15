@@ -11,3 +11,4 @@ class MapPin {
   final double x;
   final double y;
   final int n;
+  final MarkerState state;
