@@ -373,3 +373,4 @@ class StopRow extends StatelessWidget {
                   Photo(st.photo, width: 56, height: 56, radius: AppRadius.inner),
                 ],
               ],
+            ),
