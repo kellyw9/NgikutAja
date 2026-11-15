@@ -149,3 +149,4 @@ class PurchaseConfirmPage extends StatelessWidget {
         child: NgButton('Konfirmasi pembelian', expand: true, onPressed: () => push(context, PaymentPage(it: it))),
       ),
     ),
+  );
