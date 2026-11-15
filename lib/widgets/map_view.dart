@@ -68,3 +68,4 @@ class MapView extends StatelessWidget {
                   ),
                 if (me != null)
                   Positioned(
+                    left: me!.dx * w - 11,
