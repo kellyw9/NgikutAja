@@ -266,3 +266,4 @@ class _AdoptProgressPageState extends State<AdoptProgressPage> {
                 tone: AppColors.positivePale,
                 iconColor: AppColors.positiveInk,
                 title: 'Trip berhasil ditambahkan',
+                text: '"${it.title}" sekarang ada di Trip Saya pada tab ${app.statusOf(trip!).label}. ${app.countdown(trip!) ?? ''}'.trim(),
