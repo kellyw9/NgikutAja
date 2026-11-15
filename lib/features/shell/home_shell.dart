@@ -93,3 +93,4 @@ class BottomNav extends StatelessWidget {
                       child: Semantics(
                         selected: i == active,
                         button: true,
+                        label: items[i].$2,
