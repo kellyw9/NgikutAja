@@ -233,3 +233,4 @@ PillKind tripPill(TripStatus s) => switch (s) {
 class TripCard extends StatelessWidget {
   const TripCard({
     super.key,
+    required this.status,
