@@ -61,3 +61,4 @@ class _AdoptPageState extends State<AdoptPage> {
                 padding: const EdgeInsets.all(12),
                 child: Row(
                   children: [
+                    Photo(it.cover, width: 72, height: 72, radius: AppRadius.inner),
