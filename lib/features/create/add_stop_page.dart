@@ -273,3 +273,4 @@ class _AddStopPageState extends State<AddStopPage> {
                       ],
                     );
                     if (r == true && context.mounted) Navigator.pop(context, StopEditResult(deleted: true));
+                  },
