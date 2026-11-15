@@ -392,3 +392,4 @@ class Pill extends StatelessWidget {
     PillKind.negative => (AppColors.negativePale, AppColors.negativeInk),
     PillKind.warning => (AppColors.yellowPale, AppColors.ink),
     PillKind.solid => (AppColors.ink, AppColors.white),
+  };
