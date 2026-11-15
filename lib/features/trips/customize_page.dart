@@ -54,3 +54,4 @@ class _CustomizePageState extends State<CustomizePage> {
 
   Future<bool> _confirmLeave() async {
     if (changes == 0) return true;
+    final r = await showNgDialog(
