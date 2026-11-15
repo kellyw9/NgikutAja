@@ -196,3 +196,4 @@ Future<String?> pickPhotoSheet(BuildContext context, {String title = 'Tambah fot
   try {
     return await pickPhoto(choice == 'camera' ? PhotoSource.camera : PhotoSource.gallery);
   } catch (_) {
+    if (context.mounted) {
