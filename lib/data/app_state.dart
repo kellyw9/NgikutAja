@@ -275,3 +275,4 @@ class AppState extends ChangeNotifier {
     final n = daysUntil(t);
     if (statusOf(t) != TripStatus.diadopsi) return null;
     return n == 1 ? 'Berangkat besok' : 'Berangkat $n hari lagi';
+  }
