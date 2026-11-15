@@ -153,3 +153,4 @@ class AboutPage extends StatelessWidget {
                             const SizedBox(height: 2),
                             Text('${(e.value as Map)['artist']}, ${(e.value as Map)['license']}, Wikimedia Commons', style: AppText.small.muted),
                           ],
+                        ),
