@@ -18,3 +18,5 @@ class PhotoPreviewPage extends StatefulWidget {
   @override
   State<PhotoPreviewPage> createState() => _PhotoPreviewPageState();
 }
+
+class _PhotoPreviewPageState extends State<PhotoPreviewPage> {
