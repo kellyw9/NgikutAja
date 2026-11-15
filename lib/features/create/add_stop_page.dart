@@ -323,3 +323,4 @@ class _PickLocationPageState extends State<PickLocationPage> {
               builder: (context, c) {
                 final x = pin.dx * c.maxWidth, y = pin.dy * c.maxHeight;
                 return Stack(
+                  children: [
