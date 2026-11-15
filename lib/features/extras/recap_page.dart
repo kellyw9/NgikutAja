@@ -26,3 +26,4 @@ class RecapPage extends StatelessWidget {
       backgroundColor: AppColors.ground,
       appBar: NgAppBar(
         title: 'Trip recap',
+        actions: [IconBtn('share', label: 'Bagikan recap', onTap: () => shareText(_summary(t)))],
