@@ -160,3 +160,4 @@ class _NewPasswordPageState extends State<NewPasswordPage> {
     return Scaffold(
       backgroundColor: AppColors.ground,
       appBar: NgAppBar(back: 'close', onBack: () => resetTo(context, const LoginPage())),
+      body: SafeArea(
