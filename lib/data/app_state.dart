@@ -162,3 +162,4 @@ class AppState extends ChangeNotifier {
   Future<void> loadFeed() => Future<void>.delayed(const Duration(milliseconds: 700));
 
   static final cities = <CityInfo>[
+    CityInfo('Medan', 'masjidraya', (x) => x.city == 'Medan'),
