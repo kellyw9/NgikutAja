@@ -255,3 +255,4 @@ class _SearchPageState extends State<SearchPage> {
                       color: AppColors.muted,
                       onTap: () => app.removeRecent(q),
                     ),
+                  ],
