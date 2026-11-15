@@ -35,3 +35,4 @@ class _CreatorProfilePageState extends State<CreatorProfilePage> {
           ProfileHead(
             p: c,
             itins: all.length,
+            action: c == app.me
