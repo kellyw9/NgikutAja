@@ -100,3 +100,4 @@ class _CalendarState extends State<_Calendar> {
             ),
             Expanded(
               child: Text('${monthsLong[month.month - 1]} ${month.year}', style: AppText.title, textAlign: TextAlign.center),
+            ),
