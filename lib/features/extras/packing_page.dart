@@ -96,3 +96,4 @@ class _PackingPageState extends State<PackingPage> {
                       Text('${all.length - done} barang tersisa', style: AppText.small.muted),
                     ],
                   ),
+                  const SizedBox(height: 6),
