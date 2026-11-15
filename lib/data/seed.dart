@@ -608,3 +608,4 @@ class Seed {
         icon: 'chat_bubble',
         lead: '@dodiginting',
         text: ' berkomentar: "Motor sewaan di Tuktuk ada yang matic?"',
+        time: '$yday 09.12',
