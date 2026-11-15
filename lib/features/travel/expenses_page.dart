@@ -110,3 +110,4 @@ class ExpensesPage extends StatelessWidget {
               ),
               if (list.isEmpty)
                 const EmptyState(
+                  icon: 'payments',
