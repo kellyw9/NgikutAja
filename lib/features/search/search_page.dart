@@ -517,3 +517,4 @@ class _SearchPageState extends State<SearchPage> {
                       kind: BtnKind.text,
                       onPressed: () => set(() {
                         draft
+                          ..duration = null
