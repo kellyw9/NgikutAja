@@ -176,3 +176,4 @@ class _EditStopPageState extends State<EditStopPage> {
                   Row(
                     children: [
                       if (photo != null) ...[
+                        Stack(
