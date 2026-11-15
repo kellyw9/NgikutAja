@@ -174,3 +174,4 @@ enum ExpenseCat {
   makan('Makan', 'restaurant'),
   transportasi('Transportasi', 'directions_car'),
   tiket('Tiket', 'local_activity'),
+  lainnya('Lainnya', 'category');
