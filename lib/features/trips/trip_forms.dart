@@ -318,3 +318,4 @@ class _EditTripInfoPageState extends State<EditTripInfoPage> {
               NgButton('Simpan perubahan', expand: true, onPressed: _save),
             ],
           ),
+        ],
