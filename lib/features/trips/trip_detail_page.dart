@@ -262,3 +262,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
                       ListRow(
                         icon: icon,
                         title: title,
+                        sub: toolSub(key),
