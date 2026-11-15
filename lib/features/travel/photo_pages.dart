@@ -78,3 +78,4 @@ class _PhotoPreviewPageState extends State<PhotoPreviewPage> {
                     style: AppText.small.muted,
                   ),
                 ],
+              ),
