@@ -9,3 +9,4 @@ class CreatorProfilePage extends StatefulWidget {
   final Creator c;
 
   @override
+  State<CreatorProfilePage> createState() => _CreatorProfilePageState();
