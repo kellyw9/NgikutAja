@@ -65,3 +65,4 @@ class RecapPage extends StatelessWidget {
                     Text('Foto dan kenangan', style: AppText.h2),
                     const SizedBox(height: 8),
                     Tap(
+                      onTap: () => push(context, PhotoMemoryPage(trip: t)),
