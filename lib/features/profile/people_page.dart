@@ -52,3 +52,4 @@ class _PeoplePageState extends State<PeoplePage> {
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Text(list[i].name, style: AppText.bodyStrong),
+                          const SizedBox(height: 2),
