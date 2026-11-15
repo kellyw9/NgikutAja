@@ -132,3 +132,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
                   if (d.plan.length < 7)
                     IconBtn(
                       'add',
+                      label: 'Tambah hari',
