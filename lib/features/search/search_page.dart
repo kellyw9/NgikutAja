@@ -420,3 +420,4 @@ class _SearchPageState extends State<SearchPage> {
             title: s,
             selected: s == sort,
             onTap: () {
+              setState(() => sort = s);
