@@ -66,3 +66,5 @@ class _DayEditorPageState extends State<DayEditorPage> {
     dayTitle.dispose();
     super.dispose();
   }
+
+  @override
