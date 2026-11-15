@@ -30,3 +30,4 @@ class NgikutAjaApp extends StatelessWidget {
             return MaterialPageRoute(builder: (_) => NewPasswordPage(email: uri.queryParameters['email'] ?? ''));
           }
           return null;
+        },
