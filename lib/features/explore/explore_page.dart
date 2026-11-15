@@ -65,3 +65,4 @@ class _ExplorePageState extends State<ExplorePage> {
           padding: const EdgeInsets.symmetric(horizontal: kMargin),
           child: ErrorBlock('Feed Explore tidak bisa dimuat. Tarik ke bawah atau coba lagi.', onRetry: _load),
         );
+      }
