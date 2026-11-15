@@ -468,3 +468,4 @@ class AppState extends ChangeNotifier {
     _netSub?.cancel();
     super.dispose();
   }
+}
