@@ -336,3 +336,5 @@ class _SearchPageState extends State<SearchPage> {
       ),
     ),
   );
+
+  Widget _results(AppState app, String q) {
