@@ -314,3 +314,4 @@ class _PickLocationPageState extends State<PickLocationPage> {
   Widget build(BuildContext context) {
     final label = q.text.trim().isEmpty ? 'Titik terpilih' : q.text.trim();
     return Scaffold(
+      backgroundColor: AppColors.mapLand,
