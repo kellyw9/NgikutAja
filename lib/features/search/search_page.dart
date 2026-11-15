@@ -369,3 +369,4 @@ class _SearchPageState extends State<SearchPage> {
                   ? 'Belum ada itinerary $q yang cocok dengan filter ini. Coba hapus filter durasi atau harga.'
                   : 'Belum ada itinerary untuk "$q". Coba nama kota lain.',
               action: filter.count > 0
+                  ? NgButton('Reset filter', kind: BtnKind.secondary, size: BtnSize.md, onPressed: () => setState(() => filter = SearchFilter()))
