@@ -459,3 +459,4 @@ class AppState extends ChangeNotifier {
   };
 
   void setSetting(String key, bool v) {
+    settings[key] = v;
