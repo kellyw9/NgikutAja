@@ -27,3 +27,5 @@ class _RegisterPageState extends State<RegisterPage> {
     final mixed = RegExp(r'[A-Za-z]').hasMatch(p) && RegExp(r'\d').hasMatch(p);
     return mixed && p.length >= 10 ? (1, 'Kuat', AppColors.positive) : (.66, 'Cukup kuat, minimal 8 karakter', AppColors.positive);
   }
+
+  String? get emailErr {
