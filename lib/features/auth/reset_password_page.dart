@@ -69,3 +69,4 @@ class _ResetPasswordPageState extends State<ResetPasswordPage> {
               child: IntrinsicHeight(
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.stretch,
+                  children: [
