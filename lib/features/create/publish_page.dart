@@ -86,3 +86,4 @@ class _PublishPageState extends State<PublishPage> {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
+                          Text(d.title, style: AppText.title, maxLines: 2, overflow: TextOverflow.ellipsis),
