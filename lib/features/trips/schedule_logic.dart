@@ -122,3 +122,4 @@ List<String> shiftCascade(List<Stop> day, Stop target, int newStart) {
         ),
       );
       if (plan.length > 1) {
+        var lightest = d == 0 ? 1 : 0;
