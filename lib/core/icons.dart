@@ -108,3 +108,4 @@ class _SpinIconState extends State<SpinIcon> with SingleTickerProviderStateMixin
   Widget build(BuildContext context) => Semantics(
     label: 'Memuat',
     child: RotationTransition(
+      turns: _c,
