@@ -225,3 +225,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
                     'Buka Travel Mode',
                     kind: BtnKind.secondary,
                     icon: 'near_me',
+                    expand: true,
