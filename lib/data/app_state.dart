@@ -188,3 +188,5 @@ class AppState extends ChangeNotifier {
     wishlist.add(id);
     notifyListeners();
   }
+
+  bool isFollowing(Creator c) => following.contains(c.id);
