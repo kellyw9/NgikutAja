@@ -125,3 +125,4 @@ class _MapPainter extends CustomPainter {
     final road = Paint()
       ..color = AppColors.white
       ..style = PaintingStyle.stroke
+      ..strokeCap = StrokeCap.butt;
