@@ -255,3 +255,4 @@ class Photo extends StatelessWidget {
     } else {
       img = Image.asset(
         'assets/photos/$s.jpg',
+        fit: BoxFit.cover,
