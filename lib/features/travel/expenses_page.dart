@@ -206,3 +206,4 @@ class _AddExpensePageState extends State<AddExpensePage> {
       app.addExpense(
         widget.trip,
         Expense(
+          id: 'e${now.microsecondsSinceEpoch}',
