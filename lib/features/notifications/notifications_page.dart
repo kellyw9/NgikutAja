@@ -26,3 +26,4 @@ class NotificationsPage extends StatelessWidget {
         openItinerary(context, app.itinerary('samosirmotor'));
       case NotifKind.comment:
         push(context, ReviewsPage(it: app.itinerary('samosirmotor'), comments: true));
+      case NotifKind.invite:
