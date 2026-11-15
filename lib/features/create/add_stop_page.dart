@@ -109,3 +109,4 @@ class _AddStopPageState extends State<AddStopPage> {
                           value: start,
                           onTap: () async {
                             final t = await pickTime(context, start);
+                            if (t == null) return;
