@@ -62,3 +62,4 @@ class Seed {
         tint: 1,
         bio: 'Pemandu lokal Medan. Rute pagi sampai malam tanpa buang waktu di jalan.',
         followers: 1240,
+        following: 75,
