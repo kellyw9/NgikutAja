@@ -280,3 +280,4 @@ class ErrorBlock extends StatelessWidget {
       borderRadius: BorderRadius.circular(AppRadius.card),
       border: Border.all(color: AppColors.line),
     ),
+    child: Row(
