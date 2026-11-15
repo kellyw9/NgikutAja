@@ -206,3 +206,4 @@ class _CustomizePageState extends State<CustomizePage> {
             NgField(
               label: 'Tanggal perjalanan',
               icon: 'calendar_month',
+              value: dateLong(newDate),
