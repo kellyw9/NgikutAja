@@ -228,3 +228,5 @@ PillKind tripPill(TripStatus s) => switch (s) {
   TripStatus.berjalan => PillKind.solid,
   TripStatus.selesai => PillKind.positive,
 };
+
+/// Card Trip: blok putih bergaris tipis seperti tiket.
