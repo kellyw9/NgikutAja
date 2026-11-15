@@ -275,3 +275,4 @@ class PaymentStatusPage extends StatefulWidget {
   final bool fromFlow;
 
   @override
+  State<PaymentStatusPage> createState() => _PaymentStatusPageState();
