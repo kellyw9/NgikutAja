@@ -34,3 +34,4 @@ class _AddStopPageState extends State<AddStopPage> {
     setState(() => tried = true);
     if (name.text.trim().isEmpty || timeErr != null) return;
     final out = (s ?? Stop(start: start, end: end, name: '', cat: cat))
+      ..name = name.text.trim()
