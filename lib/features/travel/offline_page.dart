@@ -62,3 +62,4 @@ class OfflinePage extends StatelessWidget {
                           if (v && !app.online) {
                             showNgSnack(context, 'Butuh internet untuk mengunduh data trip.', kind: SnackKind.error);
                             return;
+                          }
