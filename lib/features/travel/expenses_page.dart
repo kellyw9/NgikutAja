@@ -209,3 +209,4 @@ class _AddExpensePageState extends State<AddExpensePage> {
           id: 'e${now.microsecondsSinceEpoch}',
           name: name.text.trim(),
           cat: cat,
+          amount: n,
