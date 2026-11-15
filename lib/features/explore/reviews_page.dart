@@ -217,3 +217,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
                     Expanded(child: Text('Membalas $replyTo', style: AppText.small.muted)),
                     IconBtn(
                       'close',
+                      label: 'Batal membalas',
