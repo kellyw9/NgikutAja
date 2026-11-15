@@ -340,3 +340,4 @@ class SkeletonCard extends StatelessWidget {
             _bar(90, 12),
           ],
         ),
+      ],
