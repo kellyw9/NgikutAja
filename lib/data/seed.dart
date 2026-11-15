@@ -279,3 +279,4 @@ class Seed {
         days: 2,
         cover: 'bandung',
         creator: c['nadia']!,
+        price: 0,
