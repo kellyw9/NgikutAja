@@ -149,3 +149,4 @@ class _AdoptPageState extends State<AdoptPage> {
                           Text('Simpan untuk offline', style: AppText.bodyStrong),
                           const SizedBox(height: 2),
                           Text('Jadwal, catatan, dan foto tempat bisa dibuka tanpa sinyal.', style: AppText.small.muted),
+                        ],
