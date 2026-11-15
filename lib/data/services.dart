@@ -32,3 +32,4 @@ Future<String?> pickPhoto(PhotoSource source) async {
     imageQuality: 85,
   );
   if (x == null) return null;
+  return PhotoStore.put(await x.readAsBytes());
