@@ -12,3 +12,5 @@ class PhotoStore {
   PhotoStore._();
   static final Map<String, Uint8List> _mem = {};
   static int _n = 0;
+
+  static String put(Uint8List bytes) {
