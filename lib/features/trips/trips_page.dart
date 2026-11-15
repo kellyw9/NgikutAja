@@ -18,3 +18,4 @@ class TripsPage extends StatelessWidget {
     return ValueListenableBuilder<TripStatus>(
       valueListenable: tripsTab,
       builder: (context, tab, _) => Column(
+        crossAxisAlignment: CrossAxisAlignment.stretch,
