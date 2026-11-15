@@ -100,3 +100,4 @@ class SettingsPage extends StatelessWidget {
                   sub: 'Versi 1.0.0, Tugas Besar Pemrograman Mobile',
                   padH: 14,
                   onTap: () => push(context, const AboutPage()),
+                ),
