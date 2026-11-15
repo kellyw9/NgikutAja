@@ -446,3 +446,4 @@ class NavigationPage extends StatelessWidget {
                                   Text(info.$1, style: AppText.h2),
                                 ],
                               ),
+                            ),
