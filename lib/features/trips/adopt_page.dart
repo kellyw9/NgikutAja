@@ -147,3 +147,4 @@ class _AdoptPageState extends State<AdoptPage> {
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Text('Simpan untuk offline', style: AppText.bodyStrong),
+                          const SizedBox(height: 2),
