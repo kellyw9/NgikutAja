@@ -143,3 +143,4 @@ class _OnboardingPageState extends State<OnboardingPage> {
                   ),
                   const SizedBox(width: 14),
                   Expanded(
+                    child: Padding(
