@@ -206,3 +206,4 @@ class _AddStopPageState extends State<AddStopPage> {
                           ],
                           Tap(
                             onTap: () async {
+                              final p = await pickPhotoSheet(context, title: 'Foto referensi');
