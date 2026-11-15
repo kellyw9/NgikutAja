@@ -58,3 +58,4 @@ class _CheckinPageState extends State<CheckinPage> {
               else if (near)
                 NgBanner(
                   kind: BannerKind.success,
+                  title: 'Kamu sudah di lokasi',
