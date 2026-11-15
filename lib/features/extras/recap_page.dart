@@ -55,3 +55,4 @@ class RecapPage extends StatelessWidget {
                   MapView(height: 170, pins: pins),
                   const SizedBox(height: 8),
                   if (names.isNotEmpty)
+                    Text(others > 0 ? '${names.take(4).join(', ')}, dan $others tempat lainnya.' : '${names.join(', ')}.', style: AppText.body.muted),
