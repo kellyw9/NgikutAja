@@ -67,3 +67,4 @@ class Stop {
 }
 
 List<List<Stop>> copyPlan(List<List<Stop>> plan) => [
+  for (final d in plan) [for (final s in d) s.copy()],
