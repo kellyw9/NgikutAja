@@ -446,3 +446,4 @@ class AppState extends ChangeNotifier {
   void clearRecent() {
     recentSearches.clear();
     notifyListeners();
+  }
