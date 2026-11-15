@@ -201,3 +201,4 @@ class PublishedPage extends StatelessWidget {
       body: SafeArea(
         top: false,
         child: LayoutBuilder(
+          builder: (context, c) => SingleChildScrollView(
