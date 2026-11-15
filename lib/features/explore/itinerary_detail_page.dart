@@ -339,3 +339,4 @@ class PaidPreviewPage extends StatelessWidget {
                         const SizedBox(height: 8),
                         Text(
                           'Beli sekali seharga ${rp(it.price)} untuk membuka semua ${it.places} tempat, peta rute ${it.days} hari, '
+                          'dan catatan creator. Bisa diadopsi dan dibuka offline.',
