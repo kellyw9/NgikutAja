@@ -255,3 +255,4 @@ class _AddExpensePageState extends State<AddExpensePage> {
                 keyboardType: TextInputType.number,
                 inputFormatters: [ThousandsFormatter()],
                 error: tried && parseRupiah(amount.text) <= 0 ? 'Isi nominal pengeluaran' : null,
+                onChanged: (_) => setState(() {}),
