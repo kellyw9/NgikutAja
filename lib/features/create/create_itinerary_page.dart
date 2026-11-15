@@ -50,3 +50,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
     setState(() {
       touched = true;
       d.days = n;
+      while (d.plan.length < n) {
