@@ -28,3 +28,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
       day = k;
       dayTitle.text = _title(k);
     });
+  }
