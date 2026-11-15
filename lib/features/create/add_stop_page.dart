@@ -306,3 +306,4 @@ class _PickLocationPageState extends State<PickLocationPage> {
 
   @override
   void dispose() {
+    q.dispose();
