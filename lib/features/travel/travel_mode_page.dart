@@ -154,3 +154,4 @@ class TravelModePage extends StatelessWidget {
                 kind: BtnKind.secondary,
                 size: BtnSize.md,
                 icon: 'payments',
+                expand: true,
