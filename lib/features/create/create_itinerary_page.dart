@@ -179,3 +179,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
                 ),
                 NgField(
                   label: 'Kota / destinasi',
+                  icon: 'location_on',
