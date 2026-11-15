@@ -445,3 +445,4 @@ class Segmented extends StatelessWidget {
                           Flexible(
                             child: Text(
                               items[i],
+                              style: items[i] == active ? AppText.bodyStrong : AppText.body,
