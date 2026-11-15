@@ -22,3 +22,4 @@ class PhotoMemoryPage extends StatelessWidget {
       appBar: NgAppBar(title: 'Photo memory', sub: t.title),
       body: t.photos.isEmpty
           ? const EmptyState(
+              icon: 'photo_library',
