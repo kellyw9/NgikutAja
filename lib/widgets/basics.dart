@@ -544,3 +544,4 @@ class Marker extends StatelessWidget {
     final (fill, border, fg) = switch (state) {
       MarkerState.todo => (AppColors.surface, AppColors.teal, AppColors.ink),
       MarkerState.done => (AppColors.teal, null, AppColors.white),
+      MarkerState.next => (AppColors.yellow, null, AppColors.ink),
