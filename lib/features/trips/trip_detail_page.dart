@@ -34,3 +34,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
           icon: 'edit',
           title: 'Edit informasi trip',
           padH: 0,
+          onTap: () {
