@@ -475,3 +475,4 @@ class _SearchPageState extends State<SearchPage> {
                   );
                   if (c != null) set(() => q = c);
                 },
+              ),
