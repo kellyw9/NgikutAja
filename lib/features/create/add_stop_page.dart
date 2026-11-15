@@ -246,3 +246,4 @@ class _AddStopPageState extends State<AddStopPage> {
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Text('Pilih titik di peta', style: AppText.bodyStrong),
+                          const SizedBox(height: 2),
