@@ -285,3 +285,4 @@ class _PaymentStatusPageState extends State<PaymentStatusPage> {
 
   @override
   void initState() {
+    super.initState();
