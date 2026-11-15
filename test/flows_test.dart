@@ -88,3 +88,4 @@ void main() {
     final s = newState();
     final t = s.trips.firstWhere((x) => x.id == 'medan-libur');
     t.plan[0].add(Stop(start: '14.00', end: '15.00', name: 'Mie Aceh Titi Bobrok', cat: Category.makan, cost: 75000));
+    await tester.pumpWidget(host(s, CustomizePage(trip: t)));
