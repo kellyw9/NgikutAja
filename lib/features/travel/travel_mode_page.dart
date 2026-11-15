@@ -128,3 +128,4 @@ class TravelModePage extends StatelessWidget {
                       Text('${stops.length} aktivitas', style: AppText.small.muted),
                     ],
                   ),
+                  const SizedBox(height: 10),
