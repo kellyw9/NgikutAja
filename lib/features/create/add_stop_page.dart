@@ -291,3 +291,4 @@ class _AddStopPageState extends State<AddStopPage> {
 
 /// Langkah 4: Pilih Titik di Peta. Peta masih gambar sementara: ketuk peta untuk memindah pin.
 class PickLocationPage extends StatefulWidget {
+  const PickLocationPage({super.key, required this.query, required this.city, this.photo});
