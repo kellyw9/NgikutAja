@@ -97,3 +97,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
                                   Expanded(child: Progress(maxN == 0 ? 0 : e.value / maxN)),
                                   const SizedBox(width: 8),
                                   SizedBox(
+                                    width: 18,
