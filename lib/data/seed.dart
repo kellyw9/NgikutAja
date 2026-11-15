@@ -481,3 +481,4 @@ class Seed {
         title: 'Jogja Hemat 3 Hari Naik Trans Jogja',
         city: 'Yogyakarta',
         region: 'Yogyakarta, DIY',
+        start: _d(-45),
