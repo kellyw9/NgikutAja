@@ -48,3 +48,4 @@ class PhotoMemoryPage extends StatelessWidget {
                               radius: AppRadius.inner,
                               label: 'Buka foto ${p.caption}',
                               child: Photo(p.src, width: size, height: size, radius: AppRadius.inner),
+                            ),
