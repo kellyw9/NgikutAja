@@ -148,3 +148,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
       },
       child: Scaffold(
         backgroundColor: AppColors.ground,
+        appBar: NgAppBar(title: 'Buat itinerary', onBack: () => Navigator.maybePop(context), trailingTitle: draftPill),
