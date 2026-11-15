@@ -213,3 +213,4 @@ class _GooglePainter extends CustomPainter {
 
   static const _parts = [
     (
+      Color(0xFFEA4335),
