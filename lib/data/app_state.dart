@@ -46,3 +46,4 @@ class AppState extends ChangeNotifier {
       // Plugin koneksi bisa tidak tersedia (tes, platform tertentu): anggap online.
       try {
         _netSub = Network.watch().listen((v) {
+          if (v != online) {
