@@ -169,3 +169,4 @@ class BottomBar extends StatelessWidget {
     child: SafeArea(
       top: false,
       child: Column(
+        mainAxisSize: MainAxisSize.min,
