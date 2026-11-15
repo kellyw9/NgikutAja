@@ -510,3 +510,4 @@ class Seed {
       Review(
         name: 'Arif Nasution',
         tint: 4,
+        stars: 5,
