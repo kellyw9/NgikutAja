@@ -220,3 +220,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
                       label: 'Batal membalas',
                       size: 32,
                       iconSize: 16,
+                      color: AppColors.muted,
