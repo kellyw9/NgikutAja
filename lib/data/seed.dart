@@ -257,3 +257,4 @@ class Seed {
         id: 'bajo',
         title: 'Labuan Bajo 3 Hari Lompat Pulau',
         city: 'Labuan Bajo',
+        region: 'Manggarai Barat, NTT',
