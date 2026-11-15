@@ -233,3 +233,4 @@ class Seed {
 
     itineraries = [
       medan,
+      toba,
