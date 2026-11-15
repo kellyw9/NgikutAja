@@ -176,3 +176,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
                   area: true,
                   hint: 'Ceritakan rute ini dalam dua atau tiga kalimat.',
                   onChanged: (_) => touched = true,
+                ),
