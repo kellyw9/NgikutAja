@@ -250,3 +250,4 @@ class KeyValueBox extends StatelessWidget {
     child: Column(
       children: [
         for (final r in rows)
+          ConstrainedBox(
