@@ -246,3 +246,4 @@ class PaidPreviewPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final app = AppScope.of(context);
+    // Sudah dibeli selagi halaman ini terbuka: ganti ke detail lengkap.
