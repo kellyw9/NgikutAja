@@ -37,3 +37,4 @@ class SettingsPage extends StatelessWidget {
     Widget sw(String key, String title, [String? sub]) => ConstrainedBox(
       constraints: BoxConstraints(minHeight: sub != null ? 60 : 50),
       child: Padding(
+        padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 6),
