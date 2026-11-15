@@ -192,3 +192,4 @@ class _SearchPageState extends State<SearchPage> {
                       setState(() => submitted = null);
                       focus.requestFocus();
                     },
+                  ),
