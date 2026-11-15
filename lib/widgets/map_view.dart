@@ -20,3 +20,4 @@ class MapView extends StatelessWidget {
   const MapView({
     super.key,
     this.height = 200,
+    this.kind = MapKind.city,
