@@ -112,3 +112,4 @@ class ExpensesPage extends StatelessWidget {
                 const EmptyState(
                   icon: 'payments',
                   title: 'Belum ada pengeluaran',
+                  text: 'Catat tiket, makan, dan transportasi supaya pembagian biaya dihitung otomatis.',
