@@ -90,3 +90,4 @@ class _AddStopPageState extends State<AddStopPage> {
                         for (final c in Category.values) ...[
                           NgChip(c.label, selected: c == cat, icon: c.icon, onTap: () => setState(() => cat = c)),
                           const SizedBox(width: 8),
+                        ],
