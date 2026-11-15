@@ -44,3 +44,4 @@ ThemeData buildTheme() {
     secondary: AppColors.teal,
     surface: AppColors.surface,
     onSurface: AppColors.ink,
+    error: AppColors.negative,
