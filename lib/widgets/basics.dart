@@ -286,3 +286,4 @@ class _DashPainter extends CustomPainter {
   _DashPainter(this.color, this.radius, this.width, this.fill);
   final Color color;
   final double radius;
+  final double width;
