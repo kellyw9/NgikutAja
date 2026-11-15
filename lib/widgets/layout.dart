@@ -391,3 +391,5 @@ class NgCard extends StatelessWidget {
     ),
   );
 }
+
+/// Foto sampul selebar layar dengan tombol kotak putih di atasnya.
