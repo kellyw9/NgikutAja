@@ -414,3 +414,4 @@ class Pill extends StatelessWidget {
 
 /// Harga berbayar: label putih dengan ikon label harga.
 class PriceTag extends StatelessWidget {
+  const PriceTag(this.text, {super.key});
