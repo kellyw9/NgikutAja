@@ -172,3 +172,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
                     const SizedBox(width: 8),
                     if (app.countdown(t) != null) Text(app.countdown(t)!, style: AppText.small.muted),
                     if (status == TripStatus.berjalan) Text('Hari ${app.currentDay(t) + 1} dari ${t.days}', style: AppText.small.muted),
+                  ],
