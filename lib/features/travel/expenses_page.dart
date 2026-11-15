@@ -319,3 +319,4 @@ class _AddExpensePageState extends State<AddExpensePage> {
                       : AddPhotoTile(
                           icon: 'photo_camera',
                           label: 'Foto struk',
+                          onTap: () async {
