@@ -348,3 +348,5 @@ enum TxStatus {
   berhasil('Berhasil'),
   gagal('Gagal'),
   pending('Pending');
+
+  const TxStatus(this.label);
