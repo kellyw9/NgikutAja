@@ -70,3 +70,4 @@ class DashboardPage extends StatelessWidget {
                                         Text(monthly[i].$1, style: AppText.small.muted),
                                       ],
                                     ),
+                                  ),
