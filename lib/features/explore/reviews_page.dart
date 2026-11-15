@@ -184,3 +184,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
                         'Balas',
                         style: AppText.smallStrong,
                         onTap: () {
+                          if (!requireLogin(context)) return;
