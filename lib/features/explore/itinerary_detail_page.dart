@@ -112,3 +112,4 @@ class _ItineraryDetailPageState extends State<ItineraryDetailPage> {
                     ('Estimasi per orang', it.estimate != null ? rp(it.estimate!) : 'Belum dihitung'),
                     ('Diadopsi', '${thousands(it.adopted)} kali'),
                   ]),
+                  Wrap(
