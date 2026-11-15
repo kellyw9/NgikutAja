@@ -141,3 +141,4 @@ class _SplitBudgetPageState extends State<SplitBudgetPage> {
                   if (settle.isEmpty)
                     Text(
                       total == 0 ? 'Belum ada pengeluaran yang dicatat.' : 'Semua sudah pas, tidak ada yang perlu transfer.',
+                      style: AppText.body.muted,
