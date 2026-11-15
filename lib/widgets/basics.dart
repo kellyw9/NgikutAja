@@ -271,3 +271,4 @@ class Photo extends StatelessWidget {
 // ---------------------------------------------------------------- garis putus-putus
 
 class DashedBox extends StatelessWidget {
+  const DashedBox({super.key, required this.child, this.color = AppColors.control, this.radius = AppRadius.control, this.width = 1, this.fill});
