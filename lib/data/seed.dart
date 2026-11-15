@@ -421,3 +421,4 @@ class Seed {
     trips = [
       Trip(
         id: 'toba-kampus',
+        title: 'Danau Toba bareng teman kampus',
