@@ -97,3 +97,4 @@ class Seed {
         handle: '@bajoharian',
         tint: 5,
         bio: 'Kapten kapal wisata di Labuan Bajo.',
+        followers: 410,
