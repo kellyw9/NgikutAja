@@ -157,3 +157,4 @@ class _NewPasswordPageState extends State<NewPasswordPage> {
 
   @override
   Widget build(BuildContext context) {
+    return Scaffold(
