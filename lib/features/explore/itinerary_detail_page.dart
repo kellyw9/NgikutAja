@@ -251,3 +251,5 @@ class PaidPreviewPage extends StatelessWidget {
     final day1 = it.plan.isNotEmpty ? it.plan[0] : <Stop>[];
     final day2 = it.plan.length > 1 ? it.plan[1] : <Stop>[];
     final lockedCount = it.places - day1.length;
+
+    return Scaffold(
