@@ -41,3 +41,4 @@ class _PublishPageState extends State<PublishPage> {
 
     Widget typeCard(bool isPaid, String title, String text) {
       final on = paid == isPaid;
+      return Expanded(
