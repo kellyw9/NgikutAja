@@ -102,3 +102,4 @@ class DashboardPage extends StatelessWidget {
                                 padding: const EdgeInsets.symmetric(horizontal: 14),
                                 child: Row(
                                   children: [
+                                    Photo(x.cover, width: 52, height: 52, radius: AppRadius.inner),
