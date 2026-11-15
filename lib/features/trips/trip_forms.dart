@@ -229,3 +229,4 @@ class _EditTripInfoPageState extends State<EditTripInfoPage> {
   late final title = TextEditingController(text: t.title);
   late final region = TextEditingController(text: t.region);
   late final desc = TextEditingController(text: t.desc);
+  late DateTime? start = t.start;
