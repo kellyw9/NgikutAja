@@ -137,3 +137,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
                       iconSize: 20,
                       stroke: AppColors.control,
                       bg: AppColors.surface,
+                      onTap: () {
