@@ -180,3 +180,4 @@ class _NewPasswordPageState extends State<NewPasswordPage> {
                       icon: 'lock',
                       controller: p1,
                       obscure: o1,
+                      onChanged: (_) => setState(() {}),
