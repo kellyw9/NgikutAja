@@ -124,3 +124,4 @@ class PermissionDeniedPage extends StatelessWidget {
   Widget build(BuildContext context) => Scaffold(
     backgroundColor: AppColors.ground,
     appBar: NgAppBar(title: 'Check-in', sub: place),
+    body: SafeArea(
