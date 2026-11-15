@@ -65,3 +65,4 @@ class _PackingPageState extends State<PackingPage> {
     showNgSnack(
       context,
       '${it.name} dihapus.',
+      action: 'Urungkan',
