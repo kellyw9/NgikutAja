@@ -70,3 +70,4 @@ class MapView extends StatelessWidget {
                   Positioned(
                     left: me!.dx * w - 11,
                     top: me!.dy * h - 11,
+                    child: Semantics(
