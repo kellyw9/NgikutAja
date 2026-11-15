@@ -198,3 +198,4 @@ class _NextCard extends StatelessWidget {
             onTap: () => push(context, TravelStopPage(trip: trip, day: day, i: i)),
             radius: 6,
             child: Row(
+              crossAxisAlignment: CrossAxisAlignment.start,
