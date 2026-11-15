@@ -57,3 +57,4 @@ class Seed {
     creators = {
       'rahmat': Creator(
         id: 'rahmat',
+        name: 'Rahmat Siregar',
