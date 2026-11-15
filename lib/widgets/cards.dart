@@ -469,3 +469,4 @@ class DayStrip extends StatelessWidget {
               child: const DashedBox(
                 child: SizedBox(width: 56, child: Center(child: AppIcon('add'))),
               ),
+            ),
