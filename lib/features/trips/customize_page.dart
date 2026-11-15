@@ -242,3 +242,4 @@ class _CustomizePageState extends State<CustomizePage> {
               Container(
                 padding: const EdgeInsets.all(12),
                 decoration: BoxDecoration(
+                  color: iss.conflict ? AppColors.negativePale : AppColors.yellowPale,
