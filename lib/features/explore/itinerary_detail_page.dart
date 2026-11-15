@@ -83,3 +83,5 @@ class _ItineraryDetailPageState extends State<ItineraryDetailPage> {
     final it = widget.it;
     final dayStops = day < it.plan.length ? it.plan[day] : <Stop>[];
     final mapStops = mapDay < it.plan.length ? it.plan[mapDay].length : 0;
+
+    return Scaffold(
