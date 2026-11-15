@@ -88,3 +88,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
               Expanded(
                 child: NgField(label: 'Tag lain', controller: input, hint: 'Misal: Pantai', onSubmitted: (v) => Navigator.pop(ctx, v.trim())),
               ),
+              const SizedBox(width: 8),
