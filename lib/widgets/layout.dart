@@ -110,3 +110,4 @@ class TabHeader extends StatelessWidget {
   Widget build(BuildContext context) => Padding(
     padding: const EdgeInsets.fromLTRB(kMargin, 12, 4, 8),
     child: Row(
+      children: [
