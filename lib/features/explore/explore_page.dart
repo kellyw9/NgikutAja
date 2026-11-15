@@ -93,3 +93,4 @@ class _ExplorePageState extends State<ExplorePage> {
 
     return Column(
       children: [
+        TabHeader('Explore', actions: [Bell(onTap: () => push(context, const NotificationsPage()))]),
