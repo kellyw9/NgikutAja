@@ -460,3 +460,4 @@ class NavigationPage extends StatelessWidget {
                                   Text('± ${info.$2}', style: AppText.h2),
                                 ],
                               ),
+                            ),
