@@ -90,3 +90,4 @@ void showNgSnack(BuildContext context, String text, {SnackKind kind = SnackKind.
       duration: Duration(seconds: action != null ? 6 : 3),
       content: Row(
         children: [
+          if (ic != null) ...[AppIcon(ic, size: 20, color: AppColors.white, filled: true), const SizedBox(width: 12)],
