@@ -256,3 +256,4 @@ class Seed {
       Itinerary(
         id: 'bajo',
         title: 'Labuan Bajo 3 Hari Lompat Pulau',
+        city: 'Labuan Bajo',
