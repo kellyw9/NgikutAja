@@ -125,3 +125,5 @@ class Itinerary {
 
   bool get isPaid => price > 0;
   bool get hasFullPlan => plan.length == days && plan.every((d) => d.isNotEmpty);
+
+  int dayCost(int d) => d < plan.length ? plan[d].fold(0, (a, s) => a + s.cost) : 0;
