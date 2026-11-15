@@ -17,3 +17,4 @@ import 'package:ngikutaja/features/create/publish_page.dart';
 import 'package:ngikutaja/features/explore/creator_profile_page.dart';
 import 'package:ngikutaja/features/explore/itinerary_detail_page.dart';
 import 'package:ngikutaja/features/explore/reviews_page.dart';
+import 'package:ngikutaja/features/extras/journal_page.dart';
