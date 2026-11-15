@@ -156,3 +156,4 @@ Future<Category?> pickCategory(BuildContext context, Category current) {
               checked: Category.values[i] == current,
               child: SizedBox(
                 height: 52,
+                child: Row(
