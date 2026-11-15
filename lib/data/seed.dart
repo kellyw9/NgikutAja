@@ -232,3 +232,4 @@ class Seed {
     );
 
     itineraries = [
+      medan,
