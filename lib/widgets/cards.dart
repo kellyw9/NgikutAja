@@ -475,3 +475,4 @@ class DayStrip extends StatelessWidget {
       ),
     ),
   );
+}
