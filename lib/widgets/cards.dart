@@ -125,3 +125,4 @@ class WisataCard extends StatelessWidget {
                   fit: StackFit.expand,
                   children: [
                     Photo(it.cover, radius: AppRadius.inner),
+                    if (showWish) Positioned(right: 6, top: 6, child: WishButton(it, onGuest: onGuest)),
