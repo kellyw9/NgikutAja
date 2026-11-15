@@ -265,3 +265,4 @@ class PublishedPage extends StatelessWidget {
                 ),
               ),
             ),
+          ),
