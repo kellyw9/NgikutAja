@@ -133,3 +133,4 @@ class _MapPainter extends CustomPainter {
         ..cubicTo(.1 * w, .3 * h, .2 * w, .7 * h, .12 * w, 1.05 * h)
         ..lineTo(1.05 * w, 1.05 * h)
         ..lineTo(1.05 * w, -.05 * h)
+        ..close();
