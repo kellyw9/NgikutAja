@@ -196,3 +196,4 @@ class Expense {
   String name;
   ExpenseCat cat;
   int amount;
+  String by; // nama depan anggota
