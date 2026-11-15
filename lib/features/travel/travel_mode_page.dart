@@ -127,3 +127,4 @@ class TravelModePage extends StatelessWidget {
                       Expanded(child: Text('Jadwal hari ini', style: AppText.h2)),
                       Text('${stops.length} aktivitas', style: AppText.small.muted),
                     ],
+                  ),
