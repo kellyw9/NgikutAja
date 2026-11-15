@@ -100,3 +100,4 @@ class PurchaseDetailPage extends StatelessWidget {
       bottomNavigationBar: BottomBar(
         children: [
           Expanded(
+            child: Column(
