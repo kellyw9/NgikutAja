@@ -320,3 +320,4 @@ class _EditTripInfoPageState extends State<EditTripInfoPage> {
           ),
         ],
       ),
+    );
