@@ -163,3 +163,4 @@ class AboutPage extends StatelessWidget {
           ],
         );
       },
+    ),
