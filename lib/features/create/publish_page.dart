@@ -119,3 +119,4 @@ class _PublishPageState extends State<PublishPage> {
                     onChanged: (_) => setState(() {}),
                     helper: 'Pembayaran masih simulasi, belum ada dana riil.',
                     error: parseRupiah(price.text) < 5000 ? 'Harga minimal Rp5.000' : null,
+                  ),
