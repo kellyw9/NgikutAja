@@ -8,3 +8,4 @@ import 'basics.dart';
 
 const kDarkIcons = SystemUiOverlayStyle(
   statusBarColor: Colors.transparent,
+  statusBarIconBrightness: Brightness.dark,
