@@ -38,3 +38,4 @@ class _SplashPageState extends State<SplashPage> {
     return AnnotatedRegion(
       value: kLightIcons,
       child: Scaffold(
+        backgroundColor: AppColors.ink,
