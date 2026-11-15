@@ -289,3 +289,4 @@ class PaidPreviewPage extends StatelessWidget {
             const SectionHead('Jadwal per hari', sub: 'Hari 1 bisa dilihat gratis'),
             const SizedBox(height: 8),
             DayStrip(
+              days: [for (var d = 0; d < it.days; d++) DayItem('Hari ${d + 1}', sub: d == 0 ? 'Gratis' : 'Terkunci')],
