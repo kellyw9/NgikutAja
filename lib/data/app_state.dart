@@ -178,3 +178,4 @@ class AppState extends ChangeNotifier {
   final Set<String> liked = {};
 
   bool toggleWish(String id) {
+    final on = !wishlist.contains(id);
