@@ -107,3 +107,4 @@ class BottomNav extends StatelessWidget {
           ],
         ),
       ),
+    );
