@@ -264,3 +264,5 @@ class _DayEditorPageState extends State<DayEditorPage> {
     );
   }
 }
+
+class _StopCard extends StatelessWidget {
