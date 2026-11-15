@@ -60,3 +60,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
     final maxN = dist?.values.fold<int>(0, (a, b) => a > b ? a : b) ?? 1;
     return ListView(
       padding: const EdgeInsets.fromLTRB(kMargin, 16, kMargin, 24),
+      children: [
