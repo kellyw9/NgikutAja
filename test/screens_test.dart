@@ -143,3 +143,4 @@ void main() {
         ..onboarded = true
         ..loggedIn = true;
       shellTab.value = tabTrips;
+      tripsTab.value = st;
