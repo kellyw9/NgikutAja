@@ -51,3 +51,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
     );
     if (r == null) return;
     setState(() {
+      if (i == null) {
