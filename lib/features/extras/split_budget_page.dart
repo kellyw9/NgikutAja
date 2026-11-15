@@ -96,3 +96,4 @@ class _SplitBudgetPageState extends State<SplitBudgetPage> {
                                         Text('Sudah bayar ${rp(paidBy(m))}', style: AppText.small.muted),
                                       ],
                                     ),
+                                  ),
