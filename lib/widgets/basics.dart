@@ -207,3 +207,4 @@ class Tap extends StatelessWidget {
   Widget build(BuildContext context) {
     if (onTap == null) return child;
     return Semantics(
+      button: true,
