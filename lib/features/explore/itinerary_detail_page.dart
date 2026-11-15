@@ -137,3 +137,4 @@ class _ItineraryDetailPageState extends State<ItineraryDetailPage> {
                         label: '${app.commentsOf(it).length} komentar, buka komentar',
                         onTap: () => push(context, ReviewsPage(it: it, comments: true)),
                       ),
+                    ],
