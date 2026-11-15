@@ -161,3 +161,4 @@ const _methods = [
 /// 8.3 Pembayaran Simulasi.
 class PaymentPage extends StatefulWidget {
   const PaymentPage({super.key, required this.it, this.method = 'QRIS'});
+  final Itinerary it;
