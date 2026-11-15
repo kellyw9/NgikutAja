@@ -141,3 +141,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
                         _saveTitle();
                         setState(() {
                           d.plan.add([]);
+                          d.dayTitles.add('');
