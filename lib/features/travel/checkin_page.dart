@@ -78,3 +78,4 @@ class _CheckinPageState extends State<CheckinPage> {
                   onPressed: near
                       ? () {
                           app.checkIn(t, widget.day, widget.i);
+                          setState(() => done = true);
