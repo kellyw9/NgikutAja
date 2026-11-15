@@ -470,3 +470,4 @@ class NavigationPage extends StatelessWidget {
                   Text('Peta di atas masih gambar sementara. Rute dan jarak asli dibuka di Google Maps.', style: AppText.small.muted),
                 NgButton(
                   'Buka Google Maps',
+                  icon: 'map',
