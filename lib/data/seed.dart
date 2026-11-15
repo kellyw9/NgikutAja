@@ -332,3 +332,4 @@ class Seed {
         tags: ['Alam'],
         publishedAt: _d(-60),
       ),
+      Itinerary(
