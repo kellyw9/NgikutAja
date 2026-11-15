@@ -219,3 +219,4 @@ class AppState extends ChangeNotifier {
   List<Comment> commentsOf(Itinerary it) => comments[it.id] ?? const [];
 
   void addComment(Itinerary it, String text, {String? replyTo}) {
+    comments
