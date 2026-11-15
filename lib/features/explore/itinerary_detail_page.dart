@@ -134,3 +134,4 @@ class _ItineraryDetailPageState extends State<ItineraryDetailPage> {
                       _StatChip(
                         icon: 'chat_bubble',
                         text: '${app.commentsOf(it).length}',
+                        label: '${app.commentsOf(it).length} komentar, buka komentar',
