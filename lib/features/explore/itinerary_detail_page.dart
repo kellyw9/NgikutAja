@@ -192,3 +192,4 @@ class _ItineraryDetailPageState extends State<ItineraryDetailPage> {
               onTap: (d) => setState(() => day = d),
             ),
             Padding(
+              padding: const EdgeInsets.fromLTRB(kMargin, 12, kMargin, 24),
