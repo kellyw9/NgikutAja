@@ -93,3 +93,4 @@ void main() {
     await tapText(tester, 'Lihat saran');
     await tester.pumpAndSettle();
     expect(find.text('Geser Mie Aceh Titi Bobrok ke 14.45'), findsOneWidget);
+    await tapText(tester, 'Terapkan', button: true);
