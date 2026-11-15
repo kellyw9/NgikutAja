@@ -284,3 +284,4 @@ class Seed {
         likes: 266,
         rating: 4.7,
         reviews: 24,
+        tags: ['Budaya'],
