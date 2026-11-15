@@ -91,3 +91,4 @@ class TravelModePage extends StatelessWidget {
                               Text('${total == 0 ? 0 : (done / total * 100).round()}%', style: AppText.smallStrong.white),
                             ],
                           ),
+                          const SizedBox(height: 6),
