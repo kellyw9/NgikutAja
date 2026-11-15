@@ -241,3 +241,4 @@ class _AdoptProgressPageState extends State<AdoptProgressPage> {
       canPop: !busy,
       child: Scaffold(
         backgroundColor: AppColors.ground,
+        body: busy
