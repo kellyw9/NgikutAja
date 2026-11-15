@@ -48,3 +48,4 @@ class PurchaseDetailPage extends StatelessWidget {
       'Peta rute perjalanan ${it.days} hari',
       'Dapat diadopsi dan diedit jadwalnya',
       'Bisa dibuka offline saat berada di ${it.city}',
+    ];
