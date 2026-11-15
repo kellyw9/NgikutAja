@@ -510,3 +510,4 @@ class _SearchPageState extends State<SearchPage> {
               ),
               Padding(
                 padding: const EdgeInsets.only(top: 8),
+                child: Row(
