@@ -139,3 +139,4 @@ class _SplitBudgetPageState extends State<SplitBudgetPage> {
                   Text('Detail penyelesaian saldo', style: AppText.h2),
                   const SizedBox(height: 8),
                   if (settle.isEmpty)
+                    Text(
