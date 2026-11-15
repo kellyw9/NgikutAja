@@ -52,3 +52,4 @@ class _EditProfilePageState extends State<EditProfilePage> {
     return PopScope(
       canPop: !dirty,
       onPopInvokedWithResult: (didPop, _) async {
+        if (didPop) return;
