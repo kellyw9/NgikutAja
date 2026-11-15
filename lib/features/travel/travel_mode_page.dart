@@ -209,3 +209,4 @@ class _NextCard extends StatelessWidget {
                           Marker(i + 1, state: MarkerState.next, size: 22),
                           const SizedBox(width: 6),
                           Text('Berikutnya pukul ${st.start}', style: AppText.smallStrong.muted),
+                        ],
