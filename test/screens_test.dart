@@ -98,3 +98,4 @@ final Map<String, PageFor> pages = {
   'wishlist': (s) => const WishlistPage(),
   'dashboard': (s) => const DashboardPage(),
   'settings': (s) => const SettingsPage(),
+  'notifications': (s) => const NotificationsPage(),
