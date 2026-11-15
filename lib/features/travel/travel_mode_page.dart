@@ -372,3 +372,4 @@ class NavigationPage extends StatelessWidget {
     final prev = i > 0 ? i - 1 : null;
     return Scaffold(
       backgroundColor: AppColors.mapLand,
+      body: Stack(
