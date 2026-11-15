@@ -394,3 +394,4 @@ class NgChip extends StatelessWidget {
                 ],
                 ExcludeSemantics(
                   excluding: close,
+                  child: Text(label, style: (selected ? AppText.bodyStrong : AppText.body).c(fg)),
