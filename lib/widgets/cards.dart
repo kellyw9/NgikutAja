@@ -496,3 +496,4 @@ class _DayBox extends StatelessWidget {
           borderRadius: BorderRadius.circular(AppRadius.control),
           side: on ? BorderSide.none : const BorderSide(color: AppColors.line),
         ),
+        clipBehavior: Clip.antiAlias,
