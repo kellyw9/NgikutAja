@@ -33,3 +33,5 @@ class Proof extends StatelessWidget {
     ],
   );
 }
+
+/// Tombol wishlist. Tamu diarahkan ke sheet login lewat [onGuest].
