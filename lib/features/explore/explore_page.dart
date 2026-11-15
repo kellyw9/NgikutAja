@@ -46,3 +46,4 @@ class _ExplorePageState extends State<ExplorePage> {
 
   @override
   Widget build(BuildContext context) {
+    final app = AppScope.of(context);
