@@ -140,3 +140,4 @@ class _CustomizePageState extends State<CustomizePage> {
                         title: _dayLabel(d),
                         sub: d == day
                             ? 'Posisi sekarang'
+                            : plan[d].isEmpty
