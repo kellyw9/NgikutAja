@@ -119,3 +119,4 @@ class AboutPage extends StatelessWidget {
   Widget build(BuildContext context) => Scaffold(
     backgroundColor: AppColors.ground,
     appBar: const NgAppBar(title: 'Tentang NgikutAja'),
+    body: FutureBuilder<String>(
