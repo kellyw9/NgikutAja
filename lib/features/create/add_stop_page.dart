@@ -408,3 +408,4 @@ class _PickLocationPageState extends State<PickLocationPage> {
         ),
         child: SafeArea(
           top: false,
+          child: Padding(
