@@ -67,3 +67,4 @@ class _PeoplePageState extends State<PeoplePage> {
             Padding(
               padding: const EdgeInsets.fromLTRB(kMargin, 16, kMargin, 0),
               child: Text('Menampilkan ${list.length} akun dari data contoh.', style: AppText.small.muted),
+            ),
