@@ -228,3 +228,5 @@ class _SearchPageState extends State<SearchPage> {
       ],
     ),
   );
+
+  Widget _idle(AppState app) => ListView(
