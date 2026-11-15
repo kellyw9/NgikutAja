@@ -289,3 +289,4 @@ class TripCard extends StatelessWidget {
                 ),
                 const SizedBox(width: 12),
                 Photo(cover, width: 72, height: 72, radius: AppRadius.inner),
+              ],
