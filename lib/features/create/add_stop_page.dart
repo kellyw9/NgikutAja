@@ -303,3 +303,5 @@ class PickLocationPage extends StatefulWidget {
 class _PickLocationPageState extends State<PickLocationPage> {
   late final q = TextEditingController(text: widget.query);
   Offset pin = const Offset(.5, .45);
+
+  @override
