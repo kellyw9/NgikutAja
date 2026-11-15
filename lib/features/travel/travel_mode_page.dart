@@ -400,3 +400,4 @@ class NavigationPage extends StatelessWidget {
         ],
       ),
       bottomNavigationBar: Container(
+        decoration: const BoxDecoration(
