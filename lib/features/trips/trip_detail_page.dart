@@ -125,3 +125,5 @@ class _TripDetailPageState extends State<TripDetailPage> {
       ),
     );
   }
+
+  @override
