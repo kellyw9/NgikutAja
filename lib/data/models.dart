@@ -149,3 +149,5 @@ enum TripStatus {
   const TripStatus(this.label);
   final String label;
 }
+
+enum MemberRole {
