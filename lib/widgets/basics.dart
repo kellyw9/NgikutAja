@@ -217,3 +217,4 @@ class Tap extends StatelessWidget {
           focusColor: AppColors.teal.withValues(alpha: .18),
           highlightColor: AppColors.ink.withValues(alpha: .06),
           splashColor: AppColors.ink.withValues(alpha: .08),
+          child: child,
