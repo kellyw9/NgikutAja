@@ -95,3 +95,4 @@ class RecapPage extends StatelessWidget {
                   ],
                 ),
               if (t.recapNote != null)
+                NgCard(
