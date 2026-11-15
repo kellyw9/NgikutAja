@@ -213,3 +213,4 @@ class FactStrip extends StatelessWidget {
                       children: [
                         Text(cells[i].$1, style: AppText.small.muted),
                         const SizedBox(height: 2),
+                        FittedBox(
