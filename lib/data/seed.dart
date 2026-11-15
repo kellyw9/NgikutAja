@@ -350,3 +350,4 @@ class Seed {
         dayTitles: ['Keliling Samosir', 'Desa adat'],
         plan: [
           [
+            _s('08.00', '09.00', 'Kapal dari Pelabuhan Ajibata', _l, 15000),
