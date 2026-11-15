@@ -40,3 +40,4 @@ class _CreatorProfilePageState extends State<CreatorProfilePage> {
                 : NgButton(
                     following ? 'Mengikuti' : 'Ikuti',
                     kind: following ? BtnKind.ghost : BtnKind.primary,
+                    size: BtnSize.md,
