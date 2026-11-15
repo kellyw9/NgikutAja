@@ -277,3 +277,4 @@ class _SearchPageState extends State<SearchPage> {
 
   Widget _suggestions(AppState app) {
     final q = input.text.trim().toLowerCase();
+    final cities = AppState.cities.where((c) => c.name.toLowerCase().contains(q)).toList();
