@@ -70,3 +70,4 @@ class _RegisterPageState extends State<RegisterPage> {
     return Scaffold(
       backgroundColor: AppColors.ground,
       appBar: const NgAppBar(),
+      body: SafeArea(
