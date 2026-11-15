@@ -496,3 +496,4 @@ class Avatar extends StatelessWidget {
         child: ExcludeSemantics(
           child: Text(initials(name), style: style.copyWith(fontSize: size < 24 ? 9 : null)),
         ),
+      ),
