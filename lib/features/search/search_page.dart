@@ -189,3 +189,4 @@ class _SearchPageState extends State<SearchPage> {
                     color: AppColors.muted,
                     onTap: () {
                       input.clear();
+                      setState(() => submitted = null);
