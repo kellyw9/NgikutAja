@@ -93,3 +93,4 @@ class _ResetPasswordPageState extends State<ResetPasswordPage> {
                       ),
                       const SizedBox(height: 16),
                       if (wait > 0)
+                        Text('Kirim ulang dalam 00.${wait.toString().padLeft(2, '0')}', style: AppText.small.muted)
