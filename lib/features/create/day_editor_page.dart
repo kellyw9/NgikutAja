@@ -112,3 +112,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
                           Positioned(
                             right: -2,
                             top: -2,
+                            child: Semantics(
