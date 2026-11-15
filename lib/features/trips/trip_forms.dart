@@ -247,3 +247,5 @@ class _EditTripInfoPageState extends State<EditTripInfoPage> {
     Navigator.pop(context);
     showNgSnack(context, 'Informasi trip tersimpan.', kind: SnackKind.success);
   }
+
+  @override
