@@ -529,3 +529,4 @@ class Seed {
         Comment(
           name: 'Rahmat Siregar',
           tint: 1,
+          time: '1 jam lalu',
