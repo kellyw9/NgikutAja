@@ -27,3 +27,4 @@ class _ExplorePageState extends State<ExplorePage> {
 
   Future<void> _load() async {
     setState(() {
+      loading = true;
