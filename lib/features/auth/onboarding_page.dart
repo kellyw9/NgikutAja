@@ -149,3 +149,4 @@ class _OnboardingPageState extends State<OnboardingPage> {
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Text(flow[i].$1, style: AppText.title),
+                          const SizedBox(height: 2),
