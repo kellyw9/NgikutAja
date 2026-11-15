@@ -277,3 +277,4 @@ class _EditTripInfoPageState extends State<EditTripInfoPage> {
                 child: Stack(
                   fit: StackFit.expand,
                   children: [
+                    Photo(cover, radius: AppRadius.card, semantic: 'Foto sampul trip'),
