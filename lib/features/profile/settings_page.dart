@@ -121,3 +121,4 @@ class AboutPage extends StatelessWidget {
     appBar: const NgAppBar(title: 'Tentang NgikutAja'),
     body: FutureBuilder<String>(
       future: rootBundle.loadString('assets/photos/credits.json'),
+      builder: (context, snap) {
