@@ -208,3 +208,4 @@ class PublishedPage extends StatelessWidget {
               child: IntrinsicHeight(
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.stretch,
+                  children: [
