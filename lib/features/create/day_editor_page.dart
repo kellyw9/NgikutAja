@@ -43,3 +43,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
     final r = await push<StopEditResult>(
       context,
       AddStopPage(
+        stop: i == null ? null : d.plan[day][i].copy(),
