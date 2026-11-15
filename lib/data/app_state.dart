@@ -232,3 +232,4 @@ class AppState extends ChangeNotifier {
   bool canOpen(Itinerary it) => !it.isPaid || purchased.contains(it.id) || it.creator == me;
 
   /// Buat transaksi baru berstatus pending (pembayaran simulasi).
+  Transaction startPayment(Itinerary it, String method) {
