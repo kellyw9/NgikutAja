@@ -84,3 +84,4 @@ class _SplitBudgetPageState extends State<SplitBudgetPage> {
                           child: Column(
                             children: [
                               Row(
+                                children: [
