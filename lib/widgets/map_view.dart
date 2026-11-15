@@ -33,3 +33,4 @@ class MapView extends StatelessWidget {
 
   final double? height;
   final MapKind kind;
+  final List<MapPin> pins;
