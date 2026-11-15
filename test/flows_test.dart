@@ -20,3 +20,5 @@ Widget host(AppState s, Widget home) => AppScope(
   state: s,
   child: MaterialApp(theme: buildTheme(), home: home),
 );
+
+Future<void> phone(WidgetTester tester) async {
