@@ -73,3 +73,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
               children: [
                 SizedBox(
                   width: 84,
+                  child: Column(
