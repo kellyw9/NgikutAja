@@ -85,3 +85,4 @@ class _PhotoPreviewPageState extends State<PhotoPreviewPage> {
                 onPressed: () {
                   final now = DateTime.now();
                   AppScope.read(context).addPhoto(
+                    t,
