@@ -493,3 +493,4 @@ class _SearchPageState extends State<SearchPage> {
                 Wrap(
                   spacing: 8,
                   children: [
+                    for (final r in _ratings)
