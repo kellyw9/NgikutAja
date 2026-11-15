@@ -74,3 +74,4 @@ class NgAppBar extends StatelessWidget implements PreferredSizeWidget {
             mainAxisSize: MainAxisSize.min,
             children: [
               SizedBox(
+                height: 56,
