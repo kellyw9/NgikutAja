@@ -101,3 +101,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
                   'Edit',
                   kind: BtnKind.secondary,
                   icon: 'edit',
+                  expand: true,
