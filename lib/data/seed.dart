@@ -432,3 +432,4 @@ class Seed {
         members: [
           dinda,
           Member(name: 'Kevin Tambunan', handle: '@kevintbn', role: MemberRole.editor, tint: 2, joined: _fmt(_d(-3))),
+          Member(name: 'Sari Lubis', handle: '@sarilubis', role: MemberRole.viewer, tint: 3, joined: _fmt(_d(-3))),
