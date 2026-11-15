@@ -115,3 +115,4 @@ List<String> shiftCascade(List<Stop> day, Stop target, int newStart) {
           day: d,
           conflict: false,
           title: 'Jadwal terlalu padat di Hari ${d + 1}',
+          lines: [
