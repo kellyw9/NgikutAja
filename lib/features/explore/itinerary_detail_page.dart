@@ -167,3 +167,4 @@ class _ItineraryDetailPageState extends State<ItineraryDetailPage> {
             SectionHead('Peta dan rute', sub: 'Rute Hari ${mapDay + 1}, urut sesuai jadwal'),
             const SizedBox(height: 12),
             SingleChildScrollView(
+              scrollDirection: Axis.horizontal,
