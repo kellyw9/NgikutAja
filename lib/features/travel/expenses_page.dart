@@ -200,3 +200,4 @@ class _AddExpensePageState extends State<AddExpensePage> {
         ..cat = cat
         ..day = day
         ..by = by;
+      app.touch();
