@@ -60,3 +60,4 @@ class _ResetPasswordPageState extends State<ResetPasswordPage> {
       backgroundColor: AppColors.ground,
       appBar: const NgAppBar(),
       body: SafeArea(
+        top: false,
