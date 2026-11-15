@@ -79,3 +79,4 @@ class _EditProfilePageState extends State<EditProfilePage> {
           actions: [NgButton('Simpan', kind: BtnKind.text, size: BtnSize.md, onPressed: dirty ? _save : null)],
         ),
         body: ListView(
+          padding: const EdgeInsets.fromLTRB(kMargin, 8, kMargin, 16),
