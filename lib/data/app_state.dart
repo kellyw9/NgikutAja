@@ -315,3 +315,4 @@ class AppState extends ChangeNotifier {
   Future<void> saveTripPlan(Trip t, List<List<Stop>> plan, List<String> titles) async {
     await Future<void>.delayed(const Duration(milliseconds: 1100));
     if (!online) throw const OfflineException();
+    t.plan = plan;
