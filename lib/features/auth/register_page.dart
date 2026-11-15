@@ -153,3 +153,4 @@ class _RegisterPageState extends State<RegisterPage> {
                             TextLink(
                               'Masuk',
                               color: AppColors.ink,
+                              onTap: () =>
