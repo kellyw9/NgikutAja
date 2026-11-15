@@ -267,3 +267,4 @@ class _AddStopPageState extends State<AddStopPage> {
                       icon: 'delete',
                       title: 'Hapus ${s!.name}?',
                       body: 'Stop ini dihapus dari hari ini. Jam stop lain tidak ikut bergeser.',
+                      actions: const [
