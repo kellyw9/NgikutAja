@@ -231,3 +231,5 @@ class _AdoptProgressPageState extends State<AdoptProgressPage> {
       if (mounted) setState(() => failed = true);
     }
   }
+
+  @override
