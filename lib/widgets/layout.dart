@@ -354,3 +354,4 @@ class BoxList extends StatelessWidget {
       children: [
         for (var i = 0; i < children.length; i++) ...[if (i > 0) NgDivider(inset: inset, color: AppColors.line), children[i]],
       ],
+    ),
