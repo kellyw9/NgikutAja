@@ -105,3 +105,4 @@ class MembersPage extends StatelessWidget {
                   title: 'Lihat',
                   sub: 'Bisa membuka jadwal dan catatan',
                   selected: role == MemberRole.viewer,
+                  onTap: () => set(() => role = MemberRole.viewer),
