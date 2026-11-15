@@ -70,3 +70,4 @@ class _PublishPageState extends State<PublishPage> {
 
     return Scaffold(
       backgroundColor: AppColors.ground,
+      appBar: const NgAppBar(title: 'Publish itinerary'),
