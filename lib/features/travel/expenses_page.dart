@@ -14,3 +14,5 @@ String expenseTime(Trip t, Expense e) {
 class ExpensesPage extends StatelessWidget {
   const ExpensesPage({super.key, required this.trip});
   final Trip trip;
+
+  void _detail(BuildContext context, Expense e) {
