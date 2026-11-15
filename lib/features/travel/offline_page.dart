@@ -86,3 +86,4 @@ class OfflinePage extends StatelessWidget {
               Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
+                  Text('Membutuhkan internet', style: AppText.h2),
