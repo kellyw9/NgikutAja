@@ -21,3 +21,4 @@ class _ItemRow extends StatelessWidget {
       children: [
         Photo(it.cover, width: 72, height: 72, radius: AppRadius.inner),
         const SizedBox(width: 12),
+        Expanded(
