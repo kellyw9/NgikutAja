@@ -387,3 +387,4 @@ class Seed {
 
     drafts = [
       Itinerary(
+        id: 'draft-berastagi',
