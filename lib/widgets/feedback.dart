@@ -101,3 +101,4 @@ void showNgSnack(BuildContext context, String text, {SnackKind kind = SnackKind.
                   m.hideCurrentSnackBar();
                   onAction?.call();
                 },
+                child: Padding(
