@@ -234,3 +234,4 @@ List<MapPin> spreadPins(int count, {List<MarkerState>? states}) {
   ];
   return [
     for (var i = 0; i < count && i < base.length; i++)
+      MapPin(base[i].dx, base[i].dy, n: i + 1, state: states != null && i < states.length ? states[i] : MarkerState.todo),
