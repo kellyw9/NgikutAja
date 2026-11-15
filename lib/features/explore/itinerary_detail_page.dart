@@ -200,3 +200,4 @@ class _ItineraryDetailPageState extends State<ItineraryDetailPage> {
                   const SizedBox(height: 4),
                   MetaRow([('pin_drop', '${dayStops.length} tempat'), ('payments', rp(it.dayCost(day)))]),
                   const SizedBox(height: 18),
+                  if (dayStops.isEmpty)
