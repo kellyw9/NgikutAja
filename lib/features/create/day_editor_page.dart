@@ -303,3 +303,4 @@ class _StopCard extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Wrap(
+                spacing: 8,
