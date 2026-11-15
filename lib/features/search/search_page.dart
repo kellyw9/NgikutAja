@@ -467,3 +467,4 @@ class _SearchPageState extends State<SearchPage> {
                           RadioRow(
                             title: city.name,
                             sub: '${app.cityCount(city)} itinerary',
+                            selected: q == city.name,
