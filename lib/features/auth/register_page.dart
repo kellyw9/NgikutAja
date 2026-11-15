@@ -92,3 +92,4 @@ class _RegisterPageState extends State<RegisterPage> {
                         controller: name,
                         hint: 'Nama lengkap',
                         onChanged: refresh,
+                        textInputAction: TextInputAction.next,
