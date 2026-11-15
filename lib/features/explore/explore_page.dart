@@ -77,3 +77,4 @@ class _ExplorePageState extends State<ExplorePage> {
             height: 300,
           ),
         );
+      }
