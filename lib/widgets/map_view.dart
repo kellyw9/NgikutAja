@@ -209,3 +209,4 @@ class _MapPainter extends CustomPainter {
         Paint()
           ..color = AppColors.teal
           ..style = PaintingStyle.stroke
+          ..strokeWidth = 3
