@@ -169,3 +169,4 @@ class MembersPage extends StatelessWidget {
       backgroundColor: AppColors.ground,
       appBar: NgAppBar(title: 'Anggota trip', sub: trip.title),
       body: ListView(
+        padding: const EdgeInsets.fromLTRB(kMargin, 8, kMargin, 16),
