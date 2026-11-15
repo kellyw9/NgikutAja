@@ -211,3 +211,4 @@ class _InterestCard extends StatelessWidget {
                 Text(sub, style: AppText.small.muted),
               ],
             ),
+          ),
