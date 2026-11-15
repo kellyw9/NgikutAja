@@ -65,3 +65,4 @@ class _IconPainter extends CustomPainter {
       path,
       Paint()
         ..color = color
+        ..isAntiAlias = true,
