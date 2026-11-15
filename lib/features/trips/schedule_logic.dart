@@ -155,3 +155,4 @@ int appendToDay(List<Stop> day, Stop s) {
   s
     ..start = fromMinutes(ns)
     ..end = fromMinutes(ns + dur);
+  day.add(s);
