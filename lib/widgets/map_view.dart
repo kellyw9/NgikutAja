@@ -59,3 +59,4 @@ class MapView extends StatelessWidget {
             child: Stack(
               clipBehavior: Clip.hardEdge,
               children: [
+                Positioned.fill(child: CustomPaint(painter: _MapPainter(kind, route ? pins : const [], ring))),
