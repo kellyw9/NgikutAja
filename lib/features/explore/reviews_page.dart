@@ -115,3 +115,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
             Text('Belum ada ulasan tertulis.', style: AppText.body.muted)
           else
             for (final r in list) ...[
+              NgCard(
