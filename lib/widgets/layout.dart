@@ -315,3 +315,4 @@ class ListRow extends StatelessWidget {
               const SizedBox(width: 14),
             ] else if (icon != null) ...[
               AppIcon(icon!, size: 22, color: danger ? AppColors.negative : AppColors.ink),
+              const SizedBox(width: 14),
