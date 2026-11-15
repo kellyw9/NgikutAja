@@ -78,3 +78,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
         16,
         children: [
           Wrap(
+            spacing: 8,
