@@ -67,3 +67,4 @@ class _SearchPageState extends State<SearchPage> {
   final focus = FocusNode();
   String mode = 'Kota';
   String? submitted;
+  SearchFilter filter = SearchFilter();
