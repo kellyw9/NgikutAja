@@ -99,3 +99,4 @@ class WisataCard extends StatelessWidget {
                       Row(
                         children: [
                           Expanded(child: Proof(it, compact: true)),
+                          const SizedBox(width: 8),
