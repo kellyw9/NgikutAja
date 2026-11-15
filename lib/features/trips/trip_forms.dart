@@ -44,3 +44,4 @@ class _EditStopPageState extends State<EditStopPage> {
   late String start = s?.start ?? widget.defaultStart;
   late int duration = s?.duration ?? 60;
   late String? photo = s?.photo;
+  bool tried = false;
