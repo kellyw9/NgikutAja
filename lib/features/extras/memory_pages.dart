@@ -33,3 +33,4 @@ class PhotoMemoryPage extends StatelessWidget {
                 for (final d in days) ...[
                   const SizedBox(height: 16),
                   Text(photoDayLabel(t, d), style: AppText.title),
+                  const SizedBox(height: 8),
