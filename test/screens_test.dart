@@ -110,3 +110,5 @@ void main() {
     }
     await loader.load();
   });
+
+  for (final size in const [Size(360, 740), Size(390, 844)]) {
