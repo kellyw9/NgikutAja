@@ -199,3 +199,4 @@ class _PaymentPageState extends State<PaymentPage> {
     child: Scaffold(
       backgroundColor: AppColors.ground,
       appBar: NgAppBar(title: 'Pembayaran', sub: 'Total ${rp(widget.it.price)}'),
+      body: ListView(
