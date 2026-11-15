@@ -632,3 +632,4 @@ class ProfileHead extends StatelessWidget {
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [stat('Itinerary', itins, null), stat('Pengikut', p.followers, onFollowers), stat('Mengikuti', p.following, onFollowing)],
+                ),
