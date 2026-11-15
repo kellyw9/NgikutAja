@@ -401,3 +401,5 @@ class HeroPhoto extends StatelessWidget {
   final VoidCallback? onLeft;
   final List<Widget> right;
   final String? semantic;
+
+  @override
