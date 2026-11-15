@@ -142,3 +142,4 @@ class _RegisterPageState extends State<RegisterPage> {
                         error: confirmErr,
                       ),
                       const Spacer(),
+                      const SizedBox(height: 20),
