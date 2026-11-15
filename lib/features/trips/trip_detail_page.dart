@@ -254,3 +254,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
                       ('call_split', 'Split budget', 'split'),
                       ('backpack', 'Packing list', 'pack'),
                       ('lightbulb', 'Local tips', 'tips'),
+                      ('menu_book', 'Trip journal', 'journal'),
