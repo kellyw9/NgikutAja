@@ -28,3 +28,4 @@ class _OnboardingPageState extends State<OnboardingPage> {
     ('Alam', 'Danau, bukit, dan pantai', 'toba'),
     ('Kuliner', 'Sarapan pasar sampai makan malam', 'soto'),
     ('Budaya', 'Istana, rumah tua, dan museum', 'maimun'),
+  ];
