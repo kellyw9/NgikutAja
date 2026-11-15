@@ -73,3 +73,4 @@ class _CheckinPageState extends State<CheckinPage> {
               else
                 NgButton(
                   'Check-in sekarang',
+                  icon: 'pin_drop',
