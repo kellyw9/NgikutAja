@@ -19,3 +19,4 @@ class MapPin {
 class MapView extends StatelessWidget {
   const MapView({
     super.key,
+    this.height = 200,
