@@ -162,3 +162,4 @@ class ExpensesPage extends StatelessWidget {
             expand: true,
             onPressed: () => push(context, AddExpensePage(trip: trip), fullscreen: true),
           ),
+        ),
