@@ -70,3 +70,4 @@ class OfflinePage extends StatelessWidget {
                           app.touch();
                         },
                       ),
+                    ],
