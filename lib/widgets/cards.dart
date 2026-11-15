@@ -224,3 +224,4 @@ class Grid2 extends StatelessWidget {
 
 PillKind tripPill(TripStatus s) => switch (s) {
   TripStatus.draft => PillKind.warning,
+  TripStatus.diadopsi => PillKind.teal,
