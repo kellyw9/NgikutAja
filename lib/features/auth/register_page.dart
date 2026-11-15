@@ -40,3 +40,5 @@ class _RegisterPageState extends State<RegisterPage> {
 
   bool get valid =>
       name.text.trim().isNotEmpty && validateEmail(email.text) == null && emailErr == null && pass.text.length >= 8 && confirm.text == pass.text;
+
+  Future<void> _submit() async {
