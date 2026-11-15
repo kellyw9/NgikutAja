@@ -276,3 +276,4 @@ class _AdoptProgressPageState extends State<AdoptProgressPage> {
                   cover: trip!.cover,
                 ),
                 actions: [
+                  NgButton(
