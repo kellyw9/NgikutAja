@@ -124,3 +124,4 @@ class WisataCard extends StatelessWidget {
                 child: Stack(
                   fit: StackFit.expand,
                   children: [
+                    Photo(it.cover, radius: AppRadius.inner),
