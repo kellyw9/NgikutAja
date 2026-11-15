@@ -401,3 +401,4 @@ class Pill extends StatelessWidget {
       height: 22,
       padding: EdgeInsets.only(left: icon != null ? 5 : 8, right: 8),
       decoration: BoxDecoration(color: bg, borderRadius: BorderRadius.circular(AppRadius.tag)),
+      child: Row(
