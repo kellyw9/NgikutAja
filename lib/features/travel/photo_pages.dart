@@ -88,3 +88,4 @@ class _PhotoPreviewPageState extends State<PhotoPreviewPage> {
                     t,
                     TripPhoto(
                       src: widget.src,
+                      day: widget.day,
