@@ -377,3 +377,4 @@ class AppNotification {
     this.unread = false,
     this.inviteState,
   });
+  final String id;
