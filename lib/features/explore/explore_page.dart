@@ -126,3 +126,4 @@ class _ExplorePageState extends State<ExplorePage> {
           ),
         ),
       ],
+    );
