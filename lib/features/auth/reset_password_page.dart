@@ -72,3 +72,4 @@ class _ResetPasswordPageState extends State<ResetPasswordPage> {
                   children: [
                     Text('Atur ulang password', style: AppText.h1),
                     const SizedBox(height: 8),
+                    Text('Masukkan email akunmu. Kami kirim tautan untuk membuat password baru.', style: AppText.body.muted),
