@@ -253,3 +253,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
                       ? null
                       : () {
                           _saveTitle();
+                          push(context, PublishPage(d: d));
