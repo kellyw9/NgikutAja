@@ -137,3 +137,4 @@ class AboutPage extends StatelessWidget {
                       'Semua nama, itinerary, ulasan, dan transaksi di aplikasi ini adalah data contoh. Pembayaran dan lokasi check-in masih simulasi.',
                 ),
                 Text('Kredit foto', style: AppText.h2),
+                if (snap.hasError) Text('Daftar kredit tidak bisa dimuat.', style: AppText.body.muted),
