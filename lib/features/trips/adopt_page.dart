@@ -168,3 +168,4 @@ class _AdoptPageState extends State<AdoptPage> {
     constraints: const BoxConstraints(minHeight: 48),
     child: Row(
       children: [
+        Expanded(
