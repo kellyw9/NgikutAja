@@ -466,3 +466,4 @@ class DayStrip extends StatelessWidget {
               onTap: onAdd,
               radius: AppRadius.control,
               label: 'Tambah hari',
+              child: const DashedBox(
