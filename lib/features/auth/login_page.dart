@@ -142,3 +142,4 @@ class _LoginPageState extends State<LoginPage> {
                             Expanded(child: Container(height: 1, color: AppColors.line)),
                           ],
                         ),
+                        const SizedBox(height: 24),
