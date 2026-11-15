@@ -593,3 +593,4 @@ class _BudgetSlider extends StatelessWidget {
       ),
     ],
   );
+}
