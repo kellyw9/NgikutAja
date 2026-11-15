@@ -34,3 +34,4 @@ class AppState extends ChangeNotifier {
     };
     transactions = [...seed.transactions];
     notifications = [...seed.notifications];
+    recentSearches = [...Seed.recentSearches];
