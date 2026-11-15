@@ -261,3 +261,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
                       if (i > 0) const NgDivider(inset: 36),
                       ListRow(
                         icon: icon,
+                        title: title,
