@@ -397,3 +397,4 @@ class Pill extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final (bg, fg) = colors(kind);
+    return Container(
