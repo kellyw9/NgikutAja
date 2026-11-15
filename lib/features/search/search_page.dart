@@ -570,3 +570,4 @@ class _BudgetSlider extends StatelessWidget {
           inactiveTrackColor: AppColors.sunk,
           overlayColor: AppColors.teal.withValues(alpha: .16),
           rangeThumbShape: const _SquareThumb(),
+          rangeTrackShape: const RectangularRangeSliderTrackShape(),
