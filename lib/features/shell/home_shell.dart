@@ -53,3 +53,4 @@ class _HomeShellState extends State<HomeShell> {
           value: kDarkIcons,
           child: Scaffold(
             backgroundColor: AppColors.ground,
+            body: SafeArea(
