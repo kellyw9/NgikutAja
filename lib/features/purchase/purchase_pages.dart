@@ -518,3 +518,4 @@ class TransactionDetailPage extends StatelessWidget {
               KeyValueBox(
                 [('ID transaksi', tx.id), ('Waktu transaksi', txDate(tx.date)), ('Metode pembayaran', tx.method), ('Status', tx.status.label)],
                 total: ('Total pembayaran', rp(tx.amount)),
+                fill: AppColors.surface,
