@@ -53,3 +53,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
       while (d.plan.length < n) {
         d.plan.add([]);
       }
+      while (d.dayTitles.length < n) {
