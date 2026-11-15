@@ -359,3 +359,4 @@ class _PaymentStatusPageState extends State<PaymentStatusPage> {
               ('Metode pembayaran', tx.method),
               ('Total bayar', rp(tx.amount)),
             ], fill: AppColors.surface),
+            actions: [
