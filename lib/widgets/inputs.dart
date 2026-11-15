@@ -57,3 +57,4 @@ class NgField extends StatefulWidget {
   final TextInputAction? textInputAction;
   final bool autofocus;
   final int? maxLength;
+  final Iterable<String>? autofillHints;
