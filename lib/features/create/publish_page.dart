@@ -211,3 +211,4 @@ class PublishedPage extends StatelessWidget {
                   children: [
                     const Spacer(),
                     const Center(
+                      child: IconTile('check', size: 72, iconSize: 36, fill: AppColors.positivePale, color: AppColors.positiveInk),
