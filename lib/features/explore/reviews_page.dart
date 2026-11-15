@@ -39,3 +39,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
     final app = AppScope.of(context);
     final it = widget.it;
     return Scaffold(
+      backgroundColor: AppColors.ground,
