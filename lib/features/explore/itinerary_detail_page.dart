@@ -171,3 +171,4 @@ class _ItineraryDetailPageState extends State<ItineraryDetailPage> {
               padding: const EdgeInsets.symmetric(horizontal: kMargin),
               child: Row(
                 children: [
+                  for (var d = 0; d < it.days; d++) ...[
