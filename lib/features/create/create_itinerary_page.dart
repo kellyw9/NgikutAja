@@ -192,3 +192,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
                       icon: 'schedule',
                       value: '${d.days} hari',
                       trailing: 'expand_more',
+                      onTap: () async {
