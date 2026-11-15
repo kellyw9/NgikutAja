@@ -214,3 +214,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
                         for (var i = 0; i < stops.length; i++)
                           Padding(
                             key: ObjectKey(stops[i]),
+                            padding: const EdgeInsets.only(bottom: 10),
