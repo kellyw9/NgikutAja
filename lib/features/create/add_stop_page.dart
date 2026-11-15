@@ -161,3 +161,4 @@ class _AddStopPageState extends State<AddStopPage> {
                 hint: 'Misal: datang lebih pagi agar dapat tempat duduk.',
               ),
               Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
