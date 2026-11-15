@@ -276,3 +276,4 @@ class _CloseBtn extends StatelessWidget {
   const _CloseBtn();
   @override
   Widget build(BuildContext context) => IconBtn('close', label: 'Tutup', onTap: () => Navigator.pop(context));
+}
