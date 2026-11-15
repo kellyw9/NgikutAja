@@ -306,3 +306,4 @@ class TripCard extends StatelessWidget {
 class StopRow extends StatelessWidget {
   const StopRow(
     this.st, {
+    super.key,
