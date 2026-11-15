@@ -250,3 +250,5 @@ class TripCard extends StatelessWidget {
   final String? cover;
   final Widget? extra;
   final VoidCallback? onTap;
+
+  @override
