@@ -39,3 +39,4 @@ class NgButton extends StatelessWidget {
   static (Color?, Color, Color?) _colors(BtnKind k) => switch (k) {
     BtnKind.primary => (AppColors.ink, AppColors.white, null),
     BtnKind.secondary => (AppColors.surface, AppColors.ink, AppColors.ink),
+    BtnKind.accent => (AppColors.yellow, AppColors.ink, null),
