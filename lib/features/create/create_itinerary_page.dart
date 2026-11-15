@@ -311,3 +311,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
         child: SizedBox(
           height: 180,
           width: double.infinity,
+          child: Column(
