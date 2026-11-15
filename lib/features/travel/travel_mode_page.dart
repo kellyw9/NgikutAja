@@ -332,3 +332,4 @@ class TravelStopPage extends StatelessWidget {
                     Expanded(
                       child: NgButton(
                         'Navigasi',
+                        icon: 'directions',
