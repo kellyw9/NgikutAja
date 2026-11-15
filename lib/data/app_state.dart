@@ -167,3 +167,4 @@ class AppState extends ChangeNotifier {
     CityInfo('Yogyakarta', 'tamansari', (x) => x.city == 'Yogyakarta'),
     CityInfo('Bali', 'lovina', (x) => x.region.contains('Bali')),
     CityInfo('Labuan Bajo', 'labuanbajo', (x) => x.city == 'Labuan Bajo'),
+    CityInfo('Lombok', 'lombok', (x) => x.region.contains('Lombok')),
