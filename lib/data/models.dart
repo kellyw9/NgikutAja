@@ -169,3 +169,5 @@ class Member {
 
   String get first => name.split(' ').first;
 }
+
+enum ExpenseCat {
