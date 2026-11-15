@@ -212,3 +212,4 @@ class FactStrip extends StatelessWidget {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(cells[i].$1, style: AppText.small.muted),
+                        const SizedBox(height: 2),
