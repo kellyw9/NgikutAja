@@ -31,3 +31,4 @@ class TravelModePage extends StatelessWidget {
         body: Column(
           children: [
             Container(
+              color: AppColors.ink,
