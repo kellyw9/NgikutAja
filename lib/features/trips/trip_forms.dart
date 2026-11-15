@@ -205,3 +205,4 @@ class _EditStopPageState extends State<EditStopPage> {
                   ),
                 ],
               ),
+              NgButton(editing ? 'Simpan perubahan' : 'Tambah aktivitas', expand: true, onPressed: _save),
