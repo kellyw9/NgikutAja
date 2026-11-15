@@ -93,3 +93,4 @@ class _RoutePainter extends CustomPainter {
       p,
       Paint()
         ..color = AppColors.teal
+        ..style = PaintingStyle.stroke
