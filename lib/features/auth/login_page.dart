@@ -155,3 +155,4 @@ class _LoginPageState extends State<LoginPage> {
                             children: [
                               Text('Belum punya akun? ', style: AppText.body.muted),
                               TextLink(
+                                'Daftar',
