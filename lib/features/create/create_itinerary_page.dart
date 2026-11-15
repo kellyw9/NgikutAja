@@ -177,3 +177,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
                   hint: 'Ceritakan rute ini dalam dua atau tiga kalimat.',
                   onChanged: (_) => touched = true,
                 ),
+                NgField(
