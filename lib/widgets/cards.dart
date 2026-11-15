@@ -398,3 +398,4 @@ class StopRow extends StatelessWidget {
                   // Jam selalu satu baris: menyusut sedikit kalau lebar huruf melebihi kolom 48.
                   FittedBox(
                     fit: BoxFit.scaleDown,
+                    alignment: Alignment.centerLeft,
