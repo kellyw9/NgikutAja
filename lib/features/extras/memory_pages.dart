@@ -135,3 +135,4 @@ class _PhotoViewerPageState extends State<PhotoViewerPage> {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Text(p.caption, style: AppText.title.white),
+                      const SizedBox(height: 4),
