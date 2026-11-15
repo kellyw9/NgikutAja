@@ -115,3 +115,4 @@ class _NgFieldState extends State<NgField> {
         autofocus: widget.autofocus,
         autofillHints: widget.autofillHints,
         style: AppText.body,
+        cursorColor: AppColors.ink,
