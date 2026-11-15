@@ -256,3 +256,4 @@ class _CustomizePageState extends State<CustomizePage> {
                       ],
                     ),
                     for (final l in iss.lines) ...[
+                      const SizedBox(height: 6),
