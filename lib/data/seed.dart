@@ -396,3 +396,4 @@ class Seed {
         creator: me,
         isDraft: true,
         plan: [[]],
+        dayTitles: [''],
