@@ -20,3 +20,4 @@ class LoginPage extends StatefulWidget {
   final bool popOnSuccess;
 
   @override
+  State<LoginPage> createState() => _LoginPageState();
