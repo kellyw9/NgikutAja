@@ -20,3 +20,4 @@ class MembersPage extends StatelessWidget {
     final app = AppScope.read(context);
     final r = await showNgDialog(
       context,
+      icon: 'person_remove',
