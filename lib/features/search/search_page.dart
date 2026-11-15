@@ -579,3 +579,4 @@ class _BudgetSlider extends StatelessWidget {
           values: value,
           min: 0,
           max: _maxBudget,
+          divisions: 50,
