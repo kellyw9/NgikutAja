@@ -55,3 +55,4 @@ class _OnboardingPageState extends State<OnboardingPage> {
       value: kDarkIcons,
       child: Scaffold(
         backgroundColor: AppColors.ground,
+        body: SafeArea(
