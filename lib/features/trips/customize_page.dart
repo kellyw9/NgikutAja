@@ -258,3 +258,4 @@ class _CustomizePageState extends State<CustomizePage> {
                     for (final l in iss.lines) ...[
                       const SizedBox(height: 6),
                       Text(l, style: AppText.body.c(iss.conflict ? AppColors.negativeInk : AppColors.ink)),
+                    ],
