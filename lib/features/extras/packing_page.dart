@@ -113,3 +113,4 @@ class _PackingPageState extends State<PackingPage> {
                       children: [
                         for (final it in g.items)
                           Dismissible(
+                            key: ObjectKey(it),
