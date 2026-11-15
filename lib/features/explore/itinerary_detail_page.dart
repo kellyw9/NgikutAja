@@ -256,3 +256,4 @@ class PaidPreviewPage extends StatelessWidget {
       backgroundColor: AppColors.ground,
       body: SingleChildScrollView(
         child: Column(
+          crossAxisAlignment: CrossAxisAlignment.stretch,
