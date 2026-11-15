@@ -123,3 +123,4 @@ class _NgFieldState extends State<NgField> {
     if (widget.prefixText != null) {
       content = Row(
         children: [
+          Text(widget.prefixText!, style: AppText.body.muted),
