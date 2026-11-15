@@ -469,3 +469,4 @@ class Seed {
         city: 'Medan',
         region: 'Medan, Sumatera Utara',
         start: _d(38),
+        cover: 'maimun',
