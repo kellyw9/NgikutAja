@@ -480,3 +480,4 @@ class Avatar extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    if (photo != null) {
