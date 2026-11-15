@@ -115,3 +115,4 @@ class _EditProfilePageState extends State<EditProfilePage> {
                   helper: uErr == null ? 'Username tersedia.' : null,
                   error: uErr,
                 ),
+                Column(
