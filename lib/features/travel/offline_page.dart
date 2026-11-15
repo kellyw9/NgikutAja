@@ -20,3 +20,4 @@ class OfflinePage extends StatelessWidget {
       padding: const EdgeInsets.only(top: 8),
       child: Row(
         children: [
+          AppIcon(ok ? 'check_circle' : 'cloud_off', size: 18, color: ok ? AppColors.positive : AppColors.muted, filled: ok),
