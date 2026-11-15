@@ -169,3 +169,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
                   hint: 'Misal: Kuliner Jogja 3 Hari',
                   error: showErr ? 'Judul wajib diisi' : null,
                   onChanged: (_) => setState(() => touched = true),
+                ),
