@@ -465,3 +465,4 @@ class MetaRow extends StatelessWidget {
     crossAxisAlignment: WrapCrossAlignment.center,
     children: [for (final i in items.whereType<(String, String)>()) Meta(i.$1, i.$2, color: color)],
   );
+}
