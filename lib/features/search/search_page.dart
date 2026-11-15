@@ -568,3 +568,4 @@ class _BudgetSlider extends StatelessWidget {
           trackHeight: 4,
           activeTrackColor: AppColors.ink,
           inactiveTrackColor: AppColors.sunk,
+          overlayColor: AppColors.teal.withValues(alpha: .16),
