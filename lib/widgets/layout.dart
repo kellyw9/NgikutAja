@@ -185,3 +185,5 @@ class BottomBar extends StatelessWidget {
     ),
   );
 }
+
+/// Ringkasan angka tanpa kotak: label kecil di atas nilai, dipisah garis vertikal.
