@@ -335,3 +335,4 @@ class Seed {
       Itinerary(
         id: 'samosirmotor',
         title: 'Samosir Naik Motor 2 Hari',
+        city: 'Samosir',
