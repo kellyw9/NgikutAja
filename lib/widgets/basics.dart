@@ -347,3 +347,4 @@ class DashedAction extends StatelessWidget {
 /// Kotak tambah foto 80x80 bergaris putus-putus.
 class AddPhotoTile extends StatelessWidget {
   const AddPhotoTile({super.key, required this.onTap, this.size = 80, this.label = 'Tambah', this.icon = 'add_a_photo'});
+  final VoidCallback onTap;
