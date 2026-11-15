@@ -161,3 +161,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
                     title: 'Lengkapi data yang wajib diisi.',
                     text: 'Pastikan judul itinerary sudah terisi sebelum melanjutkan.',
                   ),
+                _cover(),
