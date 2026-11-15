@@ -141,3 +141,4 @@ class _NgFieldState extends State<NgField> {
       ),
       child: Row(
         crossAxisAlignment: widget.area ? CrossAxisAlignment.start : CrossAxisAlignment.center,
+        children: [
