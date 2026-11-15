@@ -38,3 +38,4 @@ class ProfilePage extends StatelessWidget {
             expand: true,
             onPressed: () => push(context, const EditProfilePage(), fullscreen: true),
           ),
+        ),
