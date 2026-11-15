@@ -42,3 +42,4 @@ class NgButton extends StatelessWidget {
     BtnKind.accent => (AppColors.yellow, AppColors.ink, null),
     BtnKind.danger => (AppColors.negative, AppColors.white, null),
     BtnKind.dangerText => (null, AppColors.negative, null),
+    BtnKind.text => (null, AppColors.primaryStrong, null),
