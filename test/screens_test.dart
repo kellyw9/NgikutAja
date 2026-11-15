@@ -97,3 +97,4 @@ final Map<String, PageFor> pages = {
   'followers': (s) => const PeoplePage(followers: true),
   'wishlist': (s) => const WishlistPage(),
   'dashboard': (s) => const DashboardPage(),
+  'settings': (s) => const SettingsPage(),
