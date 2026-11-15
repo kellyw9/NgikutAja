@@ -89,3 +89,4 @@ void showNgSnack(BuildContext context, String text, {SnackKind kind = SnackKind.
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(AppRadius.card)),
       duration: Duration(seconds: action != null ? 6 : 3),
       content: Row(
+        children: [
