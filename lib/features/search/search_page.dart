@@ -367,3 +367,4 @@ class _SearchPageState extends State<SearchPage> {
               title: 'Itinerary tidak ditemukan',
               text: filter.count > 0
                   ? 'Belum ada itinerary $q yang cocok dengan filter ini. Coba hapus filter durasi atau harga.'
+                  : 'Belum ada itinerary untuk "$q". Coba nama kota lain.',
