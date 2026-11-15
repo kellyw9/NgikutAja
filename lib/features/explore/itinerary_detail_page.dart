@@ -221,3 +221,4 @@ class _ItineraryDetailPageState extends State<ItineraryDetailPage> {
                 const SizedBox(height: 2),
                 Text('${it.places} tempat dalam ${it.days} hari', style: AppText.small.muted),
               ],
+            ),
