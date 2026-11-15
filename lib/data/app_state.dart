@@ -426,3 +426,4 @@ class AppState extends ChangeNotifier {
       ..inviteState = accept ? 'Diterima' : 'Ditolak'
       ..unread = false;
     notifyListeners();
+  }
