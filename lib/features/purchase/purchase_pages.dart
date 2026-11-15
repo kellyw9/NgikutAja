@@ -430,3 +430,5 @@ class _PaymentStatusPageState extends State<PaymentStatusPage> {
     body: child,
   );
 }
+
+/// Tutup alur pembelian sampai halaman itinerary (yang otomatis menampilkan detail lengkap
