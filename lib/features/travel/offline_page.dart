@@ -83,3 +83,4 @@ class OfflinePage extends StatelessWidget {
                   avail(true, 'Check-in (disimpan dulu di HP)'),
                 ],
               ),
+              Column(
