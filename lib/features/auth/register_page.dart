@@ -23,3 +23,4 @@ class _RegisterPageState extends State<RegisterPage> {
   (double, String, Color) get strength {
     final p = pass.text;
     if (p.isEmpty) return (0, 'Minimal 8 karakter', AppColors.sunk);
+    if (p.length < 8) return (.33, 'Terlalu pendek, minimal 8 karakter', AppColors.negative);
