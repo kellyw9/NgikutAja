@@ -153,3 +153,4 @@ class _SearchPageState extends State<SearchPage> {
   }
 
   Widget _searchRow() => Padding(
+    padding: const EdgeInsets.fromLTRB(kMargin, 6, kMargin, 10),
