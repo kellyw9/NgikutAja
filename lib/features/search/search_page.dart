@@ -98,3 +98,5 @@ class _SearchPageState extends State<SearchPage> {
     focus.dispose();
     super.dispose();
   }
+
+  void _submit(String q) {
