@@ -253,3 +253,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
                     for (final (i, (icon, title, key)) in const [
                       ('call_split', 'Split budget', 'split'),
                       ('backpack', 'Packing list', 'pack'),
+                      ('lightbulb', 'Local tips', 'tips'),
