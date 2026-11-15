@@ -81,3 +81,4 @@ class _AdoptPageState extends State<AdoptPage> {
                 children: [
                   Text('Creator asli', style: AppText.bodyStrong),
                   const SizedBox(height: 6),
+                  Row(
