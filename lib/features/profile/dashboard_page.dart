@@ -88,3 +88,4 @@ class DashboardPage extends StatelessWidget {
                   Text('Itinerary yang kamu kelola', style: AppText.h2),
                   const SizedBox(height: 8),
                   if (mine.isEmpty)
+                    Text('Belum ada itinerary yang terbit.', style: AppText.body.muted)
