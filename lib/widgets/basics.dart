@@ -462,3 +462,4 @@ class MetaRow extends StatelessWidget {
   Widget build(BuildContext context) => Wrap(
     spacing: gap,
     runSpacing: 4,
+    crossAxisAlignment: WrapCrossAlignment.center,
