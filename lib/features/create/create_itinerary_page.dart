@@ -135,3 +135,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
     desc.dispose();
     city.dispose();
     super.dispose();
+  }
