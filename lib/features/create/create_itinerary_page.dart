@@ -220,3 +220,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text('Tipe publikasi', style: AppText.bodyStrong),
+                    const SizedBox(height: 8),
