@@ -278,3 +278,4 @@ class PaidPreviewPage extends StatelessWidget {
                     ('Diadopsi', '${thousands(it.adopted)} kali'),
                   ]),
                   CreatorRow(
+                    it.creator,
