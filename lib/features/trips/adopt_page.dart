@@ -212,3 +212,4 @@ class _AdoptProgressPageState extends State<AdoptProgressPage> {
   bool failed = false;
 
   @override
+  void initState() {
