@@ -302,3 +302,4 @@ class _CustomizePageState extends State<CustomizePage> {
     final stops = plan[day];
     final conflicts = conflictsIn(stops);
     final bad = conflictIndexes(stops);
+    return PopScope(
