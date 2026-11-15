@@ -297,3 +297,4 @@ class PickLocationPage extends StatefulWidget {
   final String? photo;
 
   @override
+  State<PickLocationPage> createState() => _PickLocationPageState();
