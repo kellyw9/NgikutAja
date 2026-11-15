@@ -27,3 +27,4 @@ class _PeoplePageState extends State<PeoplePage> {
   Widget build(BuildContext context) {
     final app = AppScope.of(context);
     final list = widget.followers ? app.seed.followers : app.seed.followingPeople;
+    return Scaffold(
