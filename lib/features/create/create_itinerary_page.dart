@@ -102,3 +102,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
         ],
       ),
     );
+    input.dispose();
