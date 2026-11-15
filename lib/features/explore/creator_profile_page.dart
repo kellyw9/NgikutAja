@@ -7,3 +7,5 @@ import 'itinerary_detail_page.dart';
 class CreatorProfilePage extends StatefulWidget {
   const CreatorProfilePage({super.key, required this.c});
   final Creator c;
+
+  @override
