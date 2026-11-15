@@ -124,3 +124,5 @@ class NewPasswordPage extends StatefulWidget {
   @override
   State<NewPasswordPage> createState() => _NewPasswordPageState();
 }
+
+class _NewPasswordPageState extends State<NewPasswordPage> {
