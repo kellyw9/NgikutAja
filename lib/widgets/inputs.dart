@@ -282,3 +282,4 @@ class RadioRow extends StatelessWidget {
   const RadioRow({super.key, required this.title, this.sub, required this.selected, required this.onTap, this.enabled = true, this.height = 48});
   final String title;
   final String? sub;
+  final bool selected;
