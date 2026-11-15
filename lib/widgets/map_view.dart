@@ -212,3 +212,4 @@ class _MapPainter extends CustomPainter {
           ..strokeWidth = 3
           ..strokeJoin = StrokeJoin.round
           ..strokeCap = StrokeCap.round,
+      );
