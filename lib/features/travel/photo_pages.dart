@@ -43,3 +43,4 @@ class _PhotoPreviewPageState extends State<PhotoPreviewPage> {
                 icon: st?.cat.icon ?? 'pin_drop',
                 value: st == null ? 'Tanpa aktivitas' : '${st.name} (Hari ${widget.day + 1})',
                 trailing: 'expand_more',
+                onTap: () async {
