@@ -290,3 +290,4 @@ class ListRow extends StatelessWidget {
     this.danger = false,
     this.lead,
     this.onTap,
+    this.padH = kMargin,
