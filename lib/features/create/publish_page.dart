@@ -165,3 +165,4 @@ class _PublishPageState extends State<PublishPage> {
                 onPressed: ready
                     ? () {
                         _apply();
+                        app.publish(d);
