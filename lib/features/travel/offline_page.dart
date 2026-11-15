@@ -64,3 +64,4 @@ class OfflinePage extends StatelessWidget {
                             return;
                           }
                           t
+                            ..offline = v
