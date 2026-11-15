@@ -110,3 +110,4 @@ class IconBtn extends StatelessWidget {
     this.icon, {
     super.key,
     required this.label,
+    this.onTap,
