@@ -136,3 +136,4 @@ void main() {
   // Semua status trip ikut dirender di tab Trip Saya.
   for (final st in TripStatus.values) {
     testWidgets('trip saya ${st.label} @360', (tester) async {
+      tester.view.physicalSize = const Size(360, 740) * 3;
