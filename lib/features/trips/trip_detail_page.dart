@@ -228,3 +228,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
                     expand: true,
                     onPressed: () => push(context, TravelModePage(trip: t), fullscreen: true),
                   )
+                else if (status == TripStatus.diadopsi && t.start != null)
