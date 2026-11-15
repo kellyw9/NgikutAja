@@ -169,3 +169,4 @@ class _MapPainter extends CustomPainter {
       canvas.drawRRect(RRect.fromRectAndRadius(Rect.fromLTWH(.66 * w, .08 * h, .18 * w, .2 * h), const Radius.circular(4)), park);
       final river = Path()
         ..moveTo(-10, .78 * h)
+        ..cubicTo(.25 * w, .68 * h, .45 * w, .92 * h, .7 * w, .8 * h)
