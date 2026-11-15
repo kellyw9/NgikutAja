@@ -157,3 +157,4 @@ class NotificationDetailPage extends StatelessWidget {
         padding: const EdgeInsets.fromLTRB(kMargin, 0, kMargin, 16),
         children: [
           Gap(
+            14,
