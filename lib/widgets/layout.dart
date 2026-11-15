@@ -311,3 +311,4 @@ class ListRow extends StatelessWidget {
         child: Row(
           children: [
             if (lead != null) ...[
+              lead!,
