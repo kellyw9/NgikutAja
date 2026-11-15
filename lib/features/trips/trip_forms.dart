@@ -280,3 +280,4 @@ class _EditTripInfoPageState extends State<EditTripInfoPage> {
                     Photo(cover, radius: AppRadius.card, semantic: 'Foto sampul trip'),
                     Positioned(
                       right: 10,
+                      bottom: 10,
