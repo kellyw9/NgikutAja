@@ -485,3 +485,4 @@ class Seed {
         cover: 'prambanan',
         from: jogja,
         plan: [copyPlan(jogja.plan).first, [], []],
+        members: [Member(name: dinda.name, handle: dinda.handle, role: MemberRole.owner, tint: 0)],
