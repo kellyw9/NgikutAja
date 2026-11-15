@@ -422,3 +422,4 @@ class _PickLocationPageState extends State<PickLocationPage> {
                 Row(
                   children: [
                     if (widget.photo != null) ...[Photo(widget.photo, width: 76, height: 76, radius: AppRadius.card), const SizedBox(width: 12)],
+                    Expanded(
