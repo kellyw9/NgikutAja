@@ -312,3 +312,4 @@ class _StopCard extends StatelessWidget {
                 ],
               ),
               const SizedBox(height: 4),
+              MetaRow([
