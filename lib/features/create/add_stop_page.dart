@@ -160,3 +160,4 @@ class _AddStopPageState extends State<AddStopPage> {
                 area: true,
                 hint: 'Misal: datang lebih pagi agar dapat tempat duduk.',
               ),
+              Column(
