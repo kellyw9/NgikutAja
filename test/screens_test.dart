@@ -151,3 +151,4 @@ void main() {
           child: MaterialApp(theme: buildTheme(), home: const HomeShell()),
         ),
       );
+      await tester.pump(const Duration(milliseconds: 800));
