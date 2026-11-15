@@ -70,3 +70,4 @@ void main() {
     await tester.pumpWidget(host(s, ItineraryDetailPage(it: s.itinerary('medan'))));
     await tapText(tester, 'Adopt itinerary', button: true);
     await tester.pumpAndSettle();
+    await tapText(tester, 'Adopt ke Trip Saya', button: true);
