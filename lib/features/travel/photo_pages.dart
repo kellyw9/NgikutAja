@@ -31,3 +31,4 @@ class _PhotoPreviewPageState extends State<PhotoPreviewPage> {
     return Scaffold(
       backgroundColor: AppColors.ground,
       appBar: const NgAppBar(title: 'Foto baru', back: 'close'),
+      body: ListView(
