@@ -28,3 +28,5 @@ class _CustomizePageState extends State<CustomizePage> {
     f();
     changes++;
   });
+
+  String _dayLabel(int d) {
