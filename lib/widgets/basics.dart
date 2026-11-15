@@ -272,3 +272,4 @@ class Photo extends StatelessWidget {
 
 class DashedBox extends StatelessWidget {
   const DashedBox({super.key, required this.child, this.color = AppColors.control, this.radius = AppRadius.control, this.width = 1, this.fill});
+  final Widget child;
