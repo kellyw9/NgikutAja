@@ -207,3 +207,4 @@ Future<String?> pickPhotoSheet(BuildContext context, {String title = 'Tambah fot
 bool requireLogin(BuildContext context) {
   final app = AppScope.read(context);
   if (app.loggedIn) return true;
+  showNgSheet<void>(
