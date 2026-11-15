@@ -107,3 +107,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
                     push(context, CustomizePage(trip: t, initialDay: day));
                   },
                 ),
+              ),
