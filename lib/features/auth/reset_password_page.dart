@@ -71,3 +71,4 @@ class _ResetPasswordPageState extends State<ResetPasswordPage> {
                   crossAxisAlignment: CrossAxisAlignment.stretch,
                   children: [
                     Text('Atur ulang password', style: AppText.h1),
+                    const SizedBox(height: 8),
