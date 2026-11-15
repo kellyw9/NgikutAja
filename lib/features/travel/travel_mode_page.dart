@@ -153,3 +153,4 @@ class TravelModePage extends StatelessWidget {
                 'Pengeluaran',
                 kind: BtnKind.secondary,
                 size: BtnSize.md,
+                icon: 'payments',
