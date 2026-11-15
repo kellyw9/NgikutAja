@@ -199,3 +199,4 @@ class _AddStopPageState extends State<AddStopPage> {
                                       onTap: () => setState(() => photo = null),
                                     ),
                                   ),
+                                ],
