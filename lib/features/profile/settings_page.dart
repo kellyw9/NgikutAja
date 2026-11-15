@@ -63,3 +63,5 @@ class SettingsPage extends StatelessWidget {
         BoxList(inset: 14, children: rows),
       ],
     );
+
+    return Scaffold(
