@@ -87,3 +87,4 @@ class SettingsPage extends StatelessWidget {
                   icon: 'download_for_offline',
                   title: 'Kelola data offline',
                   sub: offline.isEmpty
+                      ? 'Belum ada trip tersimpan'
