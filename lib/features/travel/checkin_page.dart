@@ -41,3 +41,4 @@ class _CheckinPageState extends State<CheckinPage> {
             children: [
               MapView(
                 height: 210,
+                kind: MapKind.lake,
