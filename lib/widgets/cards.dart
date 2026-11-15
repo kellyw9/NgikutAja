@@ -559,3 +559,4 @@ class CreatorRow extends StatelessWidget {
                   Avatar(c.name, size: 40, tint: c.tint, photo: c.photo),
                   const SizedBox(width: 12),
                   Expanded(
+                    child: Column(
