@@ -193,3 +193,4 @@ class _SearchPageState extends State<SearchPage> {
                       focus.requestFocus();
                     },
                   ),
+              ],
