@@ -265,3 +265,4 @@ class _AddExpensePageState extends State<AddExpensePage> {
                   Wrap(
                     spacing: 8,
                     runSpacing: 8,
+                    children: [
