@@ -113,3 +113,5 @@ void showNgSnack(BuildContext context, String text, {SnackKind kind = SnackKind.
     ),
   );
 }
+
+/// Bottom sheet: pegangan, judul kiri + tombol tutup, isi dengan jarak 16.
