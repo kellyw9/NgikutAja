@@ -171,3 +171,4 @@ class Member {
 }
 
 enum ExpenseCat {
+  makan('Makan', 'restaurant'),
