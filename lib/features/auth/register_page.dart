@@ -138,3 +138,4 @@ class _RegisterPageState extends State<RegisterPage> {
                         hint: 'Ketik ulang password',
                         textInputAction: TextInputAction.done,
                         onSubmitted: (_) => _submit(),
+                        trailing: ObscureToggle(obscured: ob2, onTap: () => setState(() => ob2 = !ob2)),
