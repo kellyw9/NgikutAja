@@ -42,3 +42,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
       backgroundColor: AppColors.ground,
       appBar: NgAppBar(title: 'Ulasan dan komentar', sub: it.title, rule: true),
       body: Column(
+        children: [
