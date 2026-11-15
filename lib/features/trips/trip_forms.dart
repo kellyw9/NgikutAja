@@ -47,3 +47,5 @@ class _EditStopPageState extends State<EditStopPage> {
   bool tried = false;
 
   String get end => fromMinutes(toMinutes(start) + duration);
+
+  void _save() {
