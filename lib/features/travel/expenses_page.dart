@@ -27,3 +27,4 @@ class ExpensesPage extends StatelessWidget {
           Text(rp(e.amount), style: AppText.display),
           KeyValueBox([
             ('Kategori', e.cat.label),
+            ('Waktu', expenseTime(trip, e)),
