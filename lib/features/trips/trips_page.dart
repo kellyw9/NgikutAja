@@ -114,3 +114,4 @@ class TripsPage extends StatelessWidget {
                 ],
               ),
             ),
+            _ => Row(
