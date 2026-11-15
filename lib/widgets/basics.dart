@@ -248,3 +248,4 @@ class Photo extends StatelessWidget {
         child: AppIcon(placeholderIcon, color: AppColors.muted),
       );
     } else if (s.startsWith('mem:')) {
+      final bytes = PhotoStore.get(s);
