@@ -162,3 +162,4 @@ class _LoginPageState extends State<LoginPage> {
                                     : push(context, const RegisterPage()),
                               ),
                             ],
+                          ),
