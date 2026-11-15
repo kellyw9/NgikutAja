@@ -17,3 +17,4 @@ void main() {
   });
 
   test('Estimasi itinerary dihitung dari biaya aktivitas', () {
+    final state = AppState(null, now: DateTime(2026, 11, 4), watchNetwork: false);
