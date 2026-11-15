@@ -28,3 +28,4 @@ class DashboardPage extends StatelessWidget {
             children: [
               FactStrip([
                 ('Itinerary terbit', '${mine.length}'),
+                ('Total adopsi', thousands(app.totalAdopt)),
