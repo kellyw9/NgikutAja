@@ -132,3 +132,4 @@ class BottomNav extends StatelessWidget {
         Container(
           width: 32,
           height: 3,
+          decoration: BoxDecoration(
