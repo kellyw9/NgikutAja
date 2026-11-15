@@ -37,3 +37,4 @@ class TripsPage extends StatelessWidget {
                 _ => _trips(context, app, tab),
               },
             ),
+          ),
