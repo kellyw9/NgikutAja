@@ -49,3 +49,4 @@ class RecapPage extends StatelessWidget {
               ]),
               Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
