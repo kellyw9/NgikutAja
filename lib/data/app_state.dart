@@ -290,3 +290,4 @@ class AppState extends ChangeNotifier {
     final t = Trip(
       id: 'trip-${DateTime.now().microsecondsSinceEpoch}',
       title: it.title,
+      city: it.city,
