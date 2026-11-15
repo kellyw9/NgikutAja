@@ -14,3 +14,4 @@ void saveDraftAndClose(BuildContext context, Itinerary d) {
   AppScope.read(context).saveDraft(d);
   goTab(context, tabTrips, trips: TripStatus.draft);
   showNgSnack(context, 'Draft tersimpan di Trip Saya.', kind: SnackKind.success);
+}
