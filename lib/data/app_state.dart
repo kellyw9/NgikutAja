@@ -230,3 +230,5 @@ class AppState extends ChangeNotifier {
   late List<Transaction> transactions;
 
   bool canOpen(Itinerary it) => !it.isPaid || purchased.contains(it.id) || it.creator == me;
+
+  /// Buat transaksi baru berstatus pending (pembayaran simulasi).
