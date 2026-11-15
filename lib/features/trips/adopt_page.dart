@@ -175,3 +175,4 @@ class _AdoptPageState extends State<AdoptPage> {
               Text(title, style: AppText.body),
               const SizedBox(height: 2),
               Text(sub, style: AppText.small.muted),
+            ],
