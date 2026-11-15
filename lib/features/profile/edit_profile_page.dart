@@ -62,3 +62,4 @@ class _EditProfilePageState extends State<EditProfilePage> {
             DialogAction('Buang perubahan', kind: BtnKind.dangerText, value: true),
           ],
         );
+        if (r == true && context.mounted) {
