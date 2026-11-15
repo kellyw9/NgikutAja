@@ -173,3 +173,4 @@ class Seed {
       rating: 4.9,
       reviews: 21,
       tags: ['Alam'],
+      lodging: 970000,
