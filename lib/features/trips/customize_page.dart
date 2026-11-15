@@ -317,3 +317,4 @@ class _CustomizePageState extends State<CustomizePage> {
           actions: [NgButton('Simpan', kind: BtnKind.text, size: BtnSize.md, onPressed: saving ? null : _save)],
         ),
         body: ListView(
+          padding: const EdgeInsets.only(bottom: 20),
