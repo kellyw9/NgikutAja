@@ -356,3 +356,4 @@ class AddPhotoTile extends StatelessWidget {
   Widget build(BuildContext context) => Tap(
     onTap: onTap,
     radius: AppRadius.inner,
+    label: label,
