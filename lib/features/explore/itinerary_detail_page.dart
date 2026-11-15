@@ -113,3 +113,4 @@ class _ItineraryDetailPageState extends State<ItineraryDetailPage> {
                     ('Diadopsi', '${thousands(it.adopted)} kali'),
                   ]),
                   Wrap(
+                    spacing: 8,
