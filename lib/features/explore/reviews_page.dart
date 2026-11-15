@@ -135,3 +135,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
                         ),
                         Stars(r.stars, size: 14),
                       ],
+                    ),
