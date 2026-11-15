@@ -45,3 +45,5 @@ class _SplitBudgetPageState extends State<SplitBudgetPage> {
       if (debt[di][1] == 0) di++;
       if (cred[ci][1] == 0) ci++;
     }
+
+    return Scaffold(
