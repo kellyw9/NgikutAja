@@ -26,3 +26,4 @@ int? shortestGap(List<Stop> day) {
     final g = s[i].startMin - s[i - 1].endMin;
     if (g >= 0 && (best == null || g < best)) best = g;
   }
+  return best;
