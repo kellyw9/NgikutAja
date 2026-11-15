@@ -132,3 +132,4 @@ class _PhotoViewerPageState extends State<PhotoViewerPage> {
                 child: Align(
                   alignment: Alignment.centerLeft,
                   child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
