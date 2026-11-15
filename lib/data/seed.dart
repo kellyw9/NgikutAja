@@ -642,3 +642,4 @@ class Seed {
         ),
         LocalTip(
           icon: 'schedule',
+          title: 'Naik ke Holbung sebelum jam 3 sore',
