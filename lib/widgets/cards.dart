@@ -244,3 +244,4 @@ class TripCard extends StatelessWidget {
   });
   final TripStatus status;
   final String title;
+  final String city;
