@@ -217,3 +217,4 @@ class _ItineraryDetailPageState extends State<ItineraryDetailPage> {
               mainAxisSize: MainAxisSize.min,
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
+                Text(it.isPaid ? rp(it.price) : 'Gratis', style: AppText.h2),
