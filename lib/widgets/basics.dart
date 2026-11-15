@@ -424,3 +424,4 @@ class PriceTag extends StatelessWidget {
     decoration: BoxDecoration(color: AppColors.surface, borderRadius: BorderRadius.circular(AppRadius.tag)),
     child: Row(
       mainAxisSize: MainAxisSize.min,
+      children: [
