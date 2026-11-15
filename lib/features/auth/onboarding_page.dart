@@ -132,3 +132,4 @@ class _OnboardingPageState extends State<OnboardingPage> {
               child: Row(
                 crossAxisAlignment: CrossAxisAlignment.stretch,
                 children: [
+                  SizedBox(
