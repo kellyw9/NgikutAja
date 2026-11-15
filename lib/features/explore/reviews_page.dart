@@ -161,3 +161,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
             padding: EdgeInsets.fromLTRB(c.replyTo != null ? kMargin + 36 : kMargin, 12, kMargin, 12),
             child: Row(
               crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
