@@ -217,3 +217,5 @@ class AppState extends ChangeNotifier {
   List<Review> reviewsOf(Itinerary it) => it.id == 'medan' ? seed.reviews : const [];
   Map<int, int>? ratingDistOf(Itinerary it) => it.id == 'medan' ? Seed.ratingDist : null;
   List<Comment> commentsOf(Itinerary it) => comments[it.id] ?? const [];
+
+  void addComment(Itinerary it, String text, {String? replyTo}) {
