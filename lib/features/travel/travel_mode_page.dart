@@ -240,3 +240,4 @@ class _NextCard extends StatelessWidget {
                   kind: BtnKind.secondary,
                   icon: 'pin_drop',
                   expand: true,
+                  onPressed: () => push(context, CheckinPage(trip: trip, day: day, i: i)),
