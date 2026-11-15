@@ -147,3 +147,4 @@ class _NgFieldState extends State<NgField> {
             child: Padding(
               padding: EdgeInsets.symmetric(vertical: widget.area ? 0 : 14),
               child: content,
+            ),
