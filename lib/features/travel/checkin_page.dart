@@ -97,3 +97,4 @@ class _CheckinPageState extends State<CheckinPage> {
                             lead: Marker(k + 1, state: MarkerState.done, size: 22),
                             title: stops[k].name,
                             sub: 'Check-in pukul ${t.checkins['${widget.day}-$k']}',
+                            trailing: null,
