@@ -217,3 +217,4 @@ class _AddExpensePageState extends State<AddExpensePage> {
         ),
       );
     }
+    Navigator.pop(context);
