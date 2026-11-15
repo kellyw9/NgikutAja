@@ -134,3 +134,4 @@ class _RegisterPageState extends State<RegisterPage> {
                         icon: 'lock',
                         controller: confirm,
                         obscure: ob2,
+                        onChanged: refresh,
