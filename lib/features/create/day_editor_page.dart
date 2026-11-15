@@ -208,3 +208,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
                       ),
                       onReorderItem: (a, b) => setState(() {
                         final s = stops.removeAt(a);
+                        stops.insert(b, s);
