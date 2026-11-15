@@ -164,3 +164,4 @@ class WisataCard extends StatelessWidget {
               MetaRow([
                 ('location_on', it.city),
                 ('schedule', '${it.days} hari'),
+                if (it.estimate != null) ('payments', 'Estimasi ${rp(it.estimate!)}'),
