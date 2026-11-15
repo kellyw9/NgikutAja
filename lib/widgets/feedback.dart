@@ -193,3 +193,4 @@ Future<Object?> showNgDialog(BuildContext context, {String? icon, required Strin
   return showDialog<Object?>(
     context: context,
     barrierColor: AppColors.scrim,
+    builder: (ctx) => Dialog(
