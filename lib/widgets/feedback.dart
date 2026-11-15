@@ -344,3 +344,5 @@ class SkeletonCard extends StatelessWidget {
     ),
   );
 }
+
+/// Layar status penuh (proses, berhasil, gagal): ikon dalam kotak, judul h1, kalimat, aksi di bawah.
