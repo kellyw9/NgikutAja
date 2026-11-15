@@ -96,3 +96,4 @@ class _AdoptPageState extends State<AdoptPage> {
                                 Text(it.creator.handle, style: AppText.body.muted),
                               ],
                             ),
+                            const SizedBox(height: 2),
