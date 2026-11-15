@@ -466,3 +466,4 @@ class IconTile extends StatelessWidget {
     alignment: Alignment.center,
     decoration: BoxDecoration(
       color: fill,
+      borderRadius: BorderRadius.circular(size >= 44 ? AppRadius.card : AppRadius.inner),
