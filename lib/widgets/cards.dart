@@ -131,3 +131,4 @@ class WisataCard extends StatelessWidget {
                 ),
               ),
               const SizedBox(height: 8),
+              Text(it.title, style: AppText.bodyStrong, maxLines: 2, overflow: TextOverflow.ellipsis),
