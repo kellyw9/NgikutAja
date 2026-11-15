@@ -79,3 +79,4 @@ class TipDetailPage extends StatelessWidget {
                   ),
                 ],
               ),
+            if (tip.photo != null) Photo(tip.photo, height: 200, radius: AppRadius.card),
