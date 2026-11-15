@@ -129,3 +129,4 @@ class WisataCard extends StatelessWidget {
                     if (it.isPaid) Positioned(left: 6, bottom: 6, child: PriceTag(rp(it.price))),
                   ],
                 ),
+              ),
