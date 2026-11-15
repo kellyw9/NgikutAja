@@ -271,3 +271,4 @@ class _AddStopPageState extends State<AddStopPage> {
                         DialogAction('Hapus stop', kind: BtnKind.danger, value: true),
                         DialogAction('Batal'),
                       ],
+                    );
