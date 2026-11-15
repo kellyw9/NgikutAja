@@ -216,3 +216,4 @@ class ObscureToggle extends StatelessWidget {
 class NgToggle extends StatelessWidget {
   const NgToggle(this.value, {super.key, required this.onChanged, this.label});
   final bool value;
+  final ValueChanged<bool>? onChanged;
