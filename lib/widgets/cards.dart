@@ -482,3 +482,4 @@ class _DayBox extends StatelessWidget {
   final DayItem item;
   final bool on;
   final bool today;
+  final VoidCallback onTap;
