@@ -409,3 +409,4 @@ class Pill extends StatelessWidget {
         ],
       ),
     );
+  }
