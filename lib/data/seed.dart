@@ -100,3 +100,4 @@ class Seed {
         followers: 410,
         following: 33,
       ),
+      'nadia': Creator(
