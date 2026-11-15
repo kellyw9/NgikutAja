@@ -281,3 +281,4 @@ class _AddStopPageState extends State<AddStopPage> {
       ),
       bottomNavigationBar: SafeArea(
         child: Padding(
+          padding: const EdgeInsets.fromLTRB(kMargin, 8, kMargin, 16),
