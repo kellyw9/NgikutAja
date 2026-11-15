@@ -310,3 +310,4 @@ class ListRow extends StatelessWidget {
         padding: EdgeInsets.symmetric(horizontal: padH, vertical: 8),
         child: Row(
           children: [
+            if (lead != null) ...[
