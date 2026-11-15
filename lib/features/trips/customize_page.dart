@@ -338,3 +338,4 @@ class _CustomizePageState extends State<CustomizePage> {
                             t.start == null ? 'Tanggal belum diatur' : dateRange(t.start!, t.start!.add(Duration(days: plan.length - 1))),
                             style: AppText.small.muted,
                           ),
+                        ],
