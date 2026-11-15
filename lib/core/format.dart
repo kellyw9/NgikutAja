@@ -28,3 +28,4 @@ String dateLong(DateTime d) => '${weekdaysLong[d.weekday - 1]}, ${d.day} ${month
 String dateShort(DateTime d) => '${weekdaysShort[d.weekday - 1]}, ${d.day} ${monthsShort[d.month - 1]}';
 
 /// "12–14 Des 2026" atau "30 Nov–2 Des 2026"
+String dateRange(DateTime a, DateTime b) {
