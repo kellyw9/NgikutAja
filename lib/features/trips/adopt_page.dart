@@ -253,3 +253,4 @@ class _AdoptProgressPageState extends State<AdoptProgressPage> {
             ? StatusView(
                 icon: 'error',
                 tone: AppColors.negativePale,
+                iconColor: AppColors.negativeInk,
