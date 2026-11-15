@@ -12,3 +12,5 @@ final shellTab = ValueNotifier<int>(0);
 
 /// Segmen aktif di Trip Saya.
 final tripsTab = ValueNotifier<TripStatus>(TripStatus.berjalan);
+
+const tabExplore = 0, tabSearch = 1, tabTrips = 3, tabProfile = 4;
