@@ -222,3 +222,4 @@ class _AddStopPageState extends State<AddStopPage> {
                                   children: [
                                     const AppIcon('add_a_photo', size: 22),
                                     const SizedBox(height: 6),
+                                    Text(photo == null ? 'Tambah foto' : 'Ganti foto', style: AppText.smallStrong),
