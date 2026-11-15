@@ -418,3 +418,4 @@ class PriceTag extends StatelessWidget {
   final String text;
 
   @override
+  Widget build(BuildContext context) => Container(
