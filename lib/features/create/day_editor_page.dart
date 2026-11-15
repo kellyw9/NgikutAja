@@ -215,3 +215,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
                           Padding(
                             key: ObjectKey(stops[i]),
                             padding: const EdgeInsets.only(bottom: 10),
+                            child: _StopCard(stop: stops[i], index: i, conflict: conflictIndexes(stops).contains(i), onEdit: () => _editStop(i)),
