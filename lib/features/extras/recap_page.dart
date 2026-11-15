@@ -48,3 +48,4 @@ class RecapPage extends StatelessWidget {
                 ('Foto memori', '${photos.length} foto'),
               ]),
               Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
