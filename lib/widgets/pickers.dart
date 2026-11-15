@@ -106,3 +106,4 @@ class _CalendarState extends State<_Calendar> {
               label: 'Bulan berikutnya',
               size: 36,
               iconSize: 20,
+              onTap: () => setState(() => month = DateTime(month.year, month.month + 1)),
