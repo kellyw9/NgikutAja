@@ -7,3 +7,5 @@ import '../../widgets/ui.dart';
 class MembersPage extends StatelessWidget {
   const MembersPage({super.key, required this.trip});
   final Trip trip;
+
+  static PillKind _kind(MemberRole r) => switch (r) {
