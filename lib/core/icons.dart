@@ -111,3 +111,4 @@ class _SpinIconState extends State<SpinIcon> with SingleTickerProviderStateMixin
       turns: _c,
       child: AppIcon('progress_activity', size: widget.size, color: widget.color),
     ),
+  );
