@@ -129,3 +129,4 @@ class TripsPage extends StatelessWidget {
                 Expanded(
                   child: NgButton(
                     'Photo memory',
+                    kind: BtnKind.ghost,
