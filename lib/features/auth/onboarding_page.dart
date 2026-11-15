@@ -67,3 +67,4 @@ class _OnboardingPageState extends State<OnboardingPage> {
                       Semantics(
                         label: 'Halaman ${page + 1} dari 3',
                         child: Row(
+                          children: [
