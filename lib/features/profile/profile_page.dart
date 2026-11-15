@@ -23,3 +23,4 @@ class ProfilePage extends StatelessWidget {
       children: [
         TabHeader(
           'Profil',
+          actions: [IconBtn('settings', label: 'Pengaturan', onTap: () => push(context, const SettingsPage()))],
