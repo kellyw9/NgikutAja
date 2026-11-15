@@ -248,3 +248,4 @@ class _SearchPageState extends State<SearchPage> {
                     const SizedBox(width: 12),
                     Expanded(child: Text(q, style: AppText.body)),
                     IconBtn(
+                      'close',
