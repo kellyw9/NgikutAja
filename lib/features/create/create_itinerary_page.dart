@@ -255,3 +255,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
             ),
           ],
         ),
+        bottomNavigationBar: SafeArea(
