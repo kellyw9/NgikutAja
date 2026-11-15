@@ -117,3 +117,4 @@ class _PublishPageState extends State<PublishPage> {
                     keyboardType: TextInputType.number,
                     inputFormatters: [ThousandsFormatter()],
                     onChanged: (_) => setState(() {}),
+                    helper: 'Pembayaran masih simulasi, belum ada dana riil.',
