@@ -181,3 +181,4 @@ class _AddStopPageState extends State<AddStopPage> {
                                   Positioned(
                                     left: 8,
                                     bottom: 8,
+                                    child: Container(
