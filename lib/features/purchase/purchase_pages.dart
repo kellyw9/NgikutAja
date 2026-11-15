@@ -109,3 +109,4 @@ class PurchaseDetailPage extends StatelessWidget {
                 Text('Sekali bayar (simulasi)', style: AppText.small.muted),
               ],
             ),
+          ),
