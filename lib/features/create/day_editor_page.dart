@@ -102,3 +102,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
               padding: const EdgeInsets.symmetric(horizontal: kMargin),
               child: Row(
                 children: [
+                  for (var k = 0; k < d.plan.length; k++) ...[
