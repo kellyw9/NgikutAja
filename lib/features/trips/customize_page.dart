@@ -391,3 +391,4 @@ class _CustomizePageState extends State<CustomizePage> {
                       onAction: _notes,
                     ),
                   if (stops.isEmpty)
+                    Text('Belum ada aktivitas di Hari ${day + 1}.', style: AppText.body.muted)
