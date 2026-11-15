@@ -262,3 +262,4 @@ class _AddExpensePageState extends State<AddExpensePage> {
                 children: [
                   Text('Kategori', style: AppText.bodyStrong),
                   const SizedBox(height: 8),
+                  Wrap(
