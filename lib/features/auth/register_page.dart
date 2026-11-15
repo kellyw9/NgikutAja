@@ -62,3 +62,5 @@ class _RegisterPageState extends State<RegisterPage> {
     }
     super.dispose();
   }
+
+  @override
