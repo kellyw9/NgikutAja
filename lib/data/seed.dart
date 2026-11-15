@@ -245,3 +245,4 @@ class Seed {
         creator: c['komang']!,
         price: 35000,
         adopted: 58,
+        likes: 140,
