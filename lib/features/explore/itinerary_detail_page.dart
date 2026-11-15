@@ -146,3 +146,4 @@ class _ItineraryDetailPageState extends State<ItineraryDetailPage> {
                     onGuest: () => requireLogin(context),
                   ),
                   const NgDivider(),
+                  Column(
