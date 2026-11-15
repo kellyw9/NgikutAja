@@ -210,3 +210,4 @@ class NotificationDetailPage extends StatelessWidget {
         ],
       ),
       bottomNavigationBar: trip == null
+          ? null
