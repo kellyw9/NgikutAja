@@ -307,3 +307,4 @@ class _SearchPageState extends State<SearchPage> {
       child: Padding(
         padding: const EdgeInsets.symmetric(horizontal: kMargin),
         child: Row(
+          children: [
