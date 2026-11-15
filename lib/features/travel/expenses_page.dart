@@ -292,3 +292,4 @@ class _AddExpensePageState extends State<AddExpensePage> {
                             onTap: () => Navigator.pop(ctx, k),
                           ),
                       ],
+                    ),
