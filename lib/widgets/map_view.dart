@@ -13,3 +13,5 @@ class MapPin {
   final int n;
   final MarkerState state;
 }
+
+/// Peta sementara (gambar, bukan peta asli). Diberi label "Peta sementara" supaya tidak
