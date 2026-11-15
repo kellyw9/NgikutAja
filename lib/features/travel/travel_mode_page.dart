@@ -382,3 +382,4 @@ class NavigationPage extends StatelessWidget {
               pins: [
                 if (prev != null) MapPin(.8, .33, n: prev + 1, state: trip.isChecked(day, prev) ? MarkerState.done : MarkerState.todo),
                 MapPin(.55, .5, n: i + 1, state: MarkerState.next),
+              ],
