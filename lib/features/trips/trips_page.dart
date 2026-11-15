@@ -10,3 +10,4 @@ import 'trip_detail_page.dart';
 
 /// 5.1 Daftar Trip: Draft, Diadopsi, Berjalan, Selesai.
 class TripsPage extends StatelessWidget {
+  const TripsPage({super.key});
