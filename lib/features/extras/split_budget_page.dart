@@ -66,3 +66,4 @@ class _SplitBudgetPageState extends State<SplitBudgetPage> {
                     children: [
                       Expanded(child: Text('Pembagian biaya', style: AppText.h2)),
                       NgChip('Rata', selected: !custom, onTap: () => setState(() => custom = false)),
+                      const SizedBox(width: 6),
