@@ -114,3 +114,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
                             top: -2,
                             child: Semantics(
                               label: 'Hari ${k + 1} perlu diperbaiki',
+                              child: Container(
