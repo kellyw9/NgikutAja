@@ -129,3 +129,4 @@ class _SplitBudgetPageState extends State<SplitBudgetPage> {
                             ],
                           ),
                         ),
+                    ],
