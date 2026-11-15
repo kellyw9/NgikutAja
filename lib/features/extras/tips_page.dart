@@ -35,3 +35,4 @@ class TipsPage extends StatelessWidget {
                         children: [
                           Text(tip.title, style: AppText.title),
                           const SizedBox(height: 2),
+                          Text(tip.text, style: AppText.body.muted, maxLines: 2, overflow: TextOverflow.ellipsis),
