@@ -118,3 +118,4 @@ List<String> shiftCascade(List<Stop> day, Stop target, int newStart) {
           lines: [
             '${durationText(activeMinutes(day))} aktivitas dari ${s.first.start} sampai ${s.last.end}'
                 '${gap != null ? ', jeda tersisa paling pendek $gap menit' : ''}.',
+          ],
