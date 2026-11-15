@@ -299,3 +299,4 @@ class _StopCard extends StatelessWidget {
         stop.photo != null ? Photo(stop.photo, width: 52, height: 52, radius: AppRadius.inner) : IconTile(stop.cat.icon, size: 52, iconSize: 24),
         const SizedBox(width: 12),
         Expanded(
+          child: Column(
