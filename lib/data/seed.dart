@@ -549,3 +549,4 @@ class Seed {
         amount: 45000,
         status: TxStatus.gagal,
       ),
+      Transaction(id: _trx(today, '0103'), item: bali, date: _pendingAt, method: 'Transfer Bank', amount: 35000, status: TxStatus.pending),
