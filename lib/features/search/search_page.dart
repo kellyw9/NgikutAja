@@ -391,3 +391,4 @@ class _SearchPageState extends State<SearchPage> {
                   child: Text('${list.length} itinerary${q.isEmpty ? '' : (mode == 'Kota' ? ' di $q' : ' untuk $q')}', style: AppText.bodyStrong),
                 ),
                 TextLink(sort, icon: 'expand_more', style: AppText.smallStrong, onTap: _openSort),
+              ],
