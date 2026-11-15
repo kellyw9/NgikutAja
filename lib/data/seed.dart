@@ -376,3 +376,4 @@ class Seed {
         tags: ['Kuliner'],
         publishedAt: _d(-150),
         dayTitles: ['Sarapan'],
+        plan: [
