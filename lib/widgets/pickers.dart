@@ -99,3 +99,4 @@ class _CalendarState extends State<_Calendar> {
               onTap: month.isAfter(firstMonth) ? () => setState(() => month = DateTime(month.year, month.month - 1)) : null,
             ),
             Expanded(
+              child: Text('${monthsLong[month.month - 1]} ${month.year}', style: AppText.title, textAlign: TextAlign.center),
