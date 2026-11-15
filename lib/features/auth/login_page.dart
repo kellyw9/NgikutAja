@@ -69,3 +69,4 @@ class _LoginPageState extends State<LoginPage> {
   Widget build(BuildContext context) {
     return AnnotatedRegion(
       value: kDarkIcons,
+      child: Scaffold(
