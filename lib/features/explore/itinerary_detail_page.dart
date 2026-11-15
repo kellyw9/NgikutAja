@@ -306,3 +306,4 @@ class PaidPreviewPage extends StatelessWidget {
                     ExcludeSemantics(
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
