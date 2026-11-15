@@ -19,3 +19,4 @@ class CityInfo {
   final String name;
   final String photo;
   final bool Function(Itinerary) match;
+}
