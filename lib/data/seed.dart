@@ -179,3 +179,4 @@ class Seed {
           'Rute pelan mengelilingi Samosir: kapal dari Ajibata, menginap di Tuktuk, bukit Holbung saat cuaca cerah, '
           'dan sore di pantai Parbaba.',
       dayTitles: ['Kapal, Tuktuk, dan Holbung', 'Desa adat dan pulang'],
+      plan: [
