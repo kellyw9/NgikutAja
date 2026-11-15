@@ -170,3 +170,4 @@ class _NewPasswordPageState extends State<NewPasswordPage> {
               child: IntrinsicHeight(
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.stretch,
+                  children: [
