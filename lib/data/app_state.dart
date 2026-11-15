@@ -382,3 +382,4 @@ class AppState extends ChangeNotifier {
     isDraft: true,
     plan: [[]],
     dayTitles: [''],
+  );
