@@ -456,3 +456,4 @@ class AppState extends ChangeNotifier {
     'social': false,
     'payments': true,
     'autoDownload': true,
+  };
