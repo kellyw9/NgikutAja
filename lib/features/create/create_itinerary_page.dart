@@ -110,3 +110,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
     final dirty = touched || title.text.trim() != d.title || desc.text.trim() != d.desc;
     if (!dirty || widget.draft != null) {
       if (widget.draft != null) _apply();
+      return true;
