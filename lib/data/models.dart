@@ -110,3 +110,4 @@ class Itinerary {
   double? rating;
   int? reviews;
   List<String> tags;
+  String desc;
