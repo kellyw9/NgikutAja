@@ -142,3 +142,4 @@ class WisataCard extends StatelessWidget {
       case CardVariant.feed:
         return Tap(
           onTap: onTap,
+          label: label,
