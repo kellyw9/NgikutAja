@@ -391,3 +391,4 @@ class NavigationPage extends StatelessWidget {
             left: 0,
             top: 0,
             child: SafeArea(
+              child: Padding(
