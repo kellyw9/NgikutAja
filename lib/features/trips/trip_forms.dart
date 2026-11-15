@@ -143,3 +143,4 @@ class _EditStopPageState extends State<EditStopPage> {
                         final d = await showNgSheet<int>(
                           context,
                           title: 'Durasi aktivitas',
+                          scroll: true,
