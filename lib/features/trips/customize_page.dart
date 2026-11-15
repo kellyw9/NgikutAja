@@ -42,3 +42,4 @@ class _CustomizePageState extends State<CustomizePage> {
       if (!mounted) return;
       setState(() {
         saving = false;
+        changes = 0;
