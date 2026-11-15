@@ -88,3 +88,4 @@ class NotificationsPage extends StatelessWidget {
                           TextSpan(text: n.text),
                         ],
                       ),
+                    ),
