@@ -114,3 +114,4 @@ void main() {
   for (final size in const [Size(360, 740), Size(390, 844)]) {
     for (final e in pages.entries) {
       testWidgets('${e.key} @${size.width.toInt()}', (tester) async {
+        tester.view.physicalSize = size * 3;
