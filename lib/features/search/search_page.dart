@@ -158,3 +158,4 @@ class _SearchPageState extends State<SearchPage> {
       children: [
         Expanded(
           child: Container(
+            height: 48,
