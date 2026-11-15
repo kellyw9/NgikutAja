@@ -37,3 +37,4 @@ class _SplitBudgetPageState extends State<SplitBudgetPage> {
     ];
     final settle = <(String, String, int)>[];
     var di = 0, ci = 0;
+    while (di < debt.length && ci < cred.length) {
