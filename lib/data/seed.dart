@@ -35,3 +35,5 @@ class Seed {
   late final List<Person> followingPeople;
 
   static const ratingDist = {5: 27, 4: 7, 3: 2, 2: 0, 1: 0};
+
+  /// Penjualan bulanan "Samosir Naik Motor 2 Hari" (Jul sampai Nov).
