@@ -242,3 +242,4 @@ class Photo extends StatelessWidget {
     Widget img;
     final s = src;
     if (s == null) {
+      img = Container(
