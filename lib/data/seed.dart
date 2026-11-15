@@ -114,3 +114,4 @@ class Seed {
 
     final medan = Itinerary(
       id: 'medan',
+      title: '3 Hari Kuliner dan Sejarah di Medan',
