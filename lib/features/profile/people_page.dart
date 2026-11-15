@@ -74,3 +74,4 @@ class _PeoplePageState extends State<PeoplePage> {
   }
 
   Widget _btn(AppState app, Person p) {
+    final on = following.contains(p.handle);
