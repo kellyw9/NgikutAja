@@ -22,3 +22,4 @@ const weekdaysLong = ['Senin', 'Selasa', 'Rabu', 'Kamis', 'Jumat', 'Sabtu', 'Min
 const weekdaysShort = ['Sen', 'Sel', 'Rab', 'Kam', 'Jum', 'Sab', 'Min'];
 
 /// "Sabtu, 12 Des 2026"
+String dateLong(DateTime d) => '${weekdaysLong[d.weekday - 1]}, ${d.day} ${monthsShort[d.month - 1]} ${d.year}';
