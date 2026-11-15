@@ -467,3 +467,4 @@ class _CustomizePageState extends State<CustomizePage> {
                                 if (p == null || p.isEmpty || !context.mounted) return;
                                 final now = DateTime.now();
                                 AppScope.read(
+                                  context,
