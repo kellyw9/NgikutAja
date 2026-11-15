@@ -61,3 +61,4 @@ class Stop {
 
   int get startMin => toMinutes(start);
   int get endMin => toMinutes(end);
+  int get duration => (endMin - startMin).clamp(0, 24 * 60);
