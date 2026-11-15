@@ -46,3 +46,4 @@ class MembersPage extends StatelessWidget {
               children: [
                 Avatar(m.name, size: 52, tint: m.tint),
                 const SizedBox(width: 12),
+                Expanded(
