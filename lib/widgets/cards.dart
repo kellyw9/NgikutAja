@@ -400,3 +400,4 @@ class StopRow extends StatelessWidget {
                     fit: BoxFit.scaleDown,
                     alignment: Alignment.centerLeft,
                     child: Text(blur ? '--.--' : st.start, style: AppText.time.c(timeColor), maxLines: 1),
+                  ),
