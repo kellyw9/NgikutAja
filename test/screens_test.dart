@@ -77,3 +77,4 @@ final Map<String, PageFor> pages = {
   'permission': (s) => PermissionDeniedPage(place: 'Bukit Holbung', onOpenSettings: () {}),
   'expenses': (s) => ExpensesPage(trip: s.trips[0]),
   'add expense': (s) => AddExpensePage(trip: s.trips[0]),
+  'offline': (s) => const OfflinePage(),
