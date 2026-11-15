@@ -172,3 +172,4 @@ class _EditStopPageState extends State<EditStopPage> {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text('Foto tempat', style: AppText.bodyStrong),
+                  const SizedBox(height: 8),
