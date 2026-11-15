@@ -42,3 +42,4 @@ class _EditStopPageState extends State<EditStopPage> {
   late final note = TextEditingController(text: s?.note ?? '');
   late Category cat = s?.cat ?? Category.budaya;
   late String start = s?.start ?? widget.defaultStart;
+  late int duration = s?.duration ?? 60;
