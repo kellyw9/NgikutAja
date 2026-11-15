@@ -201,3 +201,4 @@ class GoogleButton extends StatelessWidget {
             const SizedBox.square(dimension: 20, child: CustomPaint(painter: _GooglePainter())),
             const SizedBox(width: 10),
             Text(label, style: AppText.button),
+          ],
