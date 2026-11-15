@@ -246,3 +246,4 @@ class Trip {
     List<Expense>? expenses,
     List<PackGroup>? packing,
     Map<String, String>? checkins,
+    List<TripPhoto>? photos,
