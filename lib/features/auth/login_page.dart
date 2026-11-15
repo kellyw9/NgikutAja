@@ -140,3 +140,4 @@ class _LoginPageState extends State<LoginPage> {
                               child: Text('atau', style: AppText.small.muted),
                             ),
                             Expanded(child: Container(height: 1, color: AppColors.line)),
+                          ],
