@@ -96,3 +96,4 @@ class NgButton extends StatelessWidget {
             return BorderSide.none;
           }),
           shape: const WidgetStatePropertyAll(RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(AppRadius.control)))),
+          mouseCursor: WidgetStatePropertyAll(disabled ? SystemMouseCursors.forbidden : SystemMouseCursors.click),
