@@ -630,3 +630,4 @@ class Seed {
         ),
         LocalTip(
           icon: 'payments',
+          title: 'Siapkan uang tunai kecil',
