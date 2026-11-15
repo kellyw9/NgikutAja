@@ -295,3 +295,4 @@ class Trip {
   final Set<String> settled = {};
 
   // Ringkasan dari data contoh untuk trip lama yang jadwal lengkapnya tidak tersimpan.
+  int? seedPlaces;
