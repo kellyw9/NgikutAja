@@ -472,3 +472,4 @@ class Seed {
         cover: 'maimun',
         from: medan,
         plan: copyPlan(medan.plan),
+        dayTitles: [...medan.dayTitles],
