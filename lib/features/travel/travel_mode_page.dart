@@ -399,3 +399,4 @@ class NavigationPage extends StatelessWidget {
           ),
         ],
       ),
+      bottomNavigationBar: Container(
