@@ -32,3 +32,4 @@ class _CheckinPageState extends State<CheckinPage> {
 
     return Scaffold(
       backgroundColor: AppColors.ground,
+      appBar: NgAppBar(title: 'Check-in', sub: st.name),
