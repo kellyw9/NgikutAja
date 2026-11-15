@@ -154,3 +154,4 @@ class IconBtn extends StatelessWidget {
               dimension: size,
               child: Center(
                 child: AppIcon(icon, size: iconSize, color: onTap == null ? AppColors.control : color, filled: filled),
+              ),
