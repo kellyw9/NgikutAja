@@ -69,3 +69,4 @@ class PurchaseDetailPage extends StatelessWidget {
                       children: [
                         Text(it.creator.name, style: AppText.bodyStrong),
                         const SizedBox(height: 2),
+                        Text('${it.creator.handle}, ${thousands(it.creator.followers)} pengikut', style: AppText.small.muted),
