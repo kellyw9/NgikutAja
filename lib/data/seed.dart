@@ -343,3 +343,4 @@ class Seed {
         price: 20000,
         adopted: 18,
         likes: 52,
+        tags: ['Alam'],
