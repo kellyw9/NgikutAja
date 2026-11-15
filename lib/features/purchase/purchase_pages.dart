@@ -49,3 +49,4 @@ class PurchaseDetailPage extends StatelessWidget {
       'Dapat diadopsi dan diedit jadwalnya',
       'Bisa dibuka offline saat berada di ${it.city}',
     ];
+    return Scaffold(
