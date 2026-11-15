@@ -72,3 +72,4 @@ class _RegisterPageState extends State<RegisterPage> {
       appBar: const NgAppBar(),
       body: SafeArea(
         top: false,
+        child: LayoutBuilder(
