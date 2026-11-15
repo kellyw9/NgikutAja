@@ -120,3 +120,4 @@ Future<T?> showNgSheet<T>(BuildContext context, {String? title, String? sub, req
     context: context,
     isScrollControlled: true,
     useSafeArea: true,
+    backgroundColor: AppColors.surface,
