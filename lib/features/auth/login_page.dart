@@ -44,3 +44,4 @@ class _LoginPageState extends State<LoginPage> {
     if (!mounted) return;
     setState(() {
       loading = false;
+      wrong = !ok;
