@@ -56,3 +56,4 @@ class _EditStopPageState extends State<EditStopPage> {
       ..cat = cat
       ..start = start
       ..end = end
+      ..cost = parseRupiah(cost.text)
