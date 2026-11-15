@@ -87,3 +87,4 @@ class _PhotoViewerPageState extends State<PhotoViewerPage> {
     final date = t.dayDate(p.day);
     return AnnotatedRegion(
       value: kLightIcons,
+      child: Scaffold(
