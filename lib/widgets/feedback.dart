@@ -365,3 +365,5 @@ class StatusView extends StatelessWidget {
   final String text;
   final Widget? middle;
   final List<Widget> actions;
+
+  /// true: isi mulai dari atas (status pembayaran), false: di tengah.
