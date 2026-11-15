@@ -232,3 +232,4 @@ class Photo extends StatelessWidget {
   const Photo(this.src, {super.key, this.width, this.height, this.radius = 0, this.placeholderIcon = 'add_a_photo', this.semantic});
   final String? src;
   final double? width;
+  final double? height;
