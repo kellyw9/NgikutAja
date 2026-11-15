@@ -101,3 +101,4 @@ class _LoginPageState extends State<LoginPage> {
                         NgField(
                           label: 'Email',
                           icon: 'mail',
+                          controller: email,
