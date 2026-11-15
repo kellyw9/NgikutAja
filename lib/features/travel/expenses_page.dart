@@ -38,3 +38,4 @@ class ExpensesPage extends StatelessWidget {
                 kind: BtnKind.dangerText,
                 icon: 'delete',
                 onPressed: () async {
+                  final r = await showNgDialog(
