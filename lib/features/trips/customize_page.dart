@@ -266,3 +266,4 @@ class _CustomizePageState extends State<CustomizePage> {
             for (final s in tips)
               Row(
                 children: [
+                  AppIcon(s.icon, size: 20),
