@@ -138,3 +138,4 @@ class _ItineraryDetailPageState extends State<ItineraryDetailPage> {
                         onTap: () => push(context, ReviewsPage(it: it, comments: true)),
                       ),
                     ],
+                  ),
