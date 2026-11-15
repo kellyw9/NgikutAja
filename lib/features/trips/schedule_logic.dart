@@ -27,3 +27,4 @@ int? shortestGap(List<Stop> day) {
     if (g >= 0 && (best == null || g < best)) best = g;
   }
   return best;
+}
