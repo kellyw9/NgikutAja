@@ -272,3 +272,4 @@ class _EditTripInfoPageState extends State<EditTripInfoPage> {
           Gap(
             16,
             children: [
+              SizedBox(
