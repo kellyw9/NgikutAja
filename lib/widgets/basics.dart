@@ -35,3 +35,5 @@ class NgButton extends StatelessWidget {
   final String? trailingIcon;
   final bool expand;
   final bool loading;
+
+  static (Color?, Color, Color?) _colors(BtnKind k) => switch (k) {
