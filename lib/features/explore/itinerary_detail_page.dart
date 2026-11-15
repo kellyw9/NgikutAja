@@ -359,3 +359,4 @@ class PaidPreviewPage extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(rp(it.price), style: AppText.h2),
+                const SizedBox(height: 2),
