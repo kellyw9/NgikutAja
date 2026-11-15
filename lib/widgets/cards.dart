@@ -208,3 +208,4 @@ class Grid2 extends StatelessWidget {
               child: r * 2 + 1 < items.length
                   ? WisataCard(
                       items[r * 2 + 1],
+                      variant: CardVariant.grid,
