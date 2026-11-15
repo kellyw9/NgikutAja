@@ -78,3 +78,4 @@ class TipDetailPage extends StatelessWidget {
                     child: Text('oleh ${tip.author!.handle}${tip.updated != null ? ', diperbarui ${tip.updated}' : ''}', style: AppText.small.muted),
                   ),
                 ],
+              ),
