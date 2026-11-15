@@ -301,3 +301,4 @@ class PickLocationPage extends StatefulWidget {
 }
 
 class _PickLocationPageState extends State<PickLocationPage> {
+  late final q = TextEditingController(text: widget.query);
