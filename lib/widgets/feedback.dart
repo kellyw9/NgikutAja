@@ -31,3 +31,4 @@ class NgBanner extends StatelessWidget {
       container: true,
       child: Container(
         width: double.infinity,
+        padding: offline ? const EdgeInsets.symmetric(horizontal: kMargin, vertical: 10) : const EdgeInsets.all(12),
