@@ -60,3 +60,4 @@ class Stop {
   String? address;
 
   int get startMin => toMinutes(start);
+  int get endMin => toMinutes(end);
