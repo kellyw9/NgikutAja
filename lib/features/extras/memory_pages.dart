@@ -51,3 +51,4 @@ class PhotoMemoryPage extends StatelessWidget {
                             ),
                         ],
                       );
+                    },
