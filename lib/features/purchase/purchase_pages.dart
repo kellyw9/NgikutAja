@@ -461,3 +461,4 @@ class PurchaseHistoryPage extends StatelessWidget {
       appBar: const NgAppBar(title: 'Riwayat pembelian'),
       body: list.isEmpty
           ? const EmptyState(icon: 'receipt_long', title: 'Belum ada pembelian', text: 'Itinerary berbayar yang kamu beli tercatat di sini.')
+          : ListView.separated(
