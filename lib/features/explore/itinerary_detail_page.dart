@@ -271,3 +271,4 @@ class PaidPreviewPage extends StatelessWidget {
                 children: [
                   Align(alignment: Alignment.centerLeft, child: PriceTag(rp(it.price))),
                   Text(it.title, style: AppText.h1),
+                  MetaRow([('location_on', it.region)]),
