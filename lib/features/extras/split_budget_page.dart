@@ -118,3 +118,4 @@ class _SplitBudgetPageState extends State<SplitBudgetPage> {
                                     Expanded(child: Text('Porsi', style: AppText.small.muted)),
                                     NgStepper(
                                       value: portion[m.first] ?? 1,
+                                      unit: ' porsi',
