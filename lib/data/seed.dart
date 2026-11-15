@@ -483,3 +483,4 @@ class Seed {
         region: 'Yogyakarta, DIY',
         start: _d(-45),
         cover: 'prambanan',
+        from: jogja,
