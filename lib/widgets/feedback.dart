@@ -168,3 +168,4 @@ Future<T?> showNgSheet<T>(BuildContext context, {String? title, String? sub, req
                 Align(
                   alignment: Alignment.centerRight,
                   child: Padding(
+                    padding: const EdgeInsets.only(right: 4),
