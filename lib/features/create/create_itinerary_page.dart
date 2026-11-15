@@ -245,3 +245,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
                       spacing: 8,
                       runSpacing: 8,
                       children: [
+                        for (final t in d.tags) NgChip(t, selected: true, close: true, onTap: () => setState(() => d.tags = [...d.tags]..remove(t))),
