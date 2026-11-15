@@ -150,3 +150,4 @@ class _EditStopPageState extends State<EditStopPage> {
                                 RadioRow(title: durationText(m), selected: m == duration, onTap: () => Navigator.pop(ctx, m)),
                             ],
                           ),
+                        );
