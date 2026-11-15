@@ -44,3 +44,4 @@ class ProfilePage extends StatelessWidget {
           child: BoxList(
             children: [
               ListRow(
+                icon: 'bookmark',
