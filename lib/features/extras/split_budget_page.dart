@@ -153,3 +153,4 @@ class _SplitBudgetPageState extends State<SplitBudgetPage> {
                               final key = '$from>$to';
                               final paid = t.settled.contains(key);
                               return Padding(
+                                padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 8),
