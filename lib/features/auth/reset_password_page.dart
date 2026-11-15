@@ -179,3 +179,4 @@ class _NewPasswordPageState extends State<NewPasswordPage> {
                       label: 'Password baru',
                       icon: 'lock',
                       controller: p1,
+                      obscure: o1,
