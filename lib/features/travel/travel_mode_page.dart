@@ -78,3 +78,4 @@ class TravelModePage extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Text(
+                            'Hari ${day + 1}${date != null ? ', ${weekdaysLong[date.weekday - 1]} ${date.day} ${monthsShort[date.month - 1]}' : ''}',
