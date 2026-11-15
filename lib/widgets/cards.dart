@@ -150,3 +150,4 @@ class WisataCard extends StatelessWidget {
               SizedBox(
                 height: 210,
                 child: Stack(
+                  fit: StackFit.expand,
