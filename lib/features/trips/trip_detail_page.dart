@@ -16,3 +16,4 @@ import 'members_page.dart';
 /// 5.3 Detail Trip.
 class TripDetailPage extends StatefulWidget {
   const TripDetailPage({super.key, required this.trip});
+  final Trip trip;
