@@ -6,3 +6,5 @@ import '../../widgets/ui.dart';
 class PeoplePage extends StatefulWidget {
   const PeoplePage({super.key, required this.followers});
   final bool followers;
+
+  @override
