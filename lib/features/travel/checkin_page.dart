@@ -67,3 +67,4 @@ class _CheckinPageState extends State<CheckinPage> {
                   title: 'Masih jauh dari lokasi',
                   text:
                       'Posisimu (simulasi) 1,2 km dari titik tempat. Check-in terbuka saat kamu berada dalam 100 m. Selesaikan aktivitas sebelumnya dulu.',
+                ),
