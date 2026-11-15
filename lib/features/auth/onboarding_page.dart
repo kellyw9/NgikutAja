@@ -157,3 +157,4 @@ class _OnboardingPageState extends State<OnboardingPage> {
                   ),
                 ],
               ),
+            ),
