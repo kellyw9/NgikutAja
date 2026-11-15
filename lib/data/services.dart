@@ -54,3 +54,5 @@ class Network {
   static Stream<bool> watch() => _c.onConnectivityChanged.map(_online);
 
   static Future<bool> check() async => _online(await _c.checkConnectivity());
+
+  static bool _online(List<ConnectivityResult> r) => r.any((x) => x != ConnectivityResult.none);
