@@ -213,3 +213,4 @@ bool requireLogin(BuildContext context) {
     sub: 'Fitur Wishlist, adopt trip, dan komentar membutuhkan akun agar tersimpan di semua perangkat.',
     builder: (ctx) => Gap(
       12,
+      children: [
