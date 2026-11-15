@@ -238,3 +238,4 @@ class Seed {
       Itinerary(
         id: 'bali',
         title: 'Bali Utara yang Lebih Tenang',
+        city: 'Buleleng',
