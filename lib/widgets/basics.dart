@@ -625,3 +625,4 @@ class Stars extends StatelessWidget {
       mainAxisSize: MainAxisSize.min,
       children: [
         for (var k = 1; k <= 5; k++) ...[
+          if (k > 1) const SizedBox(width: 2),
