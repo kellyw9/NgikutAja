@@ -149,3 +149,4 @@ class _MapPainter extends CustomPainter {
         ..cubicTo(.75 * w, .17 * h, .86 * w, .4 * h, .82 * w, .6 * h)
         ..cubicTo(.78 * w, .8 * h, .56 * w, .86 * h, .42 * w, .74 * h);
       canvas.drawPath(
+        ring1,
