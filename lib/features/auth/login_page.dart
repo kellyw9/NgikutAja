@@ -149,3 +149,4 @@ class _LoginPageState extends State<LoginPage> {
                         ),
                         const Spacer(),
                         const SizedBox(height: 24),
+                        Center(
