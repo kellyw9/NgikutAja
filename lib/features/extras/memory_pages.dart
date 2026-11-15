@@ -122,3 +122,4 @@ class _PhotoViewerPageState extends State<PhotoViewerPage> {
                       child: AspectRatio(
                         aspectRatio: 4 / 3,
                         child: Photo(t.photos[k].src, semantic: t.photos[k].caption),
+                      ),
