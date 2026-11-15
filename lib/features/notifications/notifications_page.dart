@@ -18,3 +18,4 @@ class NotificationsPage extends StatelessWidget {
       case NotifKind.reminder:
         push(context, NotificationDetailPage(n: n));
       case NotifKind.payment:
+        final tx = app.transactions.where((t) => t.item.id == 'bali').firstOrNull;
