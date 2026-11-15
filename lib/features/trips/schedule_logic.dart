@@ -17,3 +17,5 @@ Set<int> conflictIndexes(List<Stop> day) => {
 };
 
 int activeMinutes(List<Stop> day) => day.fold(0, (a, s) => a + s.duration);
+
+/// Jeda paling pendek antar aktivitas berurutan (menurut jam), dalam menit.
