@@ -20,3 +20,4 @@ void goTab(BuildContext context, int tab, {TripStatus? trips}) {
   Navigator.of(context).popUntil((r) => r.isFirst);
   if (trips != null) tripsTab.value = trips;
   shellTab.value = tab;
+}
