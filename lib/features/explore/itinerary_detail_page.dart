@@ -91,3 +91,4 @@ class _ItineraryDetailPageState extends State<ItineraryDetailPage> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
+            HeroPhoto(
