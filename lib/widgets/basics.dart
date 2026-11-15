@@ -173,3 +173,4 @@ class TextLink extends StatelessWidget {
   final Color color;
 
   @override
+  Widget build(BuildContext context) {
