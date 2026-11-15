@@ -94,3 +94,4 @@ class _PhotoViewerPageState extends State<PhotoViewerPage> {
             children: [
               SizedBox(
                 height: 56,
+                child: Padding(
