@@ -177,3 +177,4 @@ class _PublishPageState extends State<PublishPage> {
                 onPressed: () {
                   _apply();
                   saveDraftAndClose(context, d);
+                },
