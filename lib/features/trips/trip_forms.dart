@@ -89,3 +89,4 @@ class _EditStopPageState extends State<EditStopPage> {
   Widget build(BuildContext context) {
     final editing = s != null;
     return Scaffold(
+      backgroundColor: AppColors.ground,
