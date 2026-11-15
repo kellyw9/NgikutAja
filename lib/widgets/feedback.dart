@@ -146,3 +146,4 @@ Future<T?> showNgSheet<T>(BuildContext context, {String? title, String? sub, req
                 Padding(
                   padding: const EdgeInsets.fromLTRB(kMargin, 4, 4, 0),
                   child: Row(
+                    crossAxisAlignment: CrossAxisAlignment.start,
