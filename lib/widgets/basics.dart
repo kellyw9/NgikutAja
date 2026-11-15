@@ -528,3 +528,4 @@ class Wordmark extends StatelessWidget {
       ),
     );
   }
+}
