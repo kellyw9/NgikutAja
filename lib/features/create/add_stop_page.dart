@@ -149,3 +149,4 @@ class _AddStopPageState extends State<AddStopPage> {
                 label: 'Biaya',
                 controller: cost,
                 prefixText: 'Rp',
+                hint: '0 kalau gratis',
