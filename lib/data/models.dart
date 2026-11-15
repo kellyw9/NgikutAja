@@ -342,3 +342,4 @@ class Comment {
   final String text;
   final bool creator;
   final String? replyTo;
+}
