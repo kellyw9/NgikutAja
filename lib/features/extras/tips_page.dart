@@ -84,3 +84,4 @@ class TipDetailPage extends StatelessWidget {
           ],
         ),
       ],
+    ),
