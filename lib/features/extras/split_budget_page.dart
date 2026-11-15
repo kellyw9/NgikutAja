@@ -136,3 +136,4 @@ class _SplitBudgetPageState extends State<SplitBudgetPage> {
               Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
+                  Text('Detail penyelesaian saldo', style: AppText.h2),
