@@ -30,3 +30,4 @@ class _RegisterPageState extends State<RegisterPage> {
 
   String? get emailErr {
     final e = validateEmail(email.text);
+    // Format baru ditegur setelah pengguna pindah ke kolom password, bukan saat masih mengetik.
