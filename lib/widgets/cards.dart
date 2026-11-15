@@ -581,3 +581,4 @@ class CreatorRow extends StatelessWidget {
             const SizedBox(width: 12),
             NgButton(
               following ? 'Mengikuti' : 'Ikuti',
+              kind: following ? BtnKind.ghost : BtnKind.secondary,
