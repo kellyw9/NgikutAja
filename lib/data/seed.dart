@@ -397,3 +397,4 @@ class Seed {
         isDraft: true,
         plan: [[]],
         dayTitles: [''],
+      ),
