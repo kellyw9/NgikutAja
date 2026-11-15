@@ -363,3 +363,4 @@ class StopRow extends StatelessWidget {
                         MetaRow([(st.cat.icon, st.cat.label), ('payments', st.cost > 0 ? rp(st.cost) : 'Gratis')]),
                       ],
                     ],
+                  ),
