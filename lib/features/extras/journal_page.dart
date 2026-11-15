@@ -100,3 +100,4 @@ class _JournalPageState extends State<JournalPage> {
                 children: [
                   Text('Cerita perjalanan', style: AppText.smallStrong.muted),
                   const SizedBox(height: 4),
+                  Text(
