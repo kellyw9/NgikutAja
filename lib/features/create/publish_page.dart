@@ -218,3 +218,4 @@ class PublishedPage extends StatelessWidget {
                       liveRegion: true,
                       child: Text('Itinerary berhasil dipublish!', style: AppText.h1, textAlign: TextAlign.center),
                     ),
+                    const SizedBox(height: 8),
