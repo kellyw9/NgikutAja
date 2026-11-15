@@ -21,3 +21,4 @@ class TipsPage extends StatelessWidget {
             EmptyState(icon: 'lightbulb', title: 'Belum ada tips untuk ${trip.city}', text: 'Tips dari creator dan komunitas akan muncul di sini.')
           else ...[
             for (final tip in tips) ...[
+              NgCard(
