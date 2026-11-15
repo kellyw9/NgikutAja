@@ -167,3 +167,4 @@ class MembersPage extends StatelessWidget {
     final ownerIsMe = trip.members.isNotEmpty && trip.members.first.handle == app.me.handle;
     return Scaffold(
       backgroundColor: AppColors.ground,
+      appBar: NgAppBar(title: 'Anggota trip', sub: trip.title),
