@@ -338,3 +338,4 @@ class StopRow extends StatelessWidget {
     final timeColor = conflict ? AppColors.negative : AppColors.ink;
     final content = Opacity(
       opacity: blur ? .6 : 1,
+      child: Padding(
