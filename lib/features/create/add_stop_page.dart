@@ -44,3 +44,5 @@ class _AddStopPageState extends State<AddStopPage> {
       ..address = address;
     Navigator.pop(context, StopEditResult(stop: out));
   }
+
+  Future<void> _pickPoint() async {
