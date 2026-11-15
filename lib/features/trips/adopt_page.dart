@@ -282,3 +282,4 @@ class _AdoptProgressPageState extends State<AdoptProgressPage> {
                     expand: true,
                     onPressed: () => Navigator.pushReplacement(context, MaterialPageRoute(builder: (_) => CustomizePage(trip: trip!))),
                   ),
+                  NgButton(
