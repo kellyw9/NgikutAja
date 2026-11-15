@@ -49,3 +49,4 @@ class _PeoplePageState extends State<PeoplePage> {
                     Expanded(
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.center,
+                        crossAxisAlignment: CrossAxisAlignment.start,
