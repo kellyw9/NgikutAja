@@ -25,3 +25,4 @@ class _OnboardingPageState extends State<OnboardingPage> {
   ];
 
   static const interests = [
+    ('Alam', 'Danau, bukit, dan pantai', 'toba'),
