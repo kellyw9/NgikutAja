@@ -264,3 +264,4 @@ class _EditTripInfoPageState extends State<EditTripInfoPage> {
       appBar: NgAppBar(
         title: 'Edit informasi trip',
         back: 'close',
+        actions: [NgButton('Simpan', kind: BtnKind.text, size: BtnSize.md, onPressed: _save)],
