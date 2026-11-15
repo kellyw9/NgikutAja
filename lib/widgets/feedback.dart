@@ -97,3 +97,4 @@ void showNgSnack(BuildContext context, String text, {SnackKind kind = SnackKind.
             Semantics(
               button: true,
               child: InkWell(
+                onTap: () {
