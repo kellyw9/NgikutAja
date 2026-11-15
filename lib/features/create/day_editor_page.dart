@@ -211,3 +211,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
                         stops.insert(b, s);
                       }),
                       children: [
+                        for (var i = 0; i < stops.length; i++)
