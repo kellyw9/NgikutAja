@@ -208,3 +208,4 @@ class FactStrip extends StatelessWidget {
                   flex: 12 + (cells[i].$1.length > cells[i].$2.length ? cells[i].$1.length : cells[i].$2.length),
                   child: Padding(
                     padding: EdgeInsets.only(left: i == 0 ? 0 : 12, right: i == cells.length - 1 ? 0 : 12),
+                    child: Column(
