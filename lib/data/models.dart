@@ -101,3 +101,4 @@ class Itinerary {
   String title;
   String city;
   String region;
+  int days;
