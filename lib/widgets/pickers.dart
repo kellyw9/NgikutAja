@@ -66,3 +66,4 @@ class _CalendarState extends State<_Calendar> {
             button: true,
             selected: isEdge,
             enabled: !disabled,
+            label: dateLong(date),
