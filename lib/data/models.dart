@@ -175,3 +175,5 @@ enum ExpenseCat {
   transportasi('Transportasi', 'directions_car'),
   tiket('Tiket', 'local_activity'),
   lainnya('Lainnya', 'category');
+
+  const ExpenseCat(this.label, this.icon);
