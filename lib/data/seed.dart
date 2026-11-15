@@ -570,3 +570,4 @@ class Seed {
         kind: NotifKind.invite,
         icon: 'group',
         lead: '@rinaharahap',
+        text: ' mengundangmu ke trip "Medan Kuliner Akhir Tahun".',
