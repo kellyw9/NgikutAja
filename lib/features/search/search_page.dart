@@ -174,3 +174,4 @@ class _SearchPageState extends State<SearchPage> {
                     controller: input,
                     focusNode: focus,
                     style: AppText.body,
+                    textInputAction: TextInputAction.search,
