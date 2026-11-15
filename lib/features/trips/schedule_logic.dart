@@ -79,3 +79,4 @@ List<String> shiftCascade(List<Stop> day, Stop target, int newStart) {
     final cs = conflictsIn(day);
     if (cs.isNotEmpty) {
       final involved = conflictIndexes(day).toList()..sort();
+      issues.add(
