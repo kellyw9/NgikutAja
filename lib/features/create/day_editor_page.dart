@@ -314,3 +314,4 @@ class _StopCard extends StatelessWidget {
               const SizedBox(height: 4),
               MetaRow([
                 ('schedule', '${stop.start}–${stop.end}'),
+                ('payments', stop.cost > 0 ? rp(stop.cost) : 'Gratis'),
