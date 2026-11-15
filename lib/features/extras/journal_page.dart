@@ -93,3 +93,4 @@ class _JournalPageState extends State<JournalPage> {
         padding: const EdgeInsets.only(top: 8, bottom: 24),
         children: [
           Padding(
+            padding: const EdgeInsets.symmetric(horizontal: kMargin),
