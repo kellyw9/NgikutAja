@@ -35,3 +35,5 @@ class NgikutAjaApp extends StatelessWidget {
     );
   }
 }
+
+ThemeData buildTheme() {
