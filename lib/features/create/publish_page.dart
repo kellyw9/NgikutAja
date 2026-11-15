@@ -206,3 +206,4 @@ class PublishedPage extends StatelessWidget {
             child: ConstrainedBox(
               constraints: BoxConstraints(minHeight: c.maxHeight - 24),
               child: IntrinsicHeight(
+                child: Column(
