@@ -184,3 +184,4 @@ class _CustomizePageState extends State<CustomizePage> {
       ],
     );
     if (ok != true) return;
+    _changed(() {
