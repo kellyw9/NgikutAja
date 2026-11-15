@@ -450,3 +450,4 @@ class PurchaseHistoryPage extends StatelessWidget {
     TxStatus.berhasil => PillKind.positive,
     TxStatus.gagal => PillKind.negative,
     TxStatus.pending => PillKind.warning,
+  };
