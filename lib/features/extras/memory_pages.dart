@@ -65,3 +65,5 @@ class PhotoViewerPage extends StatefulWidget {
   const PhotoViewerPage({super.key, required this.trip, required this.index});
   final Trip trip;
   final int index;
+
+  @override
