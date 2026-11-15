@@ -438,3 +438,4 @@ bool _closeFlow(NavigatorState nav) {
   nav.popUntil((r) {
     if (r.settings.name == 'itinerary') found = true;
     return found || r.isFirst;
+  });
