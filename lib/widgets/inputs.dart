@@ -349,3 +349,4 @@ class NgStepper extends StatelessWidget {
         Container(width: 1, color: AppColors.line),
         IconBtn('add', label: 'Tambah', size: 42, iconSize: 20, onTap: value < max ? () => onChanged(value + 1) : null),
       ],
+    ),
