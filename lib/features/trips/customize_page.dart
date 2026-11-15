@@ -88,3 +88,4 @@ class _CustomizePageState extends State<CustomizePage> {
       context,
       icon: 'delete',
       title: 'Hapus ${st.name}?',
+      body: 'Aktivitas ini dihapus dari Hari ${day + 1}. Jam aktivitas setelahnya tidak ikut bergeser.',
