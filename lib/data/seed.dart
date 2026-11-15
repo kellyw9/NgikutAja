@@ -354,3 +354,4 @@ class Seed {
             _s('09.30', '11.00', 'Sewa motor di Tuktuk', _l, 100000, 'samosir'),
             _s('12.30', '14.30', 'Bukit Holbung', _a, 10000, 'holbung', 'Naik 20 menit. Bawa air, tidak ada warung di atas.'),
             _s('15.30', '17.30', 'Pantai Pasir Putih Parbaba', _a, 5000, 'parbaba'),
+          ],
