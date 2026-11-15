@@ -9,3 +9,4 @@ import '../extras/recap_page.dart';
 import '../extras/split_budget_page.dart';
 import '../extras/tips_page.dart';
 import '../travel/offline_page.dart';
+import '../travel/travel_mode_page.dart';
