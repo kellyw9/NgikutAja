@@ -61,3 +61,4 @@ class _CalendarState extends State<_Calendar> {
         child: Container(
           height: 40,
           color: inRange ? AppColors.tealPale : null,
+          alignment: Alignment.center,
