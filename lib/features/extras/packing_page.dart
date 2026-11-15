@@ -125,3 +125,4 @@ class _PackingPageState extends State<PackingPage> {
                                   const AppIcon('delete', size: 18, color: AppColors.white),
                                   const SizedBox(width: 6),
                                   Text('Hapus', style: AppText.smallStrong.white),
+                                ],
