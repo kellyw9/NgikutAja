@@ -49,3 +49,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
             push(context, const OfflinePage());
           },
         ),
+        const NgDivider(inset: 36, color: AppColors.line),
