@@ -508,3 +508,4 @@ class TransactionDetailPage extends StatelessWidget {
     return Scaffold(
       backgroundColor: AppColors.ground,
       appBar: const NgAppBar(title: 'Detail transaksi'),
+      body: ListView(
