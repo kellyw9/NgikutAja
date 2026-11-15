@@ -372,3 +372,4 @@ class AddPhotoTile extends StatelessWidget {
       ),
     ),
   );
+}
