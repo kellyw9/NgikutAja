@@ -130,3 +130,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
   Widget build(BuildContext context) {
     final app = AppScope.of(context);
     final t = widget.trip;
+    final status = app.statusOf(t);
