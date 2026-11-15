@@ -383,3 +383,4 @@ class _CustomizePageState extends State<CustomizePage> {
                       onAction: _notes,
                     )
                   else if (isPacked(stops))
+                    NgBanner(
