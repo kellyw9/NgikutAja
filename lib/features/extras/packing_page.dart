@@ -117,3 +117,4 @@ class _PackingPageState extends State<PackingPage> {
                             direction: DismissDirection.endToStart,
                             background: Container(
                               color: AppColors.negative,
+                              alignment: Alignment.centerRight,
