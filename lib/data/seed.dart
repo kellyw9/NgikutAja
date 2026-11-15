@@ -527,3 +527,4 @@ class Seed {
       'medan': [
         Comment(name: 'Putri Hasibuan', tint: 3, time: '2 jam lalu', text: 'Tjong A Fie buka hari Senin nggak, Bang?'),
         Comment(
+          name: 'Rahmat Siregar',
