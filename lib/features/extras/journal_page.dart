@@ -73,3 +73,4 @@ class _JournalPageState extends State<JournalPage> {
     final t = widget.trip;
     final e = t.journal.putIfAbsent(day, () => JournalEntry(title: _dayLabel(day), text: '', photos: []));
     e.photos = [...e.photos, p];
+    final now = DateTime.now();
