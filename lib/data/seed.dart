@@ -377,3 +377,4 @@ class Seed {
         publishedAt: _d(-150),
         dayTitles: ['Sarapan'],
         plan: [
+          [
