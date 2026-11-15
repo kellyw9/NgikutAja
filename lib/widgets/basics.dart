@@ -513,3 +513,4 @@ class Wordmark extends StatelessWidget {
     return Semantics(
       label: 'NgikutAja',
       child: ExcludeSemantics(
+        child: Row(
