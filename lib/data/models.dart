@@ -387,3 +387,5 @@ class AppNotification {
   bool unread;
   String? inviteState; // null = belum dijawab, 'Diterima', 'Ditolak'
 }
+
+class LocalTip {
