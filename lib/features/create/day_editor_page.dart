@@ -287,3 +287,4 @@ class _StopCard extends StatelessWidget {
           child: Semantics(
             label: 'Geser untuk mengurutkan ${stop.name}',
             child: const MouseRegion(
+              cursor: SystemMouseCursors.grab,
