@@ -234,3 +234,4 @@ class Trip {
   Trip({
     required this.id,
     required this.title,
+    required this.city,
