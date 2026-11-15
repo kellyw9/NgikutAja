@@ -393,3 +393,4 @@ class StatusView extends StatelessWidget {
                 const SizedBox(height: 6),
                 Text(text, style: AppText.body.muted),
                 if (middle != null) ...[const SizedBox(height: 16), middle!],
+                const Spacer(),
