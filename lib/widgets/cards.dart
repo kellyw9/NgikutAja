@@ -435,3 +435,4 @@ class DayItem {
   const DayItem(this.label, {this.date, this.sub, this.alert = false});
   final String label;
   final String? date;
+  final String? sub;
