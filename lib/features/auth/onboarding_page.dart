@@ -63,3 +63,4 @@ class _OnboardingPageState extends State<OnboardingPage> {
                 child: Padding(
                   padding: const EdgeInsets.only(left: kMargin, right: 8),
                   child: Row(
+                    children: [
