@@ -40,3 +40,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
     d
       ..title = title.text.trim()
       ..desc = desc.text.trim()
+      ..region = city.text.trim()
