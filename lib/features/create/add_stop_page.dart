@@ -81,3 +81,4 @@ class _AddStopPageState extends State<AddStopPage> {
               Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
+                  Text('Kategori', style: AppText.bodyStrong),
