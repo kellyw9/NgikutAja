@@ -167,3 +167,4 @@ class _OnboardingPageState extends State<OnboardingPage> {
     Text('Kamu suka liburan yang seperti apa?', style: AppText.h1),
     const SizedBox(height: 12),
     Text('Pilih satu atau lebih. Feed Explore akan mendahulukan itinerary yang sesuai.', style: AppText.body.muted),
+    const SizedBox(height: 24),
