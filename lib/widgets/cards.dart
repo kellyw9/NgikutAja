@@ -199,3 +199,4 @@ class Grid2 extends StatelessWidget {
         if (r > 0) const SizedBox(height: 20),
         Row(
           crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
