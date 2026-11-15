@@ -252,3 +252,4 @@ class _AddExpensePageState extends State<AddExpensePage> {
                 label: 'Nominal',
                 controller: amount,
                 prefixText: 'Rp',
+                keyboardType: TextInputType.number,
