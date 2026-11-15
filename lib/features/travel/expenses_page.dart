@@ -306,3 +306,4 @@ class _AddExpensePageState extends State<AddExpensePage> {
                     spacing: 8,
                     runSpacing: 8,
                     children: [for (final m in t.members) NgChip(m.first, selected: m.first == by, onTap: () => setState(() => by = m.first))],
+                  ),
