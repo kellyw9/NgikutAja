@@ -218,3 +218,4 @@ class FactStrip extends StatelessWidget {
                           alignment: Alignment.centerLeft,
                           child: Text(cells[i].$2, style: AppText.title, maxLines: 1),
                         ),
+                      ],
