@@ -438,3 +438,4 @@ class Meta extends StatelessWidget {
   const Meta(this.icon, this.text, {super.key, this.color = AppColors.muted});
   final String icon;
   final String text;
+  final Color color;
