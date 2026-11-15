@@ -295,3 +295,4 @@ class AppState extends ChangeNotifier {
       start: start,
       cover: it.cover,
       from: it,
+      dayTitles: [...it.dayTitles],
