@@ -312,3 +312,4 @@ class _CustomizePageState extends State<CustomizePage> {
         backgroundColor: AppColors.ground,
         appBar: NgAppBar(
           title: 'Customize trip',
+          back: 'close',
