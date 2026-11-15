@@ -21,3 +21,4 @@ void main() {
     expect(state.itinerary('medan').estimate, 850000);
     expect(state.itinerary('toba').estimate, 1100000);
     expect(state.itinerary('medan').places, 12);
+  });
