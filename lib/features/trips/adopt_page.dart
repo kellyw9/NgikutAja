@@ -141,3 +141,4 @@ class _AdoptPageState extends State<AdoptPage> {
                 child: Row(
                   children: [
                     const AppIcon('download_for_offline', size: 22),
+                    const SizedBox(width: 12),
