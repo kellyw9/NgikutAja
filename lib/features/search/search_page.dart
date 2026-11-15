@@ -482,3 +482,4 @@ class _SearchPageState extends State<SearchPage> {
                   spacing: 8,
                   runSpacing: 8,
                   children: [
+                    for (final d in _durations)
