@@ -318,3 +318,4 @@ class _SearchPageState extends State<SearchPage> {
                 border: Border.all(color: AppColors.line),
               ),
               child: AppIcon(icon, size: 20),
+            ),
