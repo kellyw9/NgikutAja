@@ -132,3 +132,4 @@ class _PackingPageState extends State<PackingPage> {
                             child: Semantics(
                               checked: it.done,
                               child: Tap(
+                                onTap: () {
