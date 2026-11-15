@@ -33,3 +33,4 @@ String dateRange(DateTime a, DateTime b) {
     return a.day == b.day ? '${a.day} ${monthsShort[a.month - 1]} ${a.year}' : '${a.day}–${b.day} ${monthsShort[a.month - 1]} ${a.year}';
   }
   return '${a.day} ${monthsShort[a.month - 1]}–${b.day} ${monthsShort[b.month - 1]} ${b.year}';
+}
