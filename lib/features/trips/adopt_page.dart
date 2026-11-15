@@ -262,3 +262,4 @@ class _AdoptProgressPageState extends State<AdoptProgressPage> {
                 ],
               )
             : StatusView(
+                icon: 'check',
