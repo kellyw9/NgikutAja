@@ -385,3 +385,4 @@ class StopRow extends StatelessWidget {
     );
 
     final row = IntrinsicHeight(
+      child: Row(
