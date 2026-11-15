@@ -10,3 +10,5 @@ void main() {
     final state = AppState(null, now: DateTime(2026, 11, 4), watchNetwork: false);
     await tester.pumpWidget(NgikutAjaApp(state: state));
     expect(find.text('Liburan tinggal ngikut.'), findsOneWidget);
+
+    await tester.pump(const Duration(milliseconds: 1500));
