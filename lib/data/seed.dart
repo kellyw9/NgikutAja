@@ -388,3 +388,4 @@ class Seed {
     drafts = [
       Itinerary(
         id: 'draft-berastagi',
+        title: 'Berastagi Sehari dari Medan',
