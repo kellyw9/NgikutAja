@@ -35,3 +35,5 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
   bool touched = false;
 
   bool get titleOk => title.text.trim().isNotEmpty;
+
+  void _apply() {
