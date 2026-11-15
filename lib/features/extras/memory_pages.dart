@@ -75,3 +75,4 @@ class _PhotoViewerPageState extends State<PhotoViewerPage> {
   late final pc = PageController(initialPage: widget.index);
 
   @override
+  void dispose() {
