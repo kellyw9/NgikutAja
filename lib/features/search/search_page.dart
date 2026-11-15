@@ -462,3 +462,4 @@ class _SearchPageState extends State<SearchPage> {
                     scroll: true,
                     builder: (c2) => Column(
                       children: [
+                        RadioRow(title: 'Semua kota', selected: q.isEmpty, onTap: () => Navigator.pop(c2, '')),
