@@ -39,3 +39,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
             push(context, EditTripInfoPage(trip: widget.trip), fullscreen: true);
           },
         ),
+        const NgDivider(inset: 36, color: AppColors.line),
