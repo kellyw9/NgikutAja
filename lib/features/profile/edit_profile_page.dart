@@ -94,3 +94,4 @@ class _EditProfilePageState extends State<EditProfilePage> {
                       size: BtnSize.md,
                       icon: 'photo_camera',
                       onPressed: () async {
+                        final p = await pickPhotoSheet(context, title: 'Foto profil', canRemove: photo != null);
