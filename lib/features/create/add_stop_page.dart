@@ -443,3 +443,4 @@ class _PickLocationPageState extends State<PickLocationPage> {
                   trailingIcon: 'arrow_forward',
                   expand: true,
                   onPressed: () {
+                    Navigator.pop(context, widget.city.isEmpty ? label : '$label, ${widget.city}');
