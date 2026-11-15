@@ -64,3 +64,4 @@ final Map<String, PageFor> pages = {
   'published': (s) => PublishedPage(d: s.itinerary('samosirmotor')),
   'adopt': (s) => AdoptPage(it: s.itinerary('medan')),
   'trip detail': (s) => TripDetailPage(trip: s.trips[1]),
+  'trip detail berjalan': (s) => TripDetailPage(trip: s.trips[0]),
