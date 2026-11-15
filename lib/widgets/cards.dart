@@ -177,3 +177,4 @@ class WisataCard extends StatelessWidget {
                   Proof(it),
                 ],
               ),
+            ],
