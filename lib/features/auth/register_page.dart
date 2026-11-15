@@ -97,3 +97,4 @@ class _RegisterPageState extends State<RegisterPage> {
                         error: tried && name.text.trim().isEmpty ? 'Isi nama dulu' : null,
                       ),
                       const SizedBox(height: 14),
+                      NgField(
