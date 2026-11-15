@@ -126,3 +126,4 @@ class _PublishPageState extends State<PublishPage> {
                 inset: 14,
                 children: [
                   for (final (label, ok) in checks)
+                    SizedBox(
