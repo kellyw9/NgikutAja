@@ -215,3 +215,4 @@ class ObscureToggle extends StatelessWidget {
 /// Toggle 52x32: aktif = isi tinta + bulatan putih 24; nonaktif = sunk bergaris + bulatan 16.
 class NgToggle extends StatelessWidget {
   const NgToggle(this.value, {super.key, required this.onChanged, this.label});
+  final bool value;
