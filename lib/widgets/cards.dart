@@ -154,3 +154,4 @@ class WisataCard extends StatelessWidget {
                   children: [
                     Photo(it.cover, radius: AppRadius.card),
                     if (it.isPaid) Positioned(left: 10, top: 10, child: PriceTag(rp(it.price))),
+                    if (showWish) Positioned(right: 10, top: 10, child: WishButton(it, onGuest: onGuest)),
