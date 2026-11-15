@@ -62,3 +62,4 @@ class DashboardPage extends StatelessWidget {
                                           decoration: BoxDecoration(
                                             // Bulan berjalan memakai warna sunk: datanya belum lengkap.
                                             color: i == monthly.length - 1 ? AppColors.sunk : AppColors.teal,
+                                            borderRadius: const BorderRadius.vertical(top: Radius.circular(4)),
