@@ -51,3 +51,5 @@ class _CustomizePageState extends State<CustomizePage> {
       showNgSnack(context, 'Gagal menyimpan. Perubahanmu masih ada di layar.', kind: SnackKind.error, action: 'Coba lagi', onAction: _save);
     }
   }
+
+  Future<bool> _confirmLeave() async {
