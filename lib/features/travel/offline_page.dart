@@ -88,3 +88,4 @@ class OfflinePage extends StatelessWidget {
                 children: [
                   Text('Membutuhkan internet', style: AppText.h2),
                   avail(false, 'Peta langsung dan navigasi Google Maps'),
+                  avail(false, 'Komentar dan undangan anggota baru'),
