@@ -54,3 +54,4 @@ class WishButton extends StatelessWidget {
       iconSize: 22,
       onTap: () {
         if (!app.loggedIn) {
+          onGuest?.call();
