@@ -138,3 +138,4 @@ class _OnboardingPageState extends State<OnboardingPage> {
                       children: [
                         Marker(i + 1, state: i == 4 ? MarkerState.next : MarkerState.todo),
                         if (i < 4) Expanded(child: Container(width: 3, color: AppColors.teal)),
+                      ],
