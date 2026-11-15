@@ -57,3 +57,4 @@ List<String> shiftCascade(List<Stop> day, Stop target, int newStart) {
     ..end = fromMinutes(newStart + dur);
   final later = day.where((s) => !identical(s, target) && s.startMin >= newStart).toList()..sort((a, b) => a.startMin.compareTo(b.startMin));
   var cursor = target.endMin;
+  for (final s in later) {
