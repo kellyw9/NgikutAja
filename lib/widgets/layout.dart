@@ -75,3 +75,4 @@ class NgAppBar extends StatelessWidget implements PreferredSizeWidget {
             children: [
               SizedBox(
                 height: 56,
+                child: Padding(
