@@ -102,3 +102,4 @@ class _ExplorePageState extends State<ExplorePage> {
           child: RefreshIndicator(
             color: AppColors.ink,
             onRefresh: _load,
+            child: ListView(
