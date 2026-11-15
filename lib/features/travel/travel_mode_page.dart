@@ -471,3 +471,4 @@ class NavigationPage extends StatelessWidget {
                 NgButton(
                   'Buka Google Maps',
                   icon: 'map',
+                  expand: true,
