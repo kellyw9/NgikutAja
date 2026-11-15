@@ -419,3 +419,4 @@ class _CustomizePageState extends State<CustomizePage> {
                           KeyedSubtree(
                             key: ObjectKey(stops[i]),
                             child: StopRow(
+                              stops[i],
