@@ -98,3 +98,4 @@ class _ItineraryDetailPageState extends State<ItineraryDetailPage> {
                 IconBtn('share', label: 'Bagikan', bg: AppColors.surface, size: 40, onTap: () => shareItinerary(it)),
                 WishButton(it, onGuest: () => requireLogin(context)),
               ],
+            ),
