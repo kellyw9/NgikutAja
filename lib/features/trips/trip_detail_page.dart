@@ -184,3 +184,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
                       children: [
                         Avatar(it.creator.name, size: 20, tint: it.creator.tint),
                         const SizedBox(width: 8),
+                        Expanded(
