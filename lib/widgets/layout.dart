@@ -26,3 +26,4 @@ const kLightIcons = SystemUiOverlayStyle(
 class NgAppBar extends StatelessWidget implements PreferredSizeWidget {
   const NgAppBar({
     super.key,
+    this.title,
