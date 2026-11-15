@@ -150,3 +150,4 @@ class _AddStopPageState extends State<AddStopPage> {
                 controller: cost,
                 prefixText: 'Rp',
                 hint: '0 kalau gratis',
+                keyboardType: TextInputType.number,
