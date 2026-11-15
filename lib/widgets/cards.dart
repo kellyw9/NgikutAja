@@ -190,3 +190,4 @@ class Grid2 extends StatelessWidget {
   final List<Itinerary> items;
   final void Function(Itinerary) onTap;
   final VoidCallback? onGuest;
+  final bool showWish;
