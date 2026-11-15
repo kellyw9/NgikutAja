@@ -124,3 +124,4 @@ class OfflinePage extends StatelessWidget {
       ),
     );
   }
+}
