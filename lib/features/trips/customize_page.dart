@@ -412,3 +412,4 @@ class _CustomizePageState extends State<CustomizePage> {
                       ),
                       onReorderItem: (a, b) => _changed(() {
                         final s = stops.removeAt(a);
+                        stops.insert(b, s);
