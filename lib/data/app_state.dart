@@ -378,3 +378,4 @@ class AppState extends ChangeNotifier {
     region: '',
     days: 1,
     cover: null,
+    creator: me,
