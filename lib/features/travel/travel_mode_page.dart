@@ -17,3 +17,4 @@ class TravelModePage extends StatelessWidget {
   Widget build(BuildContext context) {
     final app = AppScope.of(context);
     final t = trip;
+    final day = app.currentDay(t);
