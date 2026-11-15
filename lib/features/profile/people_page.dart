@@ -44,3 +44,4 @@ class _PeoplePageState extends State<PeoplePage> {
                 padding: const EdgeInsets.symmetric(horizontal: kMargin),
                 child: Row(
                   children: [
+                    Avatar(list[i].name, size: 40, tint: list[i].tint),
