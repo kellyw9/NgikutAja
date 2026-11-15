@@ -387,3 +387,4 @@ class AppState extends ChangeNotifier {
   void saveDraft(Itinerary d) {
     if (!drafts.contains(d)) drafts.insert(0, d);
     notifyListeners();
+  }
