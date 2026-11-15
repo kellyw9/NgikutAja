@@ -376,3 +376,4 @@ class NgChip extends StatelessWidget {
           side: selected ? BorderSide.none : const BorderSide(color: AppColors.control),
         ),
         clipBehavior: Clip.antiAlias,
+        child: InkWell(
