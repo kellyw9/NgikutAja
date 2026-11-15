@@ -168,3 +168,4 @@ class _OnboardingPageState extends State<OnboardingPage> {
     const SizedBox(height: 12),
     Text('Pilih satu atau lebih. Feed Explore akan mendahulukan itinerary yang sesuai.', style: AppText.body.muted),
     const SizedBox(height: 24),
+    for (final (t, sub, img) in interests) ...[
