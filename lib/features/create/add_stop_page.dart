@@ -406,3 +406,4 @@ class _PickLocationPageState extends State<PickLocationPage> {
           borderRadius: BorderRadius.vertical(top: Radius.circular(AppRadius.sheet)),
           boxShadow: kFloatShadow,
         ),
+        child: SafeArea(
