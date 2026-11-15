@@ -75,3 +75,4 @@ class BottomNav extends StatelessWidget {
   static const items = [('explore', 'Explore'), ('search', 'Cari'), ('add', 'Create'), ('luggage', 'Trip Saya'), ('person', 'Profil')];
 
   @override
+  Widget build(BuildContext context) {
