@@ -35,3 +35,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
       d.dayTitles.add('');
     }
     d.dayTitles[day] = dayTitle.text.trim();
+  }
