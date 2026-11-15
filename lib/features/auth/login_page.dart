@@ -92,3 +92,4 @@ class _LoginPageState extends State<LoginPage> {
                         if (wrong) ...[
                           const SizedBox(height: 24),
                           const NgBanner(
+                            kind: BannerKind.error,
