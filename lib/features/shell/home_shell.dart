@@ -34,3 +34,4 @@ class _HomeShellState extends State<HomeShell> {
 
   void _select(int i) {
     if (i == 2) {
+      if (requireLogin(context)) push(context, const CreateItineraryPage(), fullscreen: true);
