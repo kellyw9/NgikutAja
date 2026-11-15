@@ -207,3 +207,4 @@ class _CustomizePageState extends State<CustomizePage> {
               label: 'Tanggal perjalanan',
               icon: 'calendar_month',
               value: dateLong(newDate),
+              readOnly: true,
