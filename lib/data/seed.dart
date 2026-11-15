@@ -23,3 +23,4 @@ class Seed {
 
   late final Creator me;
   late final Map<String, Creator> creators;
+  late final List<Itinerary> itineraries;
