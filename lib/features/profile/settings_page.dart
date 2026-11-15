@@ -143,3 +143,4 @@ class AboutPage extends StatelessWidget {
                   Row(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
+                      Photo(e.key, width: 44, height: 44, radius: AppRadius.inner),
