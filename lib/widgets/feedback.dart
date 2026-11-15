@@ -72,3 +72,4 @@ class NgBanner extends StatelessWidget {
 enum SnackKind { neutral, success, error }
 
 void showNgSnack(BuildContext context, String text, {SnackKind kind = SnackKind.neutral, String? action, VoidCallback? onAction}) {
+  final (bg, ic) = switch (kind) {
