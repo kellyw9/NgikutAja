@@ -37,3 +37,4 @@ class AppState extends ChangeNotifier {
     recentSearches = [...Seed.recentSearches];
     onboarded = _prefs?.getBool('onboarded') ?? false;
     loggedIn = _prefs?.getBool('loggedIn') ?? false;
+    interests = (_prefs?.getStringList('interests') ?? ['Kuliner', 'Budaya']).toSet();
