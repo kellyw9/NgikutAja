@@ -58,3 +58,4 @@ class _OnboardingPageState extends State<OnboardingPage> {
         body: SafeArea(
           child: Column(
             children: [
+              SizedBox(
