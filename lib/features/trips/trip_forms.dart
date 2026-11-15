@@ -170,3 +170,4 @@ class _EditStopPageState extends State<EditStopPage> {
               NgField(label: 'Catatan', controller: note, area: true, hint: 'Tips untuk yang mengikuti jadwal ini.'),
               Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
