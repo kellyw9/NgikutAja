@@ -410,3 +410,4 @@ class _PaymentStatusPageState extends State<PaymentStatusPage> {
               ),
               NgButton(
                 'Coba bayar ulang',
+                expand: true,
