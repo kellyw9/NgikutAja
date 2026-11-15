@@ -70,3 +70,4 @@ class _CustomizePageState extends State<CustomizePage> {
     final r = await push<StopEditResult>(context, EditStopPage(stop: plan[day][i].copy(), dayLabel: _dayLabel(day)), fullscreen: true);
     if (r == null) return;
     _changed(() => r.deleted ? plan[day].removeAt(i) : plan[day][i] = r.stop!);
+  }
