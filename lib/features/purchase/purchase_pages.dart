@@ -414,3 +414,4 @@ class _PaymentStatusPageState extends State<PaymentStatusPage> {
                 onPressed: () => Navigator.pushReplacement(
                   context,
                   MaterialPageRoute(
+                    builder: (_) => PaymentPage(it: it, method: tx.method),
