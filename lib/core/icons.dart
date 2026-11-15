@@ -62,3 +62,4 @@ class _IconPainter extends CustomPainter {
     canvas.scale(s, s);
     canvas.translate(0, 960);
     canvas.drawPath(
+      path,
