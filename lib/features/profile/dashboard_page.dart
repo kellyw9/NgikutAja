@@ -45,3 +45,4 @@ class DashboardPage extends StatelessWidget {
                         child: ExcludeSemantics(
                           child: SizedBox(
                             height: 170,
+                            child: Row(
