@@ -118,3 +118,4 @@ class _CustomizePageState extends State<CustomizePage> {
                   child: Row(
                     children: [
                       Marker(i + 1),
+                      const SizedBox(width: 10),
