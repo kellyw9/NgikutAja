@@ -203,3 +203,4 @@ class GoogleButton extends StatelessWidget {
             Text(label, style: AppText.button),
           ],
         ),
+      ),
