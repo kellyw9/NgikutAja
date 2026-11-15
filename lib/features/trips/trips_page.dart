@@ -131,3 +131,4 @@ class TripsPage extends StatelessWidget {
                     'Photo memory',
                     kind: BtnKind.ghost,
                     size: BtnSize.md,
+                    expand: true,
