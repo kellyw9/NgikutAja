@@ -198,3 +198,4 @@ class _NgFieldState extends State<NgField> {
 /// Tombol mata untuk menampilkan/menyembunyikan password.
 class ObscureToggle extends StatelessWidget {
   const ObscureToggle({super.key, required this.obscured, required this.onTap});
+  final bool obscured;
