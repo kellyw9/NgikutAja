@@ -184,3 +184,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
                   hint: 'Misal: Medan, Sumatera Utara',
                   onChanged: (_) => touched = true,
                 ),
+                Column(
