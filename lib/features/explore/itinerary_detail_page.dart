@@ -206,3 +206,4 @@ class _ItineraryDetailPageState extends State<ItineraryDetailPage> {
                     for (var i = 0; i < dayStops.length; i++) StopRow(dayStops[i], n: i + 1, last: i == dayStops.length - 1),
                 ],
               ),
+            ),
