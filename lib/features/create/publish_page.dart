@@ -59,3 +59,4 @@ class _PublishPageState extends State<PublishPage> {
                     AppIcon(on ? 'check_circle' : 'radio_button_unchecked', size: 22, filled: on, color: on ? AppColors.teal : AppColors.muted),
                   ],
                 ),
+                const SizedBox(height: 6),
