@@ -13,3 +13,4 @@ class AppColors {
   // Turunan
   static const primaryStrong = Color(0xFF176975); // link dan aksi teks
   static const surface = Color(0xFFFFFFFF);
+  static const surfaceSoft = Color(0xFFFFFBF6);
