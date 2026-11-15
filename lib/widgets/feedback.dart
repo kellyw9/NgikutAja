@@ -362,3 +362,4 @@ class StatusView extends StatelessWidget {
   final Color tone;
   final Color iconColor;
   final String title;
+  final String text;
