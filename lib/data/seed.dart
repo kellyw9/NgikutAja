@@ -540,3 +540,4 @@ class Seed {
 
     final bali = itineraries.firstWhere((x) => x.id == 'bali');
     final bajo = itineraries.firstWhere((x) => x.id == 'bajo');
+    transactions = [
