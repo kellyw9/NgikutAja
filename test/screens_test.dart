@@ -100,3 +100,4 @@ final Map<String, PageFor> pages = {
   'settings': (s) => const SettingsPage(),
   'notifications': (s) => const NotificationsPage(),
   'notification detail': (s) => NotificationDetailPage(n: s.notifications[0]),
+};
