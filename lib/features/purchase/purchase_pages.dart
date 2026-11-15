@@ -540,3 +540,4 @@ class TransactionDetailPage extends StatelessWidget {
       ),
     );
   }
+}
