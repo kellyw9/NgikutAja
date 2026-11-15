@@ -430,3 +430,4 @@ class AppState extends ChangeNotifier {
 
   void addRecent(String q) {
     final v = q.trim();
+    if (v.isEmpty) return;
