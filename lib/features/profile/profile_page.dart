@@ -49,3 +49,4 @@ class ProfilePage extends StatelessWidget {
                 sub: '${app.wishlist.length} itinerary tersimpan',
                 onTap: () => push(context, const WishlistPage()),
               ),
+              ListRow(
