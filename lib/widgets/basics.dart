@@ -50,3 +50,4 @@ class NgButton extends StatelessWidget {
   Widget build(BuildContext context) {
     final disabled = onPressed == null || loading;
     final (bg, fg, stroke) = _colors(kind);
+    final textual = kind == BtnKind.text || kind == BtnKind.dangerText;
