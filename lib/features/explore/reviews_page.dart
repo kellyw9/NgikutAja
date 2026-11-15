@@ -6,3 +6,4 @@ import '../../widgets/ui.dart';
 class ReviewsPage extends StatefulWidget {
   const ReviewsPage({super.key, required this.it, this.comments = false});
   final Itinerary it;
+  final bool comments;
