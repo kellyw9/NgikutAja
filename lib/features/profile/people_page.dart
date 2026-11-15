@@ -78,3 +78,4 @@ class _PeoplePageState extends State<PeoplePage> {
     final label = on ? 'Mengikuti' : (widget.followers ? 'Ikuti balik' : 'Ikuti');
     return NgButton(
       label,
+      kind: on ? BtnKind.ghost : BtnKind.secondary,
