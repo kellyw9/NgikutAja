@@ -316,3 +316,4 @@ class _CustomizePageState extends State<CustomizePage> {
           onBack: () => Navigator.maybePop(context),
           actions: [NgButton('Simpan', kind: BtnKind.text, size: BtnSize.md, onPressed: saving ? null : _save)],
         ),
+        body: ListView(
