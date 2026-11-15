@@ -117,3 +117,4 @@ class TabHeader extends StatelessWidget {
             children: [
               Semantics(header: true, child: Text(title, style: AppText.h1)),
               if (sub != null) ...[const SizedBox(height: 2), Text(sub!, style: AppText.small.muted)],
+            ],
