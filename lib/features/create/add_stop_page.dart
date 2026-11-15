@@ -224,3 +224,4 @@ class _AddStopPageState extends State<AddStopPage> {
                                     const SizedBox(height: 6),
                                     Text(photo == null ? 'Tambah foto' : 'Ganti foto', style: AppText.smallStrong),
                                   ],
+                                ),
