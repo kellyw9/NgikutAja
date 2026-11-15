@@ -128,3 +128,4 @@ class _MapPainter extends CustomPainter {
       ..strokeCap = StrokeCap.butt;
 
     if (kind == MapKind.lake) {
+      final lake = Path()
