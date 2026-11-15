@@ -50,3 +50,4 @@ class _PhotoPreviewPageState extends State<PhotoPreviewPage> {
                     scroll: true,
                     builder: (ctx) => Column(
                       children: [
+                        RadioRow(title: 'Tanpa aktivitas', selected: stop == null, onTap: () => Navigator.pop(ctx, -1)),
