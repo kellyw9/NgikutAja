@@ -68,3 +68,4 @@ class _EditStopPageState extends State<EditStopPage> {
       context,
       icon: 'delete',
       title: 'Hapus ${s!.name}?',
+      body: 'Aktivitas ini dihapus dari ${widget.dayLabel.split(',').first}. Jam aktivitas setelahnya tidak ikut bergeser.',
