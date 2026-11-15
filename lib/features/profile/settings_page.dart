@@ -146,3 +146,4 @@ class AboutPage extends StatelessWidget {
                       Photo(e.key, width: 44, height: 44, radius: AppRadius.inner),
                       const SizedBox(width: 12),
                       Expanded(
+                        child: Column(
