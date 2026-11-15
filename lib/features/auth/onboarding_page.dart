@@ -206,3 +206,4 @@ class _InterestCard extends StatelessWidget {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
+                Text(title, style: AppText.title),
