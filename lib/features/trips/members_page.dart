@@ -185,3 +185,4 @@ class MembersPage extends StatelessWidget {
                         children: [
                           Avatar(trip.members[i].name, size: 36, tint: trip.members[i].tint),
                           const SizedBox(width: 12),
+                          Expanded(
