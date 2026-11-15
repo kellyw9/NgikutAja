@@ -79,3 +79,4 @@ class _Row extends StatelessWidget {
                 app.toggleWish(it.id);
                 final short = it.title.split(' ').take(3).join(' ');
                 showNgSnack(context, '$short dihapus dari Wishlist', action: 'Urungkan', onAction: () => app.restoreWish(it.id));
+              },
