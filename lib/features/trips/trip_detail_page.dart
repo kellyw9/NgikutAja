@@ -230,3 +230,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
                   )
                 else if (status == TripStatus.diadopsi && t.start != null)
                   Container(
+                    padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 10),
