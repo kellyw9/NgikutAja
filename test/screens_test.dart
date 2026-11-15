@@ -150,3 +150,4 @@ void main() {
           state: s,
           child: MaterialApp(theme: buildTheme(), home: const HomeShell()),
         ),
+      );
