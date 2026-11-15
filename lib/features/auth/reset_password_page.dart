@@ -167,3 +167,4 @@ class _NewPasswordPageState extends State<NewPasswordPage> {
             padding: const EdgeInsets.fromLTRB(kMargin, 0, kMargin, 24),
             child: ConstrainedBox(
               constraints: BoxConstraints(minHeight: c.maxHeight - 24),
+              child: IntrinsicHeight(
