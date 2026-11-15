@@ -520,3 +520,4 @@ class TransactionDetailPage extends StatelessWidget {
                 total: ('Total pembayaran', rp(tx.amount)),
                 fill: AppColors.surface,
               ),
+            ],
