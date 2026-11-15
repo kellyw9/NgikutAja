@@ -393,3 +393,4 @@ class _PaymentStatusPageState extends State<PaymentStatusPage> {
                 : 'Waktu pembayaran telah habis sebelum transaksi selesai. Tidak ada saldo yang ditarik.',
             middle: KeyValueBox([
               ('Itinerary', it.title),
+              ('Metode pembayaran', tx.method),
