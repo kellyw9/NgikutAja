@@ -238,3 +238,4 @@ class _EditTripInfoPageState extends State<EditTripInfoPage> {
     if (title.text.trim().isEmpty) return;
     t
       ..title = title.text.trim()
+      ..region = region.text.trim()
