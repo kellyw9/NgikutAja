@@ -13,3 +13,5 @@ class AdoptPage extends StatefulWidget {
   @override
   State<AdoptPage> createState() => _AdoptPageState();
 }
+
+class _AdoptPageState extends State<AdoptPage> {
