@@ -538,3 +538,4 @@ class TransactionDetailPage extends StatelessWidget {
           },
         ),
       ),
+    );
