@@ -98,3 +98,4 @@ class BottomNav extends StatelessWidget {
                           onTap: () => onTap(i),
                           focusColor: AppColors.teal.withValues(alpha: .2),
                           child: ExcludeSemantics(child: i == 2 ? _create(i) : _tab(i)),
+                        ),
