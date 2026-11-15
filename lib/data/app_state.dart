@@ -159,3 +159,4 @@ class AppState extends ChangeNotifier {
   List<Itinerary> fromFollowing() => latest().where((x) => following.contains(x.creator.id)).toList();
 
   /// Simulasi mengambil feed dari server.
+  Future<void> loadFeed() => Future<void>.delayed(const Duration(milliseconds: 700));
