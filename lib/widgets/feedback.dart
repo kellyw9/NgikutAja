@@ -322,3 +322,4 @@ class SkeletonCard extends StatelessWidget {
         ),
         const SizedBox(height: 10),
         _bar(280, 18),
+        const SizedBox(height: 8),
