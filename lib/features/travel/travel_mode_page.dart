@@ -194,3 +194,4 @@ class _NextCard extends StatelessWidget {
       ),
       child: Column(
         children: [
+          Tap(
