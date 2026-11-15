@@ -18,3 +18,4 @@ class PhotoMemoryPage extends StatelessWidget {
     final t = trip;
     final days = {for (final p in t.photos) p.day}.toList()..sort();
     return Scaffold(
+      backgroundColor: AppColors.ground,
