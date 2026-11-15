@@ -129,3 +129,4 @@ class _EditProfilePageState extends State<EditProfilePage> {
         ),
         bottomNavigationBar: SafeArea(
           child: Padding(
+            padding: const EdgeInsets.fromLTRB(kMargin, 0, kMargin, 16),
