@@ -245,3 +245,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
                         style: AppText.body,
                         onTap: () => requireLogin(context),
                         decoration: InputDecoration.collapsed(hintText: 'Tulis komentar...', hintStyle: AppText.body.muted),
+                      ),
