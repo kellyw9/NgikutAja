@@ -86,3 +86,4 @@ class Seed {
         id: 'komang',
         name: 'Komang Ayu',
         handle: '@rutebaliutara',
+        tint: 2,
