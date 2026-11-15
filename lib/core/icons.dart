@@ -49,3 +49,5 @@ class _PathBuilder extends PathProxy {
   @override
   void moveTo(double x, double y) => path.moveTo(x, y);
 }
+
+class _IconPainter extends CustomPainter {
