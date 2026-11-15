@@ -249,3 +249,4 @@ class TripCard extends StatelessWidget {
   final String? dates;
   final String? cover;
   final Widget? extra;
+  final VoidCallback? onTap;
