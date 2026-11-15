@@ -26,3 +26,5 @@ class _SplashPageState extends State<SplashPage> {
       replace(context, app.onboarded ? const HomeShell() : const OnboardingPage());
     });
   }
+
+  @override
