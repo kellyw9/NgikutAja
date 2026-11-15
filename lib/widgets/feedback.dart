@@ -78,3 +78,4 @@ void showNgSnack(BuildContext context, String text, {SnackKind kind = SnackKind.
     SnackKind.error => (AppColors.negative, 'error'),
   };
   final m = ScaffoldMessenger.of(context);
+  m.hideCurrentSnackBar();
