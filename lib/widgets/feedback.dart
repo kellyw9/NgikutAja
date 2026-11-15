@@ -80,3 +80,4 @@ void showNgSnack(BuildContext context, String text, {SnackKind kind = SnackKind.
   final m = ScaffoldMessenger.of(context);
   m.hideCurrentSnackBar();
   m.showSnackBar(
+    SnackBar(
