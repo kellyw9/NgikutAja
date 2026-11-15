@@ -171,3 +171,4 @@ class _NgFieldState extends State<NgField> {
                 onTap: widget.onTap,
                 borderRadius: BorderRadius.circular(AppRadius.control),
                 focusColor: AppColors.teal.withValues(alpha: .15),
+                child: box,
