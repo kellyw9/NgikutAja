@@ -126,3 +126,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
       saveDraftAndClose(context, d);
       return false;
     }
+    return r == 'drop';
