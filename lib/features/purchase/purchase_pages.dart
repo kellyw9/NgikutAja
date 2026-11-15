@@ -142,3 +142,4 @@ class PurchaseConfirmPage extends StatelessWidget {
           ],
         ),
       ],
+    ),
