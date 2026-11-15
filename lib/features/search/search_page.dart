@@ -586,3 +586,4 @@ class _BudgetSlider extends StatelessWidget {
       ),
       Row(
         children: [
+          Text('Rp0', style: AppText.small.muted),
