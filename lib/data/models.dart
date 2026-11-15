@@ -287,3 +287,4 @@ class Trip {
   Map<int, JournalEntry> journal;
   String story;
   bool offline;
+  int offlineSize;
