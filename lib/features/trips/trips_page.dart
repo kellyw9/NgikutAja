@@ -65,3 +65,4 @@ class TripsPage extends StatelessWidget {
           status: TripStatus.draft,
           title: d.title,
           city: d.city,
+          days: d.days,
