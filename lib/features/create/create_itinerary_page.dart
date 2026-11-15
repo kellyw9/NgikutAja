@@ -178,3 +178,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
                   onChanged: (_) => touched = true,
                 ),
                 NgField(
+                  label: 'Kota / destinasi',
