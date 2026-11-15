@@ -24,3 +24,4 @@ class ExpensesPage extends StatelessWidget {
       builder: (ctx) => Gap(
         16,
         children: [
+          Text(rp(e.amount), style: AppText.display),
