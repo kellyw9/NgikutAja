@@ -93,3 +93,4 @@ class _PublishPageState extends State<PublishPage> {
                           MetaRow([('schedule', '${d.plan.length} hari'), ('pin_drop', '${d.stopCount} stop'), ('payments', rp(total))]),
                         ],
                       ),
+                    ),
