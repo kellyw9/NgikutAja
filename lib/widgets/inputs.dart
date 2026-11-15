@@ -133,3 +133,4 @@ class _NgFieldState extends State<NgField> {
     final trailing = widget.trailing;
     final box = Container(
       constraints: BoxConstraints(minHeight: widget.area ? 100 : 48),
+      padding: EdgeInsets.symmetric(horizontal: 14, vertical: widget.area ? 12 : 0),
