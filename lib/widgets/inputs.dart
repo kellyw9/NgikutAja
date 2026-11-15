@@ -100,3 +100,4 @@ class _NgFieldState extends State<NgField> {
       );
     } else {
       content = TextField(
+        controller: widget.controller,
