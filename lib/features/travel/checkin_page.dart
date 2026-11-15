@@ -118,3 +118,4 @@ class _CheckinPageState extends State<CheckinPage> {
 class PermissionDeniedPage extends StatelessWidget {
   const PermissionDeniedPage({super.key, required this.place, required this.onOpenSettings});
   final String place;
+  final VoidCallback onOpenSettings;
