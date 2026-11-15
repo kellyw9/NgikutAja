@@ -145,3 +145,4 @@ class _NewPasswordPageState extends State<NewPasswordPage> {
     if (e1 != null || e2 != null || p2.text.isEmpty) return;
     AppScope.read(context).resetPassword(widget.email, p1.text);
     resetTo(context, const LoginPage());
+    showNgSnack(context, 'Password baru tersimpan. Silakan masuk.', kind: SnackKind.success);
