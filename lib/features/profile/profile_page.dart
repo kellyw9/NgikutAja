@@ -84,3 +84,4 @@ class ProfilePage extends StatelessWidget {
 }
 
 /// Buka profil creator lain (dipakai dari daftar orang).
+void openCreator(BuildContext context, Creator c) => push(context, CreatorProfilePage(c: c));
