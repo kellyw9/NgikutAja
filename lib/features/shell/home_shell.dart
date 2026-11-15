@@ -6,3 +6,5 @@ import '../explore/explore_page.dart';
 import '../profile/profile_page.dart';
 import '../search/search_page.dart';
 import '../trips/trips_page.dart';
+
+/// Tab aktif di cangkang utama. Halaman lain bisa pindah tab lewat [goTab].
