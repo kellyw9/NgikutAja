@@ -192,3 +192,4 @@ class _NextCard extends StatelessWidget {
         borderRadius: BorderRadius.circular(AppRadius.card),
         border: Border.all(color: AppColors.yellow, width: 2),
       ),
+      child: Column(
