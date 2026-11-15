@@ -447,3 +447,4 @@ class Segmented extends StatelessWidget {
                               items[i],
                               style: items[i] == active ? AppText.bodyStrong : AppText.body,
                               maxLines: 1,
+                              overflow: TextOverflow.ellipsis,
