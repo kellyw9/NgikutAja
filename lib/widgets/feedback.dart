@@ -349,3 +349,4 @@ class SkeletonCard extends StatelessWidget {
 class StatusView extends StatelessWidget {
   const StatusView({
     super.key,
+    required this.icon,
