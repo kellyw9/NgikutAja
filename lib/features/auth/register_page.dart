@@ -116,3 +116,4 @@ class _RegisterPageState extends State<RegisterPage> {
                         obscure: ob1,
                         onChanged: refresh,
                         hint: 'Minimal 8 karakter',
+                        textInputAction: TextInputAction.next,
