@@ -38,3 +38,5 @@ class Seed {
 
   /// Penjualan bulanan "Samosir Naik Motor 2 Hari" (Jul sampai Nov).
   static const monthly = [('Jul', 2), ('Agu', 4), ('Sep', 5), ('Okt', 6), ('Nov', 1)];
+
+  static const recentSearches = ['Danau Toba', 'Medan', 'Bukittinggi'];
