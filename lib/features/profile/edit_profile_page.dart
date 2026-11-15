@@ -8,3 +8,4 @@ class EditProfilePage extends StatefulWidget {
 
   @override
   State<EditProfilePage> createState() => _EditProfilePageState();
+}
