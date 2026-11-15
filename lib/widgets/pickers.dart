@@ -189,3 +189,4 @@ Future<String?> pickPhotoSheet(BuildContext context, {String title = 'Tambah fot
           ListRow(icon: 'delete', title: 'Hapus foto', danger: true, trailing: null, padH: 0, onTap: () => Navigator.pop(ctx, 'remove')),
         ],
       ],
+    ),
