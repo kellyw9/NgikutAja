@@ -97,3 +97,4 @@ class _ExplorePageState extends State<ExplorePage> {
         Padding(
           padding: const EdgeInsets.symmetric(horizontal: kMargin),
           child: Segmented(items: const ['Trending', 'Terbaru', 'Following'], active: tab, onChanged: _switch),
+        ),
