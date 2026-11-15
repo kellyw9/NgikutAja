@@ -596,3 +596,4 @@ class CreatorRow extends StatelessWidget {
 /// Kepala profil: avatar 64 kiri, angka statistik sebaris di kanan, bio, aksi.
 class ProfileHead extends StatelessWidget {
   const ProfileHead({super.key, required this.p, required this.itins, required this.action, this.onFollowers, this.onFollowing});
+  final Creator p;
