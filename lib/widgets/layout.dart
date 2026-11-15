@@ -343,3 +343,4 @@ class BoxList extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) => Container(
+    clipBehavior: Clip.antiAlias,
