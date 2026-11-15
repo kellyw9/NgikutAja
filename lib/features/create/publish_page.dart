@@ -127,3 +127,4 @@ class _PublishPageState extends State<PublishPage> {
                 children: [
                   for (final (label, ok) in checks)
                     SizedBox(
+                      height: 52,
