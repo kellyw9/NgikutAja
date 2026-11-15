@@ -69,3 +69,4 @@ class _PublishPageState extends State<PublishPage> {
     }
 
     return Scaffold(
+      backgroundColor: AppColors.ground,
