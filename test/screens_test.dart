@@ -126,3 +126,4 @@ void main() {
             child: MaterialApp(theme: buildTheme(), home: e.value(s)),
           ),
         );
+        await tester.pump(const Duration(milliseconds: 800));
