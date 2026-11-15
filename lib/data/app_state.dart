@@ -97,3 +97,4 @@ class AppState extends ChangeNotifier {
     await Future<void>.delayed(const Duration(milliseconds: 500));
     _accounts[email.trim().toLowerCase()] = password;
     _prefs?.setString('accounts', jsonEncode(_accounts));
+    me.name = name.trim();
