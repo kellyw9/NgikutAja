@@ -58,3 +58,4 @@ class AppRadius {
 const double kMargin = 16;
 
 /// Bayangan "float": hanya untuk elemen yang benar-benar melayang (sheet, dialog, snackbar, kartu yang di-drag).
+const kFloatShadow = [BoxShadow(color: Color(0x2E0C4A57), offset: Offset(0, 8), blurRadius: 24)];
