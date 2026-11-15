@@ -344,3 +344,4 @@ class Seed {
         adopted: 18,
         likes: 52,
         tags: ['Alam'],
+        lodging: 450000,
