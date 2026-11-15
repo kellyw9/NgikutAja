@@ -378,3 +378,4 @@ class AppNotification {
     this.inviteState,
   });
   final String id;
+  final NotifKind kind;
