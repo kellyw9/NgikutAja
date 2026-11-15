@@ -83,3 +83,4 @@ class TripsPage extends StatelessWidget {
         _ => ('flag', 'Belum ada trip selesai', 'Recap dan foto perjalanan tersimpan di sini setelah trip selesai.'),
       };
       return [
+        EmptyState(
