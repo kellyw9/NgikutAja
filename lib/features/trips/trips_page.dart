@@ -5,3 +5,4 @@ import '../create/create_itinerary_page.dart';
 import '../extras/memory_pages.dart';
 import '../extras/recap_page.dart';
 import '../shell/home_shell.dart';
+import '../travel/travel_mode_page.dart';
