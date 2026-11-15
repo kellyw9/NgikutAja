@@ -197,3 +197,4 @@ class _EditStopPageState extends State<EditStopPage> {
                       ],
                       AddPhotoTile(
                         onTap: () async {
+                          final p = await pickPhotoSheet(context, title: 'Foto tempat');
