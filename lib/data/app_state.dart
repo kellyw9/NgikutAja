@@ -381,3 +381,4 @@ class AppState extends ChangeNotifier {
     creator: me,
     isDraft: true,
     plan: [[]],
+    dayTitles: [''],
