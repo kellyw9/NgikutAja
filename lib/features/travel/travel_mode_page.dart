@@ -142,3 +142,4 @@ class TravelModePage extends StatelessWidget {
                       extra: t.isChecked(day, i) ? Text('Check-in ${t.checkins['$day-$i']}', style: AppText.smallStrong.c(AppColors.positive)) : null,
                     ),
                 ],
+              ),
