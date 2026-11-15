@@ -54,3 +54,4 @@ class MapView extends StatelessWidget {
           width: w,
           height: h,
           child: GestureDetector(
+            behavior: HitTestBehavior.opaque,
