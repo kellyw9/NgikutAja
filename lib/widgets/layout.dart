@@ -469,3 +469,4 @@ class IconTile extends StatelessWidget {
       borderRadius: BorderRadius.circular(size >= 44 ? AppRadius.card : AppRadius.inner),
       border: border != null ? Border.all(color: border!) : null,
     ),
+    child: icon == 'progress_activity' ? SpinIcon(size: iconSize, color: color) : AppIcon(icon, size: iconSize, color: color),
