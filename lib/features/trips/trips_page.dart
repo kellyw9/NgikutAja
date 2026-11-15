@@ -48,3 +48,4 @@ class TripsPage extends StatelessWidget {
       return [
         EmptyState(
           icon: 'edit_note',
+          title: 'Belum ada draft',
