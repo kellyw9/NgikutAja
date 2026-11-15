@@ -68,3 +68,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
     final st = t.plan[day][i];
     showNgSheet<void>(
       context,
+      scroll: true,
