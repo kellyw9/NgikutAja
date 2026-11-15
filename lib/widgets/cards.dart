@@ -58,3 +58,4 @@ class WishButton extends StatelessWidget {
           return;
         }
         app.toggleWish(it.id);
+      },
