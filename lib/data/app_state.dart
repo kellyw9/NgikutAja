@@ -300,3 +300,4 @@ class AppState extends ChangeNotifier {
       members: [Member(name: me.name, handle: me.handle, role: MemberRole.owner, tint: me.tint)],
       remindDayBefore: remindDayBefore,
       remindEach: remindEach,
+      remindOffset: offset,
