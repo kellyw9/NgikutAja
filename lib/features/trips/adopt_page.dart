@@ -58,3 +58,4 @@ class _AdoptPageState extends State<AdoptPage> {
             16,
             children: [
               NgCard(
+                padding: const EdgeInsets.all(12),
