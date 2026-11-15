@@ -171,3 +171,4 @@ class _OnboardingPageState extends State<OnboardingPage> {
     for (final (t, sub, img) in interests) ...[
       _InterestCard(
         title: t,
+        sub: sub,
