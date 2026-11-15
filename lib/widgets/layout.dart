@@ -412,3 +412,4 @@ class HeroPhoto extends StatelessWidget {
         child: Stack(
           fit: StackFit.expand,
           children: [
+            Photo(photo, semantic: semantic),
