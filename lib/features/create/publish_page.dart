@@ -30,3 +30,4 @@ class _PublishPageState extends State<PublishPage> {
   @override
   Widget build(BuildContext context) {
     final app = AppScope.of(context);
+    final checks = [
