@@ -172,3 +172,4 @@ class _ItineraryDetailPageState extends State<ItineraryDetailPage> {
               child: Row(
                 children: [
                   for (var d = 0; d < it.days; d++) ...[
+                    if (d > 0) const SizedBox(width: 8),
