@@ -92,3 +92,4 @@ class TravelModePage extends StatelessWidget {
                             ],
                           ),
                           const SizedBox(height: 6),
+                          Progress(total == 0 ? 0 : done / total, track: AppColors.inkRaised),
