@@ -118,3 +118,4 @@ void main() {
     await tester.pumpAndSettle();
     await tapText(tester, 'Lanjut pembayaran', button: true);
     await tester.pumpAndSettle();
+    await tapText(tester, 'Konfirmasi pembelian', button: true);
