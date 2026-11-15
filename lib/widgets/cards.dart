@@ -166,3 +166,4 @@ class WisataCard extends StatelessWidget {
                 ('schedule', '${it.days} hari'),
                 if (it.estimate != null) ('payments', 'Estimasi ${rp(it.estimate!)}'),
               ]),
+              const SizedBox(height: 10),
