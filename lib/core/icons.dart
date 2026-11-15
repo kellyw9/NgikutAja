@@ -35,3 +35,4 @@ class AppIcon extends StatelessWidget {
         child: CustomPaint(painter: _IconPainter(_path(name, filled), color)),
       ),
     );
+  }
