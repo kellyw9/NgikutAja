@@ -257,3 +257,4 @@ class PublishedPage extends StatelessWidget {
                     NgButton(
                       'Buat itinerary lain',
                       kind: BtnKind.secondary,
+                      expand: true,
