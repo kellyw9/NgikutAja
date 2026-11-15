@@ -121,3 +121,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
                   children: [
                     Row(
                       children: [
+                        Avatar(r.name, size: 36, tint: r.tint),
