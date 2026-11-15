@@ -38,3 +38,5 @@ Future<String?> pickPhoto(PhotoSource source) async {
 Future<void> shareText(String text, {String? subject}) async {
   await SharePlus.instance.share(ShareParams(text: text, subject: subject));
 }
+
+/// Buka Google Maps (aplikasi atau browser) untuk mencari tempat atau rute.
