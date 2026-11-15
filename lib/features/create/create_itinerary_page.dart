@@ -282,3 +282,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
 
   Widget _cover() {
     Future<void> pick() async {
+      final p = await pickPhotoSheet(context, title: 'Foto sampul', canRemove: d.cover != null);
