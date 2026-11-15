@@ -31,3 +31,5 @@ class AppText {
   static final time = _s(16, 20, FontWeight.w700, -1);
   static final wordmark = _s(34, 40, FontWeight.w700, -2);
 }
+
+extension TextStyleX on TextStyle {
