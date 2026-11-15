@@ -118,3 +118,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
                     openMaps('${st.name}, ${st.address ?? t.region}');
                   },
                 ),
+              ),
