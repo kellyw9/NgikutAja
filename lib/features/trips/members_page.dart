@@ -68,3 +68,4 @@ class MembersPage extends StatelessWidget {
               ],
             ),
             NgButton(
+              'Hapus dari trip',
