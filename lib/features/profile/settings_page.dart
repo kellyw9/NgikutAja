@@ -77,3 +77,4 @@ class SettingsPage extends StatelessWidget {
               group('Notifikasi pengingat', [
                 sw('remindEach', 'Pengingat sebelum aktivitas', '30 menit sebelumnya'),
                 sw('remindDayBefore', 'Pengingat H-1 perjalanan', 'Pukul 19.00 malam sebelum berangkat'),
+                sw('invites', 'Undangan trip bersama'),
