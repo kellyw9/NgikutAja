@@ -262,3 +262,4 @@ class _EditTripInfoPageState extends State<EditTripInfoPage> {
     return Scaffold(
       backgroundColor: AppColors.ground,
       appBar: NgAppBar(
+        title: 'Edit informasi trip',
