@@ -410,3 +410,4 @@ class _CustomizePageState extends State<CustomizePage> {
                           child: Padding(padding: const EdgeInsets.fromLTRB(10, 10, 8, 0), child: child),
                         ),
                       ),
+                      onReorderItem: (a, b) => _changed(() {
