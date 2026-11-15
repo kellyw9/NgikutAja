@@ -32,3 +32,4 @@ class _ExplorePageState extends State<ExplorePage> {
     });
     try {
       await AppScope.read(context).loadFeed();
+    } catch (e) {
