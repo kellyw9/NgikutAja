@@ -276,3 +276,4 @@ class Trip {
   List<List<Stop>> plan;
   Itinerary? from;
   String desc;
+  List<String> dayTitles;
