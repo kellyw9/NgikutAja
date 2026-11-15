@@ -445,3 +445,4 @@ class Meta extends StatelessWidget {
     mainAxisSize: MainAxisSize.min,
     children: [
       AppIcon(icon, size: 16, color: color),
+      const SizedBox(width: 4),
