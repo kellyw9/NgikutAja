@@ -245,3 +245,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
                   ),
                   const SizedBox(height: 8),
                 ],
+                NgButton(
