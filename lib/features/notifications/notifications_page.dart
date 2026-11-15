@@ -168,3 +168,4 @@ class NotificationDetailPage extends StatelessWidget {
                 children: [
                   Text(st == null ? 'Pengingat aktivitas' : '30 menit lagi: ${st.name}', style: AppText.h1),
                   const SizedBox(height: 4),
+                  Text(
