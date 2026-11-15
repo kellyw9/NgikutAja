@@ -254,3 +254,4 @@ class _CustomizePageState extends State<CustomizePage> {
                         const SizedBox(width: 8),
                         Expanded(child: Text(iss.title, style: AppText.bodyStrong.c(iss.conflict ? AppColors.negativeInk : AppColors.ink))),
                       ],
+                    ),
