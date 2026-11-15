@@ -87,3 +87,4 @@ class _ExplorePageState extends State<ExplorePage> {
               WisataCard(items[i], onTap: () => openItinerary(context, items[i]), onGuest: () => requireLogin(context)),
             ],
           ],
+        ),
