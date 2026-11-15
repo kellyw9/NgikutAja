@@ -640,3 +640,4 @@ class ProfileHead extends StatelessWidget {
           Text(p.name, style: AppText.h1),
           const SizedBox(height: 2),
           Text(p.handle, style: AppText.body.muted),
+          const SizedBox(height: 14),
