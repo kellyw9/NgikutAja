@@ -10,3 +10,4 @@ const tagOptions = ['Alam', 'Kuliner', 'Budaya', 'Sejarah', 'Hemat', 'Keluarga',
 const draftPill = Pill('Draft', kind: PillKind.warning);
 
 /// Simpan draft lalu tutup alur Create dan buka Trip Saya > Draft.
+void saveDraftAndClose(BuildContext context, Itinerary d) {
