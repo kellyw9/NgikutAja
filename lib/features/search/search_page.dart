@@ -557,3 +557,4 @@ class _BudgetSlider extends StatelessWidget {
   Widget build(BuildContext context) => Column(
     children: [
       Row(
+        children: [
