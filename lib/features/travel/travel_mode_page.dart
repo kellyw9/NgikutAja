@@ -390,3 +390,4 @@ class NavigationPage extends StatelessWidget {
           Positioned(
             left: 0,
             top: 0,
+            child: SafeArea(
