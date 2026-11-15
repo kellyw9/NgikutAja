@@ -501,3 +501,5 @@ class PurchaseHistoryPage extends StatelessWidget {
 class TransactionDetailPage extends StatelessWidget {
   const TransactionDetailPage({super.key, required this.tx});
   final Transaction tx;
+
+  @override
