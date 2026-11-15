@@ -54,3 +54,4 @@ class _PhotoPreviewPageState extends State<PhotoPreviewPage> {
                         for (var k = 0; k < stops.length; k++)
                           RadioRow(
                             title: stops[k].name,
+                            sub: '${stops[k].start}–${stops[k].end}',
