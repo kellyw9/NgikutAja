@@ -78,3 +78,4 @@ class ExpensesPage extends StatelessWidget {
   Widget build(BuildContext context) {
     AppScope.of(context);
     final list = trip.expenses;
+    return Scaffold(
