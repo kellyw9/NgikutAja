@@ -230,3 +230,4 @@ class _GooglePainter extends CustomPainter {
   @override
   void paint(Canvas canvas, Size size) {
     canvas.scale(size.width / 48);
+    for (final (color, d) in _parts) {
