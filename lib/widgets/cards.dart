@@ -275,3 +275,4 @@ class TripCard extends StatelessWidget {
                     children: [
                       Row(
                         children: [
+                          Pill(status.label, kind: tripPill(status)),
