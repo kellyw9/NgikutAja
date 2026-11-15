@@ -364,3 +364,4 @@ class _PaymentStatusPageState extends State<PaymentStatusPage> {
                 'Lihat itinerary',
                 kind: BtnKind.secondary,
                 expand: true,
+                onPressed: () {
