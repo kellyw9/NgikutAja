@@ -369,3 +369,4 @@ class _PickLocationPageState extends State<PickLocationPage> {
               child: Padding(
                 padding: const EdgeInsets.fromLTRB(kMargin, 12, kMargin, 0),
                 child: Container(
+                  height: 48,
