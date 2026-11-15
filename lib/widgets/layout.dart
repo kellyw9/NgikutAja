@@ -120,3 +120,4 @@ class TabHeader extends StatelessWidget {
             ],
           ),
         ),
+        ...actions,
