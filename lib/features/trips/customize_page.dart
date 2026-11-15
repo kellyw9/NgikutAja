@@ -35,3 +35,4 @@ class _CustomizePageState extends State<CustomizePage> {
   }
 
   Future<void> _save() async {
+    if (saving) return;
