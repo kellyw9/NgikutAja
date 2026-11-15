@@ -626,3 +626,4 @@ class ProfileHead extends StatelessWidget {
         children: [
           Row(
             children: [
+              Avatar(p.name, size: 64, tint: p.tint, photo: p.photo),
