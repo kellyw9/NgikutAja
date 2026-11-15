@@ -285,3 +285,4 @@ class _AdoptProgressPageState extends State<AdoptProgressPage> {
                   NgButton(
                     'Lihat trip',
                     expand: true,
+                    onPressed: () {
