@@ -49,3 +49,4 @@ ThemeData buildTheme() {
   return ThemeData(
     useMaterial3: true,
     colorScheme: scheme,
+    scaffoldBackgroundColor: AppColors.ground,
