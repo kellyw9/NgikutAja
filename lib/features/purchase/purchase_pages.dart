@@ -94,3 +94,4 @@ class PurchaseDetailPage extends StatelessWidget {
                 ),
               ),
             ],
+          ),
