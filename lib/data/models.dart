@@ -17,3 +17,4 @@ class Creator {
     required this.id,
     required this.name,
     required this.handle,
+    required this.tint,
