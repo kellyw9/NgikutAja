@@ -28,3 +28,5 @@ class HomeShell extends StatefulWidget {
   @override
   State<HomeShell> createState() => _HomeShellState();
 }
+
+class _HomeShellState extends State<HomeShell> {
