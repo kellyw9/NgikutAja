@@ -283,3 +283,4 @@ class _CustomizePageState extends State<CustomizePage> {
                     'Terapkan',
                     kind: BtnKind.secondary,
                     size: BtnSize.md,
+                    onPressed: () {
