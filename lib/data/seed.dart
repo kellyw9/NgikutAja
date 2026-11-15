@@ -118,3 +118,4 @@ class Seed {
       city: 'Medan',
       region: 'Medan, Sumatera Utara',
       days: 3,
+      cover: 'maimun',
