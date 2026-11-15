@@ -81,3 +81,4 @@ class SettingsPage extends StatelessWidget {
                 sw('social', 'Interaksi sosial (like dan komentar)'),
                 sw('payments', 'Status transaksi dan pembelian'),
               ]),
+              group('Penyimpanan offline', [
