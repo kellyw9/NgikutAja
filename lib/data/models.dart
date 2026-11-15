@@ -177,3 +177,4 @@ enum ExpenseCat {
   lainnya('Lainnya', 'category');
 
   const ExpenseCat(this.label, this.icon);
+  final String label;
