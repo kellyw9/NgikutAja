@@ -29,3 +29,5 @@ class _DayEditorPageState extends State<DayEditorPage> {
       dayTitle.text = _title(k);
     });
   }
+
+  void _saveTitle() {
