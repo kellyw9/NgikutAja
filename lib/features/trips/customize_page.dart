@@ -439,3 +439,4 @@ class _CustomizePageState extends State<CustomizePage> {
                                 ),
                               ),
                               extra: Wrap(
+                                spacing: 16,
