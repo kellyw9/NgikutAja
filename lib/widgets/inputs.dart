@@ -291,3 +291,4 @@ class RadioRow extends StatelessWidget {
   Widget build(BuildContext context) => Semantics(
     inMutuallyExclusiveGroup: true,
     checked: selected,
+    enabled: enabled,
