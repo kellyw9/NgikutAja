@@ -176,3 +176,4 @@ Future<Category?> pickCategory(BuildContext context, Category current) {
 /// Ambil foto dari kamera/galeri, atau hapus foto. Mengembalikan kunci foto baru,
 /// '' kalau foto dihapus, atau null kalau batal.
 Future<String?> pickPhotoSheet(BuildContext context, {String title = 'Tambah foto', bool canRemove = false}) async {
+  final choice = await showNgSheet<String>(
