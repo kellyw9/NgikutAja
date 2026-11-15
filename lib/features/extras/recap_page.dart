@@ -42,3 +42,4 @@ class RecapPage extends StatelessWidget {
                   MetaRow([('calendar_month', t.dates ?? 'Tanggal belum diatur'), ('schedule', '${t.days} hari')]),
                 ],
               ),
+              FactStrip([
