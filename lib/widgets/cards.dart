@@ -556,3 +556,4 @@ class CreatorRow extends StatelessWidget {
               radius: 6,
               child: Row(
                 children: [
+                  Avatar(c.name, size: 40, tint: c.tint, photo: c.photo),
