@@ -151,3 +151,4 @@ class NotificationDetailPage extends StatelessWidget {
     final info = st == null ? null : travelInfo[st.name];
     final date = app.today;
     return Scaffold(
+      backgroundColor: AppColors.ground,
