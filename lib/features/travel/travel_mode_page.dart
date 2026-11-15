@@ -344,3 +344,4 @@ class TravelStopPage extends StatelessWidget {
                         kind: BtnKind.secondary,
                         icon: 'pin_drop',
                         expand: true,
+                        onPressed: checked ? null : () => push(context, CheckinPage(trip: trip, day: day, i: i)),
