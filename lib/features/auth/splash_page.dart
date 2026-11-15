@@ -68,3 +68,4 @@ class _SplashPageState extends State<SplashPage> {
                 ),
               ),
               const Padding(
+                padding: EdgeInsets.only(bottom: 40),
