@@ -177,3 +177,4 @@ class TextLink extends StatelessWidget {
     return Semantics(
       button: true,
       child: InkWell(
+        onTap: onTap,
