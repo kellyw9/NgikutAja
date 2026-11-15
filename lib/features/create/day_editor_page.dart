@@ -238,3 +238,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
+                      const AppIcon('warning', size: 16, color: AppColors.negative),
