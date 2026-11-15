@@ -236,3 +236,5 @@ class Photo extends StatelessWidget {
   final double radius;
   final String placeholderIcon;
   final String? semantic;
+
+  @override
