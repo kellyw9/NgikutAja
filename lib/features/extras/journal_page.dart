@@ -50,3 +50,4 @@ class _JournalPageState extends State<JournalPage> {
         16,
         children: [
           if (e == null) NgField(label: 'Judul', controller: title, hint: 'Misal: Kapal jam 8, langsung ke Tuktuk'),
+          NgField(label: e == null ? 'Catatan' : 'Lanjutan catatan', controller: text, area: true, autofocus: e != null),
