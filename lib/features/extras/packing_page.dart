@@ -115,3 +115,4 @@ class _PackingPageState extends State<PackingPage> {
                           Dismissible(
                             key: ObjectKey(it),
                             direction: DismissDirection.endToStart,
+                            background: Container(
