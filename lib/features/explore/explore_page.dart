@@ -23,3 +23,4 @@ class _ExplorePageState extends State<ExplorePage> {
   void initState() {
     super.initState();
     _load();
+  }
