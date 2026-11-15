@@ -23,3 +23,4 @@ class NgButton extends StatelessWidget {
     this.size = BtnSize.lg,
     this.icon,
     this.trailingIcon,
+    this.expand = false,
