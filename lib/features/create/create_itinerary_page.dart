@@ -158,3 +158,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
                 if (showErr)
                   const NgBanner(
                     kind: BannerKind.error,
+                    title: 'Lengkapi data yang wajib diisi.',
