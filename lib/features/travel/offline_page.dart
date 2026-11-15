@@ -28,3 +28,4 @@ class OfflinePage extends StatelessWidget {
     );
 
     return Scaffold(
+      backgroundColor: AppColors.ground,
