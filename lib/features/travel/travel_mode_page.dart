@@ -87,3 +87,4 @@ class TravelModePage extends StatelessWidget {
                           Row(
                             children: [
                               Text('$done dari $total tempat selesai', style: AppText.small.white),
+                              const Spacer(),
