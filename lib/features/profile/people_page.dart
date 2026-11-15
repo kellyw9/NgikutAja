@@ -13,3 +13,4 @@ class PeoplePage extends StatefulWidget {
 
 class _PeoplePageState extends State<PeoplePage> {
   // Yang saling mengikuti (dari data contoh) dan perubahan selama sesi ini.
+  final Set<String> following = {'@kevintbn', '@sarilubis', '@yohanapdd'};
