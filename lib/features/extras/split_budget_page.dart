@@ -179,3 +179,4 @@ class _SplitBudgetPageState extends State<SplitBudgetPage> {
                                     const SizedBox(width: 6),
                                     NgToggle(
                                       paid,
+                                      label: 'Tandai $from sudah transfer ke $to',
