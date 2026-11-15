@@ -47,3 +47,4 @@ ThemeData buildTheme() {
     error: AppColors.negative,
   );
   return ThemeData(
+    useMaterial3: true,
