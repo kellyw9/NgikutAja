@@ -111,3 +111,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
               const SizedBox(width: 8),
               Expanded(
                 child: NgButton(
+                  'Buka di peta',
