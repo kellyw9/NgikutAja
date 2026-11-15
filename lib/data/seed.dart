@@ -105,3 +105,4 @@ class Seed {
         name: 'Nadia Kusuma',
         handle: '@bandungjadul',
         tint: 1,
+        bio: 'Gedung tua, kopi, dan jalan kaki di Bandung.',
