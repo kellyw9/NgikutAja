@@ -107,3 +107,4 @@ class _ResetPasswordPageState extends State<ResetPasswordPage> {
                         : NgButton('Kirim tautan', expand: true, loading: loading, onPressed: _send),
                   ],
                 ),
+              ),
