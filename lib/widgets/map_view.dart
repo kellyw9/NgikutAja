@@ -116,3 +116,5 @@ class _MapPainter extends CustomPainter {
   final MapKind kind;
   final List<MapPin> pins;
   final (Offset, double)? ring;
+
+  @override
