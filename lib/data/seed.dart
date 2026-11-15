@@ -519,3 +519,4 @@ class Seed {
         tint: 5,
         stars: 4,
         date: 'Agu 2026',
+        text: 'Hari kedua agak padat kalau bawa anak kecil. Kami geser museum ke hari ketiga.',
