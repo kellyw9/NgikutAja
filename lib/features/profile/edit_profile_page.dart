@@ -41,3 +41,4 @@ class _EditProfilePageState extends State<EditProfilePage> {
   @override
   void dispose() {
     name.dispose();
+    user.dispose();
