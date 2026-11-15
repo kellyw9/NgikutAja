@@ -174,3 +174,4 @@ class _MapPainter extends CustomPainter {
       canvas.drawPath(
         river,
         Paint()
+          ..color = AppColors.mapWater
