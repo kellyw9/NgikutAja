@@ -176,3 +176,4 @@ class _SearchPageState extends State<SearchPage> {
                     style: AppText.body,
                     textInputAction: TextInputAction.search,
                     onChanged: (_) => setState(() {}),
+                    onSubmitted: _submit,
