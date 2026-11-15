@@ -393,3 +393,4 @@ class Seed {
         region: 'Karo, Sumatera Utara',
         days: 1,
         cover: null,
+        creator: me,
