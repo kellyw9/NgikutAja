@@ -256,3 +256,4 @@ class _AddExpensePageState extends State<AddExpensePage> {
                 inputFormatters: [ThousandsFormatter()],
                 error: tried && parseRupiah(amount.text) <= 0 ? 'Isi nominal pengeluaran' : null,
                 onChanged: (_) => setState(() {}),
+              ),
