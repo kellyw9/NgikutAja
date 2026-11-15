@@ -193,3 +193,4 @@ class PublishedPage extends StatelessWidget {
   final Itinerary d;
 
   @override
+  Widget build(BuildContext context) {
