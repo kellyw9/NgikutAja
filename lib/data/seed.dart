@@ -29,3 +29,4 @@ class Seed {
   late final List<Review> reviews;
   late final Map<String, List<Comment>> comments;
   late final List<Transaction> transactions;
+  late final List<AppNotification> notifications;
