@@ -231,3 +231,5 @@ class FactStrip extends StatelessWidget {
     ],
   );
 }
+
+/// Daftar label-nilai (struk, rincian biaya). Nilai rata kanan.
