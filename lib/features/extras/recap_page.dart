@@ -59,3 +59,4 @@ class RecapPage extends StatelessWidget {
                 ],
               ),
               if (photos.isNotEmpty)
+                Column(
