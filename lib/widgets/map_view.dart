@@ -122,3 +122,4 @@ class _MapPainter extends CustomPainter {
     final w = s.width, h = s.height;
     Offset p(double x, double y) => Offset(x * w, y * h);
     canvas.drawRect(Offset.zero & s, Paint()..color = AppColors.mapLand);
+    final road = Paint()
