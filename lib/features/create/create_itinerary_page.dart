@@ -146,3 +146,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
         if (didPop) return;
         if (await _confirmClose() && context.mounted) Navigator.pop(context);
       },
+      child: Scaffold(
