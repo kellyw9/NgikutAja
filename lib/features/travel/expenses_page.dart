@@ -301,3 +301,4 @@ class _AddExpensePageState extends State<AddExpensePage> {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text('Dibayar oleh', style: AppText.bodyStrong),
+                  const SizedBox(height: 8),
