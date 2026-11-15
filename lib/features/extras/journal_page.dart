@@ -112,3 +112,4 @@ class _JournalPageState extends State<JournalPage> {
           if (t.days <= 3)
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: kMargin),
+              child: Segmented(
