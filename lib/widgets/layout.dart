@@ -219,3 +219,4 @@ class FactStrip extends StatelessWidget {
                           child: Text(cells[i].$2, style: AppText.title, maxLines: 1),
                         ),
                       ],
+                    ),
