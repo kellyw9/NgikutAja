@@ -35,3 +35,4 @@ class AppText {
 extension TextStyleX on TextStyle {
   TextStyle c(Color color) => copyWith(color: color);
   TextStyle get muted => copyWith(color: AppColors.muted);
+  TextStyle get white => copyWith(color: AppColors.white);
