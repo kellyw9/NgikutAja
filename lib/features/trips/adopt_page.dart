@@ -49,3 +49,4 @@ class _AdoptPageState extends State<AdoptPage> {
     final end = start.add(Duration(days: it.days - 1));
     final before = start.subtract(const Duration(days: 1));
     return Scaffold(
+      backgroundColor: AppColors.ground,
