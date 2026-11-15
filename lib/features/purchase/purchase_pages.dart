@@ -496,3 +496,5 @@ class PurchaseHistoryPage extends StatelessWidget {
     );
   }
 }
+
+/// 8.5 Detail transaksi.
