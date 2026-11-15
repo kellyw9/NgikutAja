@@ -78,3 +78,4 @@ class BottomNav extends StatelessWidget {
   Widget build(BuildContext context) {
     return Material(
       color: AppColors.surface,
+      child: SafeArea(
