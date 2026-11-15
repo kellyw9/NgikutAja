@@ -221,3 +221,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
                   children: [
                     Text('Tipe publikasi', style: AppText.bodyStrong),
                     const SizedBox(height: 8),
+                    Segmented(
