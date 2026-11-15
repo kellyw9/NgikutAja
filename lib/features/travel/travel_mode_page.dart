@@ -269,3 +269,4 @@ class TravelStopPage extends StatelessWidget {
       body: ListView(
         padding: EdgeInsets.zero,
         children: [
+          HeroPhoto(st.photo ?? trip.cover, height: 220, semantic: st.name),
