@@ -30,3 +30,4 @@ class _PeoplePageState extends State<PeoplePage> {
     return Scaffold(
       backgroundColor: AppColors.ground,
       appBar: NgAppBar(
+        title: widget.followers ? 'Pengikut' : 'Mengikuti',
