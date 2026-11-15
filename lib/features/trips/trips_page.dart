@@ -24,3 +24,4 @@ class TripsPage extends StatelessWidget {
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: kMargin),
             child: Segmented(
+              items: [for (final s in TripStatus.values) s.label],
