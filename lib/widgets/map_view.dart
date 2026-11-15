@@ -196,3 +196,4 @@ class _MapPainter extends CustomPainter {
           ..color = AppColors.teal
           ..style = PaintingStyle.stroke
           ..strokeWidth = 2,
+      );
