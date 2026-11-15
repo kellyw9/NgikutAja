@@ -287,3 +287,4 @@ class _AdoptProgressPageState extends State<AdoptProgressPage> {
                     expand: true,
                     onPressed: () {
                       goTab(context, tabTrips, trips: app.statusOf(trip!));
+                      push(context, TripDetailPage(trip: trip!));
