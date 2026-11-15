@@ -434,3 +434,4 @@ class NavigationPage extends StatelessWidget {
                     decoration: BoxDecoration(color: AppColors.ground, borderRadius: BorderRadius.circular(AppRadius.card)),
                     child: IntrinsicHeight(
                       child: Row(
+                        children: [
