@@ -615,3 +615,4 @@ class Seed {
 
     tips = {
       'Samosir': [
+        LocalTip(
