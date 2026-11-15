@@ -135,3 +135,4 @@ class PurchaseConfirmPage extends StatelessWidget {
             _ItemRow(it),
             KeyValueBox(
               [('Harga itinerary', rp(it.price)), ('Biaya layanan', rp(0))],
+              total: ('Total pembayaran', rp(it.price)),
