@@ -100,3 +100,4 @@ class DashboardPage extends StatelessWidget {
                               height: 76,
                               child: Padding(
                                 padding: const EdgeInsets.symmetric(horizontal: 14),
+                                child: Row(
