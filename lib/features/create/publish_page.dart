@@ -105,3 +105,4 @@ class _PublishPageState extends State<PublishPage> {
                     typeCard(false, 'Gratis', 'Bebas diadopsi siapa saja secara cuma-cuma.'),
                     const SizedBox(width: 12),
                     typeCard(true, 'Berbayar', 'Hari 1 terlihat gratis. Hari lain terbuka setelah dibeli.'),
+                  ],
