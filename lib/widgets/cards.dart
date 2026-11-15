@@ -502,3 +502,4 @@ class _DayBox extends StatelessWidget {
           focusColor: AppColors.teal.withValues(alpha: .3),
           child: Container(
             width: 92,
+            padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 8),
