@@ -107,3 +107,4 @@ class PurchaseDetailPage extends StatelessWidget {
                 Text(rp(it.price), style: AppText.h2),
                 const SizedBox(height: 2),
                 Text('Sekali bayar (simulasi)', style: AppText.small.muted),
+              ],
