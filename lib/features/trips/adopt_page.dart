@@ -97,3 +97,4 @@ class _AdoptPageState extends State<AdoptPage> {
                               ],
                             ),
                             const SizedBox(height: 2),
+                            Text('Kredit tetap tercatat di tripmu walau jadwalnya kamu ubah.', style: AppText.small.muted),
