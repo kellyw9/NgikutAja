@@ -266,3 +266,5 @@ class EmptyState extends StatelessWidget {
     ),
   );
 }
+
+class ErrorBlock extends StatelessWidget {
