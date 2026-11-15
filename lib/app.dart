@@ -60,3 +60,4 @@ ThemeData buildTheme() {
     ),
     tooltipTheme: TooltipThemeData(
       decoration: BoxDecoration(color: AppColors.ink, borderRadius: BorderRadius.circular(4)),
+      textStyle: AppText.small.white,
