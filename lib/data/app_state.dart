@@ -42,3 +42,4 @@ class AppState extends ChangeNotifier {
     if (saved != null) {
       _accounts.addAll((jsonDecode(saved) as Map).cast<String, String>());
     }
+    if (watchNetwork) {
