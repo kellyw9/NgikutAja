@@ -33,3 +33,4 @@ class TipsPage extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
+                          Text(tip.title, style: AppText.title),
