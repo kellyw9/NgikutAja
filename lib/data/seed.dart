@@ -477,3 +477,4 @@ class Seed {
         members: [Member(name: dinda.name, handle: dinda.handle, role: MemberRole.owner, tint: 0)],
       ),
       Trip(
+        id: 'jogja-sep',
