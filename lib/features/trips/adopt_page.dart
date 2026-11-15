@@ -277,3 +277,4 @@ class _AdoptProgressPageState extends State<AdoptProgressPage> {
                 ),
                 actions: [
                   NgButton(
+                    'Customize jadwal',
