@@ -616,3 +616,4 @@ class Seed {
     tips = {
       'Samosir': [
         LocalTip(
+          icon: 'directions_car',
