@@ -208,3 +208,4 @@ class Tap extends StatelessWidget {
     if (onTap == null) return child;
     return Semantics(
       button: true,
+      label: label,
