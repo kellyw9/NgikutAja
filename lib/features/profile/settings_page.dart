@@ -98,3 +98,4 @@ class SettingsPage extends StatelessWidget {
                   icon: 'info',
                   title: 'Tentang NgikutAja',
                   sub: 'Versi 1.0.0, Tugas Besar Pemrograman Mobile',
+                  padH: 14,
