@@ -71,3 +71,4 @@ class _SearchPageState extends State<SearchPage> {
   String sort = 'Relevan';
 
   @override
+  void initState() {
