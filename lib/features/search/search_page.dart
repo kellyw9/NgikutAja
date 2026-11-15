@@ -406,3 +406,4 @@ class _SearchPageState extends State<SearchPage> {
             ),
           ),
         ],
+      ],
