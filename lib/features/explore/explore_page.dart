@@ -105,3 +105,4 @@ class _ExplorePageState extends State<ExplorePage> {
             child: ListView(
               padding: const EdgeInsets.only(top: 16, bottom: 24),
               children: [
+                if (tab == 'Trending' && !loading) ...[
