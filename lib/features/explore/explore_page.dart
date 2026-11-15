@@ -61,3 +61,4 @@ class _ExplorePageState extends State<ExplorePage> {
         );
       }
       if (error != null) {
+        return Padding(
