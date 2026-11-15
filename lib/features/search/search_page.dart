@@ -301,3 +301,4 @@ class _SearchPageState extends State<SearchPage> {
   }
 
   Widget _suggest(String icon, String title, String sub, VoidCallback onTap) => Tap(
+    onTap: onTap,
