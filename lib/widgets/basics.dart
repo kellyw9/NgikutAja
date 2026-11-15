@@ -309,3 +309,4 @@ class _DashPainter extends CustomPainter {
   }
 
   @override
+  bool shouldRepaint(_DashPainter o) => o.color != color || o.fill != fill;
