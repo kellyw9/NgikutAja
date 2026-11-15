@@ -21,3 +21,4 @@ class MembersPage extends StatelessWidget {
     final r = await showNgDialog(
       context,
       icon: 'person_remove',
+      title: 'Hapus ${m.first} dari trip?',
