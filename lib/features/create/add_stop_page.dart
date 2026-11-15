@@ -440,3 +440,4 @@ class _PickLocationPageState extends State<PickLocationPage> {
                 const SizedBox(height: 14),
                 NgButton(
                   'Pilih lokasi ini',
+                  trailingIcon: 'arrow_forward',
