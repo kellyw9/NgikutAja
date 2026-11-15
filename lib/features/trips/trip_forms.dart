@@ -260,3 +260,4 @@ class _EditTripInfoPageState extends State<EditTripInfoPage> {
   Widget build(BuildContext context) {
     final app = AppScope.of(context);
     return Scaffold(
+      backgroundColor: AppColors.ground,
