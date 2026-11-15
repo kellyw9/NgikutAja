@@ -125,3 +125,4 @@ void main() {
             state: s,
             child: MaterialApp(theme: buildTheme(), home: e.value(s)),
           ),
+        );
