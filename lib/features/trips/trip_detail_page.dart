@@ -23,3 +23,4 @@ class TripDetailPage extends StatefulWidget {
 }
 
 class _TripDetailPageState extends State<TripDetailPage> {
+  int? _day;
