@@ -94,3 +94,4 @@ class _SearchPageState extends State<SearchPage> {
   @override
   void dispose() {
     searchRequest.removeListener(_onRequest);
+    input.dispose();
