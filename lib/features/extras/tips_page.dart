@@ -34,3 +34,4 @@ class TipsPage extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Text(tip.title, style: AppText.title),
+                          const SizedBox(height: 2),
