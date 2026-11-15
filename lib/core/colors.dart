@@ -48,3 +48,4 @@ class AppRadius {
   static const double card = 8;
   static const double inner = 6;
   static const double control = 8;
+  static const double chip = 6;
