@@ -144,3 +144,4 @@ class _SplitBudgetPageState extends State<SplitBudgetPage> {
                       style: AppText.body.muted,
                     )
                   else
+                    BoxList(
