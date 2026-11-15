@@ -128,3 +128,4 @@ class _LoginPageState extends State<LoginPage> {
                             color: AppColors.ink,
                             onTap: () => push(context, ResetPasswordPage(email: email.text)),
                           ),
+                        ),
