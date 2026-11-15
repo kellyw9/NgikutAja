@@ -33,3 +33,5 @@ class EditStopPage extends StatefulWidget {
   @override
   State<EditStopPage> createState() => _EditStopPageState();
 }
+
+class _EditStopPageState extends State<EditStopPage> {
