@@ -103,3 +103,4 @@ class _LoginPageState extends State<LoginPage> {
                           icon: 'mail',
                           controller: email,
                           hint: 'nama@email.com',
+                          keyboardType: TextInputType.emailAddress,
