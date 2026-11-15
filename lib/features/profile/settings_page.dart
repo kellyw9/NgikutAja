@@ -123,3 +123,4 @@ class AboutPage extends StatelessWidget {
       future: rootBundle.loadString('assets/photos/credits.json'),
       builder: (context, snap) {
         final credits = snap.hasData ? (jsonDecode(snap.data!) as Map<String, dynamic>) : const <String, dynamic>{};
+        return ListView(
