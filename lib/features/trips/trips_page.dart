@@ -120,3 +120,4 @@ class TripsPage extends StatelessWidget {
                   child: NgButton(
                     'Lihat recap',
                     kind: BtnKind.secondary,
+                    size: BtnSize.md,
