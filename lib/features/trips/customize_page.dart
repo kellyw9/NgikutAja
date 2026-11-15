@@ -472,3 +472,4 @@ class _CustomizePageState extends State<CustomizePage> {
                                 setState(() {});
                               },
                             ),
+                            const SizedBox(width: 10),
