@@ -92,3 +92,4 @@ class _ExplorePageState extends State<ExplorePage> {
     }
 
     return Column(
+      children: [
