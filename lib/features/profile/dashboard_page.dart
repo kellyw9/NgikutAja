@@ -90,3 +90,4 @@ class DashboardPage extends StatelessWidget {
                   if (mine.isEmpty)
                     Text('Belum ada itinerary yang terbit.', style: AppText.body.muted)
                   else
+                    BoxList(
