@@ -121,3 +121,4 @@ class _ExplorePageState extends State<ExplorePage> {
                   const SizedBox(height: 24),
                 ],
                 feed(),
+              ],
