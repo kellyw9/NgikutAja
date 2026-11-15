@@ -435,3 +435,4 @@ class NavigationPage extends StatelessWidget {
                     child: IntrinsicHeight(
                       child: Row(
                         children: [
+                          Expanded(
