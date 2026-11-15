@@ -133,3 +133,4 @@ class IconBtn extends StatelessWidget {
   Widget build(BuildContext context) {
     final boxed = bg != null || stroke != null;
     final radius = BorderRadius.circular(boxed ? AppRadius.control : size / 2);
+    return Semantics(
