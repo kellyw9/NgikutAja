@@ -275,3 +275,4 @@ class CheckMark extends StatelessWidget {
   @override
   Widget build(BuildContext context) =>
       AppIcon(on ? 'check_box' : 'check_box_outline_blank', color: on ? AppColors.ink : AppColors.muted, filled: on);
+}
