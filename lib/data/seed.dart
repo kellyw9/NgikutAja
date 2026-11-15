@@ -426,3 +426,4 @@ class Seed {
         region: 'Samosir, Sumatera Utara',
         start: today,
         cover: 'toba',
+        from: toba,
