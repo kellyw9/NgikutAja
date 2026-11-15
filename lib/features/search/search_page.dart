@@ -554,3 +554,4 @@ class _BudgetSlider extends StatelessWidget {
   final ValueChanged<RangeValues> onChanged;
 
   @override
+  Widget build(BuildContext context) => Column(
