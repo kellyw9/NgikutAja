@@ -345,3 +345,4 @@ class _CustomizePageState extends State<CustomizePage> {
                       'edit',
                       label: 'Edit informasi trip',
                       size: 40,
+                      iconSize: 18,
