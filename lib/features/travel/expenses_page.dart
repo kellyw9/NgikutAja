@@ -157,3 +157,4 @@ class ExpensesPage extends StatelessWidget {
         child: Padding(
           padding: const EdgeInsets.fromLTRB(kMargin, 0, kMargin, 16),
           child: NgButton(
+            'Tambah pengeluaran',
