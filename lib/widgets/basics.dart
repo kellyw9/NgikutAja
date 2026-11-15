@@ -540,3 +540,4 @@ class Marker extends StatelessWidget {
   final double size;
 
   @override
+  Widget build(BuildContext context) {
