@@ -86,3 +86,4 @@ class TravelModePage extends StatelessWidget {
                           const SizedBox(height: 12),
                           Row(
                             children: [
+                              Text('$done dari $total tempat selesai', style: AppText.small.white),
