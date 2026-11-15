@@ -24,3 +24,4 @@ class MapView extends StatelessWidget {
     this.pins = const [],
     this.me,
     this.radius = AppRadius.card,
+    this.route = true,
