@@ -13,3 +13,4 @@ Future<void> main() async {
     prefs = await SharedPreferences.getInstance();
   } catch (_) {
     prefs = null; // tanpa penyimpanan lokal: aplikasi tetap jalan, status login tidak diingat
+  }
