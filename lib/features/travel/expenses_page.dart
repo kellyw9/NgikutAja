@@ -286,3 +286,4 @@ class _AddExpensePageState extends State<AddExpensePage> {
                       children: [
                         for (var k = 0; k < t.days; k++)
                           RadioRow(
+                            title: 'Hari ${k + 1}',
