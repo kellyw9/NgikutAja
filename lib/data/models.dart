@@ -191,3 +191,4 @@ class Expense {
     required this.day,
     required this.time,
     this.receipt,
+  });
