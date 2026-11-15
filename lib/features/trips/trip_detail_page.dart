@@ -157,3 +157,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
         children: [
           HeroPhoto(
             t.cover,
+            height: 220,
