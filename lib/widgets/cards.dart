@@ -598,3 +598,4 @@ class ProfileHead extends StatelessWidget {
   const ProfileHead({super.key, required this.p, required this.itins, required this.action, this.onFollowers, this.onFollowing});
   final Creator p;
   final int itins;
+  final Widget action;
