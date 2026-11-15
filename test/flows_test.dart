@@ -32,3 +32,4 @@ Future<void> tapText(WidgetTester tester, String text, {bool button = false}) as
   await tester.ensureVisible(f.first);
   await tester.pump();
   await tester.tap(f.first);
+}
