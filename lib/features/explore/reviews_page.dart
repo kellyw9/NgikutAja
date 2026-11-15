@@ -149,3 +149,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
   }
 
   Widget _comments(AppState app, Itinerary it) {
+    final list = app.commentsOf(it);
