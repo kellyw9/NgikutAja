@@ -77,3 +77,4 @@ class Seed {
         id: 'bayu',
         name: 'Bayu Prasetyo',
         handle: '@jogjahemat',
+        tint: 4,
