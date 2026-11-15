@@ -147,3 +147,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
         if (await _confirmClose() && context.mounted) Navigator.pop(context);
       },
       child: Scaffold(
+        backgroundColor: AppColors.ground,
