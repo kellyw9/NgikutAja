@@ -133,3 +133,4 @@ class _PackingPageState extends State<PackingPage> {
                               checked: it.done,
                               child: Tap(
                                 onTap: () {
+                                  it.done = !it.done;
