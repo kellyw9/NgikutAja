@@ -305,3 +305,4 @@ class _EditTripInfoPageState extends State<EditTripInfoPage> {
               NgField(
                 label: 'Tanggal keberangkatan',
                 icon: 'calendar_month',
+                value: start == null ? '' : dateLong(start!),
