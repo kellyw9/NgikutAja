@@ -147,3 +147,4 @@ class AppState extends ChangeNotifier {
     final list = [...published];
     double score(Itinerary x) {
       final age = today.difference(x.publishedAt).inDays.clamp(1, 3650);
+      return x.adopted / age * (x.tags.any(interests.contains) ? 1.5 : 1);
