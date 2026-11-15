@@ -26,3 +26,5 @@ class OfflinePage extends StatelessWidget {
         ],
       ),
     );
+
+    return Scaffold(
