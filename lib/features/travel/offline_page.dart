@@ -114,3 +114,4 @@ class OfflinePage extends StatelessWidget {
               }
               app.touch();
               showNgSnack(
+                context,
