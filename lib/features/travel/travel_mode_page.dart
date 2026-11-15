@@ -448,3 +448,4 @@ class NavigationPage extends StatelessWidget {
                               ),
                             ),
                           ),
+                          Container(width: 1, color: AppColors.line),
