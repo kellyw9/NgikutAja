@@ -30,3 +30,4 @@ class TipsPage extends StatelessWidget {
                     AppIcon(tip.icon, size: 22, color: AppColors.muted),
                     const SizedBox(width: 12),
                     Expanded(
+                      child: Column(
