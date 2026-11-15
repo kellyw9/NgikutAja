@@ -88,3 +88,4 @@ class _CheckinPageState extends State<CheckinPage> {
                   Text('Riwayat check-in hari ini', style: AppText.h2),
                   const SizedBox(height: 8),
                   if (history.isEmpty)
+                    Text('Belum ada check-in hari ini.', style: AppText.body.muted)
