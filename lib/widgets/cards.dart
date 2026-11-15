@@ -339,3 +339,4 @@ class StopRow extends StatelessWidget {
     final content = Opacity(
       opacity: blur ? .6 : 1,
       child: Padding(
+        padding: EdgeInsets.only(top: 2, bottom: last ? 0 : 20),
