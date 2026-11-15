@@ -35,3 +35,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
   }
 
   @override
+  Widget build(BuildContext context) {
