@@ -122,3 +122,4 @@ class MembersPage extends StatelessWidget {
                 children: [
                   const AppIcon('link', size: 18),
                   const SizedBox(width: 8),
+                  Expanded(
