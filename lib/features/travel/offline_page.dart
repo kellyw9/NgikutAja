@@ -69,3 +69,4 @@ class OfflinePage extends StatelessWidget {
                             ..syncedAt = v ? _now() : null;
                           app.touch();
                         },
+                      ),
