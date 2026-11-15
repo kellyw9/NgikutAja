@@ -338,3 +338,4 @@ class NgStepper extends StatelessWidget {
       border: Border.all(color: AppColors.control),
     ),
     child: Row(
+      mainAxisSize: MainAxisSize.min,
