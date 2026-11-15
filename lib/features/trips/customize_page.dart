@@ -441,3 +441,4 @@ class _CustomizePageState extends State<CustomizePage> {
                               extra: Wrap(
                                 spacing: 16,
                                 children: [
+                                  TextLink('Edit', style: AppText.smallStrong, onTap: () => _edit(i)),
