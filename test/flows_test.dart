@@ -145,3 +145,5 @@ void main() {
     expect(find.text('Selesaikan error sebelum lanjut'), findsOneWidget);
     expect(find.text('Belum ada stop'), findsOneWidget);
   });
+
+  testWidgets('Wishlist: hapus lalu urungkan', (tester) async {
