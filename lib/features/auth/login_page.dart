@@ -114,3 +114,4 @@ class _LoginPageState extends State<LoginPage> {
                           icon: 'lock',
                           controller: pass,
                           obscure: obscure,
+                          hint: 'Minimal 8 karakter',
