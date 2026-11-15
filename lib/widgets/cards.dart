@@ -178,3 +178,4 @@ class WisataCard extends StatelessWidget {
                 ],
               ),
             ],
+          ),
