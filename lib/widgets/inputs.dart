@@ -152,3 +152,4 @@ class _NgFieldState extends State<NgField> {
           if (trailing is String) ...[const SizedBox(width: 10), AppIcon(trailing, size: 20, color: AppColors.muted)],
           if (trailing is Widget) ...[const SizedBox(width: 6), trailing],
         ],
+      ),
