@@ -39,3 +39,4 @@ class _CreatorProfilePageState extends State<CreatorProfilePage> {
                 ? const SizedBox()
                 : NgButton(
                     following ? 'Mengikuti' : 'Ikuti',
+                    kind: following ? BtnKind.ghost : BtnKind.primary,
