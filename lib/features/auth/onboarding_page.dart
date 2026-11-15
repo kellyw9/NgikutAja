@@ -122,3 +122,4 @@ class _OnboardingPageState extends State<OnboardingPage> {
     const SizedBox(height: 12),
     Text('Lima langkah yang sama dipakai di seluruh aplikasi.', style: AppText.body.muted),
     const SizedBox(height: 28),
+    Container(
