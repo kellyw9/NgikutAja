@@ -492,3 +492,4 @@ class _DayBox extends StatelessWidget {
       button: true,
       child: Material(
         color: on ? AppColors.ink : AppColors.surface,
+        shape: RoundedRectangleBorder(
