@@ -210,3 +210,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
                     Row(
                       children: [
                         const AppIcon('info', size: 16, color: AppColors.muted),
+                        const SizedBox(width: 6),
