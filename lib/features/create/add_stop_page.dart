@@ -85,3 +85,4 @@ class _AddStopPageState extends State<AddStopPage> {
                   const SizedBox(height: 8),
                   SingleChildScrollView(
                     scrollDirection: Axis.horizontal,
+                    child: Row(
