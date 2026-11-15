@@ -91,3 +91,4 @@ final Map<String, PageFor> pages = {
   'confirm': (s) => PurchaseConfirmPage(it: s.itinerary('toba')),
   'pay': (s) => PaymentPage(it: s.itinerary('toba')),
   'pay status gagal': (s) => PaymentStatusPage(tx: s.transactions[0]),
+  'history': (s) => const PurchaseHistoryPage(),
