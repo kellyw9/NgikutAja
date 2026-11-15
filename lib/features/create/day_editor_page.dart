@@ -92,3 +92,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
         body: ListView(
           padding: const EdgeInsets.only(top: 4, bottom: 24),
           children: [
+            if (conflictMsg != null)
