@@ -233,3 +233,4 @@ class _PaymentPageState extends State<PaymentPage> {
                                         Text(title, style: AppText.bodyStrong),
                                         const SizedBox(height: 2),
                                         Text(sub, style: AppText.small.muted),
+                                      ],
