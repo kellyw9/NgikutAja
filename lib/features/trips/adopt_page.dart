@@ -45,3 +45,4 @@ class _AdoptPageState extends State<AdoptPage> {
 
   @override
   Widget build(BuildContext context) {
+    final it = widget.it;
