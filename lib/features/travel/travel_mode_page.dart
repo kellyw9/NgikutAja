@@ -373,3 +373,4 @@ class NavigationPage extends StatelessWidget {
     return Scaffold(
       backgroundColor: AppColors.mapLand,
       body: Stack(
+        children: [
