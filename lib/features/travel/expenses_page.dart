@@ -199,3 +199,4 @@ class _AddExpensePageState extends State<AddExpensePage> {
         ..amount = n
         ..cat = cat
         ..day = day
+        ..by = by;
