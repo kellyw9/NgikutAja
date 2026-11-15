@@ -378,3 +378,4 @@ class StatusView extends StatelessWidget {
           constraints: BoxConstraints(minHeight: c.maxHeight - (top ? 52 : 48)),
           child: IntrinsicHeight(
             child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
