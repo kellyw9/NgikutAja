@@ -64,3 +64,4 @@ class NgBanner extends StatelessWidget {
             ],
           ],
         ),
+      ),
