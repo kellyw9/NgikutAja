@@ -330,3 +330,4 @@ class TravelStopPage extends StatelessWidget {
                 Row(
                   children: [
                     Expanded(
+                      child: NgButton(
