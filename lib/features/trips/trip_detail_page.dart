@@ -287,3 +287,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
           const SizedBox(height: 8),
           DayStrip(
             days: [
+              for (var d = 0; d < t.days; d++)
