@@ -143,3 +143,4 @@ class PermissionDeniedPage extends StatelessWidget {
               'Izin lokasi untuk NgikutAja sedang dinonaktifkan di pengaturan perangkat.',
               style: AppText.body.muted,
             ),
+            const Spacer(),
