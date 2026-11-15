@@ -151,3 +151,4 @@ class IconBtn extends StatelessWidget {
             customBorder: RoundedRectangleBorder(borderRadius: radius),
             focusColor: AppColors.teal.withValues(alpha: .24),
             child: SizedBox.square(
+              dimension: size,
