@@ -87,3 +87,4 @@ class _AddStopPageState extends State<AddStopPage> {
                     scrollDirection: Axis.horizontal,
                     child: Row(
                       children: [
+                        for (final c in Category.values) ...[
