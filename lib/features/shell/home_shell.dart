@@ -142,3 +142,4 @@ class BottomNav extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               AppIcon(items[i].$1, filled: on, color: on ? AppColors.ink : AppColors.muted),
+              const SizedBox(height: 4),
