@@ -387,3 +387,4 @@ class _CustomizePageState extends State<CustomizePage> {
                       kind: BannerKind.warning,
                       title: 'Hari ${day + 1} terlalu padat',
                       text: '${durationText(activeMinutes(stops))} aktivitas.',
+                      action: 'Lihat saran',
