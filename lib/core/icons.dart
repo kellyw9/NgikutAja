@@ -12,3 +12,4 @@ class AppIcon extends StatelessWidget {
   final String name;
   final double size;
   final Color color;
+  final bool filled;
