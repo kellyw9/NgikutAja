@@ -47,3 +47,4 @@ class AppState extends ChangeNotifier {
       try {
         _netSub = Network.watch().listen((v) {
           if (v != online) {
+            online = v;
