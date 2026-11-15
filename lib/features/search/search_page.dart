@@ -527,3 +527,4 @@ class _SearchPageState extends State<SearchPage> {
                     Expanded(child: NgButton('Tampilkan $n itinerary', expand: true, onPressed: () => Navigator.pop(ctx, draft))),
                   ],
                 ),
+              ),
