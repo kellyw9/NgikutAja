@@ -27,3 +27,4 @@ class MembersPage extends StatelessWidget {
         DialogAction('Hapus akses', kind: BtnKind.danger, value: true),
         DialogAction('Batal'),
       ],
+    );
