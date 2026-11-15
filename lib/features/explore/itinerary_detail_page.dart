@@ -52,3 +52,4 @@ class _StatChip extends StatelessWidget {
               mainAxisSize: MainAxisSize.min,
               children: [
                 AppIcon(icon, size: 18, filled: filled),
+                const SizedBox(width: 6),
