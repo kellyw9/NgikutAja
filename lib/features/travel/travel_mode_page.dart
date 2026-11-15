@@ -212,3 +212,4 @@ class _NextCard extends StatelessWidget {
                         ],
                       ),
                       const SizedBox(height: 6),
+                      Text(st.name, style: AppText.h2),
