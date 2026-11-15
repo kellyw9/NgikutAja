@@ -117,3 +117,4 @@ class _CalendarState extends State<_Calendar> {
                 for (final d in weekdaysShort)
                   Expanded(
                     child: SizedBox(
+                      height: 28,
