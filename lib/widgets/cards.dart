@@ -356,3 +356,4 @@ class StopRow extends StatelessWidget {
                             child: Text(blur ? 'Tempat terkunci' : st.name, style: AppText.title, maxLines: 2, overflow: TextOverflow.ellipsis),
                           ),
                           if (conflict) ...[const SizedBox(width: 6), const AppIcon('warning', size: 18, color: AppColors.negative)],
+                        ],
