@@ -71,3 +71,4 @@ class _CalendarState extends State<_Calendar> {
               onTap: disabled ? null : () => setState(() => sel = date),
               borderRadius: BorderRadius.circular(4),
               child: Container(
+                width: 34,
