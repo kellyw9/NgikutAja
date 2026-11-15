@@ -399,3 +399,4 @@ class Pill extends StatelessWidget {
     final (bg, fg) = colors(kind);
     return Container(
       height: 22,
+      padding: EdgeInsets.only(left: icon != null ? 5 : 8, right: 8),
