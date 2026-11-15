@@ -162,3 +162,4 @@ class WisataCard extends StatelessWidget {
               Text(it.title, style: AppText.h2, maxLines: 2, overflow: TextOverflow.ellipsis),
               const SizedBox(height: 6),
               MetaRow([
+                ('location_on', it.city),
