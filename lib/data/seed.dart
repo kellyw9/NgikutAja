@@ -263,3 +263,4 @@ class Seed {
         creator: c['yosef']!,
         price: 45000,
         adopted: 73,
+        likes: 198,
