@@ -76,3 +76,4 @@ final Map<String, PageFor> pages = {
   'checkin jauh': (s) => CheckinPage(trip: s.trips[0], day: 0, i: 3),
   'permission': (s) => PermissionDeniedPage(place: 'Bukit Holbung', onOpenSettings: () {}),
   'expenses': (s) => ExpensesPage(trip: s.trips[0]),
+  'add expense': (s) => AddExpensePage(trip: s.trips[0]),
