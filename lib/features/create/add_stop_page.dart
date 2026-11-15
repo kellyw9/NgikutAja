@@ -354,3 +354,4 @@ class _PickLocationPageState extends State<PickLocationPage> {
                     Positioned(
                       left: x - 24,
                       top: y - 46,
+                      child: const IgnorePointer(child: AppIcon('location_on', size: 48, filled: true)),
