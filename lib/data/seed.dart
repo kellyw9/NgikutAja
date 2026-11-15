@@ -128,3 +128,4 @@ class Seed {
       tags: ['Kuliner', 'Budaya'],
       publishedAt: _d(-20),
       desc:
+          'Tiga hari keliling Medan dengan urutan yang hemat jalan: pagi di istana dan masjid tua, siang di rumah saudagar, '
