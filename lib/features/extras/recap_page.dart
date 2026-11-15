@@ -80,3 +80,4 @@ class RecapPage extends StatelessWidget {
                                 child: Column(
                                   children: [
                                     Expanded(child: Photo(photos[0].src, radius: AppRadius.inner)),
+                                    if (photos.length > 2) ...[
