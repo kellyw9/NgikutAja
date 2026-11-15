@@ -58,3 +58,4 @@ class RecapPage extends StatelessWidget {
                     Text(others > 0 ? '${names.take(4).join(', ')}, dan $others tempat lainnya.' : '${names.join(', ')}.', style: AppText.body.muted),
                 ],
               ),
+              if (photos.isNotEmpty)
