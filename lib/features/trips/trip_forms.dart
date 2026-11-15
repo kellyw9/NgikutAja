@@ -107,3 +107,4 @@ class _EditStopPageState extends State<EditStopPage> {
                 controller: name,
                 hint: 'Misal: Istana Maimun',
                 error: tried && name.text.trim().isEmpty ? 'Nama tempat wajib diisi' : null,
+                onChanged: (_) => setState(() {}),
