@@ -44,3 +44,4 @@ class NgField extends StatefulWidget {
   final String? icon;
   final Object? trailing; // String (nama ikon) atau Widget
   final String? helper;
+  final String? error;
