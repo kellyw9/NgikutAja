@@ -20,3 +20,4 @@ class RecapPage extends StatelessWidget {
         for (final s in d) s.name,
     ];
     final others = t.places() - names.length;
+    final pins = spreadPins((t.visited()).clamp(0, 4), states: List.filled(4, MarkerState.done));
