@@ -123,3 +123,4 @@ class PurchaseConfirmPage extends StatelessWidget {
   final Itinerary it;
 
   @override
+  Widget build(BuildContext context) => Scaffold(
