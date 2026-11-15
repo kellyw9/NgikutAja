@@ -265,3 +265,4 @@ class TravelStopPage extends StatelessWidget {
     final checked = trip.isChecked(day, i);
     final photos = [?st.photo, if (trip.cover != null && trip.cover != st.photo) trip.cover!];
     return Scaffold(
+      backgroundColor: AppColors.ground,
