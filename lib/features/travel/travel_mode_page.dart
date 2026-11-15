@@ -195,3 +195,4 @@ class _NextCard extends StatelessWidget {
       child: Column(
         children: [
           Tap(
+            onTap: () => push(context, TravelStopPage(trip: trip, day: day, i: i)),
