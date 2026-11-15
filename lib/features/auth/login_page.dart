@@ -137,3 +137,4 @@ class _LoginPageState extends State<LoginPage> {
                             Expanded(child: Container(height: 1, color: AppColors.line)),
                             Padding(
                               padding: const EdgeInsets.symmetric(horizontal: 12),
+                              child: Text('atau', style: AppText.small.muted),
