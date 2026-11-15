@@ -267,3 +267,4 @@ class _EditTripInfoPageState extends State<EditTripInfoPage> {
         actions: [NgButton('Simpan', kind: BtnKind.text, size: BtnSize.md, onPressed: _save)],
       ),
       body: ListView(
+        padding: const EdgeInsets.fromLTRB(kMargin, 8, kMargin, 24),
