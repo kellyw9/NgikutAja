@@ -108,3 +108,4 @@ class _LoginPageState extends State<LoginPage> {
                           autofillHints: const [AutofillHints.email],
                           error: emailErr,
                         ),
+                        const SizedBox(height: 16),
