@@ -252,3 +252,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
                   onPressed: anyError
                       ? null
                       : () {
+                          _saveTitle();
