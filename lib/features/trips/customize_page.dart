@@ -60,3 +60,4 @@ class _CustomizePageState extends State<CustomizePage> {
       body: 'Ada $changes perubahan yang belum disimpan.',
       actions: const [
         DialogAction('Lanjut mengedit', kind: BtnKind.primary, value: false),
+        DialogAction('Buang perubahan', kind: BtnKind.dangerText, value: true),
