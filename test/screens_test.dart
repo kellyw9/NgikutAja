@@ -11,3 +11,4 @@ import 'package:ngikutaja/features/auth/onboarding_page.dart';
 import 'package:ngikutaja/features/auth/register_page.dart';
 import 'package:ngikutaja/features/auth/reset_password_page.dart';
 import 'package:ngikutaja/features/create/add_stop_page.dart';
+import 'package:ngikutaja/features/create/create_itinerary_page.dart';
