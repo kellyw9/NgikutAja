@@ -81,3 +81,4 @@ class WisataCard extends StatelessWidget {
           onTap: onTap,
           label: label,
           radius: AppRadius.inner,
+          child: Padding(
