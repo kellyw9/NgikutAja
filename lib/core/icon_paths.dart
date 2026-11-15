@@ -157,3 +157,4 @@ const Map<String, String> kIconPaths = {
   'near_me': 'M516-120 402-402 120-516v-56l720-268-268 720h-56Zm26-148 162-436-436 162 196 78 78 196Zm-78-196Z',
   'north_east': 'm216-160-56-56 464-464H360v-80h400v400h-80v-264L216-160Z',
   'notes': 'M120-240v-80h480v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z',
+  'notifications':
