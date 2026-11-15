@@ -23,3 +23,4 @@ class SettingsPage extends StatelessWidget {
         DialogAction('Batal'),
       ],
     );
+    if (r == true && context.mounted) {
