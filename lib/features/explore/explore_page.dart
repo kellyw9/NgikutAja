@@ -142,3 +142,4 @@ class CityCard extends StatelessWidget {
       child: Tap(
         onTap: () => goSearch(context, c.name),
         radius: AppRadius.card,
+        label: '${c.name}, $n itinerary',
