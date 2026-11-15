@@ -17,3 +17,4 @@ Future<String?> pickTime(BuildContext context, String current) async {
     initialTime: TimeOfDay(hour: m ~/ 60, minute: m % 60),
     helpText: 'Pilih jam',
     cancelText: 'Batal',
+    confirmText: 'Pilih',
