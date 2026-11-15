@@ -341,3 +341,4 @@ class Comment {
   final String time;
   final String text;
   final bool creator;
+  final String? replyTo;
