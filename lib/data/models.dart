@@ -252,3 +252,4 @@ class Trip {
     this.offline = false,
     this.offlineSize = 0,
     this.syncedAt,
+    this.remindDayBefore = true,
