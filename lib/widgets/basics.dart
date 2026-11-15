@@ -328,3 +328,4 @@ class DashedAction extends StatelessWidget {
     radius: AppRadius.control,
     child: DashedBox(
       color: color,
+      fill: fill,
