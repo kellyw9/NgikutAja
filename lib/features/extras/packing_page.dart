@@ -152,3 +152,4 @@ class _PackingPageState extends State<PackingPage> {
                                           iconSize: 18,
                                           color: AppColors.muted,
                                           onTap: () => _edit(g, it),
+                                        ),
