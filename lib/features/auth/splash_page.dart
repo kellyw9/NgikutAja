@@ -32,3 +32,5 @@ class _SplashPageState extends State<SplashPage> {
     _t?.cancel();
     super.dispose();
   }
+
+  @override
