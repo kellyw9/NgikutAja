@@ -529,3 +529,5 @@ class Wordmark extends StatelessWidget {
     );
   }
 }
+
+enum MarkerState { todo, done, next, locked }
