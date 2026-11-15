@@ -300,3 +300,4 @@ class Trip {
   int? seedSpending;
 
   /// Kutipan catatan untuk recap: (nomor hari, isi).
+  (int, String)? recapNote;
