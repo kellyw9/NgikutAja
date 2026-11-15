@@ -398,3 +398,4 @@ class StatusView extends StatelessWidget {
                 for (var i = 0; i < actions.length; i++) ...[if (i > 0) const SizedBox(height: 12), actions[i]],
               ],
             ),
+          ),
