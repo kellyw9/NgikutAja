@@ -94,3 +94,4 @@ class BottomNav extends StatelessWidget {
                         selected: i == active,
                         button: true,
                         label: items[i].$2,
+                        child: InkWell(
