@@ -391,3 +391,4 @@ class NgChip extends StatelessWidget {
                 ] else if (icon != null) ...[
                   AppIcon(icon!, size: 18),
                   const SizedBox(width: 6),
+                ],
