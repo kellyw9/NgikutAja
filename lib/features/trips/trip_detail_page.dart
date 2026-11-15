@@ -213,3 +213,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
                       child: NgButton(
                         'Anggota',
                         kind: BtnKind.secondary,
+                        icon: 'group',
