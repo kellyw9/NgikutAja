@@ -103,3 +103,4 @@ class _CustomizePageState extends State<CustomizePage> {
       context,
       title: 'Pindahkan aktivitas',
       scroll: true,
+      builder: (ctx) {
