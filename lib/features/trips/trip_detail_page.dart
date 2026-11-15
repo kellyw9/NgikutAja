@@ -32,3 +32,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
       children: [
         ListRow(
           icon: 'edit',
+          title: 'Edit informasi trip',
