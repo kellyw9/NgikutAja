@@ -416,3 +416,5 @@ class Pill extends StatelessWidget {
 class PriceTag extends StatelessWidget {
   const PriceTag(this.text, {super.key});
   final String text;
+
+  @override
