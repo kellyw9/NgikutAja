@@ -35,3 +35,4 @@ class SettingsPage extends StatelessWidget {
     final app = AppScope.of(context);
     final offline = app.trips.where((t) => t.offline).toList();
     Widget sw(String key, String title, [String? sub]) => ConstrainedBox(
+      constraints: BoxConstraints(minHeight: sub != null ? 60 : 50),
