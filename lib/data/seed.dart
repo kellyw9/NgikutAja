@@ -552,3 +552,5 @@ class Seed {
       Transaction(id: _trx(today, '0103'), item: bali, date: _pendingAt, method: 'Transfer Bank', amount: 35000, status: TxStatus.pending),
     ];
     final pendingTime = fromMinutes(_pendingAt.hour * 60 + _pendingAt.minute);
+
+    final yday = weekdaysLong[_d(-1).weekday - 1];
