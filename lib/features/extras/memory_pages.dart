@@ -97,3 +97,4 @@ class _PhotoViewerPageState extends State<PhotoViewerPage> {
                 child: Padding(
                   padding: const EdgeInsets.only(left: 4, right: 8),
                   child: Row(
+                    children: [
