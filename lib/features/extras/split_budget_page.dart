@@ -181,3 +181,4 @@ class _SplitBudgetPageState extends State<SplitBudgetPage> {
                                       paid,
                                       label: 'Tandai $from sudah transfer ke $to',
                                       onChanged: (v) {
+                                        v ? t.settled.add(key) : t.settled.remove(key);
