@@ -31,3 +31,5 @@ class Creator {
   String bio;
   int followers;
   int following;
+
+  /// Foto profil (kunci foto). Null = avatar inisial.
