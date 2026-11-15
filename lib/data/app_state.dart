@@ -333,3 +333,4 @@ class AppState extends ChangeNotifier {
     for (var i = 0; i < t.plan[day].length; i++) {
       if (!t.isChecked(day, i)) return i;
     }
+    return null;
