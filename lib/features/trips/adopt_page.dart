@@ -123,3 +123,4 @@ class _AdoptPageState extends State<AdoptPage> {
                   const SizedBox(height: 6),
                   _switchRow(
                     'Sehari sebelum berangkat',
+                    '${weekdaysLong[before.weekday - 1]}, ${before.day} ${monthsShort[before.month - 1]} pukul 19.00',
