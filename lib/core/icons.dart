@@ -73,3 +73,5 @@ class _IconPainter extends CustomPainter {
   @override
   bool shouldRepaint(_IconPainter old) => old.path != path || old.color != color;
 }
+
+/// Ikon berputar untuk status memuat (progress_activity).
