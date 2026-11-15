@@ -36,3 +36,5 @@ class _DayEditorPageState extends State<DayEditorPage> {
     }
     d.dayTitles[day] = dayTitle.text.trim();
   }
+
+  bool _dayHasError(int k) => d.plan[k].isEmpty || conflictsIn(d.plan[k]).isNotEmpty;
