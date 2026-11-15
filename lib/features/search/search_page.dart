@@ -88,3 +88,4 @@ class _SearchPageState extends State<SearchPage> {
       });
     } else {
       _submit(r.query);
+    }
