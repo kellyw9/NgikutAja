@@ -105,3 +105,4 @@ class _ItineraryDetailPageState extends State<ItineraryDetailPage> {
                 14,
                 children: [
                   if (it.tags.isNotEmpty) Wrap(spacing: 6, runSpacing: 6, children: [for (final t in it.tags) Pill(t, kind: PillKind.teal)]),
+                  Text(it.title, style: AppText.h1),
