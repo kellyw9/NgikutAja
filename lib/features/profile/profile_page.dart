@@ -22,3 +22,4 @@ class ProfilePage extends StatelessWidget {
       padding: const EdgeInsets.only(bottom: 24),
       children: [
         TabHeader(
+          'Profil',
