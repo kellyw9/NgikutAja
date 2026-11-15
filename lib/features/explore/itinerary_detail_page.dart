@@ -369,3 +369,4 @@ class PaidPreviewPage extends StatelessWidget {
             onPressed: () {
               if (requireLogin(context)) push(context, PurchaseDetailPage(it: it));
             },
+          ),
