@@ -136,3 +136,4 @@ class _PackingPageState extends State<PackingPage> {
                                   it.done = !it.done;
                                   app.touch();
                                 },
+                                child: SizedBox(
