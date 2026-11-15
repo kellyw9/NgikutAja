@@ -70,3 +70,4 @@ final Map<String, PageFor> pages = {
   'edit trip info': (s) => EditTripInfoPage(trip: s.trips[1]),
   'members': (s) => MembersPage(trip: s.trips[0]),
   'travel mode': (s) => TravelModePage(trip: s.trips[0]),
+  'travel stop': (s) => TravelStopPage(trip: s.trips[0], day: 0, i: 2),
