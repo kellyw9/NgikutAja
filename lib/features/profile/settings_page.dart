@@ -11,3 +11,5 @@ import '../travel/offline_page.dart';
 /// 9.7 Pengaturan (+ konfirmasi logout).
 class SettingsPage extends StatelessWidget {
   const SettingsPage({super.key});
+
+  Future<void> _logout(BuildContext context) async {
