@@ -46,3 +46,4 @@ class _PhotoPreviewPageState extends State<PhotoPreviewPage> {
                 onTap: () async {
                   final r = await showNgSheet<int>(
                     context,
+                    title: 'Aktivitas terkait',
