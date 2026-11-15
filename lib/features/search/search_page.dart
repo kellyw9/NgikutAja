@@ -87,3 +87,4 @@ class _SearchPageState extends State<SearchPage> {
         input.clear();
       });
     } else {
+      _submit(r.query);
