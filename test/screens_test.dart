@@ -45,3 +45,4 @@ typedef PageFor = Widget Function(AppState s);
 final Map<String, PageFor> pages = {
   'onboarding': (s) => const OnboardingPage(),
   'login': (s) => const LoginPage(),
+  'register': (s) => const RegisterPage(),
