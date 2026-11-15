@@ -86,3 +86,4 @@ class _PeoplePageState extends State<PeoplePage> {
         app.touch();
       },
     );
+  }
