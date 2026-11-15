@@ -80,3 +80,4 @@ class ProfilePage extends StatelessWidget {
         ),
       ],
     );
+  }
