@@ -274,3 +274,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
                             status == TripStatus.selesai
                                 ? push(context, RecapPage(trip: t))
                                 : Future.sync(() => showNgSnack(context, 'Trip recap tersedia setelah trip selesai.')),
+                        },
