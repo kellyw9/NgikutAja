@@ -173,3 +173,4 @@ class _PackingPageState extends State<PackingPage> {
                       hint: 'Tambah barang bawaan...',
                       icon: 'add',
                       onSubmitted: (_) => _add(),
+                      textInputAction: TextInputAction.done,
