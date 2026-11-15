@@ -192,3 +192,4 @@ class GoogleButton extends StatelessWidget {
         side: const BorderSide(color: AppColors.control),
       ),
       clipBehavior: Clip.antiAlias,
+      child: InkWell(
