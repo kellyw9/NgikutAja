@@ -101,3 +101,4 @@ class _CustomizePageState extends State<CustomizePage> {
     final st = plan[day][i];
     final target = await showNgSheet<int>(
       context,
+      title: 'Pindahkan aktivitas',
