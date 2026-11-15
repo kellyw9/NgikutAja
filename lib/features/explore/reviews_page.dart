@@ -131,3 +131,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
                               const SizedBox(height: 2),
                               Text('Trip ${r.date}', style: AppText.small.muted),
                             ],
+                          ),
