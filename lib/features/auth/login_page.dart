@@ -131,3 +131,4 @@ class _LoginPageState extends State<LoginPage> {
                         ),
                         const SizedBox(height: 8),
                         NgButton('Masuk', expand: true, loading: loading, onPressed: _submit),
+                        const SizedBox(height: 24),
