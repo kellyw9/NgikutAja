@@ -13,3 +13,5 @@ const _simNote = NgBanner(kind: BannerKind.info, icon: 'info', text: 'Mode simul
 class _ItemRow extends StatelessWidget {
   const _ItemRow(this.it);
   final Itinerary it;
+
+  @override
