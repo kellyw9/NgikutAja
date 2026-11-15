@@ -140,3 +140,4 @@ class ExpensesPage extends StatelessWidget {
                                     ],
                                   ),
                                 ),
+                                const SizedBox(width: 12),
