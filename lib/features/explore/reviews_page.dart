@@ -158,3 +158,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
       children: [
         for (final c in list)
           Padding(
+            padding: EdgeInsets.fromLTRB(c.replyTo != null ? kMargin + 36 : kMargin, 12, kMargin, 12),
