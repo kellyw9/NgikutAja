@@ -48,3 +48,5 @@ class Stop {
     this.desc,
     this.address,
   });
+
+  String start;
