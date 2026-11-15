@@ -245,3 +245,4 @@ class _AdoptProgressPageState extends State<AdoptProgressPage> {
             ? StatusView(
                 icon: 'progress_activity',
                 tone: AppColors.surface,
+                title: 'Menyalin itinerary...',
