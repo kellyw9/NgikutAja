@@ -217,3 +217,4 @@ class PackGroup {
 class TripPhoto {
   TripPhoto({required this.src, required this.day, required this.caption, required this.time, this.publicVisible = false});
   final String src;
+  final int day;
