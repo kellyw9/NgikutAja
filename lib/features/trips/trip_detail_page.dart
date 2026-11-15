@@ -103,3 +103,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
                   icon: 'edit',
                   expand: true,
                   onPressed: () {
+                    Navigator.pop(ctx);
