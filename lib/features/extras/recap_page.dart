@@ -23,3 +23,4 @@ class RecapPage extends StatelessWidget {
     final pins = spreadPins((t.visited()).clamp(0, 4), states: List.filled(4, MarkerState.done));
     final photos = t.photos;
     return Scaffold(
+      backgroundColor: AppColors.ground,
