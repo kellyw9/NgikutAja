@@ -90,3 +90,4 @@ class _CheckinPageState extends State<CheckinPage> {
                   if (history.isEmpty)
                     Text('Belum ada check-in hari ini.', style: AppText.body.muted)
                   else
+                    BoxList(
