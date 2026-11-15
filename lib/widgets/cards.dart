@@ -372,3 +372,4 @@ class StopRow extends StatelessWidget {
                   const SizedBox(width: 10),
                   Photo(st.photo, width: 56, height: 56, radius: AppRadius.inner),
                 ],
+              ],
