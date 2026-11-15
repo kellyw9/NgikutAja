@@ -30,3 +30,4 @@ class NgField extends StatefulWidget {
     this.inputFormatters,
     this.prefixText,
     this.textInputAction,
+    this.autofocus = false,
