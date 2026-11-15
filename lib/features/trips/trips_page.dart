@@ -52,3 +52,4 @@ class TripsPage extends StatelessWidget {
           text: 'Itinerary yang kamu simpan sebagai draft muncul di sini sampai diterbitkan.',
           action: NgButton(
             'Buat itinerary',
+            kind: BtnKind.secondary,
