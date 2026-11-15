@@ -131,3 +131,4 @@ class _ItineraryDetailPageState extends State<ItineraryDetailPage> {
                           label: 'Rating ${decimal(it.rating!)}, buka ulasan',
                           onTap: () => push(context, ReviewsPage(it: it)),
                         ),
+                      _StatChip(
