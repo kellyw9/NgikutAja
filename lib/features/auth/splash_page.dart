@@ -48,3 +48,4 @@ class _SplashPageState extends State<SplashPage> {
                     mainAxisSize: MainAxisSize.min,
                     children: [
                       SizedBox(
+                        width: 240,
