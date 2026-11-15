@@ -375,3 +375,4 @@ class StatusView extends StatelessWidget {
       builder: (context, c) => SingleChildScrollView(
         padding: EdgeInsets.fromLTRB(kMargin, top ? 28 : 24, kMargin, 24),
         child: ConstrainedBox(
+          constraints: BoxConstraints(minHeight: c.maxHeight - (top ? 52 : 48)),
