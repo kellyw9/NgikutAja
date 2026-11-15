@@ -13,3 +13,4 @@ class OnboardingPage extends StatefulWidget {
 
 class _OnboardingPageState extends State<OnboardingPage> {
   final _pc = PageController();
+  int page = 0;
