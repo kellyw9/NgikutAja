@@ -232,3 +232,4 @@ class _AddExpensePageState extends State<AddExpensePage> {
   Widget build(BuildContext context) {
     final t = widget.trip;
     final date = t.dayDate(day);
+    return Scaffold(
