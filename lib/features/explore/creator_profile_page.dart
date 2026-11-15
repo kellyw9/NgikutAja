@@ -51,3 +51,4 @@ class _CreatorProfilePageState extends State<CreatorProfilePage> {
             child: Column(
               children: [
                 Row(
+                  children: [
