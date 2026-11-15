@@ -117,3 +117,4 @@ class _RegisterPageState extends State<RegisterPage> {
                         onChanged: refresh,
                         hint: 'Minimal 8 karakter',
                         textInputAction: TextInputAction.next,
+                        autofillHints: const [AutofillHints.newPassword],
