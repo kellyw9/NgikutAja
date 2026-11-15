@@ -427,3 +427,5 @@ class AppState extends ChangeNotifier {
       ..unread = false;
     notifyListeners();
   }
+
+  void addRecent(String q) {
