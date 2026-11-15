@@ -93,3 +93,4 @@ class _RegisterPageState extends State<RegisterPage> {
                         hint: 'Nama lengkap',
                         onChanged: refresh,
                         textInputAction: TextInputAction.next,
+                        autofillHints: const [AutofillHints.name],
