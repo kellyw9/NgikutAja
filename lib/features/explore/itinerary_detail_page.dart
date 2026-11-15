@@ -364,3 +364,4 @@ class PaidPreviewPage extends StatelessWidget {
               ],
             ),
           ),
+          NgButton(
