@@ -296,3 +296,4 @@ class _PaymentStatusPageState extends State<PaymentStatusPage> {
           AppScope.read(context).completePayment(widget.tx, success: false);
         }
       });
+    }
