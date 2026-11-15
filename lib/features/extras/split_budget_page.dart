@@ -55,3 +55,4 @@ class _SplitBudgetPageState extends State<SplitBudgetPage> {
           Gap(
             16,
             children: [
+              FactStrip([
