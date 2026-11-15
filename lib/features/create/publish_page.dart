@@ -164,3 +164,4 @@ class _PublishPageState extends State<PublishPage> {
                 expand: true,
                 onPressed: ready
                     ? () {
+                        _apply();
