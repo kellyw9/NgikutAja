@@ -92,3 +92,4 @@ class _CheckinPageState extends State<CheckinPage> {
                   else
                     BoxList(
                       children: [
+                        for (final k in history)
