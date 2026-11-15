@@ -150,3 +150,4 @@ class _PackingPageState extends State<PackingPage> {
                                           label: 'Ubah ${it.name}',
                                           size: 40,
                                           iconSize: 18,
+                                          color: AppColors.muted,
