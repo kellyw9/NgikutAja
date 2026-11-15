@@ -226,3 +226,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
                     kind: BtnKind.secondary,
                     icon: 'near_me',
                     expand: true,
+                    onPressed: () => push(context, TravelModePage(trip: t), fullscreen: true),
