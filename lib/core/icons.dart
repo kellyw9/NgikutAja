@@ -40,3 +40,4 @@ class AppIcon extends StatelessWidget {
 
 class _PathBuilder extends PathProxy {
   final Path path = Path();
+  @override
