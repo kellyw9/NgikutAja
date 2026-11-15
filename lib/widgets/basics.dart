@@ -227,3 +227,4 @@ class Tap extends StatelessWidget {
 // ---------------------------------------------------------------- foto
 
 /// Foto bawaan (nama aset di assets/photos) atau foto pengguna (`mem:<id>`).
+/// Tanpa sumber: kotak sunk dengan ikon.
