@@ -94,3 +94,4 @@ class TripsPage extends StatelessWidget {
     return [
       for (final t in list) ...[
         TripCard(
+          status: tab,
