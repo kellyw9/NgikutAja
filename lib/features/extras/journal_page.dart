@@ -26,3 +26,4 @@ class _JournalPageState extends State<JournalPage> {
       title: 'Cerita perjalanan',
       builder: (ctx) => Gap(
         16,
+        children: [
