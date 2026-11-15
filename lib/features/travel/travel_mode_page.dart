@@ -393,3 +393,4 @@ class NavigationPage extends StatelessWidget {
             child: SafeArea(
               child: Padding(
                 padding: const EdgeInsets.all(12),
+                child: IconBtn('arrow_back', label: 'Kembali', bg: AppColors.surface, size: 40, onTap: () => Navigator.pop(context)),
