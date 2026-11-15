@@ -174,3 +174,4 @@ class _SplitBudgetPageState extends State<SplitBudgetPage> {
                                           Text(rp(amt), style: AppText.small.muted),
                                         ],
                                       ),
+                                    ),
