@@ -17,3 +17,4 @@ String? validateEmail(String v) {
 /// 1.3 Login. [popOnSuccess]: dibuka dari sheet "Masuk dulu", kembali ke halaman sebelumnya setelah masuk.
 class LoginPage extends StatefulWidget {
   const LoginPage({super.key, this.popOnSuccess = false});
+  final bool popOnSuccess;
