@@ -9,3 +9,5 @@ class CheckinPage extends StatefulWidget {
   final Trip trip;
   final int day;
   final int i;
+
+  @override
