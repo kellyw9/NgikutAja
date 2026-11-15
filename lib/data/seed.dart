@@ -309,3 +309,4 @@ class Seed {
         title: 'Kota Tua Medan dalam Setengah Hari',
         city: 'Medan',
         region: 'Medan, Sumatera Utara',
+        days: 1,
