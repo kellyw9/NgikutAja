@@ -32,3 +32,4 @@ class _StatChip extends StatelessWidget {
   final String label;
 
   @override
+  Widget build(BuildContext context) => Semantics(
