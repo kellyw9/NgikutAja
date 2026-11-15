@@ -50,3 +50,4 @@ ThemeData buildTheme() {
     useMaterial3: true,
     colorScheme: scheme,
     scaffoldBackgroundColor: AppColors.ground,
+    fontFamily: AppText.family,
