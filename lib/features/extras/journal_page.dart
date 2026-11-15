@@ -99,3 +99,4 @@ class _JournalPageState extends State<JournalPage> {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text('Cerita perjalanan', style: AppText.smallStrong.muted),
+                  const SizedBox(height: 4),
