@@ -119,3 +119,4 @@ class _ItineraryDetailPageState extends State<ItineraryDetailPage> {
                       _StatChip(
                         icon: 'favorite',
                         filled: app.liked.contains(it.id),
+                        text: thousands(it.likes),
