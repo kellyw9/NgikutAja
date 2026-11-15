@@ -358,3 +358,4 @@ class PaidPreviewPage extends StatelessWidget {
               mainAxisSize: MainAxisSize.min,
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
+                Text(rp(it.price), style: AppText.h2),
