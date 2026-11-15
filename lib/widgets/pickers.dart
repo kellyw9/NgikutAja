@@ -123,3 +123,4 @@ class _CalendarState extends State<_Calendar> {
                   ),
               ],
             ),
+            const SizedBox(height: 2),
