@@ -364,3 +364,4 @@ class _SearchPageState extends State<SearchPage> {
             padding: const EdgeInsets.all(kMargin),
             child: EmptyState(
               icon: 'travel_explore',
+              title: 'Itinerary tidak ditemukan',
