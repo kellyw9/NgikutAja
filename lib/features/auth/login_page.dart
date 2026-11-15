@@ -97,3 +97,4 @@ class _LoginPageState extends State<LoginPage> {
                             text: 'Periksa lagi, atau atur ulang password lewat Lupa password.',
                           ),
                         ],
+                        const SizedBox(height: 24),
