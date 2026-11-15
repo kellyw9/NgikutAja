@@ -9,3 +9,4 @@ export '../data/models.dart';
 export '../data/services.dart';
 export 'basics.dart';
 export 'cards.dart';
+export 'feedback.dart';
