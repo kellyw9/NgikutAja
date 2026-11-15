@@ -168,3 +168,4 @@ class Member {
   final String? joined;
 
   String get first => name.split(' ').first;
+}
