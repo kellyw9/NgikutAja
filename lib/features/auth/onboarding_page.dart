@@ -22,3 +22,4 @@ class _OnboardingPageState extends State<OnboardingPage> {
     ('Adopt', 'Salin itinerary orang lain ke Trip Saya.'),
     ('Customize', 'Geser jam, tambah, atau pindahkan tempat.'),
     ('Travel', 'Jalankan dengan Travel Mode saat liburan.'),
+  ];
