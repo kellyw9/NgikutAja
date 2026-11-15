@@ -426,3 +426,4 @@ class _PaymentStatusPageState extends State<PaymentStatusPage> {
 
   Widget _frame(Widget child) => Scaffold(
     backgroundColor: AppColors.ground,
+    appBar: NgAppBar(back: 'close', onBack: () => widget.fromFlow ? _closeFlow(Navigator.of(context)) : Navigator.pop(context)),
