@@ -540,3 +540,5 @@ class CreatorRow extends StatelessWidget {
   final Creator c;
   final VoidCallback? onTap;
   final VoidCallback? onGuest;
+
+  @override
