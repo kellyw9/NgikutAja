@@ -574,3 +574,4 @@ class _BudgetSlider extends StatelessWidget {
           activeTickMarkColor: Colors.transparent,
           inactiveTickMarkColor: Colors.transparent,
           showValueIndicator: ShowValueIndicator.never,
+        ),
