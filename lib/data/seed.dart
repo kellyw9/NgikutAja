@@ -219,3 +219,4 @@ class Seed {
       reviews: 58,
       tags: ['Budaya', 'Kuliner'],
       desc: 'Tiga hari tanpa sewa mobil.',
+      estimateSeed: 520000,
