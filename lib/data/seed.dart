@@ -148,3 +148,4 @@ class Seed {
           ),
           _s('15.00', '16.00', 'Jalan kaki di Kesawan', _so, 0, 'kesawan', 'Deretan ruko tua di sepanjang Jalan Ahmad Yani.'),
           _s('16.15', '17.00', 'Bika Ambon Jalan Mojopahit', _m, 60000, 'bika', 'Beli yang ukuran kecil kalau mau dibawa pulang.'),
+        ],
