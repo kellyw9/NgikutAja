@@ -43,3 +43,4 @@ class _PeoplePageState extends State<PeoplePage> {
               child: Padding(
                 padding: const EdgeInsets.symmetric(horizontal: kMargin),
                 child: Row(
+                  children: [
