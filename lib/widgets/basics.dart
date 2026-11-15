@@ -466,3 +466,5 @@ class MetaRow extends StatelessWidget {
     children: [for (final i in items.whereType<(String, String)>()) Meta(i.$1, i.$2, color: color)],
   );
 }
+
+/// Avatar inisial (belum ada foto profil asli).
