@@ -100,3 +100,4 @@ List<String> shiftCascade(List<Stop> day, Stop target, int newStart) {
           icon: 'schedule',
           title: 'Geser ${b.name} ke ${fromMinutes(ns)}',
           sub: others.isEmpty ? 'Durasi tetap ${durationText(b.duration)}' : 'Jadwal ${others.first}',
+          apply: (p) {
