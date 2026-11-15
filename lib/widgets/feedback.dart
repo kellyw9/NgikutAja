@@ -357,3 +357,4 @@ class StatusView extends StatelessWidget {
     this.middle,
     required this.actions,
     this.top = false,
+  });
