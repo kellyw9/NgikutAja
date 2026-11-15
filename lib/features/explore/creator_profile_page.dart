@@ -52,3 +52,4 @@ class _CreatorProfilePageState extends State<CreatorProfilePage> {
               children: [
                 Row(
                   children: [
+                    Expanded(child: Text('Itinerary', style: AppText.h2)),
