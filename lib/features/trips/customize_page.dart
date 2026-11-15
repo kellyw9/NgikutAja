@@ -365,3 +365,4 @@ class _CustomizePageState extends State<CustomizePage> {
               ],
               active: day,
               onTap: (d) => setState(() => day = d),
+              onAdd: _addDay,
