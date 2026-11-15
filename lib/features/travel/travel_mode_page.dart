@@ -135,3 +135,4 @@ class TravelModePage extends StatelessWidget {
                       n: i + 1,
                       last: i == stops.length - 1,
                       note: false,
+                      thumb: false,
