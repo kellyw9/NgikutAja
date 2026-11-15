@@ -458,3 +458,4 @@ class _CustomizePageState extends State<CustomizePage> {
                       const SizedBox(height: 8),
                       SingleChildScrollView(
                         scrollDirection: Axis.horizontal,
+                        child: Row(
