@@ -30,3 +30,4 @@ class _SplashPageState extends State<SplashPage> {
   @override
   void dispose() {
     _t?.cancel();
+    super.dispose();
