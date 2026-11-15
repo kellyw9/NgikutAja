@@ -52,3 +52,4 @@ class _SplitBudgetPageState extends State<SplitBudgetPage> {
       body: ListView(
         padding: const EdgeInsets.fromLTRB(kMargin, 8, kMargin, 24),
         children: [
+          Gap(
