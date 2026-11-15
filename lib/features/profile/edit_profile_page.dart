@@ -75,3 +75,4 @@ class _EditProfilePageState extends State<EditProfilePage> {
         appBar: NgAppBar(
           title: 'Edit profil',
           back: 'close',
+          onBack: () => Navigator.maybePop(context),
