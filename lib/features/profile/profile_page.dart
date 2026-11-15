@@ -30,3 +30,4 @@ class ProfilePage extends StatelessWidget {
           itins: mine.length,
           onFollowers: () => push(context, const PeoplePage(followers: true)),
           onFollowing: () => push(context, const PeoplePage(followers: false)),
+          action: NgButton(
