@@ -94,3 +94,4 @@ final Map<String, PageFor> pages = {
   'history': (s) => const PurchaseHistoryPage(),
   'tx detail': (s) => TransactionDetailPage(tx: s.transactions[0]),
   'edit profile': (s) => const EditProfilePage(),
+  'followers': (s) => const PeoplePage(followers: true),
