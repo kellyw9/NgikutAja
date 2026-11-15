@@ -200,3 +200,4 @@ class _NewPasswordPageState extends State<NewPasswordPage> {
                     NgButton('Simpan password', expand: true, onPressed: _save),
                   ],
                 ),
+              ),
