@@ -491,3 +491,4 @@ class _DayBox extends StatelessWidget {
       selected: on,
       button: true,
       child: Material(
+        color: on ? AppColors.ink : AppColors.surface,
