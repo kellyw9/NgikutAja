@@ -111,3 +111,5 @@ class _CheckinPageState extends State<CheckinPage> {
     );
   }
 }
+
+/// 11 Permission denied: dipakai saat izin lokasi perangkat dimatikan.
