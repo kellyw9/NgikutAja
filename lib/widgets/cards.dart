@@ -252,3 +252,4 @@ class TripCard extends StatelessWidget {
   final VoidCallback? onTap;
 
   @override
+  Widget build(BuildContext context) => Container(
