@@ -316,3 +316,4 @@ class _SearchPageState extends State<SearchPage> {
                 color: AppColors.surface,
                 borderRadius: BorderRadius.circular(AppRadius.inner),
                 border: Border.all(color: AppColors.line),
+              ),
