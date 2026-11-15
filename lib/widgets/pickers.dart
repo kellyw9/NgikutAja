@@ -79,3 +79,4 @@ class _CalendarState extends State<_Calendar> {
                   '$d',
                   style: (isEdge ? AppText.bodyStrong : AppText.body).c(isEdge ? AppColors.white : (disabled ? AppColors.control : AppColors.ink)),
                 ),
+              ),
