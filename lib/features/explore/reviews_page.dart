@@ -63,3 +63,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
       children: [
         if (it.rating == null)
           const EmptyState(
+            icon: 'rate_review',
