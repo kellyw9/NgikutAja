@@ -239,3 +239,4 @@ class _AdoptProgressPageState extends State<AdoptProgressPage> {
     final busy = trip == null && !failed;
     return PopScope(
       canPop: !busy,
+      child: Scaffold(
