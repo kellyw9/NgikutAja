@@ -74,3 +74,4 @@ class MapView extends StatelessWidget {
                       label: 'Posisi saya',
                       child: Container(
                         width: 22,
+                        height: 22,
