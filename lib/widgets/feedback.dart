@@ -29,3 +29,4 @@ class NgBanner extends StatelessWidget {
     return Semantics(
       liveRegion: kind == BannerKind.error,
       container: true,
+      child: Container(
