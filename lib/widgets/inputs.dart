@@ -418,3 +418,4 @@ class Segmented extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       height: 40,
+      padding: const EdgeInsets.all(3),
