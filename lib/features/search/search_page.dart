@@ -415,3 +415,4 @@ class _SearchPageState extends State<SearchPage> {
     title: 'Urutkan hasil',
     builder: (ctx) => Column(
       children: [
+        for (final s in _sorts)
