@@ -33,3 +33,4 @@ class SearchFilter {
 
   bool match(Itinerary it) {
     final d = it.days;
+    if (duration == '1 hari' && d != 1) return false;
