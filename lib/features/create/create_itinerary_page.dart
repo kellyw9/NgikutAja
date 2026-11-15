@@ -73,3 +73,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
     final r = await showNgSheet<String>(
       context,
       title: 'Tambah tag',
+      sub: 'Maksimal 5 tag per itinerary.',
