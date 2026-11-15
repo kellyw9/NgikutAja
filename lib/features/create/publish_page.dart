@@ -246,3 +246,4 @@ class PublishedPage extends StatelessWidget {
                     const SizedBox(height: 24),
                     NgButton(
                       'Lihat itinerary',
+                      expand: true,
