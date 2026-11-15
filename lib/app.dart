@@ -40,3 +40,4 @@ ThemeData buildTheme() {
   final scheme = ColorScheme.fromSeed(
     seedColor: AppColors.ink,
     primary: AppColors.ink,
+    onPrimary: AppColors.white,
