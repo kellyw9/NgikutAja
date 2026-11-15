@@ -101,3 +101,4 @@ class _RegisterPageState extends State<RegisterPage> {
                         label: 'Email',
                         icon: 'mail',
                         controller: email,
+                        hint: 'nama@email.com',
