@@ -313,3 +313,4 @@ class _SearchPageState extends State<SearchPage> {
               height: 36,
               alignment: Alignment.center,
               decoration: BoxDecoration(
+                color: AppColors.surface,
