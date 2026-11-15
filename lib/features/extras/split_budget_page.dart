@@ -140,3 +140,4 @@ class _SplitBudgetPageState extends State<SplitBudgetPage> {
                   const SizedBox(height: 8),
                   if (settle.isEmpty)
                     Text(
+                      total == 0 ? 'Belum ada pengeluaran yang dicatat.' : 'Semua sudah pas, tidak ada yang perlu transfer.',
