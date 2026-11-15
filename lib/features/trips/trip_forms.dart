@@ -157,3 +157,4 @@ class _EditStopPageState extends State<EditStopPage> {
                   ),
                 ],
               ),
+              NgField(label: 'Jam selesai', value: end, readOnly: true, helper: 'Otomatis: jam mulai ditambah durasi.', fill: AppColors.surfaceSoft),
