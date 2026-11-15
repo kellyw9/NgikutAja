@@ -482,3 +482,4 @@ class Avatar extends StatelessWidget {
   Widget build(BuildContext context) {
     if (photo != null) {
       return ClipOval(
+        child: Photo(photo, width: size, height: size, semantic: 'Foto profil $name'),
