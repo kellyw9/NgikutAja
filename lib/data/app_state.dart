@@ -98,3 +98,4 @@ class AppState extends ChangeNotifier {
     _accounts[email.trim().toLowerCase()] = password;
     _prefs?.setString('accounts', jsonEncode(_accounts));
     me.name = name.trim();
+    _setLoggedIn(true);
