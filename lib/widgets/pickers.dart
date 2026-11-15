@@ -147,3 +147,4 @@ Future<Category?> pickCategory(BuildContext context, Category current) {
     title: 'Kategori aktivitas',
     builder: (ctx) => Column(
       children: [
+        for (var i = 0; i < Category.values.length; i++) ...[
