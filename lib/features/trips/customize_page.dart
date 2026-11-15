@@ -135,3 +135,4 @@ class _CustomizePageState extends State<CustomizePage> {
                 Column(
                   children: [
                     for (var d = 0; d < plan.length; d++) ...[
+                      if (d > 0) const NgDivider(color: AppColors.line),
