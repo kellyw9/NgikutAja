@@ -16,3 +16,4 @@ class _SplitBudgetPageState extends State<SplitBudgetPage> {
   late final Map<String, int> portion = {for (final m in widget.trip.members) m.first: 1};
 
   @override
+  Widget build(BuildContext context) {
