@@ -488,3 +488,4 @@ class Avatar extends StatelessWidget {
     final style = size >= 56 ? AppText.h2 : (size >= 32 ? AppText.bodyStrong : AppText.smallStrong);
     return Semantics(
       label: name,
+      child: Container(
