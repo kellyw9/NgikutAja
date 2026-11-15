@@ -17,3 +17,4 @@ enum BtnSize { lg, md }
 class NgButton extends StatelessWidget {
   const NgButton(
     this.label, {
+    super.key,
