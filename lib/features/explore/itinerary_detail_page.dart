@@ -355,3 +355,4 @@ class PaidPreviewPage extends StatelessWidget {
         children: [
           Expanded(
             child: Column(
+              mainAxisSize: MainAxisSize.min,
