@@ -87,3 +87,4 @@ final Map<String, PageFor> pages = {
   'memory': (s) => PhotoMemoryPage(trip: s.trips[2]),
   'viewer': (s) => PhotoViewerPage(trip: s.trips[2], index: 1),
   'recap': (s) => RecapPage(trip: s.trips[2]),
+  'buy': (s) => PurchaseDetailPage(it: s.itinerary('toba')),
