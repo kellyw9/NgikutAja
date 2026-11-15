@@ -145,3 +145,4 @@ class IconBtn extends StatelessWidget {
             borderRadius: radius,
             side: stroke != null ? BorderSide(color: stroke!) : BorderSide.none,
           ),
+          clipBehavior: Clip.antiAlias,
