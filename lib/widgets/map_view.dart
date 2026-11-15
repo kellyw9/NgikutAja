@@ -28,3 +28,4 @@ class MapView extends StatelessWidget {
     this.ring,
     this.onTapPoint,
     this.label = true,
+    this.overlay = const [],
