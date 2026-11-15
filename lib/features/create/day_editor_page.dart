@@ -256,3 +256,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
                           push(context, PublishPage(d: d));
                         },
                 ),
+              ],
