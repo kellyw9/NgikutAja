@@ -48,3 +48,4 @@ class _JournalPageState extends State<JournalPage> {
       scroll: true,
       builder: (ctx) => Gap(
         16,
+        children: [
