@@ -66,3 +66,4 @@ List<String> shiftCascade(List<Stop> day, Stop target, int newStart) {
         ..end = fromMinutes(ns + d);
       moved.add('${s.name} ikut mundur ke ${s.start}–${s.end}');
     }
+    cursor = s.endMin;
