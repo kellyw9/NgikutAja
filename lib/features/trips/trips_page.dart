@@ -15,3 +15,4 @@ class TripsPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final app = AppScope.of(context);
+    return ValueListenableBuilder<TripStatus>(
