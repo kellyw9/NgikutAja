@@ -270,3 +270,4 @@ class PublishedPage extends StatelessWidget {
       ),
     );
   }
+}
