@@ -335,3 +335,4 @@ class DashedAction extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             AppIcon(icon, size: 20),
+            const SizedBox(width: 8),
