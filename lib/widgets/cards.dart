@@ -286,3 +286,4 @@ class TripCard extends StatelessWidget {
                       MetaRow([('location_on', city.isEmpty ? 'Belum diatur' : city), ('calendar_month', dates ?? 'Tanggal belum diatur')]),
                     ],
                   ),
+                ),
