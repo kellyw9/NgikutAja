@@ -66,3 +66,4 @@ final Map<String, PageFor> pages = {
   'trip detail': (s) => TripDetailPage(trip: s.trips[1]),
   'trip detail berjalan': (s) => TripDetailPage(trip: s.trips[0]),
   'customize': (s) => CustomizePage(trip: s.trips[1]),
+  'edit stop': (s) => EditStopPage(stop: s.trips[1].plan[0][3].copy(), dayLabel: 'Hari 1, Sabtu 12 Des'),
