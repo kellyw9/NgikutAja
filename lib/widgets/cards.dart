@@ -583,3 +583,4 @@ class CreatorRow extends StatelessWidget {
               following ? 'Mengikuti' : 'Ikuti',
               kind: following ? BtnKind.ghost : BtnKind.secondary,
               size: BtnSize.md,
+              icon: following ? 'check' : null,
