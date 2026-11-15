@@ -421,3 +421,4 @@ class NavigationPage extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Text(st.name, style: AppText.h2),
+                          const SizedBox(height: 2),
