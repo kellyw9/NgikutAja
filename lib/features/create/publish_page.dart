@@ -35,3 +35,4 @@ class _PublishPageState extends State<PublishPage> {
       ('Semua hari memiliki stop', d.plan.every((x) => x.isNotEmpty)),
       ('Jam tidak bentrok', d.plan.every((x) => conflictsIn(x).isEmpty)),
       if (paid) ('Harga minimal Rp5.000', parseRupiah(price.text) >= 5000),
+    ];
