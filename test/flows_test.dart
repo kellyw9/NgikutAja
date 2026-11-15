@@ -29,3 +29,4 @@ Future<void> phone(WidgetTester tester) async {
 
 Future<void> tapText(WidgetTester tester, String text, {bool button = false}) async {
   final f = button ? find.widgetWithText(NgButton, text) : find.text(text);
+  await tester.ensureVisible(f.first);
