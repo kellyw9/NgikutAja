@@ -319,3 +319,5 @@ class StopRow extends StatelessWidget {
     this.conflict = false,
     this.onTap,
   });
+
+  final Stop st;
