@@ -365,3 +365,4 @@ class _PaymentStatusPageState extends State<PaymentStatusPage> {
                 kind: BtnKind.secondary,
                 expand: true,
                 onPressed: () {
+                  final nav = Navigator.of(context);
