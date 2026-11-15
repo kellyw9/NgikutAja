@@ -73,3 +73,4 @@ class SettingsPage extends StatelessWidget {
           Gap(
             16,
             children: [
+              group('Aplikasi', [ListRow(icon: 'language', title: 'Bahasa tampilan', sub: 'Bahasa Indonesia', trailing: null, padH: 14)]),
