@@ -425,3 +425,4 @@ class _PaymentStatusPageState extends State<PaymentStatusPage> {
   }
 
   Widget _frame(Widget child) => Scaffold(
+    backgroundColor: AppColors.ground,
