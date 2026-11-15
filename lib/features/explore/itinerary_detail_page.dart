@@ -227,3 +227,4 @@ class _ItineraryDetailPageState extends State<ItineraryDetailPage> {
             'Adopt itinerary',
             icon: 'luggage',
             onPressed: () {
+              if (requireLogin(context)) push(context, AdoptPage(it: it), fullscreen: true);
