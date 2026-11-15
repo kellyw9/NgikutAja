@@ -44,3 +44,4 @@ class RecapPage extends StatelessWidget {
               ),
               FactStrip([
                 ('Tempat dikunjungi', '${t.visited()} dari ${t.places()}'),
+                ('Total pengeluaran', rp(t.spending())),
