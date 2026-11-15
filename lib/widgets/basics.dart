@@ -408,3 +408,4 @@ class Pill extends StatelessWidget {
           Text(text, style: AppText.smallStrong.c(fg)),
         ],
       ),
+    );
