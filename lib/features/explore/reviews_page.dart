@@ -174,3 +174,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
                         crossAxisAlignment: WrapCrossAlignment.center,
                         children: [
                           Text(c.name, style: AppText.bodyStrong),
+                          if (c.creator) const Pill('Creator', kind: PillKind.teal),
