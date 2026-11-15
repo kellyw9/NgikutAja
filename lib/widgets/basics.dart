@@ -280,3 +280,4 @@ class DashedBox extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) => CustomPaint(painter: _DashPainter(color, radius, width, fill), child: child);
+}
