@@ -119,3 +119,4 @@ class ExpensesPage extends StatelessWidget {
                 BoxList(
                   children: [
                     for (final e in list)
+                      Tap(
