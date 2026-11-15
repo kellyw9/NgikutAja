@@ -162,3 +162,5 @@ class _OnboardingPageState extends State<OnboardingPage> {
       ),
     ),
   ]);
+
+  Widget _interests() => _scroll([
