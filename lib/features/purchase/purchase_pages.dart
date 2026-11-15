@@ -341,3 +341,4 @@ class _PaymentStatusPageState extends State<PaymentStatusPage> {
                   app.completePayment(tx);
                 },
               ),
+            ],
