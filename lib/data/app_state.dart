@@ -414,3 +414,4 @@ class AppState extends ChangeNotifier {
       n.unread = false;
     }
     notifyListeners();
+  }
