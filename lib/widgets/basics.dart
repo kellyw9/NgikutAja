@@ -518,3 +518,4 @@ class Wordmark extends StatelessWidget {
           children: [
             Container(
               width: mark,
+              height: mark,
