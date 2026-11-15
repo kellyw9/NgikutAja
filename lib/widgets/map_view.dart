@@ -225,3 +225,4 @@ List<MapPin> spreadPins(int count, {List<MarkerState>? states}) {
   const base = [
     Offset(.12, .62),
     Offset(.3, .3),
+    Offset(.43, .52),
