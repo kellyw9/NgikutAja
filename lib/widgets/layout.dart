@@ -396,3 +396,4 @@ class NgCard extends StatelessWidget {
 class HeroPhoto extends StatelessWidget {
   const HeroPhoto(this.photo, {super.key, this.height = 260, this.left = 'arrow_back', this.onLeft, this.right = const [], this.semantic});
   final String? photo;
+  final double height;
