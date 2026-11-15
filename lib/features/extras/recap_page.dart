@@ -101,3 +101,4 @@ class RecapPage extends StatelessWidget {
                     children: [
                       Text('Dari catatan Hari ${t.recapNote!.$1}', style: AppText.smallStrong.muted),
                       const SizedBox(height: 4),
+                      Text(t.recapNote!.$2, style: AppText.body),
