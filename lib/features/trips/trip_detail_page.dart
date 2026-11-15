@@ -48,3 +48,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
             Navigator.pop(ctx);
             push(context, const OfflinePage());
           },
+        ),
