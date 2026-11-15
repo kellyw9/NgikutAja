@@ -131,3 +131,4 @@ class IconBtn extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final boxed = bg != null || stroke != null;
