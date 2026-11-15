@@ -67,3 +67,4 @@ class TripsPage extends StatelessWidget {
           city: d.city,
           days: d.days,
           cover: d.cover,
+          onTap: () => push(context, CreateItineraryPage(draft: d), fullscreen: true),
