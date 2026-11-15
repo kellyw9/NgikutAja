@@ -92,3 +92,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
                             for (final e in dist.entries) ...[
                               Row(
                                 children: [
+                                  SizedBox(width: 10, child: Text('${e.key}', style: AppText.small.muted)),
