@@ -13,3 +13,4 @@ class NgBanner extends StatelessWidget {
   final String? title;
   final String? text;
   final String? action;
+  final VoidCallback? onAction;
