@@ -151,3 +151,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
   Widget _comments(AppState app, Itinerary it) {
     final list = app.commentsOf(it);
     if (list.isEmpty) {
+      return const EmptyState(icon: 'chat_bubble', title: 'Belum ada komentar', text: 'Tanyakan jam buka, rute, atau tips ke creator di sini.');
