@@ -79,3 +79,4 @@ final Map<String, PageFor> pages = {
   'add expense': (s) => AddExpensePage(trip: s.trips[0]),
   'offline': (s) => const OfflinePage(),
   'split': (s) => SplitBudgetPage(trip: s.trips[0]),
+  'packing': (s) => PackingPage(trip: s.trips[0]),
