@@ -202,3 +202,4 @@ class _InterestCard extends StatelessWidget {
         children: [
           Photo(photo, width: 104, height: 84, radius: AppRadius.inner),
           const SizedBox(width: 14),
+          Expanded(
