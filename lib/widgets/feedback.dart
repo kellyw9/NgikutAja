@@ -238,3 +238,4 @@ class EmptyState extends StatelessWidget {
   final String icon;
   final String title;
   final String text;
+  final Widget? action;
