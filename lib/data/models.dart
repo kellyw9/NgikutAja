@@ -87,3 +87,4 @@ class Itinerary {
     this.tags = const [],
     this.desc = '',
     List<String>? dayTitles,
+    List<List<Stop>>? plan,
