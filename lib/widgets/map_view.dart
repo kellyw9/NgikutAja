@@ -233,3 +233,4 @@ List<MapPin> spreadPins(int count, {List<MarkerState>? states}) {
     Offset(.6, .76),
   ];
   return [
+    for (var i = 0; i < count && i < base.length; i++)
