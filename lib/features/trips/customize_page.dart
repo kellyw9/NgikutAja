@@ -348,3 +348,4 @@ class _CustomizePageState extends State<CustomizePage> {
                       iconSize: 18,
                       onTap: () => push(context, EditTripInfoPage(trip: t), fullscreen: true).then((_) => setState(() {})),
                     ),
+                  ],
