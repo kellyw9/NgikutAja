@@ -124,3 +124,4 @@ class _MapPainter extends CustomPainter {
     canvas.drawRect(Offset.zero & s, Paint()..color = AppColors.mapLand);
     final road = Paint()
       ..color = AppColors.white
+      ..style = PaintingStyle.stroke
