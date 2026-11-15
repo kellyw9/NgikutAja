@@ -213,3 +213,5 @@ class PackGroup {
   final String name;
   final List<PackItem> items;
 }
+
+class TripPhoto {
