@@ -125,3 +125,4 @@ class _RegisterPageState extends State<RegisterPage> {
                         children: [
                           Progress(sv, width: 120, fill: sc),
                           const SizedBox(width: 8),
+                          Expanded(child: Text(st, style: AppText.small.muted)),
