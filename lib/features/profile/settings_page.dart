@@ -133,3 +133,4 @@ class AboutPage extends StatelessWidget {
                 Text('Versi 1.0.0. Aplikasi itinerary liburan sosial untuk Tugas Besar Pemrograman Mobile.', style: AppText.body),
                 const NgBanner(
                   kind: BannerKind.info,
+                  text:
