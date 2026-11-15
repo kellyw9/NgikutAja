@@ -266,3 +266,5 @@ class Trip {
        checkins = checkins ?? {},
        photos = photos ?? [],
        journal = journal ?? {};
+
+  final String id;
