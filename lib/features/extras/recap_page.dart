@@ -54,3 +54,4 @@ class RecapPage extends StatelessWidget {
                   const SizedBox(height: 8),
                   MapView(height: 170, pins: pins),
                   const SizedBox(height: 8),
+                  if (names.isNotEmpty)
