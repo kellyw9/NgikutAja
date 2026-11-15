@@ -84,3 +84,4 @@ class _PhotoViewerPageState extends State<PhotoViewerPage> {
   Widget build(BuildContext context) {
     final t = widget.trip;
     final p = t.photos[i];
+    final date = t.dayDate(p.day);
