@@ -265,3 +265,4 @@ class Seed {
         adopted: 73,
         likes: 198,
         rating: 4.8,
+        reviews: 17,
