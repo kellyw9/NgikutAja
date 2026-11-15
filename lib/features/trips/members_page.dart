@@ -150,3 +150,4 @@ class MembersPage extends StatelessWidget {
                   set(() => err = 'Orang ini sudah ada di trip');
                   return;
                 }
+                app.inviteMember(trip, v.contains('@') && !v.startsWith('@') ? '@${v.split('@').first}' : v, role);
