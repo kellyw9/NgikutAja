@@ -58,3 +58,4 @@ class NgAppBar extends StatelessWidget implements PreferredSizeWidget {
       children: [
         if (title != null && title!.isNotEmpty)
           Semantics(
+            header: true,
