@@ -190,3 +190,4 @@ class _SearchPageState extends State<SearchPage> {
                     onTap: () {
                       input.clear();
                       setState(() => submitted = null);
+                      focus.requestFocus();
