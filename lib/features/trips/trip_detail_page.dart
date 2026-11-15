@@ -31,3 +31,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
     builder: (ctx) => Column(
       children: [
         ListRow(
+          icon: 'edit',
