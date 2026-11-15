@@ -291,3 +291,4 @@ class Trip {
   String? syncedAt;
   bool remindDayBefore;
   bool remindEach;
+  int remindOffset;
