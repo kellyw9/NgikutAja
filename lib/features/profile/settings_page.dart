@@ -92,3 +92,4 @@ class SettingsPage extends StatelessWidget {
                   padH: 14,
                   onTap: () => push(context, const OfflinePage()),
                 ),
+              ]),
