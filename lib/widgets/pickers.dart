@@ -73,3 +73,4 @@ class _CalendarState extends State<_Calendar> {
               child: Container(
                 width: 34,
                 height: 34,
+                alignment: Alignment.center,
