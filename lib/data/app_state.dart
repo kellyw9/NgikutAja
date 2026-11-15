@@ -245,3 +245,4 @@ class AppState extends ChangeNotifier {
     transactions.insert(0, tx);
     notifyListeners();
     return tx;
+  }
