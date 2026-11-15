@@ -309,3 +309,4 @@ class Trip {
 
   TripStatus statusOn(DateTime today) {
     if (start == null) return TripStatus.draft;
+    final t = DateTime(today.year, today.month, today.day);
