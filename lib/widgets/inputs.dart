@@ -247,3 +247,4 @@ class NgToggle extends StatelessWidget {
                     child: AnimatedContainer(
                       duration: const Duration(milliseconds: 160),
                       width: value ? 24 : 16,
+                      height: value ? 24 : 16,
