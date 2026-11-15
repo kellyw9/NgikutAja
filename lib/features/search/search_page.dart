@@ -276,3 +276,4 @@ class _SearchPageState extends State<SearchPage> {
   );
 
   Widget _suggestions(AppState app) {
+    final q = input.text.trim().toLowerCase();
