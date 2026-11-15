@@ -388,3 +388,4 @@ class _PaymentStatusPageState extends State<PaymentStatusPage> {
             tone: AppColors.negativePale,
             iconColor: AppColors.negativeInk,
             title: 'Pembayaran gagal',
+            text: widget.offlineFail
