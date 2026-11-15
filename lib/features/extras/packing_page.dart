@@ -143,3 +143,4 @@ class _PackingPageState extends State<PackingPage> {
                                     child: Row(
                                       children: [
                                         CheckMark(it.done),
+                                        const SizedBox(width: 10),
