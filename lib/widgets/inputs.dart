@@ -301,3 +301,4 @@ class RadioRow extends StatelessWidget {
           height: height,
           child: Row(
             children: [
+              Expanded(
