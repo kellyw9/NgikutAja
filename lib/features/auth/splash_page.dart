@@ -39,3 +39,4 @@ class _SplashPageState extends State<SplashPage> {
       value: kLightIcons,
       child: Scaffold(
         backgroundColor: AppColors.ink,
+        body: SafeArea(
