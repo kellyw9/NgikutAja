@@ -318,3 +318,4 @@ class _StopCard extends StatelessWidget {
               ], color: conflict ? AppColors.negative : AppColors.muted),
             ],
           ),
+        ),
