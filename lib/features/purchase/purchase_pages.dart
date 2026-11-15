@@ -525,3 +525,4 @@ class TransactionDetailPage extends StatelessWidget {
         ],
       ),
       bottomNavigationBar: SafeArea(
+        child: Padding(
