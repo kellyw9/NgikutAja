@@ -97,3 +97,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
                 padding: const EdgeInsets.fromLTRB(kMargin, 0, kMargin, 12),
                 child: NgBanner(kind: BannerKind.error, title: conflictMsg, text: 'Periksa kembali jadwal waktu kunjungan atau atur ulang durasi.'),
               ),
+            SingleChildScrollView(
