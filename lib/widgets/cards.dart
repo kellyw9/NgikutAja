@@ -167,3 +167,4 @@ class WisataCard extends StatelessWidget {
                 if (it.estimate != null) ('payments', 'Estimasi ${rp(it.estimate!)}'),
               ]),
               const SizedBox(height: 10),
+              Row(
