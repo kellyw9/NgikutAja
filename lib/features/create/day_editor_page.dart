@@ -280,3 +280,4 @@ class _StopCard extends StatelessWidget {
       borderRadius: BorderRadius.circular(AppRadius.card),
       border: Border.all(color: conflict ? AppColors.negative : AppColors.line, width: conflict ? 2 : 1),
     ),
+    child: Row(
