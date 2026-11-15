@@ -80,3 +80,4 @@ class _EditProfilePageState extends State<EditProfilePage> {
         ),
         body: ListView(
           padding: const EdgeInsets.fromLTRB(kMargin, 8, kMargin, 16),
+          children: [
