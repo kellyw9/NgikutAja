@@ -483,3 +483,4 @@ class PurchaseHistoryPage extends StatelessWidget {
                             Text(txDate(t.date), style: AppText.small.muted),
                             const SizedBox(height: 4),
                             Pill(t.status.label, kind: kind(t.status)),
+                          ],
