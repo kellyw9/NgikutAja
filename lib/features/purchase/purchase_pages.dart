@@ -136,3 +136,4 @@ class PurchaseConfirmPage extends StatelessWidget {
             KeyValueBox(
               [('Harga itinerary', rp(it.price)), ('Biaya layanan', rp(0))],
               total: ('Total pembayaran', rp(it.price)),
+              fill: AppColors.surface,
