@@ -441,3 +441,4 @@ class _SearchPageState extends State<SearchPage> {
           final n = q.isEmpty ? app.itineraries.where((x) => !x.isDraft && draft.match(x)).length : results(app, q, draft).length;
           Widget group(String label, Widget child) => Column(
             crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
