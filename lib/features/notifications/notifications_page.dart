@@ -167,3 +167,4 @@ class NotificationDetailPage extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(st == null ? 'Pengingat aktivitas' : '30 menit lagi: ${st.name}', style: AppText.h1),
+                  const SizedBox(height: 4),
