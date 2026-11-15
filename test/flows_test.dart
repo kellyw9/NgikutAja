@@ -59,3 +59,4 @@ void main() {
     await tapText(tester, 'Masuk', button: true);
     await tester.pump(const Duration(milliseconds: 700));
     await tester.pump(const Duration(seconds: 1));
+    expect(s.loggedIn, isTrue);
