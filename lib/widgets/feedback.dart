@@ -8,3 +8,4 @@ import 'basics.dart';
 enum BannerKind { warning, error, info, offline, success }
 
 class NgBanner extends StatelessWidget {
+  const NgBanner({super.key, this.kind = BannerKind.warning, this.title, this.text, this.action, this.onAction, this.icon});
