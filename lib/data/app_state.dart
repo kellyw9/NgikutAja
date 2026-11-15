@@ -213,3 +213,5 @@ class AppState extends ChangeNotifier {
 
   // ---------------- ulasan dan komentar ----------------
   late Map<String, List<Comment>> comments;
+
+  List<Review> reviewsOf(Itinerary it) => it.id == 'medan' ? seed.reviews : const [];
