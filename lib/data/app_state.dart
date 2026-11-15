@@ -250,3 +250,4 @@ class AppState extends ChangeNotifier {
   void completePayment(Transaction tx, {bool success = true}) {
     tx.status = success ? TxStatus.berhasil : TxStatus.gagal;
     if (success) purchased.add(tx.item.id);
+    notifyListeners();
