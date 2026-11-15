@@ -182,3 +182,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
                     radius: 4,
                     child: Row(
                       children: [
+                        Avatar(it.creator.name, size: 20, tint: it.creator.tint),
