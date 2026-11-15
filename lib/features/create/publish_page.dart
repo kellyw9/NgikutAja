@@ -103,3 +103,4 @@ class _PublishPageState extends State<PublishPage> {
                   crossAxisAlignment: CrossAxisAlignment.stretch,
                   children: [
                     typeCard(false, 'Gratis', 'Bebas diadopsi siapa saja secara cuma-cuma.'),
+                    const SizedBox(width: 12),
