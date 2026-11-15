@@ -72,3 +72,5 @@ class _PeoplePageState extends State<PeoplePage> {
       ),
     );
   }
+
+  Widget _btn(AppState app, Person p) {
