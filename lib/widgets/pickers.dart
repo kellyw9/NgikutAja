@@ -57,3 +57,4 @@ class _CalendarState extends State<_Calendar> {
       final disabled = date.isBefore(widget.first);
       final isEdge = same(date, sel) || same(date, end);
       final inRange = date.isAfter(sel) && date.isBefore(end);
+      return Expanded(
