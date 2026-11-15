@@ -137,3 +137,4 @@ class BottomNav extends StatelessWidget {
             borderRadius: const BorderRadius.vertical(bottom: Radius.circular(3)),
           ),
         ),
+        Expanded(
