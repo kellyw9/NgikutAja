@@ -6,3 +6,4 @@ import '../../widgets/ui.dart';
 /// dalam radius 100 m, aktivitas lain dianggap masih jauh. Teks banner menyebut "simulasi".
 class CheckinPage extends StatefulWidget {
   const CheckinPage({super.key, required this.trip, required this.day, required this.i});
+  final Trip trip;
