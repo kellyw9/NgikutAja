@@ -78,3 +78,4 @@ class _PublishPageState extends State<PublishPage> {
             16,
             children: [
               NgCard(
+                child: Row(
