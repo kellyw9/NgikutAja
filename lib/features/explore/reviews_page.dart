@@ -9,3 +9,4 @@ class ReviewsPage extends StatefulWidget {
   final bool comments;
 
   @override
+  State<ReviewsPage> createState() => _ReviewsPageState();
