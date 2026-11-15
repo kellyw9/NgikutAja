@@ -234,3 +234,4 @@ class NgToggle extends StatelessWidget {
             shape: StadiumBorder(side: value ? BorderSide.none : const BorderSide(color: AppColors.control, width: 1.5)),
             clipBehavior: Clip.antiAlias,
             child: InkWell(
+              onTap: onChanged == null ? null : () => onChanged!(!value),
