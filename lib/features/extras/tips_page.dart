@@ -61,3 +61,4 @@ class TipDetailPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) => Scaffold(
     backgroundColor: AppColors.ground,
+    appBar: const NgAppBar(),
