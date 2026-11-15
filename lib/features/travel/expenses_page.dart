@@ -173,3 +173,5 @@ class AddExpensePage extends StatefulWidget {
   const AddExpensePage({super.key, required this.trip, this.edit});
   final Trip trip;
   final Expense? edit;
+
+  @override
