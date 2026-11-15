@@ -7,3 +7,4 @@ Future<T?> replace<T>(BuildContext context, Widget page) =>
     Navigator.of(context).pushReplacement<T, Object?>(MaterialPageRoute(builder: (_) => page));
 
 /// Ganti seluruh tumpukan halaman (setelah login, logout, onboarding).
+void resetTo(BuildContext context, Widget page) => Navigator.of(context).pushAndRemoveUntil(MaterialPageRoute(builder: (_) => page), (_) => false);
