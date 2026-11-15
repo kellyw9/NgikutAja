@@ -175,3 +175,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
                   ],
                 ),
                 Text(t.title, style: AppText.h1),
+                MetaRow([('location_on', t.city), ('calendar_month', t.dates ?? 'Tanggal belum diatur'), ('schedule', '${t.days} hari')]),
