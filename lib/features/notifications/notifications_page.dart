@@ -82,3 +82,4 @@ class NotificationsPage extends StatelessWidget {
                   children: [
                     Text.rich(
                       TextSpan(
+                        style: AppText.body,
