@@ -411,3 +411,4 @@ class Seed {
         desc: 'Versi baru dengan tambahan lontong pagi.',
         dayTitles: ['Sarapan'],
         plan: [
+          [_s('07.00', '07.45', 'Soto Kesawan', _m, 35000, 'soto')],
