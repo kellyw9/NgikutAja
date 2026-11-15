@@ -8,3 +8,4 @@ class TipsPage extends StatelessWidget {
   final Trip trip;
 
   @override
+  Widget build(BuildContext context) {
