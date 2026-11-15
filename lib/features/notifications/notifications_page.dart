@@ -193,3 +193,4 @@ class NotificationDetailPage extends StatelessWidget {
                             Text(st.name, style: AppText.bodyStrong),
                             const SizedBox(height: 2),
                             MetaRow([
+                              ('schedule', '${st.start}–${st.end}'),
