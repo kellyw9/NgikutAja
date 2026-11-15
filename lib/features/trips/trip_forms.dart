@@ -114,3 +114,4 @@ class _EditStopPageState extends State<EditStopPage> {
                 icon: cat.icon,
                 value: cat.label,
                 trailing: 'expand_more',
+                onTap: () async {
