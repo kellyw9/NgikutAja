@@ -332,3 +332,4 @@ class _PaymentStatusPageState extends State<PaymentStatusPage> {
                 icon: 'sync',
                 expand: true,
                 onPressed: () => showNgSnack(context, 'Belum ada pembayaran masuk untuk ${tx.id}.'),
+              ),
