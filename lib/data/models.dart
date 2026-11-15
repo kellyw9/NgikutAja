@@ -113,3 +113,5 @@ class Itinerary {
   String desc;
   List<String> dayTitles;
   List<List<Stop>> plan;
+
+  /// Biaya penginapan yang ikut dihitung ke estimasi.
