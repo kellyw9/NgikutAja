@@ -21,3 +21,5 @@ void shareItinerary(Itinerary it) => shareText(
   '${it.title}\n${it.days} hari di ${it.region}, oleh ${it.creator.handle}. Lihat dan adopt rutenya di aplikasi NgikutAja.',
   subject: it.title,
 );
+
+/// Kotak statistik kecil: suka, ulasan, komentar.
