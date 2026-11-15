@@ -94,3 +94,4 @@ class _PhotoPreviewPageState extends State<PhotoPreviewPage> {
                       publicVisible: vis == 'Public',
                     ),
                   );
+                  Navigator.pop(context);
