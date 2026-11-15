@@ -202,3 +202,5 @@ Future<String?> pickPhotoSheet(BuildContext context, {String title = 'Tambah fot
     return null;
   }
 }
+
+/// Fitur akun (Wishlist, adopt, komentar, dll.) butuh login. Mengembalikan true kalau sudah login.
