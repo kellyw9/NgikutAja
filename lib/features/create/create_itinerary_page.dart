@@ -95,3 +95,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
                 bg: AppColors.ink,
                 color: AppColors.white,
                 size: 48,
+                onTap: () => Navigator.pop(ctx, input.text.trim()),
