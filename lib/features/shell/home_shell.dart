@@ -73,3 +73,5 @@ class BottomNav extends StatelessWidget {
   final ValueChanged<int> onTap;
 
   static const items = [('explore', 'Explore'), ('search', 'Cari'), ('add', 'Create'), ('luggage', 'Trip Saya'), ('person', 'Profil')];
+
+  @override
