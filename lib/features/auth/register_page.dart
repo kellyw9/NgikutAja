@@ -124,3 +124,4 @@ class _RegisterPageState extends State<RegisterPage> {
                       Row(
                         children: [
                           Progress(sv, width: 120, fill: sc),
+                          const SizedBox(width: 8),
