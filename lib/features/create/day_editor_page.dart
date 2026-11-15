@@ -289,3 +289,4 @@ class _StopCard extends StatelessWidget {
             child: const MouseRegion(
               cursor: SystemMouseCursors.grab,
               child: SizedBox(
+                width: 36,
