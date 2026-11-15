@@ -465,3 +465,4 @@ class AppState extends ChangeNotifier {
 
   @override
   void dispose() {
+    _netSub?.cancel();
