@@ -68,3 +68,4 @@ class _PhotoPreviewPageState extends State<PhotoPreviewPage> {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text('Siapa yang bisa melihat', style: AppText.bodyStrong),
+                  const SizedBox(height: 8),
