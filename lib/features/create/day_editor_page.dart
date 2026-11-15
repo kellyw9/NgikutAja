@@ -138,3 +138,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
                       stroke: AppColors.control,
                       bg: AppColors.surface,
                       onTap: () {
+                        _saveTitle();
