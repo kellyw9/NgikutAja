@@ -365,3 +365,4 @@ class AddPhotoTile extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             AppIcon(icon, size: 20, color: AppColors.muted),
+            const SizedBox(height: 4),
