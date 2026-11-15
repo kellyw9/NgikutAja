@@ -98,3 +98,5 @@ class _RoutePainter extends CustomPainter {
         ..strokeCap = StrokeCap.round,
     );
   }
+
+  @override
