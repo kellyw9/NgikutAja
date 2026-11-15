@@ -208,3 +208,4 @@ bool requireLogin(BuildContext context) {
   final app = AppScope.read(context);
   if (app.loggedIn) return true;
   showNgSheet<void>(
+    context,
