@@ -184,3 +184,4 @@ class NotificationDetailPage extends StatelessWidget {
                   padding: const EdgeInsets.all(12),
                   child: Row(
                     children: [
+                      Marker(idx! + 1, state: MarkerState.next),
