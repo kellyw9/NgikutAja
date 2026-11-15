@@ -84,3 +84,4 @@ class _LoginPageState extends State<LoginPage> {
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.stretch,
                       children: [
+                        const Align(alignment: Alignment.centerLeft, child: Wordmark(large: false)),
