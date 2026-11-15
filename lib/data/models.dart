@@ -166,3 +166,5 @@ class Member {
   MemberRole role;
   final int tint;
   final String? joined;
+
+  String get first => name.split(' ').first;
