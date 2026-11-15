@@ -84,3 +84,4 @@ void showNgSnack(BuildContext context, String text, {SnackKind kind = SnackKind.
       behavior: SnackBarBehavior.floating,
       backgroundColor: bg,
       elevation: 0,
+      margin: const EdgeInsets.fromLTRB(kMargin, 0, kMargin, 12),
