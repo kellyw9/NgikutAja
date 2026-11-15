@@ -456,3 +456,4 @@ class _CustomizePageState extends State<CustomizePage> {
                     children: [
                       Text('Foto perjalanan', style: AppText.h2),
                       const SizedBox(height: 8),
+                      SingleChildScrollView(
