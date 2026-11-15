@@ -45,3 +45,4 @@ class _LoginPageState extends State<LoginPage> {
     setState(() {
       loading = false;
       wrong = !ok;
+      passErr = ok ? null : 'Password tidak cocok dengan email ini';
