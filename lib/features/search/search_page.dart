@@ -608,3 +608,4 @@ class _SquareThumb extends RangeSliderThumbShape {
     Offset center, {
     required Animation<double> activationAnimation,
     required Animation<double> enableAnimation,
+    bool isDiscrete = false,
