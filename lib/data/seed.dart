@@ -589,3 +589,4 @@ class Seed {
         kind: NotifKind.departure,
         icon: 'luggage',
         lead: 'Besok berangkat. ',
+        text: 'Trip "Danau Toba bareng teman kampus" mulai ${weekdaysLong[today.weekday - 1]}, ${today.day} ${monthsShort[today.month - 1]}.',
