@@ -50,3 +50,4 @@ class TripsPage extends StatelessWidget {
           icon: 'edit_note',
           title: 'Belum ada draft',
           text: 'Itinerary yang kamu simpan sebagai draft muncul di sini sampai diterbitkan.',
+          action: NgButton(
