@@ -166,3 +166,4 @@ class _SearchPageState extends State<SearchPage> {
               border: Border.all(color: focus.hasFocus ? AppColors.ink : AppColors.control, width: focus.hasFocus ? 2 : 1),
             ),
             child: Row(
+              children: [
