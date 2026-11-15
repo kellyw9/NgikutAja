@@ -42,3 +42,4 @@ class _PackingPageState extends State<PackingPage> {
       builder: (ctx) => Gap(
         16,
         children: [
+          NgField(label: 'Nama barang', controller: c, autofocus: true),
