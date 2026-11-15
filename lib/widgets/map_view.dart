@@ -66,3 +66,4 @@ class MapView extends StatelessWidget {
                     top: p.y * h - 12,
                     child: Marker(p.n, state: p.state),
                   ),
+                if (me != null)
