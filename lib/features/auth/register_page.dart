@@ -18,3 +18,4 @@ class _RegisterPageState extends State<RegisterPage> {
   final email = TextEditingController();
   final pass = TextEditingController();
   final confirm = TextEditingController();
+  bool ob1 = true, ob2 = true, loading = false, tried = false;
