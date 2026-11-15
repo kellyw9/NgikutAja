@@ -47,3 +47,4 @@ class _RegisterPageState extends State<RegisterPage> {
     setState(() => loading = true);
     await AppScope.read(context).register(name.text, email.text, pass.text);
     if (!mounted) return;
+    if (widget.popOnSuccess) {
