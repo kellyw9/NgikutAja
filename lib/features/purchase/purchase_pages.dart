@@ -349,3 +349,4 @@ class _PaymentStatusPageState extends State<PaymentStatusPage> {
           StatusView(
             top: true,
             icon: 'check',
+            tone: AppColors.positivePale,
