@@ -421,3 +421,4 @@ class _CustomizePageState extends State<CustomizePage> {
                             child: StopRow(
                               stops[i],
                               n: i + 1,
+                              last: i == stops.length - 1,
