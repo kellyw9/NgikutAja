@@ -34,3 +34,5 @@ String dateRange(DateTime a, DateTime b) {
   }
   return '${a.day} ${monthsShort[a.month - 1]}–${b.day} ${monthsShort[b.month - 1]} ${b.year}';
 }
+
+/// Jam "08.30" <-> menit sejak 00.00.
