@@ -270,3 +270,4 @@ class RadioMark extends StatelessWidget {
 }
 
 class CheckMark extends StatelessWidget {
+  const CheckMark(this.on, {super.key});
