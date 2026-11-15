@@ -234,3 +234,4 @@ class Seed {
     itineraries = [
       medan,
       toba,
+      jogja,
