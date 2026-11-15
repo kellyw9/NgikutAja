@@ -329,3 +329,4 @@ class PaidPreviewPage extends StatelessWidget {
                             const AppIcon('lock'),
                             const SizedBox(width: 10),
                             Expanded(
+                              child: Text(
