@@ -126,3 +126,4 @@ class PurchaseConfirmPage extends StatelessWidget {
   Widget build(BuildContext context) => Scaffold(
     backgroundColor: AppColors.ground,
     appBar: const NgAppBar(title: 'Konfirmasi pembelian'),
+    body: ListView(
