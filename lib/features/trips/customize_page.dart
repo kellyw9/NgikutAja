@@ -390,3 +390,4 @@ class _CustomizePageState extends State<CustomizePage> {
                       action: 'Lihat saran',
                       onAction: _notes,
                     ),
+                  if (stops.isEmpty)
