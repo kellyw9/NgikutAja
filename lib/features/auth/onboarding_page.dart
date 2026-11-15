@@ -57,3 +57,4 @@ class _OnboardingPageState extends State<OnboardingPage> {
         backgroundColor: AppColors.ground,
         body: SafeArea(
           child: Column(
+            children: [
