@@ -94,3 +94,4 @@ class NgButton extends StatelessWidget {
             if (s.contains(WidgetState.focused)) return const BorderSide(color: AppColors.teal, width: 2);
             if (stroke != null && !disabled) return BorderSide(color: stroke);
             return BorderSide.none;
+          }),
