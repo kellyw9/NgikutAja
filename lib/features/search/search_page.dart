@@ -202,3 +202,4 @@ class _SearchPageState extends State<SearchPage> {
           clipBehavior: Clip.none,
           children: [
             IconBtn(
+              'tune',
