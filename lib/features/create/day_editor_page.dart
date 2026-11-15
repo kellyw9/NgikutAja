@@ -10,3 +10,5 @@ import 'publish_page.dart';
 class DayEditorPage extends StatefulWidget {
   const DayEditorPage({super.key, required this.d});
   final Itinerary d;
+
+  @override
