@@ -129,3 +129,4 @@ class PermissionDeniedPage extends StatelessWidget {
       child: Padding(
         padding: const EdgeInsets.fromLTRB(kMargin, 24, kMargin, 24),
         child: Column(
+          crossAxisAlignment: CrossAxisAlignment.stretch,
