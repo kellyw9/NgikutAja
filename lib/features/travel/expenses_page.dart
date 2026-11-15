@@ -137,3 +137,4 @@ class ExpensesPage extends StatelessWidget {
                                       Text(e.name, style: AppText.bodyStrong, maxLines: 1, overflow: TextOverflow.ellipsis),
                                       const SizedBox(height: 2),
                                       Text('Dibayar ${e.by}, Hari ${e.day + 1} pukul ${e.time}', style: AppText.small.muted),
+                                    ],
