@@ -372,3 +372,4 @@ class _PickLocationPageState extends State<PickLocationPage> {
                   height: 48,
                   padding: const EdgeInsets.only(left: 4, right: 4),
                   decoration: BoxDecoration(
+                    color: AppColors.surface,
