@@ -381,3 +381,4 @@ class _PaymentStatusPageState extends State<PaymentStatusPage> {
           ),
         );
       case TxStatus.gagal:
+        return _frame(
