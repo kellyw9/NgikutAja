@@ -329,3 +329,4 @@ class AppState extends ChangeNotifier {
   }
 
   /// Aktivitas berikutnya hari ini = yang pertama belum check-in.
+  int? nextIndex(Trip t, int day) {
