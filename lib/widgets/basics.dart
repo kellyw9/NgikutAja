@@ -602,3 +602,4 @@ class Progress extends StatelessWidget {
               ),
               Container(
                 width: w < height && value > 0 ? height : w,
+                decoration: BoxDecoration(color: fill, borderRadius: BorderRadius.circular(height / 2)),
