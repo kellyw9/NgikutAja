@@ -29,3 +29,4 @@ class _StatChip extends StatelessWidget {
   final String text;
   final bool filled;
   final VoidCallback onTap;
+  final String label;
