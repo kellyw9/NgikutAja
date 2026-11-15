@@ -111,3 +111,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
                         if (_dayHasError(k))
                           Positioned(
                             right: -2,
+                            top: -2,
