@@ -273,3 +273,4 @@ class Seed {
       ),
       Itinerary(
         id: 'bandung',
+        title: 'Bandung 2 Hari Gedung Tua dan Kopi',
