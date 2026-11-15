@@ -305,3 +305,4 @@ class Seed {
         publishedAt: _d(-45),
       ),
       Itinerary(
+        id: 'kotatua',
