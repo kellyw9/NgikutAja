@@ -59,3 +59,4 @@ class TipDetailPage extends StatelessWidget {
   final LocalTip tip;
 
   @override
+  Widget build(BuildContext context) => Scaffold(
