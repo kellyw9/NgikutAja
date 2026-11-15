@@ -69,3 +69,4 @@ class _PhotoPreviewPageState extends State<PhotoPreviewPage> {
                 children: [
                   Text('Siapa yang bisa melihat', style: AppText.bodyStrong),
                   const SizedBox(height: 8),
+                  Segmented(items: const ['Public', 'Trip-only'], active: vis, onChanged: (v) => setState(() => vis = v)),
