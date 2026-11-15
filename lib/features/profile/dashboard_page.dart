@@ -48,3 +48,4 @@ class DashboardPage extends StatelessWidget {
                             child: Row(
                               crossAxisAlignment: CrossAxisAlignment.end,
                               children: [
+                                for (var i = 0; i < monthly.length; i++) ...[
