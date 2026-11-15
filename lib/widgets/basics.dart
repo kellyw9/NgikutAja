@@ -105,3 +105,4 @@ class NgButton extends StatelessWidget {
 }
 
 /// Tombol ikon: area sentuh 44 persegi. Dengan [bg]: kotak radius 8 (dipakai di atas foto).
+class IconBtn extends StatelessWidget {
