@@ -30,3 +30,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
     title: widget.trip.title,
     builder: (ctx) => Column(
       children: [
+        ListRow(
