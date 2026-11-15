@@ -51,3 +51,4 @@ String durationText(int minutes) {
   final h = minutes ~/ 60, m = minutes % 60;
   if (h == 0) return '$m menit';
   if (m == 0) return '$h jam';
+  return '$h jam $m menit';
