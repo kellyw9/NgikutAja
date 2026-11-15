@@ -109,3 +109,4 @@ class _EditStopPageState extends State<EditStopPage> {
                 error: tried && name.text.trim().isEmpty ? 'Nama tempat wajib diisi' : null,
                 onChanged: (_) => setState(() {}),
               ),
+              NgField(
