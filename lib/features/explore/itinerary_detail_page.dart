@@ -174,3 +174,4 @@ class _ItineraryDetailPageState extends State<ItineraryDetailPage> {
                   for (var d = 0; d < it.days; d++) ...[
                     if (d > 0) const SizedBox(width: 8),
                     NgChip('Hari ${d + 1}', selected: d == mapDay, onTap: () => setState(() => mapDay = d)),
+                  ],
