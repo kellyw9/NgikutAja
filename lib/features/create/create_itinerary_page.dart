@@ -119,3 +119,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
       actions: const [
         DialogAction('Simpan draft', kind: BtnKind.primary, value: 'save'),
         DialogAction('Buang', kind: BtnKind.dangerText, value: 'drop'),
+      ],
