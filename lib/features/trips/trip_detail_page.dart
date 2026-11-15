@@ -238,3 +238,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
                     ),
                     child: Row(
                       children: [
+                        const AppIcon('near_me', size: 18, color: AppColors.muted),
