@@ -108,3 +108,4 @@ class _AdoptPageState extends State<AdoptPage> {
               NgField(
                 label: 'Tanggal keberangkatan',
                 icon: 'calendar_month',
+                value: dateLong(start),
