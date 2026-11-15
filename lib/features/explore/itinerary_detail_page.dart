@@ -330,3 +330,4 @@ class PaidPreviewPage extends StatelessWidget {
                             const SizedBox(width: 10),
                             Expanded(
                               child: Text(
+                                it.days == 2 && day2.isNotEmpty ? '${day2.length} aktivitas di Hari 2 terkunci' : '$lockedCount aktivitas terkunci',
