@@ -212,3 +212,4 @@ class _ItineraryDetailPageState extends State<ItineraryDetailPage> {
       ),
       bottomNavigationBar: BottomBar(
         children: [
+          Expanded(
