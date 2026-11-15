@@ -37,3 +37,5 @@ class _EditProfilePageState extends State<EditProfilePage> {
     Navigator.pop(context);
     showNgSnack(context, 'Profil tersimpan.', kind: SnackKind.success);
   }
+
+  @override
