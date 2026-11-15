@@ -348,3 +348,4 @@ class _PaymentStatusPageState extends State<PaymentStatusPage> {
         return _frame(
           StatusView(
             top: true,
+            icon: 'check',
