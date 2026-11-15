@@ -40,3 +40,4 @@ class _AdoptPageState extends State<AdoptPage> {
       MaterialPageRoute(
         builder: (_) => AdoptProgressPage(it: it, start: start, dayBefore: dayBefore, each: each, offset: offset, offline: offline),
       ),
+    );
