@@ -38,3 +38,4 @@ class _LoginPageState extends State<LoginPage> {
       passErr = pass.text.isEmpty ? 'Isi password dulu' : null;
       wrong = false;
     });
+    if (emailErr != null || passErr != null) return;
