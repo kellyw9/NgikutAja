@@ -8,3 +8,5 @@ Future<void> addTripPhoto(BuildContext context, Trip trip, int day) async {
   if (p == null || p.isEmpty || !context.mounted) return;
   push(context, PhotoPreviewPage(trip: trip, day: day, src: p), fullscreen: true);
 }
+
+class PhotoPreviewPage extends StatefulWidget {
