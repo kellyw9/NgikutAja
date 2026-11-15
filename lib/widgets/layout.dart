@@ -149,3 +149,4 @@ class SectionHead extends StatelessWidget {
           ),
         ),
         if (action != null)
+          Padding(
