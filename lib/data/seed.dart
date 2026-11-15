@@ -389,3 +389,4 @@ class Seed {
       Itinerary(
         id: 'draft-berastagi',
         title: 'Berastagi Sehari dari Medan',
+        city: 'Berastagi',
