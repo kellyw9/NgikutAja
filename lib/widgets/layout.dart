@@ -498,3 +498,4 @@ class PageFrame extends StatelessWidget {
     bottomNavigationBar: bottom,
     body: scroll ? SingleChildScrollView(padding: padding, child: body) : Padding(padding: padding, child: body),
   );
+}
