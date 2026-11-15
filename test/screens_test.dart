@@ -36,3 +36,4 @@ import 'package:ngikutaja/features/travel/expenses_page.dart';
 import 'package:ngikutaja/features/travel/offline_page.dart';
 import 'package:ngikutaja/features/travel/travel_mode_page.dart';
 import 'package:ngikutaja/features/trips/adopt_page.dart';
+import 'package:ngikutaja/features/trips/customize_page.dart';
