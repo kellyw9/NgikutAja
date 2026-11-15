@@ -41,3 +41,4 @@ class _CalendarState extends State<_Calendar> {
 
   @override
   Widget build(BuildContext context) {
+    final lead = DateTime(month.year, month.month, 1).weekday - 1; // Senin = 0
