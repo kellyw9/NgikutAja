@@ -21,3 +21,4 @@ class SettingsPage extends StatelessWidget {
       actions: const [
         DialogAction('Keluar', kind: BtnKind.danger, value: true),
         DialogAction('Batal'),
+      ],
