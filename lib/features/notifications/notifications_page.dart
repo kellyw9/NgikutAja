@@ -48,3 +48,4 @@ class NotificationsPage extends StatelessWidget {
               title: 'Belum ada notifikasi',
               text: 'Pengingat trip, undangan, dan status pembayaran muncul di sini.',
             )
+          : ListView(
