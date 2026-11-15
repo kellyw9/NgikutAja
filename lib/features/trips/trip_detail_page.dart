@@ -236,3 +236,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
                       borderRadius: BorderRadius.circular(AppRadius.card),
                       border: Border.all(color: AppColors.line),
                     ),
+                    child: Row(
