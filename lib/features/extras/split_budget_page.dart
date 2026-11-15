@@ -34,3 +34,4 @@ class _SplitBudgetPageState extends State<SplitBudgetPage> {
     final cred = [
       for (final e in net.entries)
         if (e.value > 0) [e.key, e.value],
+    ];
