@@ -34,3 +34,4 @@ class PhotoMemoryPage extends StatelessWidget {
                   const SizedBox(height: 16),
                   Text(photoDayLabel(t, d), style: AppText.title),
                   const SizedBox(height: 8),
+                  LayoutBuilder(
