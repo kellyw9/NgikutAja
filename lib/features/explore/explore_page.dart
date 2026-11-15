@@ -18,3 +18,5 @@ class _ExplorePageState extends State<ExplorePage> {
   String tab = 'Trending';
   bool loading = true;
   Object? error;
+
+  @override
