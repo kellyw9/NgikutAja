@@ -275,3 +275,4 @@ class Trip {
   String? cover;
   List<List<Stop>> plan;
   Itinerary? from;
+  String desc;
