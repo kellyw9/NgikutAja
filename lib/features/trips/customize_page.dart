@@ -436,3 +436,4 @@ class _CustomizePageState extends State<CustomizePage> {
                                       child: Center(child: AppIcon('drag_indicator', color: AppColors.muted)),
                                     ),
                                   ),
+                                ),
