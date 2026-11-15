@@ -169,3 +169,4 @@ class WisataCard extends StatelessWidget {
               const SizedBox(height: 10),
               Row(
                 children: [
+                  Avatar(it.creator.name, size: 24, tint: it.creator.tint, photo: it.creator.photo),
