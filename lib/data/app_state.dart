@@ -18,3 +18,4 @@ class CityInfo {
   const CityInfo(this.name, this.photo, this.match);
   final String name;
   final String photo;
+  final bool Function(Itinerary) match;
