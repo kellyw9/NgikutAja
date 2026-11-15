@@ -138,3 +138,4 @@ class PurchaseConfirmPage extends StatelessWidget {
               total: ('Total pembayaran', rp(it.price)),
               fill: AppColors.surface,
             ),
+            _simNote,
