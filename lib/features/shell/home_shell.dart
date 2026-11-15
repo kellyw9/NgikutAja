@@ -50,3 +50,4 @@ class _HomeShellState extends State<HomeShell> {
         // Tamu yang keluar akun dikembalikan ke Explore.
         final t = !app.loggedIn && (tab == tabTrips || tab == tabProfile) ? tabExplore : tab;
         return AnnotatedRegion(
+          value: kDarkIcons,
