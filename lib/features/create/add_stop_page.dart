@@ -25,3 +25,4 @@ class _AddStopPageState extends State<AddStopPage> {
   late String start = s?.start ?? widget.defaultStart;
   late String end = s?.end ?? fromMinutes(toMinutes(widget.defaultStart) + 60);
   late String? photo = s?.photo;
+  late String? address = s?.address;
