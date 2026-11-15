@@ -373,3 +373,4 @@ class AppState extends ChangeNotifier {
   // ---------------- membuat itinerary ----------------
   Itinerary newDraft() => Itinerary(
     id: 'draft-${DateTime.now().microsecondsSinceEpoch}',
+    title: '',
