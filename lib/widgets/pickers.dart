@@ -231,3 +231,4 @@ bool requireLogin(BuildContext context) {
             push(context, const RegisterPage(popOnSuccess: true));
           },
         ),
+      ],
