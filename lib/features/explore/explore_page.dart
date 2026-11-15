@@ -129,3 +129,5 @@ class _ExplorePageState extends State<ExplorePage> {
     );
   }
 }
+
+class CityCard extends StatelessWidget {
