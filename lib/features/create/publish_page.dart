@@ -228,3 +228,4 @@ class PublishedPage extends StatelessWidget {
                           Photo(d.cover, width: 88, height: 88, radius: AppRadius.card),
                           const SizedBox(width: 14),
                           Expanded(
+                            child: Column(
