@@ -35,3 +35,4 @@ class MapView extends StatelessWidget {
   final MapKind kind;
   final List<MapPin> pins;
   final Offset? me;
+  final double radius;
