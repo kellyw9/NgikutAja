@@ -116,3 +116,4 @@ class _CalendarState extends State<_Calendar> {
               children: [
                 for (final d in weekdaysShort)
                   Expanded(
+                    child: SizedBox(
