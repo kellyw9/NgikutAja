@@ -89,3 +89,4 @@ class _LoginPageState extends State<LoginPage> {
                         Text('Masuk ke akunmu', style: AppText.h1),
                         const SizedBox(height: 8),
                         Text('Lanjutkan trip yang sudah kamu adopsi.', style: AppText.body.muted),
+                        if (wrong) ...[
