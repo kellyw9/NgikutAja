@@ -8,3 +8,5 @@ const tagOptions = ['Alam', 'Kuliner', 'Budaya', 'Sejarah', 'Hemat', 'Keluarga',
 
 /// Penanda "Draft" di app bar alur Create.
 const draftPill = Pill('Draft', kind: PillKind.warning);
+
+/// Simpan draft lalu tutup alur Create dan buka Trip Saya > Draft.
