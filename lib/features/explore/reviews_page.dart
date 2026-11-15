@@ -116,3 +116,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
           else
             for (final r in list) ...[
               NgCard(
+                child: Column(
