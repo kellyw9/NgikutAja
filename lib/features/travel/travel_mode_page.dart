@@ -168,3 +168,4 @@ class TravelModePage extends StatelessWidget {
                 onPressed: () => addTripPhoto(context, t, day),
               ),
             ),
+          ],
