@@ -436,3 +436,4 @@ class AppState extends ChangeNotifier {
       ..insert(0, v);
     if (recentSearches.length > 6) recentSearches.removeLast();
     notifyListeners();
+  }
