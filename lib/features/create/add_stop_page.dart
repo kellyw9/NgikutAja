@@ -216,3 +216,4 @@ class _AddStopPageState extends State<AddStopPage> {
                               fill: AppColors.surfaceSoft,
                               child: SizedBox(
                                 width: w,
+                                height: 94,
