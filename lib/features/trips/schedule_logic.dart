@@ -102,3 +102,4 @@ List<String> shiftCascade(List<Stop> day, Stop target, int newStart) {
           sub: others.isEmpty ? 'Durasi tetap ${durationText(b.duration)}' : 'Jadwal ${others.first}',
           apply: (p) {
             final target = p[d].firstWhere((s) => s.name == b.name && s.start == b.start);
+            shiftCascade(p[d], target, ns);
