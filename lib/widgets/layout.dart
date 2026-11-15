@@ -195,3 +195,4 @@ class FactStrip extends StatelessWidget {
   Widget build(BuildContext context) => Column(
     children: [
       Container(height: 1, color: AppColors.rule),
+      Padding(
