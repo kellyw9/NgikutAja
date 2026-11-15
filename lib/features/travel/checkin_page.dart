@@ -140,3 +140,4 @@ class PermissionDeniedPage extends StatelessWidget {
             const SizedBox(height: 14),
             Text(
               'Check-in memakai GPS untuk memastikan kamu benar-benar berada di lokasi. '
+              'Izin lokasi untuk NgikutAja sedang dinonaktifkan di pengaturan perangkat.',
