@@ -61,3 +61,4 @@ class _PublishPageState extends State<PublishPage> {
                 ),
                 const SizedBox(height: 6),
                 Text(text, style: AppText.small.muted),
+              ],
