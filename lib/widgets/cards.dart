@@ -200,3 +200,4 @@ class Grid2 extends StatelessWidget {
         Row(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
+            Expanded(
