@@ -6,3 +6,4 @@ import '../trips/schedule_logic.dart';
 import 'create_itinerary_page.dart';
 
 /// Langkah 5: Publish Itinerary.
+class PublishPage extends StatefulWidget {
