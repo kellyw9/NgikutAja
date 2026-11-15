@@ -187,3 +187,4 @@ class Expense {
     required this.name,
     required this.cat,
     required this.amount,
+    required this.by,
