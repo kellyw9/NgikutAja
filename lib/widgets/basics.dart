@@ -474,3 +474,5 @@ class Avatar extends StatelessWidget {
   final double size;
   final int tint;
   final String? photo;
+
+  static String initials(String name) =>
