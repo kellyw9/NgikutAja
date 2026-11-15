@@ -29,3 +29,5 @@ class SettingsPage extends StatelessWidget {
       resetTo(context, const LoginPage());
     }
   }
+
+  @override
