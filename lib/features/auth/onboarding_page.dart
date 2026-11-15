@@ -90,3 +90,4 @@ class _OnboardingPageState extends State<OnboardingPage> {
                 child: PageView(controller: _pc, onPageChanged: (i) => setState(() => page = i), children: [_intro(), _flow(), _interests()]),
               ),
               Padding(
+                padding: const EdgeInsets.fromLTRB(kMargin, 0, kMargin, 24),
