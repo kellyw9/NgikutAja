@@ -75,3 +75,4 @@ class _CheckinPageState extends State<CheckinPage> {
                   'Check-in sekarang',
                   icon: 'pin_drop',
                   expand: true,
+                  onPressed: near
