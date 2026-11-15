@@ -22,3 +22,4 @@ class Seed {
   DateTime get _pendingAt => now.subtract(const Duration(minutes: 1));
 
   late final Creator me;
+  late final Map<String, Creator> creators;
