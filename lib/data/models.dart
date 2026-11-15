@@ -62,3 +62,5 @@ class Stop {
   int get startMin => toMinutes(start);
   int get endMin => toMinutes(end);
   int get duration => (endMin - startMin).clamp(0, 24 * 60);
+
+  Stop copy() => Stop(start: start, end: end, name: name, cat: cat, cost: cost, photo: photo, note: note, desc: desc, address: address);
