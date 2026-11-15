@@ -174,3 +174,5 @@ class TravelModePage extends StatelessWidget {
     );
   }
 }
+
+class _NextCard extends StatelessWidget {
