@@ -346,3 +346,4 @@ class _PickLocationPageState extends State<PickLocationPage> {
                                   child: Text(label, style: AppText.smallStrong.white, maxLines: 1, overflow: TextOverflow.ellipsis),
                                 ),
                               ],
+                            ),
