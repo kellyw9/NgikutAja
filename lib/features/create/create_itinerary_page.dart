@@ -271,3 +271,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
                     _apply();
                     saveDraftAndClose(context, d);
                   },
+                ),
