@@ -151,3 +151,5 @@ class _SearchPageState extends State<SearchPage> {
       ],
     );
   }
+
+  Widget _searchRow() => Padding(
