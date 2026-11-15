@@ -424,3 +424,4 @@ class _SearchPageState extends State<SearchPage> {
               Navigator.pop(ctx);
             },
           ),
+      ],
