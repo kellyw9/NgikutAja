@@ -107,3 +107,4 @@ class Itinerary {
   int price;
   int adopted;
   int likes;
+  double? rating;
