@@ -17,3 +17,4 @@ class Proof extends StatelessWidget {
   final bool compact;
 
   @override
+  Widget build(BuildContext context) => Row(
