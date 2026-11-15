@@ -26,3 +26,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
   }
 
   void _send() {
+    if (!requireLogin(context)) return;
