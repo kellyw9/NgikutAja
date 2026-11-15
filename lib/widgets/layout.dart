@@ -484,3 +484,4 @@ class PageFrame extends StatelessWidget {
     this.padding = const EdgeInsets.fromLTRB(kMargin, 8, kMargin, 24),
     this.background = AppColors.ground,
   });
+  final PreferredSizeWidget? appBar;
