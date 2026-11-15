@@ -41,3 +41,4 @@ class ExpensesPage extends StatelessWidget {
                   final r = await showNgDialog(
                     ctx,
                     icon: 'delete',
+                    title: 'Hapus pengeluaran ini?',
