@@ -345,3 +345,5 @@ class AppState extends ChangeNotifier {
     t.expenses.remove(e);
     notifyListeners();
   }
+
+  void addPhoto(Trip t, TripPhoto p) {
