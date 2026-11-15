@@ -594,3 +594,5 @@ class _BudgetSlider extends StatelessWidget {
     ],
   );
 }
+
+/// Jempol slider persegi radius 4, isi putih bergaris tinta 2px.
