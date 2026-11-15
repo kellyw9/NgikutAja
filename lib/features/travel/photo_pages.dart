@@ -76,3 +76,4 @@ class _PhotoPreviewPageState extends State<PhotoPreviewPage> {
                         ? 'Foto bisa muncul di halaman itinerary untuk semua pengguna.'
                         : 'Hanya anggota trip yang bisa melihat foto ini.',
                     style: AppText.small.muted,
+                  ),
