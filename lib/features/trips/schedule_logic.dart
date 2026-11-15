@@ -98,3 +98,4 @@ List<String> shiftCascade(List<Stop> day, Stop target, int newStart) {
       tips.add(
         Suggestion(
           icon: 'schedule',
+          title: 'Geser ${b.name} ke ${fromMinutes(ns)}',
