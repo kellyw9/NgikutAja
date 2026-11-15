@@ -20,3 +20,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
 
   @override
   void dispose() {
+    input.dispose();
