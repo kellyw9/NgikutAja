@@ -175,3 +175,4 @@ class WisataCard extends StatelessWidget {
                     child: Text(it.creator.handle, style: AppText.smallStrong, maxLines: 1, overflow: TextOverflow.ellipsis),
                   ),
                   Proof(it),
+                ],
