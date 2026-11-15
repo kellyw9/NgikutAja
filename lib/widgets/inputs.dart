@@ -433,3 +433,4 @@ class Segmented extends StatelessWidget {
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(AppRadius.inner),
                     side: items[i] == active ? const BorderSide(color: AppColors.line) : BorderSide.none,
+                  ),
