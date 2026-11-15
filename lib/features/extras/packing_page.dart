@@ -180,3 +180,4 @@ class _PackingPageState extends State<PackingPage> {
                   IconBtn('check', label: 'Tambahkan barang', bg: AppColors.ink, color: AppColors.white, size: 48, onTap: _add),
                 ],
               ),
+            ],
