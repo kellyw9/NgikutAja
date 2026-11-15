@@ -17,3 +17,4 @@ AppState newState({bool loggedIn = true}) => AppState(null, now: DateTime(2026, 
   ..loggedIn = loggedIn;
 
 Widget host(AppState s, Widget home) => AppScope(
+  state: s,
