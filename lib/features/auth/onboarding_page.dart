@@ -136,3 +136,4 @@ class _OnboardingPageState extends State<OnboardingPage> {
                     width: 28,
                     child: Column(
                       children: [
+                        Marker(i + 1, state: i == 4 ? MarkerState.next : MarkerState.todo),
