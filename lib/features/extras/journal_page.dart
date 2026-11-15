@@ -83,3 +83,4 @@ class _JournalPageState extends State<JournalPage> {
     final t = widget.trip;
     final e = t.journal[day];
     return Scaffold(
+      backgroundColor: AppColors.ground,
