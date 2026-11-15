@@ -143,3 +143,4 @@ class BottomNav extends StatelessWidget {
             children: [
               AppIcon(items[i].$1, filled: on, color: on ? AppColors.ink : AppColors.muted),
               const SizedBox(height: 4),
+              Text(items[i].$2, style: (on ? AppText.smallStrong : AppText.small).c(on ? AppColors.ink : AppColors.muted)),
