@@ -151,3 +151,4 @@ class _MapPainter extends CustomPainter {
       canvas.drawPath(
         ring1,
         road
+          ..strokeWidth = 5
