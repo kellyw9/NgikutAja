@@ -261,3 +261,5 @@ class AppState extends ChangeNotifier {
   late List<Trip> trips;
 
   TripStatus statusOf(Trip t) => t.statusOn(today);
+
+  List<Trip> tripsWith(TripStatus s) => trips.where((t) => statusOf(t) == s).toList();
