@@ -197,3 +197,4 @@ class AdoptProgressPage extends StatefulWidget {
     required this.offline,
   });
   final Itinerary it;
+  final DateTime start;
