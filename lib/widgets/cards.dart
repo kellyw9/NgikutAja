@@ -324,3 +324,4 @@ class StopRow extends StatelessWidget {
   final int n;
   final MarkerState state;
   final bool last;
+  final bool thumb;
