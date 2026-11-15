@@ -421,3 +421,4 @@ class HeroPhoto extends StatelessWidget {
                 right: 0,
                 height: top + 24,
                 child: const DecoratedBox(
+                  decoration: BoxDecoration(
