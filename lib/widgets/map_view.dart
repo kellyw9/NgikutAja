@@ -170,3 +170,4 @@ class _MapPainter extends CustomPainter {
       final river = Path()
         ..moveTo(-10, .78 * h)
         ..cubicTo(.25 * w, .68 * h, .45 * w, .92 * h, .7 * w, .8 * h)
+        ..cubicTo(.95 * w, .68 * h, w + 10, .7 * h, w + 10, .74 * h);
