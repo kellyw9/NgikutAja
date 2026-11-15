@@ -297,3 +297,4 @@ class _DashPainter extends CustomPainter {
     final paint = Paint()
       ..color = color
       ..style = PaintingStyle.stroke
+      ..strokeWidth = width;
