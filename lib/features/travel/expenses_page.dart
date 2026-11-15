@@ -73,3 +73,5 @@ class ExpensesPage extends StatelessWidget {
       ),
     );
   }
+
+  @override
