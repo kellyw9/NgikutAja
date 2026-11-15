@@ -395,3 +395,4 @@ class Seed {
         cover: null,
         creator: me,
         isDraft: true,
+        plan: [[]],
