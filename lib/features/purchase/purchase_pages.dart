@@ -363,3 +363,4 @@ class _PaymentStatusPageState extends State<PaymentStatusPage> {
               NgButton(
                 'Lihat itinerary',
                 kind: BtnKind.secondary,
+                expand: true,
