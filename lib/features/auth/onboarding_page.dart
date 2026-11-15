@@ -176,3 +176,4 @@ class _OnboardingPageState extends State<OnboardingPage> {
         on: picked.contains(t),
         onTap: () => setState(() => picked.contains(t) ? picked.remove(t) : picked.add(t)),
       ),
+      const SizedBox(height: 12),
