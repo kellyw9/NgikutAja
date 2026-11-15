@@ -193,3 +193,4 @@ class AppState extends ChangeNotifier {
 
   void toggleFollow(Creator c) {
     if (following.remove(c.id)) {
+      c.followers--;
