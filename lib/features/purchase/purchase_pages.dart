@@ -82,3 +82,4 @@ class PurchaseDetailPage extends StatelessWidget {
                     Text('Keuntungan yang kamu peroleh', style: AppText.title),
                     for (final p in perks) ...[
                       const SizedBox(height: 8),
+                      Row(
