@@ -62,3 +62,4 @@ class _CreatorProfilePageState extends State<CreatorProfilePage> {
                 if (list.isEmpty)
                   const EmptyState(
                     icon: 'map',
+                    title: 'Belum ada itinerary berbayar',
