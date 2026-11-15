@@ -359,3 +359,4 @@ class StatusView extends StatelessWidget {
     this.top = false,
   });
   final String icon;
+  final Color tone;
