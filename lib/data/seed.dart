@@ -71,3 +71,4 @@ class Seed {
         tint: 3,
         bio: 'Tinggal di Samosir. Menulis rute pelan untuk yang mau menginap.',
         followers: 860,
+        following: 140,
