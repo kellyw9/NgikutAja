@@ -59,3 +59,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
       if (d.plan.length > n) d.plan.removeRange(n, d.plan.length);
       if (d.dayTitles.length > n) d.dayTitles.removeRange(n, d.dayTitles.length);
     });
+  }
