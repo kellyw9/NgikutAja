@@ -59,3 +59,4 @@ final Map<String, PageFor> pages = {
   'create': (s) => CreateItineraryPage(draft: s.drafts[1]),
   'day editor': (s) => DayEditorPage(d: s.itinerary('samosirmotor')),
   'add stop': (s) => AddStopPage(stop: s.itinerary('medan').plan[0][0].copy(), city: 'Medan'),
+  'pick location': (s) => const PickLocationPage(query: 'Soto Kesawan', city: 'Medan', photo: 'soto'),
