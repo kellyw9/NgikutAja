@@ -140,3 +140,4 @@ class _PublishPageState extends State<PublishPage> {
                               color: ok ? AppColors.positiveInk : AppColors.negativeInk,
                             ),
                             const SizedBox(width: 12),
+                            Expanded(child: Text(label, style: AppText.body)),
