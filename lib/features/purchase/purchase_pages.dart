@@ -276,3 +276,4 @@ class PaymentStatusPage extends StatefulWidget {
 
   @override
   State<PaymentStatusPage> createState() => _PaymentStatusPageState();
+}
