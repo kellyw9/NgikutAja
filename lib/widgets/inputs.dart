@@ -136,3 +136,4 @@ class _NgFieldState extends State<NgField> {
       padding: EdgeInsets.symmetric(horizontal: 14, vertical: widget.area ? 12 : 0),
       decoration: BoxDecoration(
         color: widget.fill ?? (widget.readOnly && !_select ? AppColors.surfaceSoft : AppColors.surface),
+        borderRadius: BorderRadius.circular(AppRadius.control),
