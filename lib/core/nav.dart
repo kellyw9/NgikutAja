@@ -4,3 +4,4 @@ Future<T?> push<T>(BuildContext context, Widget page, {bool fullscreen = false})
     Navigator.of(context).push<T>(MaterialPageRoute(builder: (_) => page, fullscreenDialog: fullscreen));
 
 Future<T?> replace<T>(BuildContext context, Widget page) =>
+    Navigator.of(context).pushReplacement<T, Object?>(MaterialPageRoute(builder: (_) => page));
