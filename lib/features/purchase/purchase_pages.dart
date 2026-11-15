@@ -401,3 +401,4 @@ class _PaymentStatusPageState extends State<PaymentStatusPage> {
                 'Pilih metode lain',
                 kind: BtnKind.secondary,
                 expand: true,
+                onPressed: () => Navigator.pushReplacement(
