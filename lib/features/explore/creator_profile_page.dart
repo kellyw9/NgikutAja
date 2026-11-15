@@ -55,3 +55,4 @@ class _CreatorProfilePageState extends State<CreatorProfilePage> {
                     Expanded(child: Text('Itinerary', style: AppText.h2)),
                     NgChip('Semua', selected: !paidOnly, onTap: () => setState(() => paidOnly = false)),
                     const SizedBox(width: 8),
+                    NgChip('Berbayar', selected: paidOnly, onTap: () => setState(() => paidOnly = true)),
