@@ -444,3 +444,4 @@ class Segmented extends StatelessWidget {
                         children: [
                           Flexible(
                             child: Text(
+                              items[i],
