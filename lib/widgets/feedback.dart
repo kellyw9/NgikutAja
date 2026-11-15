@@ -251,3 +251,4 @@ class EmptyState extends StatelessWidget {
         children: [
           Container(
             width: 56,
+            height: 56,
