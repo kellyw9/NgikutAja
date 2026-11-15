@@ -154,3 +154,4 @@ void main() {
     await tester.tap(find.byTooltip('Hapus dari Wishlist').first);
     await tester.pump();
     await tester.pump(const Duration(milliseconds: 800)); // animasi masuk snackbar
+    expect(s.wishlist.length, 2);
