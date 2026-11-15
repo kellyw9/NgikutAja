@@ -106,3 +106,4 @@ class TravelModePage extends StatelessWidget {
                 children: [
                   if (next != null)
                     _NextCard(trip: t, day: day, i: next)
+                  else
