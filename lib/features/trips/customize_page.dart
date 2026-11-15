@@ -267,3 +267,4 @@ class _CustomizePageState extends State<CustomizePage> {
               Row(
                 children: [
                   AppIcon(s.icon, size: 20),
+                  const SizedBox(width: 10),
