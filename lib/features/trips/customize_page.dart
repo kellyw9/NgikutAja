@@ -363,3 +363,4 @@ class _CustomizePageState extends State<CustomizePage> {
                     alert: conflictsIn(plan[d]).isNotEmpty,
                   ),
               ],
+              active: day,
