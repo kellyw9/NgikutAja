@@ -479,3 +479,4 @@ class PurchaseHistoryPage extends StatelessWidget {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Text(t.item.title, style: AppText.bodyStrong, maxLines: 1, overflow: TextOverflow.ellipsis),
+                            const SizedBox(height: 4),
