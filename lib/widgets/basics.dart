@@ -317,3 +317,4 @@ class DashedAction extends StatelessWidget {
   const DashedAction(this.label, {super.key, required this.onTap, this.icon = 'add', this.height = 48, this.color = AppColors.control, this.fill});
   final String label;
   final VoidCallback onTap;
+  final String icon;
