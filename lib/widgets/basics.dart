@@ -313,3 +313,4 @@ class _DashPainter extends CustomPainter {
 }
 
 /// Tombol garis putus-putus selebar layar: "Tambah hari", "Tambah aktivitas".
+class DashedAction extends StatelessWidget {
