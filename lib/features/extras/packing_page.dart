@@ -60,3 +60,4 @@ class _PackingPageState extends State<PackingPage> {
 
   void _remove(PackGroup g, PackItem it) {
     final i = g.items.indexOf(it);
+    g.items.remove(it);
