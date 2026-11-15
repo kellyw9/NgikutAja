@@ -83,3 +83,4 @@ class _PhotoViewerPageState extends State<PhotoViewerPage> {
   @override
   Widget build(BuildContext context) {
     final t = widget.trip;
+    final p = t.photos[i];
