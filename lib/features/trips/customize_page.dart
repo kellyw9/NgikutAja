@@ -306,3 +306,4 @@ class _CustomizePageState extends State<CustomizePage> {
       canPop: changes == 0,
       onPopInvokedWithResult: (didPop, _) async {
         if (didPop) return;
+        if (await _confirmLeave() && context.mounted) Navigator.pop(context);
