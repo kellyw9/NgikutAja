@@ -74,3 +74,5 @@ class _NgFieldState extends State<NgField> {
     super.initState();
     _focus.addListener(() => setState(() => _focused = _focus.hasFocus));
   }
+
+  @override
