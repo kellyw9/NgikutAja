@@ -22,3 +22,4 @@ class NotificationsPage extends StatelessWidget {
         if (tx != null) push(context, TransactionDetailPage(tx: tx));
       case NotifKind.departure:
         if (toba != null) push(context, TripDetailPage(trip: toba));
+      case NotifKind.like:
