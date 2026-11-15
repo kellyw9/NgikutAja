@@ -609,3 +609,4 @@ class _SquareThumb extends RangeSliderThumbShape {
     required Animation<double> activationAnimation,
     required Animation<double> enableAnimation,
     bool isDiscrete = false,
+    bool isEnabled = false,
