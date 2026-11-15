@@ -106,3 +106,4 @@ class _ExplorePageState extends State<ExplorePage> {
               padding: const EdgeInsets.only(top: 16, bottom: 24),
               children: [
                 if (tab == 'Trending' && !loading) ...[
+                  SectionHead('Kota populer', action: 'Lihat semua', onAction: () => goSearch(context, '')),
