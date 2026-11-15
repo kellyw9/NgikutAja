@@ -305,3 +305,4 @@ class ListRow extends StatelessWidget {
   Widget build(BuildContext context) => Tap(
     onTap: onTap,
     child: ConstrainedBox(
+      constraints: BoxConstraints(minHeight: sub != null ? 64 : 52),
