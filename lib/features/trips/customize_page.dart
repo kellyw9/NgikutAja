@@ -244,3 +244,4 @@ class _CustomizePageState extends State<CustomizePage> {
                 decoration: BoxDecoration(
                   color: iss.conflict ? AppColors.negativePale : AppColors.yellowPale,
                   borderRadius: BorderRadius.circular(AppRadius.card),
+                ),
