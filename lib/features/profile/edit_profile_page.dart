@@ -110,3 +110,4 @@ class _EditProfilePageState extends State<EditProfilePage> {
                   label: 'Username',
                   controller: user,
                   icon: 'alternate_email',
+                  onChanged: (_) => setState(() {}),
