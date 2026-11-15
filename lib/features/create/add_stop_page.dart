@@ -147,3 +147,4 @@ class _AddStopPageState extends State<AddStopPage> {
               ),
               NgField(
                 label: 'Biaya',
+                controller: cost,
