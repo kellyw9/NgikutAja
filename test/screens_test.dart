@@ -138,3 +138,4 @@ void main() {
     testWidgets('trip saya ${st.label} @360', (tester) async {
       tester.view.physicalSize = const Size(360, 740) * 3;
       tester.view.devicePixelRatio = 3;
+      addTearDown(tester.view.reset);
