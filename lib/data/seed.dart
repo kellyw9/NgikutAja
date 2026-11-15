@@ -240,3 +240,4 @@ class Seed {
         title: 'Bali Utara yang Lebih Tenang',
         city: 'Buleleng',
         region: 'Buleleng, Bali',
+        days: 4,
