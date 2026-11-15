@@ -121,3 +121,4 @@ class Seed {
       cover: 'maimun',
       creator: c['rahmat']!,
       price: 0,
+      adopted: 212,
