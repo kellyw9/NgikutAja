@@ -160,3 +160,4 @@ class TravelModePage extends StatelessWidget {
             ),
             Expanded(
               child: NgButton(
+                'Tambah foto',
