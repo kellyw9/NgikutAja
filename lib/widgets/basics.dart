@@ -494,3 +494,4 @@ class Avatar extends StatelessWidget {
         alignment: Alignment.center,
         decoration: BoxDecoration(color: AppColors.tints[tint % AppColors.tints.length], shape: BoxShape.circle),
         child: ExcludeSemantics(
+          child: Text(initials(name), style: style.copyWith(fontSize: size < 24 ? 9 : null)),
