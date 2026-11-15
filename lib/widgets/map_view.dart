@@ -89,3 +89,4 @@ class MapView extends StatelessWidget {
                 if (label)
                   Positioned(
                     left: 8,
+                    bottom: 8,
