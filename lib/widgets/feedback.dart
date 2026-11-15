@@ -299,3 +299,5 @@ class ErrorBlock extends StatelessWidget {
     ),
   );
 }
+
+Widget _bar(double w, [double h = 14]) => Container(
