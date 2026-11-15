@@ -62,3 +62,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
       padding: const EdgeInsets.fromLTRB(kMargin, 16, kMargin, 24),
       children: [
         if (it.rating == null)
+          const EmptyState(
