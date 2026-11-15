@@ -453,3 +453,4 @@ class _SearchPageState extends State<SearchPage> {
               NgField(
                 label: 'Kota',
                 icon: 'location_on',
+                value: q.isEmpty ? 'Semua kota' : q,
