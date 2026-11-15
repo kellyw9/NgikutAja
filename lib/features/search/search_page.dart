@@ -35,3 +35,4 @@ class SearchFilter {
     final d = it.days;
     if (duration == '1 hari' && d != 1) return false;
     if (duration == '2–3 hari' && (d < 2 || d > 3)) return false;
+    if (duration == '4–5 hari' && (d < 4 || d > 5)) return false;
