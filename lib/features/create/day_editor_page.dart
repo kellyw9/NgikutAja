@@ -173,3 +173,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
                             width: 64,
                             height: 64,
                             alignment: Alignment.center,
+                            decoration: BoxDecoration(color: AppColors.yellowPale, borderRadius: BorderRadius.circular(AppRadius.card)),
