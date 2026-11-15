@@ -22,3 +22,4 @@ class TravelModePage extends StatelessWidget {
     final next = app.nextIndex(t, day);
     final date = t.dayDate(day);
     final done = t.visited();
+    final total = t.places();
