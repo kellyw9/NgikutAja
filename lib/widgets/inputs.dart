@@ -262,3 +262,4 @@ class NgToggle extends StatelessWidget {
 }
 
 class RadioMark extends StatelessWidget {
+  const RadioMark(this.on, {super.key});
