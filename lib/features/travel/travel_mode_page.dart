@@ -84,3 +84,4 @@ class TravelModePage extends StatelessWidget {
                           const SizedBox(height: 6),
                           Text(t.title, style: AppText.h1.white),
                           const SizedBox(height: 12),
+                          Row(
