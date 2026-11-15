@@ -39,3 +39,4 @@ class _SplitBudgetPageState extends State<SplitBudgetPage> {
     var di = 0, ci = 0;
     while (di < debt.length && ci < cred.length) {
       final amt = (debt[di][1] as int) < (cred[ci][1] as int) ? debt[di][1] as int : cred[ci][1] as int;
+      if (amt > 0) settle.add((debt[di][0] as String, cred[ci][0] as String, amt));
