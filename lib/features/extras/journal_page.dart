@@ -86,3 +86,4 @@ class _JournalPageState extends State<JournalPage> {
       backgroundColor: AppColors.ground,
       appBar: NgAppBar(
         title: 'Trip journal',
+        sub: t.title,
