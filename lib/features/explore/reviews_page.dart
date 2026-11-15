@@ -240,3 +240,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
                       child: TextField(
                         controller: input,
                         focusNode: focus,
+                        minLines: 1,
