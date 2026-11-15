@@ -87,3 +87,4 @@ class Seed {
         name: 'Komang Ayu',
         handle: '@rutebaliutara',
         tint: 2,
+        bio: 'Bali bagian utara: danau, air terjun, pantai pasir hitam.',
