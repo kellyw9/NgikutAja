@@ -82,3 +82,4 @@ class RecapPage extends StatelessWidget {
                                     Expanded(child: Photo(photos[0].src, radius: AppRadius.inner)),
                                     if (photos.length > 2) ...[
                                       const SizedBox(height: 6),
+                                      Expanded(child: Photo(photos[2].src, radius: AppRadius.inner)),
