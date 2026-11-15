@@ -415,3 +415,5 @@ class Seed {
         ],
       ),
     ];
+
+    final dinda = Member(name: 'Dinda Saragi', handle: '@dindasaragi', role: MemberRole.owner, tint: 0);
