@@ -411,3 +411,5 @@ class Pill extends StatelessWidget {
     );
   }
 }
+
+/// Harga berbayar: label putih dengan ikon label harga.
