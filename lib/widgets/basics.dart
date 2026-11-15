@@ -523,3 +523,4 @@ class Wordmark extends StatelessWidget {
             ),
             SizedBox(width: large ? 10 : 6),
             Text('NgikutAja', style: (large ? AppText.wordmark : AppText.h1).c(onDark ? AppColors.white : AppColors.ink)),
+          ],
