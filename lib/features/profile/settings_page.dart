@@ -27,3 +27,4 @@ class SettingsPage extends StatelessWidget {
       AppScope.read(context).logout();
       shellTab.value = tabExplore;
       resetTo(context, const LoginPage());
+    }
