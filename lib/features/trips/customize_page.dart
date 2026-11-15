@@ -192,3 +192,4 @@ class _CustomizePageState extends State<CustomizePage> {
   }
 
   Future<void> _addDay() async {
+    final n = plan.length + 1;
