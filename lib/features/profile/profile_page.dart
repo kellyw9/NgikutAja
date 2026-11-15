@@ -27,3 +27,4 @@ class ProfilePage extends StatelessWidget {
         ),
         ProfileHead(
           p: app.me,
+          itins: mine.length,
