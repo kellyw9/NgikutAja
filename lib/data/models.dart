@@ -403,3 +403,4 @@ class Person {
   Person(this.name, this.handle, this.tint);
   final String name;
   final String handle;
+  final int tint;
