@@ -287,3 +287,4 @@ class _CustomizePageState extends State<CustomizePage> {
                       Navigator.pop(ctx);
                       _changed(() => s.apply(plan));
                       showNgSnack(context, 'Saran diterapkan. Jangan lupa simpan.');
+                    },
