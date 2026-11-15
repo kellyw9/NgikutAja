@@ -291,3 +291,4 @@ class _EditTripInfoPageState extends State<EditTripInfoPage> {
                           if (p != null) setState(() => cover = p.isEmpty ? null : p);
                         },
                       ),
+                    ),
