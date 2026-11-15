@@ -229,3 +229,4 @@ Future<Object?> showNgDialog(BuildContext context, {String? icon, required Strin
         ),
       ),
     ),
+  );
