@@ -185,3 +185,4 @@ class _SearchPageState extends State<SearchPage> {
                     'close',
                     label: 'Hapus kata kunci',
                     size: 40,
+                    iconSize: 18,
