@@ -385,3 +385,4 @@ class NgChip extends StatelessWidget {
             child: Row(
               mainAxisSize: MainAxisSize.min,
               children: [
+                if (selected) ...[
