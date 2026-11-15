@@ -282,3 +282,4 @@ class _EditTripInfoPageState extends State<EditTripInfoPage> {
                       right: 10,
                       bottom: 10,
                       child: NgButton(
+                        'Ganti foto sampul',
