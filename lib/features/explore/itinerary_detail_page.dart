@@ -238,3 +238,4 @@ class _ItineraryDetailPageState extends State<ItineraryDetailPage> {
 
 /// 2.5 Preview Itinerary Berbayar: Hari 1 terbuka, hari lain terkunci.
 class PaidPreviewPage extends StatelessWidget {
+  const PaidPreviewPage({super.key, required this.it});
