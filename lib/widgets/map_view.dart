@@ -130,3 +130,4 @@ class _MapPainter extends CustomPainter {
     if (kind == MapKind.lake) {
       final lake = Path()
         ..moveTo(.16 * w, -.05 * h)
+        ..cubicTo(.1 * w, .3 * h, .2 * w, .7 * h, .12 * w, 1.05 * h)
