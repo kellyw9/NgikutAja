@@ -316,3 +316,4 @@ class PaidPreviewPage extends StatelessWidget {
                     ),
                   Container(
                     padding: const EdgeInsets.all(16),
+                    decoration: BoxDecoration(
