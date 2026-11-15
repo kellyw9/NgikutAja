@@ -434,3 +434,4 @@ class _SearchPageState extends State<SearchPage> {
     var q = submitted ?? input.text.trim();
     final applied = await showNgSheet<SearchFilter>(
       context,
+      title: 'Filter pencarian',
