@@ -139,3 +139,4 @@ class CityCard extends StatelessWidget {
     final n = AppScope.of(context).cityCount(c);
     return SizedBox(
       width: 124,
+      child: Tap(
