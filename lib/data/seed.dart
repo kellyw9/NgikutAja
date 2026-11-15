@@ -6,3 +6,5 @@ import 'models.dart';
 
 Stop _s(String start, String end, String name, Category cat, int cost, [String? photo, String? note, String? desc]) =>
     Stop(start: start, end: end, name: name, cat: cat, cost: cost, photo: photo, note: note, desc: desc);
+
+const _m = Category.makan, _b = Category.budaya, _a = Category.alam, _so = Category.sosial, _l = Category.lainnya;
