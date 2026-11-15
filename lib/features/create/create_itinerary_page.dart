@@ -15,3 +15,5 @@ void saveDraftAndClose(BuildContext context, Itinerary d) {
   goTab(context, tabTrips, trips: TripStatus.draft);
   showNgSnack(context, 'Draft tersimpan di Trip Saya.', kind: SnackKind.success);
 }
+
+/// Langkah 1: Buat Itinerary (+ state validasi error).
