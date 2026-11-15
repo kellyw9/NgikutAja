@@ -17,3 +17,4 @@ class _RegisterPageState extends State<RegisterPage> {
   final name = TextEditingController();
   final email = TextEditingController();
   final pass = TextEditingController();
+  final confirm = TextEditingController();
