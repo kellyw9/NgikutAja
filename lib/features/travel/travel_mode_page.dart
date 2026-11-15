@@ -438,3 +438,4 @@ class NavigationPage extends StatelessWidget {
                           Expanded(
                             child: Padding(
                               padding: const EdgeInsets.symmetric(horizontal: 14),
+                              child: Column(
