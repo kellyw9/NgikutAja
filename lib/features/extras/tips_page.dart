@@ -51,3 +51,4 @@ class TipsPage extends StatelessWidget {
         ],
       ),
     );
+  }
