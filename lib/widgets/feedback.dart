@@ -50,3 +50,4 @@ class NgBanner extends StatelessWidget {
             ),
             if (action != null) ...[
               const SizedBox(width: 10),
+              Semantics(
