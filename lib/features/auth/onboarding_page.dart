@@ -23,3 +23,5 @@ class _OnboardingPageState extends State<OnboardingPage> {
     ('Customize', 'Geser jam, tambah, atau pindahkan tempat.'),
     ('Travel', 'Jalankan dengan Travel Mode saat liburan.'),
   ];
+
+  static const interests = [
