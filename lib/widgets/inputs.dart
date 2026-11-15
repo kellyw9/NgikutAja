@@ -118,3 +118,4 @@ class _NgFieldState extends State<NgField> {
         cursorColor: AppColors.ink,
         decoration: InputDecoration.collapsed(hintText: widget.hint, hintStyle: AppText.body.muted),
       );
+    }
