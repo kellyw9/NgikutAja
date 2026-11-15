@@ -111,3 +111,4 @@ class Itinerary {
   int? reviews;
   List<String> tags;
   String desc;
+  List<String> dayTitles;
