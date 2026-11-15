@@ -31,3 +31,4 @@ class _PackingPageState extends State<PackingPage> {
     }
     g.items.add(PackItem(v));
     input.clear();
+    AppScope.read(context).touch();
