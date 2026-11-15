@@ -229,3 +229,4 @@ class NgToggle extends StatelessWidget {
         width: 56,
         height: 44,
         child: Center(
+          child: Material(
