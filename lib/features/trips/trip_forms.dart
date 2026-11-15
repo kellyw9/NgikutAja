@@ -161,3 +161,4 @@ class _EditStopPageState extends State<EditStopPage> {
               NgField(
                 label: 'Biaya per orang',
                 controller: cost,
+                hint: '0 kalau gratis',
