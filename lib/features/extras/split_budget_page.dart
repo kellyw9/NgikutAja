@@ -158,3 +158,4 @@ class _SplitBudgetPageState extends State<SplitBudgetPage> {
                                   children: [
                                     Expanded(
                                       child: Column(
+                                        crossAxisAlignment: CrossAxisAlignment.start,
