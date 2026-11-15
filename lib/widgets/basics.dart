@@ -95,3 +95,4 @@ class NgButton extends StatelessWidget {
             if (stroke != null && !disabled) return BorderSide(color: stroke);
             return BorderSide.none;
           }),
+          shape: const WidgetStatePropertyAll(RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(AppRadius.control)))),
