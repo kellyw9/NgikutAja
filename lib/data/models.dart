@@ -109,3 +109,4 @@ class Itinerary {
   int likes;
   double? rating;
   int? reviews;
+  List<String> tags;
