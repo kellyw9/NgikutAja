@@ -137,3 +137,4 @@ class NotificationsPage extends StatelessWidget {
 }
 
 /// 10.2 Detail Notifikasi (pengingat aktivitas).
+class NotificationDetailPage extends StatelessWidget {
