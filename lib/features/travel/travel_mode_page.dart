@@ -172,3 +172,4 @@ class TravelModePage extends StatelessWidget {
         ),
       ),
     );
+  }
