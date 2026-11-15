@@ -245,3 +245,4 @@ class KeyValueBox extends StatelessWidget {
     decoration: BoxDecoration(
       color: fill,
       borderRadius: BorderRadius.circular(AppRadius.card),
+      border: Border.all(color: AppColors.line),
