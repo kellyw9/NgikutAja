@@ -150,3 +150,4 @@ class IconBtn extends StatelessWidget {
             onTap: onTap,
             customBorder: RoundedRectangleBorder(borderRadius: radius),
             focusColor: AppColors.teal.withValues(alpha: .24),
+            child: SizedBox.square(
