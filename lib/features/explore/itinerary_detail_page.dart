@@ -88,3 +88,4 @@ class _ItineraryDetailPageState extends State<ItineraryDetailPage> {
       backgroundColor: AppColors.ground,
       body: SingleChildScrollView(
         padding: EdgeInsets.zero,
+        child: Column(
