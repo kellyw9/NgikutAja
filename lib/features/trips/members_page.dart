@@ -202,3 +202,4 @@ class MembersPage extends StatelessWidget {
                             ),
                           ),
                           Pill(trip.members[i].role.label, kind: _kind(trip.members[i].role)),
+                          const SizedBox(width: 8),
