@@ -14,3 +14,4 @@ import 'package:ngikutaja/features/create/add_stop_page.dart';
 import 'package:ngikutaja/features/create/create_itinerary_page.dart';
 import 'package:ngikutaja/features/create/day_editor_page.dart';
 import 'package:ngikutaja/features/create/publish_page.dart';
+import 'package:ngikutaja/features/explore/creator_profile_page.dart';
