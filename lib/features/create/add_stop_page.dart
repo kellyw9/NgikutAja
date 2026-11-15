@@ -9,3 +9,4 @@ export '../trips/trip_forms.dart' show StopEditResult;
 class AddStopPage extends StatefulWidget {
   const AddStopPage({super.key, this.stop, required this.city, this.defaultStart = '08.00'});
   final Stop? stop;
+  final String city;
