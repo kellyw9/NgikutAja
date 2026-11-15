@@ -579,3 +579,4 @@ class CreatorRow extends StatelessWidget {
           ),
           if (!mine) ...[
             const SizedBox(width: 12),
+            NgButton(
