@@ -178,3 +178,4 @@ class _PaymentPageState extends State<PaymentPage> {
     await Future<void>.delayed(const Duration(milliseconds: 1500));
     if (!mounted) return;
     final tx = app.startPayment(widget.it, method);
+    // Simulasi: transfer bank menunggu dibayar; QRIS dan e-wallet langsung selesai; tanpa koneksi gagal.
