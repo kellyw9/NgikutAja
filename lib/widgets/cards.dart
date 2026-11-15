@@ -183,3 +183,5 @@ class WisataCard extends StatelessWidget {
     }
   }
 }
+
+/// Dua kolom Card Wisata grid.
