@@ -95,3 +95,4 @@ class TravelModePage extends StatelessWidget {
                           Progress(total == 0 ? 0 : done / total, track: AppColors.inkRaised),
                         ],
                       ),
+                    ),
