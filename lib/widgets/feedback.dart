@@ -389,3 +389,4 @@ class StatusView extends StatelessWidget {
                   child: icon == 'progress_activity' ? SpinIcon(size: 28, color: iconColor) : AppIcon(icon, size: 28, color: iconColor),
                 ),
                 const SizedBox(height: 20),
+                Semantics(liveRegion: true, child: Text(title, style: AppText.h1)),
