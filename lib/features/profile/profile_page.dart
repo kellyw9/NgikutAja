@@ -50,3 +50,4 @@ class ProfilePage extends StatelessWidget {
                 onTap: () => push(context, const WishlistPage()),
               ),
               ListRow(
+                icon: 'bar_chart',
