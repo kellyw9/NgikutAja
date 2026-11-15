@@ -124,3 +124,4 @@ class Itinerary {
   bool isDraft;
 
   bool get isPaid => price > 0;
+  bool get hasFullPlan => plan.length == days && plan.every((d) => d.isNotEmpty);
