@@ -30,3 +30,4 @@ class DashboardPage extends StatelessWidget {
                 ('Itinerary terbit', '${mine.length}'),
                 ('Total adopsi', thousands(app.totalAdopt)),
                 ('Pendapatan simulasi', rp(app.revenue)),
+              ]),
