@@ -163,3 +163,4 @@ class _PublishPageState extends State<PublishPage> {
                 trailingIcon: 'arrow_forward',
                 expand: true,
                 onPressed: ready
+                    ? () {
