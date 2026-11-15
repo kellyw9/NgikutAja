@@ -151,3 +151,5 @@ class PurchaseConfirmPage extends StatelessWidget {
     ),
   );
 }
+
+const _methods = [
