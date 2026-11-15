@@ -114,3 +114,4 @@ class _AdoptPageState extends State<AdoptPage> {
                 onTap: () async {
                   final d = await pickDate(context, initial: start, days: it.days);
                   if (d != null) setState(() => start = d);
+                },
