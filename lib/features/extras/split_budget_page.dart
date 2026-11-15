@@ -71,3 +71,4 @@ class _SplitBudgetPageState extends State<SplitBudgetPage> {
                     ],
                   ),
                   if (custom) ...[
+                    const SizedBox(height: 6),
