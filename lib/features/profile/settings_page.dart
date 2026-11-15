@@ -76,3 +76,4 @@ class SettingsPage extends StatelessWidget {
               group('Aplikasi', [ListRow(icon: 'language', title: 'Bahasa tampilan', sub: 'Bahasa Indonesia', trailing: null, padH: 14)]),
               group('Notifikasi pengingat', [
                 sw('remindEach', 'Pengingat sebelum aktivitas', '30 menit sebelumnya'),
+                sw('remindDayBefore', 'Pengingat H-1 perjalanan', 'Pukul 19.00 malam sebelum berangkat'),
