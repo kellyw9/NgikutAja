@@ -50,3 +50,4 @@ class AppRadius {
   static const double control = 8;
   static const double chip = 6;
   static const double tag = 4;
+  static const double sheet = 16;
