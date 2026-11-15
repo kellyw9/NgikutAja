@@ -545,3 +545,4 @@ class CreatorRow extends StatelessWidget {
   Widget build(BuildContext context) {
     final app = AppScope.of(context);
     final mine = c == app.me;
+    final following = app.isFollowing(c);
