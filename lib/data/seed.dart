@@ -99,3 +99,4 @@ class Seed {
         bio: 'Kapten kapal wisata di Labuan Bajo.',
         followers: 410,
         following: 33,
+      ),
