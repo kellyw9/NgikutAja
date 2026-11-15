@@ -119,3 +119,4 @@ class AppState extends ChangeNotifier {
 
   void updateProfile({required String name, required String username, required String bio}) {
     me
+      ..name = name.trim()
