@@ -100,3 +100,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
             SingleChildScrollView(
               scrollDirection: Axis.horizontal,
               padding: const EdgeInsets.symmetric(horizontal: kMargin),
+              child: Row(
