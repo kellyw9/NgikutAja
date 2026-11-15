@@ -239,3 +239,4 @@ class TripCard extends StatelessWidget {
     required this.days,
     this.dates,
     this.cover,
+    this.extra,
