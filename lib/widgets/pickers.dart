@@ -179,3 +179,4 @@ Future<String?> pickPhotoSheet(BuildContext context, {String title = 'Tambah fot
   final choice = await showNgSheet<String>(
     context,
     title: title,
+    builder: (ctx) => Column(
