@@ -198,3 +198,4 @@ class GoogleButton extends StatelessWidget {
         child: Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
+            const SizedBox.square(dimension: 20, child: CustomPaint(painter: _GooglePainter())),
