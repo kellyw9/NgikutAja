@@ -183,3 +183,4 @@ Future<String?> pickPhotoSheet(BuildContext context, {String title = 'Tambah fot
       children: [
         ListRow(icon: 'photo_camera', title: 'Ambil dengan kamera', trailing: null, padH: 0, onTap: () => Navigator.pop(ctx, 'camera')),
         const NgDivider(inset: 36, color: AppColors.line),
+        ListRow(icon: 'photo_library', title: 'Pilih dari galeri foto', trailing: null, padH: 0, onTap: () => Navigator.pop(ctx, 'gallery')),
