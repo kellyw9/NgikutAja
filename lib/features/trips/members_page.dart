@@ -28,3 +28,4 @@ class MembersPage extends StatelessWidget {
         DialogAction('Batal'),
       ],
     );
+    if (r == true) {
