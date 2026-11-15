@@ -42,3 +42,5 @@ class _OnboardingPageState extends State<OnboardingPage> {
       _finish();
     }
   }
+
+  @override
