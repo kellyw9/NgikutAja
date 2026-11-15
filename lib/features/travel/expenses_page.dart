@@ -324,3 +324,4 @@ class _AddExpensePageState extends State<AddExpensePage> {
                             if (p != null && p.isNotEmpty) setState(() => receipt = p);
                           },
                         ),
+                ],
