@@ -77,3 +77,4 @@ class _Row extends StatelessWidget {
               iconSize: 22,
               onTap: () {
                 app.toggleWish(it.id);
+                final short = it.title.split(' ').take(3).join(' ');
