@@ -73,3 +73,4 @@ class _CustomizePageState extends State<CustomizePage> {
   }
 
   Future<void> _add() async {
+    final last = plan[day].isEmpty ? null : plan[day].map((s) => s.endMin).reduce((a, b) => a > b ? a : b);
