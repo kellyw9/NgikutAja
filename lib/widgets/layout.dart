@@ -236,3 +236,4 @@ class FactStrip extends StatelessWidget {
 class KeyValueBox extends StatelessWidget {
   const KeyValueBox(this.rows, {super.key, this.total, this.fill = AppColors.surfaceSoft});
   final List<(String, String)> rows;
+  final (String, String)? total;
