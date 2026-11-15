@@ -166,3 +166,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
             child: Gap(
               14,
               children: [
+                Row(
