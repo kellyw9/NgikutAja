@@ -10,3 +10,4 @@ class AppText {
   static const family = 'PlusJakartaSans';
 
   static TextStyle _s(double size, double lh, FontWeight w, double lsPercent) => TextStyle(
+    fontFamily: family,
