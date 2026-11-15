@@ -542,3 +542,4 @@ class Seed {
     final bajo = itineraries.firstWhere((x) => x.id == 'bajo');
     transactions = [
       Transaction(
+        id: _trx(_d(-5), '0977'),
