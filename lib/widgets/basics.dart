@@ -126,3 +126,4 @@ class IconBtn extends StatelessWidget {
   final Color color;
   final double size;
   final double iconSize;
+  final bool filled;
