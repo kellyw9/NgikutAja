@@ -304,3 +304,4 @@ class _SearchPageState extends State<SearchPage> {
     onTap: onTap,
     child: SizedBox(
       height: 56,
+      child: Padding(
