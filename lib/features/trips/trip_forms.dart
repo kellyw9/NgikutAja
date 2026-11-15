@@ -126,3 +126,4 @@ class _EditStopPageState extends State<EditStopPage> {
                     child: NgField(
                       label: 'Jam mulai',
                       icon: 'schedule',
+                      value: start,
