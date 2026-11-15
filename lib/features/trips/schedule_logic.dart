@@ -70,3 +70,5 @@ List<String> shiftCascade(List<Stop> day, Stop target, int newStart) {
   }
   return moved;
 }
+
+(List<DayIssue>, List<Suggestion>) analyze(List<List<Stop>> plan) {
