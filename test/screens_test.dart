@@ -104,3 +104,4 @@ final Map<String, PageFor> pages = {
 
 void main() {
   setUpAll(() async {
+    final loader = FontLoader('PlusJakartaSans');
