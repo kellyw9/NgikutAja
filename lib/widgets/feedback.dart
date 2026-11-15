@@ -338,3 +338,4 @@ class SkeletonCard extends StatelessWidget {
             _bar(120, 12),
             const Spacer(),
             _bar(90, 12),
+          ],
