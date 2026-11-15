@@ -112,3 +112,4 @@ class _PackingPageState extends State<PackingPage> {
                       padV: 0,
                       children: [
                         for (final it in g.items)
+                          Dismissible(
