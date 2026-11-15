@@ -433,3 +433,4 @@ class _PaymentStatusPageState extends State<PaymentStatusPage> {
 
 /// Tutup alur pembelian sampai halaman itinerary (yang otomatis menampilkan detail lengkap
 /// setelah dibeli). Mengembalikan false kalau tidak ada halaman itinerary di tumpukan.
+bool _closeFlow(NavigatorState nav) {
