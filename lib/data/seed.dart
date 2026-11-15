@@ -361,3 +361,4 @@ class Seed {
             _s('13.00', '14.00', 'Kapal kembali ke Ajibata', _l, 15000),
           ],
         ],
+      ),
