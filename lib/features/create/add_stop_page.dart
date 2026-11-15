@@ -171,3 +171,4 @@ class _AddStopPageState extends State<AddStopPage> {
                       return Row(
                         children: [
                           if (photo != null) ...[
+                            SizedBox(
