@@ -50,3 +50,4 @@ class _StatChip extends StatelessWidget {
           child: ExcludeSemantics(
             child: Row(
               mainAxisSize: MainAxisSize.min,
+              children: [
