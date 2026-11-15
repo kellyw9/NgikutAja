@@ -113,3 +113,4 @@ class Seed {
     final c = creators;
 
     final medan = Itinerary(
+      id: 'medan',
