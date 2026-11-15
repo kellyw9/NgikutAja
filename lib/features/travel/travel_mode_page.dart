@@ -267,3 +267,4 @@ class TravelStopPage extends StatelessWidget {
     return Scaffold(
       backgroundColor: AppColors.ground,
       body: ListView(
+        padding: EdgeInsets.zero,
