@@ -408,3 +408,4 @@ class NgChip extends StatelessWidget {
 
 /// Segmented control: track sunk, segmen aktif putih bergaris tipis.
 class Segmented extends StatelessWidget {
+  const Segmented({super.key, required this.items, required this.active, required this.onChanged, this.counts});
