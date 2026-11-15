@@ -146,3 +146,4 @@ class _JournalPageState extends State<JournalPage> {
                       runSpacing: 8,
                       children: [for (final p in e.photos.skip(2)) Photo(p, width: 80, height: 80, radius: AppRadius.inner)],
                     ),
+                ],
