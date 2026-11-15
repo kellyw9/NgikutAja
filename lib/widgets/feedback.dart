@@ -43,3 +43,4 @@ class NgBanner extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   if (title != null) Text(title!, style: AppText.bodyStrong.c(fg)),
+                  if (title != null && text != null) const SizedBox(height: 2),
