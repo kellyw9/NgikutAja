@@ -79,3 +79,4 @@ class AppState extends ChangeNotifier {
   void finishOnboarding(Set<String> picked) {
     onboarded = true;
     interests = picked;
+    _prefs?.setBool('onboarded', true);
