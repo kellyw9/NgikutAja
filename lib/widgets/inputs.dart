@@ -438,3 +438,4 @@ class Segmented extends StatelessWidget {
                   child: InkWell(
                     onTap: () => onChanged(items[i]),
                     focusColor: AppColors.teal.withValues(alpha: .25),
+                    child: Center(
