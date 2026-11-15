@@ -103,3 +103,4 @@ class _NgFieldState extends State<NgField> {
         controller: widget.controller,
         focusNode: _focus,
         readOnly: widget.readOnly,
+        obscureText: widget.obscure,
