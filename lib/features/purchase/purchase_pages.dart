@@ -98,3 +98,4 @@ class PurchaseDetailPage extends StatelessWidget {
         ],
       ),
       bottomNavigationBar: BottomBar(
+        children: [
