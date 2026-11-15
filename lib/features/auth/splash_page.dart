@@ -25,3 +25,4 @@ class _SplashPageState extends State<SplashPage> {
       final app = AppScope.read(context);
       replace(context, app.onboarded ? const HomeShell() : const OnboardingPage());
     });
+  }
