@@ -215,3 +215,4 @@ class _ItineraryDetailPageState extends State<ItineraryDetailPage> {
           Expanded(
             child: Column(
               mainAxisSize: MainAxisSize.min,
+              crossAxisAlignment: CrossAxisAlignment.start,
