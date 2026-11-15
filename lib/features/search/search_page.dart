@@ -516,3 +516,4 @@ class _SearchPageState extends State<SearchPage> {
                       'Reset',
                       kind: BtnKind.text,
                       onPressed: () => set(() {
+                        draft
