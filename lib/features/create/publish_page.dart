@@ -224,3 +224,4 @@ class PublishedPage extends StatelessWidget {
                     NgCard(
                       onTap: () => openItinerary(context, d),
                       child: Row(
+                        children: [
