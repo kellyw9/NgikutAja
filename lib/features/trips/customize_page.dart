@@ -394,3 +394,4 @@ class _CustomizePageState extends State<CustomizePage> {
                     Text('Belum ada aktivitas di Hari ${day + 1}.', style: AppText.body.muted)
                   else
                     ReorderableListView(
+                      shrinkWrap: true,
