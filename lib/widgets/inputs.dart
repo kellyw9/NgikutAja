@@ -434,3 +434,4 @@ class Segmented extends StatelessWidget {
                     borderRadius: BorderRadius.circular(AppRadius.inner),
                     side: items[i] == active ? const BorderSide(color: AppColors.line) : BorderSide.none,
                   ),
+                  clipBehavior: Clip.antiAlias,
