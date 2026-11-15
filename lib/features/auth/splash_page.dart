@@ -22,3 +22,4 @@ class _SplashPageState extends State<SplashPage> {
     super.initState();
     _t = Timer(const Duration(milliseconds: 1400), () {
       if (!mounted) return;
+      final app = AppScope.read(context);
