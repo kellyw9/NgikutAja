@@ -234,3 +234,4 @@ class _NextCard extends StatelessWidget {
                 ),
               ),
               const SizedBox(width: 8),
+              Expanded(
