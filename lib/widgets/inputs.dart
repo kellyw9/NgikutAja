@@ -239,3 +239,4 @@ class NgToggle extends StatelessWidget {
               child: SizedBox(
                 width: 52,
                 height: 32,
+                child: AnimatedAlign(
