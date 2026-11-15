@@ -119,3 +119,4 @@ class BottomNav extends StatelessWidget {
         alignment: Alignment.center,
         decoration: BoxDecoration(color: AppColors.ink, borderRadius: BorderRadius.circular(AppRadius.control)),
         child: const AppIcon('add', color: AppColors.white),
+      ),
