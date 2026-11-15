@@ -84,3 +84,4 @@ class _AddStopPageState extends State<AddStopPage> {
                   Text('Kategori', style: AppText.bodyStrong),
                   const SizedBox(height: 8),
                   SingleChildScrollView(
+                    scrollDirection: Axis.horizontal,
