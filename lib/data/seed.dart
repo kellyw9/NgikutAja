@@ -78,3 +78,4 @@ class Seed {
         name: 'Bayu Prasetyo',
         handle: '@jogjahemat',
         tint: 4,
+        bio: 'Keliling Jogja naik Trans Jogja dan jalan kaki.',
