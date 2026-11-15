@@ -395,3 +395,4 @@ class StopRow extends StatelessWidget {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
+                  // Jam selalu satu baris: menyusut sedikit kalau lebar huruf melebihi kolom 48.
