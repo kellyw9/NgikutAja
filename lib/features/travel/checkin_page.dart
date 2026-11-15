@@ -81,3 +81,4 @@ class _CheckinPageState extends State<CheckinPage> {
                           setState(() => done = true);
                         }
                       : null,
+                ),
