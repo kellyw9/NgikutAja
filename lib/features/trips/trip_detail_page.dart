@@ -128,3 +128,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
 
   @override
   Widget build(BuildContext context) {
+    final app = AppScope.of(context);
