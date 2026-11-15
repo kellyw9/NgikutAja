@@ -614,3 +614,4 @@ class ProfileHead extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Text(thousands(v), style: AppText.h2),
+            Text(l, style: AppText.small.muted),
