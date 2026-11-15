@@ -318,3 +318,4 @@ class Trip {
   int places() => seedPlaces ?? plan.fold(0, (a, d) => a + d.length);
   int visited() => seedVisited ?? checkins.length;
   int spending() => seedSpending ?? expenses.fold(0, (a, e) => a + e.amount);
+  int get expenseTotal => expenses.fold(0, (a, e) => a + e.amount);
