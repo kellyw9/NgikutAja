@@ -13,3 +13,4 @@ class AppText {
     fontFamily: family,
     fontSize: size,
     height: lh / size,
+    fontWeight: w,
