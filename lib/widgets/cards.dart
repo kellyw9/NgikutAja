@@ -77,3 +77,4 @@ class WisataCard extends StatelessWidget {
     final label = '${it.title}, ${it.city}, ${it.days} hari${it.isPaid ? ', ${rp(it.price)}' : ', gratis'}';
     switch (variant) {
       case CardVariant.row:
+        return Tap(
