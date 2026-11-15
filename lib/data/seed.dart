@@ -129,3 +129,4 @@ class Seed {
       publishedAt: _d(-20),
       desc:
           'Tiga hari keliling Medan dengan urutan yang hemat jalan: pagi di istana dan masjid tua, siang di rumah saudagar, '
+          'sore jalan kaki di Kesawan. Hari kedua dan ketiga fokus kuliner malam dan oleh-oleh.',
