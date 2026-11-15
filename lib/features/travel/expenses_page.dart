@@ -279,3 +279,4 @@ class _AddExpensePageState extends State<AddExpensePage> {
                     : 'Hari ${day + 1}, ${weekdaysLong[date.weekday - 1]} ${date.day} ${monthsShort[date.month - 1]}',
                 trailing: 'expand_more',
                 onTap: () async {
+                  final d = await showNgSheet<int>(
