@@ -61,3 +61,4 @@ List<String> shiftCascade(List<Stop> day, Stop target, int newStart) {
     if (s.startMin < cursor) {
       final d = s.duration;
       final ns = cursor + 15;
+      s
