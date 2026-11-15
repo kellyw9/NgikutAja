@@ -139,3 +139,4 @@ class SectionHead extends StatelessWidget {
     padding: EdgeInsets.only(left: padded ? kMargin : 0, right: padded ? 4 : 0),
     child: Row(
       children: [
+        Expanded(
