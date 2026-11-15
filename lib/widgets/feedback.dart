@@ -265,3 +265,4 @@ class EmptyState extends StatelessWidget {
       ),
     ),
   );
+}
