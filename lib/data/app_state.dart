@@ -434,3 +434,4 @@ class AppState extends ChangeNotifier {
     recentSearches
       ..removeWhere((x) => x.toLowerCase() == v.toLowerCase())
       ..insert(0, v);
+    if (recentSearches.length > 6) recentSearches.removeLast();
