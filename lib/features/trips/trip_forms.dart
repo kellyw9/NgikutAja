@@ -191,3 +191,4 @@ class _EditStopPageState extends State<EditStopPage> {
                                 onTap: () => setState(() => photo = null),
                               ),
                             ),
+                          ],
