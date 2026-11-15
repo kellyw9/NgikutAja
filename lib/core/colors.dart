@@ -31,3 +31,4 @@ class AppColors {
   static const scrim = Color(0x730C4A57); // ink, opacity 0.45
 
   // Header Travel Mode (tinta satu tingkat lebih terang)
+  static const inkRaised = Color(0xFF17505C);
