@@ -139,3 +139,4 @@ class _AdoptPageState extends State<AdoptPage> {
               ),
               NgCard(
                 child: Row(
+                  children: [
