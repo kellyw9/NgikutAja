@@ -232,3 +232,4 @@ class JournalEntry {
 
 class Trip {
   Trip({
+    required this.id,
