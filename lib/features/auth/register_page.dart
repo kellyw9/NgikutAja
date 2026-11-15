@@ -156,3 +156,4 @@ class _RegisterPageState extends State<RegisterPage> {
                               onTap: () =>
                                   Navigator.pushReplacement(context, MaterialPageRoute(builder: (_) => LoginPage(popOnSuccess: widget.popOnSuccess))),
                             ),
+                          ],
