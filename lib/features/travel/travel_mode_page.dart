@@ -206,3 +206,4 @@ class _NextCard extends StatelessWidget {
                     children: [
                       Row(
                         children: [
+                          Marker(i + 1, state: MarkerState.next, size: 22),
