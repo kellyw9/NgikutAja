@@ -145,3 +145,4 @@ class _EditStopPageState extends State<EditStopPage> {
                           title: 'Durasi aktivitas',
                           scroll: true,
                           builder: (ctx) => Column(
+                            children: [
