@@ -419,3 +419,4 @@ class Segmented extends StatelessWidget {
     return Container(
       height: 40,
       padding: const EdgeInsets.all(3),
+      decoration: BoxDecoration(color: AppColors.sunk, borderRadius: BorderRadius.circular(AppRadius.control)),
