@@ -463,3 +463,4 @@ class Segmented extends StatelessWidget {
       ),
     );
   }
+}
