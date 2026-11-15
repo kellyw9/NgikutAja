@@ -249,3 +249,4 @@ class Photo extends StatelessWidget {
       );
     } else if (s.startsWith('mem:')) {
       final bytes = PhotoStore.get(s);
+      img = bytes == null
