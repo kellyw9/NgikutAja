@@ -464,3 +464,4 @@ class IconTile extends StatelessWidget {
     width: size,
     height: size,
     alignment: Alignment.center,
+    decoration: BoxDecoration(
