@@ -128,3 +128,4 @@ class AppState extends ChangeNotifier {
   bool usernameAvailable(String u) {
     final h = '@${u.trim().toLowerCase()}';
     if (h == me.handle.toLowerCase()) return true;
+    return !seed.creators.values.any((c) => c.handle.toLowerCase() == h) && !seed.followers.any((p) => p.handle == h);
