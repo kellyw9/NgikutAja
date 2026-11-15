@@ -105,3 +105,4 @@ class Itinerary {
   String? cover;
   Creator creator;
   int price;
+  int adopted;
