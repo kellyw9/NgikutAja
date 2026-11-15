@@ -481,3 +481,4 @@ class PageFrame extends StatelessWidget {
     required this.body,
     this.bottom,
     this.scroll = true,
+    this.padding = const EdgeInsets.fromLTRB(kMargin, 8, kMargin, 24),
