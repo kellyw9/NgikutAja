@@ -100,3 +100,4 @@ class _ResetPasswordPageState extends State<ResetPasswordPage> {
                           child: TextLink('Kirim ulang tautan', onTap: _send),
                         ),
                     ],
+                    const Spacer(),
