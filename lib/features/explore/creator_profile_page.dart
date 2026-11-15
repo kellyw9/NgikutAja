@@ -17,3 +17,4 @@ class _CreatorProfilePageState extends State<CreatorProfilePage> {
 
   @override
   Widget build(BuildContext context) {
+    final app = AppScope.of(context);
