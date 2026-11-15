@@ -56,3 +56,4 @@ class WishButton extends StatelessWidget {
         if (!app.loggedIn) {
           onGuest?.call();
           return;
+        }
