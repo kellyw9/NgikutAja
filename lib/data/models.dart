@@ -104,3 +104,4 @@ class Itinerary {
   int days;
   String? cover;
   Creator creator;
+  int price;
