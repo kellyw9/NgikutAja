@@ -62,3 +62,5 @@ class _StatChip extends StatelessWidget {
     ),
   );
 }
+
+/// 2.2 Detail Itinerary.
