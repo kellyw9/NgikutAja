@@ -467,3 +467,4 @@ class PurchaseHistoryPage extends StatelessWidget {
               separatorBuilder: (_, _) => const SizedBox(height: 10),
               itemBuilder: (_, i) {
                 final t = list[i];
+                return NgCard(
