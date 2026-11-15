@@ -503,3 +503,4 @@ class _SearchPageState extends State<SearchPage> {
                 Wrap(
                   spacing: 8,
                   children: [
+                    for (final p in const ['Semua', 'Gratis', 'Berbayar'])
