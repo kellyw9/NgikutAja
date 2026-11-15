@@ -274,3 +274,4 @@ class PublishedPage extends StatelessWidget {
 
 class _CloseBtn extends StatelessWidget {
   const _CloseBtn();
+  @override
