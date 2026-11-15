@@ -140,3 +140,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
                     Text(r.text, style: AppText.body),
                   ],
                 ),
+              ),
