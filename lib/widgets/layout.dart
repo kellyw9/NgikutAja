@@ -431,3 +431,4 @@ class HeroPhoto extends StatelessWidget {
                 left: 12,
                 top: top + 12,
                 child: IconBtn(left!, label: 'Kembali', bg: AppColors.surface, size: 40, onTap: onLeft ?? () => Navigator.maybePop(context)),
+              ),
