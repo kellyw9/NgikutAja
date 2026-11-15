@@ -162,3 +162,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
                     text: 'Pastikan judul itinerary sudah terisi sebelum melanjutkan.',
                   ),
                 _cover(),
+                NgField(
