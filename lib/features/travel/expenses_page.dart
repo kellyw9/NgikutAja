@@ -92,3 +92,4 @@ class ExpensesPage extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text('Total pengeluaran tercatat', style: AppText.small.muted),
+                    const SizedBox(height: 4),
