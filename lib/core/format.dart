@@ -31,3 +31,4 @@ String dateShort(DateTime d) => '${weekdaysShort[d.weekday - 1]}, ${d.day} ${mon
 String dateRange(DateTime a, DateTime b) {
   if (a.month == b.month && a.year == b.year) {
     return a.day == b.day ? '${a.day} ${monthsShort[a.month - 1]} ${a.year}' : '${a.day}–${b.day} ${monthsShort[a.month - 1]} ${a.year}';
+  }
