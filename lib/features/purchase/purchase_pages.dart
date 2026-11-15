@@ -472,3 +472,4 @@ class PurchaseHistoryPage extends StatelessWidget {
                   onTap: () => push(context, TransactionDetailPage(tx: t)),
                   child: Row(
                     children: [
+                      Photo(t.item.cover, width: 52, height: 52, radius: AppRadius.inner),
