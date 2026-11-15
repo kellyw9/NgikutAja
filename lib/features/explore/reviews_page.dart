@@ -128,3 +128,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Text(r.name, style: AppText.bodyStrong),
+                              const SizedBox(height: 2),
