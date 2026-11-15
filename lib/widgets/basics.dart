@@ -549,3 +549,4 @@ class Marker extends StatelessWidget {
     };
     return Container(
       width: size,
+      height: size,
