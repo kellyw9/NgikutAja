@@ -164,3 +164,4 @@ class Member {
   final String name;
   final String handle;
   MemberRole role;
+  final int tint;
