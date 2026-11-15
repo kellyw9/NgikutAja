@@ -96,3 +96,4 @@ class _JournalPageState extends State<JournalPage> {
             padding: const EdgeInsets.symmetric(horizontal: kMargin),
             child: NgCard(
               child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
