@@ -16,3 +16,5 @@ class SplashPage extends StatefulWidget {
 
 class _SplashPageState extends State<SplashPage> {
   Timer? _t;
+
+  @override
