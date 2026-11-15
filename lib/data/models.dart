@@ -333,3 +333,5 @@ class Review {
   final String date;
   final String text;
 }
+
+class Comment {
