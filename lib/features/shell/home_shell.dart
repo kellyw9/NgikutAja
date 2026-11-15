@@ -9,3 +9,5 @@ import '../trips/trips_page.dart';
 
 /// Tab aktif di cangkang utama. Halaman lain bisa pindah tab lewat [goTab].
 final shellTab = ValueNotifier<int>(0);
+
+/// Segmen aktif di Trip Saya.
