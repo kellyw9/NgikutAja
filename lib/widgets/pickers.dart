@@ -24,3 +24,5 @@ Future<DateTime?> pickDate(BuildContext context, {required DateTime initial, int
     builder: (_) => _Calendar(initial: initial, days: days, first: first ?? AppScope.read(context).today),
   );
 }
+
+class _Calendar extends StatefulWidget {
