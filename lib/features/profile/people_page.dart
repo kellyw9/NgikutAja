@@ -36,3 +36,4 @@ class _PeoplePageState extends State<PeoplePage> {
       body: ListView(
         padding: const EdgeInsets.symmetric(vertical: 8),
         children: [
+          for (var i = 0; i < list.length; i++) ...[
