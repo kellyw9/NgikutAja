@@ -26,3 +26,4 @@ class _RegisterPageState extends State<RegisterPage> {
     if (p.length < 8) return (.33, 'Terlalu pendek, minimal 8 karakter', AppColors.negative);
     final mixed = RegExp(r'[A-Za-z]').hasMatch(p) && RegExp(r'\d').hasMatch(p);
     return mixed && p.length >= 10 ? (1, 'Kuat', AppColors.positive) : (.66, 'Cukup kuat, minimal 8 karakter', AppColors.positive);
+  }
