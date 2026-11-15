@@ -196,3 +196,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
                         final n = await showNgSheet<int>(
                           context,
                           title: 'Durasi itinerary',
+                          scroll: true,
