@@ -20,3 +20,4 @@ class SettingsPage extends StatelessWidget {
       body: 'Trip yang tersimpan offline tetap tersimpan di perangkat ini sampai kamu masuk dengan akun lain.',
       actions: const [
         DialogAction('Keluar', kind: BtnKind.danger, value: true),
+        DialogAction('Batal'),
