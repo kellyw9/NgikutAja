@@ -43,3 +43,4 @@ class _PublishPageState extends State<PublishPage> {
       final on = paid == isPaid;
       return Expanded(
         child: Semantics(
+          inMutuallyExclusiveGroup: true,
