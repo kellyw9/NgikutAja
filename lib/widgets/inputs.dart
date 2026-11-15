@@ -425,3 +425,4 @@ class Segmented extends StatelessWidget {
           for (var i = 0; i < items.length; i++) ...[
             if (i > 0) const SizedBox(width: 2),
             Expanded(
+              child: Semantics(
