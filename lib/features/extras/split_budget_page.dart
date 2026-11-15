@@ -20,3 +20,4 @@ class _SplitBudgetPageState extends State<SplitBudgetPage> {
     final app = AppScope.of(context);
     final t = widget.trip;
     final total = t.expenseTotal;
+    final members = t.members;
