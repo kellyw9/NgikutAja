@@ -37,3 +37,4 @@ class NgAppBar extends StatelessWidget implements PreferredSizeWidget {
   });
 
   final String? title;
+  final String? sub;
