@@ -139,3 +139,5 @@ class AppState extends ChangeNotifier {
 
   List<Itinerary> get published => itineraries.where((x) => !x.isDraft && x.creator != me).toList();
   List<Itinerary> get mine => itineraries.where((x) => x.creator == me).toList();
+
+  List<Itinerary> byCreator(Creator c) => itineraries.where((x) => x.creator == c).toList();
