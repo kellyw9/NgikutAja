@@ -133,3 +133,4 @@ class BottomNav extends StatelessWidget {
           width: 32,
           height: 3,
           decoration: BoxDecoration(
+            color: on ? AppColors.teal : null,
