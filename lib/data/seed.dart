@@ -337,3 +337,4 @@ class Seed {
         title: 'Samosir Naik Motor 2 Hari',
         city: 'Samosir',
         region: 'Samosir, Sumatera Utara',
+        days: 2,
