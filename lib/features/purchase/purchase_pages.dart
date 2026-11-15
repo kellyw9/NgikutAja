@@ -503,3 +503,4 @@ class TransactionDetailPage extends StatelessWidget {
   final Transaction tx;
 
   @override
+  Widget build(BuildContext context) {
