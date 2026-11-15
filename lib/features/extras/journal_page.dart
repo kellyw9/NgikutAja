@@ -122,3 +122,4 @@ class _JournalPageState extends State<JournalPage> {
             DayStrip(days: [for (var d = 0; d < t.days; d++) DayItem('Hari ${d + 1}')], active: day, onTap: (d) => setState(() => day = d)),
           Padding(
             padding: const EdgeInsets.fromLTRB(kMargin, 14, kMargin, 0),
+            child: Gap(
