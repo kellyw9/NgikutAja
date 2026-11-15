@@ -237,3 +237,4 @@ class Seed {
       jogja,
       Itinerary(
         id: 'bali',
+        title: 'Bali Utara yang Lebih Tenang',
