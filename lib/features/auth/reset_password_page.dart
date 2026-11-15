@@ -38,3 +38,4 @@ class _ResetPasswordPageState extends State<ResetPasswordPage> {
       loading = false;
       sent = true;
       wait = 59;
+    });
