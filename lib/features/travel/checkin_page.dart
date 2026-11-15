@@ -148,3 +148,4 @@ class PermissionDeniedPage extends StatelessWidget {
             const SizedBox(height: 14),
             NgButton('Nanti saja', kind: BtnKind.secondary, expand: true, onPressed: () => Navigator.pop(context)),
           ],
+        ),
