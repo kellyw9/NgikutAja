@@ -335,3 +335,4 @@ class SkeletonCard extends StatelessWidget {
               decoration: const BoxDecoration(color: AppColors.sunk, shape: BoxShape.circle),
             ),
             const SizedBox(width: 8),
+            _bar(120, 12),
