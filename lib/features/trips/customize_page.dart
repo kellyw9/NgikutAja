@@ -175,3 +175,4 @@ class _CustomizePageState extends State<CustomizePage> {
       context,
       icon: 'drive_file_move',
       title: 'Pindahkan ke Hari ${target + 1}?',
+      body: from != null && to != null
