@@ -104,3 +104,4 @@ class Seed {
         id: 'nadia',
         name: 'Nadia Kusuma',
         handle: '@bandungjadul',
+        tint: 1,
