@@ -50,3 +50,4 @@ class TravelModePage extends StatelessWidget {
                             IconBtn('close', label: 'Tutup Travel Mode', color: AppColors.white, onTap: () => Navigator.pop(context)),
                             const SizedBox(width: 4),
                             Expanded(
+                              child: Semantics(header: true, child: Text('Travel Mode', style: AppText.h2.white)),
