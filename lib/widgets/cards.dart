@@ -130,3 +130,4 @@ class WisataCard extends StatelessWidget {
                   ],
                 ),
               ),
+              const SizedBox(height: 8),
