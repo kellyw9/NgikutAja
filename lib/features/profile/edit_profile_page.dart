@@ -92,3 +92,4 @@ class _EditProfilePageState extends State<EditProfilePage> {
                       'Ganti foto profil',
                       kind: BtnKind.secondary,
                       size: BtnSize.md,
+                      icon: 'photo_camera',
