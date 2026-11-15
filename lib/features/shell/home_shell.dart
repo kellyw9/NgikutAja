@@ -117,3 +117,4 @@ class BottomNav extends StatelessWidget {
         width: 44,
         height: 36,
         alignment: Alignment.center,
+        decoration: BoxDecoration(color: AppColors.ink, borderRadius: BorderRadius.circular(AppRadius.control)),
