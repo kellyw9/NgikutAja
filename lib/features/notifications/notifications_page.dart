@@ -73,3 +73,4 @@ class NotificationsPage extends StatelessWidget {
           padding: const EdgeInsets.fromLTRB(kMargin, 12, kMargin, 12),
           child: Row(
             crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
