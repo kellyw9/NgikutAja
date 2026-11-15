@@ -180,3 +180,4 @@ class _CustomizePageState extends State<CustomizePage> {
           : '${st.name} pindah dari Hari ${day + 1} ke Hari ${target + 1} pukul $ns.',
       actions: const [
         DialogAction('Pindahkan sekarang', kind: BtnKind.primary, value: true),
+        DialogAction('Batal'),
