@@ -84,3 +84,4 @@ class MembersPage extends StatelessWidget {
   }
 
   void _invite(BuildContext context) {
+    final app = AppScope.read(context);
