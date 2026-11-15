@@ -139,3 +139,4 @@ class PurchaseConfirmPage extends StatelessWidget {
               fill: AppColors.surface,
             ),
             _simNote,
+          ],
