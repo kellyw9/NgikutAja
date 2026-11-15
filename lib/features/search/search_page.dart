@@ -377,3 +377,4 @@ class _SearchPageState extends State<SearchPage> {
                       onPressed: () {
                         input.clear();
                         setState(() => submitted = null);
+                      },
