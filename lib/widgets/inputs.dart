@@ -314,3 +314,4 @@ class RadioRow extends StatelessWidget {
               const SizedBox(width: 12),
               RadioMark(selected),
             ],
+          ),
