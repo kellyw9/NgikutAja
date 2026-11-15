@@ -281,3 +281,4 @@ class AppState extends ChangeNotifier {
     Itinerary it,
     DateTime start, {
     required bool remindDayBefore,
+    required bool remindEach,
