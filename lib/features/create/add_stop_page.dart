@@ -166,3 +166,4 @@ class _AddStopPageState extends State<AddStopPage> {
                   Text('Foto referensi', style: AppText.bodyStrong),
                   const SizedBox(height: 8),
                   LayoutBuilder(
+                    builder: (context, c) {
