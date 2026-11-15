@@ -366,3 +366,4 @@ class Seed {
         id: 'sarapan',
         title: 'Sarapan Medan Sebelum Jam 9',
         city: 'Medan',
+        region: 'Medan, Sumatera Utara',
