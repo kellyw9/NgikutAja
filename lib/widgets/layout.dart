@@ -31,3 +31,4 @@ class NgAppBar extends StatelessWidget implements PreferredSizeWidget {
     this.back = 'arrow_back',
     this.onBack,
     this.actions = const [],
+    this.rule = false,
