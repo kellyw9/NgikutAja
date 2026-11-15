@@ -57,3 +57,4 @@ class TripsPage extends StatelessWidget {
             onPressed: () => push(context, const CreateItineraryPage(), fullscreen: true),
           ),
         ),
+      ];
