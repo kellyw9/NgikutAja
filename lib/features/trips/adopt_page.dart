@@ -238,3 +238,4 @@ class _AdoptProgressPageState extends State<AdoptProgressPage> {
     final it = widget.it;
     final busy = trip == null && !failed;
     return PopScope(
+      canPop: !busy,
