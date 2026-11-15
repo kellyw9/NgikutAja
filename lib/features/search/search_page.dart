@@ -576,3 +576,4 @@ class _BudgetSlider extends StatelessWidget {
           showValueIndicator: ShowValueIndicator.never,
         ),
         child: RangeSlider(
+          values: value,
