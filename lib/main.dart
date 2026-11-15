@@ -6,3 +6,4 @@ import 'app.dart';
 import 'data/app_state.dart';
 
 Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
