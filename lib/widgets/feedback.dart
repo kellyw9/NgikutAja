@@ -151,3 +151,4 @@ Future<T?> showNgSheet<T>(BuildContext context, {String? title, String? sub, req
                       Expanded(
                         child: Padding(
                           padding: const EdgeInsets.only(top: 10),
+                          child: Column(
