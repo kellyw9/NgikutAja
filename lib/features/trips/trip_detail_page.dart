@@ -33,3 +33,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
         ListRow(
           icon: 'edit',
           title: 'Edit informasi trip',
+          padH: 0,
