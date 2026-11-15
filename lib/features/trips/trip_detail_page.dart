@@ -180,3 +180,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
                   Tap(
                     onTap: () => openItinerary(context, it),
                     radius: 4,
+                    child: Row(
