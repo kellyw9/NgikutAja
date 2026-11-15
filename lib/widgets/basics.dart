@@ -87,3 +87,4 @@ class NgButton extends StatelessWidget {
           overlayColor: WidgetStateProperty.resolveWith((s) {
             final base = (bg == AppColors.ink || bg == AppColors.negative) ? AppColors.white : AppColors.ink;
             if (s.contains(WidgetState.pressed)) return base.withValues(alpha: .16);
+            if (s.contains(WidgetState.hovered) || s.contains(WidgetState.focused)) return base.withValues(alpha: .08);
