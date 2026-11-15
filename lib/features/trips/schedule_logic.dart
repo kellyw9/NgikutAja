@@ -69,3 +69,4 @@ List<String> shiftCascade(List<Stop> day, Stop target, int newStart) {
     cursor = s.endMin;
   }
   return moved;
+}
