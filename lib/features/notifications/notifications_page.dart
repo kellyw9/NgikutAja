@@ -93,3 +93,4 @@ class NotificationsPage extends StatelessWidget {
                     Text(n.time, style: AppText.small.muted),
                     if (invite) ...[
                       const SizedBox(height: 8),
+                      if (n.inviteState == null)
