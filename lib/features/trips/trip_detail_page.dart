@@ -158,3 +158,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
           HeroPhoto(
             t.cover,
             height: 220,
+            semantic: 'Foto sampul ${t.title}',
