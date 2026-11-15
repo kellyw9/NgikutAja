@@ -334,3 +334,4 @@ class NgStepper extends StatelessWidget {
     height: 44,
     decoration: BoxDecoration(
       color: AppColors.surface,
+      borderRadius: BorderRadius.circular(AppRadius.control),
