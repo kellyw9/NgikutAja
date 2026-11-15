@@ -33,3 +33,4 @@ class WishlistPage extends StatelessWidget {
               ],
             ),
     );
+  }
