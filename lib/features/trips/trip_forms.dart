@@ -258,3 +258,4 @@ class _EditTripInfoPageState extends State<EditTripInfoPage> {
 
   @override
   Widget build(BuildContext context) {
+    final app = AppScope.of(context);
