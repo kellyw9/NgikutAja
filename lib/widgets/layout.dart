@@ -105,3 +105,5 @@ class TabHeader extends StatelessWidget {
   final String title;
   final List<Widget> actions;
   final String? sub;
+
+  @override
