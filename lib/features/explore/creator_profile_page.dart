@@ -50,3 +50,4 @@ class _CreatorProfilePageState extends State<CreatorProfilePage> {
             padding: const EdgeInsets.fromLTRB(kMargin, 20, kMargin, 0),
             child: Column(
               children: [
+                Row(
