@@ -186,3 +186,4 @@ class _AddStopPageState extends State<AddStopPage> {
                                       decoration: BoxDecoration(color: AppColors.surface, borderRadius: BorderRadius.circular(AppRadius.tag)),
                                       child: Text('Terpasang', style: AppText.smallStrong),
                                     ),
+                                  ),
