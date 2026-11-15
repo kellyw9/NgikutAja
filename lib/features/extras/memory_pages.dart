@@ -120,3 +120,4 @@ class _PhotoViewerPageState extends State<PhotoViewerPage> {
                   itemBuilder: (_, k) => InteractiveViewer(
                     child: Center(
                       child: AspectRatio(
+                        aspectRatio: 4 / 3,
