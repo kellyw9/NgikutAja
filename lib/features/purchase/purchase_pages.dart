@@ -394,3 +394,4 @@ class _PaymentStatusPageState extends State<PaymentStatusPage> {
             middle: KeyValueBox([
               ('Itinerary', it.title),
               ('Metode pembayaran', tx.method),
+              ('Total tagihan', rp(tx.amount)),
