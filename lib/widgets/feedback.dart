@@ -284,3 +284,4 @@ class ErrorBlock extends StatelessWidget {
       children: [
         const AppIcon('error', size: 20, color: AppColors.negative),
         const SizedBox(width: 10),
+        Expanded(
