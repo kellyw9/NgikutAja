@@ -165,3 +165,4 @@ class NotificationDetailPage extends StatelessWidget {
               ),
               Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
