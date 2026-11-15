@@ -78,3 +78,4 @@ class _SplitBudgetPageState extends State<SplitBudgetPage> {
                   BoxList(
                     inset: 56,
                     children: [
+                      for (final m in members)
