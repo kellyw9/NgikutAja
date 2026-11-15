@@ -71,3 +71,4 @@ class _AddStopPageState extends State<AddStopPage> {
             16,
             children: [
               NgField(
+                label: 'Nama tempat',
