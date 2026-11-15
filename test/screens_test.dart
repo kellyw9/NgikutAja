@@ -119,3 +119,4 @@ void main() {
         addTearDown(tester.view.reset);
         final s = AppState(null, now: DateTime(2026, 11, 4, 9, 41), watchNetwork: false)
           ..onboarded = true
+          ..loggedIn = true;
