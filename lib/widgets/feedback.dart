@@ -260,3 +260,4 @@ class EmptyState extends StatelessWidget {
           Text(title, style: AppText.h2, textAlign: TextAlign.center),
           const SizedBox(height: 10),
           Text(text, style: AppText.body.muted, textAlign: TextAlign.center),
+          if (action != null) ...[const SizedBox(height: 16), action!],
