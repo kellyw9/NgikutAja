@@ -108,3 +108,4 @@ class Seed {
         bio: 'Gedung tua, kopi, dan jalan kaki di Bandung.',
         followers: 690,
         following: 210,
+      ),
