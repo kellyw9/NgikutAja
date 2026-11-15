@@ -36,3 +36,4 @@ class _OnboardingPageState extends State<OnboardingPage> {
   }
 
   void _next() {
+    if (page < 2) {
