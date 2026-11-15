@@ -33,3 +33,4 @@ class _CreatorProfilePageState extends State<CreatorProfilePage> {
         padding: const EdgeInsets.only(bottom: 24),
         children: [
           ProfileHead(
+            p: c,
