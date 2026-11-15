@@ -273,3 +273,4 @@ class Trip {
   String region;
   DateTime? start;
   String? cover;
+  List<List<Stop>> plan;
