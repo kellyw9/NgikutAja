@@ -222,3 +222,4 @@ class Tap extends StatelessWidget {
       ),
     );
   }
+}
