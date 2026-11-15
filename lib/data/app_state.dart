@@ -134,3 +134,5 @@ class AppState extends ChangeNotifier {
   // ---------------- itinerary ----------------
   late List<Itinerary> itineraries;
   late List<Itinerary> drafts;
+
+  Itinerary itinerary(String id) => itineraries.firstWhere((x) => x.id == id, orElse: () => drafts.firstWhere((x) => x.id == id));
