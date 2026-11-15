@@ -112,3 +112,4 @@ class _ExplorePageState extends State<ExplorePage> {
                     height: 190,
                     child: ListView.separated(
                       scrollDirection: Axis.horizontal,
+                      padding: const EdgeInsets.symmetric(horizontal: kMargin),
