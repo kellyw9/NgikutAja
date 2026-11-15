@@ -135,3 +135,4 @@ class _LoginPageState extends State<LoginPage> {
                         Row(
                           children: [
                             Expanded(child: Container(height: 1, color: AppColors.line)),
+                            Padding(
