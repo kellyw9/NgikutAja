@@ -103,3 +103,4 @@ class Seed {
       'nadia': Creator(
         id: 'nadia',
         name: 'Nadia Kusuma',
+        handle: '@bandungjadul',
