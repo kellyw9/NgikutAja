@@ -296,3 +296,4 @@ class AppState extends ChangeNotifier {
       cover: it.cover,
       from: it,
       dayTitles: [...it.dayTitles],
+      plan: it.plan.length >= it.days ? copyPlan(it.plan) : [...copyPlan(it.plan), for (var i = it.plan.length; i < it.days; i++) <Stop>[]],
