@@ -59,3 +59,4 @@ List<String> shiftCascade(List<Stop> day, Stop target, int newStart) {
   var cursor = target.endMin;
   for (final s in later) {
     if (s.startMin < cursor) {
+      final d = s.duration;
