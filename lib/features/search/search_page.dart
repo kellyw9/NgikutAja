@@ -111,3 +111,4 @@ class _SearchPageState extends State<SearchPage> {
   bool _matchQuery(Itinerary it, String q) {
     final s = q.toLowerCase();
     final inPlace =
+        it.city.toLowerCase().contains(s) || it.region.toLowerCase().contains(s) || (s.contains('toba') && it.title.toLowerCase().contains('toba'));
