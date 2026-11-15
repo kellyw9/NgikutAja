@@ -38,3 +38,5 @@ class _DayEditorPageState extends State<DayEditorPage> {
   }
 
   bool _dayHasError(int k) => d.plan[k].isEmpty || conflictsIn(d.plan[k]).isNotEmpty;
+
+  Future<void> _editStop([int? i]) async {
