@@ -107,3 +107,4 @@ List<String> shiftCascade(List<Stop> day, Stop target, int newStart) {
         ),
       );
     }
+    if (isPacked(day)) {
