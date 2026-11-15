@@ -421,3 +421,4 @@ class Segmented extends StatelessWidget {
       padding: const EdgeInsets.all(3),
       decoration: BoxDecoration(color: AppColors.sunk, borderRadius: BorderRadius.circular(AppRadius.control)),
       child: Row(
+        children: [
