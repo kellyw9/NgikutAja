@@ -141,3 +141,4 @@ class _AddStopPageState extends State<AddStopPage> {
                         const SizedBox(width: 6),
                         Text(timeErr!, style: AppText.small.c(AppColors.negative)),
                       ],
+                    ),
