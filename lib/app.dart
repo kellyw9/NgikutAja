@@ -63,3 +63,4 @@ ThemeData buildTheme() {
       textStyle: AppText.small.white,
     ),
     progressIndicatorTheme: const ProgressIndicatorThemeData(color: AppColors.ink),
+  );
