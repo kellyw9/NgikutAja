@@ -40,3 +40,4 @@ class _PeoplePageState extends State<PeoplePage> {
             if (i > 0) const NgDivider(inset: kMargin + 52),
             SizedBox(
               height: 64,
+              child: Padding(
