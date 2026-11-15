@@ -315,3 +315,4 @@ class _AddExpensePageState extends State<AddExpensePage> {
                   Text('Foto struk (opsional)', style: AppText.bodyStrong),
                   const SizedBox(height: 8),
                   receipt != null
+                      ? Photo(receipt, width: 80, height: 80, radius: AppRadius.inner, semantic: 'Foto struk')
