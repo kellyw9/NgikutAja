@@ -99,3 +99,4 @@ class OfflinePage extends StatelessWidget {
         child: Padding(
           padding: const EdgeInsets.fromLTRB(kMargin, 0, kMargin, 16),
           child: NgButton(
+            'Perbarui data offline',
