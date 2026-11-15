@@ -174,3 +174,4 @@ class _EditStopPageState extends State<EditStopPage> {
                   Text('Foto tempat', style: AppText.bodyStrong),
                   const SizedBox(height: 8),
                   Row(
+                    children: [
