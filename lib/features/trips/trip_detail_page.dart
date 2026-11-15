@@ -92,3 +92,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
                   const SizedBox(width: 10),
                   Expanded(child: Text(st.note!, style: AppText.body)),
                 ],
+              ),
