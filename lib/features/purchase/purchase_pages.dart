@@ -329,3 +329,4 @@ class _PaymentStatusPageState extends State<PaymentStatusPage> {
               NgButton(
                 'Cek status transaksi',
                 kind: BtnKind.secondary,
+                icon: 'sync',
