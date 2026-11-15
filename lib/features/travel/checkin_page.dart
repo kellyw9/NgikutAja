@@ -152,3 +152,4 @@ class PermissionDeniedPage extends StatelessWidget {
       ),
     ),
   );
+}
