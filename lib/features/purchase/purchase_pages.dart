@@ -536,3 +536,4 @@ class TransactionDetailPage extends StatelessWidget {
               onPressed: () => push(context, PaymentPage(it: tx.item, method: tx.method)),
             ),
           },
+        ),
