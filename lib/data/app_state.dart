@@ -36,3 +36,4 @@ class AppState extends ChangeNotifier {
     notifications = [...seed.notifications];
     recentSearches = [...Seed.recentSearches];
     onboarded = _prefs?.getBool('onboarded') ?? false;
+    loggedIn = _prefs?.getBool('loggedIn') ?? false;
