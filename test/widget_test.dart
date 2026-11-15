@@ -40,3 +40,4 @@ void main() {
     expect(rp(1100000), 'Rp1.100.000');
     expect(rp(-97000), '−Rp97.000');
     expect(fromMinutes(toMinutes('13.15') + 90), '14.45');
+  });
