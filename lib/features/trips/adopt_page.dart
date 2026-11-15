@@ -257,3 +257,4 @@ class _AdoptProgressPageState extends State<AdoptProgressPage> {
                 title: 'Adopt belum berhasil',
                 text: 'Koneksi terputus saat menyalin. Tidak ada data yang tersimpan, silakan coba kembali.',
                 actions: [
+                  NgButton('Coba lagi', expand: true, onPressed: _run),
