@@ -457,3 +457,4 @@ class Seed {
                 'Kapal dari Ajibata penuh anak sekolah. Di Tuktuk kami sarapan dulu, terus sewa motor buat ke Holbung. '
                 'Kabutnya baru hilang jam 12.',
             photos: ['samosir', 'holbung'],
+          ),
