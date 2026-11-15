@@ -62,3 +62,5 @@ class _EditStopPageState extends State<EditStopPage> {
       ..photo = photo;
     Navigator.pop(context, StopEditResult(stop: out));
   }
+
+  Future<void> _delete() async {
