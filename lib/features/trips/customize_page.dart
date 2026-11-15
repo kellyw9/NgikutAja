@@ -173,3 +173,4 @@ class _CustomizePageState extends State<CustomizePage> {
     final from = t.dayDate(day), to = t.dayDate(target);
     final ok = await showNgDialog(
       context,
+      icon: 'drive_file_move',
