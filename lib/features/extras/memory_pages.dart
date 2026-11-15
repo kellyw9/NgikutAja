@@ -89,3 +89,4 @@ class _PhotoViewerPageState extends State<PhotoViewerPage> {
       value: kLightIcons,
       child: Scaffold(
         backgroundColor: AppColors.ink,
+        body: SafeArea(
