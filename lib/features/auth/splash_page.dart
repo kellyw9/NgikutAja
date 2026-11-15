@@ -45,3 +45,4 @@ class _SplashPageState extends State<SplashPage> {
               Expanded(
                 child: Center(
                   child: Column(
+                    mainAxisSize: MainAxisSize.min,
