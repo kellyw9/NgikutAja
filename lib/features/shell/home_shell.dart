@@ -11,3 +11,4 @@ import '../trips/trips_page.dart';
 final shellTab = ValueNotifier<int>(0);
 
 /// Segmen aktif di Trip Saya.
+final tripsTab = ValueNotifier<TripStatus>(TripStatus.berjalan);
