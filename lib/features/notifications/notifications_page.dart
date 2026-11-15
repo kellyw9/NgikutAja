@@ -39,3 +39,4 @@ class NotificationsPage extends StatelessWidget {
     return Scaffold(
       backgroundColor: AppColors.ground,
       appBar: NgAppBar(
+        title: 'Notifikasi',
