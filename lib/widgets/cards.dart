@@ -243,3 +243,4 @@ class TripCard extends StatelessWidget {
     this.onTap,
   });
   final TripStatus status;
+  final String title;
