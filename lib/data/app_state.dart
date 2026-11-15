@@ -350,3 +350,5 @@ class AppState extends ChangeNotifier {
     t.photos.add(p);
     notifyListeners();
   }
+
+  void inviteMember(Trip t, String handle, MemberRole role) {
