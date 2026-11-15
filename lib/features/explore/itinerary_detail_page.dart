@@ -90,3 +90,4 @@ class _ItineraryDetailPageState extends State<ItineraryDetailPage> {
         padding: EdgeInsets.zero,
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
+          children: [
