@@ -140,3 +140,4 @@ class _EditStopPageState extends State<EditStopPage> {
                       icon: 'timer',
                       value: durationText(duration),
                       onTap: () async {
+                        final d = await showNgSheet<int>(
