@@ -394,3 +394,4 @@ class LocalTip {
   final String title;
   final String text;
   final List<String> body;
+  final String? photo;
