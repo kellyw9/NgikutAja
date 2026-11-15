@@ -405,3 +405,4 @@ class NavigationPage extends StatelessWidget {
           borderRadius: BorderRadius.vertical(top: Radius.circular(AppRadius.sheet)),
           boxShadow: kFloatShadow,
         ),
+        child: SafeArea(
