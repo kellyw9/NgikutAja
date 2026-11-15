@@ -197,3 +197,4 @@ class AppState extends ChangeNotifier {
     } else {
       following.add(c.id);
       c.followers++;
+    }
