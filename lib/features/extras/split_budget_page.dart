@@ -21,3 +21,4 @@ class _SplitBudgetPageState extends State<SplitBudgetPage> {
     final t = widget.trip;
     final total = t.expenseTotal;
     final members = t.members;
+    final parts = custom ? members.fold<int>(0, (a, m) => a + (portion[m.first] ?? 1)) : members.length;
