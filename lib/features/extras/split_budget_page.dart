@@ -6,3 +6,5 @@ import '../../widgets/ui.dart';
 class SplitBudgetPage extends StatefulWidget {
   const SplitBudgetPage({super.key, required this.trip});
   final Trip trip;
+
+  @override
