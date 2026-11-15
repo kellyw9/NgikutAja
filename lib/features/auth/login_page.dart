@@ -195,3 +195,4 @@ class GoogleButton extends StatelessWidget {
       child: InkWell(
         onTap: onTap,
         focusColor: AppColors.teal.withValues(alpha: .2),
+        child: Row(
