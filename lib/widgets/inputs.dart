@@ -242,3 +242,4 @@ class NgToggle extends StatelessWidget {
                 child: AnimatedAlign(
                   duration: const Duration(milliseconds: 160),
                   alignment: value ? Alignment.centerRight : Alignment.centerLeft,
+                  child: Padding(
