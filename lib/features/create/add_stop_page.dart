@@ -330,3 +330,4 @@ class _PickLocationPageState extends State<PickLocationPage> {
                       width: 160,
                       child: IgnorePointer(
                         child: Center(
+                          child: Container(
