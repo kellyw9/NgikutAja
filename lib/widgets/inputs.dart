@@ -211,3 +211,5 @@ class ObscureToggle extends StatelessWidget {
     color: AppColors.muted,
   );
 }
+
+/// Toggle 52x32: aktif = isi tinta + bulatan putih 24; nonaktif = sunk bergaris + bulatan 16.
