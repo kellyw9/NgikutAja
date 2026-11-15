@@ -130,3 +130,4 @@ class _ItineraryDetailPageState extends State<ItineraryDetailPage> {
                           text: '${decimal(it.rating!)} (${it.reviews ?? 0} ulasan)',
                           label: 'Rating ${decimal(it.rating!)}, buka ulasan',
                           onTap: () => push(context, ReviewsPage(it: it)),
+                        ),
