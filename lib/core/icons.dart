@@ -60,3 +60,4 @@ class _IconPainter extends CustomPainter {
     final s = size.width / 960;
     canvas.save();
     canvas.scale(s, s);
+    canvas.translate(0, 960);
