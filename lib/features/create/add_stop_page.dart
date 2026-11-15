@@ -91,3 +91,4 @@ class _AddStopPageState extends State<AddStopPage> {
                           NgChip(c.label, selected: c == cat, icon: c.icon, onTap: () => setState(() => cat = c)),
                           const SizedBox(width: 8),
                         ],
+                      ],
