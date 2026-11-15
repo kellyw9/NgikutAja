@@ -229,3 +229,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
                         touched = true;
                       }),
                     ),
+                  ],
