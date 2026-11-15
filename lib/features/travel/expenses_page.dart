@@ -195,3 +195,4 @@ class _AddExpensePageState extends State<AddExpensePage> {
     final app = AppScope.read(context);
     if (e != null) {
       e!
+        ..name = name.text.trim()
