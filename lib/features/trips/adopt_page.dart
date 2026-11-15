@@ -33,3 +33,4 @@ class _AdoptPageState extends State<AdoptPage> {
         DialogAction('Adopt sekarang', kind: BtnKind.primary, value: true),
         DialogAction('Batal'),
       ],
+    );
