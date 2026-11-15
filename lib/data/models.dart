@@ -385,3 +385,4 @@ class AppNotification {
   final String time;
   final bool today;
   bool unread;
+  String? inviteState; // null = belum dijawab, 'Diterima', 'Ditolak'
