@@ -8,3 +8,5 @@ String thousands(int n) {
   }
   return (n < 0 ? '-' : '') + buf.toString();
 }
+
+String rp(int n) => n < 0 ? '−Rp${thousands(-n)}' : 'Rp${thousands(n)}';
