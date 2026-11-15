@@ -113,3 +113,4 @@ class OfflinePage extends StatelessWidget {
                 t.syncedAt = _now();
               }
               app.touch();
+              showNgSnack(
