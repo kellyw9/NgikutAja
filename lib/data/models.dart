@@ -193,3 +193,4 @@ class Expense {
     this.receipt,
   });
   final String id;
+  String name;
