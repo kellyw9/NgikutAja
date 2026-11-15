@@ -282,3 +282,4 @@ class Seed {
         price: 0,
         adopted: 129,
         likes: 266,
+        rating: 4.7,
