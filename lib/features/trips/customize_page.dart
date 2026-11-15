@@ -375,3 +375,4 @@ class _CustomizePageState extends State<CustomizePage> {
                   if (conflicts.isNotEmpty)
                     NgBanner(
                       kind: BannerKind.error,
+                      title: 'Jadwal bertabrakan di Hari ${day + 1}',
