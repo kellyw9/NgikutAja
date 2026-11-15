@@ -47,3 +47,4 @@ class TravelModePage extends StatelessWidget {
                         padding: const EdgeInsets.only(left: 4, right: 12),
                         child: Row(
                           children: [
+                            IconBtn('close', label: 'Tutup Travel Mode', color: AppColors.white, onTap: () => Navigator.pop(context)),
