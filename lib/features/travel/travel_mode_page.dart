@@ -285,3 +285,4 @@ class TravelStopPage extends StatelessWidget {
                     Pill('Aktivitas ${i + 1} dari ${trip.plan[day].length}'),
                   ],
                 ),
+                Text(st.name, style: AppText.h1),
