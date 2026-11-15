@@ -385,3 +385,4 @@ class StatusView extends StatelessWidget {
                   width: 56,
                   height: 56,
                   alignment: Alignment.center,
+                  decoration: BoxDecoration(color: tone, borderRadius: BorderRadius.circular(AppRadius.card)),
