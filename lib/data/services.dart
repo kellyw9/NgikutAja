@@ -52,3 +52,5 @@ class Network {
   static final _c = Connectivity();
 
   static Stream<bool> watch() => _c.onConnectivityChanged.map(_online);
+
+  static Future<bool> check() async => _online(await _c.checkConnectivity());
