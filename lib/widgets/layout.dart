@@ -59,3 +59,4 @@ class NgAppBar extends StatelessWidget implements PreferredSizeWidget {
         if (title != null && title!.isNotEmpty)
           Semantics(
             header: true,
+            child: Text(title!, style: AppText.h2, maxLines: 1, overflow: TextOverflow.ellipsis),
