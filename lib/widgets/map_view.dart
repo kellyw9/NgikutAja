@@ -187,3 +187,4 @@ class _MapPainter extends CustomPainter {
     }
 
     if (ring != null) {
+      final c = p(ring!.$1.dx, ring!.$1.dy);
