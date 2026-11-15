@@ -68,3 +68,4 @@ class Seed {
         id: 'lestari',
         name: 'Lestari Manurung',
         handle: '@tobaslowtravel',
+        tint: 3,
