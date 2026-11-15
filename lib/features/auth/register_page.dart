@@ -133,3 +133,4 @@ class _RegisterPageState extends State<RegisterPage> {
                         label: 'Konfirmasi password',
                         icon: 'lock',
                         controller: confirm,
+                        obscure: ob2,
