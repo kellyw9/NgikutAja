@@ -270,3 +270,4 @@ class TripCard extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Expanded(
+                  child: Column(
