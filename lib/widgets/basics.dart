@@ -12,3 +12,5 @@ import '../data/services.dart';
 enum BtnKind { primary, secondary, accent, danger, dangerText, text, ghost }
 
 enum BtnSize { lg, md }
+
+/// Tombol NgikutAja: radius 8, tinggi 48 (lg) atau 40 (md).
