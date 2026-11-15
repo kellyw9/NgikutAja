@@ -188,3 +188,4 @@ class _CustomizePageState extends State<CustomizePage> {
       final s = plan[day].removeAt(i);
       appendToDay(plan[target], s);
     });
+    if (mounted) showNgSnack(context, '${st.name} dipindah ke Hari ${target + 1}.');
