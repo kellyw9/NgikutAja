@@ -115,3 +115,4 @@ void main() {
     for (final e in pages.entries) {
       testWidgets('${e.key} @${size.width.toInt()}', (tester) async {
         tester.view.physicalSize = size * 3;
+        tester.view.devicePixelRatio = 3;
