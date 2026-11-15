@@ -19,3 +19,5 @@ class _DayEditorPageState extends State<DayEditorPage> {
   late final d = widget.d;
   int day = 0;
   late final dayTitle = TextEditingController(text: _title(0));
+
+  String _title(int k) => k < d.dayTitles.length ? d.dayTitles[k] : '';
