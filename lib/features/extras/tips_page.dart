@@ -47,3 +47,4 @@ class TipsPage extends StatelessWidget {
               const SizedBox(height: 10),
             ],
             Text('Tips ditulis oleh creator itinerary dan anggota komunitas yang pernah berkunjung.', style: AppText.small.muted),
+          ],
