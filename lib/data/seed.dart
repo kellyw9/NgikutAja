@@ -236,3 +236,4 @@ class Seed {
       toba,
       jogja,
       Itinerary(
+        id: 'bali',
