@@ -366,3 +366,4 @@ class Transaction {
 enum NotifKind { reminder, invite, payment, departure, like, comment }
 
 class AppNotification {
+  AppNotification({
