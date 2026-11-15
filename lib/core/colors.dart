@@ -28,3 +28,4 @@ class AppColors {
   static const negativePale = Color(0xFFFFEDEA);
   static const negativeInk = Color(0xFF831C1E);
   static const white = Color(0xFFFFFFFF);
+  static const scrim = Color(0x730C4A57); // ink, opacity 0.45
