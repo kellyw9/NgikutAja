@@ -10,3 +10,5 @@ String thousands(int n) {
 }
 
 String rp(int n) => n < 0 ? '−Rp${thousands(-n)}' : 'Rp${thousands(n)}';
+
+String decimal(double v, [int digits = 1]) => v.toStringAsFixed(digits).replaceAll('.', ',');
