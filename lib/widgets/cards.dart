@@ -374,3 +374,4 @@ class StopRow extends StatelessWidget {
                 ],
               ],
             ),
+            if (note && st.note != null && !blur) ...[
