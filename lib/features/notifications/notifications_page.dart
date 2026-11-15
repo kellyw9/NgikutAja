@@ -47,3 +47,4 @@ class NotificationsPage extends StatelessWidget {
               icon: 'notifications',
               title: 'Belum ada notifikasi',
               text: 'Pengingat trip, undangan, dan status pembayaran muncul di sini.',
+            )
