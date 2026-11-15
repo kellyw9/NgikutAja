@@ -313,3 +313,4 @@ class _CustomizePageState extends State<CustomizePage> {
         appBar: NgAppBar(
           title: 'Customize trip',
           back: 'close',
+          onBack: () => Navigator.maybePop(context),
