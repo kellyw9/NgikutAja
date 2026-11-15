@@ -137,3 +137,4 @@ class _EditStopPageState extends State<EditStopPage> {
                   Expanded(
                     child: NgField(
                       label: 'Durasi',
+                      icon: 'timer',
