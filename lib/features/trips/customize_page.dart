@@ -320,3 +320,4 @@ class _CustomizePageState extends State<CustomizePage> {
           padding: const EdgeInsets.only(bottom: 20),
           children: [
             Padding(
+              padding: const EdgeInsets.symmetric(horizontal: kMargin),
