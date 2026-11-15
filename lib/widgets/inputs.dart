@@ -405,3 +405,5 @@ class NgChip extends StatelessWidget {
     );
   }
 }
+
+/// Segmented control: track sunk, segmen aktif putih bergaris tipis.
