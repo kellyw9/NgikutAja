@@ -298,3 +298,5 @@ class Trip {
   int? seedPlaces;
   int? seedVisited;
   int? seedSpending;
+
+  /// Kutipan catatan untuk recap: (nomor hari, isi).
