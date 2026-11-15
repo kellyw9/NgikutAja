@@ -66,3 +66,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
     if (!titleOk) return;
     _apply();
     push(context, DayEditorPage(d: d));
+  }
