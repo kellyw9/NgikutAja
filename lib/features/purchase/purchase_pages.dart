@@ -134,3 +134,4 @@ class PurchaseConfirmPage extends StatelessWidget {
           children: [
             _ItemRow(it),
             KeyValueBox(
+              [('Harga itinerary', rp(it.price)), ('Biaya layanan', rp(0))],
