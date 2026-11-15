@@ -80,3 +80,4 @@ class _CustomizePageState extends State<CustomizePage> {
       fullscreen: true,
     );
     if (r?.stop != null) _changed(() => plan[day].add(r!.stop!));
+  }
