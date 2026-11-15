@@ -443,3 +443,4 @@ class Segmented extends StatelessWidget {
                         mainAxisSize: MainAxisSize.min,
                         children: [
                           Flexible(
+                            child: Text(
