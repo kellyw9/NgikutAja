@@ -200,3 +200,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
   }
 
   Widget _composer(AppState app) => Material(
+    color: AppColors.surface,
