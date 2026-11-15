@@ -151,3 +151,4 @@ class TripsPage extends StatelessWidget {
         Row(
           children: [
             Text('Hari ${d + 1} dari ${t.days}', style: AppText.small.muted),
+            const Spacer(),
