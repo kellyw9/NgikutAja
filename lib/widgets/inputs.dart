@@ -40,3 +40,4 @@ class NgField extends StatefulWidget {
   final String? label;
   final TextEditingController? controller;
   final String? value;
+  final String hint;
