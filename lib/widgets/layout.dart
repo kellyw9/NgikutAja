@@ -362,3 +362,4 @@ class BoxList extends StatelessWidget {
 class NgCard extends StatelessWidget {
   const NgCard({
     super.key,
+    required this.child,
