@@ -91,3 +91,4 @@ void main() {
     await tester.pumpWidget(host(s, CustomizePage(trip: t)));
     expect(find.text('Jadwal bertabrakan di Hari 1'), findsOneWidget);
     await tapText(tester, 'Lihat saran');
+    await tester.pumpAndSettle();
