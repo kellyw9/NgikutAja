@@ -37,3 +37,4 @@ class _ItemRow extends StatelessWidget {
 }
 
 /// 8.1 Detail Pembelian.
+class PurchaseDetailPage extends StatelessWidget {
