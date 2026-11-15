@@ -32,3 +32,4 @@ class _AdoptPageState extends State<AdoptPage> {
       actions: const [
         DialogAction('Adopt sekarang', kind: BtnKind.primary, value: true),
         DialogAction('Batal'),
+      ],
