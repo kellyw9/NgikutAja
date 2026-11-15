@@ -624,3 +624,4 @@ class ProfileHead extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          Row(
