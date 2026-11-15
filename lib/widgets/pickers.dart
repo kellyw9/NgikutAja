@@ -157,3 +157,4 @@ Future<Category?> pickCategory(BuildContext context, Category current) {
               child: SizedBox(
                 height: 52,
                 child: Row(
+                  children: [
