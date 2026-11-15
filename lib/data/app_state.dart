@@ -462,3 +462,5 @@ class AppState extends ChangeNotifier {
     settings[key] = v;
     notifyListeners();
   }
+
+  @override
