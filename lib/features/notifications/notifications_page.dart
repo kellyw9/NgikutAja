@@ -64,3 +64,4 @@ class NotificationsPage extends StatelessWidget {
   );
 
   Widget _row(BuildContext context, AppState app, AppNotification n) {
+    final invite = n.kind == NotifKind.invite;
