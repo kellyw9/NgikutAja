@@ -203,3 +203,4 @@ class ObscureToggle extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) => IconBtn(
+    obscured ? 'visibility' : 'visibility_off',
