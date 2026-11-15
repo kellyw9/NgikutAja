@@ -302,3 +302,4 @@ class _EditTripInfoPageState extends State<EditTripInfoPage> {
                 onChanged: (_) => setState(() {}),
               ),
               NgField(label: 'Destinasi', icon: 'location_on', controller: region),
+              NgField(
