@@ -58,3 +58,4 @@ class ExpensesPage extends StatelessWidget {
               Expanded(
                 child: NgButton(
                   'Edit',
+                  kind: BtnKind.secondary,
