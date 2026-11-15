@@ -264,3 +264,4 @@ class _CustomizePageState extends State<CustomizePage> {
               ),
             if (tips.isNotEmpty) Text('Saran penyesuaian', style: AppText.h2),
             for (final s in tips)
+              Row(
