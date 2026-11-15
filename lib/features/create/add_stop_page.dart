@@ -135,3 +135,4 @@ class _AddStopPageState extends State<AddStopPage> {
                   ),
                   if (timeErr != null) ...[
                     const SizedBox(height: 6),
+                    Row(
