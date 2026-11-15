@@ -70,3 +70,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
         else ...[
           NgCard(
             child: Row(
+              children: [
