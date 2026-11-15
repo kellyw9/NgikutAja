@@ -250,3 +250,4 @@ class Trip {
     Map<int, JournalEntry>? journal,
     this.story = '',
     this.offline = false,
+    this.offlineSize = 0,
