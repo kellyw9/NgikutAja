@@ -331,3 +331,4 @@ class DashedAction extends StatelessWidget {
       fill: fill,
       child: SizedBox(
         height: height,
+        child: Row(
