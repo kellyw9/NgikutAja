@@ -104,3 +104,4 @@ class _RegisterPageState extends State<RegisterPage> {
                         hint: 'nama@email.com',
                         onChanged: refresh,
                         keyboardType: TextInputType.emailAddress,
+                        textInputAction: TextInputAction.next,
