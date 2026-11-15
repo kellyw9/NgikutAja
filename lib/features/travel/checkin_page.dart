@@ -121,3 +121,4 @@ class PermissionDeniedPage extends StatelessWidget {
   final VoidCallback onOpenSettings;
 
   @override
+  Widget build(BuildContext context) => Scaffold(
