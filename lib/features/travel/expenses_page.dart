@@ -274,3 +274,4 @@ class _AddExpensePageState extends State<AddExpensePage> {
               NgField(
                 label: 'Hari',
                 icon: 'event',
+                value: date == null
