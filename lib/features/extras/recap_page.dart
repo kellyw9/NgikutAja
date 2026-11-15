@@ -71,3 +71,4 @@ class RecapPage extends StatelessWidget {
                       child: SizedBox(
                         height: 216,
                         child: Row(
+                          children: [
