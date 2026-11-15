@@ -81,3 +81,4 @@ class Itinerary {
     required this.creator,
     this.price = 0,
     this.adopted = 0,
+    this.likes = 0,
