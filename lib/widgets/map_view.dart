@@ -30,3 +30,5 @@ class MapView extends StatelessWidget {
     this.label = true,
     this.overlay = const [],
   });
+
+  final double? height;
