@@ -369,3 +369,4 @@ class AppNotification {
   AppNotification({
     required this.id,
     required this.kind,
+    required this.icon,
