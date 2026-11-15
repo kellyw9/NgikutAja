@@ -494,3 +494,4 @@ class _DayBox extends StatelessWidget {
         color: on ? AppColors.ink : AppColors.surface,
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(AppRadius.control),
+          side: on ? BorderSide.none : const BorderSide(color: AppColors.line),
