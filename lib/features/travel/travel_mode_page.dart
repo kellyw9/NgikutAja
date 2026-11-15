@@ -422,3 +422,4 @@ class NavigationPage extends StatelessWidget {
                         children: [
                           Text(st.name, style: AppText.h2),
                           const SizedBox(height: 2),
+                          Text(st.address ?? trip.region, style: AppText.small.muted),
