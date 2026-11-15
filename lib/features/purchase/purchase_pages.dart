@@ -203,3 +203,4 @@ class _PaymentPageState extends State<PaymentPage> {
         padding: const EdgeInsets.fromLTRB(kMargin, 8, kMargin, 16),
         children: [
           Gap(
+            14,
