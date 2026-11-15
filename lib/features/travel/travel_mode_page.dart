@@ -123,3 +123,4 @@ class TravelModePage extends StatelessWidget {
                     ),
                   const SizedBox(height: 16),
                   Row(
+                    children: [
