@@ -25,3 +25,4 @@ Future<void> phone(WidgetTester tester) async {
   tester.view.physicalSize = const Size(390 * 3, 844 * 3);
   tester.view.devicePixelRatio = 3;
   addTearDown(tester.view.reset);
+}
