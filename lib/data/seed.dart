@@ -221,3 +221,4 @@ class Seed {
       desc: 'Tiga hari tanpa sewa mobil.',
       estimateSeed: 520000,
       placesSeed: 11,
+      publishedAt: _d(-300),
