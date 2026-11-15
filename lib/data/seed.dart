@@ -596,3 +596,4 @@ class Seed {
       AppNotification(
         id: 'n5',
         kind: NotifKind.like,
+        icon: 'favorite',
