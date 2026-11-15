@@ -258,3 +258,4 @@ class Trip {
     this.seedPlaces,
     this.seedVisited,
     this.seedSpending,
+    this.recapNote,
