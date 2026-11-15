@@ -51,3 +51,4 @@ class Stop {
 
   String start;
   String end;
+  String name;
