@@ -190,3 +190,4 @@ class _NewPasswordPageState extends State<NewPasswordPage> {
                       label: 'Konfirmasi password baru',
                       icon: 'lock',
                       controller: p2,
+                      obscure: o2,
