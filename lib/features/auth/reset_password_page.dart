@@ -153,3 +153,4 @@ class _NewPasswordPageState extends State<NewPasswordPage> {
     p1.dispose();
     p2.dispose();
     super.dispose();
+  }
