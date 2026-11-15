@@ -5,3 +5,5 @@ import '../core/text.dart';
 import 'basics.dart';
 
 enum MapKind { city, lake }
+
+class MapPin {
