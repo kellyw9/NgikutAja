@@ -120,3 +120,4 @@ class NotificationsPage extends StatelessWidget {
                 child: n.unread
                     ? Semantics(
                         label: 'Belum dibaca',
+                        child: Container(
