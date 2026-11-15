@@ -14,3 +14,4 @@ class TravelModePage extends StatelessWidget {
   final Trip trip;
 
   @override
+  Widget build(BuildContext context) {
