@@ -174,3 +174,4 @@ class BottomBar extends StatelessWidget {
           Container(height: 1, color: AppColors.line),
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: kMargin, vertical: 12),
+            child: Row(
