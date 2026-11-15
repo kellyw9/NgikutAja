@@ -48,3 +48,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
 
   void _setDays(int n) {
     setState(() {
+      touched = true;
