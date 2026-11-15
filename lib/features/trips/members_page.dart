@@ -75,3 +75,4 @@ class MembersPage extends StatelessWidget {
               onPressed: () {
                 Navigator.pop(ctx);
                 _remove(context, m);
+              },
