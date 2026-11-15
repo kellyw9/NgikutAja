@@ -136,3 +136,4 @@ class _PhotoViewerPageState extends State<PhotoViewerPage> {
                     children: [
                       Text(p.caption, style: AppText.title.white),
                       const SizedBox(height: 4),
+                      Text(
