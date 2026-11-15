@@ -587,3 +587,4 @@ class Seed {
       AppNotification(
         id: 'n4',
         kind: NotifKind.departure,
+        icon: 'luggage',
