@@ -56,3 +56,4 @@ class _ExplorePageState extends State<ExplorePage> {
     Widget feed() {
       if (loading) {
         return const Padding(
+          padding: EdgeInsets.symmetric(horizontal: kMargin),
