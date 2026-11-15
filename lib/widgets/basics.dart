@@ -244,3 +244,4 @@ class Photo extends StatelessWidget {
     if (s == null) {
       img = Container(
         color: AppColors.sunk,
+        alignment: Alignment.center,
