@@ -56,3 +56,4 @@ class MapView extends StatelessWidget {
           child: GestureDetector(
             behavior: HitTestBehavior.opaque,
             onTapUp: onTapPoint == null ? null : (d) => onTapPoint!(Offset(d.localPosition.dx / w, d.localPosition.dy / h)),
+            child: Stack(
