@@ -187,3 +187,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
                 Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
+                    NgField(
