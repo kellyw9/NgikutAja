@@ -168,3 +168,4 @@ class _PackingPageState extends State<PackingPage> {
                 crossAxisAlignment: CrossAxisAlignment.end,
                 children: [
                   Expanded(
+                    child: NgField(
