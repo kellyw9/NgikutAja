@@ -28,3 +28,4 @@ class AppIcon extends StatelessWidget {
   }
 
   @override
+  Widget build(BuildContext context) {
