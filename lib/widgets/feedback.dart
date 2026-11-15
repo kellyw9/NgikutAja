@@ -119,3 +119,4 @@ Future<T?> showNgSheet<T>(BuildContext context, {String? title, String? sub, req
   return showModalBottomSheet<T>(
     context: context,
     isScrollControlled: true,
+    useSafeArea: true,
