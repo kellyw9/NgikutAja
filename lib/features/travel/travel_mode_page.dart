@@ -334,3 +334,4 @@ class TravelStopPage extends StatelessWidget {
                         'Navigasi',
                         icon: 'directions',
                         expand: true,
+                        onPressed: () => push(context, NavigationPage(trip: trip, day: day, i: i)),
