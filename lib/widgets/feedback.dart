@@ -240,3 +240,5 @@ class EmptyState extends StatelessWidget {
   final String text;
   final Widget? action;
   final double height;
+
+  @override
