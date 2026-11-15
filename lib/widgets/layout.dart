@@ -72,3 +72,4 @@ class NgAppBar extends StatelessWidget implements PreferredSizeWidget {
           bottom: false,
           child: Column(
             mainAxisSize: MainAxisSize.min,
+            children: [
