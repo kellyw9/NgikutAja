@@ -312,3 +312,4 @@ class StopRow extends StatelessWidget {
     this.last = false,
     this.thumb = true,
     this.trailing,
+    this.note = true,
