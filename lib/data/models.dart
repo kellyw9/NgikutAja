@@ -345,3 +345,4 @@ class Comment {
 }
 
 enum TxStatus {
+  berhasil('Berhasil'),
