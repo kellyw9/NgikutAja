@@ -197,3 +197,4 @@ class _PaymentPageState extends State<PaymentPage> {
   Widget build(BuildContext context) => PopScope(
     canPop: !processing,
     child: Scaffold(
+      backgroundColor: AppColors.ground,
