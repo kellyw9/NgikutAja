@@ -93,3 +93,4 @@ class _PhotoPreviewPageState extends State<PhotoPreviewPage> {
                       time: fromMinutes(now.hour * 60 + now.minute),
                       publicVisible: vis == 'Public',
                     ),
+                  );
