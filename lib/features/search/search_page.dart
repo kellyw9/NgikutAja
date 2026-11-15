@@ -623,3 +623,4 @@ class _SquareThumb extends RangeSliderThumbShape {
       Paint()
         ..color = AppColors.ink
         ..style = PaintingStyle.stroke
+        ..strokeWidth = 2,
