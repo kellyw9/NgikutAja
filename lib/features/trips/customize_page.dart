@@ -181,3 +181,4 @@ class _CustomizePageState extends State<CustomizePage> {
       actions: const [
         DialogAction('Pindahkan sekarang', kind: BtnKind.primary, value: true),
         DialogAction('Batal'),
+      ],
