@@ -247,3 +247,4 @@ class Photo extends StatelessWidget {
         alignment: Alignment.center,
         child: AppIcon(placeholderIcon, color: AppColors.muted),
       );
+    } else if (s.startsWith('mem:')) {
