@@ -219,3 +219,4 @@ class NotificationDetailPage extends StatelessWidget {
                   icon: 'near_me',
                   expand: true,
                   onPressed: () => push(context, TravelModePage(trip: trip), fullscreen: true),
+                ),
