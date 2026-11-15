@@ -149,3 +149,4 @@ class _SplitBudgetPageState extends State<SplitBudgetPage> {
                       children: [
                         for (final (from, to, amt) in settle)
                           Builder(
+                            builder: (context) {
