@@ -257,3 +257,4 @@ class PaidPreviewPage extends StatelessWidget {
       body: SingleChildScrollView(
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
+          children: [
