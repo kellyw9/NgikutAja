@@ -41,3 +41,4 @@ class _OnboardingPageState extends State<OnboardingPage> {
     } else {
       _finish();
     }
+  }
