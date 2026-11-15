@@ -216,3 +216,4 @@ class Seed {
       adopted: 341,
       likes: 702,
       rating: 4.7,
+      reviews: 58,
