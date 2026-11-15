@@ -170,3 +170,4 @@ class _NgFieldState extends State<NgField> {
               child: InkWell(
                 onTap: widget.onTap,
                 borderRadius: BorderRadius.circular(AppRadius.control),
+                focusColor: AppColors.teal.withValues(alpha: .15),
