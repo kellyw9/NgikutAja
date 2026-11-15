@@ -308,3 +308,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
       label: 'Tambah foto sampul',
       child: DashedBox(
         radius: AppRadius.card,
+        child: SizedBox(
