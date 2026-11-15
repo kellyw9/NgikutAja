@@ -414,3 +414,4 @@ class _CustomizePageState extends State<CustomizePage> {
                         final s = stops.removeAt(a);
                         stops.insert(b, s);
                       }),
+                      children: [
