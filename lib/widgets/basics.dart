@@ -461,3 +461,4 @@ class MetaRow extends StatelessWidget {
   @override
   Widget build(BuildContext context) => Wrap(
     spacing: gap,
+    runSpacing: 4,
