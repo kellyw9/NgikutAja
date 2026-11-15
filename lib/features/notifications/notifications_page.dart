@@ -182,3 +182,4 @@ class NotificationDetailPage extends StatelessWidget {
                 ),
                 NgCard(
                   padding: const EdgeInsets.all(12),
+                  child: Row(
