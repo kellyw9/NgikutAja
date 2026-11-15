@@ -35,3 +35,4 @@ class MembersPage extends StatelessWidget {
   }
 
   void _detail(BuildContext context, Member m) {
+    final app = AppScope.read(context);
