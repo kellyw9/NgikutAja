@@ -160,3 +160,4 @@ class NotificationDetailPage extends StatelessWidget {
             14,
             children: [
               const Align(
+                alignment: Alignment.centerLeft,
