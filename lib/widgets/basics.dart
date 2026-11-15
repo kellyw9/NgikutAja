@@ -512,3 +512,4 @@ class Wordmark extends StatelessWidget {
     final mark = large ? 14.0 : 10.0;
     return Semantics(
       label: 'NgikutAja',
+      child: ExcludeSemantics(
