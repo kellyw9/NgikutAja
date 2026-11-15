@@ -159,3 +159,4 @@ class _AddStopPageState extends State<AddStopPage> {
                 controller: note,
                 area: true,
                 hint: 'Misal: datang lebih pagi agar dapat tempat duduk.',
+              ),
