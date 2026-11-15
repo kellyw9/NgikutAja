@@ -40,3 +40,4 @@ class NgAppBar extends StatelessWidget implements PreferredSizeWidget {
   final String? sub;
 
   /// Ikon tombol kiri ('arrow_back' atau 'close'); null = tanpa tombol.
+  final String? back;
