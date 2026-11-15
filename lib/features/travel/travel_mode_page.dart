@@ -182,3 +182,4 @@ class _NextCard extends StatelessWidget {
   final int i;
 
   @override
+  Widget build(BuildContext context) {
