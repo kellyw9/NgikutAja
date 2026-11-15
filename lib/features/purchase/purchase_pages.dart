@@ -407,3 +407,4 @@ class _PaymentStatusPageState extends State<PaymentStatusPage> {
                     builder: (_) => PaymentPage(it: it, method: tx.method),
                   ),
                 ),
+              ),
