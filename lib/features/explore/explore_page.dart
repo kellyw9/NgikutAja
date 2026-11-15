@@ -153,3 +153,4 @@ class CityCard extends StatelessWidget {
             Text(n == 0 ? 'Belum ada itinerary' : '$n itinerary', style: AppText.small.muted),
           ],
         ),
+      ),
