@@ -71,3 +71,4 @@ class _SplashPageState extends State<SplashPage> {
                 padding: EdgeInsets.only(bottom: 40),
                 child: SpinIcon(size: 28, color: AppColors.white),
               ),
+            ],
