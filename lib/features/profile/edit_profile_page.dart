@@ -74,3 +74,4 @@ class _EditProfilePageState extends State<EditProfilePage> {
         backgroundColor: AppColors.ground,
         appBar: NgAppBar(
           title: 'Edit profil',
+          back: 'close',
