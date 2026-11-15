@@ -377,3 +377,4 @@ class _PaymentStatusPageState extends State<PaymentStatusPage> {
                   Navigator.pushReplacement(context, MaterialPageRoute(builder: (_) => AdoptPage(it: it), fullscreenDialog: true));
                 },
               ),
+            ],
