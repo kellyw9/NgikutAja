@@ -339,3 +339,4 @@ class TravelStopPage extends StatelessWidget {
                     ),
                     const SizedBox(width: 8),
                     Expanded(
+                      child: NgButton(
