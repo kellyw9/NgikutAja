@@ -68,3 +68,4 @@ class _CalendarState extends State<_Calendar> {
             enabled: !disabled,
             label: dateLong(date),
             child: InkWell(
+              onTap: disabled ? null : () => setState(() => sel = date),
