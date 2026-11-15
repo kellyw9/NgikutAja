@@ -401,3 +401,4 @@ class _SearchPageState extends State<SearchPage> {
                 for (var i = 0; i < list.length; i++) ...[
                   if (i > 0) const NgDivider(),
                   WisataCard(list[i], variant: CardVariant.row, onTap: () => openItinerary(context, list[i]), onGuest: () => requireLogin(context)),
+                ],
