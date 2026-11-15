@@ -492,3 +492,4 @@ class _CustomizePageState extends State<CustomizePage> {
         ),
         bottomNavigationBar: BottomBar(
           children: [
+            Expanded(
