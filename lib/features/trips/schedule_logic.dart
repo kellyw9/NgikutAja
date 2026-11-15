@@ -8,3 +8,4 @@ List<(int, int)> conflictsIn(List<Stop> day) {
     for (var j = i + 1; j < day.length; j++) {
       if (day[i].startMin < day[j].endMin && day[j].startMin < day[i].endMin) out.add((i, j));
     }
+  }
