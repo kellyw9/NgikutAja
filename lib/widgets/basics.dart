@@ -555,3 +555,4 @@ class Marker extends StatelessWidget {
         color: fill,
         borderRadius: BorderRadius.circular(AppRadius.inner),
         border: border != null ? Border.all(color: border, width: 2) : null,
+      ),
