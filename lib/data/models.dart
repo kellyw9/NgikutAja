@@ -118,3 +118,4 @@ class Itinerary {
   int lodging;
 
   /// Estimasi dan jumlah tempat dari data contoh untuk itinerary yang jadwalnya tidak lengkap.
+  int? estimateSeed;
