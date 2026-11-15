@@ -242,3 +242,5 @@ class PaidPreviewPage extends StatelessWidget {
   final Itinerary it;
 
   void _locked(BuildContext context, int d) => showNgSnack(context, 'Hari ${d + 1} terbuka setelah itinerary dibeli.');
+
+  @override
