@@ -415,3 +415,4 @@ class HeroPhoto extends StatelessWidget {
             Photo(photo, semantic: semantic),
             // gradasi tipis di atas agar ikon status bar tetap terbaca di atas foto terang
             if (top > 0)
+              Positioned(
