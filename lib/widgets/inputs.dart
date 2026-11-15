@@ -70,3 +70,4 @@ class _NgFieldState extends State<NgField> {
   bool _focused = false;
 
   @override
+  void initState() {
