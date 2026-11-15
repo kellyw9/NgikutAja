@@ -178,3 +178,4 @@ class _MapPainter extends CustomPainter {
           ..style = PaintingStyle.stroke
           ..strokeWidth = 14,
       );
+      void line(Offset a, Offset b, double sw) => canvas.drawLine(a, b, road..strokeWidth = sw);
