@@ -52,3 +52,4 @@ class AppRadius {
   static const double tag = 4;
   static const double sheet = 16;
   static const double dialog = 12;
+}
