@@ -178,3 +178,4 @@ class _AddStopPageState extends State<AddStopPage> {
                                 fit: StackFit.expand,
                                 children: [
                                   Photo(photo, radius: AppRadius.card, semantic: 'Foto referensi'),
+                                  Positioned(
