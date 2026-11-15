@@ -38,3 +38,4 @@ class _HomeShellState extends State<HomeShell> {
       return;
     }
     if ((i == tabTrips || i == tabProfile) && !requireLogin(context)) return;
+    shellTab.value = i;
