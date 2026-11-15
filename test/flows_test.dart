@@ -140,3 +140,4 @@ void main() {
     expect(find.text('Lengkapi data yang wajib diisi.'), findsOneWidget);
 
     await tester.enterText(find.byType(TextField).first, 'Kuliner Jogja 3 Hari');
+    await tapText(tester, 'Lanjut ke hari & stop', button: true);
