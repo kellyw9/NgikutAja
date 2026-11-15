@@ -188,3 +188,4 @@ class _PaymentPageState extends State<PaymentPage> {
     Navigator.pushReplacement(
       context,
       MaterialPageRoute(
+        builder: (_) => PaymentStatusPage(tx: tx, offlineFail: !app.online, fromFlow: true),
