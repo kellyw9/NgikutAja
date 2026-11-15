@@ -198,3 +198,5 @@ class _MapPainter extends CustomPainter {
           ..strokeWidth = 2,
       );
     }
+
+    if (pins.length > 1) {
