@@ -8,3 +8,5 @@ import '../core/text.dart';
 import '../data/services.dart';
 
 // ---------------------------------------------------------------- tombol
+
+enum BtnKind { primary, secondary, accent, danger, dangerText, text, ghost }
