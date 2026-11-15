@@ -18,3 +18,4 @@ class _ItemRow extends StatelessWidget {
   Widget build(BuildContext context) => NgCard(
     padding: const EdgeInsets.all(12),
     child: Row(
+      children: [
