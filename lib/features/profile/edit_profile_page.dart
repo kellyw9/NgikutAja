@@ -18,3 +18,5 @@ class _EditProfilePageState extends State<EditProfilePage> {
   late String? photo = me.photo;
 
   bool get dirty => name.text.trim() != me.name || '@${user.text.trim()}' != me.handle || bio.text.trim() != me.bio || photo != me.photo;
+
+  String? get userErr {
