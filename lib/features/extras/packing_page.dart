@@ -154,3 +154,4 @@ class _PackingPageState extends State<PackingPage> {
                                           onTap: () => _edit(g, it),
                                         ),
                                       ],
+                                    ),
