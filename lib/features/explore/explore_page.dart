@@ -66,3 +66,4 @@ class _ExplorePageState extends State<ExplorePage> {
           child: ErrorBlock('Feed Explore tidak bisa dimuat. Tarik ke bawah atau coba lagi.', onRetry: _load),
         );
       }
+      if (items.isEmpty && tab == 'Following') {
