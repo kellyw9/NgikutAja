@@ -162,3 +162,4 @@ void main() {
   });
 
   testWidgets('Tamu: tombol wishlist membuka sheet login', (tester) async {
+    await phone(tester);
