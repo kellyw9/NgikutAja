@@ -82,3 +82,4 @@ class _PublishPageState extends State<PublishPage> {
                   children: [
                     Photo(d.cover, width: 80, height: 80, radius: AppRadius.card),
                     const SizedBox(width: 14),
+                    Expanded(
