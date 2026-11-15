@@ -258,3 +258,4 @@ class _AdoptProgressPageState extends State<AdoptProgressPage> {
                 text: 'Koneksi terputus saat menyalin. Tidak ada data yang tersimpan, silakan coba kembali.',
                 actions: [
                   NgButton('Coba lagi', expand: true, onPressed: _run),
+                  NgButton('Kembali', kind: BtnKind.secondary, expand: true, onPressed: () => Navigator.pop(context)),
