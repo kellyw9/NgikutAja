@@ -356,3 +356,4 @@ class _PaymentStatusPageState extends State<PaymentStatusPage> {
             middle: KeyValueBox([
               ('ID transaksi', tx.id),
               ('Waktu transaksi', txDate(tx.date)),
+              ('Metode pembayaran', tx.method),
