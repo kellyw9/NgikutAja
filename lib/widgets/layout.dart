@@ -216,3 +216,4 @@ class FactStrip extends StatelessWidget {
                         FittedBox(
                           fit: BoxFit.scaleDown,
                           alignment: Alignment.centerLeft,
+                          child: Text(cells[i].$2, style: AppText.title, maxLines: 1),
