@@ -636,3 +636,4 @@ class Seed {
         ),
         LocalTip(
           icon: 'museum',
+          title: 'Sopan santun di Huta Bolon',
