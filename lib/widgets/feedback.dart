@@ -95,3 +95,4 @@ void showNgSnack(BuildContext context, String text, {SnackKind kind = SnackKind.
           if (action != null) ...[
             const SizedBox(width: 12),
             Semantics(
+              button: true,
