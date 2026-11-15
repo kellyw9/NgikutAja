@@ -43,3 +43,4 @@ class _PackingPageState extends State<PackingPage> {
         16,
         children: [
           NgField(label: 'Nama barang', controller: c, autofocus: true),
+          NgButton('Simpan', expand: true, onPressed: () => Navigator.pop(ctx, c.text.trim())),
