@@ -130,3 +130,4 @@ class _SearchPageState extends State<SearchPage> {
         int score(Itinerary x) => (x.title.toLowerCase().contains(q.toLowerCase()) ? 10000 : 0) + x.adopted;
         list.sort((a, b) => score(b).compareTo(score(a)));
     }
+    return list;
