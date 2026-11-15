@@ -40,3 +40,4 @@ class NotificationsPage extends StatelessWidget {
       backgroundColor: AppColors.ground,
       appBar: NgAppBar(
         title: 'Notifikasi',
+        actions: [NgButton('Tandai dibaca', kind: BtnKind.text, size: BtnSize.md, onPressed: app.hasUnread ? app.markAllRead : null)],
