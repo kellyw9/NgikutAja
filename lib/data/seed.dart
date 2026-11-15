@@ -406,3 +406,4 @@ class Seed {
         days: 1,
         cover: 'soto',
         creator: me,
+        isDraft: true,
