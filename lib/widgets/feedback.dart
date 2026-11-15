@@ -99,3 +99,4 @@ void showNgSnack(BuildContext context, String text, {SnackKind kind = SnackKind.
               child: InkWell(
                 onTap: () {
                   m.hideCurrentSnackBar();
+                  onAction?.call();
