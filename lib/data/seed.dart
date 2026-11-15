@@ -75,3 +75,4 @@ class Seed {
       ),
       'bayu': Creator(
         id: 'bayu',
+        name: 'Bayu Prasetyo',
