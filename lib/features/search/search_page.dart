@@ -143,3 +143,4 @@ class _SearchPageState extends State<SearchPage> {
         const TabHeader('Cari'),
         _searchRow(),
         if (submitted == null || typing)
+          Padding(
