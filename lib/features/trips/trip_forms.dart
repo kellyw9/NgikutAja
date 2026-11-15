@@ -261,3 +261,4 @@ class _EditTripInfoPageState extends State<EditTripInfoPage> {
     final app = AppScope.of(context);
     return Scaffold(
       backgroundColor: AppColors.ground,
+      appBar: NgAppBar(
