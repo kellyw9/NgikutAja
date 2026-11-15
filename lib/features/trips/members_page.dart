@@ -65,3 +65,4 @@ class MembersPage extends StatelessWidget {
                 const SizedBox(height: 6),
                 RadioRow(title: 'Lihat', selected: m.role == MemberRole.viewer, onTap: () => set(() => app.setRole(m, MemberRole.viewer))),
                 RadioRow(title: 'Edit', selected: m.role == MemberRole.editor, onTap: () => set(() => app.setRole(m, MemberRole.editor))),
+              ],
