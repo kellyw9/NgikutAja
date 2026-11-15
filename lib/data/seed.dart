@@ -629,3 +629,4 @@ class Seed {
           ],
         ),
         LocalTip(
+          icon: 'payments',
