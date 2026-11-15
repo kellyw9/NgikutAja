@@ -72,3 +72,4 @@ void main() {
     await tester.pumpAndSettle();
     await tapText(tester, 'Adopt ke Trip Saya', button: true);
     await tester.pumpAndSettle();
+    expect(find.text('Adopt itinerary ini?'), findsOneWidget);
