@@ -224,3 +224,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
                     Segmented(
                       items: const ['Gratis', 'Berbayar'],
                       active: paid ? 'Berbayar' : 'Gratis',
+                      onChanged: (v) => setState(() {
