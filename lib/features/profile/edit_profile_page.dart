@@ -50,3 +50,4 @@ class _EditProfilePageState extends State<EditProfilePage> {
   Widget build(BuildContext context) {
     final uErr = userErr;
     return PopScope(
+      canPop: !dirty,
