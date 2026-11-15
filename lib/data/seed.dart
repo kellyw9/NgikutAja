@@ -340,3 +340,4 @@ class Seed {
         days: 2,
         cover: 'samosir',
         creator: me,
+        price: 20000,
