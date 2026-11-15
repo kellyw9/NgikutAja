@@ -21,3 +21,4 @@ class _CheckinPageState extends State<CheckinPage> {
   Widget build(BuildContext context) {
     final app = AppScope.of(context);
     final t = widget.trip;
+    final st = t.plan[widget.day][widget.i];
