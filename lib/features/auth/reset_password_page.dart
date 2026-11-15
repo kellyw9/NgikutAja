@@ -6,3 +6,4 @@ import '../../widgets/ui.dart';
 import 'login_page.dart';
 
 String maskEmail(String e) {
+  final at = e.indexOf('@');
