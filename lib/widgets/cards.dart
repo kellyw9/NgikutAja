@@ -569,3 +569,4 @@ class CreatorRow extends StatelessWidget {
                           style: AppText.small.muted,
                           maxLines: 1,
                           overflow: TextOverflow.ellipsis,
+                        ),
