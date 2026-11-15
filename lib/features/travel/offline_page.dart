@@ -17,3 +17,4 @@ class OfflinePage extends StatelessWidget {
     final trips = app.trips.where((t) => app.statusOf(t) != TripStatus.selesai).toList();
 
     Widget avail(bool ok, String text) => Padding(
+      padding: const EdgeInsets.only(top: 8),
