@@ -105,3 +105,4 @@ class _RegisterPageState extends State<RegisterPage> {
                         onChanged: refresh,
                         keyboardType: TextInputType.emailAddress,
                         textInputAction: TextInputAction.next,
+                        autofillHints: const [AutofillHints.email],
