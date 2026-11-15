@@ -63,3 +63,5 @@ class _TripDetailPageState extends State<TripDetailPage> {
       ],
     ),
   );
+
+  void _stopSheet(Trip t, int day, int i) {
