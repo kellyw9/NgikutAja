@@ -9,3 +9,5 @@ import 'trip_detail_page.dart';
 class AdoptPage extends StatefulWidget {
   const AdoptPage({super.key, required this.it});
   final Itinerary it;
+
+  @override
