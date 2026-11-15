@@ -77,3 +77,4 @@ class _ResetPasswordPageState extends State<ResetPasswordPage> {
                     NgField(
                       label: 'Email',
                       icon: 'mail',
+                      controller: email,
