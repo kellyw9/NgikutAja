@@ -391,3 +391,4 @@ class StatusView extends StatelessWidget {
                 const SizedBox(height: 20),
                 Semantics(liveRegion: true, child: Text(title, style: AppText.h1)),
                 const SizedBox(height: 6),
+                Text(text, style: AppText.body.muted),
