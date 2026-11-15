@@ -83,3 +83,4 @@ class SettingsPage extends StatelessWidget {
               ]),
               group('Penyimpanan offline', [
                 sw('autoDownload', 'Unduh otomatis trip yang diadopsi', 'Hanya melalui jaringan Wi-Fi'),
+                ListRow(
