@@ -15,3 +15,4 @@ class AppColors {
   static const surface = Color(0xFFFFFFFF);
   static const surfaceSoft = Color(0xFFFFFBF6);
   static const sunk = Color(0xFFF0E5D8);
+  static const muted = Color(0xFF4A6569);
