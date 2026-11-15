@@ -54,3 +54,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
           icon: 'share',
           title: 'Bagikan trip',
           padH: 0,
+          trailing: null,
