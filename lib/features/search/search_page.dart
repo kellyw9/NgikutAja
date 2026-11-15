@@ -521,3 +521,4 @@ class _SearchPageState extends State<SearchPage> {
                           ..budget = const RangeValues(0, _maxBudget)
                           ..rating = null
                           ..price = 'Semua';
+                      }),
