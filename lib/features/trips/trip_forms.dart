@@ -178,3 +178,4 @@ class _EditStopPageState extends State<EditStopPage> {
                       if (photo != null) ...[
                         Stack(
                           children: [
+                            Photo(photo, width: 80, height: 80, radius: AppRadius.inner, semantic: 'Foto ${name.text}'),
