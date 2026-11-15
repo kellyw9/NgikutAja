@@ -268,3 +268,5 @@ class RadioMark extends StatelessWidget {
   Widget build(BuildContext context) =>
       AppIcon(on ? 'radio_button_checked' : 'radio_button_unchecked', color: on ? AppColors.ink : AppColors.muted, filled: on);
 }
+
+class CheckMark extends StatelessWidget {
