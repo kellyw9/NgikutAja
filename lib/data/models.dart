@@ -93,3 +93,4 @@ class Itinerary {
     this.placesSeed,
     DateTime? publishedAt,
     this.isDraft = false,
+  }) : dayTitles = dayTitles ?? [],
