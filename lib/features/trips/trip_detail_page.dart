@@ -242,3 +242,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
                         const SizedBox(width: 8),
                         Expanded(child: Text('Travel Mode aktif mulai ${dateLong(t.start!)}.', style: AppText.small.muted)),
                       ],
+                    ),
