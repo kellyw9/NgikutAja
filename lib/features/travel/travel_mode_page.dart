@@ -380,3 +380,4 @@ class NavigationPage extends StatelessWidget {
               kind: MapKind.lake,
               radius: 0,
               pins: [
+                if (prev != null) MapPin(.8, .33, n: prev + 1, state: trip.isChecked(day, prev) ? MarkerState.done : MarkerState.todo),
