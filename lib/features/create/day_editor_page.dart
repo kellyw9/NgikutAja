@@ -110,3 +110,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
                         NgChip('Hari ${k + 1}', selected: k == day, onTap: () => _selectDay(k)),
                         if (_dayHasError(k))
                           Positioned(
+                            right: -2,
