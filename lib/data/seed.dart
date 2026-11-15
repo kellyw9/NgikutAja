@@ -70,3 +70,4 @@ class Seed {
         handle: '@tobaslowtravel',
         tint: 3,
         bio: 'Tinggal di Samosir. Menulis rute pelan untuk yang mau menginap.',
+        followers: 860,
