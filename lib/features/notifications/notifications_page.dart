@@ -166,3 +166,4 @@ class NotificationDetailPage extends StatelessWidget {
               Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
+                  Text(st == null ? 'Pengingat aktivitas' : '30 menit lagi: ${st.name}', style: AppText.h1),
