@@ -20,3 +20,4 @@ class _OnboardingPageState extends State<OnboardingPage> {
     ('Create', 'Susun itinerary per hari: tempat, jam, dan biaya.'),
     ('Publish', 'Terbitkan gratis atau berbayar.'),
     ('Adopt', 'Salin itinerary orang lain ke Trip Saya.'),
+    ('Customize', 'Geser jam, tambah, atau pindahkan tempat.'),
