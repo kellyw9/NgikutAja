@@ -286,3 +286,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
           const SectionHead('Jadwal harian'),
           const SizedBox(height: 8),
           DayStrip(
+            days: [
