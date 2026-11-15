@@ -170,3 +170,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
                     children: [
                       Wrap(
                         spacing: 8,
+                        runSpacing: 4,
