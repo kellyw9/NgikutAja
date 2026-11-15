@@ -269,3 +269,4 @@ class _PaymentPageState extends State<PaymentPage> {
 class PaymentStatusPage extends StatefulWidget {
   const PaymentStatusPage({super.key, required this.tx, this.offlineFail = false, this.fromFlow = false});
   final Transaction tx;
+  final bool offlineFail;
