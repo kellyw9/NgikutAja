@@ -77,3 +77,4 @@ class ProfilePage extends StatelessWidget {
                 Grid2(mine, showWish: false, onTap: (it) => openItinerary(context, it)),
             ],
           ),
+        ),
