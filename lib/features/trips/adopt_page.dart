@@ -206,3 +206,5 @@ class AdoptProgressPage extends StatefulWidget {
   @override
   State<AdoptProgressPage> createState() => _AdoptProgressPageState();
 }
+
+class _AdoptProgressPageState extends State<AdoptProgressPage> {
