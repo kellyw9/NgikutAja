@@ -179,3 +179,4 @@ class _OnboardingPageState extends State<OnboardingPage> {
       const SizedBox(height: 12),
     ],
     Text(picked.isEmpty ? 'Pilih minimal satu minat' : '${picked.length} minat dipilih', style: AppText.small.muted),
+  ]);
