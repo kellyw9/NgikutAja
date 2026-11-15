@@ -242,3 +242,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
                         focusNode: focus,
                         minLines: 1,
                         maxLines: 4,
+                        style: AppText.body,
