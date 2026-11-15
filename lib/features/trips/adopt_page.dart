@@ -22,3 +22,4 @@ class _AdoptPageState extends State<AdoptPage> {
   bool offline = true;
 
   Future<void> _adopt() async {
+    final it = widget.it;
