@@ -500,3 +500,4 @@ class Seed {
     ];
 
     reviews = [
+      Review(
