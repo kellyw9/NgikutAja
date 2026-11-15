@@ -48,3 +48,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
             child: Segmented(items: const ['Review', 'Komentar'], active: tab, onChanged: (t) => setState(() => tab = t)),
           ),
           Expanded(child: tab == 'Review' ? _reviews(app, it) : _comments(app, it)),
+        ],
