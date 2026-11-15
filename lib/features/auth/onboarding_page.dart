@@ -191,3 +191,4 @@ class _InterestCard extends StatelessWidget {
   final VoidCallback onTap;
 
   @override
+  Widget build(BuildContext context) => Semantics(
