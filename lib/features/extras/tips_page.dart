@@ -83,3 +83,4 @@ class TipDetailPage extends StatelessWidget {
             for (final p in tip.body) Text(p, style: AppText.body),
           ],
         ),
+      ],
