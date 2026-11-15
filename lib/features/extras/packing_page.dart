@@ -82,3 +82,4 @@ class _PackingPageState extends State<PackingPage> {
     return Scaffold(
       backgroundColor: AppColors.ground,
       appBar: NgAppBar(title: 'Packing list', sub: t.title),
+      body: ListView(
