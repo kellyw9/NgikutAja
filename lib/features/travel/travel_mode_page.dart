@@ -360,3 +360,4 @@ class TravelStopPage extends StatelessWidget {
 
 /// 6.3 Navigasi.
 class NavigationPage extends StatelessWidget {
+  const NavigationPage({super.key, required this.trip, required this.day, required this.i});
