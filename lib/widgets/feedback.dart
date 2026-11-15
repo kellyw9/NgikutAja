@@ -26,3 +26,4 @@ class NgBanner extends StatelessWidget {
       BannerKind.success => (AppColors.positivePale, AppColors.positiveInk, 'check_circle'),
     };
     final offline = kind == BannerKind.offline;
+    return Semantics(
