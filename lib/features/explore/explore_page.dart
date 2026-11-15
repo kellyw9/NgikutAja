@@ -60,3 +60,4 @@ class _ExplorePageState extends State<ExplorePage> {
           child: Column(children: [SkeletonCard(), SizedBox(height: 20), NgDivider(), SizedBox(height: 20), SkeletonCard()]),
         );
       }
+      if (error != null) {
