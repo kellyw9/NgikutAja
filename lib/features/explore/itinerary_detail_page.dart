@@ -282,3 +282,4 @@ class PaidPreviewPage extends StatelessWidget {
                     onTap: () => push(context, CreatorProfilePage(c: it.creator)),
                     onGuest: () => requireLogin(context),
                   ),
+                ],
