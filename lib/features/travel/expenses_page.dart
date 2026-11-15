@@ -187,3 +187,5 @@ class _AddExpensePageState extends State<AddExpensePage> {
   late String by = e?.by ?? widget.trip.members.first.first;
   String? receipt;
   bool tried = false;
+
+  void _save() {
