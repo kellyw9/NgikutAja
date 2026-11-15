@@ -12,3 +12,4 @@ class NgikutAjaApp extends StatelessWidget {
   final AppState state;
 
   @override
+  Widget build(BuildContext context) {
