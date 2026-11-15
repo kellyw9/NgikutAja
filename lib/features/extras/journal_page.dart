@@ -10,3 +10,5 @@ class JournalPage extends StatefulWidget {
   @override
   State<JournalPage> createState() => _JournalPageState();
 }
+
+class _JournalPageState extends State<JournalPage> {
