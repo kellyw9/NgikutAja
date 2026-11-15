@@ -301,3 +301,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
                 : Column(
                     children: [
                       for (var i = 0; i < stops.length; i++)
+                        StopRow(
