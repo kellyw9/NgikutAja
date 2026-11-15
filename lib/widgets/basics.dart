@@ -267,3 +267,5 @@ class Photo extends StatelessWidget {
     return radius > 0 ? ClipRRect(borderRadius: BorderRadius.circular(radius), child: wrapped) : wrapped;
   }
 }
+
+// ---------------------------------------------------------------- garis putus-putus
