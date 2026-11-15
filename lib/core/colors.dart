@@ -11,3 +11,4 @@ class AppColors {
   static const ink = Color(0xFF0C4A57); // teks utama dan tombol utama
 
   // Turunan
+  static const primaryStrong = Color(0xFF176975); // link dan aksi teks
