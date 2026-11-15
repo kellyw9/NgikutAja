@@ -89,3 +89,4 @@ class _SplitBudgetPageState extends State<SplitBudgetPage> {
                                   const SizedBox(width: 12),
                                   Expanded(
                                     child: Column(
+                                      crossAxisAlignment: CrossAxisAlignment.start,
