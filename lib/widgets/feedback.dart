@@ -187,3 +187,5 @@ class DialogAction {
   final BtnKind kind;
   final Object? value;
 }
+
+/// Dialog: radius 12, tombol bertumpuk selebar dialog, aksi utama di atas.
