@@ -232,3 +232,4 @@ class _GooglePainter extends CustomPainter {
     canvas.scale(size.width / 48);
     for (final (color, d) in _parts) {
       final b = _P();
+      writeSvgPathDataToPath(d, b);
