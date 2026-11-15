@@ -47,3 +47,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
         city: d.city,
         defaultStart: d.plan[day].isEmpty ? '08.00' : fromMinutes(d.plan[day].map((s) => s.endMin).reduce((a, b) => a > b ? a : b) + 15),
       ),
+      fullscreen: true,
