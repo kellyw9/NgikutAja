@@ -110,3 +110,4 @@ class NotificationsPage extends StatelessWidget {
                         )
                       else
                         Pill(n.inviteState!, kind: n.inviteState == 'Diterima' ? PillKind.positive : PillKind.neutral),
+                    ],
