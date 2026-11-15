@@ -18,3 +18,5 @@ class AppText {
     color: AppColors.ink,
     leadingDistribution: TextLeadingDistribution.even,
   );
+
+  static final display = _s(30, 36, FontWeight.w700, -2);
