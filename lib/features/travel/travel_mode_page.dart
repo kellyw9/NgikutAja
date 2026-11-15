@@ -445,3 +445,4 @@ class NavigationPage extends StatelessWidget {
                                   const SizedBox(height: 2),
                                   Text(info.$1, style: AppText.h2),
                                 ],
+                              ),
