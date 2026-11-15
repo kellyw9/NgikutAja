@@ -306,3 +306,4 @@ class _DashPainter extends CustomPainter {
         d += 10;
       }
     }
+  }
