@@ -170,3 +170,4 @@ class _AddStopPageState extends State<AddStopPage> {
                       final w = (c.maxWidth - 12) / 2;
                       return Row(
                         children: [
+                          if (photo != null) ...[
