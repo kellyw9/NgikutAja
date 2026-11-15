@@ -255,3 +255,4 @@ class PublishedPage extends StatelessWidget {
                     ),
                     const SizedBox(height: 12),
                     NgButton(
+                      'Buat itinerary lain',
