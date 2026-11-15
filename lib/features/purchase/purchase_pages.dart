@@ -229,3 +229,4 @@ class _PaymentPageState extends State<PaymentPage> {
                                     child: Column(
                                       mainAxisAlignment: MainAxisAlignment.center,
                                       crossAxisAlignment: CrossAxisAlignment.start,
+                                      children: [
