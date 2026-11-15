@@ -335,3 +335,5 @@ class AppState extends ChangeNotifier {
     }
     return null;
   }
+
+  void addExpense(Trip t, Expense e) {
