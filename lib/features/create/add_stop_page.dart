@@ -172,3 +172,4 @@ class _AddStopPageState extends State<AddStopPage> {
                         children: [
                           if (photo != null) ...[
                             SizedBox(
+                              width: w,
