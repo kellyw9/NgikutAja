@@ -646,3 +646,4 @@ class Seed {
           text: 'Kabut tebal sering turun menjelang sore dan jalan tanah menjadi licin.',
           body: ['Kabut tebal sering turun menjelang sore dan jalan tanah menjadi licin.'],
         ),
+      ],
