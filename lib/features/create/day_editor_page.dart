@@ -83,3 +83,5 @@ class _DayEditorPageState extends State<DayEditorPage> {
         conflictMsg = 'Jam ${a.name} di Hari ${k + 1} bentrok dengan stop berikutnya.';
       }
     }
+
+    return PopScope(
