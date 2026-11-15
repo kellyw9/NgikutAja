@@ -50,3 +50,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
           Expanded(child: tab == 'Review' ? _reviews(app, it) : _comments(app, it)),
         ],
       ),
+      bottomNavigationBar: tab == 'Komentar' ? _composer(app) : null,
