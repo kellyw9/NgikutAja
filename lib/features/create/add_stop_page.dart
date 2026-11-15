@@ -78,3 +78,4 @@ class _AddStopPageState extends State<AddStopPage> {
                 error: tried && name.text.trim().isEmpty ? 'Nama tempat wajib diisi' : null,
                 onChanged: (_) => setState(() {}),
               ),
+              Column(
