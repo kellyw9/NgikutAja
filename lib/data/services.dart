@@ -50,3 +50,5 @@ Future<bool> openMaps(String query, {bool directions = false}) {
 class Network {
   Network._();
   static final _c = Connectivity();
+
+  static Stream<bool> watch() => _c.onConnectivityChanged.map(_online);
