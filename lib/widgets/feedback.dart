@@ -330,3 +330,4 @@ class SkeletonCard extends StatelessWidget {
         Row(
           children: [
             Container(
+              width: 24,
