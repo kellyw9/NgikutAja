@@ -128,3 +128,5 @@ class Itinerary {
 
   int dayCost(int d) => d < plan.length ? plan[d].fold(0, (a, s) => a + s.cost) : 0;
   int get stopCount => plan.fold(0, (a, d) => a + d.length);
+
+  /// Estimasi per orang = jumlah biaya semua aktivitas (+ penginapan).
