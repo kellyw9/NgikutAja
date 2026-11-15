@@ -281,3 +281,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
   }
 
   Widget _cover() {
+    Future<void> pick() async {
