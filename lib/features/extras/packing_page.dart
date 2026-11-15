@@ -126,3 +126,4 @@ class _PackingPageState extends State<PackingPage> {
                                   const SizedBox(width: 6),
                                   Text('Hapus', style: AppText.smallStrong.white),
                                 ],
+                              ),
