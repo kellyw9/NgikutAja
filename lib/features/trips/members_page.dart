@@ -19,3 +19,4 @@ class MembersPage extends StatelessWidget {
   Future<void> _remove(BuildContext context, Member m) async {
     final app = AppScope.read(context);
     final r = await showNgDialog(
+      context,
