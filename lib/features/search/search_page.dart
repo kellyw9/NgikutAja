@@ -373,3 +373,4 @@ class _SearchPageState extends State<SearchPage> {
                   : NgButton(
                       'Lihat kota populer',
                       kind: BtnKind.secondary,
+                      size: BtnSize.md,
