@@ -11,3 +11,4 @@ class CheckinPage extends StatefulWidget {
   final int i;
 
   @override
+  State<CheckinPage> createState() => _CheckinPageState();
