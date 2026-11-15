@@ -364,3 +364,4 @@ class StatusView extends StatelessWidget {
   final String title;
   final String text;
   final Widget? middle;
+  final List<Widget> actions;
