@@ -160,3 +160,4 @@ class _PublishPageState extends State<PublishPage> {
             children: [
               NgButton(
                 'Publish sekarang',
+                trailingIcon: 'arrow_forward',
