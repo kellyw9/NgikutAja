@@ -83,3 +83,4 @@ void showNgSnack(BuildContext context, String text, {SnackKind kind = SnackKind.
     SnackBar(
       behavior: SnackBarBehavior.floating,
       backgroundColor: bg,
+      elevation: 0,
