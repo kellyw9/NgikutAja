@@ -194,3 +194,4 @@ class NotificationDetailPage extends StatelessWidget {
                             const SizedBox(height: 2),
                             MetaRow([
                               ('schedule', '${st.start}–${st.end}'),
+                              (st.cat.icon, st.cat.label),
