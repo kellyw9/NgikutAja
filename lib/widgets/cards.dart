@@ -404,3 +404,4 @@ class StopRow extends StatelessWidget {
                   if (!blur) Text(st.end, style: AppText.small.c(conflict ? AppColors.negative : AppColors.muted)),
                 ],
               ),
+            ),
