@@ -86,3 +86,4 @@ class _RegisterPageState extends State<RegisterPage> {
                       const SizedBox(height: 8),
                       Text('Satu akun untuk membuat, mengadopsi, dan menjalankan trip.', style: AppText.body.muted),
                       const SizedBox(height: 20),
+                      NgField(
