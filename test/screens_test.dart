@@ -89,3 +89,4 @@ final Map<String, PageFor> pages = {
   'recap': (s) => RecapPage(trip: s.trips[2]),
   'buy': (s) => PurchaseDetailPage(it: s.itinerary('toba')),
   'confirm': (s) => PurchaseConfirmPage(it: s.itinerary('toba')),
+  'pay': (s) => PaymentPage(it: s.itinerary('toba')),
