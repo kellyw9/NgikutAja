@@ -49,3 +49,4 @@ class _PackingPageState extends State<PackingPage> {
       ),
     );
     c.dispose();
+    if (r == null || !mounted) return;
