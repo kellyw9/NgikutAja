@@ -15,3 +15,4 @@ class Seed {
   }
 
   final DateTime now;
+  final DateTime today;
