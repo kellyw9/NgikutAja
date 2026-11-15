@@ -212,3 +212,4 @@ class _CustomizePageState extends State<CustomizePage> {
               helper: 'Tanggal selesai trip otomatis berubah menjadi ${newDate.day} ${monthsShort[newDate.month - 1]} ${newDate.year}.',
             ),
           NgButton('Tambah hari', expand: true, onPressed: () => Navigator.pop(ctx, true)),
+        ],
