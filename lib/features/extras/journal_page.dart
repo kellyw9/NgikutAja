@@ -135,3 +135,4 @@ class _JournalPageState extends State<JournalPage> {
                       children: [
                         for (var k = 0; k < e.photos.length && k < 2; k++) ...[
                           if (k > 0) const SizedBox(width: 8),
+                          Expanded(child: Photo(e.photos[k], height: 120, radius: AppRadius.inner)),
