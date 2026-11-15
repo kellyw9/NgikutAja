@@ -142,3 +142,4 @@ class _CustomizePageState extends State<CustomizePage> {
                             ? 'Posisi sekarang'
                             : plan[d].isEmpty
                             ? 'Belum ada aktivitas'
+                            : '${plan[d].length} aktivitas, selesai ${fromMinutes(plan[d].map((s) => s.endMin).reduce((a, b) => a > b ? a : b))}',
