@@ -210,3 +210,4 @@ class _NextCard extends StatelessWidget {
                           const SizedBox(width: 6),
                           Text('Berikutnya pukul ${st.start}', style: AppText.smallStrong.muted),
                         ],
+                      ),
