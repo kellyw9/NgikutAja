@@ -66,3 +66,4 @@ class _HomeShellState extends State<HomeShell> {
 }
 
 /// Bottom navigation: indikator aktif berupa garis teal 3px di tepi atas tab, ikon terisi + label tebal.
+/// Create: kotak tinta 44x36 radius 8 (kuning khusus untuk "sekarang").
