@@ -20,3 +20,4 @@ class _CustomizePageState extends State<CustomizePage> {
   late Trip t = widget.trip;
   late List<List<Stop>> plan = copyPlan(t.plan);
   late List<String> titles = [for (var d = 0; d < t.days; d++) t.dayTitle(d)];
+  late int day = widget.initialDay.clamp(0, t.days - 1);
