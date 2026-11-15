@@ -107,3 +107,5 @@ class _SearchPageState extends State<SearchPage> {
     AppScope.read(context).addRecent(v);
     setState(() => submitted = v);
   }
+
+  bool _matchQuery(Itinerary it, String q) {
