@@ -95,3 +95,4 @@ class DashboardPage extends StatelessWidget {
                       children: [
                         for (final x in mine)
                           Tap(
+                            onTap: () => openItinerary(context, x),
