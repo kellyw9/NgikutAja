@@ -359,3 +359,4 @@ class Transaction {
   final Itinerary item;
   final DateTime date;
   final String method;
+  final int amount;
