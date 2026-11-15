@@ -339,3 +339,4 @@ class _CustomizePageState extends State<CustomizePage> {
                             style: AppText.small.muted,
                           ),
                         ],
+                      ),
