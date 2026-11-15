@@ -109,3 +109,4 @@ class _SearchPageState extends State<SearchPage> {
   }
 
   bool _matchQuery(Itinerary it, String q) {
+    final s = q.toLowerCase();
