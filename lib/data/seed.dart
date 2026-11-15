@@ -407,3 +407,4 @@ class Seed {
         cover: 'soto',
         creator: me,
         isDraft: true,
+        tags: ['Kuliner'],
