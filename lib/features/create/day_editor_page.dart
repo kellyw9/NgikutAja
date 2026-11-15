@@ -135,3 +135,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
                       label: 'Tambah hari',
                       size: 36,
                       iconSize: 20,
+                      stroke: AppColors.control,
