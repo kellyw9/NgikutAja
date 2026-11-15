@@ -127,3 +127,4 @@ class _SearchPageState extends State<SearchPage> {
         list.sort((a, b) => a.price.compareTo(b.price));
       default:
         // relevan: judul yang memuat kata kunci didahulukan, lalu yang paling banyak diadopsi
+        int score(Itinerary x) => (x.title.toLowerCase().contains(q.toLowerCase()) ? 10000 : 0) + x.adopted;
