@@ -313,3 +313,4 @@ class ListRow extends StatelessWidget {
             if (lead != null) ...[
               lead!,
               const SizedBox(width: 14),
+            ] else if (icon != null) ...[
