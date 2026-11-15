@@ -291,3 +291,4 @@ class _PaymentStatusPageState extends State<PaymentStatusPage> {
         if (!mounted) return;
         setState(() => left--);
         if (left <= 0) {
+          _t?.cancel();
