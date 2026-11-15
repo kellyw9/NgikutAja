@@ -215,3 +215,4 @@ class _AddStopPageState extends State<AddStopPage> {
                               radius: AppRadius.card,
                               fill: AppColors.surfaceSoft,
                               child: SizedBox(
+                                width: w,
