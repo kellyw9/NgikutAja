@@ -52,3 +52,4 @@ class DashboardPage extends StatelessWidget {
                                   if (i > 0) const Spacer(),
                                   SizedBox(
                                     width: 36,
+                                    child: Column(
