@@ -132,3 +132,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
                               Text('Trip ${r.date}', style: AppText.small.muted),
                             ],
                           ),
+                        ),
