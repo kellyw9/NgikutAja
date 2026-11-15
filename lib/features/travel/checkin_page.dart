@@ -77,3 +77,4 @@ class _CheckinPageState extends State<CheckinPage> {
                   expand: true,
                   onPressed: near
                       ? () {
+                          app.checkIn(t, widget.day, widget.i);
