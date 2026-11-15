@@ -370,3 +370,4 @@ class Seed {
         days: 1,
         cover: 'soto',
         creator: me,
+        price: 0,
