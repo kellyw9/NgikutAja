@@ -17,3 +17,4 @@ class RecapPage extends StatelessWidget {
     final t = trip;
     final names = [
       for (final d in t.plan)
+        for (final s in d) s.name,
