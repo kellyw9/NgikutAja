@@ -16,3 +16,4 @@ class ExpensesPage extends StatelessWidget {
   final Trip trip;
 
   void _detail(BuildContext context, Expense e) {
+    final app = AppScope.read(context);
