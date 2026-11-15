@@ -30,3 +30,4 @@ class NgBanner extends StatelessWidget {
       liveRegion: kind == BannerKind.error,
       container: true,
       child: Container(
+        width: double.infinity,
