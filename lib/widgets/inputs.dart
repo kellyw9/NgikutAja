@@ -381,3 +381,4 @@ class NgChip extends StatelessWidget {
           focusColor: AppColors.teal.withValues(alpha: .3),
           child: Container(
             height: 36,
+            padding: EdgeInsets.only(left: selected || icon != null ? 8 : 12, right: close ? 8 : 12),
