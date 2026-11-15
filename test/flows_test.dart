@@ -38,3 +38,4 @@ void main() {
   // Pakai font asli supaya lebar teks sama dengan aplikasi (font tes bawaan jauh lebih lebar).
   setUpAll(() async {
     final loader = FontLoader('PlusJakartaSans');
+    for (final w in ['Regular', 'Medium', 'SemiBold', 'Bold']) {
