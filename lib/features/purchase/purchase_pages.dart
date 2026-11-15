@@ -315,3 +315,4 @@ class _PaymentStatusPageState extends State<PaymentStatusPage> {
         final mm = (left ~/ 60).toString().padLeft(2, '0'), ss = (left % 60).toString().padLeft(2, '0');
         return _frame(
           StatusView(
+            top: true,
