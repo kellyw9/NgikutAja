@@ -95,3 +95,4 @@ class _PhotoViewerPageState extends State<PhotoViewerPage> {
               SizedBox(
                 height: 56,
                 child: Padding(
+                  padding: const EdgeInsets.only(left: 4, right: 8),
