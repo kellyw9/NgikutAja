@@ -139,3 +139,4 @@ class _EditStopPageState extends State<EditStopPage> {
                       label: 'Durasi',
                       icon: 'timer',
                       value: durationText(duration),
+                      onTap: () async {
