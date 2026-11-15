@@ -162,3 +162,5 @@ class CityCard extends StatelessWidget {
 class Bell extends StatelessWidget {
   const Bell({super.key, required this.onTap});
   final VoidCallback onTap;
+
+  @override
