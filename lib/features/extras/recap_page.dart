@@ -7,3 +7,5 @@ import 'memory_pages.dart';
 class RecapPage extends StatelessWidget {
   const RecapPage({super.key, required this.trip});
   final Trip trip;
+
+  String _summary(Trip t) =>
