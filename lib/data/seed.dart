@@ -628,3 +628,4 @@ class Seed {
             'Tiket dibeli di atas kapal seharga Rp15.000 per orang. Sepeda motor bisa ikut menyeberang dengan biaya tambahan.',
           ],
         ),
+        LocalTip(
