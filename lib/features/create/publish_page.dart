@@ -8,3 +8,4 @@ import 'create_itinerary_page.dart';
 /// Langkah 5: Publish Itinerary.
 class PublishPage extends StatefulWidget {
   const PublishPage({super.key, required this.d});
+  final Itinerary d;
