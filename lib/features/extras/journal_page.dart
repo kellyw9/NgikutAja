@@ -84,3 +84,4 @@ class _JournalPageState extends State<JournalPage> {
     final e = t.journal[day];
     return Scaffold(
       backgroundColor: AppColors.ground,
+      appBar: NgAppBar(
