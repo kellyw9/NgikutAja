@@ -152,3 +152,4 @@ class IconBtn extends StatelessWidget {
             focusColor: AppColors.teal.withValues(alpha: .24),
             child: SizedBox.square(
               dimension: size,
+              child: Center(
