@@ -220,3 +220,4 @@ class NotificationDetailPage extends StatelessWidget {
                   expand: true,
                   onPressed: () => push(context, TravelModePage(trip: trip), fullscreen: true),
                 ),
+              ),
