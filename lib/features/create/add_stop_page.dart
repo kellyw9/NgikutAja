@@ -283,3 +283,4 @@ class _AddStopPageState extends State<AddStopPage> {
         child: Padding(
           padding: const EdgeInsets.fromLTRB(kMargin, 8, kMargin, 16),
           child: NgButton('Simpan stop', expand: true, onPressed: _save),
+        ),
