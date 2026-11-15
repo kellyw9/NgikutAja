@@ -211,3 +211,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
             Container(height: 1, color: AppColors.line),
             if (replyTo != null)
               Padding(
+                padding: const EdgeInsets.fromLTRB(kMargin, 6, 4, 0),
