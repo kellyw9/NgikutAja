@@ -29,3 +29,4 @@ class _LoginPageState extends State<LoginPage> {
   bool obscure = true;
   bool loading = false;
   bool wrong = false;
+  String? emailErr;
