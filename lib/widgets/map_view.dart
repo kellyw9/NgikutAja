@@ -115,3 +115,4 @@ class _MapPainter extends CustomPainter {
   _MapPainter(this.kind, this.pins, this.ring);
   final MapKind kind;
   final List<MapPin> pins;
+  final (Offset, double)? ring;
