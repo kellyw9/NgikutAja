@@ -32,3 +32,4 @@ class _CustomizePageState extends State<CustomizePage> {
   String _dayLabel(int d) {
     final date = t.dayDate(d);
     return date == null ? 'Hari ${d + 1}' : 'Hari ${d + 1}, ${weekdaysLong[date.weekday - 1]} ${date.day} ${monthsShort[date.month - 1]}';
+  }
