@@ -66,3 +66,4 @@ class AppState extends ChangeNotifier {
   StreamSubscription<bool>? _netSub;
 
   DateTime get today => seed.today;
+  bool online = true;
