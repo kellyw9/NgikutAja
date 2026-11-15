@@ -68,3 +68,4 @@ class _ResetPasswordPageState extends State<ResetPasswordPage> {
               constraints: BoxConstraints(minHeight: c.maxHeight - 24),
               child: IntrinsicHeight(
                 child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.stretch,
