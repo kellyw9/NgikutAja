@@ -117,3 +117,4 @@ class _ResetPasswordPageState extends State<ResetPasswordPage> {
 }
 
 /// 1.5 Buat password baru. Dibuka dari tautan di email (rute /reset-password?email=...).
+class NewPasswordPage extends StatefulWidget {
