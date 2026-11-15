@@ -129,3 +129,4 @@ class ExpensesPage extends StatelessWidget {
                               children: [
                                 AppIcon(e.cat.icon, size: 22, color: AppColors.muted),
                                 const SizedBox(width: 12),
+                                Expanded(
