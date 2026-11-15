@@ -266,3 +266,4 @@ class TravelStopPage extends StatelessWidget {
     final photos = [?st.photo, if (trip.cover != null && trip.cover != st.photo) trip.cover!];
     return Scaffold(
       backgroundColor: AppColors.ground,
+      body: ListView(
