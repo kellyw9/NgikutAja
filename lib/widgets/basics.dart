@@ -572,3 +572,4 @@ class NgDivider extends StatelessWidget {
   final Color color;
 
   @override
+  Widget build(BuildContext context) => Padding(
