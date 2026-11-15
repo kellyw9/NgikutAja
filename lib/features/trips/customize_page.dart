@@ -325,3 +325,4 @@ class _CustomizePageState extends State<CustomizePage> {
                 padding: const EdgeInsets.all(10),
                 onTap: () => push(context, EditTripInfoPage(trip: t), fullscreen: true).then((_) => setState(() {})),
                 child: Row(
+                  children: [
