@@ -96,3 +96,4 @@ class _ItineraryDetailPageState extends State<ItineraryDetailPage> {
               semantic: 'Foto sampul ${it.title}',
               right: [
                 IconBtn('share', label: 'Bagikan', bg: AppColors.surface, size: 40, onTap: () => shareItinerary(it)),
+                WishButton(it, onGuest: () => requireLogin(context)),
