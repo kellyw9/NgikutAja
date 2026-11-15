@@ -157,3 +157,4 @@ class TravelModePage extends StatelessWidget {
                 expand: true,
                 onPressed: () => push(context, ExpensesPage(trip: t)),
               ),
+            ),
