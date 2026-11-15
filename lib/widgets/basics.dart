@@ -490,3 +490,4 @@ class Avatar extends StatelessWidget {
       label: name,
       child: Container(
         width: size,
+        height: size,
