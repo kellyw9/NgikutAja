@@ -152,3 +152,4 @@ void main() {
     await tester.pumpWidget(host(s, const WishlistPage()));
     expect(s.wishlist.length, 3);
     await tester.tap(find.byTooltip('Hapus dari Wishlist').first);
+    await tester.pump();
