@@ -236,3 +236,5 @@ class _GooglePainter extends CustomPainter {
       canvas.drawPath(b.path, Paint()..color = color);
     }
   }
+
+  @override
