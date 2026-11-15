@@ -73,3 +73,4 @@ class _OnboardingPageState extends State<OnboardingPage> {
                               AnimatedContainer(
                                 duration: const Duration(milliseconds: 200),
                                 width: k == page ? 24 : 8,
+                                height: 8,
