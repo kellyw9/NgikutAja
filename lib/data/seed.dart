@@ -122,3 +122,4 @@ class Seed {
       creator: c['rahmat']!,
       price: 0,
       adopted: 212,
+      likes: 486,
