@@ -7,3 +7,4 @@ String thousands(int n) {
     buf.write(s[i]);
   }
   return (n < 0 ? '-' : '') + buf.toString();
+}
