@@ -282,3 +282,4 @@ class _StopCard extends StatelessWidget {
     ),
     child: Row(
       children: [
+        ReorderableDragStartListener(
