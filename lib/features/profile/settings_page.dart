@@ -85,3 +85,4 @@ class SettingsPage extends StatelessWidget {
                 sw('autoDownload', 'Unduh otomatis trip yang diadopsi', 'Hanya melalui jaringan Wi-Fi'),
                 ListRow(
                   icon: 'download_for_offline',
+                  title: 'Kelola data offline',
