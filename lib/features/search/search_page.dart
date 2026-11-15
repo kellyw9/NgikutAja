@@ -399,3 +399,4 @@ class _SearchPageState extends State<SearchPage> {
             child: Column(
               children: [
                 for (var i = 0; i < list.length; i++) ...[
+                  if (i > 0) const NgDivider(),
