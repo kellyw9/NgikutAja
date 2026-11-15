@@ -50,3 +50,4 @@ final Map<String, PageFor> pages = {
   'new password': (s) => const NewPasswordPage(email: 'dinda.saragi@gmail.com'),
   'explore': (s) => const HomeShell(),
   'detail': (s) => ItineraryDetailPage(it: s.itinerary('medan')),
+  'detail tanpa jadwal': (s) => ItineraryDetailPage(it: s.itinerary('bandung')),
