@@ -42,3 +42,4 @@ class MapView extends StatelessWidget {
   final (Offset, double)? ring;
   final ValueChanged<Offset>? onTapPoint;
   final bool label;
+  final List<Widget> overlay;
