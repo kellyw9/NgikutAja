@@ -157,3 +157,5 @@ class CityCard extends StatelessWidget {
     );
   }
 }
+
+/// Lonceng notifikasi dengan titik merah saat ada yang belum dibaca.
