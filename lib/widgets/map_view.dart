@@ -193,3 +193,4 @@ class _MapPainter extends CustomPainter {
         c,
         ring!.$2,
         Paint()
+          ..color = AppColors.teal
