@@ -535,3 +535,4 @@ enum MarkerState { todo, done, next, locked }
 /// Penanda urutan di rute: kotak radius 6, sama di jadwal dan di peta.
 class Marker extends StatelessWidget {
   const Marker(this.n, {super.key, this.state = MarkerState.todo, this.size = 24});
+  final int n;
