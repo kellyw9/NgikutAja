@@ -101,3 +101,4 @@ class Seed {
         following: 33,
       ),
       'nadia': Creator(
+        id: 'nadia',
