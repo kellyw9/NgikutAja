@@ -188,3 +188,4 @@ class Seed {
             '14.30',
             'Bukit Holbung',
             _a,
+            10000,
