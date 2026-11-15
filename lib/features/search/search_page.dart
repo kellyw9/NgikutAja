@@ -69,3 +69,5 @@ class _SearchPageState extends State<SearchPage> {
   String? submitted;
   SearchFilter filter = SearchFilter();
   String sort = 'Relevan';
+
+  @override
