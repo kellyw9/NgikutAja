@@ -533,3 +533,4 @@ class _SearchPageState extends State<SearchPage> {
         },
       ),
     );
+    if (applied != null) {
