@@ -77,3 +77,4 @@ class _IconPainter extends CustomPainter {
 /// Ikon berputar untuk status memuat (progress_activity).
 class SpinIcon extends StatefulWidget {
   const SpinIcon({super.key, this.size = 24, this.color = AppColors.ink});
+  final double size;
