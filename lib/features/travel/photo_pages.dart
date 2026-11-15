@@ -63,3 +63,4 @@ class _PhotoPreviewPageState extends State<PhotoPreviewPage> {
                   );
                   if (r != null) setState(() => stop = r < 0 ? null : r);
                 },
+              ),
