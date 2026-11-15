@@ -584,3 +584,4 @@ class Seed {
         time: pendingTime,
         today: true,
       ),
+      AppNotification(
