@@ -304,3 +304,4 @@ class _StopCard extends StatelessWidget {
             children: [
               Wrap(
                 spacing: 8,
+                runSpacing: 4,
