@@ -26,3 +26,4 @@ class WishlistPage extends StatelessWidget {
                 height: 280,
               ),
             )
+          : ListView(
