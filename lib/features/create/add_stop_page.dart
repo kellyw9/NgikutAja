@@ -298,3 +298,4 @@ class PickLocationPage extends StatefulWidget {
 
   @override
   State<PickLocationPage> createState() => _PickLocationPageState();
+}
