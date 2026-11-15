@@ -261,3 +261,4 @@ class _AddExpensePageState extends State<AddExpensePage> {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text('Kategori', style: AppText.bodyStrong),
+                  const SizedBox(height: 8),
