@@ -166,3 +166,4 @@ class _EditStopPageState extends State<EditStopPage> {
                 keyboardType: TextInputType.number,
                 inputFormatters: [ThousandsFormatter()],
               ),
+              NgField(label: 'Deskripsi', controller: desc, area: true, hint: 'Ceritakan tempatnya dalam satu atau dua kalimat.'),
