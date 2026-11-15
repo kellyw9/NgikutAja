@@ -49,3 +49,4 @@ class SearchFilter {
     };
     if (min != null && (it.rating ?? 0) < min) return false;
     if (price == 'Gratis' && it.isPaid) return false;
+    if (price == 'Berbayar' && !it.isPaid) return false;
