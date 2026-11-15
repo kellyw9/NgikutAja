@@ -108,3 +108,4 @@ class _SplitBudgetPageState extends State<SplitBudgetPage> {
                                       Text(net[m.first]! > 0 ? 'menerima' : (net[m.first]! < 0 ? 'kurang bayar' : 'pas'), style: AppText.small.muted),
                                     ],
                                   ),
+                                ],
