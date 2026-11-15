@@ -269,3 +269,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
                           'pack' => push(context, PackingPage(trip: t)),
                           'tips' => push(context, TipsPage(trip: t)),
                           'journal' => push(context, JournalPage(trip: t)),
+                          'photo' => push(context, PhotoMemoryPage(trip: t)),
