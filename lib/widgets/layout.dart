@@ -53,3 +53,4 @@ class NgAppBar extends StatelessWidget implements PreferredSizeWidget {
   @override
   Widget build(BuildContext context) {
     final titleCol = Column(
+      mainAxisAlignment: MainAxisAlignment.center,
