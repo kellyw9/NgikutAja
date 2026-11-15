@@ -16,3 +16,5 @@ void pushItinerary(NavigatorState nav, AppState app, Itinerary it) => nav.push(
     builder: (_) => app.canOpen(it) ? ItineraryDetailPage(it: it) : PaidPreviewPage(it: it),
   ),
 );
+
+void shareItinerary(Itinerary it) => shareText(
