@@ -24,3 +24,4 @@ class _JournalPageState extends State<JournalPage> {
     final r = await showNgSheet<String>(
       context,
       title: 'Cerita perjalanan',
+      builder: (ctx) => Gap(
