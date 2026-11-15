@@ -319,3 +319,4 @@ class _StopCard extends StatelessWidget {
             ],
           ),
         ),
+        IconBtn('edit', label: 'Ubah ${stop.name}', iconSize: 20, onTap: onEdit),
