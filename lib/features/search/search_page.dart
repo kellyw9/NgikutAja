@@ -206,3 +206,4 @@ class _SearchPageState extends State<SearchPage> {
               label: filter.count > 0 ? 'Filter, ${filter.count} aktif' : 'Filter',
               size: 48,
               bg: AppColors.surface,
+              stroke: AppColors.control,
