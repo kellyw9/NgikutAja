@@ -427,3 +427,4 @@ class PriceTag extends StatelessWidget {
       children: [
         const AppIcon('sell', size: 16),
         const SizedBox(width: 4),
+        Text(text, style: AppText.smallStrong),
