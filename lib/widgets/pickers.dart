@@ -160,3 +160,4 @@ Future<Category?> pickCategory(BuildContext context, Category current) {
                   children: [
                     AppIcon(Category.values[i].icon, size: 22),
                     const SizedBox(width: 14),
+                    Expanded(child: Text(Category.values[i].label, style: AppText.bodyStrong)),
