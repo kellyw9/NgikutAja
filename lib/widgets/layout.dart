@@ -135,3 +135,4 @@ class SectionHead extends StatelessWidget {
   final bool padded;
 
   @override
+  Widget build(BuildContext context) => Padding(
