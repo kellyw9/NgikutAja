@@ -74,3 +74,4 @@ class _JournalPageState extends State<JournalPage> {
     final e = t.journal.putIfAbsent(day, () => JournalEntry(title: _dayLabel(day), text: '', photos: []));
     e.photos = [...e.photos, p];
     final now = DateTime.now();
+    AppScope.read(context).addPhoto(t, TripPhoto(src: p, day: day, caption: e.title, time: fromMinutes(now.hour * 60 + now.minute)));
