@@ -402,3 +402,4 @@ class _PickLocationPageState extends State<PickLocationPage> {
       ),
       bottomNavigationBar: Container(
         decoration: const BoxDecoration(
+          color: AppColors.surface,
