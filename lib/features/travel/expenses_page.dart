@@ -179,3 +179,4 @@ class AddExpensePage extends StatefulWidget {
 }
 
 class _AddExpensePageState extends State<AddExpensePage> {
+  late final e = widget.edit;
