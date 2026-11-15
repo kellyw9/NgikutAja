@@ -156,3 +156,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
         padding: EdgeInsets.zero,
         children: [
           HeroPhoto(
+            t.cover,
