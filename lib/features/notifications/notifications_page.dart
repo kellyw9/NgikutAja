@@ -17,3 +17,4 @@ class NotificationsPage extends StatelessWidget {
     switch (n.kind) {
       case NotifKind.reminder:
         push(context, NotificationDetailPage(n: n));
+      case NotifKind.payment:
