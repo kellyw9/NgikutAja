@@ -82,3 +82,4 @@ class _RegisterPageState extends State<RegisterPage> {
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.stretch,
                     children: [
+                      Text('Buat akun baru', style: AppText.h1),
