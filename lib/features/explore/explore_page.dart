@@ -116,3 +116,4 @@ class _ExplorePageState extends State<ExplorePage> {
                       itemCount: AppState.cities.length,
                       separatorBuilder: (_, _) => const SizedBox(width: 12),
                       itemBuilder: (_, i) => CityCard(AppState.cities[i]),
+                    ),
