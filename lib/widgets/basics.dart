@@ -178,3 +178,4 @@ class TextLink extends StatelessWidget {
       button: true,
       child: InkWell(
         onTap: onTap,
+        borderRadius: BorderRadius.circular(4),
