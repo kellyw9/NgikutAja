@@ -49,3 +49,4 @@ class DashboardPage extends StatelessWidget {
                               crossAxisAlignment: CrossAxisAlignment.end,
                               children: [
                                 for (var i = 0; i < monthly.length; i++) ...[
+                                  if (i > 0) const Spacer(),
