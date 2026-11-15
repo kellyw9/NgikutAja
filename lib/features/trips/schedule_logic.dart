@@ -130,3 +130,4 @@ List<String> shiftCascade(List<Stop> day, Stop target, int newStart) {
         final pick = longest.first;
         tips.add(
           Suggestion(
+            icon: 'drive_file_move',
