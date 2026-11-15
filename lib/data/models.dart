@@ -71,3 +71,4 @@ List<List<Stop>> copyPlan(List<List<Stop>> plan) => [
 ];
 
 class Itinerary {
+  Itinerary({
