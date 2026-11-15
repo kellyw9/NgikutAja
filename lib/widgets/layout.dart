@@ -390,3 +390,4 @@ class NgCard extends StatelessWidget {
       child: Padding(padding: padding, child: child),
     ),
   );
+}
