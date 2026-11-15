@@ -83,3 +83,4 @@ class _SearchPageState extends State<SearchPage> {
     searchRequest.value = null;
     if (r.query.isEmpty) {
       setState(() {
+        submitted = null;
