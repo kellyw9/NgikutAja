@@ -104,3 +104,4 @@ class _AdoptPageState extends State<AdoptPage> {
                     ],
                   ),
                 ],
+              ),
