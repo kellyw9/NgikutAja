@@ -112,3 +112,4 @@ List<String> shiftCascade(List<Stop> day, Stop target, int newStart) {
       final gap = shortestGap(day);
       issues.add(
         DayIssue(
+          day: d,
