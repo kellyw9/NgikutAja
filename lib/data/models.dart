@@ -398,3 +398,5 @@ class LocalTip {
   final Creator? author;
   final String? updated;
 }
+
+class Person {
