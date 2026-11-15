@@ -95,3 +95,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
               ),
             ),
           Row(
+            children: [
