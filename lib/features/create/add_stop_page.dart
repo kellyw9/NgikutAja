@@ -405,3 +405,4 @@ class _PickLocationPageState extends State<PickLocationPage> {
           color: AppColors.surface,
           borderRadius: BorderRadius.vertical(top: Radius.circular(AppRadius.sheet)),
           boxShadow: kFloatShadow,
+        ),
