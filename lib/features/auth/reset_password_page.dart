@@ -46,3 +46,5 @@ class _ResetPasswordPageState extends State<ResetPasswordPage> {
       if (wait <= 0) t.cancel();
     });
   }
+
+  @override
