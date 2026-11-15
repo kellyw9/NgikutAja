@@ -402,3 +402,5 @@ class AppState extends ChangeNotifier {
     itineraries.insert(0, d);
     notifyListeners();
   }
+
+  // ---------------- notifikasi dan pencarian ----------------
