@@ -44,3 +44,4 @@ class NgBanner extends StatelessWidget {
                 children: [
                   if (title != null) Text(title!, style: AppText.bodyStrong.c(fg)),
                   if (title != null && text != null) const SizedBox(height: 2),
+                  if (text != null) Text(text!, style: (offline ? AppText.small : AppText.body).c(fg)),
