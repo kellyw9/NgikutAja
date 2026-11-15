@@ -221,3 +221,4 @@ class _AdoptProgressPageState extends State<AdoptProgressPage> {
     setState(() {
       failed = false;
       trip = null;
+    });
