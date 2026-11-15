@@ -5,3 +5,5 @@ import '../shell/home_shell.dart';
 import 'day_editor_page.dart';
 
 const tagOptions = ['Alam', 'Kuliner', 'Budaya', 'Sejarah', 'Hemat', 'Keluarga', 'Petualangan'];
+
+/// Penanda "Draft" di app bar alur Create.
