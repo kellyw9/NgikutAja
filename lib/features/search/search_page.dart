@@ -478,3 +478,4 @@ class _SearchPageState extends State<SearchPage> {
               ),
               group(
                 'Durasi',
+                Wrap(
