@@ -58,3 +58,4 @@ class _EditProfilePageState extends State<EditProfilePage> {
           title: 'Buang perubahan?',
           body: 'Perubahan profil yang baru kamu buat belum disimpan.',
           actions: const [
+            DialogAction('Lanjut edit', kind: BtnKind.primary, value: false),
