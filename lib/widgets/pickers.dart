@@ -198,3 +198,4 @@ Future<String?> pickPhotoSheet(BuildContext context, {String title = 'Tambah fot
   } catch (_) {
     if (context.mounted) {
       showNgSnack(context, choice == 'camera' ? 'Kamera tidak bisa dibuka di perangkat ini.' : 'Galeri tidak bisa dibuka.', kind: SnackKind.error);
+    }
