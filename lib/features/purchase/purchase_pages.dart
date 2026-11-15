@@ -469,3 +469,4 @@ class PurchaseHistoryPage extends StatelessWidget {
                 final t = list[i];
                 return NgCard(
                   padding: const EdgeInsets.all(12),
+                  onTap: () => push(context, TransactionDetailPage(tx: t)),
