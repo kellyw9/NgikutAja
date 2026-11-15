@@ -115,3 +115,4 @@ class Itinerary {
   List<List<Stop>> plan;
 
   /// Biaya penginapan yang ikut dihitung ke estimasi.
+  int lodging;
