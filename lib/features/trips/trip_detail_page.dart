@@ -191,3 +191,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
                               children: [
                                 TextSpan(text: 'Diadopsi dari itinerary ', style: AppText.small.muted),
                                 TextSpan(text: it.creator.handle, style: AppText.smallStrong),
+                              ],
