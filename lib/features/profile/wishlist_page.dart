@@ -14,3 +14,4 @@ class WishlistPage extends StatelessWidget {
     final list = app.itineraries.where((x) => app.wishlist.contains(x.id)).toList();
     return Scaffold(
       backgroundColor: AppColors.ground,
+      appBar: NgAppBar(title: 'Wishlist', sub: list.isEmpty ? null : '${list.length} itinerary tersimpan'),
