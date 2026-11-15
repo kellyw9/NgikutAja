@@ -169,3 +169,4 @@ class _NgFieldState extends State<NgField> {
               type: MaterialType.transparency,
               child: InkWell(
                 onTap: widget.onTap,
+                borderRadius: BorderRadius.circular(AppRadius.control),
