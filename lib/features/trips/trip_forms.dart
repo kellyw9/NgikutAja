@@ -71,3 +71,4 @@ class _EditStopPageState extends State<EditStopPage> {
       body: 'Aktivitas ini dihapus dari ${widget.dayLabel.split(',').first}. Jam aktivitas setelahnya tidak ikut bergeser.',
       actions: const [
         DialogAction('Hapus aktivitas', kind: BtnKind.danger, value: true),
+        DialogAction('Batal'),
