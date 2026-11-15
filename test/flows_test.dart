@@ -110,3 +110,4 @@ void main() {
 
   testWidgets('Beli itinerary berbayar dengan QRIS (simulasi) membuka detail penuh', (tester) async {
     await phone(tester);
+    final s = newState();
