@@ -151,3 +151,4 @@ class _RegisterPageState extends State<RegisterPage> {
                           children: [
                             Text('Sudah punya akun? ', style: AppText.body.muted),
                             TextLink(
+                              'Masuk',
