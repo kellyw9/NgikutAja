@@ -243,3 +243,4 @@ class Photo extends StatelessWidget {
     final s = src;
     if (s == null) {
       img = Container(
+        color: AppColors.sunk,
