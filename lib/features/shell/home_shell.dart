@@ -100,3 +100,4 @@ class BottomNav extends StatelessWidget {
                           child: ExcludeSemantics(child: i == 2 ? _create(i) : _tab(i)),
                         ),
                       ),
+                    ),
