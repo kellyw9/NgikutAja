@@ -116,3 +116,5 @@ class Itinerary {
 
   /// Biaya penginapan yang ikut dihitung ke estimasi.
   int lodging;
+
+  /// Estimasi dan jumlah tempat dari data contoh untuk itinerary yang jadwalnya tidak lengkap.
