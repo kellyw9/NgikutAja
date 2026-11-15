@@ -428,3 +428,4 @@ class StopRow extends StatelessWidget {
         child: onTap == null ? row : Tap(onTap: onTap, radius: 6, child: row),
       ),
     );
+  }
