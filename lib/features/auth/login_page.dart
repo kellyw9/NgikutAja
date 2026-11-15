@@ -81,3 +81,4 @@ class _LoginPageState extends State<LoginPage> {
                 constraints: BoxConstraints(minHeight: c.maxHeight - 48),
                 child: IntrinsicHeight(
                   child: AutofillGroup(
+                    child: Column(
