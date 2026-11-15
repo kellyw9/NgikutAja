@@ -46,3 +46,5 @@ class DayIssue {
   final String title;
   final List<String> lines;
 }
+
+/// Geser [target] ke [newStart] dan mundurkan aktivitas setelahnya yang jadi bertabrakan.
