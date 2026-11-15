@@ -56,3 +56,4 @@ class NgField extends StatefulWidget {
   final String? prefixText;
   final TextInputAction? textInputAction;
   final bool autofocus;
+  final int? maxLength;
