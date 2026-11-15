@@ -24,3 +24,4 @@ class DashboardPage extends StatelessWidget {
         padding: const EdgeInsets.fromLTRB(kMargin, 8, kMargin, 24),
         children: [
           Gap(
+            16,
