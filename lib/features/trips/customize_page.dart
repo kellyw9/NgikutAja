@@ -117,3 +117,4 @@ class _CustomizePageState extends State<CustomizePage> {
                   decoration: BoxDecoration(color: AppColors.ground, borderRadius: BorderRadius.circular(AppRadius.card)),
                   child: Row(
                     children: [
+                      Marker(i + 1),
