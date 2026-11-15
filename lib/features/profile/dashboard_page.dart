@@ -57,3 +57,4 @@ class DashboardPage extends StatelessWidget {
                                       children: [
                                         Text('${monthly[i].$2}', style: AppText.smallStrong),
                                         const SizedBox(height: 4),
+                                        Container(
