@@ -327,3 +327,5 @@ class AppState extends ChangeNotifier {
     t.checkins['$day-$i'] = fromMinutes(now.hour * 60 + now.minute);
     notifyListeners();
   }
+
+  /// Aktivitas berikutnya hari ini = yang pertama belum check-in.
