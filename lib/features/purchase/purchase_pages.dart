@@ -471,3 +471,4 @@ class PurchaseHistoryPage extends StatelessWidget {
                   padding: const EdgeInsets.all(12),
                   onTap: () => push(context, TransactionDetailPage(tx: t)),
                   child: Row(
+                    children: [
