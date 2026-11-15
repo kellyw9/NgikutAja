@@ -82,3 +82,4 @@ class Seed {
         followers: 2310,
         following: 98,
       ),
+      'komang': Creator(
