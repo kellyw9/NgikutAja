@@ -178,3 +178,4 @@ class _NewPasswordPageState extends State<NewPasswordPage> {
                     NgField(
                       label: 'Password baru',
                       icon: 'lock',
+                      controller: p1,
