@@ -441,3 +441,4 @@ class DayItem {
 
 /// Strip hari: kotak per hari. Hari aktif berisi tinta; hari ini diberi titik kuning.
 class DayStrip extends StatelessWidget {
+  const DayStrip({super.key, required this.days, required this.active, required this.onTap, this.today, this.onAdd});
