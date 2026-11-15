@@ -345,3 +345,4 @@ class BoxList extends StatelessWidget {
   Widget build(BuildContext context) => Container(
     clipBehavior: Clip.antiAlias,
     padding: EdgeInsets.symmetric(vertical: padV),
+    decoration: BoxDecoration(
