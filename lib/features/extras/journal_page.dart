@@ -58,3 +58,4 @@ class _JournalPageState extends State<JournalPage> {
     final tt = title.text.trim(), tx = text.text.trim();
     title.dispose();
     text.dispose();
+    if (r != true || tx.isEmpty || !mounted) return;
