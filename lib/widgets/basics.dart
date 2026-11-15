@@ -246,3 +246,4 @@ class Photo extends StatelessWidget {
         color: AppColors.sunk,
         alignment: Alignment.center,
         child: AppIcon(placeholderIcon, color: AppColors.muted),
+      );
