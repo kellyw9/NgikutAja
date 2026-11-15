@@ -152,3 +152,4 @@ class _PublishPageState extends State<PublishPage> {
           ),
         ],
       ),
+      bottomNavigationBar: SafeArea(
