@@ -381,3 +381,4 @@ class AppNotification {
   final NotifKind kind;
   final String icon;
   final String lead; // bagian tebal di awal
+  final String text;
