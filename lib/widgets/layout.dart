@@ -209,3 +209,4 @@ class FactStrip extends StatelessWidget {
                   child: Padding(
                     padding: EdgeInsets.only(left: i == 0 ? 0 : 12, right: i == cells.length - 1 ? 0 : 12),
                     child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
