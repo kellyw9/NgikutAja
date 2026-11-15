@@ -128,3 +128,4 @@ class BottomNav extends StatelessWidget {
   Widget _tab(int i) {
     final on = i == active;
     return Column(
+      children: [
