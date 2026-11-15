@@ -23,3 +23,5 @@ class PhotoStore {
 }
 
 enum PhotoSource { camera, gallery }
+
+/// Buka kamera atau galeri. Mengembalikan kunci foto, atau null kalau dibatalkan.
