@@ -31,3 +31,4 @@ class _AdoptPageState extends State<AdoptPage> {
       body: '${it.places} tempat akan disalin ke Trip Saya untuk ${dateRange(start, end)}. Kamu bisa mengubahnya kapan saja.',
       actions: const [
         DialogAction('Adopt sekarang', kind: BtnKind.primary, value: true),
+        DialogAction('Batal'),
