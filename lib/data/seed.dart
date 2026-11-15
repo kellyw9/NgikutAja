@@ -597,3 +597,4 @@ class Seed {
         id: 'n5',
         kind: NotifKind.like,
         icon: 'favorite',
+        lead: '@putrihsb',
