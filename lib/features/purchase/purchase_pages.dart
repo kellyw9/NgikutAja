@@ -50,3 +50,4 @@ class PurchaseDetailPage extends StatelessWidget {
       'Bisa dibuka offline saat berada di ${it.city}',
     ];
     return Scaffold(
+      backgroundColor: AppColors.ground,
