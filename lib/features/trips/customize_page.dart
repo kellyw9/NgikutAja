@@ -463,3 +463,4 @@ class _CustomizePageState extends State<CustomizePage> {
                             AddPhotoTile(
                               size: 72,
                               onTap: () async {
+                                final p = await pickPhotoSheet(context, title: 'Tambah foto perjalanan');
