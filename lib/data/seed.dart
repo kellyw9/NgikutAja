@@ -91,3 +91,4 @@ class Seed {
         followers: 540,
         following: 61,
       ),
+      'yosef': Creator(
