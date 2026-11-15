@@ -146,3 +146,4 @@ class _EditStopPageState extends State<EditStopPage> {
                           scroll: true,
                           builder: (ctx) => Column(
                             children: [
+                              for (final m in _durations)
