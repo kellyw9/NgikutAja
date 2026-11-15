@@ -146,3 +146,4 @@ class _MapPainter extends CustomPainter {
       canvas.drawOval(Rect.fromCenter(center: p(.55, .5), width: .26 * w, height: .28 * h), Paint()..color = AppColors.mapPark);
       final ring1 = Path()
         ..moveTo(.48 * w, .2 * h)
+        ..cubicTo(.75 * w, .17 * h, .86 * w, .4 * h, .82 * w, .6 * h)
