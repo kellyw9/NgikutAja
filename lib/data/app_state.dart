@@ -452,3 +452,4 @@ class AppState extends ChangeNotifier {
   final Map<String, bool> settings = {
     'remindEach': true,
     'remindDayBefore': true,
+    'invites': true,
