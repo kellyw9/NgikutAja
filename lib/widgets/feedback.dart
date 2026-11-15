@@ -6,3 +6,5 @@ import '../core/text.dart';
 import 'basics.dart';
 
 enum BannerKind { warning, error, info, offline, success }
+
+class NgBanner extends StatelessWidget {
