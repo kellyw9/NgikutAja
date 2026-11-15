@@ -13,3 +13,5 @@ import 'services.dart';
 class OfflineException implements Exception {
   const OfflineException();
 }
+
+class CityInfo {
