@@ -213,3 +213,4 @@ class _AdoptProgressPageState extends State<AdoptProgressPage> {
 
   @override
   void initState() {
+    super.initState();
