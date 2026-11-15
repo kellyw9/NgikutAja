@@ -70,3 +70,4 @@ class RecapPage extends StatelessWidget {
                       label: 'Buka Photo memory',
                       child: SizedBox(
                         height: 216,
+                        child: Row(
