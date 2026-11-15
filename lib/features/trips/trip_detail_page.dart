@@ -249,3 +249,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text('Fitur perjalanan', style: AppText.h2),
+                    const SizedBox(height: 2),
