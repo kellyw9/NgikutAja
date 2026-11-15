@@ -515,3 +515,4 @@ class TransactionDetailPage extends StatelessWidget {
             14,
             children: [
               _ItemRow(tx.item),
+              KeyValueBox(
