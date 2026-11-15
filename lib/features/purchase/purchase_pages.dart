@@ -357,3 +357,4 @@ class _PaymentStatusPageState extends State<PaymentStatusPage> {
               ('ID transaksi', tx.id),
               ('Waktu transaksi', txDate(tx.date)),
               ('Metode pembayaran', tx.method),
+              ('Total bayar', rp(tx.amount)),
