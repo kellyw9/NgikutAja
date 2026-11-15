@@ -46,3 +46,4 @@ class _CreatorProfilePageState extends State<CreatorProfilePage> {
                     onPressed: () => requireLogin(context) ? app.toggleFollow(c) : null,
                   ),
           ),
+          Padding(
