@@ -301,3 +301,5 @@ class Trip {
 
   /// Kutipan catatan untuk recap: (nomor hari, isi).
   (int, String)? recapNote;
+
+  int get days => plan.length;
