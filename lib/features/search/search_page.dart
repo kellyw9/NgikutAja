@@ -454,3 +454,4 @@ class _SearchPageState extends State<SearchPage> {
                 label: 'Kota',
                 icon: 'location_on',
                 value: q.isEmpty ? 'Semua kota' : q,
+                trailing: 'expand_more',
