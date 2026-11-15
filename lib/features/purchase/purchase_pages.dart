@@ -176,3 +176,4 @@ class _PaymentPageState extends State<PaymentPage> {
     final app = AppScope.read(context);
     setState(() => processing = true);
     await Future<void>.delayed(const Duration(milliseconds: 1500));
+    if (!mounted) return;
