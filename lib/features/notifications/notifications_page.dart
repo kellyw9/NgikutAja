@@ -122,3 +122,4 @@ class NotificationsPage extends StatelessWidget {
                         label: 'Belum dibaca',
                         child: Container(
                           width: 8,
+                          height: 8,
