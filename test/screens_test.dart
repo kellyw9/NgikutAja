@@ -58,3 +58,4 @@ final Map<String, PageFor> pages = {
   'creator': (s) => CreatorProfilePage(c: s.seed.creators['rahmat']!),
   'create': (s) => CreateItineraryPage(draft: s.drafts[1]),
   'day editor': (s) => DayEditorPage(d: s.itinerary('samosirmotor')),
+  'add stop': (s) => AddStopPage(stop: s.itinerary('medan').plan[0][0].copy(), city: 'Medan'),
