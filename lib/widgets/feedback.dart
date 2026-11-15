@@ -206,3 +206,4 @@ Future<Object?> showNgDialog(BuildContext context, {String? icon, required Strin
             mainAxisSize: MainAxisSize.min,
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
+              if (icon != null) ...[
