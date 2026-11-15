@@ -165,3 +165,4 @@ class _EditStopPageState extends State<EditStopPage> {
                 prefixText: 'Rp',
                 keyboardType: TextInputType.number,
                 inputFormatters: [ThousandsFormatter()],
+              ),
