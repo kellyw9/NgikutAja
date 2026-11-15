@@ -450,3 +450,4 @@ class DayStrip extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) => SingleChildScrollView(
+    scrollDirection: Axis.horizontal,
