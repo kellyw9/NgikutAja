@@ -18,3 +18,4 @@ class _CheckinPageState extends State<CheckinPage> {
   bool done = false;
 
   @override
+  Widget build(BuildContext context) {
