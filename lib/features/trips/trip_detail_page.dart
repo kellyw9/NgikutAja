@@ -304,3 +304,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
                         StopRow(
                           stops[i],
                           n: i + 1,
+                          last: i == stops.length - 1,
