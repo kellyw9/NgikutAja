@@ -293,3 +293,4 @@ class _DashPainter extends CustomPainter {
   void paint(Canvas canvas, Size size) {
     final rect = Offset(width / 2, width / 2) & Size(size.width - width, size.height - width);
     final rr = RRect.fromRectAndRadius(rect, Radius.circular(radius));
+    if (fill != null) canvas.drawRRect(rr, Paint()..color = fill!);
