@@ -460,3 +460,4 @@ class IconTile extends StatelessWidget {
   final Color? border;
 
   @override
+  Widget build(BuildContext context) => Container(
