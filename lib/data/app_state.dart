@@ -57,3 +57,4 @@ class AppState extends ChangeNotifier {
               notifyListeners();
             })
             .catchError((_) {});
+      } catch (_) {}
