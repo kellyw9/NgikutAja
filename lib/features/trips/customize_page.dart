@@ -71,3 +71,5 @@ class _CustomizePageState extends State<CustomizePage> {
     if (r == null) return;
     _changed(() => r.deleted ? plan[day].removeAt(i) : plan[day][i] = r.stop!);
   }
+
+  Future<void> _add() async {
