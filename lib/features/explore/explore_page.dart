@@ -12,3 +12,4 @@ class ExplorePage extends StatefulWidget {
 
   @override
   State<ExplorePage> createState() => _ExplorePageState();
+}
