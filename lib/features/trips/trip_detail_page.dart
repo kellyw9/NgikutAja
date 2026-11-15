@@ -247,3 +247,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
                 const NgDivider(),
                 Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
