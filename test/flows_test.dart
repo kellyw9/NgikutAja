@@ -66,3 +66,4 @@ void main() {
   testWidgets('Adopt itinerary: konfirmasi, proses, berhasil masuk Trip Saya', (tester) async {
     await phone(tester);
     final s = newState();
+    final before = s.trips.length;
