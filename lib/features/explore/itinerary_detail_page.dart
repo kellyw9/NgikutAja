@@ -275,3 +275,4 @@ class PaidPreviewPage extends StatelessWidget {
                   FactStrip([
                     ('Durasi', '${it.days} hari'),
                     ('Estimasi per orang', it.estimate != null ? rp(it.estimate!) : 'Belum dihitung'),
+                    ('Diadopsi', '${thousands(it.adopted)} kali'),
