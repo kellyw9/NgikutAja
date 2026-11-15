@@ -474,3 +474,4 @@ class _CustomizePageState extends State<CustomizePage> {
                             ),
                             const SizedBox(width: 10),
                             if (t.photos.isEmpty)
+                              Text('Belum ada foto untuk trip ini.', style: AppText.body.muted)
