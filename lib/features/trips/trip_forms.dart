@@ -119,3 +119,4 @@ class _EditStopPageState extends State<EditStopPage> {
                   if (c != null) setState(() => cat = c);
                 },
               ),
+              Row(
