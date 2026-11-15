@@ -288,3 +288,4 @@ class RadioRow extends StatelessWidget {
   final double height;
 
   @override
+  Widget build(BuildContext context) => Semantics(
