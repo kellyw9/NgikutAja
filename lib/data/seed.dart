@@ -621,3 +621,4 @@ class Seed {
           text: 'Kapal berangkat tiap jam dari pukul 07.00. Kapal terakhir ke Samosir pukul 19.00.',
           photo: 'samosir',
           author: c['lestari'],
+          updated: 'Okt 2026',
