@@ -196,3 +196,4 @@ Future<Object?> showNgDialog(BuildContext context, {String? icon, required Strin
     builder: (ctx) => Dialog(
       backgroundColor: AppColors.surface,
       surfaceTintColor: Colors.transparent,
+      insetPadding: const EdgeInsets.symmetric(horizontal: 32, vertical: 24),
