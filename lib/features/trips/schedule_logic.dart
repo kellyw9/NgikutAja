@@ -128,3 +128,4 @@ List<String> shiftCascade(List<Stop> day, Stop target, int newStart) {
         }
         final longest = [...day]..sort((x, y) => y.duration.compareTo(x.duration));
         final pick = longest.first;
+        tips.add(
