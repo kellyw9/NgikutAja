@@ -274,3 +274,5 @@ class _SearchPageState extends State<SearchPage> {
       ),
     ],
   );
+
+  Widget _suggestions(AppState app) {
