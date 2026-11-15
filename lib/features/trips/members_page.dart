@@ -118,3 +118,4 @@ class MembersPage extends StatelessWidget {
             Container(
               padding: const EdgeInsets.fromLTRB(12, 2, 2, 2),
               decoration: BoxDecoration(color: AppColors.ground, borderRadius: BorderRadius.circular(AppRadius.inner)),
+              child: Row(
