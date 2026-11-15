@@ -107,3 +107,4 @@ class TabHeader extends StatelessWidget {
   final String? sub;
 
   @override
+  Widget build(BuildContext context) => Padding(
