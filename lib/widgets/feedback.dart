@@ -102,3 +102,4 @@ void showNgSnack(BuildContext context, String text, {SnackKind kind = SnackKind.
                   onAction?.call();
                 },
                 child: Padding(
+                  padding: const EdgeInsets.symmetric(vertical: 4),
