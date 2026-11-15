@@ -24,3 +24,5 @@ class SearchFilter {
 
   bool get budgetOn => budget.start > 0 || budget.end < _maxBudget;
   int get count => [duration != null, budgetOn, rating != null, price != 'Semua'].where((x) => x).length;
+
+  SearchFilter copy() => SearchFilter()
