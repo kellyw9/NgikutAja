@@ -11,3 +11,5 @@ class CustomizePage extends StatefulWidget {
   const CustomizePage({super.key, required this.trip, this.initialDay = 0});
   final Trip trip;
   final int initialDay;
+
+  @override
