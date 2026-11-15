@@ -193,3 +193,4 @@ class _InterestCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) => Semantics(
     checked: on,
+    child: NgCard(
