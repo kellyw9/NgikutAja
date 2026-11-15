@@ -169,3 +169,4 @@ class _AddStopPageState extends State<AddStopPage> {
                     builder: (context, c) {
                       final w = (c.maxWidth - 12) / 2;
                       return Row(
+                        children: [
