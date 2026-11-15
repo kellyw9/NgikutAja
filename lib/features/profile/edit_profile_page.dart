@@ -25,3 +25,4 @@ class _EditProfilePageState extends State<EditProfilePage> {
     if (!RegExp(r'^[a-z0-9_.]+$').hasMatch(u)) return 'Pakai huruf kecil, angka, titik, atau garis bawah';
     if (!AppScope.read(context).usernameAvailable(u)) return 'Username sudah dipakai';
     return null;
+  }
