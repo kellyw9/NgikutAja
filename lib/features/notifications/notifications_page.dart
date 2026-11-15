@@ -191,3 +191,4 @@ class NotificationDetailPage extends StatelessWidget {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Text(st.name, style: AppText.bodyStrong),
+                            const SizedBox(height: 2),
