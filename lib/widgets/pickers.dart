@@ -161,3 +161,4 @@ Future<Category?> pickCategory(BuildContext context, Category current) {
                     AppIcon(Category.values[i].icon, size: 22),
                     const SizedBox(width: 14),
                     Expanded(child: Text(Category.values[i].label, style: AppText.bodyStrong)),
+                    RadioMark(Category.values[i] == current),
