@@ -412,3 +412,4 @@ class NavigationPage extends StatelessWidget {
             child: Gap(
               14,
               children: [
+                Row(
