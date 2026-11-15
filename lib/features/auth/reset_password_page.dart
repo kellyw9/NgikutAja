@@ -137,3 +137,5 @@ class _NewPasswordPageState extends State<NewPasswordPage> {
     if (!(RegExp(r'[A-Za-z]').hasMatch(p) && RegExp(r'\d').hasMatch(p))) return 'Campur huruf dan angka';
     return null;
   }
+
+  String? get e2 => p2.text.isNotEmpty && p2.text != p1.text ? 'Password belum sama' : null;
