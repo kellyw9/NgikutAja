@@ -50,3 +50,4 @@ void main() {
     await tester.pumpWidget(host(s, const LoginPage()));
     await tester.enterText(find.byType(TextField).at(0), 'dinda.saragi@gmail.com');
     await tester.enterText(find.byType(TextField).at(1), 'salah1234');
+    await tapText(tester, 'Masuk', button: true);
