@@ -174,3 +174,4 @@ class Seed {
       reviews: 21,
       tags: ['Alam'],
       lodging: 970000,
+      publishedAt: _d(-10),
