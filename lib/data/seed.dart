@@ -161,3 +161,4 @@ class Seed {
 
     final toba = Itinerary(
       id: 'toba',
+      title: 'Danau Toba 2 Hari Santai ala Lokal',
