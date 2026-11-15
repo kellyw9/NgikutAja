@@ -177,3 +177,4 @@ class _PaymentPageState extends State<PaymentPage> {
     setState(() => processing = true);
     await Future<void>.delayed(const Duration(milliseconds: 1500));
     if (!mounted) return;
+    final tx = app.startPayment(widget.it, method);
