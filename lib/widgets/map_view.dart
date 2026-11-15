@@ -25,3 +25,4 @@ class MapView extends StatelessWidget {
     this.me,
     this.radius = AppRadius.card,
     this.route = true,
+    this.ring,
