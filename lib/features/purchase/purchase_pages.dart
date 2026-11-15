@@ -143,3 +143,4 @@ class PurchaseConfirmPage extends StatelessWidget {
         ),
       ],
     ),
+    bottomNavigationBar: SafeArea(
