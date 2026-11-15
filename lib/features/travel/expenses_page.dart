@@ -79,3 +79,4 @@ class ExpensesPage extends StatelessWidget {
     AppScope.of(context);
     final list = trip.expenses;
     return Scaffold(
+      backgroundColor: AppColors.ground,
