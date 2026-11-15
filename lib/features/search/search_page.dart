@@ -236,3 +236,4 @@ class _SearchPageState extends State<SearchPage> {
         SectionHead('Pencarian terakhir', action: 'Hapus', onAction: app.clearRecent),
         const SizedBox(height: 8),
         for (final q in app.recentSearches)
+          Tap(
