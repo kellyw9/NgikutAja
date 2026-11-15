@@ -21,3 +21,4 @@ class MapView extends StatelessWidget {
     super.key,
     this.height = 200,
     this.kind = MapKind.city,
+    this.pins = const [],
