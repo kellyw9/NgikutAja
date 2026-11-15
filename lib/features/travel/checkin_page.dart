@@ -70,3 +70,4 @@ class _CheckinPageState extends State<CheckinPage> {
                 ),
               if (done)
                 NgButton('Kembali ke Travel Mode', expand: true, onPressed: () => Navigator.pop(context))
+              else
