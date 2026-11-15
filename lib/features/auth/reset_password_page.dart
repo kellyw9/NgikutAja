@@ -98,3 +98,4 @@ class _ResetPasswordPageState extends State<ResetPasswordPage> {
                         Align(
                           alignment: Alignment.centerLeft,
                           child: TextLink('Kirim ulang tautan', onTap: _send),
+                        ),
