@@ -93,3 +93,4 @@ class _NgFieldState extends State<NgField> {
     if (_select || widget.controller == null) {
       final v = widget.value ?? '';
       content = Text(
+        v.isEmpty ? widget.hint : v,
