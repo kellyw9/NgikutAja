@@ -226,3 +226,4 @@ bool requireLogin(BuildContext context) {
           'Buat akun baru',
           kind: BtnKind.secondary,
           expand: true,
+          onPressed: () {
