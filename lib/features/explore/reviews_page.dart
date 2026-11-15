@@ -67,3 +67,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
             title: 'Belum ada ulasan',
             text: 'Ulasan muncul setelah pengguna menyelesaikan trip dari itinerary ini.',
           )
+        else ...[
