@@ -210,3 +210,5 @@ class AdoptProgressPage extends StatefulWidget {
 class _AdoptProgressPageState extends State<AdoptProgressPage> {
   Trip? trip;
   bool failed = false;
+
+  @override
