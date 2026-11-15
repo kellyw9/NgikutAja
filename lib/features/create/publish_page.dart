@@ -200,3 +200,4 @@ class PublishedPage extends StatelessWidget {
       appBar: const NgAppBar(back: null, actions: [_CloseBtn()]),
       body: SafeArea(
         top: false,
+        child: LayoutBuilder(
