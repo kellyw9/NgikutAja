@@ -74,3 +74,4 @@ class _RegisterPageState extends State<RegisterPage> {
         top: false,
         child: LayoutBuilder(
           builder: (context, c) => SingleChildScrollView(
+            padding: const EdgeInsets.fromLTRB(kMargin, 0, kMargin, 24),
