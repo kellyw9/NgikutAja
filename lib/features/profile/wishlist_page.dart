@@ -74,3 +74,4 @@ class _Row extends StatelessWidget {
               'bookmark',
               label: 'Hapus dari Wishlist',
               filled: true,
+              iconSize: 22,
