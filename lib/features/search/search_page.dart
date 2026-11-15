@@ -186,3 +186,4 @@ class _SearchPageState extends State<SearchPage> {
                     label: 'Hapus kata kunci',
                     size: 40,
                     iconSize: 18,
+                    color: AppColors.muted,
