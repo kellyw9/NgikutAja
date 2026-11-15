@@ -49,3 +49,4 @@ class _StatChip extends StatelessWidget {
           padding: const EdgeInsets.symmetric(horizontal: 12),
           child: ExcludeSemantics(
             child: Row(
+              mainAxisSize: MainAxisSize.min,
