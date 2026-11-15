@@ -208,3 +208,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
         child: Column(
           mainAxisSize: MainAxisSize.min,
           children: [
+            Container(height: 1, color: AppColors.line),
