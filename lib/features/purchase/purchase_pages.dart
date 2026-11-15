@@ -89,3 +89,4 @@ class PurchaseDetailPage extends StatelessWidget {
                           Expanded(child: Text(p, style: AppText.body)),
                         ],
                       ),
+                    ],
