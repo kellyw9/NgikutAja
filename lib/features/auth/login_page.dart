@@ -33,3 +33,4 @@ class _LoginPageState extends State<LoginPage> {
   String? passErr;
 
   Future<void> _submit() async {
+    setState(() {
