@@ -177,3 +177,4 @@ class _PackingPageState extends State<PackingPage> {
                     ),
                   ),
                   const SizedBox(width: 8),
+                  IconBtn('check', label: 'Tambahkan barang', bg: AppColors.ink, color: AppColors.white, size: 48, onTap: _add),
