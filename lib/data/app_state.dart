@@ -371,3 +371,4 @@ class AppState extends ChangeNotifier {
   }
 
   // ---------------- membuat itinerary ----------------
+  Itinerary newDraft() => Itinerary(
