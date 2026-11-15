@@ -484,3 +484,4 @@ class ThousandsFormatter extends TextInputFormatter {
       selection: TextSelection.collapsed(offset: t.length),
     );
   }
+}
