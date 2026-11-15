@@ -303,3 +303,4 @@ class _EditTripInfoPageState extends State<EditTripInfoPage> {
               ),
               NgField(label: 'Destinasi', icon: 'location_on', controller: region),
               NgField(
+                label: 'Tanggal keberangkatan',
