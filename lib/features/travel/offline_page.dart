@@ -10,3 +10,5 @@ class OfflinePage extends StatelessWidget {
     final n = DateTime.now();
     return fromMinutes(n.hour * 60 + n.minute);
   }
+
+  @override
