@@ -141,3 +141,4 @@ class PurchaseConfirmPage extends StatelessWidget {
             _simNote,
           ],
         ),
+      ],
