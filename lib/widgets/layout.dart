@@ -151,3 +151,4 @@ class SectionHead extends StatelessWidget {
         if (action != null)
           Padding(
             padding: EdgeInsets.only(right: padded ? 12 : 0),
+            child: TextLink(action!, onTap: onAction),
