@@ -178,3 +178,4 @@ Future<Category?> pickCategory(BuildContext context, Category current) {
 Future<String?> pickPhotoSheet(BuildContext context, {String title = 'Tambah foto', bool canRemove = false}) async {
   final choice = await showNgSheet<String>(
     context,
+    title: title,
