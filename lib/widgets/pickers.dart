@@ -172,3 +172,5 @@ Future<Category?> pickCategory(BuildContext context, Category current) {
     ),
   );
 }
+
+/// Ambil foto dari kamera/galeri, atau hapus foto. Mengembalikan kunci foto baru,
