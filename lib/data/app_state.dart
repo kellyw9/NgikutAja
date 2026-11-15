@@ -146,3 +146,4 @@ class AppState extends ChangeNotifier {
   List<Itinerary> trending() {
     final list = [...published];
     double score(Itinerary x) {
+      final age = today.difference(x.publishedAt).inDays.clamp(1, 3650);
