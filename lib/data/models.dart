@@ -245,3 +245,4 @@ class Trip {
     List<Member>? members,
     List<Expense>? expenses,
     List<PackGroup>? packing,
+    Map<String, String>? checkins,
