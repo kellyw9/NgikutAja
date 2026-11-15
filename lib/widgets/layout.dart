@@ -202,3 +202,4 @@ class FactStrip extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
               for (var i = 0; i < cells.length; i++) ...[
+                if (i > 0) Container(width: 1, color: AppColors.rule),
