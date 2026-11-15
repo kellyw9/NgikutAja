@@ -25,3 +25,4 @@ void shareItinerary(Itinerary it) => shareText(
 /// Kotak statistik kecil: suka, ulasan, komentar.
 class _StatChip extends StatelessWidget {
   const _StatChip({required this.icon, required this.text, this.filled = false, required this.onTap, required this.label});
+  final String icon;
