@@ -84,3 +84,4 @@ class _NgFieldState extends State<NgField> {
   bool get _select => widget.onTap != null && widget.controller == null;
 
   @override
+  Widget build(BuildContext context) {
