@@ -241,3 +241,4 @@ class _CustomizePageState extends State<CustomizePage> {
             for (final iss in issues)
               Container(
                 padding: const EdgeInsets.all(12),
+                decoration: BoxDecoration(
