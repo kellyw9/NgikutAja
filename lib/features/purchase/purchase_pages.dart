@@ -367,3 +367,4 @@ class _PaymentStatusPageState extends State<PaymentStatusPage> {
                 onPressed: () {
                   final nav = Navigator.of(context);
                   if (!_closeFlow(nav)) pushItinerary(nav, app, it);
+                },
