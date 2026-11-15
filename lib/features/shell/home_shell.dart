@@ -116,3 +116,4 @@ class BottomNav extends StatelessWidget {
       Container(
         width: 44,
         height: 36,
+        alignment: Alignment.center,
