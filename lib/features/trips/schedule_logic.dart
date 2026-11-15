@@ -97,3 +97,4 @@ List<String> shiftCascade(List<Stop> day, Stop target, int newStart) {
       final others = shiftCascade(preview, pb, ns);
       tips.add(
         Suggestion(
+          icon: 'schedule',
