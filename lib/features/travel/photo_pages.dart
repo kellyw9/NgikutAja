@@ -73,3 +73,4 @@ class _PhotoPreviewPageState extends State<PhotoPreviewPage> {
                   const SizedBox(height: 6),
                   Text(
                     vis == 'Public'
+                        ? 'Foto bisa muncul di halaman itinerary untuk semua pengguna.'
