@@ -148,3 +148,4 @@ class _PackingPageState extends State<PackingPage> {
                                         IconBtn(
                                           'edit',
                                           label: 'Ubah ${it.name}',
+                                          size: 40,
