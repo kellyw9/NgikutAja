@@ -259,3 +259,4 @@ class _AddStopPageState extends State<AddStopPage> {
                 NgButton(
                   'Hapus stop',
                   kind: BtnKind.dangerText,
+                  icon: 'delete',
