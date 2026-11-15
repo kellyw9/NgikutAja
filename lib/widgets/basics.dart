@@ -361,3 +361,4 @@ class AddPhotoTile extends StatelessWidget {
       radius: AppRadius.inner,
       child: SizedBox.square(
         dimension: size,
+        child: Column(
