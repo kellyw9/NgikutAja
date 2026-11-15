@@ -74,3 +74,4 @@ class ItineraryDetailPage extends StatefulWidget {
 
 class _ItineraryDetailPageState extends State<ItineraryDetailPage> {
   int mapDay = 0;
+  int day = 0;
