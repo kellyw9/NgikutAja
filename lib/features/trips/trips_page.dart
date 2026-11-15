@@ -21,3 +21,4 @@ class TripsPage extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
           const TabHeader('Trip Saya'),
+          Padding(
