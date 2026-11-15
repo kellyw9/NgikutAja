@@ -104,3 +104,4 @@ class _PackingPageState extends State<PackingPage> {
               for (final g in t.packing.where((g) => g.items.isNotEmpty))
                 Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
