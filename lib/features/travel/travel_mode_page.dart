@@ -38,3 +38,4 @@ class TravelModePage extends StatelessWidget {
                   children: [
                     if (!app.online)
                       const NgBanner(
+                        kind: BannerKind.offline,
