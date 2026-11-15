@@ -369,3 +369,4 @@ class _CustomizePageState extends State<CustomizePage> {
             ),
             Padding(
               padding: const EdgeInsets.fromLTRB(kMargin, 12, kMargin, 0),
+              child: Gap(
