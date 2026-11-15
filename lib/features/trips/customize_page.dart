@@ -182,3 +182,4 @@ class _CustomizePageState extends State<CustomizePage> {
         DialogAction('Pindahkan sekarang', kind: BtnKind.primary, value: true),
         DialogAction('Batal'),
       ],
+    );
