@@ -610,3 +610,4 @@ class Seed {
         text: ' berkomentar: "Motor sewaan di Tuktuk ada yang matic?"',
         time: '$yday 09.12',
         today: false,
+      ),
