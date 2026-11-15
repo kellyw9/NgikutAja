@@ -127,3 +127,4 @@ Future<T?> showNgSheet<T>(BuildContext context, {String? title, String? sub, req
     builder: (ctx) {
       final content = Padding(padding: const EdgeInsets.fromLTRB(kMargin, 12, kMargin, 8), child: builder(ctx));
       return Padding(
+        padding: EdgeInsets.only(bottom: MediaQuery.viewInsetsOf(ctx).bottom),
