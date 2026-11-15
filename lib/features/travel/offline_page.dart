@@ -93,3 +93,4 @@ class OfflinePage extends StatelessWidget {
               ),
             ],
           ),
+        ],
