@@ -432,3 +432,4 @@ class StopRow extends StatelessWidget {
 }
 
 class DayItem {
+  const DayItem(this.label, {this.date, this.sub, this.alert = false});
