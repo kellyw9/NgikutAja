@@ -38,3 +38,4 @@ class TripsPage extends StatelessWidget {
               },
             ),
           ),
+        ],
