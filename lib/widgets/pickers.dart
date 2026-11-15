@@ -67,3 +67,4 @@ class _CalendarState extends State<_Calendar> {
             selected: isEdge,
             enabled: !disabled,
             label: dateLong(date),
+            child: InkWell(
