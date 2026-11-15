@@ -67,3 +67,4 @@ class DashboardPage extends StatelessWidget {
                                         ),
                                         Container(height: 1, color: AppColors.line),
                                         const SizedBox(height: 4),
+                                        Text(monthly[i].$1, style: AppText.small.muted),
