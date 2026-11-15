@@ -493,3 +493,4 @@ class _DayBox extends StatelessWidget {
       child: Material(
         color: on ? AppColors.ink : AppColors.surface,
         shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(AppRadius.control),
