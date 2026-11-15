@@ -16,3 +16,4 @@ class TripsPage extends StatelessWidget {
   Widget build(BuildContext context) {
     final app = AppScope.of(context);
     return ValueListenableBuilder<TripStatus>(
+      valueListenable: tripsTab,
