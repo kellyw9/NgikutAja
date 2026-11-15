@@ -25,3 +25,4 @@ class TravelModePage extends StatelessWidget {
     final total = t.places();
 
     return AnnotatedRegion(
+      value: kLightIcons.copyWith(systemNavigationBarColor: AppColors.surface, systemNavigationBarIconBrightness: Brightness.dark),
