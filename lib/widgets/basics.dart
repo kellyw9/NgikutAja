@@ -377,3 +377,5 @@ class AddPhotoTile extends StatelessWidget {
 // ---------------------------------------------------------------- label
 
 enum PillKind { neutral, teal, positive, negative, warning, solid }
+
+/// Status: tag persegi radius 4, pasangan warna pucat + teks gelap.
