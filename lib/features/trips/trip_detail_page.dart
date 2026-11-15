@@ -243,3 +243,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
                         Expanded(child: Text('Travel Mode aktif mulai ${dateLong(t.start!)}.', style: AppText.small.muted)),
                       ],
                     ),
+                  ),
