@@ -162,3 +162,4 @@ class _CustomizePageState extends State<CustomizePage> {
                   onPressed: dest == null ? null : () => Navigator.pop(ctx, dest),
                 ),
               ],
+            );
