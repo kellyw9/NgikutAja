@@ -252,3 +252,4 @@ class _PaymentPageState extends State<PaymentPage> {
       ),
       bottomNavigationBar: SafeArea(
         child: Padding(
+          padding: const EdgeInsets.fromLTRB(kMargin, 0, kMargin, 16),
