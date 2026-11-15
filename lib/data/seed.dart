@@ -318,3 +318,4 @@ class Seed {
         tags: ['Budaya'],
         publishedAt: _d(-200),
       ),
+      Itinerary(
