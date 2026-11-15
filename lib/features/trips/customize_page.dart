@@ -138,3 +138,4 @@ class _CustomizePageState extends State<CustomizePage> {
                       if (d > 0) const NgDivider(color: AppColors.line),
                       RadioRow(
                         title: _dayLabel(d),
+                        sub: d == day
