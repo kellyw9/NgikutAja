@@ -11,3 +11,4 @@ String txDate(DateTime d) => '${d.day} ${monthsShort[d.month - 1]} ${d.year}, ${
 const _simNote = NgBanner(kind: BannerKind.info, icon: 'info', text: 'Mode simulasi: tidak ada uang sungguhan yang ditarik.');
 
 class _ItemRow extends StatelessWidget {
+  const _ItemRow(this.it);
