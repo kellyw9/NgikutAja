@@ -217,3 +217,4 @@ class _AddStopPageState extends State<AddStopPage> {
                               child: SizedBox(
                                 width: w,
                                 height: 94,
+                                child: Column(
