@@ -290,3 +290,4 @@ class _StopCard extends StatelessWidget {
               cursor: SystemMouseCursors.grab,
               child: SizedBox(
                 width: 36,
+                height: 52,
