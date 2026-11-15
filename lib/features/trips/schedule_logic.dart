@@ -48,3 +48,4 @@ class DayIssue {
 }
 
 /// Geser [target] ke [newStart] dan mundurkan aktivitas setelahnya yang jadi bertabrakan.
+/// Mengembalikan nama + jam baru aktivitas lain yang ikut bergeser.
