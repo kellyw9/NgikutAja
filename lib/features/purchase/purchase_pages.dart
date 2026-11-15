@@ -516,3 +516,4 @@ class TransactionDetailPage extends StatelessWidget {
             children: [
               _ItemRow(tx.item),
               KeyValueBox(
+                [('ID transaksi', tx.id), ('Waktu transaksi', txDate(tx.date)), ('Metode pembayaran', tx.method), ('Status', tx.status.label)],
