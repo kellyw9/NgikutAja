@@ -431,3 +431,4 @@ class NavigationPage extends StatelessWidget {
                 if (info != null)
                   Container(
                     padding: const EdgeInsets.symmetric(vertical: 10),
+                    decoration: BoxDecoration(color: AppColors.ground, borderRadius: BorderRadius.circular(AppRadius.card)),
