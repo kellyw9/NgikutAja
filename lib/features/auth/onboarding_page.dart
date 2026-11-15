@@ -53,3 +53,4 @@ class _OnboardingPageState extends State<OnboardingPage> {
   Widget build(BuildContext context) {
     return AnnotatedRegion(
       value: kDarkIcons,
+      child: Scaffold(
