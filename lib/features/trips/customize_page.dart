@@ -424,3 +424,4 @@ class _CustomizePageState extends State<CustomizePage> {
                               last: i == stops.length - 1,
                               note: false,
                               conflict: bad.contains(i),
+                              trailing: ReorderableDragStartListener(
