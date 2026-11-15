@@ -104,3 +104,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
                   expand: true,
                   onPressed: () {
                     Navigator.pop(ctx);
+                    push(context, CustomizePage(trip: t, initialDay: day));
