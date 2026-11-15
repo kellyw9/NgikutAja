@@ -433,3 +433,4 @@ class _PickLocationPageState extends State<PickLocationPage> {
                             style: AppText.small.muted,
                           ),
                         ],
+                      ),
