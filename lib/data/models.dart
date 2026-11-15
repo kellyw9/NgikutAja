@@ -337,3 +337,4 @@ class Review {
 class Comment {
   Comment({required this.name, required this.tint, required this.time, required this.text, this.creator = false, this.replyTo});
   final String name;
+  final int tint;
