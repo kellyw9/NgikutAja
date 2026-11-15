@@ -38,3 +38,4 @@ class NgBanner extends StatelessWidget {
           children: [
             AppIcon(icon ?? ic, size: 20, color: fg),
             const SizedBox(width: 10),
+            Expanded(
