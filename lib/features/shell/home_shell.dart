@@ -45,3 +45,4 @@ class _HomeShellState extends State<HomeShell> {
   Widget build(BuildContext context) {
     final app = AppScope.of(context);
     return ValueListenableBuilder<int>(
+      valueListenable: shellTab,
