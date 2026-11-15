@@ -126,3 +126,4 @@ class Seed {
       rating: 4.8,
       reviews: 36,
       tags: ['Kuliner', 'Budaya'],
+      publishedAt: _d(-20),
