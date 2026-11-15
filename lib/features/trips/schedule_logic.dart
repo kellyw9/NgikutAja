@@ -11,3 +11,5 @@ List<(int, int)> conflictsIn(List<Stop> day) {
   }
   return out;
 }
+
+Set<int> conflictIndexes(List<Stop> day) => {
