@@ -55,3 +55,4 @@ class _AddStopPageState extends State<AddStopPage> {
     name.dispose();
     cost.dispose();
     note.dispose();
+    super.dispose();
