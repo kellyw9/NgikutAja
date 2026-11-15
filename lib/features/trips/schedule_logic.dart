@@ -151,3 +151,4 @@ List<String> shiftCascade(List<Stop> day, Stop target, int newStart) {
 int appendToDay(List<Stop> day, Stop s) {
   final dur = s.duration;
   final last = day.isEmpty ? null : day.map((x) => x.endMin).reduce((a, b) => a > b ? a : b);
+  final ns = last == null ? s.startMin : last + 15;
