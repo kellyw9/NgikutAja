@@ -524,3 +524,4 @@ class TransactionDetailPage extends StatelessWidget {
           ),
         ],
       ),
+      bottomNavigationBar: SafeArea(
