@@ -116,3 +116,4 @@ class _PublishPageState extends State<PublishPage> {
                     prefixText: 'Rp',
                     keyboardType: TextInputType.number,
                     inputFormatters: [ThousandsFormatter()],
+                    onChanged: (_) => setState(() {}),
