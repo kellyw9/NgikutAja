@@ -252,3 +252,5 @@ class AppState extends ChangeNotifier {
     if (success) purchased.add(tx.item.id);
     notifyListeners();
   }
+
+  int get revenue => mine.fold(0, (a, x) => a + x.price * salesOf(x));
