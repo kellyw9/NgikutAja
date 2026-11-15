@@ -92,3 +92,4 @@ class RecapPage extends StatelessWidget {
                         ),
                       ),
                     ),
+                  ],
