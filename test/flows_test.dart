@@ -53,3 +53,4 @@ void main() {
     await tapText(tester, 'Masuk', button: true);
     await tester.pump(const Duration(milliseconds: 700));
     expect(find.text('Email atau password salah'), findsOneWidget);
+    expect(find.text('Password tidak cocok dengan email ini'), findsOneWidget);
