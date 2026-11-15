@@ -369,3 +369,4 @@ class AddPhotoTile extends StatelessWidget {
             Text(label, style: AppText.small.muted),
           ],
         ),
+      ),
