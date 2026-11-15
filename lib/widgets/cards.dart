@@ -24,3 +24,4 @@ class Proof extends StatelessWidget {
         const AppIcon('star', size: 16, filled: true),
         const SizedBox(width: 3),
         Text(decimal(it.rating!), style: AppText.smallStrong),
+        if (!compact && it.reviews != null) ...[const SizedBox(width: 3), Text('(${it.reviews})', style: AppText.small.muted)],
