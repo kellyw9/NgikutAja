@@ -75,3 +75,4 @@ class _CalendarState extends State<_Calendar> {
                 height: 34,
                 alignment: Alignment.center,
                 decoration: BoxDecoration(color: isEdge ? AppColors.ink : null, borderRadius: BorderRadius.circular(4)),
+                child: Text(
