@@ -175,3 +175,4 @@ class _MapPainter extends CustomPainter {
         river,
         Paint()
           ..color = AppColors.mapWater
+          ..style = PaintingStyle.stroke
