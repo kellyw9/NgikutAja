@@ -118,3 +118,4 @@ class _MapPainter extends CustomPainter {
   final (Offset, double)? ring;
 
   @override
+  void paint(Canvas canvas, Size s) {
