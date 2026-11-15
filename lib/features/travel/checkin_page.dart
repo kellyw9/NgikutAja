@@ -127,3 +127,4 @@ class PermissionDeniedPage extends StatelessWidget {
     body: SafeArea(
       top: false,
       child: Padding(
+        padding: const EdgeInsets.fromLTRB(kMargin, 24, kMargin, 24),
