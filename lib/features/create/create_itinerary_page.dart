@@ -191,3 +191,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
                       label: 'Durasi',
                       icon: 'schedule',
                       value: '${d.days} hari',
+                      trailing: 'expand_more',
