@@ -262,3 +262,4 @@ class Seed {
         cover: 'labuanbajo',
         creator: c['yosef']!,
         price: 45000,
+        adopted: 73,
