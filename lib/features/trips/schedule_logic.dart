@@ -44,3 +44,4 @@ class DayIssue {
   final int day;
   final bool conflict;
   final String title;
+  final List<String> lines;
