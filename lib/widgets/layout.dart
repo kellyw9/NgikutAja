@@ -382,3 +382,4 @@ class NgCard extends StatelessWidget {
     shape: RoundedRectangleBorder(
       borderRadius: BorderRadius.circular(AppRadius.card),
       side: BorderSide(color: border, width: borderWidth),
+    ),
