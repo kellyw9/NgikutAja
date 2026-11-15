@@ -105,3 +105,4 @@ class _PhotoViewerPageState extends State<PhotoViewerPage> {
                       IconBtn(
                         'share',
                         label: 'Bagikan foto',
+                        color: AppColors.white,
