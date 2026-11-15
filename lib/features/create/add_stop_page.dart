@@ -197,3 +197,4 @@ class _AddStopPageState extends State<AddStopPage> {
                                       iconSize: 16,
                                       bg: AppColors.surface,
                                       onTap: () => setState(() => photo = null),
+                                    ),
