@@ -57,3 +57,4 @@ class _IconPainter extends CustomPainter {
 
   @override
   void paint(Canvas canvas, Size size) {
+    final s = size.width / 960;
