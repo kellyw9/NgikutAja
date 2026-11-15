@@ -28,3 +28,4 @@ class _EditProfilePageState extends State<EditProfilePage> {
   }
 
   void _save() {
+    if (name.text.trim().isEmpty || userErr != null) {
