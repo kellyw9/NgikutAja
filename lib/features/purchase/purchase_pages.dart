@@ -468,3 +468,4 @@ class PurchaseHistoryPage extends StatelessWidget {
               itemBuilder: (_, i) {
                 final t = list[i];
                 return NgCard(
+                  padding: const EdgeInsets.all(12),
