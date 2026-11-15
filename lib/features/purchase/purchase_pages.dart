@@ -374,3 +374,4 @@ class _PaymentStatusPageState extends State<PaymentStatusPage> {
                 icon: 'luggage',
                 expand: true,
                 onPressed: () {
+                  Navigator.pushReplacement(context, MaterialPageRoute(builder: (_) => AdoptPage(it: it), fullscreenDialog: true));
