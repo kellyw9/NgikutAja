@@ -198,3 +198,4 @@ class NotificationDetailPage extends StatelessWidget {
                               ('payments', st.cost > 0 ? rp(st.cost) : 'Gratis'),
                             ]),
                           ],
+                        ),
