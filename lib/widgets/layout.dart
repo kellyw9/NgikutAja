@@ -377,3 +377,4 @@ class NgCard extends StatelessWidget {
   final Color fill;
 
   @override
+  Widget build(BuildContext context) => Material(
