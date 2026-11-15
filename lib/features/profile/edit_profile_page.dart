@@ -76,3 +76,4 @@ class _EditProfilePageState extends State<EditProfilePage> {
           title: 'Edit profil',
           back: 'close',
           onBack: () => Navigator.maybePop(context),
+          actions: [NgButton('Simpan', kind: BtnKind.text, size: BtnSize.md, onPressed: dirty ? _save : null)],
