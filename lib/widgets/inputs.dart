@@ -98,3 +98,4 @@ class _NgFieldState extends State<NgField> {
         maxLines: widget.area ? 4 : 1,
         overflow: TextOverflow.ellipsis,
       );
+    } else {
