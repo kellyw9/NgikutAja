@@ -267,3 +267,4 @@ class KeyValueBox extends StatelessWidget {
           SizedBox(
             height: 44,
             child: Row(
+              children: [
