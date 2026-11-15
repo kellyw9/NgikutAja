@@ -81,3 +81,4 @@ class MapView extends StatelessWidget {
                           width: 14,
                           height: 14,
                           decoration: const BoxDecoration(color: AppColors.myLocation, shape: BoxShape.circle),
+                        ),
