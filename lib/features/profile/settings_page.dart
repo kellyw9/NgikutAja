@@ -126,3 +126,4 @@ class AboutPage extends StatelessWidget {
         return ListView(
           padding: const EdgeInsets.fromLTRB(kMargin, 8, kMargin, 24),
           children: [
+            Gap(
