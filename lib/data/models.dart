@@ -229,3 +229,5 @@ class JournalEntry {
   String text;
   List<String> photos;
 }
+
+class Trip {
