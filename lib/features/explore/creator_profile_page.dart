@@ -71,3 +71,4 @@ class _CreatorProfilePageState extends State<CreatorProfilePage> {
               ],
             ),
           ),
+        ],
