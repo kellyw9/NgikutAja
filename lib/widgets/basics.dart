@@ -135,3 +135,4 @@ class IconBtn extends StatelessWidget {
     final radius = BorderRadius.circular(boxed ? AppRadius.control : size / 2);
     return Semantics(
       button: true,
+      label: label,
