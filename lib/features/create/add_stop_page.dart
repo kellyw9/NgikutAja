@@ -18,3 +18,4 @@ class AddStopPage extends StatefulWidget {
 
 class _AddStopPageState extends State<AddStopPage> {
   late final s = widget.stop;
+  late final name = TextEditingController(text: s?.name ?? '');
