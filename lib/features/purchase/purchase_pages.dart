@@ -385,3 +385,4 @@ class _PaymentStatusPageState extends State<PaymentStatusPage> {
           StatusView(
             top: true,
             icon: 'close',
+            tone: AppColors.negativePale,
