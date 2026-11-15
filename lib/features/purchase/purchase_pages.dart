@@ -222,3 +222,4 @@ class _PaymentPageState extends State<PaymentPage> {
                             child: Padding(
                               padding: const EdgeInsets.symmetric(horizontal: 14),
                               child: Row(
+                                children: [
