@@ -263,3 +263,4 @@ class TripCard extends StatelessWidget {
       children: [
         Tap(
           onTap: onTap,
+          label: '$title, ${status.label}',
