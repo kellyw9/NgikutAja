@@ -311,3 +311,4 @@ class _CustomizePageState extends State<CustomizePage> {
       child: Scaffold(
         backgroundColor: AppColors.ground,
         appBar: NgAppBar(
+          title: 'Customize trip',
