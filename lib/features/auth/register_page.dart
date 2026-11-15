@@ -58,3 +58,4 @@ class _RegisterPageState extends State<RegisterPage> {
   @override
   void dispose() {
     for (final c in [name, email, pass, confirm]) {
+      c.dispose();
