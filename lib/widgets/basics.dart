@@ -108,3 +108,4 @@ class NgButton extends StatelessWidget {
 class IconBtn extends StatelessWidget {
   const IconBtn(
     this.icon, {
+    super.key,
