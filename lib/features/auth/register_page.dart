@@ -35,3 +35,5 @@ class _RegisterPageState extends State<RegisterPage> {
     if (AppScope.read(context).emailRegistered(email.text)) return 'Email ini sudah terdaftar. Masuk saja.';
     return null;
   }
+
+  String? get confirmErr => confirm.text.isNotEmpty && confirm.text != pass.text ? 'Password belum sama' : null;
