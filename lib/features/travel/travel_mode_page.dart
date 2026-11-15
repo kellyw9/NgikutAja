@@ -455,3 +455,4 @@ class NavigationPage extends StatelessWidget {
                               child: Column(
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
+                                  Text(info.$3, style: AppText.small.muted),
