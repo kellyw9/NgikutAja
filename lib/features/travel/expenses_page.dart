@@ -236,3 +236,4 @@ class _AddExpensePageState extends State<AddExpensePage> {
       backgroundColor: AppColors.ground,
       appBar: NgAppBar(title: e == null ? 'Tambah pengeluaran' : 'Edit pengeluaran', back: 'close'),
       body: ListView(
+        padding: const EdgeInsets.fromLTRB(kMargin, 8, kMargin, 24),
