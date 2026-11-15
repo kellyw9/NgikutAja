@@ -155,3 +155,4 @@ class _MapPainter extends CustomPainter {
           ..strokeCap = StrokeCap.round,
       );
       final shore = Path()
+        ..moveTo(.06 * w, -.05 * h)
