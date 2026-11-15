@@ -430,3 +430,4 @@ class _CustomizePageState extends State<CustomizePage> {
                                   label: 'Geser untuk mengurutkan ${stops[i].name}',
                                   child: const MouseRegion(
                                     cursor: SystemMouseCursors.grab,
+                                    child: SizedBox(
