@@ -221,3 +221,4 @@ class _SearchPageState extends State<SearchPage> {
                     decoration: BoxDecoration(color: AppColors.ink, borderRadius: BorderRadius.circular(4)),
                     child: Text('${filter.count}', style: AppText.smallStrong.white),
                   ),
+                ),
