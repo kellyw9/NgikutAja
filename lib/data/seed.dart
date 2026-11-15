@@ -323,3 +323,4 @@ class Seed {
         title: 'Medan ke Danau Toba Lewat Jalur Darat',
         city: 'Medan',
         region: 'Medan, Sumatera Utara',
+        days: 3,
