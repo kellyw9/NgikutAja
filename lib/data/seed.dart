@@ -365,3 +365,4 @@ class Seed {
       Itinerary(
         id: 'sarapan',
         title: 'Sarapan Medan Sebelum Jam 9',
+        city: 'Medan',
