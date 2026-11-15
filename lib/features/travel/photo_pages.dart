@@ -74,3 +74,4 @@ class _PhotoPreviewPageState extends State<PhotoPreviewPage> {
                   Text(
                     vis == 'Public'
                         ? 'Foto bisa muncul di halaman itinerary untuk semua pengguna.'
+                        : 'Hanya anggota trip yang bisa melihat foto ini.',
