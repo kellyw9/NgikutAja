@@ -142,3 +142,4 @@ class _NgFieldState extends State<NgField> {
       child: Row(
         crossAxisAlignment: widget.area ? CrossAxisAlignment.start : CrossAxisAlignment.center,
         children: [
+          if (widget.icon != null) ...[AppIcon(widget.icon!, size: 20, color: AppColors.muted), const SizedBox(width: 10)],
