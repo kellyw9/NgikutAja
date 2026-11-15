@@ -2,3 +2,4 @@
 // Tanggal trip dan transaksi dihitung relatif terhadap hari ini supaya status
 // (Diadopsi, Berjalan, Selesai) dan hitung mundur tetap masuk akal kapan pun aplikasi dibuka.
 import '../core/format.dart';
+import 'models.dart';
