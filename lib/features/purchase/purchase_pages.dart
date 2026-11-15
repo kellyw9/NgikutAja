@@ -68,3 +68,4 @@ class PurchaseDetailPage extends StatelessWidget {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(it.creator.name, style: AppText.bodyStrong),
+                        const SizedBox(height: 2),
