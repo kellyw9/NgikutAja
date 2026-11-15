@@ -207,3 +207,5 @@ class PackItem {
   String name;
   bool done;
 }
+
+class PackGroup {
