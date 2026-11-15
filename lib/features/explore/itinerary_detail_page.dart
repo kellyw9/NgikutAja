@@ -35,3 +35,4 @@ class _StatChip extends StatelessWidget {
   Widget build(BuildContext context) => Semantics(
     button: true,
     label: label,
+    child: Material(
