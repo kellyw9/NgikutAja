@@ -100,3 +100,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
                                     width: 18,
                                     child: Text('${e.value}', style: AppText.small.muted, textAlign: TextAlign.right),
                                   ),
+                                ],
