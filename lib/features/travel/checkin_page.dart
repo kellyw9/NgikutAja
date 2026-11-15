@@ -13,3 +13,5 @@ class CheckinPage extends StatefulWidget {
   @override
   State<CheckinPage> createState() => _CheckinPageState();
 }
+
+class _CheckinPageState extends State<CheckinPage> {
