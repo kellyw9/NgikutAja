@@ -426,3 +426,4 @@ class HeroPhoto extends StatelessWidget {
                   ),
                 ),
               ),
+            if (left != null)
