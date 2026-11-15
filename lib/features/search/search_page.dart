@@ -443,3 +443,4 @@ class _SearchPageState extends State<SearchPage> {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text(label, style: AppText.bodyStrong),
+              const SizedBox(height: 8),
