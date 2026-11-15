@@ -172,3 +172,4 @@ class NotificationDetailPage extends StatelessWidget {
                     'Pengingat aktivitas, ${weekdaysLong[date.weekday - 1]} ${date.day} ${monthsShort[date.month - 1]} ${date.year} pukul ${n.time}',
                     style: AppText.small.muted,
                   ),
+                ],
