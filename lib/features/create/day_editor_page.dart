@@ -248,3 +248,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
                 NgButton(
                   'Lanjut ke publish',
                   trailingIcon: 'arrow_forward',
+                  expand: true,
