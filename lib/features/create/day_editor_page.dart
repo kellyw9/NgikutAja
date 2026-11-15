@@ -81,3 +81,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
       if (c.isNotEmpty) {
         final a = d.plan[k][c.first.$1];
         conflictMsg = 'Jam ${a.name} di Hari ${k + 1} bentrok dengan stop berikutnya.';
+      }
