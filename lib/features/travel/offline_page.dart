@@ -101,3 +101,4 @@ class OfflinePage extends StatelessWidget {
           child: NgButton(
             'Perbarui data offline',
             kind: BtnKind.secondary,
+            icon: 'sync',
