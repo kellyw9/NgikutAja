@@ -2,3 +2,4 @@
 String thousands(int n) {
   final s = n.abs().toString();
   final buf = StringBuffer();
+  for (var i = 0; i < s.length; i++) {
