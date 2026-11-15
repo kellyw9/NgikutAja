@@ -24,3 +24,4 @@ class _CreatorProfilePageState extends State<CreatorProfilePage> {
     final following = app.isFollowing(c);
     return Scaffold(
       backgroundColor: AppColors.ground,
+      appBar: NgAppBar(
