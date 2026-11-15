@@ -342,3 +342,4 @@ class BoxList extends StatelessWidget {
   final double padV;
 
   @override
+  Widget build(BuildContext context) => Container(
