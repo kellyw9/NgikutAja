@@ -408,3 +408,4 @@ class Seed {
         creator: me,
         isDraft: true,
         tags: ['Kuliner'],
+        desc: 'Versi baru dengan tambahan lontong pagi.',
