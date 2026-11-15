@@ -224,3 +224,5 @@ class AppState extends ChangeNotifier {
         .add(Comment(name: me.name, tint: me.tint, time: 'Baru saja', text: text.trim(), creator: it.creator == me, replyTo: replyTo));
     notifyListeners();
   }
+
+  // ---------------- pembelian ----------------
