@@ -76,3 +76,4 @@ class WisataCard extends StatelessWidget {
   Widget build(BuildContext context) {
     final label = '${it.title}, ${it.city}, ${it.days} hari${it.isPaid ? ', ${rp(it.price)}' : ', gratis'}';
     switch (variant) {
+      case CardVariant.row:
