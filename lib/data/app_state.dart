@@ -305,3 +305,4 @@ class AppState extends ChangeNotifier {
       offlineSize: offline ? 6 + it.places : 0,
       syncedAt: offline ? fromMinutes(DateTime.now().hour * 60 + DateTime.now().minute) : null,
     );
+    trips.insert(0, t);
