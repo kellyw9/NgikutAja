@@ -92,3 +92,4 @@ class _RoutePainter extends CustomPainter {
     canvas.drawPath(
       p,
       Paint()
+        ..color = AppColors.teal
