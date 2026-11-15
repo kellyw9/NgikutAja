@@ -51,3 +51,4 @@ class _RegisterPageState extends State<RegisterPage> {
       Navigator.pop(context);
       showNgSnack(context, 'Akun dibuat. Selamat datang, ${name.text.trim()}.', kind: SnackKind.success);
     } else {
+      resetTo(context, const HomeShell());
