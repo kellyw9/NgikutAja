@@ -91,3 +91,4 @@ class _LoginPageState extends State<LoginPage> {
                         Text('Lanjutkan trip yang sudah kamu adopsi.', style: AppText.body.muted),
                         if (wrong) ...[
                           const SizedBox(height: 24),
+                          const NgBanner(
