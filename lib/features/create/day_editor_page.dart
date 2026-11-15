@@ -70,3 +70,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
   @override
   Widget build(BuildContext context) {
     final stops = d.plan[day];
+    final conflicts = conflictsIn(stops);
