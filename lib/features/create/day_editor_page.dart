@@ -136,3 +136,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
                       size: 36,
                       iconSize: 20,
                       stroke: AppColors.control,
+                      bg: AppColors.surface,
