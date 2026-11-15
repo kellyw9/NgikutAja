@@ -99,3 +99,4 @@ class RecapPage extends StatelessWidget {
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
+                      Text('Dari catatan Hari ${t.recapNote!.$1}', style: AppText.smallStrong.muted),
