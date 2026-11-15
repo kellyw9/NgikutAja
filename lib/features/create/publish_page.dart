@@ -198,3 +198,4 @@ class PublishedPage extends StatelessWidget {
     return Scaffold(
       backgroundColor: AppColors.ground,
       appBar: const NgAppBar(back: null, actions: [_CloseBtn()]),
+      body: SafeArea(
