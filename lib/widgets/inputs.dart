@@ -380,3 +380,4 @@ class NgChip extends StatelessWidget {
           onTap: onTap,
           focusColor: AppColors.teal.withValues(alpha: .3),
           child: Container(
+            height: 36,
