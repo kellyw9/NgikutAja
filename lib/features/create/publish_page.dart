@@ -133,3 +133,4 @@ class _PublishPageState extends State<PublishPage> {
                         child: Row(
                           children: [
                             IconTile(
+                              ok ? 'check' : 'close',
