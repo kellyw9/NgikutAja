@@ -18,3 +18,4 @@ class DashboardPage extends StatelessWidget {
     final maxN = monthly.fold<int>(1, (a, m) => m.$2 > a ? m.$2 : a);
 
     return Scaffold(
+      backgroundColor: AppColors.ground,
