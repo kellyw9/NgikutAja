@@ -85,3 +85,5 @@ class AppState extends ChangeNotifier {
   }
 
   bool emailRegistered(String email) => _accounts.containsKey(email.trim().toLowerCase());
+
+  Future<bool> login(String email, String password) async {
