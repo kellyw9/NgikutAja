@@ -326,3 +326,4 @@ class DashedAction extends StatelessWidget {
   Widget build(BuildContext context) => Tap(
     onTap: onTap,
     radius: AppRadius.control,
+    child: DashedBox(
