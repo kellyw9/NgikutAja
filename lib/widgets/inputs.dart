@@ -331,3 +331,4 @@ class NgStepper extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) => Container(
+    height: 44,
