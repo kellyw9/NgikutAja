@@ -8,3 +8,4 @@ import 'trip_detail_page.dart';
 /// 5.2 Adopt Itinerary: tanggal, pengingat, simpan offline.
 class AdoptPage extends StatefulWidget {
   const AdoptPage({super.key, required this.it});
+  final Itinerary it;
