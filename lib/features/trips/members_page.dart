@@ -206,3 +206,4 @@ class MembersPage extends StatelessWidget {
                           i > 0 && ownerIsMe ? const AppIcon('chevron_right', size: 20, color: AppColors.muted) : const SizedBox(width: 20),
                         ],
                       ),
+                    ),
