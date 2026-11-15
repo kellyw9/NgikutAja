@@ -189,3 +189,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
                   children: [
                     NgField(
                       label: 'Durasi',
+                      icon: 'schedule',
