@@ -75,3 +75,4 @@ class _IconPainter extends CustomPainter {
 }
 
 /// Ikon berputar untuk status memuat (progress_activity).
+class SpinIcon extends StatefulWidget {
