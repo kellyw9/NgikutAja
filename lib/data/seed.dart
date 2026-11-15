@@ -325,3 +325,4 @@ class Seed {
         region: 'Medan, Sumatera Utara',
         days: 3,
         cover: 'toba',
+        creator: c['lestari']!,
