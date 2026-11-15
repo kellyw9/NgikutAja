@@ -118,3 +118,4 @@ void showNgSnack(BuildContext context, String text, {SnackKind kind = SnackKind.
 Future<T?> showNgSheet<T>(BuildContext context, {String? title, String? sub, required WidgetBuilder builder, bool scroll = false}) {
   return showModalBottomSheet<T>(
     context: context,
+    isScrollControlled: true,
