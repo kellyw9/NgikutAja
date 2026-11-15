@@ -38,3 +38,5 @@ class _PublishPageState extends State<PublishPage> {
     ];
     final ready = checks.every((c) => c.$2);
     final total = d.plan.fold<int>(0, (a, x) => a + x.fold(0, (b, s) => b + s.cost));
+
+    Widget typeCard(bool isPaid, String title, String text) {
