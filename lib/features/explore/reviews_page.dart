@@ -206,3 +206,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
       child: Padding(
         padding: EdgeInsets.only(bottom: MediaQuery.viewInsetsOf(context).bottom),
         child: Column(
+          mainAxisSize: MainAxisSize.min,
