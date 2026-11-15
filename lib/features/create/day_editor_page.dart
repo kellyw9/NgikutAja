@@ -212,3 +212,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
                       }),
                       children: [
                         for (var i = 0; i < stops.length; i++)
+                          Padding(
