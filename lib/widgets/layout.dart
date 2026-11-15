@@ -321,3 +321,4 @@ class ListRow extends StatelessWidget {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
+                  Text(title, style: AppText.body.c(danger ? AppColors.negative : AppColors.ink)),
