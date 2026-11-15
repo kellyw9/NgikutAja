@@ -24,3 +24,5 @@ class CreateItineraryPage extends StatefulWidget {
   @override
   State<CreateItineraryPage> createState() => _CreateItineraryPageState();
 }
+
+class _CreateItineraryPageState extends State<CreateItineraryPage> {
