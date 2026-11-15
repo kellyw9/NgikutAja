@@ -126,3 +126,4 @@ class _SearchPageState extends State<SearchPage> {
       case 'Harga terendah':
         list.sort((a, b) => a.price.compareTo(b.price));
       default:
+        // relevan: judul yang memuat kata kunci didahulukan, lalu yang paling banyak diadopsi
