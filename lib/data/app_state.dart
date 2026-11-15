@@ -420,3 +420,5 @@ class AppState extends ChangeNotifier {
     n.unread = false;
     notifyListeners();
   }
+
+  void answerInvite(AppNotification n, bool accept) {
