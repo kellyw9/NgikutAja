@@ -70,3 +70,4 @@ class _OnboardingPageState extends State<OnboardingPage> {
                           children: [
                             for (var k = 0; k < 3; k++) ...[
                               if (k > 0) const SizedBox(width: 6),
+                              AnimatedContainer(
