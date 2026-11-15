@@ -249,3 +249,4 @@ class PublishedPage extends StatelessWidget {
                       expand: true,
                       onPressed: () {
                         final nav = Navigator.of(context);
+                        nav.pop();
