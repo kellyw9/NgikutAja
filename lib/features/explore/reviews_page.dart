@@ -209,3 +209,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
           mainAxisSize: MainAxisSize.min,
           children: [
             Container(height: 1, color: AppColors.line),
+            if (replyTo != null)
