@@ -115,3 +115,4 @@ class _ExplorePageState extends State<ExplorePage> {
                       padding: const EdgeInsets.symmetric(horizontal: kMargin),
                       itemCount: AppState.cities.length,
                       separatorBuilder: (_, _) => const SizedBox(width: 12),
+                      itemBuilder: (_, i) => CityCard(AppState.cities[i]),
