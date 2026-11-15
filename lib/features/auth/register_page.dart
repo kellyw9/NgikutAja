@@ -73,3 +73,4 @@ class _RegisterPageState extends State<RegisterPage> {
       body: SafeArea(
         top: false,
         child: LayoutBuilder(
+          builder: (context, c) => SingleChildScrollView(
