@@ -122,3 +122,4 @@ void main() {
     await tester.pumpAndSettle();
     await tapText(tester, 'Bayar Rp25.000', button: true);
     await tester.pump(const Duration(milliseconds: 300));
+    expect(find.text('Memproses pembayaran...'), findsOneWidget);
