@@ -30,3 +30,4 @@ class _LoginPageState extends State<LoginPage> {
   bool loading = false;
   bool wrong = false;
   String? emailErr;
+  String? passErr;
