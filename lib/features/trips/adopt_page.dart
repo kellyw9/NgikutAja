@@ -70,3 +70,4 @@ class _AdoptPageState extends State<AdoptPage> {
                           Text(it.title, style: AppText.title, maxLines: 2, overflow: TextOverflow.ellipsis),
                           const SizedBox(height: 4),
                           MetaRow([('location_on', it.city), ('schedule', '${it.days} hari'), ('pin_drop', '${it.places} tempat')]),
+                        ],
