@@ -622,3 +622,4 @@ class Seed {
           photo: 'samosir',
           author: c['lestari'],
           updated: 'Okt 2026',
+          body: [
