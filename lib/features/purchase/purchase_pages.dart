@@ -386,3 +386,4 @@ class _PaymentStatusPageState extends State<PaymentStatusPage> {
             top: true,
             icon: 'close',
             tone: AppColors.negativePale,
+            iconColor: AppColors.negativeInk,
