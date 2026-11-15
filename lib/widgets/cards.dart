@@ -226,3 +226,4 @@ PillKind tripPill(TripStatus s) => switch (s) {
   TripStatus.draft => PillKind.warning,
   TripStatus.diadopsi => PillKind.teal,
   TripStatus.berjalan => PillKind.solid,
+  TripStatus.selesai => PillKind.positive,
