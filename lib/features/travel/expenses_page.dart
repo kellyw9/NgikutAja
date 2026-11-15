@@ -323,3 +323,4 @@ class _AddExpensePageState extends State<AddExpensePage> {
                             final p = await pickPhotoSheet(context, title: 'Foto struk');
                             if (p != null && p.isNotEmpty) setState(() => receipt = p);
                           },
+                        ),
