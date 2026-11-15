@@ -247,3 +247,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
                       children: [
                         for (final t in d.tags) NgChip(t, selected: true, close: true, onTap: () => setState(() => d.tags = [...d.tags]..remove(t))),
                         if (d.tags.length < 5) NgChip('Tag', icon: 'add', onTap: _addTag),
+                      ],
