@@ -73,3 +73,4 @@ class _PublishPageState extends State<PublishPage> {
       appBar: const NgAppBar(title: 'Publish itinerary'),
       body: ListView(
         padding: const EdgeInsets.fromLTRB(kMargin, 8, kMargin, 24),
+        children: [
