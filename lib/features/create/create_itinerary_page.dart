@@ -219,3 +219,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
                 Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
+                    Text('Tipe publikasi', style: AppText.bodyStrong),
