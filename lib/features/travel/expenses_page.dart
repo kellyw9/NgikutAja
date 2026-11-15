@@ -47,3 +47,4 @@ class ExpensesPage extends StatelessWidget {
                       DialogAction('Hapus', kind: BtnKind.danger, value: true),
                       DialogAction('Batal'),
                     ],
+                  );
