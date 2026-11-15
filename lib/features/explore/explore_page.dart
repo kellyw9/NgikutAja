@@ -76,3 +76,4 @@ class _ExplorePageState extends State<ExplorePage> {
             action: NgButton('Lihat yang trending', kind: BtnKind.secondary, size: BtnSize.md, onPressed: () => _switch('Trending')),
             height: 300,
           ),
+        );
