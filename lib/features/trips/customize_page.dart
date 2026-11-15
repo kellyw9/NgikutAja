@@ -378,3 +378,4 @@ class _CustomizePageState extends State<CustomizePage> {
                       title: 'Jadwal bertabrakan di Hari ${day + 1}',
                       text:
                           '${stops[conflicts.first.$1].name} (${stops[conflicts.first.$1].start}–${stops[conflicts.first.$1].end}) dan '
+                          '${stops[conflicts.first.$2].name} (${stops[conflicts.first.$2].start}–${stops[conflicts.first.$2].end}). Tetap bisa disimpan.',
