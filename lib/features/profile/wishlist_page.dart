@@ -76,3 +76,4 @@ class _Row extends StatelessWidget {
               filled: true,
               iconSize: 22,
               onTap: () {
+                app.toggleWish(it.id);
