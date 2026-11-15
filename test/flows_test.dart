@@ -107,3 +107,5 @@ void main() {
     expect(find.text('Perubahan tersimpan. Pengingat ikut diperbarui.'), findsOneWidget);
     expect(t.plan[0].last.start, '14.45');
   });
+
+  testWidgets('Beli itinerary berbayar dengan QRIS (simulasi) membuka detail penuh', (tester) async {
