@@ -181,3 +181,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
                   label: 'Kota / destinasi',
                   icon: 'location_on',
                   controller: city,
+                  hint: 'Misal: Medan, Sumatera Utara',
