@@ -453,3 +453,4 @@ class Seed {
         journal: {
           0: JournalEntry(
             title: 'Kapal jam 8, langsung ke Tuktuk',
+            text:
