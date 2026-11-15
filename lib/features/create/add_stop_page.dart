@@ -407,3 +407,4 @@ class _PickLocationPageState extends State<PickLocationPage> {
           boxShadow: kFloatShadow,
         ),
         child: SafeArea(
+          top: false,
