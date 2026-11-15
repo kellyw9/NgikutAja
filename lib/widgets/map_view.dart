@@ -18,3 +18,4 @@ class MapPin {
 /// disangka peta sungguhan. Ganti dengan widget peta asli saat integrasi peta dikerjakan.
 class MapView extends StatelessWidget {
   const MapView({
+    super.key,
