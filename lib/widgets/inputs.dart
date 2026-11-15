@@ -114,3 +114,4 @@ class _NgFieldState extends State<NgField> {
         textInputAction: widget.textInputAction,
         autofocus: widget.autofocus,
         autofillHints: widget.autofillHints,
+        style: AppText.body,
