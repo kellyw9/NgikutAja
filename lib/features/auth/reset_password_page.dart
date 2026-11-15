@@ -58,3 +58,4 @@ class _ResetPasswordPageState extends State<ResetPasswordPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: AppColors.ground,
+      appBar: const NgAppBar(),
