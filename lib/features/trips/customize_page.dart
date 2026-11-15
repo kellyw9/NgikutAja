@@ -270,3 +270,4 @@ class _CustomizePageState extends State<CustomizePage> {
                   const SizedBox(width: 10),
                   Expanded(
                     child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
