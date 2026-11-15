@@ -360,3 +360,4 @@ class _CustomizePageState extends State<CustomizePage> {
                     'Hari ${d + 1}',
                     date: t.dayDate(d) == null ? null : dateShort(t.dayDate(d)!),
                     sub: '${plan[d].length} tempat',
+                    alert: conflictsIn(plan[d]).isNotEmpty,
