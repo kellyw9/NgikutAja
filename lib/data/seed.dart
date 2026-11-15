@@ -294,3 +294,4 @@ class Seed {
         title: 'Medan Malam: 6 Tempat Makan setelah Jam 7',
         city: 'Medan',
         region: 'Medan, Sumatera Utara',
+        days: 1,
