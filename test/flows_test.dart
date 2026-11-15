@@ -14,3 +14,4 @@ import 'package:ngikutaja/widgets/basics.dart';
 
 AppState newState({bool loggedIn = true}) => AppState(null, now: DateTime(2026, 11, 4, 9, 41), watchNetwork: false)
   ..onboarded = true
+  ..loggedIn = loggedIn;
