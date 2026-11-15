@@ -487,3 +487,4 @@ class PageFrame extends StatelessWidget {
   final PreferredSizeWidget? appBar;
   final Widget body;
   final Widget? bottom;
+  final bool scroll;
