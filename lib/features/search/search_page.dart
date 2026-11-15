@@ -435,3 +435,4 @@ class _SearchPageState extends State<SearchPage> {
     final applied = await showNgSheet<SearchFilter>(
       context,
       title: 'Filter pencarian',
+      scroll: true,
