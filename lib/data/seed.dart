@@ -423,3 +423,4 @@ class Seed {
         id: 'toba-kampus',
         title: 'Danau Toba bareng teman kampus',
         city: 'Samosir',
+        region: 'Samosir, Sumatera Utara',
