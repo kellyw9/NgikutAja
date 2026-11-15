@@ -36,3 +36,4 @@ class _AdoptPageState extends State<AdoptPage> {
     );
     if (r != true || !mounted) return;
     Navigator.pushReplacement(
+      context,
