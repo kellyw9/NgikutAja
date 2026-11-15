@@ -285,3 +285,4 @@ class ListRow extends StatelessWidget {
     super.key,
     this.icon,
     required this.title,
+    this.sub,
