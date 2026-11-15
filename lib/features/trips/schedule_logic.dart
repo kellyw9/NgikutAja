@@ -110,3 +110,4 @@ List<String> shiftCascade(List<Stop> day, Stop target, int newStart) {
     if (isPacked(day)) {
       final s = [...day]..sort((x, y) => x.startMin.compareTo(y.startMin));
       final gap = shortestGap(day);
+      issues.add(
