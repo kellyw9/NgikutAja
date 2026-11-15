@@ -41,3 +41,4 @@ class _SplashPageState extends State<SplashPage> {
         backgroundColor: AppColors.ink,
         body: SafeArea(
           child: Column(
+            children: [
