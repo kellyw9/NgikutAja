@@ -43,3 +43,4 @@ class _HomeShellState extends State<HomeShell> {
 
   @override
   Widget build(BuildContext context) {
+    final app = AppScope.of(context);
