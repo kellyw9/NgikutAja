@@ -92,3 +92,4 @@ class _PhotoViewerPageState extends State<PhotoViewerPage> {
         body: SafeArea(
           child: Column(
             children: [
+              SizedBox(
