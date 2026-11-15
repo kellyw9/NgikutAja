@@ -20,3 +20,4 @@ class _AddStopPageState extends State<AddStopPage> {
   late final s = widget.stop;
   late final name = TextEditingController(text: s?.name ?? '');
   late final cost = TextEditingController(text: s == null || s!.cost == 0 ? '' : thousands(s!.cost));
+  late final note = TextEditingController(text: s?.note ?? '');
