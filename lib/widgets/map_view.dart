@@ -208,3 +208,4 @@ class _MapPainter extends CustomPainter {
         route,
         Paint()
           ..color = AppColors.teal
+          ..style = PaintingStyle.stroke
