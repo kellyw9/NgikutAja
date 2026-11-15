@@ -136,3 +136,5 @@ class _TripDetailPageState extends State<TripDetailPage> {
     final it = t.from;
     final tips = app.seed.tips[t.city] ?? const [];
     final next = status == TripStatus.berjalan ? app.nextIndex(t, day) : null;
+
+    String toolSub(String key) => switch (key) {
