@@ -37,3 +37,4 @@ void main() {
   });
 
   test('Format rupiah dan jam', () {
+    expect(rp(1100000), 'Rp1.100.000');
