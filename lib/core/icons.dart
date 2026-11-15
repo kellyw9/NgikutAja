@@ -21,3 +21,4 @@ class AppIcon extends StatelessWidget {
     return _cache.putIfAbsent(key, () {
       final data = kIconPaths[key];
       assert(data != null, 'Ikon tidak ada: $name');
+      final b = _PathBuilder();
