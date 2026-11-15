@@ -254,3 +254,4 @@ class _AddStopPageState extends State<AddStopPage> {
                     const AppIcon('chevron_right', size: 20, color: AppColors.muted),
                   ],
                 ),
+              ),
