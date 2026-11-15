@@ -158,3 +158,4 @@ class _MapPainter extends CustomPainter {
         ..moveTo(.06 * w, -.05 * h)
         ..cubicTo(.02 * w, .4 * h, .1 * w, .7 * h, .04 * w, 1.05 * h);
       canvas.drawPath(
+        shore,
