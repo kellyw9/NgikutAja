@@ -85,3 +85,4 @@ class _SplitBudgetPageState extends State<SplitBudgetPage> {
                             children: [
                               Row(
                                 children: [
+                                  Avatar(m.name, size: 36, tint: m.tint),
