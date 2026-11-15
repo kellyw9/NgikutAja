@@ -470,3 +470,4 @@ class DayStrip extends StatelessWidget {
                 child: SizedBox(width: 56, child: Center(child: AppIcon('add'))),
               ),
             ),
+          ],
