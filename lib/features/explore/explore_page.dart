@@ -166,3 +166,4 @@ class Bell extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final unread = AppScope.of(context).hasUnread;
+    return Stack(
