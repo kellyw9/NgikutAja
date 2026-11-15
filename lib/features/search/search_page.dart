@@ -418,3 +418,4 @@ class _SearchPageState extends State<SearchPage> {
         for (final s in _sorts)
           RadioRow(
             title: s,
+            selected: s == sort,
