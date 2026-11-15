@@ -168,3 +168,4 @@ class Seed {
       cover: 'toba',
       creator: c['lestari']!,
       price: 25000,
+      adopted: 97,
