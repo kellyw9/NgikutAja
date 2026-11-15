@@ -272,3 +272,4 @@ class Trip {
   String city;
   String region;
   DateTime? start;
+  String? cover;
