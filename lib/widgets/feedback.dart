@@ -100,3 +100,4 @@ void showNgSnack(BuildContext context, String text, {SnackKind kind = SnackKind.
                 onTap: () {
                   m.hideCurrentSnackBar();
                   onAction?.call();
+                },
