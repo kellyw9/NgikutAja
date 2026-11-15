@@ -386,3 +386,4 @@ class _PickLocationPageState extends State<PickLocationPage> {
                         child: TextField(
                           controller: q,
                           style: AppText.body,
+                          onChanged: (_) => setState(() {}),
