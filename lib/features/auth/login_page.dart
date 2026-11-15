@@ -40,3 +40,4 @@ class _LoginPageState extends State<LoginPage> {
     });
     if (emailErr != null || passErr != null) return;
     setState(() => loading = true);
+    final ok = await AppScope.read(context).login(email.text, pass.text);
