@@ -171,3 +171,4 @@ class _CustomizePageState extends State<CustomizePage> {
     final lastEnd = plan[target].isEmpty ? null : plan[target].map((s) => s.endMin).reduce((a, b) => a > b ? a : b);
     final ns = lastEnd == null ? st.start : fromMinutes(lastEnd + 15);
     final from = t.dayDate(day), to = t.dayDate(target);
+    final ok = await showNgDialog(
