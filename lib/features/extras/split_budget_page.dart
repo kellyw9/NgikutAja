@@ -180,3 +180,4 @@ class _SplitBudgetPageState extends State<SplitBudgetPage> {
                                     NgToggle(
                                       paid,
                                       label: 'Tandai $from sudah transfer ke $to',
+                                      onChanged: (v) {
