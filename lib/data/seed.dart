@@ -186,3 +186,4 @@ class Seed {
           _s(
             '12.30',
             '14.30',
+            'Bukit Holbung',
