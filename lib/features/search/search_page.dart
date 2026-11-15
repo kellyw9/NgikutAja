@@ -184,3 +184,4 @@ class _SearchPageState extends State<SearchPage> {
                   IconBtn(
                     'close',
                     label: 'Hapus kata kunci',
+                    size: 40,
