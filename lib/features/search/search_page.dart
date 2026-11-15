@@ -125,3 +125,4 @@ class _SearchPageState extends State<SearchPage> {
         list.sort((a, b) => b.adopted.compareTo(a.adopted));
       case 'Harga terendah':
         list.sort((a, b) => a.price.compareTo(b.price));
+      default:
