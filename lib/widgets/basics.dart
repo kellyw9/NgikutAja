@@ -538,3 +538,5 @@ class Marker extends StatelessWidget {
   final int n;
   final MarkerState state;
   final double size;
+
+  @override
