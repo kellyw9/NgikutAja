@@ -30,3 +30,4 @@ class AppText {
   static final button = _s(15, 20, FontWeight.w600, 0);
   static final time = _s(16, 20, FontWeight.w700, -1);
   static final wordmark = _s(34, 40, FontWeight.w700, -2);
+}
