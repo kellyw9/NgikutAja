@@ -179,3 +179,4 @@ class MembersPage extends StatelessWidget {
                   onTap: i == 0 || !ownerIsMe ? null : () => _detail(context, trip.members[i]),
                   child: SizedBox(
                     height: 60,
+                    child: Padding(
