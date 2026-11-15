@@ -92,3 +92,4 @@ class DashboardPage extends StatelessWidget {
                   else
                     BoxList(
                       inset: 78,
+                      children: [
