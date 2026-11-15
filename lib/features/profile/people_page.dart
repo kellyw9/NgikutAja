@@ -46,3 +46,4 @@ class _PeoplePageState extends State<PeoplePage> {
                   children: [
                     Avatar(list[i].name, size: 40, tint: list[i].tint),
                     const SizedBox(width: 12),
+                    Expanded(
