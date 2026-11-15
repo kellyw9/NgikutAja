@@ -14,3 +14,5 @@ final shellTab = ValueNotifier<int>(0);
 final tripsTab = ValueNotifier<TripStatus>(TripStatus.berjalan);
 
 const tabExplore = 0, tabSearch = 1, tabTrips = 3, tabProfile = 4;
+
+/// Tutup semua halaman di atas cangkang lalu buka tab [tab].
