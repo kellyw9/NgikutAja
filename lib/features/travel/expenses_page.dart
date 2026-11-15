@@ -99,3 +99,4 @@ class ExpensesPage extends StatelessWidget {
                       children: [
                         Expanded(child: Text('${list.length} pengeluaran, dibagi ${trip.members.length} orang', style: AppText.small.muted)),
                         TextLink(
+                          'Split budget',
