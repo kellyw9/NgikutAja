@@ -259,3 +259,4 @@ class _PaymentPageState extends State<PaymentPage> {
             loading: processing,
             onPressed: _pay,
           ),
+        ),
