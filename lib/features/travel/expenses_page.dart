@@ -77,3 +77,4 @@ class ExpensesPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     AppScope.of(context);
+    final list = trip.expenses;
