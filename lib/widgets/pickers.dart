@@ -72,3 +72,4 @@ class _CalendarState extends State<_Calendar> {
               borderRadius: BorderRadius.circular(4),
               child: Container(
                 width: 34,
+                height: 34,
