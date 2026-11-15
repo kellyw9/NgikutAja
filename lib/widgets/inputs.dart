@@ -174,3 +174,4 @@ class _NgFieldState extends State<NgField> {
                 child: box,
               ),
             ),
+          )
