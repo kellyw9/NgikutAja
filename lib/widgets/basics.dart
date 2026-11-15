@@ -609,3 +609,4 @@ class Progress extends StatelessWidget {
         },
       ),
     ),
+  );
