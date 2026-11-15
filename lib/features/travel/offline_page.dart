@@ -42,3 +42,4 @@ class OfflinePage extends StatelessWidget {
                     children: [
                       AppIcon(t.offline ? 'cloud_done' : 'download_for_offline', size: 22, color: t.offline ? AppColors.positive : AppColors.muted),
                       const SizedBox(width: 12),
+                      Expanded(
