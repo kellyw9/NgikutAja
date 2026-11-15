@@ -44,3 +44,4 @@ class AppColors {
 }
 
 class AppRadius {
+  AppRadius._();
