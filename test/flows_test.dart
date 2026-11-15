@@ -112,3 +112,4 @@ void main() {
     await phone(tester);
     final s = newState();
     final toba = s.itinerary('toba');
+    await tester.pumpWidget(host(s, PaidPreviewPage(it: toba)));
