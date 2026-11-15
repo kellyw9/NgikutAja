@@ -82,3 +82,4 @@ class _PhotoPreviewPageState extends State<PhotoPreviewPage> {
               NgButton(
                 'Simpan foto',
                 expand: true,
+                onPressed: () {
