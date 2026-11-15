@@ -5,3 +5,4 @@ class AppColors {
   AppColors._();
 
   // Palet merek inti
+  static const ground = Color(0xFFFAF3EA); // latar semua layar
