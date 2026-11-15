@@ -12,3 +12,4 @@ class NotificationsPage extends StatelessWidget {
   const NotificationsPage({super.key});
 
   void _open(BuildContext context, AppState app, AppNotification n) {
+    app.markRead(n);
