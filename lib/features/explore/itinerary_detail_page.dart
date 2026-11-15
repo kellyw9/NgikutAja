@@ -124,3 +124,4 @@ class _ItineraryDetailPageState extends State<ItineraryDetailPage> {
                         onTap: () => requireLogin(context) ? app.toggleLike(it) : null,
                       ),
                       if (it.rating != null)
+                        _StatChip(
