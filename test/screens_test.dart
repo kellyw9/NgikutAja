@@ -144,3 +144,4 @@ void main() {
         ..loggedIn = true;
       shellTab.value = tabTrips;
       tripsTab.value = st;
+      addTearDown(() => shellTab.value = 0);
