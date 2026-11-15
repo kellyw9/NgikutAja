@@ -395,3 +395,4 @@ class _CustomizePageState extends State<CustomizePage> {
                   else
                     ReorderableListView(
                       shrinkWrap: true,
+                      physics: const NeverScrollableScrollPhysics(),
