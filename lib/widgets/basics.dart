@@ -619,3 +619,4 @@ class Stars extends StatelessWidget {
   final double size;
 
   @override
+  Widget build(BuildContext context) => Semantics(
