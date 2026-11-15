@@ -240,3 +240,4 @@ class AppState extends ChangeNotifier {
       date: now,
       method: method,
       amount: it.price,
+      status: TxStatus.pending,
