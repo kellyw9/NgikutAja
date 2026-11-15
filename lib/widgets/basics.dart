@@ -209,3 +209,4 @@ class Tap extends StatelessWidget {
     return Semantics(
       button: true,
       label: label,
+      child: Material(
