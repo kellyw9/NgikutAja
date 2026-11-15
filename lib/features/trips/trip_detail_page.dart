@@ -55,3 +55,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
           title: 'Bagikan trip',
           padH: 0,
           trailing: null,
+          onTap: () {
