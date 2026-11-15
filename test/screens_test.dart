@@ -53,3 +53,4 @@ final Map<String, PageFor> pages = {
   'detail tanpa jadwal': (s) => ItineraryDetailPage(it: s.itinerary('bandung')),
   'preview berbayar': (s) => PaidPreviewPage(it: s.itinerary('toba')),
   'preview tanpa jadwal': (s) => PaidPreviewPage(it: s.itinerary('bali')),
+  'reviews': (s) => ReviewsPage(it: s.itinerary('medan')),
