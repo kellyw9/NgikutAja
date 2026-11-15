@@ -50,3 +50,4 @@ class NgField extends StatefulWidget {
   final bool obscure;
   final TextInputType? keyboardType;
   final ValueChanged<String>? onChanged;
+  final VoidCallback? onTap;
