@@ -138,3 +138,4 @@ class CityCard extends StatelessWidget {
   Widget build(BuildContext context) {
     final n = AppScope.of(context).cityCount(c);
     return SizedBox(
+      width: 124,
