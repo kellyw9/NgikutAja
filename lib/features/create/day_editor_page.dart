@@ -14,3 +14,5 @@ class DayEditorPage extends StatefulWidget {
   @override
   State<DayEditorPage> createState() => _DayEditorPageState();
 }
+
+class _DayEditorPageState extends State<DayEditorPage> {
