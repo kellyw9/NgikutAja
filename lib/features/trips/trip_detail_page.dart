@@ -81,3 +81,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
               MetaRow([(st.cat.icon, st.cat.label), ('schedule', '${st.start}–${st.end}'), ('payments', st.cost > 0 ? rp(st.cost) : 'Gratis')]),
             ],
           ),
+          if (st.desc != null) Text(st.desc!, style: AppText.body),
