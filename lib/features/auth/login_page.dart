@@ -144,3 +144,4 @@ class _LoginPageState extends State<LoginPage> {
                         ),
                         const SizedBox(height: 24),
                         GoogleButton(
+                          label: 'Masuk dengan Google',
