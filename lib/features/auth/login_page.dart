@@ -148,3 +148,4 @@ class _LoginPageState extends State<LoginPage> {
                           onTap: () => showNgSnack(context, 'Masuk dengan Google belum tersedia. Pakai email dan password dulu.'),
                         ),
                         const Spacer(),
+                        const SizedBox(height: 24),
