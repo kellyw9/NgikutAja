@@ -20,3 +20,4 @@ class Proof extends StatelessWidget {
   Widget build(BuildContext context) => Row(
     mainAxisSize: MainAxisSize.min,
     children: [
+      if (it.rating != null) ...[
