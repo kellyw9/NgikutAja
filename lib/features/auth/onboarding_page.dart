@@ -196,3 +196,4 @@ class _InterestCard extends StatelessWidget {
     child: NgCard(
       onTap: onTap,
       padding: const EdgeInsets.all(10),
+      border: on ? AppColors.teal : AppColors.surface,
