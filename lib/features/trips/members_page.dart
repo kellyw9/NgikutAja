@@ -10,3 +10,4 @@ class MembersPage extends StatelessWidget {
 
   static PillKind _kind(MemberRole r) => switch (r) {
     MemberRole.owner => PillKind.solid,
+    MemberRole.editor => PillKind.teal,
