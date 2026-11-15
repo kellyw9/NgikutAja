@@ -174,3 +174,4 @@ class NotificationDetailPage extends StatelessWidget {
                   ),
                 ],
               ),
+              if (st != null && trip != null) ...[
