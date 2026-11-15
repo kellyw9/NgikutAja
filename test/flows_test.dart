@@ -57,3 +57,4 @@ void main() {
 
     await tester.enterText(find.byType(TextField).at(1), 'ngikutaja');
     await tapText(tester, 'Masuk', button: true);
+    await tester.pump(const Duration(milliseconds: 700));
