@@ -122,3 +122,4 @@ class _SearchPageState extends State<SearchPage> {
       case 'Rating tertinggi':
         list.sort((a, b) => (b.rating ?? 0).compareTo(a.rating ?? 0));
       case 'Paling banyak diadopsi':
+        list.sort((a, b) => b.adopted.compareTo(a.adopted));
