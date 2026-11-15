@@ -151,3 +151,4 @@ class MembersPage extends StatelessWidget {
                   return;
                 }
                 app.inviteMember(trip, v.contains('@') && !v.startsWith('@') ? '@${v.split('@').first}' : v, role);
+                Navigator.pop(ctx);
