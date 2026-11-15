@@ -309,3 +309,4 @@ class AppState extends ChangeNotifier {
     it.adopted++;
     notifyListeners();
     return t;
+  }
