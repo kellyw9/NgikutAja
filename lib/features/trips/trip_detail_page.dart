@@ -53,3 +53,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
         ListRow(
           icon: 'share',
           title: 'Bagikan trip',
+          padH: 0,
