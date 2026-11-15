@@ -83,3 +83,4 @@ class ExpensesPage extends StatelessWidget {
       appBar: NgAppBar(title: 'Pengeluaran', sub: trip.title),
       body: ListView(
         padding: const EdgeInsets.fromLTRB(kMargin, 8, kMargin, 16),
+        children: [
