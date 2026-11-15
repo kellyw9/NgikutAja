@@ -75,3 +75,4 @@ void main() {
     expect(find.text('Adopt itinerary ini?'), findsOneWidget);
     await tapText(tester, 'Adopt sekarang', button: true);
     await tester.pump();
+    await tester.pump(const Duration(milliseconds: 400));
