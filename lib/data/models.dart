@@ -397,3 +397,4 @@ class LocalTip {
   final String? photo;
   final Creator? author;
   final String? updated;
+}
