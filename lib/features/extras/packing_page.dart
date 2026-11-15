@@ -103,3 +103,4 @@ class _PackingPageState extends State<PackingPage> {
               if (all.isEmpty) Text('Belum ada barang. Tambahkan di kolom bawah.', style: AppText.body.muted),
               for (final g in t.packing.where((g) => g.items.isNotEmpty))
                 Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
