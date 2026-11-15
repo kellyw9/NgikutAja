@@ -56,3 +56,4 @@ class Stop {
   int cost;
   String? photo;
   String? note;
+  String? desc;
