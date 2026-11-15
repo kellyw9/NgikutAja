@@ -223,3 +223,4 @@ bool requireLogin(BuildContext context) {
           },
         ),
         NgButton(
+          'Buat akun baru',
