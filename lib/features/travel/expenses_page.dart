@@ -23,3 +23,4 @@ class ExpensesPage extends StatelessWidget {
       title: e.name,
       builder: (ctx) => Gap(
         16,
+        children: [
