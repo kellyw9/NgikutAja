@@ -27,3 +27,4 @@ class NotificationsPage extends StatelessWidget {
       case NotifKind.comment:
         push(context, ReviewsPage(it: app.itinerary('samosirmotor'), comments: true));
       case NotifKind.invite:
+        break;
