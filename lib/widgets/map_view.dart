@@ -183,3 +183,4 @@ class _MapPainter extends CustomPainter {
       line(Offset(.35 * w, -5), Offset(.42 * w, h + 5), 9);
       line(Offset(.72 * w, -5), Offset(.64 * w, h + 5), 6);
       line(Offset(-5, .15 * h), Offset(w + 5, .24 * h), 5);
+      line(Offset(.1 * w, h + 5), Offset(.2 * w, -5), 5);
