@@ -127,3 +127,4 @@ class NotificationsPage extends StatelessWidget {
                         ),
                       )
                     : const SizedBox(width: 8),
+              ),
