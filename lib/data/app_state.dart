@@ -70,3 +70,4 @@ class AppState extends ChangeNotifier {
 
   // ---------------- akun ----------------
   late bool onboarded;
+  late bool loggedIn;
