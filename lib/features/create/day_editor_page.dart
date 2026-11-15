@@ -24,3 +24,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
 
   void _selectDay(int k) {
     _saveTitle();
+    setState(() {
