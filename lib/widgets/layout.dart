@@ -133,3 +133,5 @@ class SectionHead extends StatelessWidget {
   final VoidCallback? onAction;
   final String? sub;
   final bool padded;
+
+  @override
