@@ -183,3 +183,4 @@ class TextLink extends StatelessWidget {
         child: ConstrainedBox(
           constraints: const BoxConstraints(minHeight: 44),
           child: Row(
+            mainAxisSize: MainAxisSize.min,
