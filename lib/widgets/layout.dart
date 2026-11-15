@@ -98,3 +98,5 @@ class NgAppBar extends StatelessWidget implements PreferredSizeWidget {
     );
   }
 }
+
+/// Judul halaman akar tab: h1 rata kiri.
