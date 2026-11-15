@@ -165,3 +165,4 @@ class _NgFieldState extends State<NgField> {
             button: true,
             label: widget.label,
             value: widget.value,
+            child: Material(
