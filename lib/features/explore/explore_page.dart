@@ -52,3 +52,5 @@ class _ExplorePageState extends State<ExplorePage> {
       'Following' => app.fromFollowing(),
       _ => app.trending(),
     };
+
+    Widget feed() {
