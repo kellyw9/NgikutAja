@@ -413,3 +413,5 @@ class Segmented extends StatelessWidget {
   final String active;
   final ValueChanged<String> onChanged;
   final List<int?>? counts;
+
+  @override
