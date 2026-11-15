@@ -183,3 +183,4 @@ class _ItineraryDetailPageState extends State<ItineraryDetailPage> {
               padding: const EdgeInsets.symmetric(horizontal: kMargin),
               child: MapView(height: 200, pins: spreadPins(mapStops)),
             ),
+            const SizedBox(height: 24),
