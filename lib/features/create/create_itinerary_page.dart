@@ -56,3 +56,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
       while (d.dayTitles.length < n) {
         d.dayTitles.add('');
       }
+      if (d.plan.length > n) d.plan.removeRange(n, d.plan.length);
