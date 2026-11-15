@@ -490,3 +490,4 @@ class _SearchPageState extends State<SearchPage> {
               group('Budget per orang', _BudgetSlider(value: draft.budget, onChanged: (v) => set(() => draft.budget = v))),
               group(
                 'Rating',
+                Wrap(
