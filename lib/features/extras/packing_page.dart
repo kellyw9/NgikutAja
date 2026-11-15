@@ -15,3 +15,4 @@ class _PackingPageState extends State<PackingPage> {
   final input = TextEditingController();
 
   @override
+  void dispose() {
