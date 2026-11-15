@@ -234,3 +234,4 @@ class AppState extends ChangeNotifier {
   /// Buat transaksi baru berstatus pending (pembayaran simulasi).
   Transaction startPayment(Itinerary it, String method) {
     final now = DateTime.now();
+    final tx = Transaction(
