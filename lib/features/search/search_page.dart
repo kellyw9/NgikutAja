@@ -339,3 +339,4 @@ class _SearchPageState extends State<SearchPage> {
 
   Widget _results(AppState app, String q) {
     final list = results(app, q);
+    final chips = <Widget>[
