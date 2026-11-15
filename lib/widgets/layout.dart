@@ -340,3 +340,5 @@ class BoxList extends StatelessWidget {
   final List<Widget> children;
   final double inset;
   final double padV;
+
+  @override
