@@ -21,3 +21,4 @@ class _AddStopPageState extends State<AddStopPage> {
   late final name = TextEditingController(text: s?.name ?? '');
   late final cost = TextEditingController(text: s == null || s!.cost == 0 ? '' : thousands(s!.cost));
   late final note = TextEditingController(text: s?.note ?? '');
+  late Category cat = s?.cat ?? Category.makan;
