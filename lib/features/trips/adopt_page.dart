@@ -153,3 +153,4 @@ class _AdoptPageState extends State<AdoptPage> {
                       ),
                     ),
                     NgToggle(offline, label: 'Simpan untuk offline', onChanged: (v) => setState(() => offline = v)),
+                  ],
