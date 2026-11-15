@@ -34,3 +34,4 @@ class _CheckinPageState extends State<CheckinPage> {
       backgroundColor: AppColors.ground,
       appBar: NgAppBar(title: 'Check-in', sub: st.name),
       body: ListView(
+        padding: const EdgeInsets.fromLTRB(kMargin, 8, kMargin, 24),
