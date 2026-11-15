@@ -104,3 +104,4 @@ class RecapPage extends StatelessWidget {
                       Text(t.recapNote!.$2, style: AppText.body),
                     ],
                   ),
+                ),
