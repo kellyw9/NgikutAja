@@ -492,3 +492,4 @@ class PageFrame extends StatelessWidget {
   final Color background;
 
   @override
+  Widget build(BuildContext context) => Scaffold(
