@@ -189,3 +189,5 @@ class _InterestCard extends StatelessWidget {
   final String photo;
   final bool on;
   final VoidCallback onTap;
+
+  @override
