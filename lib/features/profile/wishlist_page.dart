@@ -75,3 +75,4 @@ class _Row extends StatelessWidget {
               label: 'Hapus dari Wishlist',
               filled: true,
               iconSize: 22,
+              onTap: () {
