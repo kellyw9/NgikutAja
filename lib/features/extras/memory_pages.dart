@@ -36,3 +36,4 @@ class PhotoMemoryPage extends StatelessWidget {
                   const SizedBox(height: 8),
                   LayoutBuilder(
                     builder: (context, c) {
+                      final size = (c.maxWidth - 12) / 3;
