@@ -137,3 +137,4 @@ class _PhotoViewerPageState extends State<PhotoViewerPage> {
                       Text(p.caption, style: AppText.title.white),
                       const SizedBox(height: 4),
                       Text(
+                        date == null
