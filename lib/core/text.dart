@@ -25,3 +25,4 @@ class AppText {
   static final title = _s(15, 20, FontWeight.w600, 0);
   static final body = _s(14, 20, FontWeight.w400, 0);
   static final bodyStrong = _s(14, 20, FontWeight.w600, 0);
+  static final small = _s(12, 16, FontWeight.w400, 0);
