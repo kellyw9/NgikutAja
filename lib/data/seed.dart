@@ -573,3 +573,4 @@ class Seed {
         text: ' mengundangmu ke trip "Medan Kuliner Akhir Tahun".',
         time: '10.15',
         today: true,
+        unread: true,
