@@ -111,3 +111,4 @@ class OfflinePage extends StatelessWidget {
               final saved = trips.where((t) => t.offline).toList();
               for (final t in saved) {
                 t.syncedAt = _now();
+              }
