@@ -511,3 +511,4 @@ class Seed {
         name: 'Arif Nasution',
         tint: 4,
         stars: 5,
+        date: 'Sep 2026',
