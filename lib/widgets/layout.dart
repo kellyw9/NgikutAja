@@ -18,3 +18,4 @@ const kLightIcons = SystemUiOverlayStyle(
   statusBarColor: Colors.transparent,
   statusBarIconBrightness: Brightness.light,
   statusBarBrightness: Brightness.dark,
+  systemNavigationBarColor: AppColors.ink,
