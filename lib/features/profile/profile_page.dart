@@ -29,3 +29,4 @@ class ProfilePage extends StatelessWidget {
           p: app.me,
           itins: mine.length,
           onFollowers: () => push(context, const PeoplePage(followers: true)),
+          onFollowing: () => push(context, const PeoplePage(followers: false)),
