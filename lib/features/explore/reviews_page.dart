@@ -178,3 +178,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
                           Text(c.time, style: AppText.small.muted),
                         ],
                       ),
+                      const SizedBox(height: 4),
