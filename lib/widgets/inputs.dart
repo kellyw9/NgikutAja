@@ -240,3 +240,4 @@ class NgToggle extends StatelessWidget {
                 width: 52,
                 height: 32,
                 child: AnimatedAlign(
+                  duration: const Duration(milliseconds: 160),
