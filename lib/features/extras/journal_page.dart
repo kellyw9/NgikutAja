@@ -125,3 +125,4 @@ class _JournalPageState extends State<JournalPage> {
             child: Gap(
               12,
               children: [
+                if (e == null)
