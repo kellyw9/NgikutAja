@@ -89,3 +89,4 @@ class BottomNav extends StatelessWidget {
               child: Row(
                 children: [
                   for (var i = 0; i < items.length; i++)
+                    Expanded(
