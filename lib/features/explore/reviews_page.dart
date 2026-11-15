@@ -78,3 +78,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
                       Text(decimal(it.rating!), style: AppText.display),
                       const SizedBox(height: 4),
                       Stars(it.rating!.round(), size: 14),
+                      const SizedBox(height: 4),
