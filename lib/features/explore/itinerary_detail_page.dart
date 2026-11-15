@@ -367,3 +367,4 @@ class PaidPreviewPage extends StatelessWidget {
           NgButton(
             'Beli ${rp(it.price)}',
             onPressed: () {
+              if (requireLogin(context)) push(context, PurchaseDetailPage(it: it));
