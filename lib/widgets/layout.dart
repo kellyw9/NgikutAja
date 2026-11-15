@@ -365,3 +365,4 @@ class NgCard extends StatelessWidget {
     required this.child,
     this.padding = const EdgeInsets.all(14),
     this.border = AppColors.line,
+    this.borderWidth = 1,
