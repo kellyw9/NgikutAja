@@ -559,3 +559,4 @@ class Seed {
         id: 'n1',
         kind: NotifKind.reminder,
         icon: 'alarm',
+        lead: '30 menit lagi: ',
