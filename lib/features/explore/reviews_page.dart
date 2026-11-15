@@ -185,3 +185,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
                         style: AppText.smallStrong,
                         onTap: () {
                           if (!requireLogin(context)) return;
+                          setState(() => replyTo = c.name);
