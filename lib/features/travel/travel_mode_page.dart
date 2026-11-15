@@ -53,3 +53,4 @@ class TravelModePage extends StatelessWidget {
                               child: Semantics(header: true, child: Text('Travel Mode', style: AppText.h2.white)),
                             ),
                             Container(
+                              height: 28,
