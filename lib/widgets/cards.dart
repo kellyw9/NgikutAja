@@ -230,3 +230,4 @@ PillKind tripPill(TripStatus s) => switch (s) {
 };
 
 /// Card Trip: blok putih bergaris tipis seperti tiket.
+class TripCard extends StatelessWidget {
