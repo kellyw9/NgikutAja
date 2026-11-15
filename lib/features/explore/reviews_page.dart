@@ -138,3 +138,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
                     ),
                     const SizedBox(height: 8),
                     Text(r.text, style: AppText.body),
+                  ],
