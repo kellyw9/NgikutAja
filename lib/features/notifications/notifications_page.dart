@@ -142,3 +142,4 @@ class NotificationDetailPage extends StatelessWidget {
   final AppNotification n;
 
   @override
+  Widget build(BuildContext context) {
