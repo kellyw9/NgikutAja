@@ -296,3 +296,4 @@ class _EditTripInfoPageState extends State<EditTripInfoPage> {
                 ),
               ),
               NgField(
+                label: 'Judul',
