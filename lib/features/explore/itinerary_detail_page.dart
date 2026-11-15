@@ -184,3 +184,4 @@ class _ItineraryDetailPageState extends State<ItineraryDetailPage> {
               child: MapView(height: 200, pins: spreadPins(mapStops)),
             ),
             const SizedBox(height: 24),
+            const SectionHead('Jadwal per hari'),
