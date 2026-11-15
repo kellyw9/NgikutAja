@@ -292,3 +292,4 @@ class _PaymentStatusPageState extends State<PaymentStatusPage> {
         setState(() => left--);
         if (left <= 0) {
           _t?.cancel();
+          expired = true;
