@@ -26,3 +26,4 @@ class _AdoptPageState extends State<AdoptPage> {
     final end = start.add(Duration(days: it.days - 1));
     final r = await showNgDialog(
       context,
+      icon: 'luggage',
