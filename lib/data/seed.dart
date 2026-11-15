@@ -635,3 +635,4 @@ class Seed {
           body: ['Tiket Holbung, parkir, dan sewa tikar di Parbaba hanya menerima uang tunai.'],
         ),
         LocalTip(
+          icon: 'museum',
