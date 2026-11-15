@@ -617,3 +617,4 @@ class Seed {
       'Samosir': [
         LocalTip(
           icon: 'directions_car',
+          title: 'Jadwal kapal Ajibata–Tomok',
