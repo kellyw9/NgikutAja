@@ -438,3 +438,4 @@ class _SearchPageState extends State<SearchPage> {
       scroll: true,
       builder: (ctx) => StatefulBuilder(
         builder: (ctx, set) {
+          final n = q.isEmpty ? app.itineraries.where((x) => !x.isDraft && draft.match(x)).length : results(app, q, draft).length;
