@@ -170,3 +170,4 @@ class _OnboardingPageState extends State<OnboardingPage> {
     const SizedBox(height: 24),
     for (final (t, sub, img) in interests) ...[
       _InterestCard(
+        title: t,
