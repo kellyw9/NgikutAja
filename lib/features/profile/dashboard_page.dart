@@ -51,3 +51,4 @@ class DashboardPage extends StatelessWidget {
                                 for (var i = 0; i < monthly.length; i++) ...[
                                   if (i > 0) const Spacer(),
                                   SizedBox(
+                                    width: 36,
