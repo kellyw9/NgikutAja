@@ -159,3 +159,4 @@ class _NewPasswordPageState extends State<NewPasswordPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: AppColors.ground,
+      appBar: NgAppBar(back: 'close', onBack: () => resetTo(context, const LoginPage())),
