@@ -153,3 +153,4 @@ class _AddStopPageState extends State<AddStopPage> {
                 keyboardType: TextInputType.number,
                 inputFormatters: [ThousandsFormatter()],
               ),
+              NgField(
