@@ -376,3 +376,4 @@ class AppState extends ChangeNotifier {
     title: '',
     city: '',
     region: '',
+    days: 1,
