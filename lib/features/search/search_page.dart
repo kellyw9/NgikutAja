@@ -252,3 +252,4 @@ class _SearchPageState extends State<SearchPage> {
                       label: 'Hapus $q dari riwayat',
                       size: 40,
                       iconSize: 18,
+                      color: AppColors.muted,
