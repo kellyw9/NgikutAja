@@ -224,3 +224,4 @@ class _ItineraryDetailPageState extends State<ItineraryDetailPage> {
             ),
           ),
           NgButton(
+            'Adopt itinerary',
