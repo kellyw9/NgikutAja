@@ -49,3 +49,4 @@ class _ExplorePageState extends State<ExplorePage> {
     final app = AppScope.of(context);
     final items = switch (tab) {
       'Terbaru' => app.latest().where((x) => x.creator != app.me).toList(),
+      'Following' => app.fromFollowing(),
