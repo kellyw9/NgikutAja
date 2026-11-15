@@ -21,3 +21,5 @@ class PhotoStore {
 
   static Uint8List? get(String key) => _mem[key];
 }
+
+enum PhotoSource { camera, gallery }
