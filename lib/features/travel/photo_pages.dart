@@ -49,3 +49,4 @@ class _PhotoPreviewPageState extends State<PhotoPreviewPage> {
                     title: 'Aktivitas terkait',
                     scroll: true,
                     builder: (ctx) => Column(
+                      children: [
