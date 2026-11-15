@@ -212,3 +212,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
                         const AppIcon('info', size: 16, color: AppColors.muted),
                         const SizedBox(width: 6),
                         Expanded(child: Text('Budget dihitung otomatis dari biaya tiap stop', style: AppText.small.muted)),
+                      ],
