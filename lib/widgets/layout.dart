@@ -389,3 +389,4 @@ class NgCard extends StatelessWidget {
       focusColor: AppColors.teal.withValues(alpha: .15),
       child: Padding(padding: padding, child: child),
     ),
+  );
