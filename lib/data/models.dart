@@ -147,3 +147,4 @@ enum TripStatus {
   selesai('Selesai');
 
   const TripStatus(this.label);
+  final String label;
