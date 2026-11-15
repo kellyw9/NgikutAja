@@ -328,3 +328,4 @@ class _PickLocationPageState extends State<PickLocationPage> {
                       left: x - 80,
                       top: y - 84,
                       width: 160,
+                      child: IgnorePointer(
