@@ -106,3 +106,4 @@ class RecapPage extends StatelessWidget {
                   ),
                 ),
               NgButton('Bagikan recap', icon: 'share', expand: true, onPressed: () => shareText(_summary(t))),
+            ],
