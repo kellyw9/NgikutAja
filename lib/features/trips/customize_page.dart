@@ -56,3 +56,4 @@ class _CustomizePageState extends State<CustomizePage> {
     if (changes == 0) return true;
     final r = await showNgDialog(
       context,
+      title: 'Buang perubahan?',
