@@ -24,3 +24,4 @@ class AppColors {
   static const positive = Color(0xFF1E6B44);
   static const positivePale = Color(0xFFDCFAE5);
   static const positiveInk = Color(0xFF04250E);
+  static const negative = Color(0xFFC4242A);
