@@ -274,3 +274,4 @@ class Trip {
   DateTime? start;
   String? cover;
   List<List<Stop>> plan;
+  Itinerary? from;
