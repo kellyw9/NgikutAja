@@ -59,3 +59,4 @@ class TravelModePage extends StatelessWidget {
                               child: Row(
                                 mainAxisSize: MainAxisSize.min,
                                 children: [
+                                  AppIcon(!app.online ? 'cloud_off' : (t.offline ? 'cloud_done' : 'cloud_off'), size: 16, color: AppColors.white),
