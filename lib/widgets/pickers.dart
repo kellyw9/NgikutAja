@@ -77,3 +77,4 @@ class _CalendarState extends State<_Calendar> {
                 decoration: BoxDecoration(color: isEdge ? AppColors.ink : null, borderRadius: BorderRadius.circular(4)),
                 child: Text(
                   '$d',
+                  style: (isEdge ? AppText.bodyStrong : AppText.body).c(isEdge ? AppColors.white : (disabled ? AppColors.control : AppColors.ink)),
