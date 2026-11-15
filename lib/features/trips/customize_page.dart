@@ -200,3 +200,4 @@ class _CustomizePageState extends State<CustomizePage> {
       sub: 'Hari baru ditaruh setelah Hari ${plan.length}.',
       builder: (ctx) => Gap(
         16,
+        children: [
