@@ -52,3 +52,4 @@ class _AdoptPageState extends State<AdoptPage> {
       backgroundColor: AppColors.ground,
       appBar: const NgAppBar(title: 'Adopt ke Trip Saya', back: 'close'),
       body: ListView(
+        padding: const EdgeInsets.fromLTRB(kMargin, 8, kMargin, 24),
