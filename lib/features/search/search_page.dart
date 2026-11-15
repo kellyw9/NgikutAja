@@ -68,3 +68,4 @@ class _SearchPageState extends State<SearchPage> {
   String mode = 'Kota';
   String? submitted;
   SearchFilter filter = SearchFilter();
+  String sort = 'Relevan';
