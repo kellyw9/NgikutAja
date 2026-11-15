@@ -57,3 +57,4 @@ class Stop {
   String? photo;
   String? note;
   String? desc;
+  String? address;
