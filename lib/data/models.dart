@@ -91,3 +91,4 @@ class Itinerary {
     this.lodging = 0,
     this.estimateSeed,
     this.placesSeed,
+    DateTime? publishedAt,
