@@ -91,3 +91,4 @@ class _AdoptPageState extends State<AdoptPage> {
                           children: [
                             Wrap(
                               spacing: 6,
+                              children: [
