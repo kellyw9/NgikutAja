@@ -185,3 +185,5 @@ class _MapPainter extends CustomPainter {
       line(Offset(-5, .15 * h), Offset(w + 5, .24 * h), 5);
       line(Offset(.1 * w, h + 5), Offset(.2 * w, -5), 5);
     }
+
+    if (ring != null) {
