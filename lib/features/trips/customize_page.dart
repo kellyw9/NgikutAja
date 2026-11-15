@@ -454,3 +454,4 @@ class _CustomizePageState extends State<CustomizePage> {
                   Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
+                      Text('Foto perjalanan', style: AppText.h2),
