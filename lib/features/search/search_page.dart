@@ -97,3 +97,4 @@ class _SearchPageState extends State<SearchPage> {
     input.dispose();
     focus.dispose();
     super.dispose();
+  }
