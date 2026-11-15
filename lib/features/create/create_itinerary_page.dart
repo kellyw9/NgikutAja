@@ -114,3 +114,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
     }
     final r = await showNgDialog(
       context,
+      title: 'Simpan sebagai draft?',
