@@ -143,3 +143,5 @@ class TripsPage extends StatelessWidget {
       ],
     ];
   }
+
+  Widget _running(BuildContext context, AppState app, Trip t) {
