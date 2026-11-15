@@ -220,3 +220,4 @@ class Tap extends StatelessWidget {
           child: child,
         ),
       ),
+    );
