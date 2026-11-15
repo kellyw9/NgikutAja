@@ -104,3 +104,4 @@ class TravelModePage extends StatelessWidget {
               child: ListView(
                 padding: const EdgeInsets.fromLTRB(kMargin, 14, kMargin, 16),
                 children: [
+                  if (next != null)
