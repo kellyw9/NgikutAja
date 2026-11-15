@@ -189,3 +189,4 @@ class _EditStopPageState extends State<EditStopPage> {
                                 iconSize: 16,
                                 bg: AppColors.surface,
                                 onTap: () => setState(() => photo = null),
+                              ),
