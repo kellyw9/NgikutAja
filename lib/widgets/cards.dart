@@ -498,3 +498,4 @@ class _DayBox extends StatelessWidget {
         ),
         clipBehavior: Clip.antiAlias,
         child: InkWell(
+          onTap: onTap,
