@@ -31,3 +31,4 @@ class _JournalPageState extends State<JournalPage> {
           NgButton('Simpan', expand: true, onPressed: () => Navigator.pop(ctx, c.text.trim())),
         ],
       ),
+    );
