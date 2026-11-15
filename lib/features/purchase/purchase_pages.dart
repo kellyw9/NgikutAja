@@ -254,3 +254,4 @@ class _PaymentPageState extends State<PaymentPage> {
         child: Padding(
           padding: const EdgeInsets.fromLTRB(kMargin, 0, kMargin, 16),
           child: NgButton(
+            processing ? 'Memproses pembayaran...' : 'Bayar ${rp(widget.it.price)}',
