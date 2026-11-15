@@ -140,3 +140,5 @@ class NotificationsPage extends StatelessWidget {
 class NotificationDetailPage extends StatelessWidget {
   const NotificationDetailPage({super.key, required this.n});
   final AppNotification n;
+
+  @override
