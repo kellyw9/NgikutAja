@@ -68,3 +68,4 @@ class _RegisterPageState extends State<RegisterPage> {
     final (sv, st, sc) = strength;
     void refresh(_) => setState(() {});
     return Scaffold(
+      backgroundColor: AppColors.ground,
