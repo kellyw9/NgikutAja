@@ -443,3 +443,4 @@ class HeroPhoto extends StatelessWidget {
                 ),
               ),
           ],
+        ),
