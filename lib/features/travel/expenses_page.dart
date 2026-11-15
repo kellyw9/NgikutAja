@@ -37,3 +37,4 @@ class ExpensesPage extends StatelessWidget {
                 'Hapus',
                 kind: BtnKind.dangerText,
                 icon: 'delete',
+                onPressed: () async {
