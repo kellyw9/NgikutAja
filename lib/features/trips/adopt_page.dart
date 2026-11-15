@@ -92,3 +92,4 @@ class _AdoptPageState extends State<AdoptPage> {
                             Wrap(
                               spacing: 6,
                               children: [
+                                Text(it.creator.name, style: AppText.bodyStrong),
