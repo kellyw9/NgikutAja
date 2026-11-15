@@ -91,3 +91,4 @@ class _SpinIconState extends State<SpinIcon> with SingleTickerProviderStateMixin
   void didChangeDependencies() {
     super.didChangeDependencies();
     // Hormati pengaturan kurangi animasi: ikon tetap diam.
+    if (MediaQuery.maybeDisableAnimationsOf(context) ?? false) {
