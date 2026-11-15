@@ -28,3 +28,4 @@ class SettingsPage extends StatelessWidget {
       shellTab.value = tabExplore;
       resetTo(context, const LoginPage());
     }
+  }
