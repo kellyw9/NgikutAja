@@ -144,3 +144,4 @@ class _CalendarState extends State<_Calendar> {
 Future<Category?> pickCategory(BuildContext context, Category current) {
   return showNgSheet<Category>(
     context,
+    title: 'Kategori aktivitas',
