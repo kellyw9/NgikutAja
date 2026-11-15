@@ -92,3 +92,5 @@ class AppState extends ChangeNotifier {
     if (ok) _setLoggedIn(true);
     return ok;
   }
+
+  Future<void> register(String name, String email, String password) async {
