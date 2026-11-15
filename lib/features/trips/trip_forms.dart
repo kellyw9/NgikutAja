@@ -316,3 +316,4 @@ class _EditTripInfoPageState extends State<EditTripInfoPage> {
               ),
               NgField(label: 'Deskripsi', controller: desc, area: true, hint: 'Catatan untuk anggota trip.'),
               NgButton('Simpan perubahan', expand: true, onPressed: _save),
+            ],
