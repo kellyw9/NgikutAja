@@ -83,3 +83,4 @@ class _RegisterPageState extends State<RegisterPage> {
                     crossAxisAlignment: CrossAxisAlignment.stretch,
                     children: [
                       Text('Buat akun baru', style: AppText.h1),
+                      const SizedBox(height: 8),
