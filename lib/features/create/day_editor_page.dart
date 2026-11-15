@@ -145,3 +145,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
                           d.days = d.plan.length;
                           day = d.plan.length - 1;
                           dayTitle.text = '';
+                        });
