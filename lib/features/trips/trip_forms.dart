@@ -55,3 +55,4 @@ class _EditStopPageState extends State<EditStopPage> {
       ..name = name.text.trim()
       ..cat = cat
       ..start = start
+      ..end = end
