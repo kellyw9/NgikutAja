@@ -163,3 +163,4 @@ class _NewPasswordPageState extends State<NewPasswordPage> {
       body: SafeArea(
         top: false,
         child: LayoutBuilder(
+          builder: (context, c) => SingleChildScrollView(
