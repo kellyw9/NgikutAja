@@ -364,3 +364,5 @@ class AppState extends ChangeNotifier {
     t.members.remove(m);
     notifyListeners();
   }
+
+  void setRole(Member m, MemberRole r) {
