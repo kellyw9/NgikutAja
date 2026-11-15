@@ -55,3 +55,4 @@ class _PublishPageState extends State<PublishPage> {
               children: [
                 Row(
                   children: [
+                    Expanded(child: Text(title, style: AppText.bodyStrong)),
