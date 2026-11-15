@@ -447,3 +447,4 @@ class Seed {
           PackGroup('Lainnya', [PackItem('Botol minum'), PackItem('Sunscreen', true), PackItem('Obat pribadi')]),
         ],
         checkins: {'0-0': '08.06', '0-1': '09.42'},
+        story:
