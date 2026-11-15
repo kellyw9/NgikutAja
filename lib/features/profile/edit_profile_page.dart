@@ -103,3 +103,4 @@ class _EditProfilePageState extends State<EditProfilePage> {
                 NgField(
                   label: 'Nama lengkap',
                   controller: name,
+                  onChanged: (_) => setState(() {}),
