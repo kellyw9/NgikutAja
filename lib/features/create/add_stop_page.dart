@@ -155,3 +155,4 @@ class _AddStopPageState extends State<AddStopPage> {
               ),
               NgField(
                 label: 'Catatan / local tip',
+                icon: 'notes',
