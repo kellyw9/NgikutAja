@@ -191,3 +191,4 @@ class _AddStopPageState extends State<AddStopPage> {
                                     right: 4,
                                     top: 4,
                                     child: IconBtn(
+                                      'close',
