@@ -40,3 +40,5 @@ class Seed {
   static const monthly = [('Jul', 2), ('Agu', 4), ('Sep', 5), ('Okt', 6), ('Nov', 1)];
 
   static const recentSearches = ['Danau Toba', 'Medan', 'Bukittinggi'];
+
+  DateTime _d(int offset) => today.add(Duration(days: offset));
