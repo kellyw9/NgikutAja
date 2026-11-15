@@ -37,3 +37,5 @@ class _RegisterPageState extends State<RegisterPage> {
   }
 
   String? get confirmErr => confirm.text.isNotEmpty && confirm.text != pass.text ? 'Password belum sama' : null;
+
+  bool get valid =>
