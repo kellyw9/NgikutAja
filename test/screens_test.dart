@@ -72,3 +72,4 @@ final Map<String, PageFor> pages = {
   'travel mode': (s) => TravelModePage(trip: s.trips[0]),
   'travel stop': (s) => TravelStopPage(trip: s.trips[0], day: 0, i: 2),
   'navigation': (s) => NavigationPage(trip: s.trips[0], day: 0, i: 2),
+  'checkin': (s) => CheckinPage(trip: s.trips[0], day: 0, i: 2),
