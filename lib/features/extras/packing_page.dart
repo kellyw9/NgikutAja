@@ -119,3 +119,4 @@ class _PackingPageState extends State<PackingPage> {
                               color: AppColors.negative,
                               alignment: Alignment.centerRight,
                               padding: const EdgeInsets.only(right: 20),
+                              child: Row(
