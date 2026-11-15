@@ -47,3 +47,4 @@ class PurchaseDetailPage extends StatelessWidget {
       '${it.places} tempat lengkap dengan jam dan catatan creator',
       'Peta rute perjalanan ${it.days} hari',
       'Dapat diadopsi dan diedit jadwalnya',
+      'Bisa dibuka offline saat berada di ${it.city}',
