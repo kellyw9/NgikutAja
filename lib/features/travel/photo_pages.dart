@@ -66,3 +66,4 @@ class _PhotoPreviewPageState extends State<PhotoPreviewPage> {
               ),
               Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
