@@ -73,3 +73,4 @@ class _Row extends StatelessWidget {
             IconBtn(
               'bookmark',
               label: 'Hapus dari Wishlist',
+              filled: true,
