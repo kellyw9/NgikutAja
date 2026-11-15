@@ -75,3 +75,4 @@ class ProfilePage extends StatelessWidget {
                 Text('Belum ada itinerary yang terbit. Buat lewat tombol Create.', style: AppText.body.muted)
               else
                 Grid2(mine, showWish: false, onTap: (it) => openItinerary(context, it)),
+            ],
