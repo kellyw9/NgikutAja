@@ -67,3 +67,5 @@ class _StatChip extends StatelessWidget {
 class ItineraryDetailPage extends StatefulWidget {
   const ItineraryDetailPage({super.key, required this.it});
   final Itinerary it;
+
+  @override
