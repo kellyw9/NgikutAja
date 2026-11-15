@@ -128,3 +128,4 @@ class _JournalPageState extends State<JournalPage> {
                 if (e == null)
                   Text('Belum ada catatan untuk ${_dayLabel(day)}.', style: AppText.body.muted)
                 else ...[
+                  Text(e.title, style: AppText.h2),
