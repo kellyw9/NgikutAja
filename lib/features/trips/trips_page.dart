@@ -103,3 +103,4 @@ class TripsPage extends StatelessWidget {
           onTap: () => push(context, TripDetailPage(trip: t)),
           extra: switch (tab) {
             TripStatus.berjalan => _running(context, app, t),
+            TripStatus.diadopsi => Container(
