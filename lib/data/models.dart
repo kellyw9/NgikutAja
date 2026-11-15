@@ -33,3 +33,4 @@ class Creator {
   int following;
 
   /// Foto profil (kunci foto). Null = avatar inisial.
+  String? photo;
