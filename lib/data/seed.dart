@@ -494,3 +494,4 @@ class Seed {
         ],
         seedPlaces: 11,
         seedVisited: 10,
+        seedSpending: 612000,
