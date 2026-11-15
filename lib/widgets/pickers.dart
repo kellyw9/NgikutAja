@@ -227,3 +227,4 @@ bool requireLogin(BuildContext context) {
           kind: BtnKind.secondary,
           expand: true,
           onPressed: () {
+            Navigator.pop(ctx);
