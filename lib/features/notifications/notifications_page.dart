@@ -16,3 +16,4 @@ class NotificationsPage extends StatelessWidget {
     final toba = app.trips.where((t) => t.id == 'toba-kampus').firstOrNull;
     switch (n.kind) {
       case NotifKind.reminder:
+        push(context, NotificationDetailPage(n: n));
