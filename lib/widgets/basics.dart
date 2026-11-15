@@ -353,3 +353,4 @@ class AddPhotoTile extends StatelessWidget {
   final String icon;
 
   @override
+  Widget build(BuildContext context) => Tap(
