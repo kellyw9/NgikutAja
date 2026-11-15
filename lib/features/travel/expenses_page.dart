@@ -122,3 +122,4 @@ class ExpensesPage extends StatelessWidget {
                       Tap(
                         onTap: () => _detail(context, e),
                         child: SizedBox(
+                          height: 60,
