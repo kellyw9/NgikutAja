@@ -548,3 +548,4 @@ class Marker extends StatelessWidget {
       MarkerState.locked => (AppColors.sunk, null, AppColors.muted),
     };
     return Container(
+      width: size,
