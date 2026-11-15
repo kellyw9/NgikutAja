@@ -172,3 +172,4 @@ class _PackingPageState extends State<PackingPage> {
                       controller: input,
                       hint: 'Tambah barang bawaan...',
                       icon: 'add',
+                      onSubmitted: (_) => _add(),
