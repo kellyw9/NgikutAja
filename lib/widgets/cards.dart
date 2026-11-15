@@ -234,3 +234,4 @@ class TripCard extends StatelessWidget {
   const TripCard({
     super.key,
     required this.status,
+    required this.title,
