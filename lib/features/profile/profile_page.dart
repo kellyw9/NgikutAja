@@ -20,3 +20,4 @@ class ProfilePage extends StatelessWidget {
     final mine = app.mine;
     return ListView(
       padding: const EdgeInsets.only(bottom: 24),
+      children: [
