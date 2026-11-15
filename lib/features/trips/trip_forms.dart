@@ -15,3 +15,4 @@ Future<String?> pickTime(BuildContext context, String current) async {
   final t = await showTimePicker(
     context: context,
     initialTime: TimeOfDay(hour: m ~/ 60, minute: m % 60),
+    helpText: 'Pilih jam',
