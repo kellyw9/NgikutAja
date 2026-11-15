@@ -57,3 +57,5 @@ class _PackingPageState extends State<PackingPage> {
       AppScope.read(context).touch();
     }
   }
+
+  void _remove(PackGroup g, PackItem it) {
