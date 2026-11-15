@@ -128,3 +128,4 @@ class PurchaseConfirmPage extends StatelessWidget {
     appBar: const NgAppBar(title: 'Konfirmasi pembelian'),
     body: ListView(
       padding: const EdgeInsets.fromLTRB(kMargin, 8, kMargin, 16),
+      children: [
