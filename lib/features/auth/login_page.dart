@@ -186,3 +186,4 @@ class GoogleButton extends StatelessWidget {
   Widget build(BuildContext context) => SizedBox(
     height: 48,
     child: Material(
+      color: AppColors.surface,
