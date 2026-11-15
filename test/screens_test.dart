@@ -38,3 +38,4 @@ import 'package:ngikutaja/features/travel/travel_mode_page.dart';
 import 'package:ngikutaja/features/trips/adopt_page.dart';
 import 'package:ngikutaja/features/trips/customize_page.dart';
 import 'package:ngikutaja/features/trips/members_page.dart';
+import 'package:ngikutaja/features/trips/trip_detail_page.dart';
