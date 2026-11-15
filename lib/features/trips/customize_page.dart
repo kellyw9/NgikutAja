@@ -461,3 +461,4 @@ class _CustomizePageState extends State<CustomizePage> {
                         child: Row(
                           children: [
                             AddPhotoTile(
+                              size: 72,
