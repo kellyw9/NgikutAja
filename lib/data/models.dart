@@ -261,3 +261,4 @@ class Trip {
     this.recapNote,
   }) : dayTitles = dayTitles ?? [],
        members = members ?? [],
+       expenses = expenses ?? [],
