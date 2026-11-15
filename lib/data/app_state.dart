@@ -283,3 +283,4 @@ class AppState extends ChangeNotifier {
     required bool remindDayBefore,
     required bool remindEach,
     required int offset,
+    required bool offline,
