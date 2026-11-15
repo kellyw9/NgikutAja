@@ -72,3 +72,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
     final stops = d.plan[day];
     final conflicts = conflictsIn(stops);
     final anyError = [for (var k = 0; k < d.plan.length; k++) _dayHasError(k)].any((x) => x);
+    final cost = stops.fold<int>(0, (a, s) => a + s.cost);
