@@ -238,3 +238,4 @@ class Photo extends StatelessWidget {
   final String? semantic;
 
   @override
+  Widget build(BuildContext context) {
