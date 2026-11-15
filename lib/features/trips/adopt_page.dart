@@ -23,3 +23,4 @@ class _AdoptPageState extends State<AdoptPage> {
 
   Future<void> _adopt() async {
     final it = widget.it;
+    final end = start.add(Duration(days: it.days - 1));
