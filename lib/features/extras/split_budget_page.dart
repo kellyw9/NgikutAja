@@ -152,3 +152,4 @@ class _SplitBudgetPageState extends State<SplitBudgetPage> {
                             builder: (context) {
                               final key = '$from>$to';
                               final paid = t.settled.contains(key);
+                              return Padding(
