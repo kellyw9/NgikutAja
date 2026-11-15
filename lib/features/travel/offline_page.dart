@@ -112,3 +112,4 @@ class OfflinePage extends StatelessWidget {
               for (final t in saved) {
                 t.syncedAt = _now();
               }
+              app.touch();
