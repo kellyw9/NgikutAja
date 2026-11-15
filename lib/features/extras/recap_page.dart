@@ -11,3 +11,5 @@ class RecapPage extends StatelessWidget {
   String _summary(Trip t) =>
       'Recap trip "${t.title}" (${t.dates ?? ''}): ${t.visited()} dari ${t.places()} tempat dikunjungi, '
       'total pengeluaran ${rp(t.spending())}, ${t.photos.length} foto memori. Dicatat dengan NgikutAja.';
+
+  @override
