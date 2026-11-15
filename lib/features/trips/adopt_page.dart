@@ -27,3 +27,4 @@ class _AdoptPageState extends State<AdoptPage> {
     final r = await showNgDialog(
       context,
       icon: 'luggage',
+      title: 'Adopt itinerary ini?',
