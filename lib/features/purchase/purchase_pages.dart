@@ -45,3 +45,4 @@ class PurchaseDetailPage extends StatelessWidget {
   Widget build(BuildContext context) {
     final perks = [
       '${it.places} tempat lengkap dengan jam dan catatan creator',
+      'Peta rute perjalanan ${it.days} hari',
