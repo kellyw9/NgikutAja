@@ -21,3 +21,4 @@ class Proof extends StatelessWidget {
     mainAxisSize: MainAxisSize.min,
     children: [
       if (it.rating != null) ...[
+        const AppIcon('star', size: 16, filled: true),
