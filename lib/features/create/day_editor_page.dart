@@ -275,3 +275,4 @@ class _StopCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) => Container(
     padding: const EdgeInsets.fromLTRB(4, 10, 4, 10),
+    decoration: BoxDecoration(
