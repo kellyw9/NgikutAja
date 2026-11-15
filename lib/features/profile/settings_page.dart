@@ -82,3 +82,4 @@ class SettingsPage extends StatelessWidget {
                 sw('payments', 'Status transaksi dan pembelian'),
               ]),
               group('Penyimpanan offline', [
+                sw('autoDownload', 'Unduh otomatis trip yang diadopsi', 'Hanya melalui jaringan Wi-Fi'),
