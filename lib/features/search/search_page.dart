@@ -519,3 +519,4 @@ class _SearchPageState extends State<SearchPage> {
                         draft
                           ..duration = null
                           ..budget = const RangeValues(0, _maxBudget)
+                          ..rating = null
