@@ -460,3 +460,4 @@ class Seed {
           ),
         },
         offline: true,
+        offlineSize: 14,
