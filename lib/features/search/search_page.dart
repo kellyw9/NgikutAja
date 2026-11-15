@@ -39,3 +39,4 @@ class SearchFilter {
     if (duration == '> 5 hari' && d <= 5) return false;
     if (budgetOn) {
       final e = it.estimate;
+      if (e == null || e < budget.start || e > budget.end) return false;
