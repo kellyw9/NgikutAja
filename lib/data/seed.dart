@@ -138,3 +138,4 @@ class Seed {
           _s('10.45', '11.30', 'Masjid Raya Al-Mashun', _b, 0, 'masjidraya', 'Ada kain pinjaman di pintu masuk.'),
           _s(
             '13.00',
+            '14.30',
