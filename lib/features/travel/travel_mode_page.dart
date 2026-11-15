@@ -72,3 +72,4 @@ class TravelModePage extends StatelessWidget {
                         ),
                       ),
                     ),
+                    Padding(
