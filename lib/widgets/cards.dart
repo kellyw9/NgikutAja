@@ -112,3 +112,4 @@ class WisataCard extends StatelessWidget {
           ),
         );
       case CardVariant.grid:
+        return Tap(
