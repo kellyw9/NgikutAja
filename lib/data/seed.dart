@@ -430,3 +430,4 @@ class Seed {
         plan: copyPlan(toba.plan),
         dayTitles: [...toba.dayTitles],
         members: [
+          dinda,
