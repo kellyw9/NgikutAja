@@ -22,3 +22,4 @@ Future<DateTime?> pickDate(BuildContext context, {required DateTime initial, int
     title: title,
     scroll: true,
     builder: (_) => _Calendar(initial: initial, days: days, first: first ?? AppScope.read(context).today),
+  );
