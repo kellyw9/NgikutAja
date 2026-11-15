@@ -144,3 +144,4 @@ Future<T?> showNgSheet<T>(BuildContext context, {String? title, String? sub, req
               ),
               if (title != null)
                 Padding(
+                  padding: const EdgeInsets.fromLTRB(kMargin, 4, 4, 0),
