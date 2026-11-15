@@ -197,3 +197,4 @@ class PublishedPage extends StatelessWidget {
     final app = AppScope.of(context);
     return Scaffold(
       backgroundColor: AppColors.ground,
+      appBar: const NgAppBar(back: null, actions: [_CloseBtn()]),
