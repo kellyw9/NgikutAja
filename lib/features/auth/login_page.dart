@@ -251,3 +251,4 @@ class _P extends PathProxy {
   void lineTo(double x, double y) => path.lineTo(x, y);
   @override
   void moveTo(double x, double y) => path.moveTo(x, y);
+}
