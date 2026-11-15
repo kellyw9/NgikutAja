@@ -423,3 +423,4 @@ class AppState extends ChangeNotifier {
 
   void answerInvite(AppNotification n, bool accept) {
     n
+      ..inviteState = accept ? 'Diterima' : 'Ditolak'
