@@ -8,3 +8,4 @@ enum Category {
   lainnya('Lainnya', 'category');
 
   const Category(this.label, this.icon);
+  final String label;
