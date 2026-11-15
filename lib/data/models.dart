@@ -39,3 +39,4 @@ class Creator {
 class Stop {
   Stop({
     required this.start,
+    required this.end,
