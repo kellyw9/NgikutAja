@@ -45,3 +45,4 @@ class _StatChip extends StatelessWidget {
       child: InkWell(
         onTap: onTap,
         child: Container(
+          height: 36,
