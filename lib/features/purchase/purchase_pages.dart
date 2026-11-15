@@ -398,3 +398,4 @@ class _PaymentStatusPageState extends State<PaymentStatusPage> {
             ], fill: AppColors.surface),
             actions: [
               NgButton(
+                'Pilih metode lain',
