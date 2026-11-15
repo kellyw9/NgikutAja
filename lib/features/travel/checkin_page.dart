@@ -52,3 +52,4 @@ class _CheckinPageState extends State<CheckinPage> {
                   icon: 'task_alt',
                   title: 'Check-in berhasil pukul ${t.checkins['${widget.day}-${widget.i}']}',
                   text: nextAfter == null
+                      ? '${st.name} tercatat. Semua aktivitas hari ini sudah selesai.'
