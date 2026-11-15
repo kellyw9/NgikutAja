@@ -64,3 +64,4 @@ class _EditProfilePageState extends State<EditProfilePage> {
         );
         if (r == true && context.mounted) {
           name.text = me.name;
+          user.text = me.handle.replaceFirst('@', '');
