@@ -258,3 +258,4 @@ class TripCard extends StatelessWidget {
       borderRadius: BorderRadius.circular(AppRadius.card),
       border: Border.all(color: AppColors.line),
     ),
+    clipBehavior: Clip.antiAlias,
