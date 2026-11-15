@@ -120,3 +120,4 @@ void main() {
         final s = AppState(null, now: DateTime(2026, 11, 4, 9, 41), watchNetwork: false)
           ..onboarded = true
           ..loggedIn = true;
+        await tester.pumpWidget(
