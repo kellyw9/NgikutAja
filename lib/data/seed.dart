@@ -58,3 +58,4 @@ class Seed {
       'rahmat': Creator(
         id: 'rahmat',
         name: 'Rahmat Siregar',
+        handle: '@jalanjalanmedan',
