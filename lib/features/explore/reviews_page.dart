@@ -182,3 +182,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
                       Text(c.text, style: AppText.body),
                       TextLink(
                         'Balas',
+                        style: AppText.smallStrong,
