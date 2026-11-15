@@ -125,3 +125,4 @@ class _CalendarState extends State<_Calendar> {
             ),
             const SizedBox(height: 2),
             for (var r = 0; r < cells.length / 7; r++) Row(children: [for (final d in cells.sublist(r * 7, r * 7 + 7)) cell(d)]),
+          ],
