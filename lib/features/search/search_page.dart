@@ -326,3 +326,4 @@ class _SearchPageState extends State<SearchPage> {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(title, style: AppText.bodyStrong, maxLines: 1, overflow: TextOverflow.ellipsis),
+                  const SizedBox(height: 2),
