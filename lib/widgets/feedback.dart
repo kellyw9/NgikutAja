@@ -245,3 +245,4 @@ class EmptyState extends StatelessWidget {
   Widget build(BuildContext context) => ConstrainedBox(
     constraints: BoxConstraints(minHeight: height),
     child: Padding(
+      padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 24),
