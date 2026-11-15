@@ -530,3 +530,4 @@ class Seed {
           name: 'Rahmat Siregar',
           tint: 1,
           time: '1 jam lalu',
+          text: 'Buka setiap hari, jam 9 sampai 17.',
