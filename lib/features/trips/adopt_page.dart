@@ -255,3 +255,4 @@ class _AdoptProgressPageState extends State<AdoptProgressPage> {
                 tone: AppColors.negativePale,
                 iconColor: AppColors.negativeInk,
                 title: 'Adopt belum berhasil',
+                text: 'Koneksi terputus saat menyalin. Tidak ada data yang tersimpan, silakan coba kembali.',
