@@ -209,3 +209,4 @@ class Grid2 extends StatelessWidget {
                   ? WisataCard(
                       items[r * 2 + 1],
                       variant: CardVariant.grid,
+                      onTap: () => onTap(items[r * 2 + 1]),
