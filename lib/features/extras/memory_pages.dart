@@ -46,3 +46,4 @@ class PhotoMemoryPage extends StatelessWidget {
                             Tap(
                               onTap: () => push(context, PhotoViewerPage(trip: t, index: t.photos.indexOf(p)), fullscreen: true),
                               radius: AppRadius.inner,
+                              label: 'Buka foto ${p.caption}',
