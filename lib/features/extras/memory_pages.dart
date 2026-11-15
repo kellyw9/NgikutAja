@@ -138,3 +138,4 @@ class _PhotoViewerPageState extends State<PhotoViewerPage> {
                       const SizedBox(height: 4),
                       Text(
                         date == null
+                            ? 'Hari ${p.day + 1} pukul ${p.time}'
