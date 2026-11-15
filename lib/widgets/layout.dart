@@ -387,3 +387,4 @@ class NgCard extends StatelessWidget {
     child: InkWell(
       onTap: onTap,
       focusColor: AppColors.teal.withValues(alpha: .15),
+      child: Padding(padding: padding, child: child),
