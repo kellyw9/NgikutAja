@@ -18,3 +18,4 @@ class _SplashPageState extends State<SplashPage> {
   Timer? _t;
 
   @override
+  void initState() {
