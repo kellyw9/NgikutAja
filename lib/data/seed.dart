@@ -158,3 +158,5 @@ class Seed {
         [_s('09.00', '11.00', 'Pusat oleh-oleh Jalan Mojopahit', _l, 300000), _s('12.00', '13.00', 'Makan siang sebelum ke bandara', _m, 25000)],
       ],
     );
+
+    final toba = Itinerary(
