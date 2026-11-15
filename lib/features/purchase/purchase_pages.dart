@@ -321,3 +321,4 @@ class _PaymentStatusPageState extends State<PaymentStatusPage> {
             title: 'Menunggu pembayaran',
             text: 'Selesaikan transaksi dalam $mm.$ss menit. Status akan diperbarui otomatis setelah pembayaran diterima.',
             middle: KeyValueBox([
+              ('Itinerary', it.title),
