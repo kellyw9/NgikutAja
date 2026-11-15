@@ -37,3 +37,4 @@ class Suggestion {
   final String title;
   final String sub;
   final void Function(List<List<Stop>> plan) apply;
+}
