@@ -392,3 +392,4 @@ class _PaymentStatusPageState extends State<PaymentStatusPage> {
                 ? 'Koneksi terputus sebelum transaksi selesai. Tidak ada saldo yang ditarik.'
                 : 'Waktu pembayaran telah habis sebelum transaksi selesai. Tidak ada saldo yang ditarik.',
             middle: KeyValueBox([
+              ('Itinerary', it.title),
