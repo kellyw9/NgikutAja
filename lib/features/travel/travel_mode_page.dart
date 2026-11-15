@@ -375,3 +375,4 @@ class NavigationPage extends StatelessWidget {
       body: Stack(
         children: [
           Positioned.fill(
+            child: MapView(
