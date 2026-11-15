@@ -203,3 +203,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
     color: AppColors.surface,
     child: SafeArea(
       top: false,
+      child: Padding(
