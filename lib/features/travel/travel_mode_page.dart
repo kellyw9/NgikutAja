@@ -281,3 +281,4 @@ class TravelStopPage extends StatelessWidget {
                   children: [
                     checked
                         ? Pill('Check-in ${trip.checkins['$day-$i']}', kind: PillKind.positive, icon: 'check')
+                        : const Pill('Belum dikunjungi', kind: PillKind.warning),
