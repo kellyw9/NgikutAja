@@ -250,3 +250,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
                   trailingIcon: 'arrow_forward',
                   expand: true,
                   onPressed: anyError
+                      ? null
