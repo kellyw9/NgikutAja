@@ -405,3 +405,4 @@ class AppState extends ChangeNotifier {
 
   // ---------------- notifikasi dan pencarian ----------------
   late List<AppNotification> notifications;
+  late List<String> recentSearches;
