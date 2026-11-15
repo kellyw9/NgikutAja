@@ -189,3 +189,4 @@ class Grid2 extends StatelessWidget {
   const Grid2(this.items, {super.key, required this.onTap, this.onGuest, this.showWish = true});
   final List<Itinerary> items;
   final void Function(Itinerary) onTap;
+  final VoidCallback? onGuest;
