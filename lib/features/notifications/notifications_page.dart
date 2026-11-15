@@ -71,3 +71,4 @@ class NotificationsPage extends StatelessWidget {
         onTap: invite ? (n.unread ? () => app.markRead(n) : null) : () => _open(context, app, n),
         child: Padding(
           padding: const EdgeInsets.fromLTRB(kMargin, 12, kMargin, 12),
+          child: Row(
