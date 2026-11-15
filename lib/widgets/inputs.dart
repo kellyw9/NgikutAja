@@ -112,3 +112,4 @@ class _NgFieldState extends State<NgField> {
         onSubmitted: widget.onSubmitted,
         inputFormatters: [...?widget.inputFormatters, if (widget.maxLength != null) LengthLimitingTextInputFormatter(widget.maxLength)],
         textInputAction: widget.textInputAction,
+        autofocus: widget.autofocus,
