@@ -38,3 +38,4 @@ class NgikutAjaApp extends StatelessWidget {
 
 ThemeData buildTheme() {
   final scheme = ColorScheme.fromSeed(
+    seedColor: AppColors.ink,
