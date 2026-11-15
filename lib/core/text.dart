@@ -15,3 +15,4 @@ class AppText {
     height: lh / size,
     fontWeight: w,
     letterSpacing: size * lsPercent / 100,
+    color: AppColors.ink,
