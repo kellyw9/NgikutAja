@@ -5,3 +5,4 @@ import '../shell/home_shell.dart';
 import 'login_page.dart';
 
 /// 1.4 Register.
+class RegisterPage extends StatefulWidget {
