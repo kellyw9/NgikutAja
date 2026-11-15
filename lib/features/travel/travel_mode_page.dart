@@ -252,3 +252,4 @@ class _NextCard extends StatelessWidget {
 }
 
 /// 6.2 Detail Stop Saat Perjalanan.
+class TravelStopPage extends StatelessWidget {
