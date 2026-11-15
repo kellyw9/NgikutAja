@@ -54,3 +54,4 @@ class NgBanner extends StatelessWidget {
                 button: true,
                 child: InkWell(
                   onTap: onAction,
+                  borderRadius: BorderRadius.circular(4),
