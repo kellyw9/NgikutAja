@@ -336,3 +336,4 @@ class StopRow extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final timeColor = conflict ? AppColors.negative : AppColors.ink;
+    final content = Opacity(
