@@ -321,3 +321,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
               Text('Maks. 5 MB (JPG, PNG)', style: AppText.small.muted),
             ],
           ),
+        ),
