@@ -464,3 +464,4 @@ class Seed {
         syncedAt: '07.58',
       ),
       Trip(
+        id: 'medan-libur',
