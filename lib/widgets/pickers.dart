@@ -64,3 +64,4 @@ class _CalendarState extends State<_Calendar> {
           alignment: Alignment.center,
           child: Semantics(
             button: true,
+            selected: isEdge,
