@@ -336,3 +336,4 @@ class _PickLocationPageState extends State<PickLocationPage> {
                             child: Row(
                               mainAxisSize: MainAxisSize.min,
                               children: [
+                                Container(
