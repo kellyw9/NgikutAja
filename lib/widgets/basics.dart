@@ -261,3 +261,4 @@ class Photo extends StatelessWidget {
         cacheWidth: width != null && width!.isFinite ? (width! * 2.5).round() : null,
         errorBuilder: (_, _, _) => Container(color: AppColors.sunk),
       );
+    }
