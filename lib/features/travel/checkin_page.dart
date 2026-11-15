@@ -79,3 +79,4 @@ class _CheckinPageState extends State<CheckinPage> {
                       ? () {
                           app.checkIn(t, widget.day, widget.i);
                           setState(() => done = true);
+                        }
