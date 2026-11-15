@@ -378,3 +378,4 @@ class NavigationPage extends StatelessWidget {
             child: MapView(
               height: null,
               kind: MapKind.lake,
+              radius: 0,
