@@ -80,3 +80,4 @@ class _PublishPageState extends State<PublishPage> {
               NgCard(
                 child: Row(
                   children: [
+                    Photo(d.cover, width: 80, height: 80, radius: AppRadius.card),
