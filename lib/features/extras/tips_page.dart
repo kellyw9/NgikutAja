@@ -68,3 +68,4 @@ class TipDetailPage extends StatelessWidget {
         Gap(
           14,
           children: [
+            Text(tip.title, style: AppText.h1),
