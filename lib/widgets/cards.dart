@@ -610,3 +610,4 @@ class ProfileHead extends StatelessWidget {
       label: '${thousands(v)} $l',
       child: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 2, vertical: 4),
+        child: Column(
