@@ -214,3 +214,4 @@ class Seed {
       creator: c['bayu']!,
       price: 0,
       adopted: 341,
+      likes: 702,
