@@ -34,3 +34,4 @@ class NgField extends StatefulWidget {
     this.maxLength,
     this.autofillHints,
     this.focusNode,
+    this.fill,
