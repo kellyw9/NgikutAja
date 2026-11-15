@@ -112,3 +112,4 @@ class DashboardPage extends StatelessWidget {
                                           Text(x.title, style: AppText.bodyStrong, maxLines: 1, overflow: TextOverflow.ellipsis),
                                           const SizedBox(height: 2),
                                           Text('${x.adopted} adopsi, ${x.isPaid ? rp(x.price) : 'Gratis'}', style: AppText.small.muted),
+                                        ],
