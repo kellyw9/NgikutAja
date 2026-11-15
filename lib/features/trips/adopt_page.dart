@@ -94,3 +94,4 @@ class _AdoptPageState extends State<AdoptPage> {
                               children: [
                                 Text(it.creator.name, style: AppText.bodyStrong),
                                 Text(it.creator.handle, style: AppText.body.muted),
+                              ],
