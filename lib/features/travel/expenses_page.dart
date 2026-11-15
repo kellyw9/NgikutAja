@@ -300,3 +300,4 @@ class _AddExpensePageState extends State<AddExpensePage> {
               Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
+                  Text('Dibayar oleh', style: AppText.bodyStrong),
