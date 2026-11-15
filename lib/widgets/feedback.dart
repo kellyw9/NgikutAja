@@ -186,3 +186,4 @@ class DialogAction {
   final String label;
   final BtnKind kind;
   final Object? value;
+}
