@@ -32,3 +32,4 @@ class OfflinePage extends StatelessWidget {
       appBar: const NgAppBar(title: 'Data offline'),
       body: ListView(
         padding: const EdgeInsets.fromLTRB(kMargin, 8, kMargin, 16),
+        children: [
