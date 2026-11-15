@@ -238,3 +238,5 @@ class KeyValueBox extends StatelessWidget {
   final List<(String, String)> rows;
   final (String, String)? total;
   final Color fill;
+
+  @override
