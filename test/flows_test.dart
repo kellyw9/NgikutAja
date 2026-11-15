@@ -46,3 +46,4 @@ void main() {
 
   testWidgets('Login: password salah menampilkan error, password benar masuk', (tester) async {
     await phone(tester);
+    final s = newState(loggedIn: false);
