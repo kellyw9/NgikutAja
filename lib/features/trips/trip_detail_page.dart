@@ -298,3 +298,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
             padding: const EdgeInsets.fromLTRB(kMargin, 12, kMargin, 24),
             child: stops.isEmpty
                 ? Text('Belum ada aktivitas di Hari ${day + 1}. Tambahkan lewat Customize.', style: AppText.body.muted)
+                : Column(
