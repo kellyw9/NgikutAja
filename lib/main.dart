@@ -14,3 +14,4 @@ Future<void> main() async {
   } catch (_) {
     prefs = null; // tanpa penyimpanan lokal: aplikasi tetap jalan, status login tidak diingat
   }
+  runApp(NgikutAjaApp(state: AppState(prefs)));
