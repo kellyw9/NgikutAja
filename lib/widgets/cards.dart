@@ -571,3 +571,4 @@ class CreatorRow extends StatelessWidget {
                           overflow: TextOverflow.ellipsis,
                         ),
                       ],
+                    ),
