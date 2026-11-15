@@ -23,3 +23,4 @@ class NgField extends StatefulWidget {
     this.area = false,
     this.readOnly = false,
     this.obscure = false,
+    this.keyboardType,
