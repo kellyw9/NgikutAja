@@ -567,3 +567,4 @@ class _BudgetSlider extends StatelessWidget {
         data: SliderTheme.of(context).copyWith(
           trackHeight: 4,
           activeTrackColor: AppColors.ink,
+          inactiveTrackColor: AppColors.sunk,
