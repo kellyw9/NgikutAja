@@ -382,3 +382,4 @@ class NgChip extends StatelessWidget {
           child: Container(
             height: 36,
             padding: EdgeInsets.only(left: selected || icon != null ? 8 : 12, right: close ? 8 : 12),
+            child: Row(
