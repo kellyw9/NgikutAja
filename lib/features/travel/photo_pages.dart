@@ -44,3 +44,4 @@ class _PhotoPreviewPageState extends State<PhotoPreviewPage> {
                 value: st == null ? 'Tanpa aktivitas' : '${st.name} (Hari ${widget.day + 1})',
                 trailing: 'expand_more',
                 onTap: () async {
+                  final r = await showNgSheet<int>(
