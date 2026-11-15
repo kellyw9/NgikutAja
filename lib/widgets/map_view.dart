@@ -200,3 +200,4 @@ class _MapPainter extends CustomPainter {
     }
 
     if (pins.length > 1) {
+      final route = Path()..moveTo(pins.first.x * w, pins.first.y * h);
