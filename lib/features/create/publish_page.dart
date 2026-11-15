@@ -114,3 +114,4 @@ class _PublishPageState extends State<PublishPage> {
                     label: 'Harga adopsi',
                     controller: price,
                     prefixText: 'Rp',
+                    keyboardType: TextInputType.number,
