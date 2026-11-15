@@ -333,3 +333,4 @@ class PaidPreviewPage extends StatelessWidget {
                                 it.days == 2 && day2.isNotEmpty ? '${day2.length} aktivitas di Hari 2 terkunci' : '$lockedCount aktivitas terkunci',
                                 style: AppText.title,
                               ),
+                            ),
