@@ -244,3 +244,4 @@ class _SearchPageState extends State<SearchPage> {
                 padding: const EdgeInsets.only(left: kMargin, right: 8),
                 child: Row(
                   children: [
+                    const AppIcon('history', size: 20, color: AppColors.muted),
