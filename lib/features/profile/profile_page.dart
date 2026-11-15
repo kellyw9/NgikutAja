@@ -25,3 +25,4 @@ class ProfilePage extends StatelessWidget {
           'Profil',
           actions: [IconBtn('settings', label: 'Pengaturan', onTap: () => push(context, const SettingsPage()))],
         ),
+        ProfileHead(
