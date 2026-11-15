@@ -28,3 +28,4 @@ class CreateItineraryPage extends StatefulWidget {
 class _CreateItineraryPageState extends State<CreateItineraryPage> {
   late final Itinerary d = widget.draft ?? AppScope.read(context).newDraft();
   late final title = TextEditingController(text: d.title);
+  late final desc = TextEditingController(text: d.desc);
