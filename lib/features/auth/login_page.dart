@@ -121,3 +121,4 @@ class _LoginPageState extends State<LoginPage> {
                           trailing: ObscureToggle(obscured: obscure, onTap: () => setState(() => obscure = !obscure)),
                           error: passErr,
                         ),
+                        Align(
