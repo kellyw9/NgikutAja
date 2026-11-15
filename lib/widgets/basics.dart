@@ -616,3 +616,4 @@ class Progress extends StatelessWidget {
 class Stars extends StatelessWidget {
   const Stars(this.n, {super.key, this.size = 16});
   final int n;
+  final double size;
