@@ -196,3 +196,4 @@ class Seed {
           _s('15.30', '17.30', 'Pantai Pasir Putih Parbaba', _a, 5000, 'parbaba', 'Sewa tikar Rp10.000 kalau mau duduk lama.'),
         ],
         [
+          _s('08.00', '09.30', 'Desa Tomok', _b, 10000),
