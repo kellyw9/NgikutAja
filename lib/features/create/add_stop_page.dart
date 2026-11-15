@@ -31,3 +31,4 @@ class _AddStopPageState extends State<AddStopPage> {
   String? get timeErr => toMinutes(end) <= toMinutes(start) ? 'Jam selesai harus setelah jam mulai' : null;
 
   void _save() {
+    setState(() => tried = true);
