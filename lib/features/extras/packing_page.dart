@@ -8,3 +8,4 @@ class PackingPage extends StatefulWidget {
   final Trip trip;
 
   @override
+  State<PackingPage> createState() => _PackingPageState();
