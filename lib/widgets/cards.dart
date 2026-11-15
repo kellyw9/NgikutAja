@@ -577,3 +577,4 @@ class CreatorRow extends StatelessWidget {
               ),
             ),
           ),
+          if (!mine) ...[
