@@ -21,3 +21,4 @@ class _EditProfilePageState extends State<EditProfilePage> {
 
   String? get userErr {
     final u = user.text.trim();
+    if (u.length < 3) return 'Minimal 3 karakter';
