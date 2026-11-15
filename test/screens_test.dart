@@ -127,3 +127,4 @@ void main() {
           ),
         );
         await tester.pump(const Duration(milliseconds: 800));
+        await tester.pump(const Duration(milliseconds: 800));
