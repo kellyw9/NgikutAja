@@ -441,3 +441,4 @@ class _PickLocationPageState extends State<PickLocationPage> {
                 NgButton(
                   'Pilih lokasi ini',
                   trailingIcon: 'arrow_forward',
+                  expand: true,
