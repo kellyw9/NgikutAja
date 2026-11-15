@@ -37,3 +37,4 @@ class NotificationsPage extends StatelessWidget {
     final today = app.notifications.where((n) => n.today).toList();
     final older = app.notifications.where((n) => !n.today).toList();
     return Scaffold(
+      backgroundColor: AppColors.ground,
