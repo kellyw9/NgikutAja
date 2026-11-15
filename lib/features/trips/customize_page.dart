@@ -323,3 +323,4 @@ class _CustomizePageState extends State<CustomizePage> {
               padding: const EdgeInsets.symmetric(horizontal: kMargin),
               child: NgCard(
                 padding: const EdgeInsets.all(10),
+                onTap: () => push(context, EditTripInfoPage(trip: t), fullscreen: true).then((_) => setState(() {})),
