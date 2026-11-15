@@ -143,3 +143,4 @@ class _MapPainter extends CustomPainter {
         ..cubicTo(.36 * w, .25 * h, .38 * w, .14 * h, .45 * w, .12 * h)
         ..close();
       canvas.drawPath(island, Paint()..color = AppColors.mapLand);
+      canvas.drawOval(Rect.fromCenter(center: p(.55, .5), width: .26 * w, height: .28 * h), Paint()..color = AppColors.mapPark);
