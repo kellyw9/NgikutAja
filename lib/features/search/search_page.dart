@@ -281,3 +281,4 @@ class _SearchPageState extends State<SearchPage> {
     final itins = app.itineraries.where((x) => !x.isDraft && x.title.toLowerCase().contains(q)).take(5).toList();
     final rows = <Widget>[
       if (mode == 'Kota')
+        for (final c in cities) _suggest('location_on', c.name, 'Kota, ${app.cityCount(c)} itinerary', () => _submit(c.name)),
