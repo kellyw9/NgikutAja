@@ -298,3 +298,4 @@ class _AddExpensePageState extends State<AddExpensePage> {
                 },
               ),
               Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
