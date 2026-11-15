@@ -355,3 +355,4 @@ class _SearchPageState extends State<SearchPage> {
       padding: const EdgeInsets.only(bottom: 24),
       children: [
         if (chips.isNotEmpty)
+          Padding(
