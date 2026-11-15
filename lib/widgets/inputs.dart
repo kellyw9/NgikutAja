@@ -357,3 +357,4 @@ class NgStepper extends StatelessWidget {
 class NgChip extends StatelessWidget {
   const NgChip(this.label, {super.key, this.selected = false, this.icon, this.close = false, this.onTap});
   final String label;
+  final bool selected;
