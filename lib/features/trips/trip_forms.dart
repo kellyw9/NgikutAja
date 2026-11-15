@@ -152,3 +152,4 @@ class _EditStopPageState extends State<EditStopPage> {
                           ),
                         );
                         if (d != null) setState(() => duration = d);
+                      },
