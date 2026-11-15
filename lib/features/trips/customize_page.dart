@@ -124,3 +124,4 @@ class _CustomizePageState extends State<CustomizePage> {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Text(st.name, style: AppText.bodyStrong),
+                            const SizedBox(height: 2),
