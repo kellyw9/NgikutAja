@@ -266,3 +266,4 @@ class _AddStopPageState extends State<AddStopPage> {
                       context,
                       icon: 'delete',
                       title: 'Hapus ${s!.name}?',
+                      body: 'Stop ini dihapus dari hari ini. Jam stop lain tidak ikut bergeser.',
