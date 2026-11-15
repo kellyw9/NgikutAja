@@ -237,3 +237,4 @@ class _NextCard extends StatelessWidget {
               Expanded(
                 child: NgButton(
                   'Check-in',
+                  kind: BtnKind.secondary,
