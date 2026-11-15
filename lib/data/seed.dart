@@ -189,3 +189,4 @@ class Seed {
             'Bukit Holbung',
             _a,
             10000,
+            'holbung',
