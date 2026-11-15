@@ -285,3 +285,4 @@ class PaidPreviewPage extends StatelessWidget {
                 ],
               ),
             ),
+            const SizedBox(height: 20),
