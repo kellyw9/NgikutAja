@@ -245,3 +245,4 @@ class _AddExpensePageState extends State<AddExpensePage> {
                 label: 'Nama pengeluaran',
                 controller: name,
                 hint: 'Misal: Makan siang ikan mas arsik',
+                error: tried && name.text.trim().isEmpty ? 'Nama pengeluaran wajib diisi' : null,
