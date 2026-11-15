@@ -201,3 +201,4 @@ class Grid2 extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Expanded(
+              child: WisataCard(items[r * 2], variant: CardVariant.grid, onTap: () => onTap(items[r * 2]), onGuest: onGuest, showWish: showWish),
