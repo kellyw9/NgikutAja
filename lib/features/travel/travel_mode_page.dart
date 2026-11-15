@@ -113,3 +113,4 @@ class TravelModePage extends StatelessWidget {
                           const AppIcon('task_alt', color: AppColors.positive),
                           const SizedBox(width: 10),
                           Expanded(
+                            child: Text(
