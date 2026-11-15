@@ -163,3 +163,4 @@ class _MapPainter extends CustomPainter {
           ..strokeWidth = 7
           ..strokeCap = StrokeCap.butt,
       );
+    } else {
