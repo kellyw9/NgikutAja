@@ -451,3 +451,4 @@ class HeroPhoto extends StatelessWidget {
 
 /// Ikon kecil dalam kotak (header layar status, notifikasi).
 class IconTile extends StatelessWidget {
+  const IconTile(this.icon, {super.key, this.size = 56, this.fill = AppColors.sunk, this.color = AppColors.ink, this.iconSize = 28, this.border});
