@@ -71,3 +71,4 @@ class ProfilePage extends StatelessWidget {
             children: [
               Text('Itinerary saya', style: AppText.h2),
               const SizedBox(height: 12),
+              if (mine.isEmpty)
