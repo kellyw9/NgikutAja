@@ -147,3 +147,5 @@ class _NewPasswordPageState extends State<NewPasswordPage> {
     resetTo(context, const LoginPage());
     showNgSnack(context, 'Password baru tersimpan. Silakan masuk.', kind: SnackKind.success);
   }
+
+  @override
