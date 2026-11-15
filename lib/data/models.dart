@@ -247,3 +247,4 @@ class Trip {
     List<PackGroup>? packing,
     Map<String, String>? checkins,
     List<TripPhoto>? photos,
+    Map<int, JournalEntry>? journal,
