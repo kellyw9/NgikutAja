@@ -35,3 +35,4 @@ class _LoginPageState extends State<LoginPage> {
   Future<void> _submit() async {
     setState(() {
       emailErr = validateEmail(email.text);
+      passErr = pass.text.isEmpty ? 'Isi password dulu' : null;
