@@ -82,3 +82,4 @@ final Map<String, PageFor> pages = {
   'packing': (s) => PackingPage(trip: s.trips[0]),
   'tips': (s) => TipsPage(trip: s.trips[0]),
   'tips kosong': (s) => TipsPage(trip: s.trips[1]),
+  'tip': (s) => TipDetailPage(tip: s.seed.tips['Samosir']![0]),
