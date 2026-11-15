@@ -612,3 +612,4 @@ class _SquareThumb extends RangeSliderThumbShape {
     bool isEnabled = false,
     bool? isOnTop,
     TextDirection? textDirection,
+    required SliderThemeData sliderTheme,
