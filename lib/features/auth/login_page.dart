@@ -42,3 +42,4 @@ class _LoginPageState extends State<LoginPage> {
     setState(() => loading = true);
     final ok = await AppScope.read(context).login(email.text, pass.text);
     if (!mounted) return;
+    setState(() {
