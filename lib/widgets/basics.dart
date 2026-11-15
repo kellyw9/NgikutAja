@@ -421,3 +421,4 @@ class PriceTag extends StatelessWidget {
   Widget build(BuildContext context) => Container(
     height: 28,
     padding: const EdgeInsets.only(left: 6, right: 10),
+    decoration: BoxDecoration(color: AppColors.surface, borderRadius: BorderRadius.circular(AppRadius.tag)),
