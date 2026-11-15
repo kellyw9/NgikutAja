@@ -331,3 +331,4 @@ class Seed {
         rating: 4.6,
         tags: ['Alam'],
         publishedAt: _d(-60),
+      ),
