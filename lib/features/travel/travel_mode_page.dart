@@ -27,3 +27,4 @@ class TravelModePage extends StatelessWidget {
     return AnnotatedRegion(
       value: kLightIcons.copyWith(systemNavigationBarColor: AppColors.surface, systemNavigationBarIconBrightness: Brightness.dark),
       child: Scaffold(
+        backgroundColor: AppColors.ground,
