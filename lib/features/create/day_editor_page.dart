@@ -196,3 +196,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
                     ),
                     ReorderableListView(
                       shrinkWrap: true,
+                      physics: const NeverScrollableScrollPhysics(),
