@@ -275,3 +275,4 @@ class _AddExpensePageState extends State<AddExpensePage> {
                 label: 'Hari',
                 icon: 'event',
                 value: date == null
+                    ? 'Hari ${day + 1}'
