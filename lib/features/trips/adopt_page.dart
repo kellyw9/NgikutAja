@@ -20,3 +20,5 @@ class _AdoptPageState extends State<AdoptPage> {
   bool each = true;
   int offset = 30;
   bool offline = true;
+
+  Future<void> _adopt() async {
