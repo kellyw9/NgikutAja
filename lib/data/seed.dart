@@ -420,3 +420,4 @@ class Seed {
 
     trips = [
       Trip(
+        id: 'toba-kampus',
