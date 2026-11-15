@@ -256,3 +256,4 @@ class EmptyState extends StatelessWidget {
             decoration: BoxDecoration(color: AppColors.sunk, borderRadius: BorderRadius.circular(AppRadius.card)),
             child: AppIcon(icon, size: 28),
           ),
+          const SizedBox(height: 10),
