@@ -363,3 +363,4 @@ class AddPhotoTile extends StatelessWidget {
         dimension: size,
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
+          children: [
