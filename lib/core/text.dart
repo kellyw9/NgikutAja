@@ -33,3 +33,4 @@ class AppText {
 }
 
 extension TextStyleX on TextStyle {
+  TextStyle c(Color color) => copyWith(color: color);
