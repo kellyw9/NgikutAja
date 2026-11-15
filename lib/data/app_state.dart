@@ -302,3 +302,4 @@ class AppState extends ChangeNotifier {
       remindEach: remindEach,
       remindOffset: offset,
       offline: offline,
+      offlineSize: offline ? 6 + it.places : 0,
