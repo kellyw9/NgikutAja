@@ -173,3 +173,4 @@ class _AddStopPageState extends State<AddStopPage> {
                           if (photo != null) ...[
                             SizedBox(
                               width: w,
+                              height: 94,
