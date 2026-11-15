@@ -46,3 +46,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
         stop: i == null ? null : d.plan[day][i].copy(),
         city: d.city,
         defaultStart: d.plan[day].isEmpty ? '08.00' : fromMinutes(d.plan[day].map((s) => s.endMin).reduce((a, b) => a > b ? a : b) + 15),
+      ),
