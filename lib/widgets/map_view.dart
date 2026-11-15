@@ -120,3 +120,4 @@ class _MapPainter extends CustomPainter {
   @override
   void paint(Canvas canvas, Size s) {
     final w = s.width, h = s.height;
+    Offset p(double x, double y) => Offset(x * w, y * h);
