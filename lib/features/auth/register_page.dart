@@ -71,3 +71,4 @@ class _RegisterPageState extends State<RegisterPage> {
       backgroundColor: AppColors.ground,
       appBar: const NgAppBar(),
       body: SafeArea(
+        top: false,
