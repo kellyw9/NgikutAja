@@ -50,3 +50,5 @@ class _CalendarState extends State<_Calendar> {
     final end = sel.add(Duration(days: widget.days - 1));
     bool same(DateTime a, DateTime b) => a.year == b.year && a.month == b.month && a.day == b.day;
     final firstMonth = DateTime(widget.first.year, widget.first.month);
+
+    Widget cell(int? d) {
