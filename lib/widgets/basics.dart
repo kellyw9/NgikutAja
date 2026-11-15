@@ -257,3 +257,4 @@ class Photo extends StatelessWidget {
         'assets/photos/$s.jpg',
         fit: BoxFit.cover,
         width: width,
+        height: height,
