@@ -392,3 +392,4 @@ class Seed {
         city: 'Berastagi',
         region: 'Karo, Sumatera Utara',
         days: 1,
+        cover: null,
