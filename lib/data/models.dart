@@ -198,3 +198,4 @@ class Expense {
   int amount;
   String by; // nama depan anggota
   int day; // indeks hari (0 = Hari 1)
+  String time;
