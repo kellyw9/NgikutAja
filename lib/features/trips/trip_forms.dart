@@ -286,3 +286,4 @@ class _EditTripInfoPageState extends State<EditTripInfoPage> {
                         kind: BtnKind.secondary,
                         size: BtnSize.md,
                         icon: 'photo_camera',
+                        onPressed: () async {
