@@ -523,3 +523,4 @@ class _SearchPageState extends State<SearchPage> {
                           ..price = 'Semua';
                       }),
                     ),
+                    const SizedBox(width: 12),
