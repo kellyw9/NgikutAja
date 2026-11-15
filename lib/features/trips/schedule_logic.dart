@@ -22,3 +22,4 @@ int activeMinutes(List<Stop> day) => day.fold(0, (a, s) => a + s.duration);
 int? shortestGap(List<Stop> day) {
   final s = [...day]..sort((a, b) => a.startMin.compareTo(b.startMin));
   int? best;
+  for (var i = 1; i < s.length; i++) {
