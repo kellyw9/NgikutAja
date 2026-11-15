@@ -129,3 +129,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
                             children: [
                               Text(r.name, style: AppText.bodyStrong),
                               const SizedBox(height: 2),
+                              Text('Trip ${r.date}', style: AppText.small.muted),
