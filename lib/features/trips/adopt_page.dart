@@ -199,3 +199,4 @@ class AdoptProgressPage extends StatefulWidget {
   final Itinerary it;
   final DateTime start;
   final bool dayBefore;
+  final bool each;
