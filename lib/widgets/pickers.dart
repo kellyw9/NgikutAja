@@ -48,3 +48,4 @@ class _CalendarState extends State<_Calendar> {
       cells.add(null);
     }
     final end = sel.add(Duration(days: widget.days - 1));
+    bool same(DateTime a, DateTime b) => a.year == b.year && a.month == b.month && a.day == b.day;
