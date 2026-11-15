@@ -69,3 +69,5 @@ class PhotoViewerPage extends StatefulWidget {
   @override
   State<PhotoViewerPage> createState() => _PhotoViewerPageState();
 }
+
+class _PhotoViewerPageState extends State<PhotoViewerPage> {
