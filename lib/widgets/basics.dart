@@ -526,3 +526,4 @@ class Wordmark extends StatelessWidget {
           ],
         ),
       ),
+    );
