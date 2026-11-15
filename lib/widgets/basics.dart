@@ -483,3 +483,4 @@ class Avatar extends StatelessWidget {
     if (photo != null) {
       return ClipOval(
         child: Photo(photo, width: size, height: size, semantic: 'Foto profil $name'),
+      );
