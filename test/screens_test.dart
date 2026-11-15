@@ -147,3 +147,4 @@ void main() {
       addTearDown(() => shellTab.value = 0);
       await tester.pumpWidget(
         AppScope(
+          state: s,
