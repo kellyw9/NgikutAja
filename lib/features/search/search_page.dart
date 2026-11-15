@@ -162,3 +162,4 @@ class _SearchPageState extends State<SearchPage> {
             padding: const EdgeInsets.only(left: 12, right: 4),
             decoration: BoxDecoration(
               color: AppColors.surface,
+              borderRadius: BorderRadius.circular(AppRadius.control),
