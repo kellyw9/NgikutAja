@@ -30,3 +30,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
     if (input.text.trim().isEmpty) return;
     AppScope.read(context).addComment(widget.it, input.text, replyTo: replyTo);
     input.clear();
+    setState(() => replyTo = null);
