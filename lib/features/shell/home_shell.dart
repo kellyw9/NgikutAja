@@ -54,3 +54,4 @@ class _HomeShellState extends State<HomeShell> {
           child: Scaffold(
             backgroundColor: AppColors.ground,
             body: SafeArea(
+              bottom: false,
