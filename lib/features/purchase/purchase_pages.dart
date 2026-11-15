@@ -494,3 +494,4 @@ class PurchaseHistoryPage extends StatelessWidget {
               },
             ),
     );
+  }
