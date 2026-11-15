@@ -163,3 +163,4 @@ class Seed {
       id: 'toba',
       title: 'Danau Toba 2 Hari Santai ala Lokal',
       city: 'Samosir',
+      region: 'Samosir, Sumatera Utara',
