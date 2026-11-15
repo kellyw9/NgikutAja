@@ -485,3 +485,4 @@ class PurchaseHistoryPage extends StatelessWidget {
                             Pill(t.status.label, kind: kind(t.status)),
                           ],
                         ),
+                      ),
