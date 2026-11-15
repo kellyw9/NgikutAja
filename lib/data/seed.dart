@@ -503,3 +503,4 @@ class Seed {
       Review(
         name: 'Yohana Pardede',
         tint: 2,
+        stars: 5,
