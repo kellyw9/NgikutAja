@@ -27,3 +27,4 @@ class _JournalPageState extends State<JournalPage> {
       builder: (ctx) => Gap(
         16,
         children: [
+          NgField(controller: c, area: true, hint: 'Ceritakan trip ini dalam beberapa kalimat.', autofocus: true),
