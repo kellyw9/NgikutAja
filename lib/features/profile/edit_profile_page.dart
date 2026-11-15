@@ -73,3 +73,4 @@ class _EditProfilePageState extends State<EditProfilePage> {
       child: Scaffold(
         backgroundColor: AppColors.ground,
         appBar: NgAppBar(
+          title: 'Edit profil',
