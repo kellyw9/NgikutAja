@@ -317,3 +317,4 @@ class _SearchPageState extends State<SearchPage> {
                 borderRadius: BorderRadius.circular(AppRadius.inner),
                 border: Border.all(color: AppColors.line),
               ),
+              child: AppIcon(icon, size: 20),
