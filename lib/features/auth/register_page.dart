@@ -45,3 +45,4 @@ class _RegisterPageState extends State<RegisterPage> {
     setState(() => tried = true);
     if (!valid) return;
     setState(() => loading = true);
+    await AppScope.read(context).register(name.text, email.text, pass.text);
