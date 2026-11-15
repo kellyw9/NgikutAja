@@ -357,3 +357,4 @@ class AppState extends ChangeNotifier {
     t.members.add(
       Member(name: name, handle: h, role: role, tint: t.members.length % 6, joined: '${today.day} ${monthsShort[today.month - 1]} ${today.year}'),
     );
+    notifyListeners();
