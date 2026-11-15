@@ -305,3 +305,4 @@ class _CustomizePageState extends State<CustomizePage> {
     return PopScope(
       canPop: changes == 0,
       onPopInvokedWithResult: (didPop, _) async {
+        if (didPop) return;
