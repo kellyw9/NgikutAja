@@ -76,3 +76,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
           Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
+              Text(st.name, style: AppText.h2),
