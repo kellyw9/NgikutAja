@@ -32,3 +32,4 @@ class _CreatorProfilePageState extends State<CreatorProfilePage> {
       body: ListView(
         padding: const EdgeInsets.only(bottom: 24),
         children: [
+          ProfileHead(
