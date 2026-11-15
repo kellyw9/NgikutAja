@@ -120,3 +120,4 @@ class AboutPage extends StatelessWidget {
     backgroundColor: AppColors.ground,
     appBar: const NgAppBar(title: 'Tentang NgikutAja'),
     body: FutureBuilder<String>(
+      future: rootBundle.loadString('assets/photos/credits.json'),
