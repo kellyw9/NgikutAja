@@ -138,3 +138,4 @@ class _AddStopPageState extends State<AddStopPage> {
                     Row(
                       children: [
                         const AppIcon('error', size: 16, color: AppColors.negative),
+                        const SizedBox(width: 6),
