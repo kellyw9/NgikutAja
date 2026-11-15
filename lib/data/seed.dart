@@ -556,3 +556,4 @@ class Seed {
     final yday = weekdaysLong[_d(-1).weekday - 1];
     notifications = [
       AppNotification(
+        id: 'n1',
