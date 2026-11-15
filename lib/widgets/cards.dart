@@ -38,3 +38,4 @@ class Proof extends StatelessWidget {
 class WishButton extends StatelessWidget {
   const WishButton(this.it, {super.key, this.boxed = true, this.onGuest});
   final Itinerary it;
+  final bool boxed;
