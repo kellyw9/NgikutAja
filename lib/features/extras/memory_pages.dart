@@ -19,3 +19,4 @@ class PhotoMemoryPage extends StatelessWidget {
     final days = {for (final p in t.photos) p.day}.toList()..sort();
     return Scaffold(
       backgroundColor: AppColors.ground,
+      appBar: NgAppBar(title: 'Photo memory', sub: t.title),
