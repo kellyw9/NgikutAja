@@ -91,3 +91,4 @@ class AppState extends ChangeNotifier {
     final ok = _accounts[email.trim().toLowerCase()] == password;
     if (ok) _setLoggedIn(true);
     return ok;
+  }
