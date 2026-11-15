@@ -369,3 +369,4 @@ class NgChip extends StatelessWidget {
       selected: selected,
       button: true,
       label: close ? '$label, hapus filter' : null,
+      child: Material(
