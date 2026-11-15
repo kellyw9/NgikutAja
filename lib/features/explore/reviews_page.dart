@@ -11,3 +11,5 @@ class ReviewsPage extends StatefulWidget {
   @override
   State<ReviewsPage> createState() => _ReviewsPageState();
 }
+
+class _ReviewsPageState extends State<ReviewsPage> {
