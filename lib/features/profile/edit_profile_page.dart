@@ -56,3 +56,4 @@ class _EditProfilePageState extends State<EditProfilePage> {
         final r = await showNgDialog(
           context,
           title: 'Buang perubahan?',
+          body: 'Perubahan profil yang baru kamu buat belum disimpan.',
