@@ -214,3 +214,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
                         Expanded(child: Text('Budget dihitung otomatis dari biaya tiap stop', style: AppText.small.muted)),
                       ],
                     ),
+                  ],
