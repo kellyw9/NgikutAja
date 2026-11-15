@@ -9,3 +9,4 @@ import 'package:ngikutaja/features/create/create_itinerary_page.dart';
 import 'package:ngikutaja/features/explore/itinerary_detail_page.dart';
 import 'package:ngikutaja/features/profile/wishlist_page.dart';
 import 'package:ngikutaja/features/shell/home_shell.dart';
+import 'package:ngikutaja/features/trips/customize_page.dart';
