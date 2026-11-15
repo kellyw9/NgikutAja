@@ -55,3 +55,4 @@ ThemeData buildTheme() {
     splashFactory: InkRipple.splashFactory,
     textSelectionTheme: TextSelectionThemeData(
       cursorColor: AppColors.ink,
+      selectionColor: AppColors.teal.withValues(alpha: .3),
