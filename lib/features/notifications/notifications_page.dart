@@ -185,3 +185,4 @@ class NotificationDetailPage extends StatelessWidget {
                   child: Row(
                     children: [
                       Marker(idx! + 1, state: MarkerState.next),
+                      const SizedBox(width: 10),
