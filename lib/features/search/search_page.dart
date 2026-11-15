@@ -167,3 +167,4 @@ class _SearchPageState extends State<SearchPage> {
             ),
             child: Row(
               children: [
+                const AppIcon('search', size: 20, color: AppColors.muted),
