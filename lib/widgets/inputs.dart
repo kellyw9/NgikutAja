@@ -19,3 +19,4 @@ class NgField extends StatefulWidget {
     this.icon,
     this.trailing,
     this.helper,
+    this.error,
