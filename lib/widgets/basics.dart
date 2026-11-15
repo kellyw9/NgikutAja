@@ -319,3 +319,4 @@ class DashedAction extends StatelessWidget {
   final VoidCallback onTap;
   final String icon;
   final double height;
+  final Color color;
