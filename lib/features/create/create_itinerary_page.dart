@@ -19,3 +19,4 @@ void saveDraftAndClose(BuildContext context, Itinerary d) {
 /// Langkah 1: Buat Itinerary (+ state validasi error).
 class CreateItineraryPage extends StatefulWidget {
   const CreateItineraryPage({super.key, this.draft});
+  final Itinerary? draft;
