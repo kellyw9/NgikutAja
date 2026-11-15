@@ -396,3 +396,4 @@ class NavigationPage extends StatelessWidget {
                 child: IconBtn('arrow_back', label: 'Kembali', bg: AppColors.surface, size: 40, onTap: () => Navigator.pop(context)),
               ),
             ),
+          ),
