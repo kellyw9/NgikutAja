@@ -86,3 +86,4 @@ void main() {
   testWidgets('Customize: jadwal bentrok terdeteksi, saran diterapkan, lalu tersimpan', (tester) async {
     await phone(tester);
     final s = newState();
+    final t = s.trips.firstWhere((x) => x.id == 'medan-libur');
