@@ -336,3 +336,4 @@ class _PaymentStatusPageState extends State<PaymentStatusPage> {
               NgButton(
                 'Simulasikan bayar berhasil',
                 expand: true,
+                onPressed: () {
