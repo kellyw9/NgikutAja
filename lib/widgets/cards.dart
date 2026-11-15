@@ -68,3 +68,4 @@ class WisataCard extends StatelessWidget {
   const WisataCard(this.it, {super.key, this.variant = CardVariant.feed, required this.onTap, this.onGuest, this.showWish = true});
   final Itinerary it;
   final CardVariant variant;
+  final VoidCallback onTap;
