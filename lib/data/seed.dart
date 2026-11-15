@@ -459,3 +459,4 @@ class Seed {
             photos: ['samosir', 'holbung'],
           ),
         },
+        offline: true,
