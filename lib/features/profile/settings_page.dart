@@ -138,3 +138,4 @@ class AboutPage extends StatelessWidget {
                 ),
                 Text('Kredit foto', style: AppText.h2),
                 if (snap.hasError) Text('Daftar kredit tidak bisa dimuat.', style: AppText.body.muted),
+                if (!snap.hasData && !snap.hasError) const Align(alignment: Alignment.centerLeft, child: SpinIcon()),
