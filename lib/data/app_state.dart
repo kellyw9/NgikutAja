@@ -123,3 +123,4 @@ class AppState extends ChangeNotifier {
       ..handle = '@${username.trim()}'
       ..bio = bio.trim();
     notifyListeners();
+  }
