@@ -203,3 +203,4 @@ class _SearchPageState extends State<SearchPage> {
           children: [
             IconBtn(
               'tune',
+              label: filter.count > 0 ? 'Filter, ${filter.count} aktif' : 'Filter',
