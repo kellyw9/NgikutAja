@@ -235,3 +235,4 @@ class FactStrip extends StatelessWidget {
 /// Daftar label-nilai (struk, rincian biaya). Nilai rata kanan.
 class KeyValueBox extends StatelessWidget {
   const KeyValueBox(this.rows, {super.key, this.total, this.fill = AppColors.surfaceSoft});
+  final List<(String, String)> rows;
