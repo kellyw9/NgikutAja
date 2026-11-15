@@ -117,3 +117,4 @@ class _JournalPageState extends State<JournalPage> {
                 active: _dayLabel(day),
                 onChanged: (l) => setState(() => day = [for (var d = 0; d < t.days; d++) _dayLabel(d)].indexOf(l)),
               ),
+            )
