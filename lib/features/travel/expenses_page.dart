@@ -216,3 +216,4 @@ class _AddExpensePageState extends State<AddExpensePage> {
           receipt: receipt,
         ),
       );
+    }
