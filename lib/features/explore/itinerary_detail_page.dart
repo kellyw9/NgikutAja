@@ -286,3 +286,4 @@ class PaidPreviewPage extends StatelessWidget {
               ),
             ),
             const SizedBox(height: 20),
+            const SectionHead('Jadwal per hari', sub: 'Hari 1 bisa dilihat gratis'),
