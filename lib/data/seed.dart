@@ -152,3 +152,4 @@ class Seed {
         [
           _s('08.00', '09.30', 'Pasar Petisah', _so, 50000),
           _s('10.30', '12.00', 'Museum Negeri Sumatera Utara', _b, 10000),
+          _s('13.00', '14.00', 'Mie Aceh Titi Bobrok', _m, 75000),
