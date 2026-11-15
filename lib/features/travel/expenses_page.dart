@@ -189,3 +189,4 @@ class _AddExpensePageState extends State<AddExpensePage> {
   bool tried = false;
 
   void _save() {
+    setState(() => tried = true);
