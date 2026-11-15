@@ -177,3 +177,4 @@ class Bell extends StatelessWidget {
               child: Container(
                 width: 10,
                 height: 10,
+                decoration: BoxDecoration(
