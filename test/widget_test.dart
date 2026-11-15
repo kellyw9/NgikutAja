@@ -6,3 +6,4 @@ import 'package:ngikutaja/data/models.dart';
 import 'package:ngikutaja/features/trips/schedule_logic.dart';
 
 void main() {
+  testWidgets('Splash lalu onboarding untuk pengguna baru', (tester) async {
