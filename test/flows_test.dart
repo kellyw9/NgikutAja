@@ -171,3 +171,4 @@ void main() {
     expect(find.text('Masuk dulu ke akunmu'), findsOneWidget);
     expect(s.wishlist.length, 3); // tidak berubah
   });
+}
