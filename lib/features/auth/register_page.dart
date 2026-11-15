@@ -141,3 +141,4 @@ class _RegisterPageState extends State<RegisterPage> {
                         trailing: ObscureToggle(obscured: ob2, onTap: () => setState(() => ob2 = !ob2)),
                         error: confirmErr,
                       ),
+                      const Spacer(),
