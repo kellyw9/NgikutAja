@@ -72,3 +72,4 @@ class _LoginPageState extends State<LoginPage> {
       child: Scaffold(
         backgroundColor: AppColors.ground,
         appBar: widget.popOnSuccess ? const NgAppBar(back: 'close') : null,
+        body: SafeArea(
