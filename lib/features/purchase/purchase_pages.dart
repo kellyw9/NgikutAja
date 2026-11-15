@@ -319,3 +319,4 @@ class _PaymentStatusPageState extends State<PaymentStatusPage> {
             icon: 'hourglass_top',
             tone: AppColors.yellowPale,
             title: 'Menunggu pembayaran',
+            text: 'Selesaikan transaksi dalam $mm.$ss menit. Status akan diperbarui otomatis setelah pembayaran diterima.',
