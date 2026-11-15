@@ -479,3 +479,4 @@ class Seed {
       Trip(
         id: 'jogja-sep',
         title: 'Jogja Hemat 3 Hari Naik Trans Jogja',
+        city: 'Yogyakarta',
