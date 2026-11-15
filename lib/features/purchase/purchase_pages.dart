@@ -529,3 +529,4 @@ class TransactionDetailPage extends StatelessWidget {
           padding: const EdgeInsets.fromLTRB(kMargin, 0, kMargin, 16),
           child: switch (tx.status) {
             TxStatus.berhasil => NgButton('Buka itinerary', expand: true, onPressed: () => openItinerary(context, tx.item)),
+            TxStatus.pending => NgButton('Lanjutkan pembayaran', expand: true, onPressed: () => push(context, PaymentStatusPage(tx: tx))),
