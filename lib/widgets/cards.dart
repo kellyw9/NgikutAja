@@ -634,3 +634,4 @@ class ProfileHead extends StatelessWidget {
                   children: [stat('Itinerary', itins, null), stat('Pengikut', p.followers, onFollowers), stat('Mengikuti', p.following, onFollowing)],
                 ),
               ),
+            ],
