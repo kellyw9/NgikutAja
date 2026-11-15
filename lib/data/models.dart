@@ -89,3 +89,4 @@ class Itinerary {
     List<String>? dayTitles,
     List<List<Stop>>? plan,
     this.lodging = 0,
+    this.estimateSeed,
