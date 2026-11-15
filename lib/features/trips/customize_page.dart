@@ -208,3 +208,4 @@ class _CustomizePageState extends State<CustomizePage> {
               icon: 'calendar_month',
               value: dateLong(newDate),
               readOnly: true,
+              fill: AppColors.surfaceSoft,
