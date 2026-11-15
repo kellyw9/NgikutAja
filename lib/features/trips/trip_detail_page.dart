@@ -218,3 +218,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
                         onPressed: () => push(context, MembersPage(trip: t)),
                       ),
                     ),
+                  ],
