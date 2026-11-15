@@ -79,3 +79,4 @@ class _NgFieldState extends State<NgField> {
   void dispose() {
     if (widget.focusNode == null) _focus.dispose();
     super.dispose();
+  }
