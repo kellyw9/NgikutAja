@@ -169,3 +169,4 @@ void main() {
     await tester.tap(find.byTooltip('Simpan ke Wishlist').first);
     await tester.pumpAndSettle();
     expect(find.text('Masuk dulu ke akunmu'), findsOneWidget);
+    expect(s.wishlist.length, 3); // tidak berubah
