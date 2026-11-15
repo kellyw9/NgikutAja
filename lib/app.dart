@@ -8,3 +8,4 @@ import 'features/auth/reset_password_page.dart';
 import 'features/auth/splash_page.dart';
 
 class NgikutAjaApp extends StatelessWidget {
+  const NgikutAjaApp({super.key, required this.state});
