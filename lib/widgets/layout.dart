@@ -167,3 +167,4 @@ class BottomBar extends StatelessWidget {
   Widget build(BuildContext context) => Material(
     color: AppColors.surface,
     child: SafeArea(
+      top: false,
