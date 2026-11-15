@@ -11,3 +11,4 @@ class TipsPage extends StatelessWidget {
   Widget build(BuildContext context) {
     final app = AppScope.of(context);
     final tips = app.seed.tips[trip.city] ?? const <LocalTip>[];
+    return Scaffold(
