@@ -158,3 +158,4 @@ class _AdoptPageState extends State<AdoptPage> {
               ),
               NgButton('Adopt ke Trip Saya', icon: 'luggage', expand: true, onPressed: _adopt),
             ],
+          ),
