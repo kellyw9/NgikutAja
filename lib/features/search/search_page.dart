@@ -363,3 +363,4 @@ class _SearchPageState extends State<SearchPage> {
           Padding(
             padding: const EdgeInsets.all(kMargin),
             child: EmptyState(
+              icon: 'travel_explore',
