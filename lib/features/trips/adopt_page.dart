@@ -50,3 +50,4 @@ class _AdoptPageState extends State<AdoptPage> {
     final before = start.subtract(const Duration(days: 1));
     return Scaffold(
       backgroundColor: AppColors.ground,
+      appBar: const NgAppBar(title: 'Adopt ke Trip Saya', back: 'close'),
