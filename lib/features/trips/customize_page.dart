@@ -15,3 +15,5 @@ class CustomizePage extends StatefulWidget {
   @override
   State<CustomizePage> createState() => _CustomizePageState();
 }
+
+class _CustomizePageState extends State<CustomizePage> {
