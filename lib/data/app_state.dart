@@ -183,3 +183,5 @@ class AppState extends ChangeNotifier {
     notifyListeners();
     return on;
   }
+
+  void restoreWish(String id) {
