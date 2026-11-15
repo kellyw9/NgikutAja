@@ -417,3 +417,4 @@ class NavigationPage extends StatelessWidget {
                     Marker(i + 1, state: MarkerState.next),
                     const SizedBox(width: 10),
                     Expanded(
+                      child: Column(
