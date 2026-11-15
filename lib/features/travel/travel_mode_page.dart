@@ -385,3 +385,4 @@ class NavigationPage extends StatelessWidget {
               ],
               me: const Offset(.72, .38),
               label: false,
+            ),
