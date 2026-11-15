@@ -53,3 +53,4 @@ class _PeoplePageState extends State<PeoplePage> {
                         children: [
                           Text(list[i].name, style: AppText.bodyStrong),
                           const SizedBox(height: 2),
+                          Text(list[i].handle, style: AppText.small.muted),
