@@ -49,3 +49,4 @@ class ExpensesPage extends StatelessWidget {
                     ],
                   );
                   if (r == true && ctx.mounted) {
+                    Navigator.pop(ctx);
