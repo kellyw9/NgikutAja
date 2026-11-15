@@ -146,3 +146,4 @@ class Seed {
             'Ikut tur pemandu, durasi sekitar 45 menit.',
             'Rumah saudagar Tionghoa tahun 1900 di Jalan Ahmad Yani, sekarang museum dengan perabot aslinya.',
           ),
+          _s('15.00', '16.00', 'Jalan kaki di Kesawan', _so, 0, 'kesawan', 'Deretan ruko tua di sepanjang Jalan Ahmad Yani.'),
