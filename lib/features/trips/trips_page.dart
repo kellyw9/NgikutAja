@@ -30,3 +30,4 @@ class TripsPage extends StatelessWidget {
             ),
           ),
           Expanded(
+            child: ListView(
