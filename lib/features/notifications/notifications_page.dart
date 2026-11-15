@@ -158,3 +158,4 @@ class NotificationDetailPage extends StatelessWidget {
         children: [
           Gap(
             14,
+            children: [
