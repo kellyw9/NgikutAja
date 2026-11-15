@@ -230,3 +230,4 @@ class _SearchPageState extends State<SearchPage> {
   );
 
   Widget _idle(AppState app) => ListView(
+    padding: const EdgeInsets.only(top: 16, bottom: 24),
