@@ -157,3 +157,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
       padding: const EdgeInsets.symmetric(vertical: 8),
       children: [
         for (final c in list)
+          Padding(
