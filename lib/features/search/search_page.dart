@@ -175,3 +175,4 @@ class _SearchPageState extends State<SearchPage> {
                     focusNode: focus,
                     style: AppText.body,
                     textInputAction: TextInputAction.search,
+                    onChanged: (_) => setState(() {}),
