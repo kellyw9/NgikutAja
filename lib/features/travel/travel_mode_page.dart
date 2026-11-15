@@ -262,3 +262,4 @@ class TravelStopPage extends StatelessWidget {
   Widget build(BuildContext context) {
     AppScope.of(context);
     final st = trip.plan[day][i];
+    final checked = trip.isChecked(day, i);
