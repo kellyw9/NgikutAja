@@ -334,3 +334,4 @@ class AppState extends ChangeNotifier {
       if (!t.isChecked(day, i)) return i;
     }
     return null;
+  }
