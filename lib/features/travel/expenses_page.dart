@@ -317,3 +317,4 @@ class _AddExpensePageState extends State<AddExpensePage> {
                   receipt != null
                       ? Photo(receipt, width: 80, height: 80, radius: AppRadius.inner, semantic: 'Foto struk')
                       : AddPhotoTile(
+                          icon: 'photo_camera',
