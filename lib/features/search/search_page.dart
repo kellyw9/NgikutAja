@@ -543,3 +543,4 @@ class _SearchPageState extends State<SearchPage> {
           input.clear();
           submitted = '';
         });
+      }
