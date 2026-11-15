@@ -367,3 +367,4 @@ class NgChip extends StatelessWidget {
     final fg = selected ? AppColors.white : AppColors.ink;
     return Semantics(
       selected: selected,
+      button: true,
