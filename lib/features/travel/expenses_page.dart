@@ -90,3 +90,4 @@ class ExpensesPage extends StatelessWidget {
               NgCard(
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
