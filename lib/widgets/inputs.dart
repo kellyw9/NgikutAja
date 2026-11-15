@@ -402,3 +402,4 @@ class NgChip extends StatelessWidget {
           ),
         ),
       ),
+    );
