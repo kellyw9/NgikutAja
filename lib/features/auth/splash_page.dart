@@ -44,3 +44,4 @@ class _SplashPageState extends State<SplashPage> {
             children: [
               Expanded(
                 child: Center(
+                  child: Column(
