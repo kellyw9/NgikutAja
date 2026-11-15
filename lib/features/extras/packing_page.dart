@@ -169,3 +169,4 @@ class _PackingPageState extends State<PackingPage> {
                 children: [
                   Expanded(
                     child: NgField(
+                      controller: input,
