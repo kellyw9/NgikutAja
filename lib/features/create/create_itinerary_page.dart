@@ -249,3 +249,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
                         if (d.tags.length < 5) NgChip('Tag', icon: 'add', onTap: _addTag),
                       ],
                     ),
+                  ],
