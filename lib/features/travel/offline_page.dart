@@ -15,3 +15,5 @@ class OfflinePage extends StatelessWidget {
   Widget build(BuildContext context) {
     final app = AppScope.of(context);
     final trips = app.trips.where((t) => app.statusOf(t) != TripStatus.selesai).toList();
+
+    Widget avail(bool ok, String text) => Padding(
