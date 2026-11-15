@@ -100,3 +100,4 @@ class TripsPage extends StatelessWidget {
           days: t.days,
           dates: t.dates,
           cover: t.cover,
+          onTap: () => push(context, TripDetailPage(trip: t)),
