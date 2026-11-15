@@ -89,3 +89,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
       child: Scaffold(
         backgroundColor: AppColors.ground,
         appBar: NgAppBar(title: d.title, sub: 'Editor hari & stop', trailingTitle: draftPill),
+        body: ListView(
