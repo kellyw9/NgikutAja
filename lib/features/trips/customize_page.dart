@@ -190,3 +190,5 @@ class _CustomizePageState extends State<CustomizePage> {
     });
     if (mounted) showNgSnack(context, '${st.name} dipindah ke Hari ${target + 1}.');
   }
+
+  Future<void> _addDay() async {
