@@ -61,3 +61,4 @@ class NgButton extends StatelessWidget {
       children: [
         if (loading) ...[
           SpinIcon(size: 20, color: color),
+          const SizedBox(width: 8),
