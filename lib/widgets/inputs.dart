@@ -427,3 +427,4 @@ class Segmented extends StatelessWidget {
             Expanded(
               child: Semantics(
                 selected: items[i] == active,
+                button: true,
