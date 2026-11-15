@@ -60,3 +60,4 @@ class NgAppBar extends StatelessWidget implements PreferredSizeWidget {
           Semantics(
             header: true,
             child: Text(title!, style: AppText.h2, maxLines: 1, overflow: TextOverflow.ellipsis),
+          ),
