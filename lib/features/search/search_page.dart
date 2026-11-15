@@ -32,3 +32,4 @@ class SearchFilter {
     ..price = price;
 
   bool match(Itinerary it) {
+    final d = it.days;
