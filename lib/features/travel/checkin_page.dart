@@ -56,3 +56,4 @@ class _CheckinPageState extends State<CheckinPage> {
                       : '${st.name} tercatat. Berikutnya ${stops[nextAfter].name} pukul ${stops[nextAfter].start}.',
                 )
               else if (near)
+                NgBanner(
