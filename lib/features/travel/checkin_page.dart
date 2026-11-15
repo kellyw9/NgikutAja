@@ -50,3 +50,4 @@ class _CheckinPageState extends State<CheckinPage> {
                 NgBanner(
                   kind: BannerKind.success,
                   icon: 'task_alt',
+                  title: 'Check-in berhasil pukul ${t.checkins['${widget.day}-${widget.i}']}',
