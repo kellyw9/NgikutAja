@@ -288,3 +288,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
 
     if (d.cover != null) {
       return SizedBox(
+        height: 180,
