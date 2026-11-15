@@ -201,3 +201,4 @@ class _AddExpensePageState extends State<AddExpensePage> {
         ..day = day
         ..by = by;
       app.touch();
+    } else {
