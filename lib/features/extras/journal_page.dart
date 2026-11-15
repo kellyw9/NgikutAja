@@ -68,3 +68,4 @@ class _JournalPageState extends State<JournalPage> {
   }
 
   Future<void> _addPhoto() async {
+    final p = await pickPhotoSheet(context, title: 'Tambah foto ke catatan');
