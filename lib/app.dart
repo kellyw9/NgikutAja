@@ -17,3 +17,4 @@ class NgikutAjaApp extends StatelessWidget {
       state: state,
       child: MaterialApp(
         title: 'NgikutAja',
+        debugShowCheckedModeBanner: false,
