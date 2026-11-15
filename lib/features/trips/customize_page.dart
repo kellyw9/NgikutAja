@@ -455,3 +455,4 @@ class _CustomizePageState extends State<CustomizePage> {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Text('Foto perjalanan', style: AppText.h2),
+                      const SizedBox(height: 8),
