@@ -77,3 +77,4 @@ class _PackingPageState extends State<PackingPage> {
   Widget build(BuildContext context) {
     final app = AppScope.of(context);
     final t = widget.trip;
+    final all = t.packing.expand((g) => g.items).toList();
