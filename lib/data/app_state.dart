@@ -149,3 +149,5 @@ class AppState extends ChangeNotifier {
       final age = today.difference(x.publishedAt).inDays.clamp(1, 3650);
       return x.adopted / age * (x.tags.any(interests.contains) ? 1.5 : 1);
     }
+
+    list.sort((a, b) => score(b).compareTo(score(a)));
