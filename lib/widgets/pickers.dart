@@ -145,3 +145,4 @@ Future<Category?> pickCategory(BuildContext context, Category current) {
   return showNgSheet<Category>(
     context,
     title: 'Kategori aktivitas',
+    builder: (ctx) => Column(
