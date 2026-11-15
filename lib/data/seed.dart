@@ -619,3 +619,4 @@ class Seed {
           icon: 'directions_car',
           title: 'Jadwal kapal Ajibata–Tomok',
           text: 'Kapal berangkat tiap jam dari pukul 07.00. Kapal terakhir ke Samosir pukul 19.00.',
+          photo: 'samosir',
