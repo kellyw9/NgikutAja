@@ -241,3 +241,4 @@ class Trip {
     required this.plan,
     this.from,
     this.desc = '',
+    List<String>? dayTitles,
