@@ -90,3 +90,4 @@ class _AdoptPageState extends State<AdoptPage> {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Wrap(
+                              spacing: 6,
