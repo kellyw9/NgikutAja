@@ -591,3 +591,4 @@ class Progress extends StatelessWidget {
     value: '${(value * 100).round()}%',
     child: SizedBox(
       width: width,
+      height: height,
