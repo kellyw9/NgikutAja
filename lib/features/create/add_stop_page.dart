@@ -288,3 +288,5 @@ class _AddStopPageState extends State<AddStopPage> {
     );
   }
 }
+
+/// Langkah 4: Pilih Titik di Peta. Peta masih gambar sementara: ketuk peta untuk memindah pin.
