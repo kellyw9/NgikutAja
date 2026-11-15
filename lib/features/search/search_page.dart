@@ -388,3 +388,4 @@ class _SearchPageState extends State<SearchPage> {
             child: Row(
               children: [
                 Expanded(
+                  child: Text('${list.length} itinerary${q.isEmpty ? '' : (mode == 'Kota' ? ' di $q' : ' untuk $q')}', style: AppText.bodyStrong),
