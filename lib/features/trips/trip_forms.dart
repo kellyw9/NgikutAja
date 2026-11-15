@@ -76,3 +76,5 @@ class _EditStopPageState extends State<EditStopPage> {
     );
     if (r == true && mounted) Navigator.pop(context, StopEditResult(deleted: true));
   }
+
+  @override
