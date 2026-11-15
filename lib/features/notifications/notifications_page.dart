@@ -69,3 +69,4 @@ class NotificationsPage extends StatelessWidget {
       color: n.unread ? AppColors.surface : Colors.transparent,
       child: InkWell(
         onTap: invite ? (n.unread ? () => app.markRead(n) : null) : () => _open(context, app, n),
+        child: Padding(
