@@ -106,3 +106,4 @@ class Itinerary {
   Creator creator;
   int price;
   int adopted;
+  int likes;
