@@ -330,3 +330,4 @@ class Review {
   final String name;
   final int tint;
   final int stars;
+  final String date;
