@@ -43,3 +43,4 @@ class PurchaseDetailPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final perks = [
