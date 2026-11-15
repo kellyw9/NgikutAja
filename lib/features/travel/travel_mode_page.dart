@@ -6,3 +6,4 @@ import 'expenses_page.dart';
 import 'photo_pages.dart';
 
 /// Jarak dan waktu tempuh dari data contoh (belum ada layanan rute).
+const travelInfo = {'Bukit Holbung': ('6,4 km', '18 menit', 'Naik motor')};
