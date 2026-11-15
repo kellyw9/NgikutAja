@@ -116,3 +116,4 @@ class _AdoptPageState extends State<AdoptPage> {
                   if (d != null) setState(() => start = d);
                 },
               ),
+              Column(
