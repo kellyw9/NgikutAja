@@ -101,3 +101,4 @@ class ExpensesPage extends StatelessWidget {
                         TextLink(
                           'Split budget',
                           style: AppText.smallStrong,
+                          onTap: () => push(context, SplitBudgetPage(trip: trip)),
