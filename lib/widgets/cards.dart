@@ -307,3 +307,4 @@ class StopRow extends StatelessWidget {
   const StopRow(
     this.st, {
     super.key,
+    required this.n,
