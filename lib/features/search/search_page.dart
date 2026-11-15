@@ -137,3 +137,4 @@ class _SearchPageState extends State<SearchPage> {
   Widget build(BuildContext context) {
     final app = AppScope.of(context);
     final typing = focus.hasFocus && input.text.trim().isNotEmpty;
+    return Column(
