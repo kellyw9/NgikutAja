@@ -598,3 +598,4 @@ class Progress extends StatelessWidget {
           return Stack(
             children: [
               Container(
+                decoration: BoxDecoration(color: track, borderRadius: BorderRadius.circular(height / 2)),
