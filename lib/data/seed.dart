@@ -312,3 +312,4 @@ class Seed {
         days: 1,
         cover: 'tjongafie',
         creator: c['rahmat']!,
+        price: 0,
