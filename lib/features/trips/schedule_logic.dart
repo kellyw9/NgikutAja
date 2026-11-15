@@ -74,3 +74,4 @@ List<String> shiftCascade(List<Stop> day, Stop target, int newStart) {
 (List<DayIssue>, List<Suggestion>) analyze(List<List<Stop>> plan) {
   final issues = <DayIssue>[];
   final tips = <Suggestion>[];
+  for (var d = 0; d < plan.length; d++) {
