@@ -230,3 +230,4 @@ class _ItineraryDetailPageState extends State<ItineraryDetailPage> {
               if (requireLogin(context)) push(context, AdoptPage(it: it), fullscreen: true);
             },
           ),
+        ],
