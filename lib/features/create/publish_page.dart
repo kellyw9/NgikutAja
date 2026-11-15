@@ -23,3 +23,4 @@ class _PublishPageState extends State<PublishPage> {
   void dispose() {
     price.dispose();
     super.dispose();
+  }
