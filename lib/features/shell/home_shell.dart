@@ -124,3 +124,5 @@ class BottomNav extends StatelessWidget {
       Text(items[i].$2, style: AppText.small),
     ],
   );
+
+  Widget _tab(int i) {
