@@ -7,3 +7,5 @@ import '../shell/home_shell.dart';
 /// 9.5 Wishlist (+ dihapus dengan Urungkan, + kosong).
 class WishlistPage extends StatelessWidget {
   const WishlistPage({super.key});
+
+  @override
