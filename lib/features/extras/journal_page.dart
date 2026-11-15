@@ -43,3 +43,4 @@ class _JournalPageState extends State<JournalPage> {
     final title = TextEditingController(text: e?.title ?? '');
     final text = TextEditingController();
     final r = await showNgSheet<bool>(
+      context,
