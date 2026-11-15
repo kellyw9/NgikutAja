@@ -121,3 +121,4 @@ void main() {
     await tapText(tester, 'Konfirmasi pembelian', button: true);
     await tester.pumpAndSettle();
     await tapText(tester, 'Bayar Rp25.000', button: true);
+    await tester.pump(const Duration(milliseconds: 300));
