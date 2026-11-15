@@ -623,3 +623,4 @@ class Seed {
           author: c['lestari'],
           updated: 'Okt 2026',
           body: [
+            'Kapal kayu dari Pelabuhan Ajibata ke Tomok berangkat tiap jam mulai pukul 07.00. Kapal terakhir ke Samosir pukul 19.00, '
