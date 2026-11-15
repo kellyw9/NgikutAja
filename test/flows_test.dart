@@ -40,3 +40,4 @@ void main() {
     final loader = FontLoader('PlusJakartaSans');
     for (final w in ['Regular', 'Medium', 'SemiBold', 'Bold']) {
       loader.addFont(rootBundle.load('assets/fonts/PlusJakartaSans-$w.ttf'));
+    }
