@@ -20,3 +20,4 @@ class _CreatorProfilePageState extends State<CreatorProfilePage> {
     final app = AppScope.of(context);
     final c = widget.c;
     final all = app.byCreator(c).where((x) => !x.isDraft).toList();
+    final list = paidOnly ? all.where((x) => x.isPaid).toList() : all;
