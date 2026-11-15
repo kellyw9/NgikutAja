@@ -301,3 +301,4 @@ class AppState extends ChangeNotifier {
       remindDayBefore: remindDayBefore,
       remindEach: remindEach,
       remindOffset: offset,
+      offline: offline,
