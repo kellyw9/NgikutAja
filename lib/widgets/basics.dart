@@ -479,3 +479,4 @@ class Avatar extends StatelessWidget {
       name.replaceAll('@', '').split(RegExp(r'[\s.]')).where((w) => w.isNotEmpty).take(2).map((w) => w[0].toUpperCase()).join();
 
   @override
+  Widget build(BuildContext context) {
