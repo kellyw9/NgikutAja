@@ -46,3 +46,4 @@ class _Row extends StatelessWidget {
     return Tap(
       onTap: () => openItinerary(context, it),
       child: Padding(
+        padding: const EdgeInsets.symmetric(vertical: 12),
