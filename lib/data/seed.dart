@@ -605,3 +605,4 @@ class Seed {
       AppNotification(
         id: 'n6',
         kind: NotifKind.comment,
+        icon: 'chat_bubble',
