@@ -165,3 +165,4 @@ class BottomBar extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) => Material(
+    color: AppColors.surface,
