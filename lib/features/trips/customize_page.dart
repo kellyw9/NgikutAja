@@ -145,3 +145,4 @@ class _CustomizePageState extends State<CustomizePage> {
                             : '${plan[d].length} aktivitas, selesai ${fromMinutes(plan[d].map((s) => s.endMin).reduce((a, b) => a > b ? a : b))}',
                         selected: d == pick,
                         enabled: d != day,
+                        height: 56,
