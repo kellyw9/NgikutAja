@@ -247,3 +247,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
                         decoration: InputDecoration.collapsed(hintText: 'Tulis komentar...', hintStyle: AppText.body.muted),
                       ),
                     ),
+                  ),
