@@ -23,3 +23,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
     input.dispose();
     focus.dispose();
     super.dispose();
+  }
