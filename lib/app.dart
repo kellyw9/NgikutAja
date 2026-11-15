@@ -24,3 +24,4 @@ class NgikutAjaApp extends StatelessWidget {
         localizationsDelegates: GlobalMaterialLocalizations.delegates,
         home: const SplashPage(),
         onGenerateRoute: (settings) {
+          // Tautan dari email reset password: /reset-password?email=...
