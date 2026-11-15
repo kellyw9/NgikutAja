@@ -169,3 +169,4 @@ class Seed {
       creator: c['lestari']!,
       price: 25000,
       adopted: 97,
+      likes: 233,
