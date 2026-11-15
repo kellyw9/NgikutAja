@@ -153,3 +153,4 @@ class NotificationDetailPage extends StatelessWidget {
     return Scaffold(
       backgroundColor: AppColors.ground,
       appBar: const NgAppBar(),
+      body: ListView(
