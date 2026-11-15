@@ -38,3 +38,4 @@ class MembersPage extends StatelessWidget {
     final app = AppScope.read(context);
     showNgSheet<void>(
       context,
+      builder: (ctx) => StatefulBuilder(
