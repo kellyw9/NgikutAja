@@ -399,3 +399,4 @@ class AppState extends ChangeNotifier {
     d
       ..isDraft = false
       ..publishedAt = DateTime.now();
+    itineraries.insert(0, d);
