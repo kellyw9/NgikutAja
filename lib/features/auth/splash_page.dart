@@ -42,3 +42,4 @@ class _SplashPageState extends State<SplashPage> {
         body: SafeArea(
           child: Column(
             children: [
+              Expanded(
