@@ -246,3 +246,4 @@ class _EditTripInfoPageState extends State<EditTripInfoPage> {
     AppScope.read(context).touch();
     Navigator.pop(context);
     showNgSnack(context, 'Informasi trip tersimpan.', kind: SnackKind.success);
+  }
