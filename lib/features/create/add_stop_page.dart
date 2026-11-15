@@ -320,3 +320,4 @@ class _PickLocationPageState extends State<PickLocationPage> {
           Positioned.fill(child: MapView(height: null, radius: 0, label: false, onTapPoint: (p) => setState(() => pin = p))),
           Positioned.fill(
             child: LayoutBuilder(
+              builder: (context, c) {
