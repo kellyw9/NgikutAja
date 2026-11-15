@@ -117,3 +117,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
                   onPressed: () {
                     openMaps('${st.name}, ${st.address ?? t.region}');
                   },
+                ),
