@@ -55,3 +55,4 @@ class ProfilePage extends StatelessWidget {
                 sub: 'Pendapatan ${rp(app.revenue)} (simulasi)',
                 onTap: () => push(context, const DashboardPage()),
               ),
+              ListRow(
