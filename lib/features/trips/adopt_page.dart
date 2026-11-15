@@ -131,3 +131,4 @@ class _AdoptPageState extends State<AdoptPage> {
                   if (each)
                     Wrap(
                       spacing: 8,
+                      children: [
