@@ -173,3 +173,4 @@ class _OnboardingPageState extends State<OnboardingPage> {
         title: t,
         sub: sub,
         photo: img,
+        on: picked.contains(t),
