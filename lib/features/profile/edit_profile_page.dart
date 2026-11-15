@@ -43,3 +43,4 @@ class _EditProfilePageState extends State<EditProfilePage> {
     name.dispose();
     user.dispose();
     bio.dispose();
+    super.dispose();
