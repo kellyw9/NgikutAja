@@ -200,3 +200,4 @@ class _PaymentPageState extends State<PaymentPage> {
       backgroundColor: AppColors.ground,
       appBar: NgAppBar(title: 'Pembayaran', sub: 'Total ${rp(widget.it.price)}'),
       body: ListView(
+        padding: const EdgeInsets.fromLTRB(kMargin, 8, kMargin, 16),
