@@ -144,3 +144,4 @@ class Seed {
             35000,
             'tjongafie',
             'Ikut tur pemandu, durasi sekitar 45 menit.',
+            'Rumah saudagar Tionghoa tahun 1900 di Jalan Ahmad Yani, sekarang museum dengan perabot aslinya.',
