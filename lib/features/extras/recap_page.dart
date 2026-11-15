@@ -66,3 +66,4 @@ class RecapPage extends StatelessWidget {
                     const SizedBox(height: 8),
                     Tap(
                       onTap: () => push(context, PhotoMemoryPage(trip: t)),
+                      radius: AppRadius.inner,
