@@ -54,3 +54,4 @@ class _PublishPageState extends State<PublishPage> {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Row(
+                  children: [
