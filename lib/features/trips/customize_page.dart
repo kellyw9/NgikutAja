@@ -228,3 +228,4 @@ class _CustomizePageState extends State<CustomizePage> {
     showNgSheet<void>(
       context,
       title: 'Catatan jadwal',
+      sub: 'Hanya peringatan. Perubahan tetap bisa disimpan.',
