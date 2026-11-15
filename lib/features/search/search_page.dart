@@ -362,3 +362,4 @@ class _SearchPageState extends State<SearchPage> {
         if (list.isEmpty)
           Padding(
             padding: const EdgeInsets.all(kMargin),
+            child: EmptyState(
