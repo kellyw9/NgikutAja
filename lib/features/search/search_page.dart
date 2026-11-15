@@ -447,3 +447,4 @@ class _SearchPageState extends State<SearchPage> {
               child,
             ],
           );
+          return Gap(
