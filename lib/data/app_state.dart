@@ -75,3 +75,5 @@ class AppState extends ChangeNotifier {
 
   /// Akun demo: dinda.saragi@gmail.com / ngikutaja. Akun baru dari Register ikut tersimpan di perangkat.
   final Map<String, String> _accounts = {'dinda.saragi@gmail.com': 'ngikutaja'};
+
+  void finishOnboarding(Set<String> picked) {
