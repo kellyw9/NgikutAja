@@ -585,3 +585,4 @@ class _BudgetSlider extends StatelessWidget {
         ),
       ),
       Row(
+        children: [
