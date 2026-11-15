@@ -109,3 +109,4 @@ class _PublishPageState extends State<PublishPage> {
                 ),
               ),
               if (paid)
+                NgCard(
