@@ -546,3 +546,4 @@ class CreatorRow extends StatelessWidget {
     final app = AppScope.of(context);
     final mine = c == app.me;
     final following = app.isFollowing(c);
+    return Padding(
