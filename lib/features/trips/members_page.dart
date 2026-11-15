@@ -215,3 +215,4 @@ class MembersPage extends StatelessWidget {
           Text(
             'Anggota "Bisa edit" boleh mengubah jadwal dan menambah pengeluaran. "Hanya lihat" hanya bisa melihat trip.',
             style: AppText.small.muted,
+          ),
