@@ -153,3 +153,4 @@ class _PackingPageState extends State<PackingPage> {
                                           color: AppColors.muted,
                                           onTap: () => _edit(g, it),
                                         ),
+                                      ],
