@@ -506,3 +506,5 @@ class Gap extends StatelessWidget {
   final double gap;
   final List<Widget> children;
   final CrossAxisAlignment cross;
+
+  @override
