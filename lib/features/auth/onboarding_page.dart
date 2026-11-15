@@ -113,3 +113,4 @@ class _OnboardingPageState extends State<OnboardingPage> {
       const SizedBox(height: 24),
       Text('Rencana liburan dari orang yang sudah ke sana', style: AppText.h1),
       const SizedBox(height: 12),
+      Text('Cari itinerary per kota, lihat rutenya jam demi jam, lalu salin ke tripmu.', style: AppText.body.muted),
