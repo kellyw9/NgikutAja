@@ -242,3 +242,4 @@ class AppState extends ChangeNotifier {
       amount: it.price,
       status: TxStatus.pending,
     );
+    transactions.insert(0, tx);
