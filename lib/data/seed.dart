@@ -480,3 +480,4 @@ class Seed {
         id: 'jogja-sep',
         title: 'Jogja Hemat 3 Hari Naik Trans Jogja',
         city: 'Yogyakarta',
+        region: 'Yogyakarta, DIY',
