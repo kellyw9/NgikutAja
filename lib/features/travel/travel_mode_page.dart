@@ -233,3 +233,4 @@ class _NextCard extends StatelessWidget {
                   onPressed: () => push(context, NavigationPage(trip: trip, day: day, i: i)),
                 ),
               ),
+              const SizedBox(width: 8),
