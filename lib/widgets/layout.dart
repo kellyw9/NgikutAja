@@ -129,3 +129,4 @@ class TabHeader extends StatelessWidget {
 class SectionHead extends StatelessWidget {
   const SectionHead(this.title, {super.key, this.action, this.onAction, this.sub, this.padded = true});
   final String title;
+  final String? action;
