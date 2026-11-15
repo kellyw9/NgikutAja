@@ -236,3 +236,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
                   children: [
                     Row(
                       children: [
+                        Expanded(child: Text('Tag kategori', style: AppText.bodyStrong)),
