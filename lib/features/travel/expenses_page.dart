@@ -139,3 +139,4 @@ class ExpensesPage extends StatelessWidget {
                                       Text('Dibayar ${e.by}, Hari ${e.day + 1} pukul ${e.time}', style: AppText.small.muted),
                                     ],
                                   ),
+                                ),
