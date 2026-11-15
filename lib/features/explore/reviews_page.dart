@@ -22,3 +22,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
   void dispose() {
     input.dispose();
     focus.dispose();
+    super.dispose();
