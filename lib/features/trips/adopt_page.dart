@@ -265,3 +265,4 @@ class _AdoptProgressPageState extends State<AdoptProgressPage> {
                 icon: 'check',
                 tone: AppColors.positivePale,
                 iconColor: AppColors.positiveInk,
+                title: 'Trip berhasil ditambahkan',
