@@ -285,3 +285,4 @@ class AppState extends ChangeNotifier {
     required int offset,
     required bool offline,
   }) async {
+    await Future<void>.delayed(const Duration(milliseconds: 1400));
