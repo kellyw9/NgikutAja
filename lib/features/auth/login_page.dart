@@ -209,3 +209,4 @@ class GoogleButton extends StatelessWidget {
 }
 
 class _GooglePainter extends CustomPainter {
+  const _GooglePainter();
