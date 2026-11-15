@@ -13,3 +13,4 @@ class CreatorProfilePage extends StatefulWidget {
 }
 
 class _CreatorProfilePageState extends State<CreatorProfilePage> {
+  bool paidOnly = false;
