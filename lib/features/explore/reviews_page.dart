@@ -44,3 +44,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
       body: Column(
         children: [
           Padding(
+            padding: const EdgeInsets.fromLTRB(kMargin, 12, kMargin, 0),
