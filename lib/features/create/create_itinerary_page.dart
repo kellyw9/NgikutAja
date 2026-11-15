@@ -250,3 +250,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
                       ],
                     ),
                   ],
+                ),
