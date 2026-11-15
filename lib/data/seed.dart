@@ -614,3 +614,4 @@ class Seed {
     ];
 
     tips = {
+      'Samosir': [
