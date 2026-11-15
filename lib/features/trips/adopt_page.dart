@@ -121,3 +121,4 @@ class _AdoptPageState extends State<AdoptPage> {
                 children: [
                   Text('Pengingat', style: AppText.bodyStrong),
                   const SizedBox(height: 6),
+                  _switchRow(
