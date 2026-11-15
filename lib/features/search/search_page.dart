@@ -239,3 +239,4 @@ class _SearchPageState extends State<SearchPage> {
           Tap(
             onTap: () => _submit(q),
             child: SizedBox(
+              height: 44,
