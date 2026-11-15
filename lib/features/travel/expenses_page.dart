@@ -36,3 +36,4 @@ class ExpensesPage extends StatelessWidget {
               NgButton(
                 'Hapus',
                 kind: BtnKind.dangerText,
+                icon: 'delete',
