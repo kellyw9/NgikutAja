@@ -143,3 +143,4 @@ class MembersPage extends StatelessWidget {
               onPressed: () {
                 final v = input.text.trim();
                 if (v.length < 3) {
+                  set(() => err = 'Isi username atau email anggota');
