@@ -19,3 +19,4 @@ class _CreatorProfilePageState extends State<CreatorProfilePage> {
   Widget build(BuildContext context) {
     final app = AppScope.of(context);
     final c = widget.c;
+    final all = app.byCreator(c).where((x) => !x.isDraft).toList();
