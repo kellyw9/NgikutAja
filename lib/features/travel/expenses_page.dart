@@ -244,3 +244,4 @@ class _AddExpensePageState extends State<AddExpensePage> {
               NgField(
                 label: 'Nama pengeluaran',
                 controller: name,
+                hint: 'Misal: Makan siang ikan mas arsik',
