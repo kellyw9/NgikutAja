@@ -165,3 +165,4 @@ class _NewPasswordPageState extends State<NewPasswordPage> {
         child: LayoutBuilder(
           builder: (context, c) => SingleChildScrollView(
             padding: const EdgeInsets.fromLTRB(kMargin, 0, kMargin, 24),
+            child: ConstrainedBox(
