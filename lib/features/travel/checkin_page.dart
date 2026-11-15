@@ -102,3 +102,4 @@ class _CheckinPageState extends State<CheckinPage> {
                           ),
                       ],
                     ),
+                ],
