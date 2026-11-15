@@ -111,3 +111,4 @@ class _AdoptPageState extends State<AdoptPage> {
                 value: dateLong(start),
                 trailing: 'expand_more',
                 helper: 'Trip selesai ${dateLong(end)} (${it.days} hari).',
+                onTap: () async {
