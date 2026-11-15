@@ -107,3 +107,4 @@ class _RegisterPageState extends State<RegisterPage> {
                         textInputAction: TextInputAction.next,
                         autofillHints: const [AutofillHints.email],
                         error: emailErr,
+                      ),
