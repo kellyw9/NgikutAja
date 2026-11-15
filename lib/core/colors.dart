@@ -36,3 +36,4 @@ class AppColors {
   // Peta sementara
   static const mapLand = Color(0xFFEDE4D7);
   static const mapWater = Color(0xFFBCDCE1);
+  static const mapPark = Color(0xFFDCE8D3);
