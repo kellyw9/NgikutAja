@@ -247,3 +247,4 @@ class PublishedPage extends StatelessWidget {
                     NgButton(
                       'Lihat itinerary',
                       expand: true,
+                      onPressed: () {
