@@ -92,3 +92,4 @@ class _EditStopPageState extends State<EditStopPage> {
       backgroundColor: AppColors.ground,
       appBar: NgAppBar(
         title: editing ? 'Edit aktivitas' : 'Tambah aktivitas',
+        sub: widget.dayLabel,
