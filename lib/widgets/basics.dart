@@ -546,3 +546,4 @@ class Marker extends StatelessWidget {
       MarkerState.done => (AppColors.teal, null, AppColors.white),
       MarkerState.next => (AppColors.yellow, null, AppColors.ink),
       MarkerState.locked => (AppColors.sunk, null, AppColors.muted),
+    };
