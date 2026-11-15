@@ -455,3 +455,4 @@ class _SearchPageState extends State<SearchPage> {
                 icon: 'location_on',
                 value: q.isEmpty ? 'Semua kota' : q,
                 trailing: 'expand_more',
+                onTap: () async {
