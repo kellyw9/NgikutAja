@@ -53,3 +53,4 @@ class _PackingPageState extends State<PackingPage> {
     if (r.isEmpty) {
       _remove(g, it);
     } else {
+      it.name = r;
