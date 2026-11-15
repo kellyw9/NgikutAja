@@ -220,3 +220,4 @@ class Seed {
       tags: ['Budaya', 'Kuliner'],
       desc: 'Tiga hari tanpa sewa mobil.',
       estimateSeed: 520000,
+      placesSeed: 11,
