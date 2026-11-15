@@ -360,3 +360,4 @@ class _SearchPageState extends State<SearchPage> {
             child: Wrap(spacing: 6, runSpacing: 6, children: chips),
           ),
         if (list.isEmpty)
+          Padding(
