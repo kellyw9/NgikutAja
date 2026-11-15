@@ -254,3 +254,4 @@ class _AdoptProgressPageState extends State<AdoptProgressPage> {
                 icon: 'error',
                 tone: AppColors.negativePale,
                 iconColor: AppColors.negativeInk,
+                title: 'Adopt belum berhasil',
