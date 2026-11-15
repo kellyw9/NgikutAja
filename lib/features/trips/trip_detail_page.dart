@@ -309,3 +309,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
                           state: t.isChecked(day, i) ? MarkerState.done : (i == next ? MarkerState.next : MarkerState.todo),
                           onTap: () => _stopSheet(t, day, i),
                         ),
+                    ],
