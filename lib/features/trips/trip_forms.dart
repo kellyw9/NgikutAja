@@ -187,3 +187,4 @@ class _EditStopPageState extends State<EditStopPage> {
                                 label: 'Hapus foto',
                                 size: 28,
                                 iconSize: 16,
+                                bg: AppColors.surface,
