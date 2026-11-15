@@ -134,3 +134,4 @@ void main() {
     await phone(tester);
     final s = newState();
     await tester.pumpWidget(host(s, const CreateItineraryPage()));
+    await tapText(tester, 'Lanjut ke hari & stop', button: true);
