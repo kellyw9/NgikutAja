@@ -341,3 +341,4 @@ class _SearchPageState extends State<SearchPage> {
     final list = results(app, q);
     final chips = <Widget>[
       if (filter.duration != null) NgChip(filter.duration!, selected: true, close: true, onTap: () => setState(() => filter.duration = null)),
+      if (filter.budgetOn)
