@@ -190,3 +190,4 @@ class _AddExpensePageState extends State<AddExpensePage> {
 
   void _save() {
     setState(() => tried = true);
+    final n = parseRupiah(amount.text);
