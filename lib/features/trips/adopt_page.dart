@@ -240,3 +240,4 @@ class _AdoptProgressPageState extends State<AdoptProgressPage> {
     return PopScope(
       canPop: !busy,
       child: Scaffold(
+        backgroundColor: AppColors.ground,
