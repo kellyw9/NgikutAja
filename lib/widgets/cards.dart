@@ -648,3 +648,4 @@ class ProfileHead extends StatelessWidget {
       ),
     );
   }
+}
