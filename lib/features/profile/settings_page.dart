@@ -16,3 +16,4 @@ class SettingsPage extends StatelessWidget {
     final r = await showNgDialog(
       context,
       icon: 'logout',
+      title: 'Keluar dari akun?',
