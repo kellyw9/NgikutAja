@@ -64,3 +64,4 @@ class _IconPainter extends CustomPainter {
     canvas.drawPath(
       path,
       Paint()
+        ..color = color
