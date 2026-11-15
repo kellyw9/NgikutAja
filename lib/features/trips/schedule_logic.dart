@@ -9,3 +9,4 @@ List<(int, int)> conflictsIn(List<Stop> day) {
       if (day[i].startMin < day[j].endMin && day[j].startMin < day[i].endMin) out.add((i, j));
     }
   }
+  return out;
