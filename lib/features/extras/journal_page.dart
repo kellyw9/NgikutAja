@@ -52,3 +52,4 @@ class _JournalPageState extends State<JournalPage> {
           if (e == null) NgField(label: 'Judul', controller: title, hint: 'Misal: Kapal jam 8, langsung ke Tuktuk'),
           NgField(label: e == null ? 'Catatan' : 'Lanjutan catatan', controller: text, area: true, autofocus: e != null),
           NgButton('Simpan catatan', expand: true, onPressed: () => Navigator.pop(ctx, true)),
+        ],
