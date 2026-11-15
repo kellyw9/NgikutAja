@@ -26,3 +26,4 @@ class TripsPage extends StatelessWidget {
             child: Segmented(
               items: [for (final s in TripStatus.values) s.label],
               active: tab.label,
+              onChanged: (l) => tripsTab.value = TripStatus.values.firstWhere((s) => s.label == l),
