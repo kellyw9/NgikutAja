@@ -370,3 +370,4 @@ class StatusView extends StatelessWidget {
   final bool top;
 
   @override
+  Widget build(BuildContext context) => SafeArea(
