@@ -40,3 +40,4 @@ class DashboardPage extends StatelessWidget {
                       const SizedBox(height: 2),
                       Text('${chartItem.title}, ${rp(chartItem.price)} per transaksi', style: AppText.small.muted),
                       const SizedBox(height: 10),
+                      Semantics(
