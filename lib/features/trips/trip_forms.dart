@@ -7,3 +7,5 @@ class StopEditResult {
   final Stop? stop;
   final bool deleted;
 }
+
+const _durations = [15, 30, 45, 60, 90, 120, 150, 180, 240, 300];
