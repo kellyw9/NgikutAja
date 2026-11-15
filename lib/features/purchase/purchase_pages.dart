@@ -340,3 +340,4 @@ class _PaymentStatusPageState extends State<PaymentStatusPage> {
                   _t?.cancel();
                   app.completePayment(tx);
                 },
+              ),
