@@ -271,3 +271,4 @@ class TravelStopPage extends StatelessWidget {
         children: [
           HeroPhoto(st.photo ?? trip.cover, height: 220, semantic: st.name),
           Padding(
+            padding: const EdgeInsets.fromLTRB(kMargin, 16, kMargin, 24),
