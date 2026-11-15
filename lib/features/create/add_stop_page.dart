@@ -380,3 +380,4 @@ class _PickLocationPageState extends State<PickLocationPage> {
                   child: Row(
                     children: [
                       IconBtn('arrow_back', label: 'Kembali', size: 40, iconSize: 20, onTap: () => Navigator.pop(context)),
+                      const AppIcon('search', size: 20, color: AppColors.muted),
