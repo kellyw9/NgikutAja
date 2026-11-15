@@ -280,3 +280,4 @@ class _AdoptProgressPageState extends State<AdoptProgressPage> {
                     'Customize jadwal',
                     kind: BtnKind.secondary,
                     expand: true,
+                    onPressed: () => Navigator.pushReplacement(context, MaterialPageRoute(builder: (_) => CustomizePage(trip: trip!))),
