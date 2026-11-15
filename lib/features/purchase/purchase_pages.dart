@@ -405,3 +405,4 @@ class _PaymentStatusPageState extends State<PaymentStatusPage> {
                   context,
                   MaterialPageRoute(
                     builder: (_) => PaymentPage(it: it, method: tx.method),
+                  ),
