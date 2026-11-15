@@ -154,3 +154,4 @@ class _RegisterPageState extends State<RegisterPage> {
                               'Masuk',
                               color: AppColors.ink,
                               onTap: () =>
+                                  Navigator.pushReplacement(context, MaterialPageRoute(builder: (_) => LoginPage(popOnSuccess: widget.popOnSuccess))),
