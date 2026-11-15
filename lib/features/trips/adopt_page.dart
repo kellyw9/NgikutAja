@@ -215,3 +215,4 @@ class _AdoptProgressPageState extends State<AdoptProgressPage> {
   void initState() {
     super.initState();
     _run();
+  }
