@@ -95,3 +95,4 @@ class _CheckinPageState extends State<CheckinPage> {
                         for (final k in history)
                           ListRow(
                             lead: Marker(k + 1, state: MarkerState.done, size: 22),
+                            title: stops[k].name,
