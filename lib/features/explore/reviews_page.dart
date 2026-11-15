@@ -224,3 +224,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
                       onTap: () => setState(() => replyTo = null),
                     ),
                   ],
+                ),
