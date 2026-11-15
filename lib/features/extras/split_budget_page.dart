@@ -184,3 +184,4 @@ class _SplitBudgetPageState extends State<SplitBudgetPage> {
                                         v ? t.settled.add(key) : t.settled.remove(key);
                                         app.touch();
                                       },
+                                    ),
