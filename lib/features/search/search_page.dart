@@ -103,3 +103,4 @@ class _SearchPageState extends State<SearchPage> {
     final v = q.trim();
     if (v.isEmpty) return;
     input.text = v;
+    focus.unfocus();
