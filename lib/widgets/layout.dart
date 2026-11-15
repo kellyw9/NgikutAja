@@ -215,3 +215,4 @@ class FactStrip extends StatelessWidget {
                         const SizedBox(height: 2),
                         FittedBox(
                           fit: BoxFit.scaleDown,
+                          alignment: Alignment.centerLeft,
