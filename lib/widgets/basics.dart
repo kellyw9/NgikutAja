@@ -537,3 +537,4 @@ class Marker extends StatelessWidget {
   const Marker(this.n, {super.key, this.state = MarkerState.todo, this.size = 24});
   final int n;
   final MarkerState state;
+  final double size;
