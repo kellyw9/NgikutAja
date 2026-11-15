@@ -43,3 +43,4 @@ class AppState extends ChangeNotifier {
       _accounts.addAll((jsonDecode(saved) as Map).cast<String, String>());
     }
     if (watchNetwork) {
+      // Plugin koneksi bisa tidak tersedia (tes, platform tertentu): anggap online.
