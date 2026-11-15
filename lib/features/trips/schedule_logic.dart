@@ -135,3 +135,4 @@ List<String> shiftCascade(List<Stop> day, Stop target, int newStart) {
             sub: 'Hari ${d + 1} menjadi ${durationText(activeMinutes(day) - pick.duration)}',
             apply: (p) {
               final from = p[d];
+              final target = from.firstWhere((x) => x.name == pick.name && x.start == pick.start);
