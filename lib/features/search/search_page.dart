@@ -461,3 +461,4 @@ class _SearchPageState extends State<SearchPage> {
                     title: 'Pilih kota',
                     scroll: true,
                     builder: (c2) => Column(
+                      children: [
