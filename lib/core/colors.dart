@@ -56,3 +56,5 @@ class AppRadius {
 
 /// Margin layar kiri-kanan.
 const double kMargin = 16;
+
+/// Bayangan "float": hanya untuk elemen yang benar-benar melayang (sheet, dialog, snackbar, kartu yang di-drag).
