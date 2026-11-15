@@ -86,3 +86,4 @@ class BottomNav extends StatelessWidget {
             Container(height: 1, color: AppColors.line),
             SizedBox(
               height: 68,
+              child: Row(
