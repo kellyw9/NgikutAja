@@ -220,3 +220,4 @@ class MembersPage extends StatelessWidget {
       ),
       bottomNavigationBar: ownerIsMe
           ? SafeArea(
+              child: Padding(
