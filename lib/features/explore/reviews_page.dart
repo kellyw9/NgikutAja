@@ -238,3 +238,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
                       padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 12),
                       decoration: BoxDecoration(color: AppColors.ground, borderRadius: BorderRadius.circular(AppRadius.control)),
                       child: TextField(
+                        controller: input,
