@@ -246,3 +246,4 @@ class _AdoptProgressPageState extends State<AdoptProgressPage> {
                 icon: 'progress_activity',
                 tone: AppColors.surface,
                 title: 'Menyalin itinerary...',
+                text: '${it.places} tempat, catatan, dan foto sedang disimpan ke Trip Saya${widget.offline ? ' dan memori HP untuk offline' : ''}.',
