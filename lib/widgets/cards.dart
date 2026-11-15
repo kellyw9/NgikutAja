@@ -291,3 +291,4 @@ class TripCard extends StatelessWidget {
                 Photo(cover, width: 72, height: 72, radius: AppRadius.inner),
               ],
             ),
+          ),
