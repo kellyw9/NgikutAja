@@ -91,3 +91,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
         appBar: NgAppBar(title: d.title, sub: 'Editor hari & stop', trailingTitle: draftPill),
         body: ListView(
           padding: const EdgeInsets.only(top: 4, bottom: 24),
+          children: [
