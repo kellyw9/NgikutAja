@@ -156,3 +156,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
               16,
               children: [
                 if (showErr)
+                  const NgBanner(
