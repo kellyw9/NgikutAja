@@ -184,3 +184,4 @@ class _NewPasswordPageState extends State<NewPasswordPage> {
                       helper: 'Minimal 8 karakter, campur huruf dan angka.',
                       error: e1,
                       trailing: ObscureToggle(obscured: o1, onTap: () => setState(() => o1 = !o1)),
+                    ),
