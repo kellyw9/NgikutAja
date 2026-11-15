@@ -140,3 +140,4 @@ class SectionHead extends StatelessWidget {
     child: Row(
       children: [
         Expanded(
+          child: Column(
