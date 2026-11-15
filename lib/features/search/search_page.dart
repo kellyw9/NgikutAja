@@ -288,3 +288,4 @@ class _SearchPageState extends State<SearchPage> {
     ];
     if (rows.isEmpty) {
       return ListView(
+        padding: const EdgeInsets.fromLTRB(kMargin, 16, kMargin, 0),
