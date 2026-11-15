@@ -181,3 +181,4 @@ class _PaymentPageState extends State<PaymentPage> {
     // Simulasi: transfer bank menunggu dibayar; QRIS dan e-wallet langsung selesai; tanpa koneksi gagal.
     if (!app.online) {
       app.completePayment(tx, success: false);
+    } else if (method != 'Transfer Bank') {
