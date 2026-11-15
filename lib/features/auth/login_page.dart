@@ -96,3 +96,4 @@ class _LoginPageState extends State<LoginPage> {
                             title: 'Email atau password salah',
                             text: 'Periksa lagi, atau atur ulang password lewat Lupa password.',
                           ),
+                        ],
