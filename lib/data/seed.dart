@@ -278,3 +278,4 @@ class Seed {
         region: 'Bandung, Jawa Barat',
         days: 2,
         cover: 'bandung',
+        creator: c['nadia']!,
