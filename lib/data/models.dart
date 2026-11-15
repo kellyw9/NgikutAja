@@ -303,3 +303,4 @@ class Trip {
   (int, String)? recapNote;
 
   int get days => plan.length;
+  DateTime? get end => start?.add(Duration(days: days - 1));
