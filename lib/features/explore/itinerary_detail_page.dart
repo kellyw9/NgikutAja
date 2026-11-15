@@ -300,3 +300,4 @@ class PaidPreviewPage extends StatelessWidget {
                 children: [
                   if (day1.isEmpty)
                     Text('Jadwal Hari 1 belum ditulis creator.', style: AppText.body.muted)
+                  else
