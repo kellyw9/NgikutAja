@@ -313,3 +313,4 @@ class PaidPreviewPage extends StatelessWidget {
                             StopRow(day2[i], n: day1.length + i + 1, blur: true, last: i == 1 || i == day2.length - 1),
                         ],
                       ),
+                    ),
