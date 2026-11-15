@@ -114,3 +114,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
                   'Buka di peta',
                   icon: 'map',
                   expand: true,
+                  onPressed: () {
