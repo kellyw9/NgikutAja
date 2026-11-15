@@ -293,3 +293,4 @@ class PaidPreviewPage extends StatelessWidget {
               active: 0,
               onTap: (d) => d == 0 ? null : _locked(context, d),
             ),
+            Padding(
