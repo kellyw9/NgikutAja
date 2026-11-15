@@ -229,3 +229,4 @@ class _ItineraryDetailPageState extends State<ItineraryDetailPage> {
             onPressed: () {
               if (requireLogin(context)) push(context, AdoptPage(it: it), fullscreen: true);
             },
+          ),
