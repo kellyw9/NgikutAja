@@ -114,3 +114,4 @@ class _SplitBudgetPageState extends State<SplitBudgetPage> {
                                 const SizedBox(height: 8),
                                 Row(
                                   children: [
+                                    const SizedBox(width: 48),
