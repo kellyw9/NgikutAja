@@ -139,3 +139,4 @@ class MembersPage extends StatelessWidget {
             ),
             NgButton(
               'Kirim undangan',
+              expand: true,
