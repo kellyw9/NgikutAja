@@ -71,3 +71,4 @@ class _PackingPageState extends State<PackingPage> {
         AppScope.read(context).touch();
       },
     );
+  }
