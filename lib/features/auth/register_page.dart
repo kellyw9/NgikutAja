@@ -147,3 +147,4 @@ class _RegisterPageState extends State<RegisterPage> {
                       const SizedBox(height: 12),
                       Center(
                         child: Wrap(
+                          crossAxisAlignment: WrapCrossAlignment.center,
