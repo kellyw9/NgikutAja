@@ -122,3 +122,4 @@ class _EditStopPageState extends State<EditStopPage> {
               Row(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
+                  Expanded(
