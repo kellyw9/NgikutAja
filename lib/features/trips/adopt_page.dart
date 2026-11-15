@@ -235,3 +235,4 @@ class _AdoptProgressPageState extends State<AdoptProgressPage> {
   @override
   Widget build(BuildContext context) {
     final app = AppScope.of(context);
+    final it = widget.it;
