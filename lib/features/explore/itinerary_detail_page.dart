@@ -351,3 +351,4 @@ class PaidPreviewPage extends StatelessWidget {
           ],
         ),
       ),
+      bottomNavigationBar: BottomBar(
