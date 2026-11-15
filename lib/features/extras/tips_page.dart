@@ -48,3 +48,4 @@ class TipsPage extends StatelessWidget {
             ],
             Text('Tips ditulis oleh creator itinerary dan anggota komunitas yang pernah berkunjung.', style: AppText.small.muted),
           ],
+        ],
