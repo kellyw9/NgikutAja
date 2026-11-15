@@ -410,3 +410,4 @@ class Seed {
         tags: ['Kuliner'],
         desc: 'Versi baru dengan tambahan lontong pagi.',
         dayTitles: ['Sarapan'],
+        plan: [
