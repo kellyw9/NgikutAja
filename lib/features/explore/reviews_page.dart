@@ -68,3 +68,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
             text: 'Ulasan muncul setelah pengguna menyelesaikan trip dari itinerary ini.',
           )
         else ...[
+          NgCard(
