@@ -92,3 +92,4 @@ class _SearchPageState extends State<SearchPage> {
   }
 
   @override
+  void dispose() {
