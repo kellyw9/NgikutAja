@@ -490,3 +490,4 @@ class _DayBox extends StatelessWidget {
     return Semantics(
       selected: on,
       button: true,
+      child: Material(
