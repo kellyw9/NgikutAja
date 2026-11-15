@@ -106,3 +106,4 @@ class _PackingPageState extends State<PackingPage> {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(g.name, style: AppText.bodyStrong),
+                    const SizedBox(height: 6),
