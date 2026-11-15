@@ -90,3 +90,4 @@ class OfflinePage extends StatelessWidget {
                   avail(false, 'Peta langsung dan navigasi Google Maps'),
                   avail(false, 'Komentar dan undangan anggota baru'),
                 ],
+              ),
