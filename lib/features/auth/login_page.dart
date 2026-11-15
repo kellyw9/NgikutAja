@@ -39,3 +39,4 @@ class _LoginPageState extends State<LoginPage> {
       wrong = false;
     });
     if (emailErr != null || passErr != null) return;
+    setState(() => loading = true);
