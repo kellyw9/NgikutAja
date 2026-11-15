@@ -7,3 +7,4 @@ import '../core/text.dart';
 import 'basics.dart';
 
 /// Input formulir: label di atas, kotak 48 (area 100), radius 8.
+/// Fokus = garis tinta 2px, error = garis merah 2px + pesan di bawah.
