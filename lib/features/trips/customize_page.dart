@@ -178,3 +178,4 @@ class _CustomizePageState extends State<CustomizePage> {
       body: from != null && to != null
           ? '${st.name} pindah dari ${weekdaysLong[from.weekday - 1]}, ${from.day} ${monthsShort[from.month - 1]} ke ${weekdaysLong[to.weekday - 1]}, ${to.day} ${monthsShort[to.month - 1]} pukul $ns.'
           : '${st.name} pindah dari Hari ${day + 1} ke Hari ${target + 1} pukul $ns.',
+      actions: const [
