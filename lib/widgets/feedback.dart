@@ -305,3 +305,5 @@ Widget _bar(double w, [double h = 14]) => Container(
   height: h,
   decoration: BoxDecoration(color: AppColors.sunk, borderRadius: BorderRadius.circular(4)),
 );
+
+/// Skeleton datar seukuran Card Wisata (tanpa shimmer).
