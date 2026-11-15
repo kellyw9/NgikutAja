@@ -80,3 +80,4 @@ class WisataCard extends StatelessWidget {
         return Tap(
           onTap: onTap,
           label: label,
+          radius: AppRadius.inner,
