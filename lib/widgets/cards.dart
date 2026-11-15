@@ -23,3 +23,4 @@ class Proof extends StatelessWidget {
       if (it.rating != null) ...[
         const AppIcon('star', size: 16, filled: true),
         const SizedBox(width: 3),
+        Text(decimal(it.rating!), style: AppText.smallStrong),
