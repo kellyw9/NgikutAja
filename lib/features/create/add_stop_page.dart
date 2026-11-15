@@ -64,3 +64,4 @@ class _AddStopPageState extends State<AddStopPage> {
     return Scaffold(
       backgroundColor: AppColors.ground,
       appBar: NgAppBar(title: editing ? 'Ubah stop' : 'Tambah stop', back: 'close'),
+      body: ListView(
