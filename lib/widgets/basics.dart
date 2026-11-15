@@ -210,3 +210,4 @@ class Tap extends StatelessWidget {
       button: true,
       label: label,
       child: Material(
+        type: MaterialType.transparency,
