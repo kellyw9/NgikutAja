@@ -200,3 +200,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
                       buildDefaultDragHandles: false,
                       padding: EdgeInsets.zero,
                       proxyDecorator: (child, _, _) => Material(
+                        color: Colors.transparent,
