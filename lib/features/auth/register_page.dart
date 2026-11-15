@@ -78,3 +78,4 @@ class _RegisterPageState extends State<RegisterPage> {
             child: ConstrainedBox(
               constraints: BoxConstraints(minHeight: c.maxHeight - 24),
               child: IntrinsicHeight(
+                child: AutofillGroup(
