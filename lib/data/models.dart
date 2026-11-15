@@ -88,3 +88,4 @@ class Itinerary {
     this.desc = '',
     List<String>? dayTitles,
     List<List<Stop>>? plan,
+    this.lodging = 0,
