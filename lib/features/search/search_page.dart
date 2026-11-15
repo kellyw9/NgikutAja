@@ -208,3 +208,4 @@ class _SearchPageState extends State<SearchPage> {
               bg: AppColors.surface,
               stroke: AppColors.control,
               onTap: _openFilter,
+            ),
