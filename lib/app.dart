@@ -25,3 +25,4 @@ class NgikutAjaApp extends StatelessWidget {
         home: const SplashPage(),
         onGenerateRoute: (settings) {
           // Tautan dari email reset password: /reset-password?email=...
+          final uri = Uri.parse(settings.name ?? '/');
