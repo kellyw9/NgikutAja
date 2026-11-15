@@ -30,3 +30,4 @@ class PhotoMemoryPage extends StatelessWidget {
               padding: const EdgeInsets.fromLTRB(kMargin, 8, kMargin, 24),
               children: [
                 Text('${t.photos.length} foto tersimpan dari ${days.length} hari perjalanan', style: AppText.small.muted),
+                for (final d in days) ...[
