@@ -39,3 +39,4 @@ class _EditStopPageState extends State<EditStopPage> {
   late final name = TextEditingController(text: s?.name ?? '');
   late final cost = TextEditingController(text: s == null || s!.cost == 0 ? '' : thousands(s!.cost));
   late final desc = TextEditingController(text: s?.desc ?? '');
+  late final note = TextEditingController(text: s?.note ?? '');
