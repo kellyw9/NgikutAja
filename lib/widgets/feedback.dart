@@ -213,3 +213,4 @@ Future<Object?> showNgDialog(BuildContext context, {String? icon, required Strin
               Semantics(header: true, child: Text(title, style: AppText.h2)),
               const SizedBox(height: 10),
               Text(body, style: AppText.body.muted),
+              const SizedBox(height: 20),
