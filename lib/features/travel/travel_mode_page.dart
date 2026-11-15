@@ -414,3 +414,4 @@ class NavigationPage extends StatelessWidget {
               children: [
                 Row(
                   children: [
+                    Marker(i + 1, state: MarkerState.next),
