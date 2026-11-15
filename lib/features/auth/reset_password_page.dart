@@ -84,3 +84,4 @@ class _ResetPasswordPageState extends State<ResetPasswordPage> {
                       readOnly: sent,
                       onSubmitted: (_) => _send(),
                     ),
+                    if (sent) ...[
