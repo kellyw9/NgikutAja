@@ -69,3 +69,4 @@ class WisataCard extends StatelessWidget {
   final Itinerary it;
   final CardVariant variant;
   final VoidCallback onTap;
+  final VoidCallback? onGuest;
