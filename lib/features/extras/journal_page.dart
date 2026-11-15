@@ -49,3 +49,4 @@ class _JournalPageState extends State<JournalPage> {
       builder: (ctx) => Gap(
         16,
         children: [
+          if (e == null) NgField(label: 'Judul', controller: title, hint: 'Misal: Kapal jam 8, langsung ke Tuktuk'),
