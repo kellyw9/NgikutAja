@@ -121,3 +121,4 @@ class _CalendarState extends State<_Calendar> {
                       child: Center(child: Text(d, style: AppText.small.muted)),
                     ),
                   ),
+              ],
