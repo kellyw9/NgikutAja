@@ -79,3 +79,4 @@ class Seed {
         handle: '@jogjahemat',
         tint: 4,
         bio: 'Keliling Jogja naik Trans Jogja dan jalan kaki.',
+        followers: 2310,
