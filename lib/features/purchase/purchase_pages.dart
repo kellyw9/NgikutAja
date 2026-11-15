@@ -51,3 +51,4 @@ class PurchaseDetailPage extends StatelessWidget {
     ];
     return Scaffold(
       backgroundColor: AppColors.ground,
+      appBar: const NgAppBar(title: 'Beli itinerary'),
