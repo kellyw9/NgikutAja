@@ -15,3 +15,4 @@ class OfflineException implements Exception {
 }
 
 class CityInfo {
+  const CityInfo(this.name, this.photo, this.match);
