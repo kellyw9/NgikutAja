@@ -231,3 +231,4 @@ class _EditTripInfoPageState extends State<EditTripInfoPage> {
   late final desc = TextEditingController(text: t.desc);
   late DateTime? start = t.start;
   late String? cover = t.cover;
+  bool tried = false;
