@@ -46,3 +46,4 @@ class PurchaseDetailPage extends StatelessWidget {
     final perks = [
       '${it.places} tempat lengkap dengan jam dan catatan creator',
       'Peta rute perjalanan ${it.days} hari',
+      'Dapat diadopsi dan diedit jadwalnya',
