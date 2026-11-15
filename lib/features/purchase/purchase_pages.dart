@@ -183,3 +183,4 @@ class _PaymentPageState extends State<PaymentPage> {
       app.completePayment(tx, success: false);
     } else if (method != 'Transfer Bank') {
       app.completePayment(tx);
+    }
