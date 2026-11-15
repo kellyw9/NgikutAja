@@ -42,3 +42,4 @@ class Stop {
     required this.end,
     required this.name,
     required this.cat,
+    this.cost = 0,
