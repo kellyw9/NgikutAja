@@ -134,3 +134,4 @@ class BottomNav extends StatelessWidget {
           height: 3,
           decoration: BoxDecoration(
             color: on ? AppColors.teal : null,
+            borderRadius: const BorderRadius.vertical(bottom: Radius.circular(3)),
