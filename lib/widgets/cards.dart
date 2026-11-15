@@ -473,3 +473,4 @@ class DayStrip extends StatelessWidget {
           ],
         ],
       ),
+    ),
