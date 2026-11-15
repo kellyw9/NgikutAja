@@ -270,3 +270,5 @@ class AppState extends ChangeNotifier {
   int currentDay(Trip t) => t.start == null ? 0 : today.difference(t.start!).inDays.clamp(0, t.days - 1);
 
   int daysUntil(Trip t) => t.start == null ? 0 : t.start!.difference(today).inDays;
+
+  String? countdown(Trip t) {
