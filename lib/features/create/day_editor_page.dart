@@ -187,3 +187,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
                     ),
                   ] else ...[
                     Row(
+                      children: [
