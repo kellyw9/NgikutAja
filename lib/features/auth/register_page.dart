@@ -65,3 +65,4 @@ class _RegisterPageState extends State<RegisterPage> {
 
   @override
   Widget build(BuildContext context) {
+    final (sv, st, sc) = strength;
