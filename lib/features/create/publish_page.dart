@@ -32,3 +32,4 @@ class _PublishPageState extends State<PublishPage> {
     final app = AppScope.of(context);
     final checks = [
       ('Judul terisi', d.title.trim().isNotEmpty),
+      ('Semua hari memiliki stop', d.plan.every((x) => x.isNotEmpty)),
