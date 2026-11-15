@@ -175,3 +175,4 @@ class AddExpensePage extends StatefulWidget {
   final Expense? edit;
 
   @override
+  State<AddExpensePage> createState() => _AddExpensePageState();
