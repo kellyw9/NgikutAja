@@ -50,3 +50,4 @@ class _SplitBudgetPageState extends State<SplitBudgetPage> {
       backgroundColor: AppColors.ground,
       appBar: NgAppBar(title: 'Split budget', sub: t.title),
       body: ListView(
+        padding: const EdgeInsets.fromLTRB(kMargin, 8, kMargin, 24),
