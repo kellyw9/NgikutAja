@@ -217,3 +217,4 @@ class _MapPainter extends CustomPainter {
   }
 
   @override
+  bool shouldRepaint(_MapPainter o) => o.kind != kind || o.pins != pins || o.ring != ring;
