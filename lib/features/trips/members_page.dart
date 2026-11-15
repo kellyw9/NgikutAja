@@ -142,3 +142,4 @@ class MembersPage extends StatelessWidget {
               expand: true,
               onPressed: () {
                 final v = input.text.trim();
+                if (v.length < 3) {
