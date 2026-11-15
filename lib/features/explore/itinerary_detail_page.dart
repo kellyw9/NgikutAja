@@ -54,3 +54,4 @@ class _StatChip extends StatelessWidget {
                 AppIcon(icon, size: 18, filled: filled),
                 const SizedBox(width: 6),
                 Text(text, style: AppText.bodyStrong),
+              ],
