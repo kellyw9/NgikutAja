@@ -517,3 +517,4 @@ class Wordmark extends StatelessWidget {
           mainAxisSize: MainAxisSize.min,
           children: [
             Container(
+              width: mark,
