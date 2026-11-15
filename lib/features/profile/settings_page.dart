@@ -17,3 +17,4 @@ class SettingsPage extends StatelessWidget {
       context,
       icon: 'logout',
       title: 'Keluar dari akun?',
+      body: 'Trip yang tersimpan offline tetap tersimpan di perangkat ini sampai kamu masuk dengan akun lain.',
