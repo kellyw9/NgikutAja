@@ -235,3 +235,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Row(
+                      children: [
