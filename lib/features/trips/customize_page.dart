@@ -23,3 +23,5 @@ class _CustomizePageState extends State<CustomizePage> {
   late int day = widget.initialDay.clamp(0, t.days - 1);
   int changes = 0;
   bool saving = false;
+
+  void _changed(VoidCallback f) => setState(() {
