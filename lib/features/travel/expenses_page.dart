@@ -242,3 +242,4 @@ class _AddExpensePageState extends State<AddExpensePage> {
             16,
             children: [
               NgField(
+                label: 'Nama pengeluaran',
