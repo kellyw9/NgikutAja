@@ -32,3 +32,4 @@ int? shortestGap(List<Stop> day) {
 bool isPacked(List<Stop> day) => activeMinutes(day) >= 8 * 60;
 
 class Suggestion {
+  Suggestion({required this.icon, required this.title, required this.sub, required this.apply});
