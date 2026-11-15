@@ -167,3 +167,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
               14,
               children: [
                 Row(
+                  children: [
