@@ -457,3 +457,4 @@ class _CustomizePageState extends State<CustomizePage> {
                       Text('Foto perjalanan', style: AppText.h2),
                       const SizedBox(height: 8),
                       SingleChildScrollView(
+                        scrollDirection: Axis.horizontal,
