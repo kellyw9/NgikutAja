@@ -291,3 +291,4 @@ class TravelStopPage extends StatelessWidget {
                 if (st.note != null)
                   Container(
                     padding: const EdgeInsets.all(12),
+                    decoration: BoxDecoration(color: AppColors.yellowPale, borderRadius: BorderRadius.circular(AppRadius.card)),
