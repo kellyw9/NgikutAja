@@ -50,3 +50,4 @@ class _EditStopPageState extends State<EditStopPage> {
 
   void _save() {
     setState(() => tried = true);
+    if (name.text.trim().isEmpty) return;
