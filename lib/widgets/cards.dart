@@ -436,3 +436,4 @@ class DayItem {
   final String label;
   final String? date;
   final String? sub;
+  final bool alert;
