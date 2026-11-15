@@ -35,3 +35,5 @@ class NgAppBar extends StatelessWidget implements PreferredSizeWidget {
     this.center = false,
     this.trailingTitle,
   });
+
+  final String? title;
