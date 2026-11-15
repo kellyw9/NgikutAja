@@ -417,3 +417,4 @@ class _SearchPageState extends State<SearchPage> {
       children: [
         for (final s in _sorts)
           RadioRow(
+            title: s,
