@@ -268,3 +268,4 @@ class _SearchPageState extends State<SearchPage> {
         padding: const EdgeInsets.symmetric(horizontal: kMargin),
         child: Wrap(
           spacing: 8,
+          runSpacing: 8,
