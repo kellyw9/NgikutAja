@@ -69,3 +69,4 @@ class ItineraryDetailPage extends StatefulWidget {
   final Itinerary it;
 
   @override
+  State<ItineraryDetailPage> createState() => _ItineraryDetailPageState();
