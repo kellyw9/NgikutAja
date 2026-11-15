@@ -257,3 +257,4 @@ class _PaymentPageState extends State<PaymentPage> {
             processing ? 'Memproses pembayaran...' : 'Bayar ${rp(widget.it.price)}',
             expand: true,
             loading: processing,
+            onPressed: _pay,
