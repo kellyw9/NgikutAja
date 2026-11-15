@@ -27,3 +27,4 @@ class RecapPage extends StatelessWidget {
       appBar: NgAppBar(
         title: 'Trip recap',
         actions: [IconBtn('share', label: 'Bagikan recap', onTap: () => shareText(_summary(t)))],
+      ),
