@@ -445,3 +445,4 @@ class Seed {
           PackGroup('Pakaian', [PackItem('Jaket tipis untuk pagi di Holbung', true), PackItem('Sandal pantai'), PackItem('Kaos ganti 2', true)]),
           PackGroup('Elektronik', [PackItem('Power bank', true), PackItem('Kabel charger')]),
           PackGroup('Lainnya', [PackItem('Botol minum'), PackItem('Sunscreen', true), PackItem('Obat pribadi')]),
+        ],
