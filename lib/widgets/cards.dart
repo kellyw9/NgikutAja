@@ -7,3 +7,5 @@ import '../core/text.dart';
 import '../data/app_state.dart';
 import '../data/models.dart';
 import 'basics.dart';
+
+enum CardVariant { feed, row, grid }
