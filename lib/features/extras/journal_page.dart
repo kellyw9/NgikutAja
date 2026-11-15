@@ -91,3 +91,4 @@ class _JournalPageState extends State<JournalPage> {
       ),
       body: ListView(
         padding: const EdgeInsets.only(top: 8, bottom: 24),
+        children: [
