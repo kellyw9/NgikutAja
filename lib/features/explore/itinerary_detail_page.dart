@@ -122,3 +122,4 @@ class _ItineraryDetailPageState extends State<ItineraryDetailPage> {
                         text: thousands(it.likes),
                         label: app.liked.contains(it.id) ? 'Batal suka, ${it.likes} suka' : 'Suka, ${it.likes} suka',
                         onTap: () => requireLogin(context) ? app.toggleLike(it) : null,
+                      ),
