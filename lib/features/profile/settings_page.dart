@@ -79,3 +79,4 @@ class SettingsPage extends StatelessWidget {
                 sw('remindDayBefore', 'Pengingat H-1 perjalanan', 'Pukul 19.00 malam sebelum berangkat'),
                 sw('invites', 'Undangan trip bersama'),
                 sw('social', 'Interaksi sosial (like dan komentar)'),
+                sw('payments', 'Status transaksi dan pembelian'),
