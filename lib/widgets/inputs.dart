@@ -422,3 +422,4 @@ class Segmented extends StatelessWidget {
       decoration: BoxDecoration(color: AppColors.sunk, borderRadius: BorderRadius.circular(AppRadius.control)),
       child: Row(
         children: [
+          for (var i = 0; i < items.length; i++) ...[
