@@ -81,3 +81,4 @@ void main() {
     expect(find.text('Trip berhasil ditambahkan'), findsOneWidget);
     expect(s.trips.length, before + 1);
     expect(s.statusOf(s.trips.first), TripStatus.diadopsi);
+  });
