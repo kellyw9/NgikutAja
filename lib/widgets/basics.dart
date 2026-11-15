@@ -266,3 +266,4 @@ class Photo extends StatelessWidget {
     final wrapped = semantic == null ? ExcludeSemantics(child: box) : Semantics(image: true, label: semantic, child: box);
     return radius > 0 ? ClipRRect(borderRadius: BorderRadius.circular(radius), child: wrapped) : wrapped;
   }
+}
