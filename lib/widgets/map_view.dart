@@ -142,3 +142,4 @@ class _MapPainter extends CustomPainter {
         ..cubicTo(.28 * w, .85 * h, .3 * w, .6 * h, .34 * w, .4 * h)
         ..cubicTo(.36 * w, .25 * h, .38 * w, .14 * h, .45 * w, .12 * h)
         ..close();
+      canvas.drawPath(island, Paint()..color = AppColors.mapLand);
