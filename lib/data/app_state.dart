@@ -181,3 +181,4 @@ class AppState extends ChangeNotifier {
     final on = !wishlist.contains(id);
     on ? wishlist.add(id) : wishlist.remove(id);
     notifyListeners();
+    return on;
