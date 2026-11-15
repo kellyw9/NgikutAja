@@ -147,3 +147,4 @@ class MembersPage extends StatelessWidget {
                   return;
                 }
                 if (trip.members.any((m) => m.handle.toLowerCase() == (v.startsWith('@') ? v : '@$v').toLowerCase())) {
+                  set(() => err = 'Orang ini sudah ada di trip');
