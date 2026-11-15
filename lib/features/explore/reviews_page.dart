@@ -235,3 +235,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
                   Expanded(
                     child: Container(
                       constraints: const BoxConstraints(minHeight: 44),
+                      padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 12),
