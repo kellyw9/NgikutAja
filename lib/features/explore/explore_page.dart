@@ -86,3 +86,4 @@ class _ExplorePageState extends State<ExplorePage> {
               if (i > 0) const Padding(padding: EdgeInsets.symmetric(vertical: 20), child: NgDivider()),
               WisataCard(items[i], onTap: () => openItinerary(context, items[i]), onGuest: () => requireLogin(context)),
             ],
+          ],
