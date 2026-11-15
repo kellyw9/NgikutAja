@@ -294,3 +294,4 @@ class ErrorBlock extends StatelessWidget {
             ],
           ),
         ),
+        NgButton('Coba lagi', kind: BtnKind.text, size: BtnSize.md, onPressed: onRetry),
