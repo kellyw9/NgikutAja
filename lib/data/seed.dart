@@ -449,3 +449,4 @@ class Seed {
         checkins: {'0-0': '08.06', '0-1': '09.42'},
         story:
             'Dua hari keliling Samosir bareng Kevin dan Sari. Rencananya ngikut itinerary Kak Lestari, '
+            'tapi hari pertama kami tambah sewa motor.',
