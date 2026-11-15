@@ -425,3 +425,4 @@ class Seed {
         city: 'Samosir',
         region: 'Samosir, Sumatera Utara',
         start: today,
+        cover: 'toba',
