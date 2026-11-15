@@ -369,3 +369,4 @@ class _PaymentStatusPageState extends State<PaymentStatusPage> {
                   if (!_closeFlow(nav)) pushItinerary(nav, app, it);
                 },
               ),
+              NgButton(
