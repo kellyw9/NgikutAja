@@ -86,3 +86,4 @@ class _CheckinPageState extends State<CheckinPage> {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text('Riwayat check-in hari ini', style: AppText.h2),
+                  const SizedBox(height: 8),
