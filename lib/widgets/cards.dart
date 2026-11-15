@@ -196,3 +196,4 @@ class Grid2 extends StatelessWidget {
   Widget build(BuildContext context) => Column(
     children: [
       for (var r = 0; r < (items.length + 1) ~/ 2; r++) ...[
+        if (r > 0) const SizedBox(height: 20),
