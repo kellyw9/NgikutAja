@@ -75,3 +75,4 @@ class MapView extends StatelessWidget {
                       child: Container(
                         width: 22,
                         height: 22,
+                        alignment: Alignment.center,
