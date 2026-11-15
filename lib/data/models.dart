@@ -292,3 +292,4 @@ class Trip {
   bool remindDayBefore;
   bool remindEach;
   int remindOffset;
+  final Set<String> settled = {};
