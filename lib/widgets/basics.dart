@@ -384,3 +384,5 @@ class Pill extends StatelessWidget {
   final String text;
   final PillKind kind;
   final String? icon;
+
+  static (Color, Color) colors(PillKind k) => switch (k) {
