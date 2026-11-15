@@ -415,3 +415,4 @@ class _PickLocationPageState extends State<PickLocationPage> {
               children: [
                 Container(
                   width: 32,
+                  height: 4,
