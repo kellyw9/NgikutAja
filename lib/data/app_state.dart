@@ -212,3 +212,4 @@ class AppState extends ChangeNotifier {
   }
 
   // ---------------- ulasan dan komentar ----------------
+  late Map<String, List<Comment>> comments;
