@@ -77,3 +77,4 @@ class _LoginPageState extends State<LoginPage> {
           child: LayoutBuilder(
             builder: (context, c) => SingleChildScrollView(
               padding: const EdgeInsets.fromLTRB(kMargin, 24, kMargin, 24),
+              child: ConstrainedBox(
