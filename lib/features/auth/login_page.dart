@@ -197,3 +197,4 @@ class GoogleButton extends StatelessWidget {
         focusColor: AppColors.teal.withValues(alpha: .2),
         child: Row(
           mainAxisAlignment: MainAxisAlignment.center,
+          children: [
