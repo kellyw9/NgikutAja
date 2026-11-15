@@ -18,3 +18,4 @@ class WishlistPage extends StatelessWidget {
       body: list.isEmpty
           ? Padding(
               padding: const EdgeInsets.fromLTRB(kMargin, 8, kMargin, 16),
+              child: EmptyState(
