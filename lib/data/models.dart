@@ -92,3 +92,4 @@ class Itinerary {
     this.estimateSeed,
     this.placesSeed,
     DateTime? publishedAt,
+    this.isDraft = false,
