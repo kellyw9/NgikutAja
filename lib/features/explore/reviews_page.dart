@@ -53,3 +53,5 @@ class _ReviewsPageState extends State<ReviewsPage> {
       bottomNavigationBar: tab == 'Komentar' ? _composer(app) : null,
     );
   }
+
+  Widget _reviews(AppState app, Itinerary it) {
