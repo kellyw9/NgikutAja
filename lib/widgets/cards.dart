@@ -61,3 +61,4 @@ class WishButton extends StatelessWidget {
       },
     );
   }
+}
