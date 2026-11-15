@@ -35,3 +35,4 @@ class TravelModePage extends StatelessWidget {
               child: SafeArea(
                 bottom: false,
                 child: Column(
+                  children: [
