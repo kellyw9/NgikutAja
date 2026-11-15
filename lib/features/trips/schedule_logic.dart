@@ -133,3 +133,4 @@ List<String> shiftCascade(List<Stop> day, Stop target, int newStart) {
             icon: 'drive_file_move',
             title: 'Pindahkan ${pick.name} ke Hari ${lightest + 1}',
             sub: 'Hari ${d + 1} menjadi ${durationText(activeMinutes(day) - pick.duration)}',
+            apply: (p) {
