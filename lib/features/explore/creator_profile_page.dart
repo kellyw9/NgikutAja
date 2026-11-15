@@ -26,3 +26,4 @@ class _CreatorProfilePageState extends State<CreatorProfilePage> {
       backgroundColor: AppColors.ground,
       appBar: NgAppBar(
         actions: [
+          IconBtn('share', label: 'Bagikan profil', onTap: () => shareText('${c.name} (${c.handle}) menulis ${all.length} itinerary di NgikutAja.')),
