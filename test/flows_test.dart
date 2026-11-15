@@ -133,3 +133,4 @@ void main() {
   testWidgets('Create: judul wajib, hari tanpa stop menahan publish', (tester) async {
     await phone(tester);
     final s = newState();
+    await tester.pumpWidget(host(s, const CreateItineraryPage()));
