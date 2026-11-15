@@ -87,3 +87,4 @@ class MembersPage extends StatelessWidget {
     final app = AppScope.read(context);
     final input = TextEditingController();
     var role = MemberRole.editor;
+    String? err;
