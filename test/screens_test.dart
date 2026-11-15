@@ -145,3 +145,4 @@ void main() {
       shellTab.value = tabTrips;
       tripsTab.value = st;
       addTearDown(() => shellTab.value = 0);
+      await tester.pumpWidget(
