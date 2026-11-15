@@ -196,3 +196,4 @@ class PublishedPage extends StatelessWidget {
   Widget build(BuildContext context) {
     final app = AppScope.of(context);
     return Scaffold(
+      backgroundColor: AppColors.ground,
