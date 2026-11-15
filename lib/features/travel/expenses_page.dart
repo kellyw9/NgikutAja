@@ -113,3 +113,4 @@ class ExpensesPage extends StatelessWidget {
                   icon: 'payments',
                   title: 'Belum ada pengeluaran',
                   text: 'Catat tiket, makan, dan transportasi supaya pembagian biaya dihitung otomatis.',
+                  height: 220,
