@@ -50,3 +50,4 @@ class WishButton extends StatelessWidget {
       label: on ? 'Hapus dari Wishlist' : 'Simpan ke Wishlist',
       filled: on,
       bg: boxed ? AppColors.surface : null,
+      size: boxed ? 40 : 44,
