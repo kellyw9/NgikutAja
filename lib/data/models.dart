@@ -296,3 +296,4 @@ class Trip {
 
   // Ringkasan dari data contoh untuk trip lama yang jadwal lengkapnya tidak tersimpan.
   int? seedPlaces;
+  int? seedVisited;
