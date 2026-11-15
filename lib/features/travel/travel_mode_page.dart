@@ -141,3 +141,4 @@ class TravelModePage extends StatelessWidget {
                       onTap: () => push(context, TravelStopPage(trip: t, day: day, i: i)),
                       extra: t.isChecked(day, i) ? Text('Check-in ${t.checkins['$day-$i']}', style: AppText.smallStrong.c(AppColors.positive)) : null,
                     ),
+                ],
