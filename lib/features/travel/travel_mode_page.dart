@@ -136,3 +136,4 @@ class TravelModePage extends StatelessWidget {
                       last: i == stops.length - 1,
                       note: false,
                       thumb: false,
+                      state: t.isChecked(day, i) ? MarkerState.done : (i == next ? MarkerState.next : MarkerState.todo),
