@@ -122,3 +122,4 @@ class _PublishPageState extends State<PublishPage> {
                   ),
                 ),
               Text('Kesiapan itinerary', style: AppText.h2),
+              BoxList(
