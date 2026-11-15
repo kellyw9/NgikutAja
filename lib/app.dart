@@ -54,3 +54,4 @@ ThemeData buildTheme() {
     textTheme: TextTheme(bodyMedium: AppText.body, bodyLarge: AppText.body, titleMedium: AppText.title, labelLarge: AppText.button),
     splashFactory: InkRipple.splashFactory,
     textSelectionTheme: TextSelectionThemeData(
+      cursorColor: AppColors.ink,
