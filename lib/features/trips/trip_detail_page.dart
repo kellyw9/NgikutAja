@@ -290,3 +290,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
               for (var d = 0; d < t.days; d++)
                 DayItem('Hari ${d + 1}', date: t.dayDate(d) == null ? null : dateShort(t.dayDate(d)!), sub: '${t.plan[d].length} tempat'),
             ],
+            active: day,
