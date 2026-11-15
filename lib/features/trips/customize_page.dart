@@ -260,3 +260,4 @@ class _CustomizePageState extends State<CustomizePage> {
                       Text(l, style: AppText.body.c(iss.conflict ? AppColors.negativeInk : AppColors.ink)),
                     ],
                   ],
+                ),
