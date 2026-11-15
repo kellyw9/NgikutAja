@@ -240,3 +240,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
                       children: [
                         const AppIcon('near_me', size: 18, color: AppColors.muted),
                         const SizedBox(width: 8),
+                        Expanded(child: Text('Travel Mode aktif mulai ${dateLong(t.start!)}.', style: AppText.small.muted)),
