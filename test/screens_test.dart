@@ -48,3 +48,4 @@ final Map<String, PageFor> pages = {
   'register': (s) => const RegisterPage(),
   'reset': (s) => const ResetPasswordPage(email: 'dinda.saragi@gmail.com'),
   'new password': (s) => const NewPasswordPage(email: 'dinda.saragi@gmail.com'),
+  'explore': (s) => const HomeShell(),
