@@ -242,3 +242,4 @@ class _NextCard extends StatelessWidget {
                   expand: true,
                   onPressed: () => push(context, CheckinPage(trip: trip, day: day, i: i)),
                 ),
+              ),
