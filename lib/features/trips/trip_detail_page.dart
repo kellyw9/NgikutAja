@@ -138,3 +138,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
     final next = status == TripStatus.berjalan ? app.nextIndex(t, day) : null;
 
     String toolSub(String key) => switch (key) {
+      'split' => t.expenses.isEmpty ? 'Belum ada pengeluaran' : '${t.expenses.length} pengeluaran, ${rp(t.expenseTotal)}',
