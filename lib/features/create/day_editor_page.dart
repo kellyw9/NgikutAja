@@ -42,3 +42,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
   Future<void> _editStop([int? i]) async {
     final r = await push<StopEditResult>(
       context,
+      AddStopPage(
