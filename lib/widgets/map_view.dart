@@ -194,3 +194,4 @@ class _MapPainter extends CustomPainter {
         ring!.$2,
         Paint()
           ..color = AppColors.teal
+          ..style = PaintingStyle.stroke
