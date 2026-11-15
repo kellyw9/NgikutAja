@@ -310,3 +310,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
         radius: AppRadius.card,
         child: SizedBox(
           height: 180,
+          width: double.infinity,
