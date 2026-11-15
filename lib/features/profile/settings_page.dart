@@ -86,3 +86,4 @@ class SettingsPage extends StatelessWidget {
                 ListRow(
                   icon: 'download_for_offline',
                   title: 'Kelola data offline',
+                  sub: offline.isEmpty
