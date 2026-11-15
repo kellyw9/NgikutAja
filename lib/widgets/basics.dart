@@ -525,3 +525,4 @@ class Wordmark extends StatelessWidget {
             Text('NgikutAja', style: (large ? AppText.wordmark : AppText.h1).c(onDark ? AppColors.white : AppColors.ink)),
           ],
         ),
+      ),
