@@ -112,3 +112,4 @@ class _LoginPageState extends State<LoginPage> {
                         NgField(
                           label: 'Password',
                           icon: 'lock',
+                          controller: pass,
