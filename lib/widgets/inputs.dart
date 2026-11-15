@@ -178,3 +178,4 @@ class _NgFieldState extends State<NgField> {
         else
           box,
         if (err) ...[
+          const SizedBox(height: 6),
