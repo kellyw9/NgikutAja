@@ -94,3 +94,4 @@ class _CustomizePageState extends State<CustomizePage> {
         DialogAction('Batal'),
       ],
     );
+    if (r == true) _changed(() => plan[day].removeAt(i));
