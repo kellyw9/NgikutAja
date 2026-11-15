@@ -225,3 +225,4 @@ class _PaymentPageState extends State<PaymentPage> {
                                 children: [
                                   AppIcon(icon, size: 22),
                                   const SizedBox(width: 12),
+                                  Expanded(
