@@ -30,3 +30,4 @@ class HomeShell extends StatefulWidget {
 }
 
 class _HomeShellState extends State<HomeShell> {
+  final _pages = const [ExplorePage(), SearchPage(), SizedBox(), TripsPage(), ProfilePage()];
