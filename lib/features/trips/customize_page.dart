@@ -308,3 +308,4 @@ class _CustomizePageState extends State<CustomizePage> {
         if (didPop) return;
         if (await _confirmLeave() && context.mounted) Navigator.pop(context);
       },
+      child: Scaffold(
