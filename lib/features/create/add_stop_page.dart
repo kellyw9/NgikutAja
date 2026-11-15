@@ -262,3 +262,4 @@ class _AddStopPageState extends State<AddStopPage> {
                   icon: 'delete',
                   expand: true,
                   onPressed: () async {
+                    final r = await showNgDialog(
