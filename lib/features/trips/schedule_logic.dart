@@ -149,3 +149,4 @@ List<String> shiftCascade(List<Stop> day, Stop target, int newStart) {
 
 /// Taruh aktivitas di urutan terakhir hari tujuan, mulai 15 menit setelah aktivitas terakhir.
 int appendToDay(List<Stop> day, Stop s) {
+  final dur = s.duration;
