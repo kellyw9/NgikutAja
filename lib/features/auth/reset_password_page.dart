@@ -61,3 +61,4 @@ class _ResetPasswordPageState extends State<ResetPasswordPage> {
       appBar: const NgAppBar(),
       body: SafeArea(
         top: false,
+        child: LayoutBuilder(
