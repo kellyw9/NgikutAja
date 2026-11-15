@@ -296,3 +296,4 @@ class TripCard extends StatelessWidget {
         if (extra != null) ...[
           Container(height: 1, color: AppColors.line),
           Padding(padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 10), child: extra),
+        ],
