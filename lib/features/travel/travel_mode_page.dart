@@ -411,3 +411,4 @@ class NavigationPage extends StatelessWidget {
             padding: const EdgeInsets.fromLTRB(kMargin, 16, kMargin, 12),
             child: Gap(
               14,
+              children: [
