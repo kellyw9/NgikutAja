@@ -252,3 +252,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
                     const SizedBox(height: 2),
                     for (final (i, (icon, title, key)) in const [
                       ('call_split', 'Split budget', 'split'),
+                      ('backpack', 'Packing list', 'pack'),
