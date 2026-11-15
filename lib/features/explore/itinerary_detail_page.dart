@@ -41,3 +41,4 @@ class _StatChip extends StatelessWidget {
         borderRadius: BorderRadius.circular(6),
         side: const BorderSide(color: AppColors.line),
       ),
+      clipBehavior: Clip.antiAlias,
