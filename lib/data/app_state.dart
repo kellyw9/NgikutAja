@@ -209,3 +209,4 @@ class AppState extends ChangeNotifier {
       it.likes++;
     }
     notifyListeners();
+  }
