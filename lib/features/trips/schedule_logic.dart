@@ -51,3 +51,4 @@ class DayIssue {
 /// Mengembalikan nama + jam baru aktivitas lain yang ikut bergeser.
 List<String> shiftCascade(List<Stop> day, Stop target, int newStart) {
   final moved = <String>[];
+  final dur = target.duration;
