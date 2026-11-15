@@ -80,3 +80,4 @@ class _PackingPageState extends State<PackingPage> {
     final all = t.packing.expand((g) => g.items).toList();
     final done = all.where((x) => x.done).length;
     return Scaffold(
+      backgroundColor: AppColors.ground,
