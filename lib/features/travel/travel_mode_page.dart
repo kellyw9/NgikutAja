@@ -280,3 +280,4 @@ class TravelStopPage extends StatelessWidget {
                   runSpacing: 6,
                   children: [
                     checked
+                        ? Pill('Check-in ${trip.checkins['$day-$i']}', kind: PillKind.positive, icon: 'check')
