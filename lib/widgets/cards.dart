@@ -364,3 +364,4 @@ class StopRow extends StatelessWidget {
                       ],
                     ],
                   ),
+                ),
