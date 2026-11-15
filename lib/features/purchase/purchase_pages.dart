@@ -58,3 +58,4 @@ class PurchaseDetailPage extends StatelessWidget {
           Gap(
             14,
             children: [
+              _ItemRow(it),
