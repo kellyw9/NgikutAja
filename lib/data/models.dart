@@ -45,3 +45,4 @@ class Stop {
     this.cost = 0,
     this.photo,
     this.note,
+    this.desc,
