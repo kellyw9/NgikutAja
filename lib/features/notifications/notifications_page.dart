@@ -118,3 +118,4 @@ class NotificationsPage extends StatelessWidget {
               Padding(
                 padding: const EdgeInsets.only(top: 6),
                 child: n.unread
+                    ? Semantics(
