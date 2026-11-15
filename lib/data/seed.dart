@@ -175,3 +175,4 @@ class Seed {
       tags: ['Alam'],
       lodging: 970000,
       publishedAt: _d(-10),
+      desc:
