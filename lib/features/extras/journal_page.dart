@@ -20,3 +20,4 @@ class _JournalPageState extends State<JournalPage> {
   }
 
   Future<void> _editStory() async {
+    final c = TextEditingController(text: widget.trip.story);
