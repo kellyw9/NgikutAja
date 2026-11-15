@@ -170,3 +170,4 @@ class _PackingPageState extends State<PackingPage> {
                   Expanded(
                     child: NgField(
                       controller: input,
+                      hint: 'Tambah barang bawaan...',
