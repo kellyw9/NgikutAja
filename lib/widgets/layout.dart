@@ -258,3 +258,4 @@ class KeyValueBox extends StatelessWidget {
                 const SizedBox(width: 12),
                 Expanded(
                   child: Text(r.$2, style: AppText.body, textAlign: TextAlign.right),
+                ),
