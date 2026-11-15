@@ -172,3 +172,4 @@ class _SearchPageState extends State<SearchPage> {
                 Expanded(
                   child: TextField(
                     controller: input,
+                    focusNode: focus,
