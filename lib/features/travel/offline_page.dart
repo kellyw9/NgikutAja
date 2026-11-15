@@ -104,3 +104,4 @@ class OfflinePage extends StatelessWidget {
             icon: 'sync',
             expand: true,
             onPressed: () {
+              if (!app.online) {
