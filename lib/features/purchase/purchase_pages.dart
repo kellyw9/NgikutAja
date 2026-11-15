@@ -59,3 +59,4 @@ class PurchaseDetailPage extends StatelessWidget {
             14,
             children: [
               _ItemRow(it),
+              Row(
