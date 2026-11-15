@@ -200,3 +200,5 @@ class AppState extends ChangeNotifier {
     }
     notifyListeners();
   }
+
+  void toggleLike(Itinerary it) {
