@@ -97,3 +97,4 @@ class _RoutePainter extends CustomPainter {
         ..strokeWidth = 4
         ..strokeCap = StrokeCap.round,
     );
+  }
