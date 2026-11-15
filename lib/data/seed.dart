@@ -374,3 +374,4 @@ class Seed {
         adopted: 34,
         likes: 41,
         tags: ['Kuliner'],
+        publishedAt: _d(-150),
