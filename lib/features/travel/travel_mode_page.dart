@@ -359,3 +359,4 @@ class TravelStopPage extends StatelessWidget {
 }
 
 /// 6.3 Navigasi.
+class NavigationPage extends StatelessWidget {
