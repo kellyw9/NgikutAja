@@ -97,3 +97,4 @@ class _PublishPageState extends State<PublishPage> {
                   ],
                 ),
               ),
+              Text('Tipe publikasi', style: AppText.h2),
