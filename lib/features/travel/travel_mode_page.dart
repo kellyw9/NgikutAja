@@ -398,3 +398,4 @@ class NavigationPage extends StatelessWidget {
             ),
           ),
         ],
+      ),
