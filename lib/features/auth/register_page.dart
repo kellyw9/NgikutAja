@@ -84,3 +84,4 @@ class _RegisterPageState extends State<RegisterPage> {
                     children: [
                       Text('Buat akun baru', style: AppText.h1),
                       const SizedBox(height: 8),
+                      Text('Satu akun untuk membuat, mengadopsi, dan menjalankan trip.', style: AppText.body.muted),
