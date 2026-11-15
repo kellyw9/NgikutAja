@@ -174,3 +174,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
                   label: 'Deskripsi',
                   controller: desc,
                   area: true,
+                  hint: 'Ceritakan rute ini dalam dua atau tiga kalimat.',
