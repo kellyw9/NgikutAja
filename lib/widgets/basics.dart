@@ -456,3 +456,4 @@ class MetaRow extends StatelessWidget {
   const MetaRow(this.items, {super.key, this.color = AppColors.muted, this.gap = 12});
   final List<(String, String)?> items;
   final Color color;
+  final double gap;
