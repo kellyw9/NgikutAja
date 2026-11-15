@@ -13,3 +13,4 @@ class DashboardPage extends StatelessWidget {
     final app = AppScope.of(context);
     final mine = app.mine;
     final top = mine.where((x) => x.isPaid).toList()..sort((a, b) => app.salesOf(b).compareTo(app.salesOf(a)));
+    final chartItem = top.firstOrNull;
