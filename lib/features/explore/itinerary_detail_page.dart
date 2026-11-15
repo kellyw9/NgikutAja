@@ -95,3 +95,4 @@ class _ItineraryDetailPageState extends State<ItineraryDetailPage> {
               it.cover,
               semantic: 'Foto sampul ${it.title}',
               right: [
+                IconBtn('share', label: 'Bagikan', bg: AppColors.surface, size: 40, onTap: () => shareItinerary(it)),
