@@ -362,3 +362,4 @@ class _CustomizePageState extends State<CustomizePage> {
                     sub: '${plan[d].length} tempat',
                     alert: conflictsIn(plan[d]).isNotEmpty,
                   ),
+              ],
