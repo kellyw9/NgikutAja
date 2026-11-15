@@ -20,3 +20,4 @@ void main() {
     final state = AppState(null, now: DateTime(2026, 11, 4), watchNetwork: false);
     expect(state.itinerary('medan').estimate, 850000);
     expect(state.itinerary('toba').estimate, 1100000);
+    expect(state.itinerary('medan').places, 12);
