@@ -67,3 +67,5 @@ class _PublishPageState extends State<PublishPage> {
         ),
       );
     }
+
+    return Scaffold(
