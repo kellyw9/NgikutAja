@@ -299,3 +299,4 @@ class _EditTripInfoPageState extends State<EditTripInfoPage> {
                 label: 'Judul',
                 controller: title,
                 error: tried && title.text.trim().isEmpty ? 'Judul wajib diisi' : null,
+                onChanged: (_) => setState(() {}),
