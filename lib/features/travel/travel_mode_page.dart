@@ -444,3 +444,4 @@ class NavigationPage extends StatelessWidget {
                                   Text('Jarak', style: AppText.small.muted),
                                   const SizedBox(height: 2),
                                   Text(info.$1, style: AppText.h2),
+                                ],
