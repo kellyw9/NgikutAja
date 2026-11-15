@@ -51,3 +51,4 @@ class TravelModePage extends StatelessWidget {
                             const SizedBox(width: 4),
                             Expanded(
                               child: Semantics(header: true, child: Text('Travel Mode', style: AppText.h2.white)),
+                            ),
