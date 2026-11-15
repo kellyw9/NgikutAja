@@ -103,3 +103,4 @@ class MapView extends StatelessWidget {
           ),
         );
       },
+    );
