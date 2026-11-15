@@ -196,3 +196,4 @@ class TextLink extends StatelessWidget {
 }
 
 /// Area ketuk generik dengan efek tekan, fokus, dan kursor tangan.
+class Tap extends StatelessWidget {
