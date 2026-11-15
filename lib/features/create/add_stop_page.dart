@@ -335,3 +335,4 @@ class _PickLocationPageState extends State<PickLocationPage> {
                             decoration: BoxDecoration(color: AppColors.ink, borderRadius: BorderRadius.circular(AppRadius.chip)),
                             child: Row(
                               mainAxisSize: MainAxisSize.min,
+                              children: [
