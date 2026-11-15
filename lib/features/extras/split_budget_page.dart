@@ -120,3 +120,4 @@ class _SplitBudgetPageState extends State<SplitBudgetPage> {
                                       value: portion[m.first] ?? 1,
                                       unit: ' porsi',
                                       min: 0,
+                                      max: 5,
