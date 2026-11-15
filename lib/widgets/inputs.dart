@@ -372,3 +372,4 @@ class NgChip extends StatelessWidget {
       child: Material(
         color: selected ? AppColors.ink : AppColors.surface,
         shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(AppRadius.chip),
