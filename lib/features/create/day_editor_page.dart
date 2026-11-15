@@ -311,3 +311,4 @@ class _StopCard extends StatelessWidget {
                   Pill(stop.cat.label, kind: PillKind.teal),
                 ],
               ),
+              const SizedBox(height: 4),
