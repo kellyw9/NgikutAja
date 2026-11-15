@@ -259,3 +259,5 @@ class AppState extends ChangeNotifier {
 
   // ---------------- trip ----------------
   late List<Trip> trips;
+
+  TripStatus statusOf(Trip t) => t.statusOn(today);
