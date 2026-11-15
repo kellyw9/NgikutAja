@@ -454,3 +454,4 @@ class AppState extends ChangeNotifier {
     'remindDayBefore': true,
     'invites': true,
     'social': false,
+    'payments': true,
