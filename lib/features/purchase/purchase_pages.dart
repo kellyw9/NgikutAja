@@ -347,3 +347,4 @@ class _PaymentStatusPageState extends State<PaymentStatusPage> {
       case TxStatus.berhasil:
         return _frame(
           StatusView(
+            top: true,
