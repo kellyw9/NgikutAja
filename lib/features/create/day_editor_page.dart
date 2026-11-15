@@ -75,3 +75,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
     final cost = stops.fold<int>(0, (a, s) => a + s.cost);
 
     // Pesan error pertama di seluruh hari, supaya pengguna tahu harus ke hari mana.
+    String? conflictMsg;
