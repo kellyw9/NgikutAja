@@ -230,3 +230,4 @@ class NgToggle extends StatelessWidget {
         height: 44,
         child: Center(
           child: Material(
+            color: value ? AppColors.ink : AppColors.sunk,
