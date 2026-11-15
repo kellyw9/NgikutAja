@@ -75,3 +75,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
       title: 'Tambah tag',
       sub: 'Maksimal 5 tag per itinerary.',
       builder: (ctx) => Gap(
+        16,
