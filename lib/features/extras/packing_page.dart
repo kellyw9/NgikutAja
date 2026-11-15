@@ -93,3 +93,4 @@ class _PackingPageState extends State<PackingPage> {
                   Row(
                     children: [
                       Expanded(child: Text('$done dari ${all.length} barang siap', style: AppText.bodyStrong)),
+                      Text('${all.length - done} barang tersisa', style: AppText.small.muted),
