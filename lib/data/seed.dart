@@ -16,3 +16,5 @@ class Seed {
 
   final DateTime now;
   final DateTime today;
+
+  /// Transaksi transfer bank contoh dibuat 1 menit sebelum aplikasi dibuka,
