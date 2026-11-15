@@ -23,3 +23,4 @@ class _AddStopPageState extends State<AddStopPage> {
   late final note = TextEditingController(text: s?.note ?? '');
   late Category cat = s?.cat ?? Category.makan;
   late String start = s?.start ?? widget.defaultStart;
+  late String end = s?.end ?? fromMinutes(toMinutes(widget.defaultStart) + 60);
