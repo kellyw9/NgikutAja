@@ -196,3 +196,4 @@ class _EditStopPageState extends State<EditStopPage> {
                         const SizedBox(width: 10),
                       ],
                       AddPhotoTile(
+                        onTap: () async {
