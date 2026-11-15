@@ -14,3 +14,4 @@ String rp(int n) => n < 0 ? '−Rp${thousands(-n)}' : 'Rp${thousands(n)}';
 String decimal(double v, [int digits = 1]) => v.toStringAsFixed(digits).replaceAll('.', ',');
 
 /// Ambil angka dari teks rupiah yang diketik ("Rp25.000" -> 25000).
+int parseRupiah(String text) => int.tryParse(text.replaceAll(RegExp(r'[^0-9]'), '')) ?? 0;
