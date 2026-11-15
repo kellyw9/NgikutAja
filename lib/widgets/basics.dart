@@ -18,3 +18,4 @@ class NgButton extends StatelessWidget {
   const NgButton(
     this.label, {
     super.key,
+    this.onPressed,
