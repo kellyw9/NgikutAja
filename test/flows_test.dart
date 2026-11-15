@@ -165,3 +165,4 @@ void main() {
     await phone(tester);
     final s = newState(loggedIn: false);
     await tester.pumpWidget(host(s, const HomeShell()));
+    await tester.pump(const Duration(seconds: 1));
