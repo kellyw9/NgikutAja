@@ -234,3 +234,4 @@ class PublishedPage extends StatelessWidget {
                                 const Pill('Live di Explore', kind: PillKind.positive, icon: 'check_circle'),
                                 const SizedBox(height: 8),
                                 Text(d.title, style: AppText.title, maxLines: 2, overflow: TextOverflow.ellipsis),
+                                const SizedBox(height: 2),
