@@ -29,3 +29,4 @@ String dateShort(DateTime d) => '${weekdaysShort[d.weekday - 1]}, ${d.day} ${mon
 
 /// "12–14 Des 2026" atau "30 Nov–2 Des 2026"
 String dateRange(DateTime a, DateTime b) {
+  if (a.month == b.month && a.year == b.year) {
