@@ -345,3 +345,4 @@ class Seed {
         likes: 52,
         tags: ['Alam'],
         lodging: 450000,
+        publishedAt: _d(-120),
