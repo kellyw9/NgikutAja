@@ -291,3 +291,4 @@ class AppState extends ChangeNotifier {
       id: 'trip-${DateTime.now().microsecondsSinceEpoch}',
       title: it.title,
       city: it.city,
+      region: it.region,
