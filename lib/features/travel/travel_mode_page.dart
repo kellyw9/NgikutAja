@@ -32,3 +32,4 @@ class TravelModePage extends StatelessWidget {
           children: [
             Container(
               color: AppColors.ink,
+              child: SafeArea(
