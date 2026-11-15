@@ -369,3 +369,4 @@ class NavigationPage extends StatelessWidget {
   Widget build(BuildContext context) {
     final st = trip.plan[day][i];
     final info = travelInfo[st.name];
+    final prev = i > 0 ? i - 1 : null;
