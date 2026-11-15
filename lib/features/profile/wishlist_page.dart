@@ -39,3 +39,5 @@ class WishlistPage extends StatelessWidget {
 class _Row extends StatelessWidget {
   const _Row(this.it);
   final Itinerary it;
+
+  @override
