@@ -23,3 +23,4 @@ class TripsPage extends StatelessWidget {
           const TabHeader('Trip Saya'),
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: kMargin),
+            child: Segmented(
