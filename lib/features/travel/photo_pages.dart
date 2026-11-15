@@ -39,3 +39,4 @@ class _PhotoPreviewPageState extends State<PhotoPreviewPage> {
             children: [
               Photo(widget.src, height: 250, radius: AppRadius.card, semantic: 'Foto baru'),
               NgField(
+                label: 'Aktivitas terkait',
