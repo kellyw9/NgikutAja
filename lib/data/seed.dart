@@ -210,3 +210,4 @@ class Seed {
       city: 'Yogyakarta',
       region: 'Yogyakarta, DIY',
       days: 3,
+      cover: 'prambanan',
