@@ -109,3 +109,4 @@ class Seed {
         followers: 690,
         following: 210,
       ),
+    };
