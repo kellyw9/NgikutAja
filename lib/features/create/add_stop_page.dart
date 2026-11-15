@@ -377,3 +377,4 @@ class _PickLocationPageState extends State<PickLocationPage> {
                     border: Border.all(color: AppColors.control),
                     boxShadow: kFloatShadow,
                   ),
+                  child: Row(
