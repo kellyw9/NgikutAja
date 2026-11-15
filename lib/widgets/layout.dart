@@ -283,3 +283,4 @@ class KeyValueBox extends StatelessWidget {
 class ListRow extends StatelessWidget {
   const ListRow({
     super.key,
+    this.icon,
