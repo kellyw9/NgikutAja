@@ -221,3 +221,4 @@ class NgToggle extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    return Semantics(
