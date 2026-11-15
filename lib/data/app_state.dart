@@ -51,3 +51,4 @@ class AppState extends ChangeNotifier {
             notifyListeners();
           }
         }, onError: (_) {});
+        Network.check()
