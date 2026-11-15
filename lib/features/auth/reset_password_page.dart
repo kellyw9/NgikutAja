@@ -10,3 +10,5 @@ String maskEmail(String e) {
   if (at < 1) return e;
   return '${e[0]}***${e.substring(at)}';
 }
+
+/// 1.5 Reset password: masukkan email, lalu tautan terkirim.
