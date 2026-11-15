@@ -28,3 +28,4 @@ class _PackingPageState extends State<PackingPage> {
     if (g == null) {
       g = PackGroup('Lainnya', []);
       t.packing.add(g);
+    }
