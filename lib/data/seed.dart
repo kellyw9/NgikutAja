@@ -627,3 +627,4 @@ class Seed {
                 'kapal terakhir kembali ke Ajibata pukul 18.00.',
             'Tiket dibeli di atas kapal seharga Rp15.000 per orang. Sepeda motor bisa ikut menyeberang dengan biaya tambahan.',
           ],
+        ),
