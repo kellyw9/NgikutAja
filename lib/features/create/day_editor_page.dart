@@ -167,3 +167,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
                     Text('Hari ${day + 1} belum punya stop.', style: AppText.body.muted),
                     NgCard(
                       padding: const EdgeInsets.all(20),
+                      child: Column(
