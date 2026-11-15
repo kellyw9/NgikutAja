@@ -131,3 +131,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
     final app = AppScope.of(context);
     final t = widget.trip;
     final status = app.statusOf(t);
+    final day = (_day ?? (status == TripStatus.berjalan ? app.currentDay(t) : 0)).clamp(0, t.days - 1);
