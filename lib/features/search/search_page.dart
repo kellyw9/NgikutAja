@@ -416,3 +416,4 @@ class _SearchPageState extends State<SearchPage> {
     builder: (ctx) => Column(
       children: [
         for (final s in _sorts)
+          RadioRow(
