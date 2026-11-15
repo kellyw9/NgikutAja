@@ -190,3 +190,4 @@ class GoogleButton extends StatelessWidget {
       shape: RoundedRectangleBorder(
         borderRadius: BorderRadius.circular(AppRadius.control),
         side: const BorderSide(color: AppColors.control),
+      ),
