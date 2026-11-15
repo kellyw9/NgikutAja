@@ -389,3 +389,4 @@ class _PaymentStatusPageState extends State<PaymentStatusPage> {
             iconColor: AppColors.negativeInk,
             title: 'Pembayaran gagal',
             text: widget.offlineFail
+                ? 'Koneksi terputus sebelum transaksi selesai. Tidak ada saldo yang ditarik.'
