@@ -225,3 +225,4 @@ class _CustomizePageState extends State<CustomizePage> {
   }
 
   void _notes() {
+    showNgSheet<void>(
