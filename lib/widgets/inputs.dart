@@ -393,3 +393,4 @@ class NgChip extends StatelessWidget {
                   const SizedBox(width: 6),
                 ],
                 ExcludeSemantics(
+                  excluding: close,
