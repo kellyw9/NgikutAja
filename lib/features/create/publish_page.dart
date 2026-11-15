@@ -24,3 +24,5 @@ class _PublishPageState extends State<PublishPage> {
     price.dispose();
     super.dispose();
   }
+
+  void _apply() => d.price = paid ? parseRupiah(price.text) : 0;
