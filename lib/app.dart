@@ -62,3 +62,4 @@ ThemeData buildTheme() {
       decoration: BoxDecoration(color: AppColors.ink, borderRadius: BorderRadius.circular(4)),
       textStyle: AppText.small.white,
     ),
+    progressIndicatorTheme: const ProgressIndicatorThemeData(color: AppColors.ink),
