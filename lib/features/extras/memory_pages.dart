@@ -11,3 +11,5 @@ String photoDayLabel(Trip t, int d) {
 class PhotoMemoryPage extends StatelessWidget {
   const PhotoMemoryPage({super.key, required this.trip});
   final Trip trip;
+
+  @override
