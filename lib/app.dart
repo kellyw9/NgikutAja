@@ -41,3 +41,4 @@ ThemeData buildTheme() {
     seedColor: AppColors.ink,
     primary: AppColors.ink,
     onPrimary: AppColors.white,
+    secondary: AppColors.teal,
