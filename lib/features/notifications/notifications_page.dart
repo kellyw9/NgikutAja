@@ -213,3 +213,4 @@ class NotificationDetailPage extends StatelessWidget {
           ? null
           : SafeArea(
               child: Padding(
+                padding: const EdgeInsets.fromLTRB(kMargin, 0, kMargin, 16),
