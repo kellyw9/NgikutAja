@@ -481,3 +481,4 @@ class _SearchPageState extends State<SearchPage> {
                 Wrap(
                   spacing: 8,
                   runSpacing: 8,
+                  children: [
