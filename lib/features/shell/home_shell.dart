@@ -51,3 +51,4 @@ class _HomeShellState extends State<HomeShell> {
         final t = !app.loggedIn && (tab == tabTrips || tab == tabProfile) ? tabExplore : tab;
         return AnnotatedRegion(
           value: kDarkIcons,
+          child: Scaffold(
