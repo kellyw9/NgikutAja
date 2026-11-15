@@ -500,3 +500,4 @@ class _SearchPageState extends State<SearchPage> {
               ),
               group(
                 'Harga itinerary',
+                Wrap(
