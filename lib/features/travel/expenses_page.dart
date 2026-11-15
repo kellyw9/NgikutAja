@@ -134,3 +134,4 @@ class ExpensesPage extends StatelessWidget {
                                     mainAxisAlignment: MainAxisAlignment.center,
                                     crossAxisAlignment: CrossAxisAlignment.start,
                                     children: [
+                                      Text(e.name, style: AppText.bodyStrong, maxLines: 1, overflow: TextOverflow.ellipsis),
