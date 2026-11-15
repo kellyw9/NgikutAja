@@ -290,3 +290,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
       return SizedBox(
         height: 180,
         child: Stack(
+          fit: StackFit.expand,
