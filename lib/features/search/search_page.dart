@@ -19,3 +19,4 @@ const _sorts = ['Relevan', 'Rating tertinggi', 'Paling banyak diadopsi', 'Harga 
 class SearchFilter {
   String? duration;
   RangeValues budget = const RangeValues(0, _maxBudget);
+  String? rating;
