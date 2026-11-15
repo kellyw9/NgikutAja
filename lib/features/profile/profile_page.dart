@@ -70,3 +70,4 @@ class ProfilePage extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text('Itinerary saya', style: AppText.h2),
+              const SizedBox(height: 12),
