@@ -296,3 +296,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
           ),
           Padding(
             padding: const EdgeInsets.fromLTRB(kMargin, 12, kMargin, 24),
+            child: stops.isEmpty
