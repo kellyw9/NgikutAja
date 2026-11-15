@@ -110,3 +110,5 @@ class SettingsPage extends StatelessWidget {
     );
   }
 }
+
+/// Tentang aplikasi + kredit foto (wajib untuk lisensi CC BY / CC BY-SA).
