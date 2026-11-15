@@ -208,3 +208,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
                         onPressed: status == TripStatus.selesai ? null : () => push(context, CustomizePage(trip: t, initialDay: day)),
                       ),
                     ),
+                    const SizedBox(width: 8),
