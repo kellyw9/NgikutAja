@@ -59,3 +59,4 @@ class NgBanner extends StatelessWidget {
                     padding: const EdgeInsets.symmetric(vertical: 2),
                     child: Text(action!, style: AppText.bodyStrong.c(fg)),
                   ),
+                ),
