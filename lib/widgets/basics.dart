@@ -373,3 +373,5 @@ class AddPhotoTile extends StatelessWidget {
     ),
   );
 }
+
+// ---------------------------------------------------------------- label
