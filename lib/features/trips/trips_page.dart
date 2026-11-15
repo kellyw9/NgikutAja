@@ -135,3 +135,4 @@ class TripsPage extends StatelessWidget {
                     onPressed: () => push(context, PhotoMemoryPage(trip: t)),
                   ),
                 ),
+              ],
