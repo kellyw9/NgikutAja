@@ -358,3 +358,4 @@ class StatusView extends StatelessWidget {
     required this.actions,
     this.top = false,
   });
+  final String icon;
