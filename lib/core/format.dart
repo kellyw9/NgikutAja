@@ -6,3 +6,4 @@ String thousands(int n) {
     if (i > 0 && (s.length - i) % 3 == 0) buf.write('.');
     buf.write(s[i]);
   }
+  return (n < 0 ? '-' : '') + buf.toString();
