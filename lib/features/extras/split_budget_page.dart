@@ -56,3 +56,4 @@ class _SplitBudgetPageState extends State<SplitBudgetPage> {
             16,
             children: [
               FactStrip([
+                ('Total pengeluaran', rp(total)),
