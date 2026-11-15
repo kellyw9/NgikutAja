@@ -429,3 +429,4 @@ class StopRow extends StatelessWidget {
       ),
     );
   }
+}
