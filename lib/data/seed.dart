@@ -578,3 +578,4 @@ class Seed {
       AppNotification(
         id: 'n3',
         kind: NotifKind.payment,
+        icon: 'receipt_long',
