@@ -217,3 +217,4 @@ class _SearchPageState extends State<SearchPage> {
                   child: Container(
                     width: 18,
                     height: 18,
+                    alignment: Alignment.center,
