@@ -164,3 +164,4 @@ class _MapPainter extends CustomPainter {
           ..strokeCap = StrokeCap.butt,
       );
     } else {
+      final park = Paint()..color = AppColors.mapPark;
