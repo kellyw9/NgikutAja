@@ -312,3 +312,4 @@ class _EditTripInfoPageState extends State<EditTripInfoPage> {
                 onTap: () async {
                   final d = await pickDate(context, initial: start ?? app.today, days: t.days);
                   if (d != null) setState(() => start = d);
+                },
