@@ -464,3 +464,4 @@ class PurchaseHistoryPage extends StatelessWidget {
           : ListView.separated(
               padding: const EdgeInsets.fromLTRB(kMargin, 8, kMargin, 16),
               itemCount: list.length,
+              separatorBuilder: (_, _) => const SizedBox(height: 10),
