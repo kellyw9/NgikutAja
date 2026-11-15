@@ -39,3 +39,4 @@ class RecapPage extends StatelessWidget {
                 children: [
                   Text(t.title, style: AppText.h1),
                   const SizedBox(height: 4),
+                  MetaRow([('calendar_month', t.dates ?? 'Tanggal belum diatur'), ('schedule', '${t.days} hari')]),
