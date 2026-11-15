@@ -165,3 +165,4 @@ class _ItineraryDetailPageState extends State<ItineraryDetailPage> {
             ),
             const SizedBox(height: 24),
             SectionHead('Peta dan rute', sub: 'Rute Hari ${mapDay + 1}, urut sesuai jadwal'),
+            const SizedBox(height: 12),
