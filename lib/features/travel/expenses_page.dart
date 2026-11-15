@@ -91,3 +91,4 @@ class ExpensesPage extends StatelessWidget {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
+                    Text('Total pengeluaran tercatat', style: AppText.small.muted),
