@@ -177,3 +177,4 @@ class TravelModePage extends StatelessWidget {
 
 class _NextCard extends StatelessWidget {
   const _NextCard({required this.trip, required this.day, required this.i});
+  final Trip trip;
