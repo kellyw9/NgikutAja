@@ -85,3 +85,4 @@ class DashboardPage extends StatelessWidget {
               Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
+                  Text('Itinerary yang kamu kelola', style: AppText.h2),
