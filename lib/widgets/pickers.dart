@@ -216,3 +216,4 @@ bool requireLogin(BuildContext context) {
       children: [
         NgButton(
           'Masuk ke akun',
+          expand: true,
