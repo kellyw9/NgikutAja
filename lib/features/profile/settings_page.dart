@@ -65,3 +65,4 @@ class SettingsPage extends StatelessWidget {
     );
 
     return Scaffold(
+      backgroundColor: AppColors.ground,
