@@ -111,3 +111,4 @@ class WisataCard extends StatelessWidget {
             ),
           ),
         );
+      case CardVariant.grid:
