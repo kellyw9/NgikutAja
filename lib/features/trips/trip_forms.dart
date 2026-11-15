@@ -24,3 +24,4 @@ Future<String?> pickTime(BuildContext context, String current) async {
 }
 
 /// 5.5 Tambah / Edit aktivitas pada trip.
+class EditStopPage extends StatefulWidget {
