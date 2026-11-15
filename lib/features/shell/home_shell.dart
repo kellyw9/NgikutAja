@@ -52,3 +52,4 @@ class _HomeShellState extends State<HomeShell> {
         return AnnotatedRegion(
           value: kDarkIcons,
           child: Scaffold(
+            backgroundColor: AppColors.ground,
