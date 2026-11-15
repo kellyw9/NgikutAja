@@ -106,3 +106,4 @@ class _EditProfilePageState extends State<EditProfilePage> {
                   onChanged: (_) => setState(() {}),
                   error: name.text.trim().isEmpty ? 'Nama wajib diisi' : null,
                 ),
+                NgField(
