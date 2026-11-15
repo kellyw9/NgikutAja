@@ -15,3 +15,4 @@ class WishlistPage extends StatelessWidget {
     return Scaffold(
       backgroundColor: AppColors.ground,
       appBar: NgAppBar(title: 'Wishlist', sub: list.isEmpty ? null : '${list.length} itinerary tersimpan'),
+      body: list.isEmpty
