@@ -27,3 +27,4 @@ class _PhotoPreviewPageState extends State<PhotoPreviewPage> {
   Widget build(BuildContext context) {
     final t = widget.trip;
     final stops = t.plan[widget.day];
+    final st = stop != null && stop! < stops.length ? stops[stop!] : null;
