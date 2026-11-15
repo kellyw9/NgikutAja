@@ -113,3 +113,5 @@ class AppState extends ChangeNotifier {
     _prefs?.setBool('loggedIn', v);
     notifyListeners();
   }
+
+  // ---------------- profil ----------------
