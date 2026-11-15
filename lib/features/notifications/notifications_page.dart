@@ -221,3 +221,4 @@ class NotificationDetailPage extends StatelessWidget {
                   onPressed: () => push(context, TravelModePage(trip: trip), fullscreen: true),
                 ),
               ),
+            ),
