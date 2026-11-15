@@ -272,3 +272,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
                           'photo' => push(context, PhotoMemoryPage(trip: t)),
                           _ =>
                             status == TripStatus.selesai
+                                ? push(context, RecapPage(trip: t))
