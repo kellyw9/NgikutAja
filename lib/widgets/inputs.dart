@@ -330,3 +330,4 @@ class NgStepper extends StatelessWidget {
   final int max;
 
   @override
+  Widget build(BuildContext context) => Container(
