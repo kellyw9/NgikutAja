@@ -384,3 +384,4 @@ class NavigationPage extends StatelessWidget {
                 MapPin(.55, .5, n: i + 1, state: MarkerState.next),
               ],
               me: const Offset(.72, .38),
+              label: false,
