@@ -39,3 +39,4 @@ class _OnboardingPageState extends State<OnboardingPage> {
     if (page < 2) {
       _pc.nextPage(duration: const Duration(milliseconds: 260), curve: Curves.easeOut);
     } else {
+      _finish();
