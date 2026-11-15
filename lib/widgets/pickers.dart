@@ -209,3 +209,4 @@ bool requireLogin(BuildContext context) {
   if (app.loggedIn) return true;
   showNgSheet<void>(
     context,
+    title: 'Masuk dulu ke akunmu',
