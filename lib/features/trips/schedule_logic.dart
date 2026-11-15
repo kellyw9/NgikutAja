@@ -45,3 +45,4 @@ class DayIssue {
   final bool conflict;
   final String title;
   final List<String> lines;
+}
