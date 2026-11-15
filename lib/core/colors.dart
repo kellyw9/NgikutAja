@@ -34,3 +34,4 @@ class AppColors {
   static const inkRaised = Color(0xFF17505C);
 
   // Peta sementara
+  static const mapLand = Color(0xFFEDE4D7);
