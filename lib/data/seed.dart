@@ -94,3 +94,4 @@ class Seed {
       'yosef': Creator(
         id: 'yosef',
         name: 'Yosef Ndun',
+        handle: '@bajoharian',
