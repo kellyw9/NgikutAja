@@ -598,3 +598,4 @@ class Seed {
         kind: NotifKind.like,
         icon: 'favorite',
         lead: '@putrihsb',
+        text: ' dan 4 orang lain menyukai "Samosir Naik Motor 2 Hari".',
