@@ -7,3 +7,4 @@ import 'basics.dart';
 enum MapKind { city, lake }
 
 class MapPin {
+  const MapPin(this.x, this.y, {this.n = 1, this.state = MarkerState.todo});
