@@ -162,3 +162,4 @@ class TripsPage extends StatelessWidget {
           'Buka Travel Mode',
           icon: 'near_me',
           expand: true,
+          onPressed: () => push(context, TravelModePage(trip: t), fullscreen: true),
