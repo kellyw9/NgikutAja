@@ -326,3 +326,4 @@ class _PickLocationPageState extends State<PickLocationPage> {
                   children: [
                     Positioned(
                       left: x - 80,
+                      top: y - 84,
