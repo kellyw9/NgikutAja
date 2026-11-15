@@ -351,3 +351,4 @@ class Seed {
         plan: [
           [
             _s('08.00', '09.00', 'Kapal dari Pelabuhan Ajibata', _l, 15000),
+            _s('09.30', '11.00', 'Sewa motor di Tuktuk', _l, 100000, 'samosir'),
