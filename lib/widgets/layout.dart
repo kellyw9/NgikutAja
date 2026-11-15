@@ -485,3 +485,4 @@ class PageFrame extends StatelessWidget {
     this.background = AppColors.ground,
   });
   final PreferredSizeWidget? appBar;
+  final Widget body;
