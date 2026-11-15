@@ -159,3 +159,4 @@ class _NgFieldState extends State<NgField> {
       crossAxisAlignment: CrossAxisAlignment.start,
       mainAxisSize: MainAxisSize.min,
       children: [
+        if (widget.label != null) ...[Text(widget.label!, style: AppText.bodyStrong), const SizedBox(height: 6)],
