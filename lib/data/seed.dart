@@ -10,3 +10,4 @@ Stop _s(String start, String end, String name, Category cat, int cost, [String? 
 const _m = Category.makan, _b = Category.budaya, _a = Category.alam, _so = Category.sosial, _l = Category.lainnya;
 
 class Seed {
+  Seed(this.now) : today = DateTime(now.year, now.month, now.day) {
