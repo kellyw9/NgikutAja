@@ -193,3 +193,4 @@ class _NextCard extends StatelessWidget {
         border: Border.all(color: AppColors.yellow, width: 2),
       ),
       child: Column(
+        children: [
