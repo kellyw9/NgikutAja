@@ -129,3 +129,4 @@ class DashboardPage extends StatelessWidget {
               Text('Seluruh data pendapatan masih berupa simulasi.', style: AppText.small.muted),
             ],
           ),
+        ],
