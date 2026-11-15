@@ -332,3 +332,4 @@ class ListRow extends StatelessWidget {
       ),
     ),
   );
+}
