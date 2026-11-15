@@ -212,3 +212,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
                     Expanded(
                       child: NgButton(
                         'Anggota',
+                        kind: BtnKind.secondary,
