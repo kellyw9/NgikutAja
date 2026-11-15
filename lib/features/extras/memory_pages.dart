@@ -142,3 +142,4 @@ class _PhotoViewerPageState extends State<PhotoViewerPage> {
                             : 'Hari ${p.day + 1}, ${weekdaysLong[date.weekday - 1]} ${date.day} ${monthsShort[date.month - 1]} ${date.year} pukul ${p.time}',
                         style: AppText.small.white,
                       ),
+                    ],
