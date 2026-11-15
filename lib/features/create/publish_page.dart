@@ -229,3 +229,4 @@ class PublishedPage extends StatelessWidget {
                           const SizedBox(width: 14),
                           Expanded(
                             child: Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
