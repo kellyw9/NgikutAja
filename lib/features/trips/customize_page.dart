@@ -69,3 +69,4 @@ class _CustomizePageState extends State<CustomizePage> {
   Future<void> _edit(int i) async {
     final r = await push<StopEditResult>(context, EditStopPage(stop: plan[day][i].copy(), dayLabel: _dayLabel(day)), fullscreen: true);
     if (r == null) return;
+    _changed(() => r.deleted ? plan[day].removeAt(i) : plan[day][i] = r.stop!);
