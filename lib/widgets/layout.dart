@@ -83,3 +83,4 @@ class NgAppBar extends StatelessWidget implements PreferredSizeWidget {
                         IconBtn(back!, label: back == 'close' ? 'Tutup' : 'Kembali', onTap: onBack ?? () => Navigator.maybePop(context)),
                       const SizedBox(width: 4),
                       Expanded(child: titleCol),
+                      if (trailingTitle != null) ...[const SizedBox(width: 8), trailingTitle!, const SizedBox(width: 8)],
