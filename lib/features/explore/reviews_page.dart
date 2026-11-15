@@ -212,3 +212,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
             if (replyTo != null)
               Padding(
                 padding: const EdgeInsets.fromLTRB(kMargin, 6, 4, 0),
+                child: Row(
