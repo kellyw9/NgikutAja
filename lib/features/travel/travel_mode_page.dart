@@ -138,3 +138,4 @@ class TravelModePage extends StatelessWidget {
                       thumb: false,
                       state: t.isChecked(day, i) ? MarkerState.done : (i == next ? MarkerState.next : MarkerState.todo),
                       line: t.isChecked(day, i) ? AppColors.teal : AppColors.rule,
+                      onTap: () => push(context, TravelStopPage(trip: t, day: day, i: i)),
