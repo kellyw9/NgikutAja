@@ -457,3 +457,4 @@ class DayStrip extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
           for (var i = 0; i < days.length; i++) ...[
+            if (i > 0) const SizedBox(width: 8),
