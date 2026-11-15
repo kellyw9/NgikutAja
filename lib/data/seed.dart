@@ -581,3 +581,4 @@ class Seed {
         icon: 'receipt_long',
         lead: 'Pembayaran menunggu: ',
         text: 'Bali Utara yang Lebih Tenang, ${rp(35000)} via Transfer Bank.',
+        time: pendingTime,
