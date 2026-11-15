@@ -107,3 +107,4 @@ class MembersPage extends StatelessWidget {
                   selected: role == MemberRole.viewer,
                   onTap: () => set(() => role = MemberRole.viewer),
                 ),
+                RadioRow(
