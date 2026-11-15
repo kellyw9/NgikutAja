@@ -465,3 +465,4 @@ class DayStrip extends StatelessWidget {
             Tap(
               onTap: onAdd,
               radius: AppRadius.control,
+              label: 'Tambah hari',
