@@ -80,3 +80,4 @@ class DashboardPage extends StatelessWidget {
                       const SizedBox(height: 10),
                       Text('Bulan November baru berjalan, datanya belum lengkap.', style: AppText.small.muted),
                     ],
+                  ),
