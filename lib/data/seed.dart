@@ -588,3 +588,4 @@ class Seed {
         id: 'n4',
         kind: NotifKind.departure,
         icon: 'luggage',
+        lead: 'Besok berangkat. ',
