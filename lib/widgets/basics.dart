@@ -592,3 +592,4 @@ class Progress extends StatelessWidget {
     child: SizedBox(
       width: width,
       height: height,
+      child: LayoutBuilder(
