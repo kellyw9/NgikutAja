@@ -480,3 +480,4 @@ class _CustomizePageState extends State<CustomizePage> {
                                 Photo(p.src, width: 72, height: 72, radius: AppRadius.inner, semantic: p.caption),
                                 const SizedBox(width: 8),
                               ],
+                          ],
