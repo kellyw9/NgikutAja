@@ -44,3 +44,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
       context,
       AddStopPage(
         stop: i == null ? null : d.plan[day][i].copy(),
+        city: d.city,
