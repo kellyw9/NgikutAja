@@ -37,3 +37,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
           onTap: () {
             Navigator.pop(ctx);
             push(context, EditTripInfoPage(trip: widget.trip), fullscreen: true);
+          },
