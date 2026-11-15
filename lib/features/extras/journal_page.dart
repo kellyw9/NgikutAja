@@ -142,3 +142,4 @@ class _JournalPageState extends State<JournalPage> {
                     ),
                   if (e.photos.length > 2)
                     Wrap(
+                      spacing: 8,
