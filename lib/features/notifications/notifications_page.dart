@@ -97,3 +97,4 @@ class NotificationsPage extends StatelessWidget {
                         Row(
                           children: [
                             NgButton(
+                              'Terima',
