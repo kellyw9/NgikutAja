@@ -254,3 +254,4 @@ class Photo extends StatelessWidget {
           : Image.memory(bytes, fit: BoxFit.cover, width: width, height: height, gaplessPlayback: true);
     } else {
       img = Image.asset(
+        'assets/photos/$s.jpg',
