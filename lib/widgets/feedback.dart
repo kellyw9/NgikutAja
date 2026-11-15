@@ -125,3 +125,4 @@ Future<T?> showNgSheet<T>(BuildContext context, {String? title, String? sub, req
     elevation: 0,
     shape: const RoundedRectangleBorder(borderRadius: BorderRadius.vertical(top: Radius.circular(AppRadius.sheet))),
     builder: (ctx) {
+      final content = Padding(padding: const EdgeInsets.fromLTRB(kMargin, 12, kMargin, 8), child: builder(ctx));
