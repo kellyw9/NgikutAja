@@ -357,3 +357,4 @@ class AddPhotoTile extends StatelessWidget {
     onTap: onTap,
     radius: AppRadius.inner,
     label: label,
+    child: DashedBox(
