@@ -80,3 +80,4 @@ class TravelModePage extends StatelessWidget {
                           Text(
                             'Hari ${day + 1}${date != null ? ', ${weekdaysLong[date.weekday - 1]} ${date.day} ${monthsShort[date.month - 1]}' : ''}',
                             style: AppText.bodyStrong.c(AppColors.yellow),
+                          ),
