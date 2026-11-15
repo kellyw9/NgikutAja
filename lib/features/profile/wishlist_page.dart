@@ -44,3 +44,4 @@ class _Row extends StatelessWidget {
   Widget build(BuildContext context) {
     final app = AppScope.of(context);
     return Tap(
+      onTap: () => openItinerary(context, it),
