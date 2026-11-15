@@ -12,3 +12,4 @@ import '../features/auth/login_page.dart';
 import '../features/auth/register_page.dart';
 import 'basics.dart';
 import 'feedback.dart';
+import 'inputs.dart';
