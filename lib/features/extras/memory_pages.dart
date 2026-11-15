@@ -119,3 +119,4 @@ class _PhotoViewerPageState extends State<PhotoViewerPage> {
                   onPageChanged: (k) => setState(() => i = k),
                   itemBuilder: (_, k) => InteractiveViewer(
                     child: Center(
+                      child: AspectRatio(
