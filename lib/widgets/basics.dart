@@ -631,3 +631,4 @@ class Stars extends StatelessWidget {
       ],
     ),
   );
+}
