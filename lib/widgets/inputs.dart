@@ -252,3 +252,4 @@ class NgToggle extends StatelessWidget {
                     ),
                   ),
                 ),
+              ),
