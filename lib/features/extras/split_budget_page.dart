@@ -175,3 +175,4 @@ class _SplitBudgetPageState extends State<SplitBudgetPage> {
                                         ],
                                       ),
                                     ),
+                                    paid ? const Pill('Lunas', kind: PillKind.positive, icon: 'check') : const Pill('Belum', kind: PillKind.warning),
