@@ -159,3 +159,4 @@ Future<Category?> pickCategory(BuildContext context, Category current) {
                 child: Row(
                   children: [
                     AppIcon(Category.values[i].icon, size: 22),
+                    const SizedBox(width: 14),
