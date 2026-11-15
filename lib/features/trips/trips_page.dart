@@ -7,3 +7,5 @@ import '../extras/recap_page.dart';
 import '../shell/home_shell.dart';
 import '../travel/travel_mode_page.dart';
 import 'trip_detail_page.dart';
+
+/// 5.1 Daftar Trip: Draft, Diadopsi, Berjalan, Selesai.
