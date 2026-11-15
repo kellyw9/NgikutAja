@@ -278,3 +278,4 @@ class ErrorBlock extends StatelessWidget {
     decoration: BoxDecoration(
       color: AppColors.surface,
       borderRadius: BorderRadius.circular(AppRadius.card),
+      border: Border.all(color: AppColors.line),
