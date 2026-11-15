@@ -247,3 +247,4 @@ class KeyValueBox extends StatelessWidget {
       borderRadius: BorderRadius.circular(AppRadius.card),
       border: Border.all(color: AppColors.line),
     ),
+    child: Column(
