@@ -165,3 +165,4 @@ class TravelModePage extends StatelessWidget {
                 size: BtnSize.md,
                 icon: 'add_a_photo',
                 expand: true,
+                onPressed: () => addTripPhoto(context, t, day),
