@@ -360,3 +360,4 @@ class NgChip extends StatelessWidget {
   final bool selected;
   final String? icon;
   final bool close;
+  final VoidCallback? onTap;
