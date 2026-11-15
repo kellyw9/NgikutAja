@@ -136,3 +136,4 @@ class CityCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final n = AppScope.of(context).cityCount(c);
