@@ -256,3 +256,4 @@ class _PaymentPageState extends State<PaymentPage> {
           child: NgButton(
             processing ? 'Memproses pembayaran...' : 'Bayar ${rp(widget.it.price)}',
             expand: true,
+            loading: processing,
