@@ -366,3 +366,4 @@ class PaidPreviewPage extends StatelessWidget {
           ),
           NgButton(
             'Beli ${rp(it.price)}',
+            onPressed: () {
