@@ -209,3 +209,4 @@ class _SearchPageState extends State<SearchPage> {
               stroke: AppColors.control,
               onTap: _openFilter,
             ),
+            if (filter.count > 0)
