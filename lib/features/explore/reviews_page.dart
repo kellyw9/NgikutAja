@@ -162,3 +162,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
             child: Row(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
+                Avatar(c.name, size: 36, tint: c.tint),
