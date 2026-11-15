@@ -240,3 +240,5 @@ class _ItineraryDetailPageState extends State<ItineraryDetailPage> {
 class PaidPreviewPage extends StatelessWidget {
   const PaidPreviewPage({super.key, required this.it});
   final Itinerary it;
+
+  void _locked(BuildContext context, int d) => showNgSnack(context, 'Hari ${d + 1} terbuka setelah itinerary dibeli.');
