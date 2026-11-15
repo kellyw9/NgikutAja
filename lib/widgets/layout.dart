@@ -308,3 +308,4 @@ class ListRow extends StatelessWidget {
       constraints: BoxConstraints(minHeight: sub != null ? 64 : 52),
       child: Padding(
         padding: EdgeInsets.symmetric(horizontal: padH, vertical: 8),
+        child: Row(
