@@ -249,3 +249,4 @@ class _AddExpensePageState extends State<AddExpensePage> {
                 onChanged: (_) => setState(() {}),
               ),
               NgField(
+                label: 'Nominal',
