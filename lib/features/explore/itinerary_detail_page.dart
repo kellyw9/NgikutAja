@@ -368,3 +368,4 @@ class PaidPreviewPage extends StatelessWidget {
             'Beli ${rp(it.price)}',
             onPressed: () {
               if (requireLogin(context)) push(context, PurchaseDetailPage(it: it));
+            },
