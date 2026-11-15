@@ -30,3 +30,4 @@ class _CustomizePageState extends State<CustomizePage> {
   });
 
   String _dayLabel(int d) {
+    final date = t.dayDate(d);
