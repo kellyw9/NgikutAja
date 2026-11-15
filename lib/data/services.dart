@@ -14,3 +14,4 @@ class PhotoStore {
   static int _n = 0;
 
   static String put(Uint8List bytes) {
+    final key = 'mem:${_n++}';
