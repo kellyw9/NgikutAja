@@ -235,3 +235,4 @@ class _PaymentPageState extends State<PaymentPage> {
                                         Text(sub, style: AppText.small.muted),
                                       ],
                                     ),
+                                  ),
