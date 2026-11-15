@@ -187,3 +187,4 @@ class _InterestCard extends StatelessWidget {
   final String title;
   final String sub;
   final String photo;
+  final bool on;
