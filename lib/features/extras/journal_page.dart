@@ -16,3 +16,4 @@ class _JournalPageState extends State<JournalPage> {
 
   String _dayLabel(int d) {
     final date = widget.trip.dayDate(d);
+    return date == null ? 'Hari ${d + 1}' : 'Hari ${d + 1}, ${date.day} ${monthsShort[date.month - 1]}';
