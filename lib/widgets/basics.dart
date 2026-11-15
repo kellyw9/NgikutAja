@@ -258,3 +258,4 @@ class Photo extends StatelessWidget {
         fit: BoxFit.cover,
         width: width,
         height: height,
+        cacheWidth: width != null && width!.isFinite ? (width! * 2.5).round() : null,
