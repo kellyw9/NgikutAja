@@ -76,3 +76,4 @@ class _SplitBudgetPageState extends State<SplitBudgetPage> {
                   ],
                   const SizedBox(height: 8),
                   BoxList(
+                    inset: 56,
