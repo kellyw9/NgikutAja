@@ -129,3 +129,4 @@ class BottomNav extends StatelessWidget {
     final on = i == active;
     return Column(
       children: [
+        Container(
