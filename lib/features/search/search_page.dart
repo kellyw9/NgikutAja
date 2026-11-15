@@ -352,3 +352,4 @@ class _SearchPageState extends State<SearchPage> {
       if (filter.price != 'Semua') NgChip(filter.price, selected: true, close: true, onTap: () => setState(() => filter.price = 'Semua')),
     ];
     return ListView(
+      padding: const EdgeInsets.only(bottom: 24),
