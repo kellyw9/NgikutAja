@@ -34,3 +34,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
     while (d.dayTitles.length < d.plan.length) {
       d.dayTitles.add('');
     }
+    d.dayTitles[day] = dayTitle.text.trim();
