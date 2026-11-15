@@ -255,3 +255,4 @@ class TripCard extends StatelessWidget {
   Widget build(BuildContext context) => Container(
     decoration: BoxDecoration(
       color: AppColors.surface,
+      borderRadius: BorderRadius.circular(AppRadius.card),
