@@ -310,3 +310,4 @@ class _PaymentStatusPageState extends State<PaymentStatusPage> {
     final app = AppScope.of(context);
     final tx = widget.tx;
     final it = tx.item;
+    switch (tx.status) {
