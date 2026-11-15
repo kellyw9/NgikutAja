@@ -293,3 +293,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
             active: day,
             today: status == TripStatus.berjalan ? app.currentDay(t) : null,
             onTap: (d) => setState(() => _day = d),
+          ),
