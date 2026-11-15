@@ -56,3 +56,4 @@ class _IconPainter extends CustomPainter {
   final Color color;
 
   @override
+  void paint(Canvas canvas, Size size) {
