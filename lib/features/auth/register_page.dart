@@ -34,3 +34,4 @@ class _RegisterPageState extends State<RegisterPage> {
     if (e != null) return email.text.isNotEmpty && (tried || pass.text.isNotEmpty) ? e : null;
     if (AppScope.read(context).emailRegistered(email.text)) return 'Email ini sudah terdaftar. Masuk saja.';
     return null;
+  }
