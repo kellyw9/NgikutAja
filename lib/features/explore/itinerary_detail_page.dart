@@ -291,3 +291,4 @@ class PaidPreviewPage extends StatelessWidget {
             DayStrip(
               days: [for (var d = 0; d < it.days; d++) DayItem('Hari ${d + 1}', sub: d == 0 ? 'Gratis' : 'Terkunci')],
               active: 0,
+              onTap: (d) => d == 0 ? null : _locked(context, d),
