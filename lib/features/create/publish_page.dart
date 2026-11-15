@@ -157,3 +157,4 @@ class _PublishPageState extends State<PublishPage> {
           padding: const EdgeInsets.fromLTRB(kMargin, 8, kMargin, 16),
           child: Gap(
             12,
+            children: [
