@@ -345,3 +345,4 @@ class DashedAction extends StatelessWidget {
 }
 
 /// Kotak tambah foto 80x80 bergaris putus-putus.
+class AddPhotoTile extends StatelessWidget {
