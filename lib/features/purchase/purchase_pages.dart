@@ -368,3 +368,4 @@ class _PaymentStatusPageState extends State<PaymentStatusPage> {
                   final nav = Navigator.of(context);
                   if (!_closeFlow(nav)) pushItinerary(nav, app, it);
                 },
+              ),
