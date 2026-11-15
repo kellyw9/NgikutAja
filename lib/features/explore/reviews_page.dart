@@ -32,3 +32,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
     input.clear();
     setState(() => replyTo = null);
     focus.unfocus();
+  }
