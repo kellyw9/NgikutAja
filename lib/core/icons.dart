@@ -31,3 +31,4 @@ class AppIcon extends StatelessWidget {
   Widget build(BuildContext context) {
     return ExcludeSemantics(
       child: SizedBox.square(
+        dimension: size,
