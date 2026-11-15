@@ -134,3 +134,4 @@ class _CustomizePageState extends State<CustomizePage> {
                 ),
                 Column(
                   children: [
+                    for (var d = 0; d < plan.length; d++) ...[
