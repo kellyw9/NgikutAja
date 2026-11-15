@@ -32,3 +32,4 @@ class DashboardPage extends StatelessWidget {
                 ('Pendapatan simulasi', rp(app.revenue)),
               ]),
               if (chartItem != null)
+                NgCard(
