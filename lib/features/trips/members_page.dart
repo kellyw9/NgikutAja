@@ -52,3 +52,4 @@ class MembersPage extends StatelessWidget {
                     children: [
                       Text(m.name, style: AppText.h2),
                       const SizedBox(height: 2),
+                      Text('${m.handle}${m.joined != null ? ', bergabung ${m.joined}' : ''}', style: AppText.small.muted),
