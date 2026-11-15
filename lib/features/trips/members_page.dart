@@ -30,3 +30,4 @@ class MembersPage extends StatelessWidget {
     );
     if (r == true) {
       app.removeMember(trip, m);
+      if (context.mounted) showNgSnack(context, 'Akses ${m.first} dicabut.');
