@@ -29,3 +29,4 @@ class NgField extends StatefulWidget {
     this.onSubmitted,
     this.inputFormatters,
     this.prefixText,
+    this.textInputAction,
