@@ -247,3 +247,4 @@ class _AddExpensePageState extends State<AddExpensePage> {
                 hint: 'Misal: Makan siang ikan mas arsik',
                 error: tried && name.text.trim().isEmpty ? 'Nama pengeluaran wajib diisi' : null,
                 onChanged: (_) => setState(() {}),
+              ),
