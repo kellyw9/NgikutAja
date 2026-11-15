@@ -105,3 +105,4 @@ class MapView extends StatelessWidget {
       },
     );
     return Semantics(
+      label: 'Peta sementara dengan ${pins.length} penanda',
