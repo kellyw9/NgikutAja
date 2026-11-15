@@ -83,3 +83,4 @@ class Seed {
         following: 98,
       ),
       'komang': Creator(
+        id: 'komang',
