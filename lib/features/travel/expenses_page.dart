@@ -203,3 +203,4 @@ class _AddExpensePageState extends State<AddExpensePage> {
       app.touch();
     } else {
       final now = DateTime.now();
+      app.addExpense(
