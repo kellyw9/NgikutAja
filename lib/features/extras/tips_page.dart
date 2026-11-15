@@ -6,3 +6,5 @@ import '../../widgets/ui.dart';
 class TipsPage extends StatelessWidget {
   const TipsPage({super.key, required this.trip});
   final Trip trip;
+
+  @override
