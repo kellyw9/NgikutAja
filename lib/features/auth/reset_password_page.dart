@@ -134,3 +134,4 @@ class _NewPasswordPageState extends State<NewPasswordPage> {
     if (!tried) return null;
     final p = p1.text;
     if (p.length < 8) return 'Minimal 8 karakter';
+    if (!(RegExp(r'[A-Za-z]').hasMatch(p) && RegExp(r'\d').hasMatch(p))) return 'Campur huruf dan angka';
