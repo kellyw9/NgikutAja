@@ -127,3 +127,4 @@ class _NgFieldState extends State<NgField> {
           const SizedBox(width: 4),
           Expanded(child: content),
         ],
+      );
