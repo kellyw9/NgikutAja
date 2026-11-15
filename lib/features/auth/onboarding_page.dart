@@ -59,3 +59,4 @@ class _OnboardingPageState extends State<OnboardingPage> {
           child: Column(
             children: [
               SizedBox(
+                height: 56,
