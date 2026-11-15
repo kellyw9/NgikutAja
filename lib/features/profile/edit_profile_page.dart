@@ -98,3 +98,4 @@ class _EditProfilePageState extends State<EditProfilePage> {
                         if (p != null) setState(() => photo = p.isEmpty ? null : p);
                       },
                     ),
+                  ],
