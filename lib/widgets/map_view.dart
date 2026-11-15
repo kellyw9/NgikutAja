@@ -53,3 +53,4 @@ class MapView extends StatelessWidget {
         return SizedBox(
           width: w,
           height: h,
+          child: GestureDetector(
