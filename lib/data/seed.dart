@@ -463,3 +463,4 @@ class Seed {
         offlineSize: 14,
         syncedAt: '07.58',
       ),
+      Trip(
