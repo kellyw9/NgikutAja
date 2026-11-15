@@ -8,3 +8,4 @@ import '../trips/trip_detail_page.dart';
 import '../travel/travel_mode_page.dart';
 
 /// 10.1 Daftar Notifikasi.
+class NotificationsPage extends StatelessWidget {
