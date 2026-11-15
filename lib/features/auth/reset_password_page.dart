@@ -194,3 +194,4 @@ class _NewPasswordPageState extends State<NewPasswordPage> {
                       onChanged: (_) => setState(() {}),
                       error: e2 ?? (tried && p2.text.isEmpty ? 'Ketik ulang password baru' : null),
                       trailing: ObscureToggle(obscured: o2, onTap: () => setState(() => o2 = !o2)),
+                    ),
