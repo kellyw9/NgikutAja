@@ -109,3 +109,4 @@ class _AdoptPageState extends State<AdoptPage> {
                 label: 'Tanggal keberangkatan',
                 icon: 'calendar_month',
                 value: dateLong(start),
+                trailing: 'expand_more',
