@@ -145,3 +145,4 @@ class _ItineraryDetailPageState extends State<ItineraryDetailPage> {
                     onTap: () => push(context, CreatorProfilePage(c: it.creator)),
                     onGuest: () => requireLogin(context),
                   ),
+                  const NgDivider(),
