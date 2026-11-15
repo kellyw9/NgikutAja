@@ -124,3 +124,4 @@ class _AdoptPageState extends State<AdoptPage> {
                   _switchRow(
                     'Sehari sebelum berangkat',
                     '${weekdaysLong[before.weekday - 1]}, ${before.day} ${monthsShort[before.month - 1]} pukul 19.00',
+                    dayBefore,
