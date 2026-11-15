@@ -298,3 +298,4 @@ class RadioRow extends StatelessWidget {
         onTap: enabled ? onTap : null,
         radius: 6,
         child: SizedBox(
+          height: height,
