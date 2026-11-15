@@ -133,3 +133,4 @@ class PermissionDeniedPage extends StatelessWidget {
           children: [
             const Align(
               alignment: Alignment.centerLeft,
+              child: IconTile('location_on', size: 48, fill: AppColors.surface, iconSize: 26, border: AppColors.line),
