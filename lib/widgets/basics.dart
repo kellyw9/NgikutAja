@@ -120,3 +120,4 @@ class IconBtn extends StatelessWidget {
   });
 
   final String icon;
+  final String label;
