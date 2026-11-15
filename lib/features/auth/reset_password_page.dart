@@ -21,3 +21,4 @@ class ResetPasswordPage extends StatefulWidget {
 }
 
 class _ResetPasswordPageState extends State<ResetPasswordPage> {
+  late final email = TextEditingController(text: widget.email);
