@@ -25,3 +25,4 @@ const kLightIcons = SystemUiOverlayStyle(
 /// App bar: tombol kembali, judul rata kiri (h2), subjudul kecil, aksi di kanan.
 class NgAppBar extends StatelessWidget implements PreferredSizeWidget {
   const NgAppBar({
+    super.key,
