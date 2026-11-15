@@ -115,3 +115,4 @@ class _EditStopPageState extends State<EditStopPage> {
                 value: cat.label,
                 trailing: 'expand_more',
                 onTap: () async {
+                  final c = await pickCategory(context, cat);
