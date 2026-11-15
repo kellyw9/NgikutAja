@@ -104,3 +104,4 @@ class _SplitBudgetPageState extends State<SplitBudgetPage> {
                                         net[m.first]! >= 0 ? '+${rp(net[m.first]!)}' : rp(net[m.first]!),
                                         style: AppText.bodyStrong.c(net[m.first]! >= 0 ? AppColors.positive : AppColors.negative),
                                       ),
+                                      const SizedBox(height: 2),
