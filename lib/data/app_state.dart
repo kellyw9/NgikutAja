@@ -102,3 +102,4 @@ class AppState extends ChangeNotifier {
   }
 
   void resetPassword(String email, String password) {
+    _accounts[email.trim().toLowerCase()] = password;
