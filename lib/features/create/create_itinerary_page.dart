@@ -203,3 +203,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
                             ],
                           ),
                         );
+                        if (n != null) _setDays(n);
