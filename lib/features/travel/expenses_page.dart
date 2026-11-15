@@ -11,3 +11,4 @@ String expenseTime(Trip t, Expense e) {
 }
 
 /// 6.5 Pengeluaran: daftar + detail.
+class ExpensesPage extends StatelessWidget {
