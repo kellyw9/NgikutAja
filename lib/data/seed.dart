@@ -518,3 +518,4 @@ class Seed {
         name: 'Meiliana',
         tint: 5,
         stars: 4,
+        date: 'Agu 2026',
