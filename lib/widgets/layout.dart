@@ -294,3 +294,4 @@ class ListRow extends StatelessWidget {
   });
   final String? icon;
   final String title;
+  final String? sub;
