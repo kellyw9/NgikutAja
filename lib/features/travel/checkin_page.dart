@@ -84,3 +84,4 @@ class _CheckinPageState extends State<CheckinPage> {
                 ),
               Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
