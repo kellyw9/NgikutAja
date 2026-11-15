@@ -134,3 +134,4 @@ class _MapPainter extends CustomPainter {
         ..lineTo(1.05 * w, 1.05 * h)
         ..lineTo(1.05 * w, -.05 * h)
         ..close();
+      canvas.drawPath(lake, Paint()..color = AppColors.mapWater);
