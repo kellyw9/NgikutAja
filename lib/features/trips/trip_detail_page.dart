@@ -264,3 +264,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
                         title: title,
                         sub: toolSub(key),
                         padH: 0,
+                        onTap: () => switch (key) {
