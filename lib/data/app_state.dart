@@ -359,3 +359,5 @@ class AppState extends ChangeNotifier {
     );
     notifyListeners();
   }
+
+  void removeMember(Trip t, Member m) {
