@@ -317,3 +317,4 @@ class ListRow extends StatelessWidget {
               AppIcon(icon!, size: 22, color: danger ? AppColors.negative : AppColors.ink),
               const SizedBox(width: 14),
             ],
+            Expanded(
