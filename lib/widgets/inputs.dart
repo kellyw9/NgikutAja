@@ -225,3 +225,4 @@ class NgToggle extends StatelessWidget {
       toggled: value,
       label: label,
       button: true,
+      child: SizedBox(
