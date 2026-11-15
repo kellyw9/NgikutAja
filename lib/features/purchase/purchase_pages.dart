@@ -173,3 +173,4 @@ class _PaymentPageState extends State<PaymentPage> {
   bool processing = false;
 
   Future<void> _pay() async {
+    final app = AppScope.read(context);
