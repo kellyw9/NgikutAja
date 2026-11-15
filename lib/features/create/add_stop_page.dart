@@ -210,3 +210,4 @@ class _AddStopPageState extends State<AddStopPage> {
                               if (p != null && p.isNotEmpty) setState(() => photo = p);
                             },
                             radius: AppRadius.card,
+                            label: 'Tambah foto',
