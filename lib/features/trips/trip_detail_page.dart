@@ -221,3 +221,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
                   ],
                 ),
                 if (status == TripStatus.berjalan)
+                  NgButton(
