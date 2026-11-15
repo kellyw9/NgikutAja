@@ -143,3 +143,4 @@ class _NewPasswordPageState extends State<NewPasswordPage> {
   void _save() {
     setState(() => tried = true);
     if (e1 != null || e2 != null || p2.text.isEmpty) return;
+    AppScope.read(context).resetPassword(widget.email, p1.text);
