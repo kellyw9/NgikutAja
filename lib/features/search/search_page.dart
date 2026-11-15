@@ -619,3 +619,4 @@ class _SquareThumb extends RangeSliderThumbShape {
     final r = RRect.fromRectAndRadius(Rect.fromCenter(center: center, width: 24, height: 24), const Radius.circular(4));
     context.canvas.drawRRect(r, Paint()..color = AppColors.surface);
     context.canvas.drawRRect(
+      r.deflate(1),
