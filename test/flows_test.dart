@@ -90,3 +90,4 @@ void main() {
     t.plan[0].add(Stop(start: '14.00', end: '15.00', name: 'Mie Aceh Titi Bobrok', cat: Category.makan, cost: 75000));
     await tester.pumpWidget(host(s, CustomizePage(trip: t)));
     expect(find.text('Jadwal bertabrakan di Hari 1'), findsOneWidget);
+    await tapText(tester, 'Lihat saran');
