@@ -128,3 +128,4 @@ class _PackingPageState extends State<PackingPage> {
                                 ],
                               ),
                             ),
+                            onDismissed: (_) => _remove(g, it),
