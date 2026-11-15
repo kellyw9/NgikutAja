@@ -511,3 +511,4 @@ class Wordmark extends StatelessWidget {
   Widget build(BuildContext context) {
     final mark = large ? 14.0 : 10.0;
     return Semantics(
+      label: 'NgikutAja',
