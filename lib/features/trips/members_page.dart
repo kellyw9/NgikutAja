@@ -104,3 +104,4 @@ class MembersPage extends StatelessWidget {
                 RadioRow(
                   title: 'Lihat',
                   sub: 'Bisa membuka jadwal dan catatan',
+                  selected: role == MemberRole.viewer,
