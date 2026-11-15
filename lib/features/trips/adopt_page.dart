@@ -110,3 +110,4 @@ class _AdoptPageState extends State<AdoptPage> {
                 icon: 'calendar_month',
                 value: dateLong(start),
                 trailing: 'expand_more',
+                helper: 'Trip selesai ${dateLong(end)} (${it.days} hari).',
