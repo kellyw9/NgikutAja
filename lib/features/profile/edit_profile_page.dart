@@ -32,3 +32,4 @@ class _EditProfilePageState extends State<EditProfilePage> {
       setState(() {});
       return;
     }
+    me.photo = photo;
