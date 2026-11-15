@@ -77,3 +77,4 @@ class _PhotoPreviewPageState extends State<PhotoPreviewPage> {
                         : 'Hanya anggota trip yang bisa melihat foto ini.',
                     style: AppText.small.muted,
                   ),
+                ],
