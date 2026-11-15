@@ -250,3 +250,4 @@ class _PaymentPageState extends State<PaymentPage> {
           ),
         ],
       ),
+      bottomNavigationBar: SafeArea(
