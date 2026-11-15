@@ -249,3 +249,4 @@ class _EditTripInfoPageState extends State<EditTripInfoPage> {
   }
 
   @override
+  void dispose() {
