@@ -287,3 +287,4 @@ class _EditTripInfoPageState extends State<EditTripInfoPage> {
                         size: BtnSize.md,
                         icon: 'photo_camera',
                         onPressed: () async {
+                          final p = await pickPhotoSheet(context, title: 'Foto sampul', canRemove: cover != null);
