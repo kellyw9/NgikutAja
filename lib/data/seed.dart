@@ -192,3 +192,4 @@ class Seed {
             'holbung',
             'Naik 20 menit. Bawa air, tidak ada warung di atas.',
             'Bukit savana di sisi barat Samosir dengan pemandangan Danau Toba dan Pulau Tulas. Jalur naik tanah padat, licin setelah hujan.',
+          ),
