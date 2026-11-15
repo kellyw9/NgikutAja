@@ -74,3 +74,4 @@ class NotificationsPage extends StatelessWidget {
           child: Row(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
+              IconTile(n.icon, size: 36, iconSize: 20, fill: n.unread ? AppColors.sunk : AppColors.surface, border: AppColors.line),
