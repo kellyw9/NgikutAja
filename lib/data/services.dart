@@ -10,3 +10,4 @@ import 'package:url_launcher/url_launcher.dart';
 /// dan dirujuk dengan kunci `mem:<id>` (foto bawaan memakai nama aset, misalnya "holbung").
 class PhotoStore {
   PhotoStore._();
+  static final Map<String, Uint8List> _mem = {};
