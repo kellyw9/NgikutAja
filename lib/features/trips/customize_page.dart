@@ -154,3 +154,4 @@ class _CustomizePageState extends State<CustomizePage> {
                 if (dest != null)
                   Text(
                     'Masuk di urutan terakhir Hari ${dest + 1}, mulai ${lastEnd == null ? st.start : fromMinutes(lastEnd + 15)}. Jam bisa disesuaikan kembali.',
+                    style: AppText.small.muted,
