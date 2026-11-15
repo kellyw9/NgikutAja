@@ -175,3 +175,4 @@ class BottomBar extends StatelessWidget {
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: kMargin, vertical: 12),
             child: Row(
+              children: [
