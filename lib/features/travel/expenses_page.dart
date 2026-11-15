@@ -260,3 +260,4 @@ class _AddExpensePageState extends State<AddExpensePage> {
               Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
+                  Text('Kategori', style: AppText.bodyStrong),
