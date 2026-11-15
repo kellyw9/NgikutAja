@@ -114,3 +114,4 @@ class _ItineraryDetailPageState extends State<ItineraryDetailPage> {
                   ]),
                   Wrap(
                     spacing: 8,
+                    runSpacing: 8,
