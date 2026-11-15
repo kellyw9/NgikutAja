@@ -99,3 +99,4 @@ class _NgFieldState extends State<NgField> {
         overflow: TextOverflow.ellipsis,
       );
     } else {
+      content = TextField(
