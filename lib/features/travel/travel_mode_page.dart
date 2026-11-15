@@ -377,3 +377,4 @@ class NavigationPage extends StatelessWidget {
           Positioned.fill(
             child: MapView(
               height: null,
+              kind: MapKind.lake,
