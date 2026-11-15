@@ -191,3 +191,4 @@ class _ItineraryDetailPageState extends State<ItineraryDetailPage> {
               active: day,
               onTap: (d) => setState(() => day = d),
             ),
+            Padding(
