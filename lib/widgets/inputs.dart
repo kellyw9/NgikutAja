@@ -139,3 +139,4 @@ class _NgFieldState extends State<NgField> {
         borderRadius: BorderRadius.circular(AppRadius.control),
         border: Border.all(color: borderColor, width: borderW),
       ),
+      child: Row(
