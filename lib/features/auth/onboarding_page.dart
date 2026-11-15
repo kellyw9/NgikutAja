@@ -151,3 +151,4 @@ class _OnboardingPageState extends State<OnboardingPage> {
                           Text(flow[i].$1, style: AppText.title),
                           const SizedBox(height: 2),
                           Text(flow[i].$2, style: AppText.body.muted),
+                        ],
