@@ -207,3 +207,4 @@ class NotificationDetailPage extends StatelessWidget {
                 Text('Semua aktivitas hari ini sudah selesai atau tidak ada trip yang berjalan.', style: AppText.body.muted),
             ],
           ),
+        ],
