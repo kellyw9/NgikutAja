@@ -234,3 +234,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
                   const SizedBox(width: 10),
                   Expanded(
                     child: Container(
+                      constraints: const BoxConstraints(minHeight: 44),
