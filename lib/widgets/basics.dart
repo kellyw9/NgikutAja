@@ -72,3 +72,5 @@ class NgButton extends StatelessWidget {
         if (trailingIcon != null) ...[const SizedBox(width: 8), AppIcon(trailingIcon!, size: 20, color: color)],
       ],
     );
+
+    return SizedBox(
