@@ -219,3 +219,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
                           ),
                       ],
                     ),
+                    if (conflicts.isNotEmpty)
