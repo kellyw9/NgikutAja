@@ -384,3 +384,4 @@ class _PickLocationPageState extends State<PickLocationPage> {
                       const SizedBox(width: 8),
                       Expanded(
                         child: TextField(
+                          controller: q,
