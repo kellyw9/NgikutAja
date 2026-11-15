@@ -413,3 +413,4 @@ class Seed {
         plan: [
           [_s('07.00', '07.45', 'Soto Kesawan', _m, 35000, 'soto')],
         ],
+      ),
