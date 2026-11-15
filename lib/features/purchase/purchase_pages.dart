@@ -333,3 +333,4 @@ class _PaymentStatusPageState extends State<PaymentStatusPage> {
                 expand: true,
                 onPressed: () => showNgSnack(context, 'Belum ada pembayaran masuk untuk ${tx.id}.'),
               ),
+              NgButton(
