@@ -333,3 +333,4 @@ class NgStepper extends StatelessWidget {
   Widget build(BuildContext context) => Container(
     height: 44,
     decoration: BoxDecoration(
+      color: AppColors.surface,
