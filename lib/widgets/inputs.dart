@@ -337,3 +337,4 @@ class NgStepper extends StatelessWidget {
       borderRadius: BorderRadius.circular(AppRadius.control),
       border: Border.all(color: AppColors.control),
     ),
+    child: Row(
