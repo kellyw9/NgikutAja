@@ -102,3 +102,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
                                   ),
                                 ],
                               ),
+                              const SizedBox(height: 6),
