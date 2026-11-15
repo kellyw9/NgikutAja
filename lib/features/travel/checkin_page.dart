@@ -100,3 +100,4 @@ class _CheckinPageState extends State<CheckinPage> {
                             trailing: null,
                             padH: 14,
                           ),
+                      ],
