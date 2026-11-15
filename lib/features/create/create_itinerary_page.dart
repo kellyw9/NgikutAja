@@ -90,3 +90,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
               ),
               const SizedBox(width: 8),
               IconBtn(
+                'check',
