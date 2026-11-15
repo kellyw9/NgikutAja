@@ -360,3 +360,4 @@ class Seed {
             _s('10.00', '11.30', 'Museum Huta Bolon', _b, 15000),
             _s('13.00', '14.00', 'Kapal kembali ke Ajibata', _l, 15000),
           ],
+        ],
