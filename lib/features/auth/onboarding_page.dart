@@ -116,3 +116,5 @@ class _OnboardingPageState extends State<OnboardingPage> {
       Text('Cari itinerary per kota, lihat rutenya jam demi jam, lalu salin ke tripmu.', style: AppText.body.muted),
     ]),
   );
+
+  Widget _flow() => _scroll([
