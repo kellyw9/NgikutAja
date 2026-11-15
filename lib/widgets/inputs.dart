@@ -306,3 +306,4 @@ class RadioRow extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.center,
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
+                    Text(title, style: selected || sub != null ? AppText.bodyStrong : AppText.body),
