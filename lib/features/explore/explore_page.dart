@@ -145,3 +145,4 @@ class CityCard extends StatelessWidget {
         label: '${c.name}, $n itinerary',
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
