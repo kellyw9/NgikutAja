@@ -166,3 +166,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
                   label: 'Judul itinerary',
                   icon: 'notes',
                   controller: title,
+                  hint: 'Misal: Kuliner Jogja 3 Hari',
