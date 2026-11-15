@@ -75,3 +75,4 @@ class _SearchPageState extends State<SearchPage> {
     super.initState();
     focus.addListener(() => setState(() {}));
     searchRequest.addListener(_onRequest);
+  }
