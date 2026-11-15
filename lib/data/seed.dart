@@ -504,3 +504,4 @@ class Seed {
         name: 'Yohana Pardede',
         tint: 2,
         stars: 5,
+        date: 'Okt 2026',
