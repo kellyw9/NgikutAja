@@ -109,3 +109,4 @@ class _ItineraryDetailPageState extends State<ItineraryDetailPage> {
                   MetaRow([('location_on', it.region)]),
                   FactStrip([
                     ('Durasi', '${it.days} hari'),
+                    ('Estimasi per orang', it.estimate != null ? rp(it.estimate!) : 'Belum dihitung'),
