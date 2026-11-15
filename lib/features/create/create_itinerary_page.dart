@@ -165,3 +165,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
                 NgField(
                   label: 'Judul itinerary',
                   icon: 'notes',
+                  controller: title,
