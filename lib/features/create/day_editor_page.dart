@@ -107,3 +107,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
                     Stack(
                       clipBehavior: Clip.none,
                       children: [
+                        NgChip('Hari ${k + 1}', selected: k == day, onTap: () => _selectDay(k)),
