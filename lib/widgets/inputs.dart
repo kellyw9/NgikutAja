@@ -326,3 +326,4 @@ class NgStepper extends StatelessWidget {
   final int value;
   final String unit;
   final ValueChanged<int> onChanged;
+  final int min;
