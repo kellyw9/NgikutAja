@@ -131,3 +131,4 @@ List<String> shiftCascade(List<Stop> day, Stop target, int newStart) {
         tips.add(
           Suggestion(
             icon: 'drive_file_move',
+            title: 'Pindahkan ${pick.name} ke Hari ${lightest + 1}',
