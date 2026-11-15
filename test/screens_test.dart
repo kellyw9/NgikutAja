@@ -116,3 +116,4 @@ void main() {
       testWidgets('${e.key} @${size.width.toInt()}', (tester) async {
         tester.view.physicalSize = size * 3;
         tester.view.devicePixelRatio = 3;
+        addTearDown(tester.view.reset);
