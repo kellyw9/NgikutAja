@@ -25,3 +25,4 @@ class NotificationsPage extends StatelessWidget {
       case NotifKind.like:
         openItinerary(context, app.itinerary('samosirmotor'));
       case NotifKind.comment:
+        push(context, ReviewsPage(it: app.itinerary('samosirmotor'), comments: true));
