@@ -62,3 +62,4 @@ class TravelModePage extends StatelessWidget {
                                   AppIcon(!app.online ? 'cloud_off' : (t.offline ? 'cloud_done' : 'cloud_off'), size: 16, color: AppColors.white),
                                   const SizedBox(width: 6),
                                   Text(
+                                    !app.online ? 'Offline' : (t.offline ? 'Tersimpan offline' : 'Belum tersimpan offline'),
