@@ -167,3 +167,4 @@ class TripsPage extends StatelessWidget {
       ],
     );
   }
+}
