@@ -72,3 +72,4 @@ class MembersPage extends StatelessWidget {
               kind: BtnKind.dangerText,
               icon: 'person_remove',
               expand: true,
+              onPressed: () {
