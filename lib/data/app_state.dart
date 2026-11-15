@@ -169,3 +169,5 @@ class AppState extends ChangeNotifier {
     CityInfo('Labuan Bajo', 'labuanbajo', (x) => x.city == 'Labuan Bajo'),
     CityInfo('Lombok', 'lombok', (x) => x.region.contains('Lombok')),
   ];
+
+  int cityCount(CityInfo c) => itineraries.where((x) => !x.isDraft && c.match(x)).length;
