@@ -345,3 +345,4 @@ class StopRow extends StatelessWidget {
           children: [
             Row(
               crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
