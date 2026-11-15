@@ -96,3 +96,4 @@ class TripsPage extends StatelessWidget {
         TripCard(
           status: tab,
           title: t.title,
+          city: t.city,
