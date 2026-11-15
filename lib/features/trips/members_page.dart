@@ -56,3 +56,4 @@ class MembersPage extends StatelessWidget {
                     ],
                   ),
                 ),
+              ],
