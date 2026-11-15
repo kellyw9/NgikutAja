@@ -371,3 +371,4 @@ class _SearchPageState extends State<SearchPage> {
               action: filter.count > 0
                   ? NgButton('Reset filter', kind: BtnKind.secondary, size: BtnSize.md, onPressed: () => setState(() => filter = SearchFilter()))
                   : NgButton(
+                      'Lihat kota populer',
