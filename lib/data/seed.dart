@@ -564,3 +564,4 @@ class Seed {
         time: '12.00',
         today: true,
         unread: true,
+      ),
