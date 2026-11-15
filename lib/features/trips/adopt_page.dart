@@ -218,3 +218,4 @@ class _AdoptProgressPageState extends State<AdoptProgressPage> {
   }
 
   Future<void> _run() async {
+    setState(() {
