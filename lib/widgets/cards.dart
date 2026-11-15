@@ -517,3 +517,4 @@ class _DayBox extends StatelessWidget {
                       ),
                     if (item.alert)
                       Container(
+                        width: 8,
