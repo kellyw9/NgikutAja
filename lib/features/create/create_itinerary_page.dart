@@ -225,3 +225,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
                       items: const ['Gratis', 'Berbayar'],
                       active: paid ? 'Berbayar' : 'Gratis',
                       onChanged: (v) => setState(() {
+                        paid = v == 'Berbayar';
