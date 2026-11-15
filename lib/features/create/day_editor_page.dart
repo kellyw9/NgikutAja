@@ -26,3 +26,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
     _saveTitle();
     setState(() {
       day = k;
+      dayTitle.text = _title(k);
