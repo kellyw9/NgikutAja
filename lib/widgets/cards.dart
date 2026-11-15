@@ -40,3 +40,5 @@ class WishButton extends StatelessWidget {
   final Itinerary it;
   final bool boxed;
   final VoidCallback? onGuest;
+
+  @override
