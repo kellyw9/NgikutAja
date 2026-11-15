@@ -60,3 +60,4 @@ class NgButton extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
         if (loading) ...[
+          SpinIcon(size: 20, color: color),
