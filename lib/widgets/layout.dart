@@ -347,3 +347,4 @@ class BoxList extends StatelessWidget {
     padding: EdgeInsets.symmetric(vertical: padV),
     decoration: BoxDecoration(
       color: AppColors.surface,
+      borderRadius: BorderRadius.circular(AppRadius.card),
