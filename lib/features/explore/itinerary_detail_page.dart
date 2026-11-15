@@ -149,3 +149,4 @@ class _ItineraryDetailPageState extends State<ItineraryDetailPage> {
                   Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
+                      Text('Tentang itinerary ini', style: AppText.h2),
