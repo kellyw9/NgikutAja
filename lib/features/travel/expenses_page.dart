@@ -97,3 +97,4 @@ class ExpensesPage extends StatelessWidget {
                     const SizedBox(height: 4),
                     Row(
                       children: [
+                        Expanded(child: Text('${list.length} pengeluaran, dibagi ${trip.members.length} orang', style: AppText.small.muted)),
