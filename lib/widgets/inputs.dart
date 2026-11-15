@@ -340,3 +340,4 @@ class NgStepper extends StatelessWidget {
     child: Row(
       mainAxisSize: MainAxisSize.min,
       children: [
+        IconBtn('remove', label: 'Kurangi', size: 42, iconSize: 20, onTap: value > min ? () => onChanged(value - 1) : null),
