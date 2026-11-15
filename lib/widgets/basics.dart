@@ -109,3 +109,4 @@ class IconBtn extends StatelessWidget {
   const IconBtn(
     this.icon, {
     super.key,
+    required this.label,
