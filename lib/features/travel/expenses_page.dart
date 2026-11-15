@@ -284,3 +284,4 @@ class _AddExpensePageState extends State<AddExpensePage> {
                     title: 'Pilih hari',
                     builder: (ctx) => Column(
                       children: [
+                        for (var k = 0; k < t.days; k++)
