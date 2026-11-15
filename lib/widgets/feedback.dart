@@ -137,3 +137,4 @@ Future<T?> showNgSheet<T>(BuildContext context, {String? title, String? sub, req
               Center(
                 child: Container(
                   margin: const EdgeInsets.only(top: 8),
+                  width: 32,
