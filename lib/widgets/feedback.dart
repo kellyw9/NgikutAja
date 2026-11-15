@@ -148,3 +148,4 @@ Future<T?> showNgSheet<T>(BuildContext context, {String? title, String? sub, req
                   child: Row(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
+                      Expanded(
