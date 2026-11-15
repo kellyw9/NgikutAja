@@ -277,3 +277,4 @@ class _StopCard extends StatelessWidget {
     padding: const EdgeInsets.fromLTRB(4, 10, 4, 10),
     decoration: BoxDecoration(
       color: AppColors.surface,
+      borderRadius: BorderRadius.circular(AppRadius.card),
