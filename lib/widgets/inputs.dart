@@ -235,3 +235,4 @@ class NgToggle extends StatelessWidget {
             clipBehavior: Clip.antiAlias,
             child: InkWell(
               onTap: onChanged == null ? null : () => onChanged!(!value),
+              focusColor: AppColors.teal.withValues(alpha: .35),
