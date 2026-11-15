@@ -70,3 +70,4 @@ class NgAppBar extends StatelessWidget implements PreferredSizeWidget {
         color: AppColors.ground,
         child: SafeArea(
           bottom: false,
+          child: Column(
