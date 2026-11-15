@@ -375,3 +375,4 @@ class AppNotification {
     required this.time,
     required this.today,
     this.unread = false,
+    this.inviteState,
