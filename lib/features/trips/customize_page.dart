@@ -174,3 +174,4 @@ class _CustomizePageState extends State<CustomizePage> {
     final ok = await showNgDialog(
       context,
       icon: 'drive_file_move',
+      title: 'Pindahkan ke Hari ${target + 1}?',
