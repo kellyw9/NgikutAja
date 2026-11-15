@@ -400,3 +400,4 @@ class _PickLocationPageState extends State<PickLocationPage> {
           ),
         ],
       ),
+      bottomNavigationBar: Container(
