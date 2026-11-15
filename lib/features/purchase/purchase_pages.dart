@@ -286,3 +286,4 @@ class _PaymentStatusPageState extends State<PaymentStatusPage> {
   @override
   void initState() {
     super.initState();
+    if (widget.tx.status == TxStatus.pending) {
