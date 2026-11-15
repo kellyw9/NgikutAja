@@ -374,3 +374,4 @@ class _CustomizePageState extends State<CustomizePage> {
                 children: [
                   if (conflicts.isNotEmpty)
                     NgBanner(
+                      kind: BannerKind.error,
