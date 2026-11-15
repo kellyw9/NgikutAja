@@ -395,3 +395,4 @@ class LocalTip {
   final String text;
   final List<String> body;
   final String? photo;
+  final Creator? author;
