@@ -300,3 +300,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
                 ? Text('Belum ada aktivitas di Hari ${day + 1}. Tambahkan lewat Customize.', style: AppText.body.muted)
                 : Column(
                     children: [
+                      for (var i = 0; i < stops.length; i++)
