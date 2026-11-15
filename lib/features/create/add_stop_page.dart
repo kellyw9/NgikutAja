@@ -218,3 +218,4 @@ class _AddStopPageState extends State<AddStopPage> {
                                 width: w,
                                 height: 94,
                                 child: Column(
+                                  mainAxisAlignment: MainAxisAlignment.center,
