@@ -90,3 +90,4 @@ class _CustomizePageState extends State<CustomizePage> {
       title: 'Hapus ${st.name}?',
       body: 'Aktivitas ini dihapus dari Hari ${day + 1}. Jam aktivitas setelahnya tidak ikut bergeser.',
       actions: const [
+        DialogAction('Hapus aktivitas', kind: BtnKind.danger, value: true),
