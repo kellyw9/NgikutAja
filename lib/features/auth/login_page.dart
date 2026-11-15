@@ -156,3 +156,4 @@ class _LoginPageState extends State<LoginPage> {
                               Text('Belum punya akun? ', style: AppText.body.muted),
                               TextLink(
                                 'Daftar',
+                                color: AppColors.ink,
