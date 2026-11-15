@@ -152,3 +152,4 @@ class _MapPainter extends CustomPainter {
         ring1,
         road
           ..strokeWidth = 5
+          ..strokeCap = StrokeCap.round,
