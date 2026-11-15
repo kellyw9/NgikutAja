@@ -234,3 +234,4 @@ class _EditTripInfoPageState extends State<EditTripInfoPage> {
   bool tried = false;
 
   void _save() {
+    setState(() => tried = true);
