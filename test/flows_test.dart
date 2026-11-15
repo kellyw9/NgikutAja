@@ -78,3 +78,4 @@ void main() {
     await tester.pump(const Duration(milliseconds: 400));
     expect(find.text('Menyalin itinerary...'), findsOneWidget);
     await tester.pump(const Duration(seconds: 2));
+    expect(find.text('Trip berhasil ditambahkan'), findsOneWidget);
