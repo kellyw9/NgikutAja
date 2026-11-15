@@ -195,3 +195,4 @@ class Grid2 extends StatelessWidget {
   @override
   Widget build(BuildContext context) => Column(
     children: [
+      for (var r = 0; r < (items.length + 1) ~/ 2; r++) ...[
