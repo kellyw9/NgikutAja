@@ -69,3 +69,4 @@ class NgButton extends StatelessWidget {
         Flexible(
           child: Text(label, style: style, maxLines: 1, overflow: TextOverflow.ellipsis),
         ),
+        if (trailingIcon != null) ...[const SizedBox(width: 8), AppIcon(trailingIcon!, size: 20, color: color)],
