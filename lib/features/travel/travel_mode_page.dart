@@ -226,3 +226,4 @@ class _NextCard extends StatelessWidget {
           Row(
             children: [
               Expanded(
+                child: NgButton(
