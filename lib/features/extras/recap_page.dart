@@ -9,3 +9,4 @@ class RecapPage extends StatelessWidget {
   final Trip trip;
 
   String _summary(Trip t) =>
+      'Recap trip "${t.title}" (${t.dates ?? ''}): ${t.visited()} dari ${t.places()} tempat dikunjungi, '
