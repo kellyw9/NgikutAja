@@ -277,3 +277,5 @@ class DashedBox extends StatelessWidget {
   final double radius;
   final double width;
   final Color? fill;
+
+  @override
