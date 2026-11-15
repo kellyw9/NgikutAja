@@ -33,3 +33,4 @@ class _PhotoPreviewPageState extends State<PhotoPreviewPage> {
       appBar: const NgAppBar(title: 'Foto baru', back: 'close'),
       body: ListView(
         padding: const EdgeInsets.fromLTRB(kMargin, 8, kMargin, 24),
+        children: [
