@@ -301,3 +301,4 @@ class _PaymentStatusPageState extends State<PaymentStatusPage> {
 
   @override
   void dispose() {
+    _t?.cancel();
