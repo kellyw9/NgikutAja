@@ -226,3 +226,4 @@ class _AddExpensePageState extends State<AddExpensePage> {
     name.dispose();
     amount.dispose();
     super.dispose();
+  }
