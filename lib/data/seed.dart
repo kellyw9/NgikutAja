@@ -160,3 +160,4 @@ class Seed {
     );
 
     final toba = Itinerary(
+      id: 'toba',
