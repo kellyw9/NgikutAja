@@ -132,3 +132,4 @@ class _ItineraryDetailPageState extends State<ItineraryDetailPage> {
                           onTap: () => push(context, ReviewsPage(it: it)),
                         ),
                       _StatChip(
+                        icon: 'chat_bubble',
