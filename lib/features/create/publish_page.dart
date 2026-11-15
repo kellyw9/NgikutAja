@@ -171,3 +171,4 @@ class _PublishPageState extends State<PublishPage> {
                     : null,
               ),
               NgButton(
+                'Simpan sebagai draft',
