@@ -205,3 +205,4 @@ class Seed {
     )..plan[0][2].address = 'Desa Hasinggahan, Samosir';
 
     final jogja = Itinerary(
+      id: 'jogja',
