@@ -103,3 +103,4 @@ class _OnboardingPageState extends State<OnboardingPage> {
   Widget _scroll(List<Widget> children) => LayoutBuilder(
     builder: (context, c) => SingleChildScrollView(
       padding: const EdgeInsets.fromLTRB(kMargin, 8, kMargin, 16),
+      child: Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: children),
