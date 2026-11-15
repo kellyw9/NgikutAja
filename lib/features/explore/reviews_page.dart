@@ -168,3 +168,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
+                      Wrap(
