@@ -289,3 +289,4 @@ class _EditTripInfoPageState extends State<EditTripInfoPage> {
                         onPressed: () async {
                           final p = await pickPhotoSheet(context, title: 'Foto sampul', canRemove: cover != null);
                           if (p != null) setState(() => cover = p.isEmpty ? null : p);
+                        },
