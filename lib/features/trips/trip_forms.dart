@@ -29,3 +29,5 @@ class EditStopPage extends StatefulWidget {
   final Stop? stop;
   final String dayLabel;
   final String defaultStart;
+
+  @override
