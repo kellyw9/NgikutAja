@@ -248,3 +248,4 @@ class _AddExpensePageState extends State<AddExpensePage> {
                 error: tried && name.text.trim().isEmpty ? 'Nama pengeluaran wajib diisi' : null,
                 onChanged: (_) => setState(() {}),
               ),
+              NgField(
