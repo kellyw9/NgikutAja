@@ -199,3 +199,4 @@ class _InterestCard extends StatelessWidget {
       border: on ? AppColors.teal : AppColors.surface,
       borderWidth: on ? 2 : 0,
       child: Row(
+        children: [
