@@ -218,3 +218,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
                             child: _StopCard(stop: stops[i], index: i, conflict: conflictIndexes(stops).contains(i), onEdit: () => _editStop(i)),
                           ),
                       ],
+                    ),
