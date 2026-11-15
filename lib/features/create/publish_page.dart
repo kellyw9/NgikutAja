@@ -225,3 +225,4 @@ class PublishedPage extends StatelessWidget {
                       onTap: () => openItinerary(context, d),
                       child: Row(
                         children: [
+                          Photo(d.cover, width: 88, height: 88, radius: AppRadius.card),
