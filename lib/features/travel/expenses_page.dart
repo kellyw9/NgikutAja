@@ -116,3 +116,4 @@ class ExpensesPage extends StatelessWidget {
                   height: 220,
                 )
               else
+                BoxList(
