@@ -270,3 +270,4 @@ class _EditTripInfoPageState extends State<EditTripInfoPage> {
         padding: const EdgeInsets.fromLTRB(kMargin, 8, kMargin, 24),
         children: [
           Gap(
+            16,
