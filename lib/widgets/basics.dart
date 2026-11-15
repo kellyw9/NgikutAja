@@ -162,3 +162,5 @@ class IconBtn extends StatelessWidget {
     );
   }
 }
+
+/// Link teks (primaryStrong). Tinggi sentuh 44.
