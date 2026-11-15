@@ -155,3 +155,4 @@ class _ItineraryDetailPageState extends State<ItineraryDetailPage> {
                         it.desc.isEmpty ? 'Creator belum menulis deskripsi.' : it.desc,
                         style: it.desc.isEmpty ? AppText.body.muted : AppText.body,
                         maxLines: more ? null : 4,
+                        overflow: more ? null : TextOverflow.ellipsis,
