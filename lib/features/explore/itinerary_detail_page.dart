@@ -56,3 +56,4 @@ class _StatChip extends StatelessWidget {
                 Text(text, style: AppText.bodyStrong),
               ],
             ),
+          ),
