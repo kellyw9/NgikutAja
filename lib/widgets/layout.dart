@@ -480,3 +480,4 @@ class PageFrame extends StatelessWidget {
     this.appBar,
     required this.body,
     this.bottom,
+    this.scroll = true,
