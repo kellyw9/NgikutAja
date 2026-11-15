@@ -615,3 +615,4 @@ class Progress extends StatelessWidget {
 /// Bintang rating 1-5.
 class Stars extends StatelessWidget {
   const Stars(this.n, {super.key, this.size = 16});
+  final int n;
