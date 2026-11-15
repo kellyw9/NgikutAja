@@ -235,3 +235,4 @@ class _SearchPageState extends State<SearchPage> {
       if (app.recentSearches.isNotEmpty) ...[
         SectionHead('Pencarian terakhir', action: 'Hapus', onAction: app.clearRecent),
         const SizedBox(height: 8),
+        for (final q in app.recentSearches)
