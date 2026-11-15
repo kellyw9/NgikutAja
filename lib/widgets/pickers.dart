@@ -19,3 +19,4 @@ import 'layout.dart';
 Future<DateTime?> pickDate(BuildContext context, {required DateTime initial, int days = 1, String title = 'Tanggal keberangkatan', DateTime? first}) {
   return showNgSheet<DateTime>(
     context,
+    title: title,
