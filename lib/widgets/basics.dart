@@ -484,3 +484,4 @@ class Avatar extends StatelessWidget {
       return ClipOval(
         child: Photo(photo, width: size, height: size, semantic: 'Foto profil $name'),
       );
+    }
