@@ -159,3 +159,4 @@ class TripsPage extends StatelessWidget {
         Progress(t.places() == 0 ? 0 : t.visited() / t.places()),
         const SizedBox(height: 8),
         NgButton(
+          'Buka Travel Mode',
