@@ -412,3 +412,4 @@ class _PickLocationPageState extends State<PickLocationPage> {
             padding: const EdgeInsets.fromLTRB(kMargin, 8, kMargin, 12),
             child: Column(
               mainAxisSize: MainAxisSize.min,
+              children: [
