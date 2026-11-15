@@ -522,3 +522,4 @@ class _SearchPageState extends State<SearchPage> {
                           ..rating = null
                           ..price = 'Semua';
                       }),
+                    ),
