@@ -117,3 +117,4 @@ class NotificationsPage extends StatelessWidget {
               const SizedBox(width: 12),
               Padding(
                 padding: const EdgeInsets.only(top: 6),
+                child: n.unread
