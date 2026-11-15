@@ -24,3 +24,4 @@ class _CheckinPageState extends State<CheckinPage> {
     final st = t.plan[widget.day][widget.i];
     final near = app.nextIndex(t, widget.day) == widget.i;
     final stops = t.plan[widget.day];
+    final nextAfter = app.nextIndex(t, widget.day);
