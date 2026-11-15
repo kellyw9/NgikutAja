@@ -134,3 +134,4 @@ class _PackingPageState extends State<PackingPage> {
                               child: Tap(
                                 onTap: () {
                                   it.done = !it.done;
+                                  app.touch();
