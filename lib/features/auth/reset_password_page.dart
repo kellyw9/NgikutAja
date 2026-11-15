@@ -39,3 +39,4 @@ class _ResetPasswordPageState extends State<ResetPasswordPage> {
       sent = true;
       wait = 59;
     });
+    _t?.cancel();
