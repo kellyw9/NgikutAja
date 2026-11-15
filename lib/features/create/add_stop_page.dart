@@ -239,3 +239,4 @@ class _AddStopPageState extends State<AddStopPage> {
                 onTap: _pickPoint,
                 child: Row(
                   children: [
+                    const IconTile('location_on', size: 40, iconSize: 22, fill: AppColors.tealPale),
