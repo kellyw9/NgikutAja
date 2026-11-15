@@ -127,3 +127,4 @@ class _PhotoViewerPageState extends State<PhotoViewerPage> {
                   ),
                 ),
               ),
+              Padding(
