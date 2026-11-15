@@ -51,3 +51,4 @@ class SettingsPage extends StatelessWidget {
             ),
             const SizedBox(width: 12),
             NgToggle(app.settings[key]!, label: title, onChanged: (v) => app.setSetting(key, v)),
+          ],
