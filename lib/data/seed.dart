@@ -502,3 +502,4 @@ class Seed {
     reviews = [
       Review(
         name: 'Yohana Pardede',
+        tint: 2,
