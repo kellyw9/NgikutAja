@@ -317,3 +317,4 @@ class _PaymentStatusPageState extends State<PaymentStatusPage> {
           StatusView(
             top: true,
             icon: 'hourglass_top',
+            tone: AppColors.yellowPale,
