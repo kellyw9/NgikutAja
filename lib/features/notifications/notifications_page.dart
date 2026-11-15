@@ -201,3 +201,4 @@ class NotificationDetailPage extends StatelessWidget {
                         ),
                       ),
                     ],
+                  ),
