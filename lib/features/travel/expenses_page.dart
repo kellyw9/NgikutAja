@@ -316,3 +316,4 @@ class _AddExpensePageState extends State<AddExpensePage> {
                   const SizedBox(height: 8),
                   receipt != null
                       ? Photo(receipt, width: 80, height: 80, radius: AppRadius.inner, semantic: 'Foto struk')
+                      : AddPhotoTile(
