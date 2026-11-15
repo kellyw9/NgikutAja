@@ -377,3 +377,4 @@ class NgChip extends StatelessWidget {
         ),
         clipBehavior: Clip.antiAlias,
         child: InkWell(
+          onTap: onTap,
