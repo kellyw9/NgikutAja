@@ -105,3 +105,4 @@ class _OnboardingPageState extends State<OnboardingPage> {
       padding: const EdgeInsets.fromLTRB(kMargin, 8, kMargin, 16),
       child: Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: children),
     ),
+  );
