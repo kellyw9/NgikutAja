@@ -182,3 +182,4 @@ class _NewPasswordPageState extends State<NewPasswordPage> {
                       obscure: o1,
                       onChanged: (_) => setState(() {}),
                       helper: 'Minimal 8 karakter, campur huruf dan angka.',
+                      error: e1,
