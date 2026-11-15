@@ -162,3 +162,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
                     controller: dayTitle,
                     hint: 'Misal: Istana dan kota tua',
                     onChanged: (_) => _saveTitle(),
+                  ),
