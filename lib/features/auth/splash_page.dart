@@ -64,3 +64,4 @@ class _SplashPageState extends State<SplashPage> {
                       const SizedBox(height: 10),
                       Text('Liburan tinggal ngikut.', style: AppText.title.white),
                     ],
+                  ),
