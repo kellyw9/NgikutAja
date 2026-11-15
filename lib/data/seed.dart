@@ -69,3 +69,4 @@ class Seed {
         name: 'Lestari Manurung',
         handle: '@tobaslowtravel',
         tint: 3,
+        bio: 'Tinggal di Samosir. Menulis rute pelan untuk yang mau menginap.',
