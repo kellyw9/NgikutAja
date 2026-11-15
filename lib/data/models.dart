@@ -358,3 +358,4 @@ class Transaction {
   final String id;
   final Itinerary item;
   final DateTime date;
+  final String method;
