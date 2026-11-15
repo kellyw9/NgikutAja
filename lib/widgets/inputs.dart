@@ -286,3 +286,5 @@ class RadioRow extends StatelessWidget {
   final VoidCallback onTap;
   final bool enabled;
   final double height;
+
+  @override
