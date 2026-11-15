@@ -473,3 +473,4 @@ class _CustomizePageState extends State<CustomizePage> {
                               },
                             ),
                             const SizedBox(width: 10),
+                            if (t.photos.isEmpty)
