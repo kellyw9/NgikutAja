@@ -621,3 +621,4 @@ class Stars extends StatelessWidget {
   @override
   Widget build(BuildContext context) => Semantics(
     label: '$n dari 5 bintang',
+    child: Row(
