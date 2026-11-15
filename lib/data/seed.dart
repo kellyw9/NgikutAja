@@ -544,3 +544,4 @@ class Seed {
       Transaction(
         id: _trx(_d(-5), '0977'),
         item: bajo,
+        date: _d(-5).add(const Duration(hours: 21, minutes: 2)),
