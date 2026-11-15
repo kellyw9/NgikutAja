@@ -29,3 +29,4 @@ class _ExplorePageState extends State<ExplorePage> {
     setState(() {
       loading = true;
       error = null;
+    });
