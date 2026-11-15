@@ -420,3 +420,4 @@ class PriceTag extends StatelessWidget {
   @override
   Widget build(BuildContext context) => Container(
     height: 28,
+    padding: const EdgeInsets.only(left: 6, right: 10),
