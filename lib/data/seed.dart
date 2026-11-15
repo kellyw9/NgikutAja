@@ -73,3 +73,4 @@ class Seed {
         followers: 860,
         following: 140,
       ),
+      'bayu': Creator(
