@@ -281,3 +281,4 @@ class _EditTripInfoPageState extends State<EditTripInfoPage> {
                     Positioned(
                       right: 10,
                       bottom: 10,
+                      child: NgButton(
