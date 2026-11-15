@@ -59,3 +59,4 @@ class _PeoplePageState extends State<PeoplePage> {
                     ),
                     _btn(app, list[i]),
                   ],
+                ),
