@@ -11,3 +11,4 @@ import 'package:url_launcher/url_launcher.dart';
 class PhotoStore {
   PhotoStore._();
   static final Map<String, Uint8List> _mem = {};
+  static int _n = 0;
