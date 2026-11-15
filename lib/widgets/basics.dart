@@ -457,3 +457,5 @@ class MetaRow extends StatelessWidget {
   final List<(String, String)?> items;
   final Color color;
   final double gap;
+
+  @override
