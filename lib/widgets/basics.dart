@@ -288,3 +288,5 @@ class _DashPainter extends CustomPainter {
   final double radius;
   final double width;
   final Color? fill;
+
+  @override
