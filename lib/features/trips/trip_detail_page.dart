@@ -27,3 +27,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
 
   void _menu() => showNgSheet<void>(
     context,
+    title: widget.trip.title,
