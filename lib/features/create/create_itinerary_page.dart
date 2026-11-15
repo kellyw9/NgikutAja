@@ -318,3 +318,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
               const SizedBox(height: 10),
               Text('Tambah foto sampul', style: AppText.bodyStrong),
               const SizedBox(height: 2),
+              Text('Maks. 5 MB (JPG, PNG)', style: AppText.small.muted),
