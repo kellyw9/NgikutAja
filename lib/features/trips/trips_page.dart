@@ -106,3 +106,4 @@ class TripsPage extends StatelessWidget {
             TripStatus.diadopsi => Container(
               padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 8),
               decoration: BoxDecoration(color: AppColors.ground, borderRadius: BorderRadius.circular(AppRadius.inner)),
+              child: Row(
