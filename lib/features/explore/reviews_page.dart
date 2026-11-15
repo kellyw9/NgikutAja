@@ -204,3 +204,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
     child: SafeArea(
       top: false,
       child: Padding(
+        padding: EdgeInsets.only(bottom: MediaQuery.viewInsetsOf(context).bottom),
