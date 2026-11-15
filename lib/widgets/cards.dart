@@ -446,3 +446,4 @@ class DayStrip extends StatelessWidget {
   final int active;
   final ValueChanged<int> onTap;
   final int? today;
+  final VoidCallback? onAdd;
