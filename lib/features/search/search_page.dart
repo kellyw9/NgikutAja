@@ -250,3 +250,4 @@ class _SearchPageState extends State<SearchPage> {
                     IconBtn(
                       'close',
                       label: 'Hapus $q dari riwayat',
+                      size: 40,
