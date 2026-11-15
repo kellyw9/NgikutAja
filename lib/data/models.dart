@@ -94,3 +94,4 @@ class Itinerary {
     DateTime? publishedAt,
     this.isDraft = false,
   }) : dayTitles = dayTitles ?? [],
+       plan = plan ?? [],
