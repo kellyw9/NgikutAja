@@ -258,3 +258,4 @@ class PaidPreviewPage extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
+            HeroPhoto(
