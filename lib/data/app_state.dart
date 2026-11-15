@@ -310,3 +310,5 @@ class AppState extends ChangeNotifier {
     notifyListeners();
     return t;
   }
+
+  /// Simpan jadwal hasil Customize. Gagal kalau offline (perubahan tetap di layar).
