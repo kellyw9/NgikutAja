@@ -150,3 +150,4 @@ class CityCard extends StatelessWidget {
             const SizedBox(height: 6),
             Text(c.name, style: AppText.bodyStrong),
             const SizedBox(height: 2),
+            Text(n == 0 ? 'Belum ada itinerary' : '$n itinerary', style: AppText.small.muted),
