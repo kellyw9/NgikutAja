@@ -199,3 +199,4 @@ class _ItineraryDetailPageState extends State<ItineraryDetailPage> {
                   Text(it.dayTitle(day), style: AppText.title),
                   const SizedBox(height: 4),
                   MetaRow([('pin_drop', '${dayStops.length} tempat'), ('payments', rp(it.dayCost(day)))]),
+                  const SizedBox(height: 18),
