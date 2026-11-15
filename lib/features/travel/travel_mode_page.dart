@@ -388,3 +388,4 @@ class NavigationPage extends StatelessWidget {
             ),
           ),
           Positioned(
+            left: 0,
