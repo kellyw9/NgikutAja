@@ -90,3 +90,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
                       : Column(
                           children: [
                             for (final e in dist.entries) ...[
+                              Row(
