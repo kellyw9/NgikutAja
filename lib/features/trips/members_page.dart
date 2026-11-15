@@ -127,3 +127,4 @@ class MembersPage extends StatelessWidget {
                   ),
                   NgButton(
                     'Salin link',
+                    kind: BtnKind.text,
