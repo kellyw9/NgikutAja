@@ -84,3 +84,4 @@ class _EditProfilePageState extends State<EditProfilePage> {
             Gap(
               16,
               children: [
+                Row(
