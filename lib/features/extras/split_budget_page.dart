@@ -172,3 +172,4 @@ class _SplitBudgetPageState extends State<SplitBudgetPage> {
                                           ),
                                           const SizedBox(height: 2),
                                           Text(rp(amt), style: AppText.small.muted),
+                                        ],
