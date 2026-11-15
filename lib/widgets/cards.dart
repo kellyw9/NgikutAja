@@ -246,3 +246,4 @@ class TripCard extends StatelessWidget {
   final String title;
   final String city;
   final int days;
+  final String? dates;
