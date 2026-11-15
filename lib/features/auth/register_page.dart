@@ -49,3 +49,4 @@ class _RegisterPageState extends State<RegisterPage> {
     if (!mounted) return;
     if (widget.popOnSuccess) {
       Navigator.pop(context);
+      showNgSnack(context, 'Akun dibuat. Selamat datang, ${name.text.trim()}.', kind: SnackKind.success);
