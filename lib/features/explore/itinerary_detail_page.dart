@@ -202,3 +202,4 @@ class _ItineraryDetailPageState extends State<ItineraryDetailPage> {
                   const SizedBox(height: 18),
                   if (dayStops.isEmpty)
                     Text('Creator belum menulis jadwal untuk hari ini.', style: AppText.body.muted)
+                  else
