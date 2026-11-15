@@ -323,3 +323,4 @@ class AppState extends ChangeNotifier {
   void touch() => notifyListeners();
 
   void checkIn(Trip t, int day, int i) {
+    final now = DateTime.now();
