@@ -7,3 +7,4 @@ import 'package:share_plus/share_plus.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 /// Foto yang diambil pengguna disimpan di memori selama aplikasi berjalan
+/// dan dirujuk dengan kunci `mem:<id>` (foto bawaan memakai nama aset, misalnya "holbung").
