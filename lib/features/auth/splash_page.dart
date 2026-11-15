@@ -5,3 +5,5 @@ import 'package:flutter/material.dart';
 import '../../widgets/ui.dart';
 import '../shell/home_shell.dart';
 import 'onboarding_page.dart';
+
+/// 1.1 Splash: garis rute pembuka (motif yang sama dengan timeline dan Travel Mode).
