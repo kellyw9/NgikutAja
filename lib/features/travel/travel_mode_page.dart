@@ -105,3 +105,4 @@ class TravelModePage extends StatelessWidget {
                 padding: const EdgeInsets.fromLTRB(kMargin, 14, kMargin, 16),
                 children: [
                   if (next != null)
+                    _NextCard(trip: t, day: day, i: next)
