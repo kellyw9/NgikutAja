@@ -138,3 +138,4 @@ class BottomNav extends StatelessWidget {
           ),
         ),
         Expanded(
+          child: Column(
