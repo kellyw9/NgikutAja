@@ -62,3 +62,4 @@ class ExpensesPage extends StatelessWidget {
                   icon: 'edit',
                   expand: true,
                   onPressed: () {
+                    Navigator.pop(ctx);
