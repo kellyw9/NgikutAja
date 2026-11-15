@@ -142,3 +142,4 @@ void main() {
     await tester.enterText(find.byType(TextField).first, 'Kuliner Jogja 3 Hari');
     await tapText(tester, 'Lanjut ke hari & stop', button: true);
     await tester.pumpAndSettle();
+    expect(find.text('Selesaikan error sebelum lanjut'), findsOneWidget);
