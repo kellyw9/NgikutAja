@@ -173,3 +173,4 @@ class AppState extends ChangeNotifier {
   int cityCount(CityInfo c) => itineraries.where((x) => !x.isDraft && c.match(x)).length;
 
   // ---------------- wishlist, follow, like ----------------
+  final Set<String> wishlist = {'toba', 'bali', 'bajo'};
