@@ -238,3 +238,4 @@ class _AddStopPageState extends State<AddStopPage> {
                 padding: const EdgeInsets.all(12),
                 onTap: _pickPoint,
                 child: Row(
+                  children: [
