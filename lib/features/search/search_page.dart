@@ -29,3 +29,4 @@ class SearchFilter {
     ..duration = duration
     ..budget = budget
     ..rating = rating
+    ..price = price;
