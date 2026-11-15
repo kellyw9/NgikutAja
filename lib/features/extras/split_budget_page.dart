@@ -60,3 +60,4 @@ class _SplitBudgetPageState extends State<SplitBudgetPage> {
                 (custom ? 'Per porsi' : 'Bagi rata per orang', rp(parts == 0 ? 0 : (total / parts).round())),
               ]),
               Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
