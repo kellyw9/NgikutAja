@@ -125,3 +125,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
                         const SizedBox(width: 10),
                         Expanded(
                           child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
