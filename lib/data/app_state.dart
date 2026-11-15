@@ -383,3 +383,5 @@ class AppState extends ChangeNotifier {
     plan: [[]],
     dayTitles: [''],
   );
+
+  void saveDraft(Itinerary d) {
