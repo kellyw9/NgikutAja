@@ -83,3 +83,4 @@ class DashboardPage extends StatelessWidget {
                   ),
                 ),
               Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
