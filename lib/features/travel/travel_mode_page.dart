@@ -215,3 +215,4 @@ class _NextCard extends StatelessWidget {
                       Text(st.name, style: AppText.h2),
                       const SizedBox(height: 6),
                       MetaRow([(st.cat.icon, st.cat.label), if (info != null) ('near_me', info.$1), if (info != null) ('timer', info.$2)]),
+                    ],
