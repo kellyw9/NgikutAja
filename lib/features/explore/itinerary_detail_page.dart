@@ -147,3 +147,4 @@ class _ItineraryDetailPageState extends State<ItineraryDetailPage> {
                   ),
                   const NgDivider(),
                   Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
