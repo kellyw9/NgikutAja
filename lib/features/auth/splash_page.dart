@@ -20,3 +20,4 @@ class _SplashPageState extends State<SplashPage> {
   @override
   void initState() {
     super.initState();
+    _t = Timer(const Duration(milliseconds: 1400), () {
