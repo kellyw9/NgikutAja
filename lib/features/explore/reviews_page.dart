@@ -114,3 +114,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
           if (list.isEmpty)
             Text('Belum ada ulasan tertulis.', style: AppText.body.muted)
           else
+            for (final r in list) ...[
