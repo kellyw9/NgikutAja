@@ -98,3 +98,4 @@ class _JournalPageState extends State<JournalPage> {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
+                  Text('Cerita perjalanan', style: AppText.smallStrong.muted),
