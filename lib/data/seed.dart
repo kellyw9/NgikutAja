@@ -660,3 +660,5 @@ class Seed {
   }
 
   static String _fmt(DateTime d) => '${d.day} ${monthsShort[d.month - 1]} ${d.year}';
+
+  static String _trx(DateTime d, String n) => 'TRX-${d.year}${d.month.toString().padLeft(2, '0')}${d.day.toString().padLeft(2, '0')}-$n';
