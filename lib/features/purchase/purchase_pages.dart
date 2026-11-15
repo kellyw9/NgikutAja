@@ -531,3 +531,4 @@ class TransactionDetailPage extends StatelessWidget {
             TxStatus.berhasil => NgButton('Buka itinerary', expand: true, onPressed: () => openItinerary(context, tx.item)),
             TxStatus.pending => NgButton('Lanjutkan pembayaran', expand: true, onPressed: () => push(context, PaymentStatusPage(tx: tx))),
             TxStatus.gagal => NgButton(
+              'Coba bayar lagi',
