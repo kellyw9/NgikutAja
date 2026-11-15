@@ -515,3 +515,4 @@ class _DayBox extends StatelessWidget {
                         height: 8,
                         decoration: BoxDecoration(color: AppColors.yellow, borderRadius: BorderRadius.circular(4)),
                       ),
+                    if (item.alert)
