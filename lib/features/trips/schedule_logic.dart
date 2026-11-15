@@ -120,3 +120,4 @@ List<String> shiftCascade(List<Stop> day, Stop target, int newStart) {
                 '${gap != null ? ', jeda tersisa paling pendek $gap menit' : ''}.',
           ],
         ),
+      );
