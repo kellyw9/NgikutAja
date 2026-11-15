@@ -77,3 +77,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
                     children: [
                       Text(decimal(it.rating!), style: AppText.display),
                       const SizedBox(height: 4),
+                      Stars(it.rating!.round(), size: 14),
