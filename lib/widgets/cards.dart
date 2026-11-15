@@ -409,3 +409,4 @@ class StopRow extends StatelessWidget {
           const SizedBox(width: 10),
           SizedBox(
             width: 24,
+            child: Column(
