@@ -498,3 +498,5 @@ class Seed {
         recapNote: (2, 'Prambanan jam 4 sore ternyata pas, matahari sudah turun dan rombongan tur sekolah sudah pulang.'),
       ),
     ];
+
+    reviews = [
