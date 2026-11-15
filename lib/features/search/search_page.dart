@@ -584,3 +584,4 @@ class _BudgetSlider extends StatelessWidget {
           onChanged: onChanged,
         ),
       ),
+      Row(
