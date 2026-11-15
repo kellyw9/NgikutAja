@@ -468,3 +468,4 @@ class Segmented extends StatelessWidget {
 /// Hanya angka, dengan pemisah ribuan titik (Rp25.000).
 class ThousandsFormatter extends TextInputFormatter {
   @override
+  TextEditingValue formatEditUpdate(TextEditingValue oldValue, TextEditingValue newValue) {
