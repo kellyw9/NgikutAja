@@ -141,3 +141,4 @@ class _NewPasswordPageState extends State<NewPasswordPage> {
   String? get e2 => p2.text.isNotEmpty && p2.text != p1.text ? 'Password belum sama' : null;
 
   void _save() {
+    setState(() => tried = true);
