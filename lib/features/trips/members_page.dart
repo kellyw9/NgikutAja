@@ -124,3 +124,4 @@ class MembersPage extends StatelessWidget {
                   const SizedBox(width: 8),
                   Expanded(
                     child: Text(_link(trip), style: AppText.body, maxLines: 1, overflow: TextOverflow.ellipsis),
+                  ),
