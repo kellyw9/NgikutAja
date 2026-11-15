@@ -3,3 +3,5 @@
 // (Diadopsi, Berjalan, Selesai) dan hitung mundur tetap masuk akal kapan pun aplikasi dibuka.
 import '../core/format.dart';
 import 'models.dart';
+
+Stop _s(String start, String end, String name, Category cat, int cost, [String? photo, String? note, String? desc]) =>
