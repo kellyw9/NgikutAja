@@ -209,3 +209,4 @@ class _InterestCard extends StatelessWidget {
                 Text(title, style: AppText.title),
                 const SizedBox(height: 2),
                 Text(sub, style: AppText.small.muted),
+              ],
