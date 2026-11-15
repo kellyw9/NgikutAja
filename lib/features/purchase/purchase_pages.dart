@@ -447,3 +447,4 @@ class PurchaseHistoryPage extends StatelessWidget {
   const PurchaseHistoryPage({super.key});
 
   static PillKind kind(TxStatus s) => switch (s) {
+    TxStatus.berhasil => PillKind.positive,
