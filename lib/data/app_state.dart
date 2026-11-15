@@ -210,3 +210,5 @@ class AppState extends ChangeNotifier {
     }
     notifyListeners();
   }
+
+  // ---------------- ulasan dan komentar ----------------
