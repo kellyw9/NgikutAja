@@ -278,3 +278,4 @@ class _StopCard extends StatelessWidget {
     decoration: BoxDecoration(
       color: AppColors.surface,
       borderRadius: BorderRadius.circular(AppRadius.card),
+      border: Border.all(color: conflict ? AppColors.negative : AppColors.line, width: conflict ? 2 : 1),
