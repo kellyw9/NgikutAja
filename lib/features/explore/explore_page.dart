@@ -173,3 +173,4 @@ class Bell extends StatelessWidget {
           Positioned(
             left: 25,
             top: 9,
+            child: IgnorePointer(
