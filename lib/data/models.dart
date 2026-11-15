@@ -392,3 +392,4 @@ class LocalTip {
   LocalTip({required this.icon, required this.title, required this.text, required this.body, this.photo, this.author, this.updated});
   final String icon;
   final String title;
+  final String text;
