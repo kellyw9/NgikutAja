@@ -292,3 +292,4 @@ class RadioRow extends StatelessWidget {
     inMutuallyExclusiveGroup: true,
     checked: selected,
     enabled: enabled,
+    child: Opacity(
