@@ -118,3 +118,4 @@ class _ExplorePageState extends State<ExplorePage> {
                       itemBuilder: (_, i) => CityCard(AppState.cities[i]),
                     ),
                   ),
+                  const SizedBox(height: 24),
