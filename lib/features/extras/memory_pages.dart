@@ -42,3 +42,4 @@ class PhotoMemoryPage extends StatelessWidget {
                         spacing: 6,
                         runSpacing: 6,
                         children: [
+                          for (final p in list)
