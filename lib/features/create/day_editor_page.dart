@@ -58,3 +58,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
       } else {
         d.plan[day][i] = r.stop!;
       }
+    });
