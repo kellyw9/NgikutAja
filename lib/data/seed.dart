@@ -65,3 +65,4 @@ class Seed {
         following: 75,
       ),
       'lestari': Creator(
+        id: 'lestari',
