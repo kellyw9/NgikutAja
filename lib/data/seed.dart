@@ -375,3 +375,4 @@ class Seed {
         likes: 41,
         tags: ['Kuliner'],
         publishedAt: _d(-150),
+        dayTitles: ['Sarapan'],
