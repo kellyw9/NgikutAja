@@ -42,3 +42,4 @@ class ExpensesPage extends StatelessWidget {
                     ctx,
                     icon: 'delete',
                     title: 'Hapus pengeluaran ini?',
+                    body: '${e.name} (${rp(e.amount)}) dihapus dari catatan dan pembagian biaya.',
