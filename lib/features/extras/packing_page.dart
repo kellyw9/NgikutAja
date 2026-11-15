@@ -105,3 +105,4 @@ class _PackingPageState extends State<PackingPage> {
                 Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
+                    Text(g.name, style: AppText.bodyStrong),
