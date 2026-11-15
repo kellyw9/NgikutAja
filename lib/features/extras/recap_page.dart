@@ -50,3 +50,4 @@ class RecapPage extends StatelessWidget {
               Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
+                  Text('Destinasi yang dikunjungi', style: AppText.h2),
