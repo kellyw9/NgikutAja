@@ -166,3 +166,4 @@ class MembersPage extends StatelessWidget {
     final app = AppScope.of(context);
     final ownerIsMe = trip.members.isNotEmpty && trip.members.first.handle == app.me.handle;
     return Scaffold(
+      backgroundColor: AppColors.ground,
