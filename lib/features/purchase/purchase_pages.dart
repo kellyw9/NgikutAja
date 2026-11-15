@@ -309,3 +309,4 @@ class _PaymentStatusPageState extends State<PaymentStatusPage> {
   Widget build(BuildContext context) {
     final app = AppScope.of(context);
     final tx = widget.tx;
+    final it = tx.item;
