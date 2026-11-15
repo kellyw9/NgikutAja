@@ -116,3 +116,4 @@ class _CustomizePageState extends State<CustomizePage> {
                   padding: const EdgeInsets.all(10),
                   decoration: BoxDecoration(color: AppColors.ground, borderRadius: BorderRadius.circular(AppRadius.card)),
                   child: Row(
+                    children: [
