@@ -478,3 +478,4 @@ class ThousandsFormatter extends TextInputFormatter {
       if (i > 0 && (s.length - i) % 3 == 0) buf.write('.');
       buf.write(s[i]);
     }
+    final t = buf.toString();
