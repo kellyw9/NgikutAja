@@ -141,3 +141,4 @@ class CityCard extends StatelessWidget {
       width: 124,
       child: Tap(
         onTap: () => goSearch(context, c.name),
+        radius: AppRadius.card,
