@@ -606,3 +606,4 @@ class Seed {
         id: 'n6',
         kind: NotifKind.comment,
         icon: 'chat_bubble',
+        lead: '@dodiginting',
