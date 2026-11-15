@@ -297,3 +297,4 @@ class TravelStopPage extends StatelessWidget {
                       children: [
                         const AppIcon('lightbulb', size: 20),
                         const SizedBox(width: 10),
+                        Expanded(
