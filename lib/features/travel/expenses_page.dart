@@ -153,3 +153,4 @@ class ExpensesPage extends StatelessWidget {
           ),
         ],
       ),
+      bottomNavigationBar: SafeArea(
