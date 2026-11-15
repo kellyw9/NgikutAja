@@ -155,3 +155,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
             Gap(
               16,
               children: [
+                if (showErr)
