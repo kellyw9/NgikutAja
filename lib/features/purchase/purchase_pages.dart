@@ -185,3 +185,4 @@ class _PaymentPageState extends State<PaymentPage> {
       app.completePayment(tx);
     }
     setState(() => processing = false);
+    Navigator.pushReplacement(
