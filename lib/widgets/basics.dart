@@ -439,3 +439,5 @@ class Meta extends StatelessWidget {
   final String icon;
   final String text;
   final Color color;
+
+  @override
