@@ -229,3 +229,4 @@ class Tap extends StatelessWidget {
 /// Foto bawaan (nama aset di assets/photos) atau foto pengguna (`mem:<id>`).
 /// Tanpa sumber: kotak sunk dengan ikon.
 class Photo extends StatelessWidget {
+  const Photo(this.src, {super.key, this.width, this.height, this.radius = 0, this.placeholderIcon = 'add_a_photo', this.semantic});
