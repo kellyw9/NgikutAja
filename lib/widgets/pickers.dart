@@ -132,3 +132,4 @@ class _CalendarState extends State<_Calendar> {
               ? '${dateShort(sel).replaceFirst(weekdaysShort[sel.weekday - 1], weekdaysLong[sel.weekday - 1])} sampai '
                     '${weekdaysLong[end.weekday - 1]}, ${end.day} ${monthsShort[end.month - 1]} ${end.year} (durasi ${widget.days} hari)'
               : dateLong(sel),
+          style: AppText.body.muted,
