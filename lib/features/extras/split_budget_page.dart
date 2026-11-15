@@ -29,3 +29,4 @@ class _SplitBudgetPageState extends State<SplitBudgetPage> {
     // Penyelesaian: yang kurang bayar transfer ke yang menerima (greedy).
     final debt = [
       for (final e in net.entries)
+        if (e.value < 0) [e.key, -e.value],
