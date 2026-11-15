@@ -230,3 +230,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
               padding: const EdgeInsets.fromLTRB(kMargin, 10, 12, 10),
               child: Row(
                 children: [
+                  Avatar(app.me.name, size: 32, tint: app.me.tint, photo: app.me.photo),
