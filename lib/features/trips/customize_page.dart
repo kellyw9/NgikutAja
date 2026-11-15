@@ -255,3 +255,4 @@ class _CustomizePageState extends State<CustomizePage> {
                         Expanded(child: Text(iss.title, style: AppText.bodyStrong.c(iss.conflict ? AppColors.negativeInk : AppColors.ink))),
                       ],
                     ),
+                    for (final l in iss.lines) ...[
