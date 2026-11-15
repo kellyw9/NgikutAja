@@ -71,3 +71,5 @@ class WisataCard extends StatelessWidget {
   final VoidCallback onTap;
   final VoidCallback? onGuest;
   final bool showWish;
+
+  @override
