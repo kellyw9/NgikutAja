@@ -420,3 +420,4 @@ class _CustomizePageState extends State<CustomizePage> {
                             key: ObjectKey(stops[i]),
                             child: StopRow(
                               stops[i],
+                              n: i + 1,
