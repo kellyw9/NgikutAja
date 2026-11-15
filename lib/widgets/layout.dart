@@ -375,3 +375,5 @@ class NgCard extends StatelessWidget {
   final double borderWidth;
   final VoidCallback? onTap;
   final Color fill;
+
+  @override
