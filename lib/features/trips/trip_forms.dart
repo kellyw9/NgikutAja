@@ -162,3 +162,4 @@ class _EditStopPageState extends State<EditStopPage> {
                 label: 'Biaya per orang',
                 controller: cost,
                 hint: '0 kalau gratis',
+                prefixText: 'Rp',
