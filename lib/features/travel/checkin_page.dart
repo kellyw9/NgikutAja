@@ -99,3 +99,4 @@ class _CheckinPageState extends State<CheckinPage> {
                             sub: 'Check-in pukul ${t.checkins['${widget.day}-$k']}',
                             trailing: null,
                             padH: 14,
+                          ),
