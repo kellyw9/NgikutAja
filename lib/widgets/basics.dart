@@ -180,3 +180,4 @@ class TextLink extends StatelessWidget {
         onTap: onTap,
         borderRadius: BorderRadius.circular(4),
         focusColor: AppColors.teal.withValues(alpha: .2),
+        child: ConstrainedBox(
