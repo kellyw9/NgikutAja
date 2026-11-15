@@ -455,3 +455,4 @@ class PurchaseHistoryPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final app = AppScope.of(context);
+    final list = app.transactions;
