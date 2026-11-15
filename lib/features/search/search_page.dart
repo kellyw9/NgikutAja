@@ -577,3 +577,4 @@ class _BudgetSlider extends StatelessWidget {
         ),
         child: RangeSlider(
           values: value,
+          min: 0,
