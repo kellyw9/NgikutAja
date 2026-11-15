@@ -415,3 +415,4 @@ class _CustomizePageState extends State<CustomizePage> {
                         stops.insert(b, s);
                       }),
                       children: [
+                        for (var i = 0; i < stops.length; i++)
