@@ -297,3 +297,4 @@ class Seed {
         days: 1,
         cover: 'kesawan',
         creator: c['rahmat']!,
+        price: 15000,
