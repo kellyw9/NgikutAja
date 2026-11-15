@@ -74,3 +74,4 @@ class _AddStopPageState extends State<AddStopPage> {
                 label: 'Nama tempat',
                 icon: 'storefront',
                 controller: name,
+                hint: 'Misal: Soto Kesawan',
