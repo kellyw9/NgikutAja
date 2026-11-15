@@ -131,3 +131,4 @@ class _NgFieldState extends State<NgField> {
     }
 
     final trailing = widget.trailing;
+    final box = Container(
