@@ -33,3 +33,4 @@ class _OnboardingPageState extends State<OnboardingPage> {
   void _finish() {
     AppScope.read(context).finishOnboarding(picked.isEmpty ? {'Alam', 'Kuliner', 'Budaya'} : picked);
     resetTo(context, const HomeShell());
+  }
