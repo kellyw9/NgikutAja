@@ -303,3 +303,4 @@ class _AddExpensePageState extends State<AddExpensePage> {
                   Text('Dibayar oleh', style: AppText.bodyStrong),
                   const SizedBox(height: 8),
                   Wrap(
+                    spacing: 8,
