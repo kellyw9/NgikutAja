@@ -39,3 +39,4 @@ class _ExplorePageState extends State<ExplorePage> {
   }
 
   void _switch(String t) {
+    if (t == tab) return;
