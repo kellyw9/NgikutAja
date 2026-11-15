@@ -285,3 +285,4 @@ class _AddStopPageState extends State<AddStopPage> {
           child: NgButton('Simpan stop', expand: true, onPressed: _save),
         ),
       ),
+    );
