@@ -298,3 +298,4 @@ class Seed {
         cover: 'kesawan',
         creator: c['rahmat']!,
         price: 15000,
+        adopted: 64,
