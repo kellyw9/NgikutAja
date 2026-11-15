@@ -65,3 +65,4 @@ class TravelModePage extends StatelessWidget {
                                     !app.online ? 'Offline' : (t.offline ? 'Tersimpan offline' : 'Belum tersimpan offline'),
                                     style: AppText.smallStrong.white,
                                   ),
+                                ],
