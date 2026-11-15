@@ -40,3 +40,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
     final it = widget.it;
     return Scaffold(
       backgroundColor: AppColors.ground,
+      appBar: NgAppBar(title: 'Ulasan dan komentar', sub: it.title, rule: true),
