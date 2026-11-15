@@ -142,3 +142,4 @@ class _ItineraryDetailPageState extends State<ItineraryDetailPage> {
                   const NgDivider(),
                   CreatorRow(
                     it.creator,
+                    onTap: () => push(context, CreatorProfilePage(c: it.creator)),
