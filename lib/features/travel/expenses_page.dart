@@ -53,3 +53,4 @@ class ExpensesPage extends StatelessWidget {
                     app.removeExpense(trip, e);
                   }
                 },
+              ),
