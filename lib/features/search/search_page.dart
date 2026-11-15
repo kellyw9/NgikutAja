@@ -480,3 +480,4 @@ class _SearchPageState extends State<SearchPage> {
                 'Durasi',
                 Wrap(
                   spacing: 8,
+                  runSpacing: 8,
