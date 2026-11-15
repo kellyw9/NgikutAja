@@ -102,3 +102,4 @@ class MembersPage extends StatelessWidget {
                 Text('Hak akses', style: AppText.bodyStrong),
                 const SizedBox(height: 6),
                 RadioRow(
+                  title: 'Lihat',
