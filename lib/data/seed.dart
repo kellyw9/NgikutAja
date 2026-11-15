@@ -624,3 +624,4 @@ class Seed {
           updated: 'Okt 2026',
           body: [
             'Kapal kayu dari Pelabuhan Ajibata ke Tomok berangkat tiap jam mulai pukul 07.00. Kapal terakhir ke Samosir pukul 19.00, '
+                'kapal terakhir kembali ke Ajibata pukul 18.00.',
