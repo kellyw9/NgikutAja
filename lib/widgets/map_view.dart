@@ -109,3 +109,4 @@ class MapView extends StatelessWidget {
       child: radius > 0 ? ClipRRect(borderRadius: BorderRadius.circular(radius), child: map) : map,
     );
   }
+}
