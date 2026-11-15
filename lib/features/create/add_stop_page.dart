@@ -193,3 +193,4 @@ class _AddStopPageState extends State<AddStopPage> {
                                     child: IconBtn(
                                       'close',
                                       label: 'Hapus foto',
+                                      size: 28,
