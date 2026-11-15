@@ -326,3 +326,4 @@ class _CustomizePageState extends State<CustomizePage> {
                 onTap: () => push(context, EditTripInfoPage(trip: t), fullscreen: true).then((_) => setState(() {})),
                 child: Row(
                   children: [
+                    Photo(t.cover, width: 56, height: 56, radius: AppRadius.inner),
