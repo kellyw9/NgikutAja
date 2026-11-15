@@ -113,3 +113,4 @@ class MembersPage extends StatelessWidget {
                   selected: role == MemberRole.editor,
                   onTap: () => set(() => role = MemberRole.editor),
                 ),
+              ],
