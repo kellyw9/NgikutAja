@@ -658,3 +658,5 @@ class Seed {
     ];
     followingPeople = [...followers];
   }
+
+  static String _fmt(DateTime d) => '${d.day} ${monthsShort[d.month - 1]} ${d.year}';
