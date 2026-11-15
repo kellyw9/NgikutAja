@@ -156,3 +156,4 @@ class _JournalPageState extends State<JournalPage> {
                     Expanded(
                       child: NgButton(e == null ? 'Tulis catatan' : 'Tulis lanjutan', icon: 'edit_note', expand: true, onPressed: _write),
                     ),
+                  ],
