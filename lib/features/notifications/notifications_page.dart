@@ -192,3 +192,4 @@ class NotificationDetailPage extends StatelessWidget {
                           children: [
                             Text(st.name, style: AppText.bodyStrong),
                             const SizedBox(height: 2),
+                            MetaRow([
