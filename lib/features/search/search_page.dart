@@ -403,3 +403,4 @@ class _SearchPageState extends State<SearchPage> {
                   WisataCard(list[i], variant: CardVariant.row, onTap: () => openItinerary(context, list[i]), onGuest: () => requireLogin(context)),
                 ],
               ],
+            ),
