@@ -28,3 +28,4 @@ class _LoginPageState extends State<LoginPage> {
   final pass = TextEditingController();
   bool obscure = true;
   bool loading = false;
+  bool wrong = false;
