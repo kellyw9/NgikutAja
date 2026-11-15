@@ -139,3 +139,5 @@ class Itinerary {
 
   String dayTitle(int d) => d < dayTitles.length && dayTitles[d].isNotEmpty ? dayTitles[d] : 'Hari ${d + 1}';
 }
+
+enum TripStatus {
