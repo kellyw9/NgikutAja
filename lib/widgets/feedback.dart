@@ -217,3 +217,4 @@ Future<Object?> showNgDialog(BuildContext context, {String? icon, required Strin
               for (var i = 0; i < actions.length; i++) ...[
                 if (i > 0) const SizedBox(height: 8),
                 NgButton(
+                  actions[i].label,
