@@ -309,3 +309,4 @@ class PaidPreviewPage extends StatelessWidget {
                         children: [
                           Text('Hari 2: ${it.dayTitle(1)}', style: AppText.title.muted),
                           const SizedBox(height: 6),
+                          for (var i = 0; i < day2.length && i < 2; i++)
