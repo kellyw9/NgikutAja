@@ -191,3 +191,4 @@ Future<String?> pickPhotoSheet(BuildContext context, {String title = 'Tambah fot
       ],
     ),
   );
+  if (choice == null) return null;
