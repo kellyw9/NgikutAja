@@ -132,3 +132,5 @@ class _SearchPageState extends State<SearchPage> {
     }
     return list;
   }
+
+  @override
