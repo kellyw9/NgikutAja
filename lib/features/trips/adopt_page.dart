@@ -100,3 +100,4 @@ class _AdoptPageState extends State<AdoptPage> {
                             Text('Kredit tetap tercatat di tripmu walau jadwalnya kamu ubah.', style: AppText.small.muted),
                           ],
                         ),
+                      ),
