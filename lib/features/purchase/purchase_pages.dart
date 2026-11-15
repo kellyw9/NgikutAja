@@ -358,3 +358,4 @@ class _PaymentStatusPageState extends State<PaymentStatusPage> {
               ('Waktu transaksi', txDate(tx.date)),
               ('Metode pembayaran', tx.method),
               ('Total bayar', rp(tx.amount)),
+            ], fill: AppColors.surface),
