@@ -323,3 +323,4 @@ class Trip {
   int dayCost(int d) => plan[d].fold(0, (a, s) => a + s.cost);
 
   String dayTitle(int d) => d < dayTitles.length && dayTitles[d].isNotEmpty ? dayTitles[d] : 'Hari ${d + 1}';
+}
