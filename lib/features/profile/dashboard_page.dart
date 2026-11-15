@@ -20,3 +20,4 @@ class DashboardPage extends StatelessWidget {
     return Scaffold(
       backgroundColor: AppColors.ground,
       appBar: const NgAppBar(title: 'Creator dashboard', sub: 'Juli sampai November 2026'),
+      body: ListView(
