@@ -48,3 +48,4 @@ class _CheckinPageState extends State<CheckinPage> {
               ),
               if (done)
                 NgBanner(
+                  kind: BannerKind.success,
