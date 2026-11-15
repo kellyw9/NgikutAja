@@ -243,3 +243,4 @@ class AppState extends ChangeNotifier {
       status: TxStatus.pending,
     );
     transactions.insert(0, tx);
+    notifyListeners();
