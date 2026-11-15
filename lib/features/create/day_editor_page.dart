@@ -308,3 +308,4 @@ class _StopCard extends StatelessWidget {
                 crossAxisAlignment: WrapCrossAlignment.center,
                 children: [
                   Text(stop.name, style: AppText.title),
+                  Pill(stop.cat.label, kind: PillKind.teal),
