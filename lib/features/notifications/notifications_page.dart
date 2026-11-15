@@ -57,3 +57,5 @@ class NotificationsPage extends StatelessWidget {
             ),
     );
   }
+
+  Widget _group(String t) => Padding(
