@@ -234,3 +234,4 @@ class _CustomizePageState extends State<CustomizePage> {
         final (issues, tips) = analyze(plan);
         if (issues.isEmpty) {
           return const EmptyState(icon: 'task_alt', title: 'Jadwal aman', text: 'Tidak ada jadwal yang bertabrakan atau terlalu padat.', height: 200);
+        }
