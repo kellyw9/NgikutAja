@@ -41,3 +41,4 @@ class _CreatorProfilePageState extends State<CreatorProfilePage> {
                     following ? 'Mengikuti' : 'Ikuti',
                     kind: following ? BtnKind.ghost : BtnKind.primary,
                     size: BtnSize.md,
+                    expand: true,
