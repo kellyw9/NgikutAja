@@ -173,3 +173,4 @@ class _SearchPageState extends State<SearchPage> {
                   child: TextField(
                     controller: input,
                     focusNode: focus,
+                    style: AppText.body,
