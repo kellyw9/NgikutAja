@@ -70,3 +70,4 @@ class TipDetailPage extends StatelessWidget {
           children: [
             Text(tip.title, style: AppText.h1),
             if (tip.author != null)
+              Row(
