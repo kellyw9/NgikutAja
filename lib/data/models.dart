@@ -165,3 +165,4 @@ class Member {
   final String handle;
   MemberRole role;
   final int tint;
+  final String? joined;
