@@ -79,3 +79,4 @@ class _PeoplePageState extends State<PeoplePage> {
     return NgButton(
       label,
       kind: on ? BtnKind.ghost : BtnKind.secondary,
+      size: BtnSize.md,
