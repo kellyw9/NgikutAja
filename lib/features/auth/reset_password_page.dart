@@ -15,3 +15,5 @@ String maskEmail(String e) {
 class ResetPasswordPage extends StatefulWidget {
   const ResetPasswordPage({super.key, this.email = ''});
   final String email;
+
+  @override
