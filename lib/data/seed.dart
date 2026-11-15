@@ -141,3 +141,4 @@ class Seed {
             '14.30',
             'Tjong A Fie Mansion',
             _b,
+            35000,
