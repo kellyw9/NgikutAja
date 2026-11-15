@@ -237,3 +237,4 @@ class PublishedPage extends StatelessWidget {
                                 const SizedBox(height: 2),
                                 Text('${app.me.name} (${app.me.handle})', style: AppText.small.muted),
                               ],
+                            ),
