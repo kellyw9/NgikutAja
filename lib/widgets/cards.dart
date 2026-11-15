@@ -479,3 +479,4 @@ class DayStrip extends StatelessWidget {
 
 class _DayBox extends StatelessWidget {
   const _DayBox({required this.item, required this.on, required this.today, required this.onTap});
+  final DayItem item;
