@@ -505,3 +505,4 @@ class _SearchPageState extends State<SearchPage> {
                   children: [
                     for (final p in const ['Semua', 'Gratis', 'Berbayar'])
                       NgChip(p, selected: draft.price == p, onTap: () => set(() => draft.price = p)),
+                  ],
