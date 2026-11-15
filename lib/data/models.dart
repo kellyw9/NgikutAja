@@ -251,3 +251,4 @@ class Trip {
     this.story = '',
     this.offline = false,
     this.offlineSize = 0,
+    this.syncedAt,
