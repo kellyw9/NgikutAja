@@ -569,3 +569,4 @@ class Marker extends StatelessWidget {
 class NgDivider extends StatelessWidget {
   const NgDivider({super.key, this.inset = 0, this.color = AppColors.rule});
   final double inset;
+  final Color color;
