@@ -245,3 +245,4 @@ class _SearchPageState extends State<SearchPage> {
                 child: Row(
                   children: [
                     const AppIcon('history', size: 20, color: AppColors.muted),
+                    const SizedBox(width: 12),
