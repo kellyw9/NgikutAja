@@ -84,3 +84,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
           if (st.desc != null) Text(st.desc!, style: AppText.body),
           if (st.note != null)
             Container(
+              padding: const EdgeInsets.all(12),
