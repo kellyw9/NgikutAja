@@ -508,3 +508,4 @@ class Wordmark extends StatelessWidget {
   final bool onDark;
 
   @override
+  Widget build(BuildContext context) {
