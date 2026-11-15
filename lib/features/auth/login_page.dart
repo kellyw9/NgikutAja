@@ -75,3 +75,4 @@ class _LoginPageState extends State<LoginPage> {
         body: SafeArea(
           top: !widget.popOnSuccess,
           child: LayoutBuilder(
+            builder: (context, c) => SingleChildScrollView(
