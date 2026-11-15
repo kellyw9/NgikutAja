@@ -55,3 +55,4 @@ class _HomeShellState extends State<HomeShell> {
             backgroundColor: AppColors.ground,
             body: SafeArea(
               bottom: false,
+              child: IndexedStack(index: t, children: _pages),
