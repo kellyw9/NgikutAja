@@ -366,3 +366,4 @@ class StopRow extends StatelessWidget {
                   ),
                 ),
                 if (trailing != null) ...[
+                  const SizedBox(width: 10),
