@@ -224,3 +224,4 @@ class NotificationDetailPage extends StatelessWidget {
             ),
     );
   }
+}
