@@ -12,3 +12,4 @@ class SplitBudgetPage extends StatefulWidget {
 }
 
 class _SplitBudgetPageState extends State<SplitBudgetPage> {
+  bool custom = false;
