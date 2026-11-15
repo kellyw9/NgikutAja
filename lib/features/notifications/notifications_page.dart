@@ -62,3 +62,5 @@ class NotificationsPage extends StatelessWidget {
     padding: const EdgeInsets.fromLTRB(kMargin, 14, kMargin, 6),
     child: Text(t, style: AppText.smallStrong.muted),
   );
+
+  Widget _row(BuildContext context, AppState app, AppNotification n) {
