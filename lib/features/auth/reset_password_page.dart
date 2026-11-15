@@ -36,3 +36,4 @@ class _ResetPasswordPageState extends State<ResetPasswordPage> {
     if (!mounted) return;
     setState(() {
       loading = false;
+      sent = true;
