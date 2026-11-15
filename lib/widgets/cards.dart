@@ -328,3 +328,4 @@ class StopRow extends StatelessWidget {
   final Widget? trailing;
   final bool note;
   final Widget? extra;
+  final bool blur;
