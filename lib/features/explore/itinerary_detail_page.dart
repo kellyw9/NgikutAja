@@ -195,3 +195,4 @@ class _ItineraryDetailPageState extends State<ItineraryDetailPage> {
               padding: const EdgeInsets.fromLTRB(kMargin, 12, kMargin, 24),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
