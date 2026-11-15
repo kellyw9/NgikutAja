@@ -306,3 +306,4 @@ class Seed {
       ),
       Itinerary(
         id: 'kotatua',
+        title: 'Kota Tua Medan dalam Setengah Hari',
