@@ -224,3 +224,4 @@ class Seed {
       publishedAt: _d(-300),
       plan: [
         [
+          _s('08.00', '10.00', 'Malioboro', _so, 0, 'malioboro'),
