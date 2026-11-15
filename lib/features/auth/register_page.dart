@@ -127,3 +127,4 @@ class _RegisterPageState extends State<RegisterPage> {
                           const SizedBox(width: 8),
                           Expanded(child: Text(st, style: AppText.small.muted)),
                         ],
+                      ),
