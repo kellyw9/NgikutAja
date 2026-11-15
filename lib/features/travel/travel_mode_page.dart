@@ -477,3 +477,4 @@ class NavigationPage extends StatelessWidget {
                     if (!ok && context.mounted) showNgSnack(context, 'Google Maps tidak bisa dibuka.', kind: SnackKind.error);
                   },
                 ),
+              ],
