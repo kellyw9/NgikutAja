@@ -56,3 +56,4 @@ class DashboardPage extends StatelessWidget {
                                       mainAxisAlignment: MainAxisAlignment.end,
                                       children: [
                                         Text('${monthly[i].$2}', style: AppText.smallStrong),
+                                        const SizedBox(height: 4),
