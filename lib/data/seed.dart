@@ -557,3 +557,4 @@ class Seed {
     notifications = [
       AppNotification(
         id: 'n1',
+        kind: NotifKind.reminder,
