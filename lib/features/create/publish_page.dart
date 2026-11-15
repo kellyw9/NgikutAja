@@ -48,3 +48,4 @@ class _PublishPageState extends State<PublishPage> {
           child: NgCard(
             padding: const EdgeInsets.all(14),
             border: on ? AppColors.teal : AppColors.line,
+            borderWidth: on ? 2 : 1,
