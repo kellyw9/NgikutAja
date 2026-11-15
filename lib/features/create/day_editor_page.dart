@@ -229,3 +229,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
           ],
         ),
         bottomNavigationBar: SafeArea(
+          child: Padding(
