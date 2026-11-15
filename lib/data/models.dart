@@ -90,3 +90,4 @@ class Itinerary {
     List<List<Stop>>? plan,
     this.lodging = 0,
     this.estimateSeed,
+    this.placesSeed,
