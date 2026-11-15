@@ -18,3 +18,5 @@ class PhotoStore {
     _mem[key] = bytes;
     return key;
   }
+
+  static Uint8List? get(String key) => _mem[key];
