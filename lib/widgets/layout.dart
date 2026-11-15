@@ -462,3 +462,4 @@ class IconTile extends StatelessWidget {
   @override
   Widget build(BuildContext context) => Container(
     width: size,
+    height: size,
