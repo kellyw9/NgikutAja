@@ -153,3 +153,4 @@ class PurchaseConfirmPage extends StatelessWidget {
 }
 
 const _methods = [
+  ('account_balance_wallet', 'E-Wallet', 'GoPay, OVO, DANA'),
