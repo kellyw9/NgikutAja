@@ -57,3 +57,4 @@ class ProfilePage extends StatelessWidget {
               ),
               ListRow(
                 icon: 'receipt_long',
+                title: 'Riwayat pembelian',
