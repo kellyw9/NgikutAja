@@ -63,3 +63,4 @@ class _PeoplePageState extends State<PeoplePage> {
               ),
             ),
           ],
+          if (list.length < (widget.followers ? app.me.followers : app.me.following))
