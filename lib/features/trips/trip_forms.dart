@@ -185,3 +185,4 @@ class _EditStopPageState extends State<EditStopPage> {
                               child: IconBtn(
                                 'close',
                                 label: 'Hapus foto',
+                                size: 28,
