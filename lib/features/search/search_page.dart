@@ -104,3 +104,4 @@ class _SearchPageState extends State<SearchPage> {
     if (v.isEmpty) return;
     input.text = v;
     focus.unfocus();
+    AppScope.read(context).addRecent(v);
