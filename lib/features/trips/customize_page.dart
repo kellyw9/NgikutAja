@@ -400,3 +400,4 @@ class _CustomizePageState extends State<CustomizePage> {
                       padding: EdgeInsets.zero,
                       proxyDecorator: (child, _, _) => Material(
                         color: AppColors.surface,
+                        elevation: 0,
