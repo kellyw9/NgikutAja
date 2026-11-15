@@ -193,3 +193,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
                                 TextSpan(text: it.creator.handle, style: AppText.smallStrong),
                               ],
                             ),
+                          ),
