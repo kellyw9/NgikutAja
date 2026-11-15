@@ -295,3 +295,4 @@ class TravelStopPage extends StatelessWidget {
                     child: Row(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
+                        const AppIcon('lightbulb', size: 20),
