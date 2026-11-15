@@ -44,3 +44,4 @@ class DashboardPage extends StatelessWidget {
                         label: 'Grafik penjualan: ${monthly.map((m) => '${m.$1} ${m.$2}').join(', ')}',
                         child: ExcludeSemantics(
                           child: SizedBox(
+                            height: 170,
