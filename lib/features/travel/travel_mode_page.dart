@@ -413,3 +413,4 @@ class NavigationPage extends StatelessWidget {
               14,
               children: [
                 Row(
+                  children: [
