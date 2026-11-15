@@ -219,3 +219,4 @@ class _InterestCard extends StatelessWidget {
               child: AppIcon(on ? 'check_circle' : 'radio_button_unchecked', size: 26, filled: on, color: on ? AppColors.teal : AppColors.muted),
             ),
           ),
+        ],
