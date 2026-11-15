@@ -26,3 +26,4 @@ class ExpensesPage extends StatelessWidget {
         children: [
           Text(rp(e.amount), style: AppText.display),
           KeyValueBox([
+            ('Kategori', e.cat.label),
