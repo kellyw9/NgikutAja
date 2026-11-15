@@ -226,3 +226,4 @@ class _AdoptProgressPageState extends State<AdoptProgressPage> {
       final t = await AppScope.read(
         context,
       ).adopt(widget.it, widget.start, remindDayBefore: widget.dayBefore, remindEach: widget.each, offset: widget.offset, offline: widget.offline);
+      if (mounted) setState(() => trip = t);
