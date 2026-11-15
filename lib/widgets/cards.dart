@@ -207,3 +207,4 @@ class Grid2 extends StatelessWidget {
             Expanded(
               child: r * 2 + 1 < items.length
                   ? WisataCard(
+                      items[r * 2 + 1],
