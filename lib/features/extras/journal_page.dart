@@ -105,3 +105,4 @@ class _JournalPageState extends State<JournalPage> {
                     style: t.story.isEmpty ? AppText.body.muted : AppText.body,
                   ),
                 ],
+              ),
