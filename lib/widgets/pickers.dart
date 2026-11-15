@@ -210,3 +210,4 @@ bool requireLogin(BuildContext context) {
   showNgSheet<void>(
     context,
     title: 'Masuk dulu ke akunmu',
+    sub: 'Fitur Wishlist, adopt trip, dan komentar membutuhkan akun agar tersimpan di semua perangkat.',
