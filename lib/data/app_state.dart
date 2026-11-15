@@ -60,3 +60,5 @@ class AppState extends ChangeNotifier {
       } catch (_) {}
     }
   }
+
+  final SharedPreferences? _prefs;
