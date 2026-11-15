@@ -611,3 +611,4 @@ class Seed {
         time: '$yday 09.12',
         today: false,
       ),
+    ];
