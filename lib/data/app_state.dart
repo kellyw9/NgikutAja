@@ -107,3 +107,5 @@ class AppState extends ChangeNotifier {
   }
 
   void logout() => _setLoggedIn(false);
+
+  void _setLoggedIn(bool v) {
