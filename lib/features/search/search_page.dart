@@ -552,3 +552,5 @@ class _BudgetSlider extends StatelessWidget {
   const _BudgetSlider({required this.value, required this.onChanged});
   final RangeValues value;
   final ValueChanged<RangeValues> onChanged;
+
+  @override
