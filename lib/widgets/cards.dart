@@ -317,3 +317,4 @@ class StopRow extends StatelessWidget {
     this.blur = false,
     this.line = AppColors.teal,
     this.conflict = false,
+    this.onTap,
