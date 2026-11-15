@@ -403,3 +403,4 @@ class HeroPhoto extends StatelessWidget {
   final String? semantic;
 
   @override
+  Widget build(BuildContext context) {
