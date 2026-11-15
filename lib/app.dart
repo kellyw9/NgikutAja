@@ -9,3 +9,4 @@ import 'features/auth/splash_page.dart';
 
 class NgikutAjaApp extends StatelessWidget {
   const NgikutAjaApp({super.key, required this.state});
+  final AppState state;
