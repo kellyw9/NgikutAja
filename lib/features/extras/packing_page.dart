@@ -54,3 +54,4 @@ class _PackingPageState extends State<PackingPage> {
       _remove(g, it);
     } else {
       it.name = r;
+      AppScope.read(context).touch();
