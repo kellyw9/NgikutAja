@@ -123,3 +123,4 @@ class TripsPage extends StatelessWidget {
                     size: BtnSize.md,
                     expand: true,
                     onPressed: () => push(context, RecapPage(trip: t)),
+                  ),
