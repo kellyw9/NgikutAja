@@ -100,3 +100,4 @@ class _PackingPageState extends State<PackingPage> {
                   Progress(all.isEmpty ? 0 : done / all.length),
                 ],
               ),
+              if (all.isEmpty) Text('Belum ada barang. Tambahkan di kolom bawah.', style: AppText.body.muted),
