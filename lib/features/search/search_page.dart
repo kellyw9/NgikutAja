@@ -559,3 +559,4 @@ class _BudgetSlider extends StatelessWidget {
       Row(
         children: [
           Text(rp(value.start.round()), style: AppText.bodyStrong),
+          const Spacer(),
