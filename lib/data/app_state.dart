@@ -220,3 +220,4 @@ class AppState extends ChangeNotifier {
 
   void addComment(Itinerary it, String text, {String? replyTo}) {
     comments
+        .putIfAbsent(it.id, () => [])
