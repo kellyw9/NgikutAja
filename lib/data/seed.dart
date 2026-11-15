@@ -476,3 +476,4 @@ class Seed {
         desc: 'Liburan sekolah bareng Mama dan adik. Fokus kuliner, jangan terlalu banyak jalan siang.',
         members: [Member(name: dinda.name, handle: dinda.handle, role: MemberRole.owner, tint: 0)],
       ),
+      Trip(
