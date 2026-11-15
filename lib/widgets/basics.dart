@@ -562,3 +562,4 @@ class Marker extends StatelessWidget {
         _ => Text('$n', style: AppText.smallStrong.c(fg)),
       },
     );
+  }
