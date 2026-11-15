@@ -144,3 +144,4 @@ enum TripStatus {
   draft('Draft'),
   diadopsi('Diadopsi'),
   berjalan('Berjalan'),
+  selesai('Selesai');
