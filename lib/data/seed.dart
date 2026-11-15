@@ -67,3 +67,4 @@ class Seed {
       'lestari': Creator(
         id: 'lestari',
         name: 'Lestari Manurung',
+        handle: '@tobaslowtravel',
