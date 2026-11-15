@@ -25,3 +25,4 @@ class _PackingPageState extends State<PackingPage> {
     if (v.isEmpty) return;
     final t = widget.trip;
     var g = t.packing.where((g) => g.name == 'Lainnya').firstOrNull;
+    if (g == null) {
