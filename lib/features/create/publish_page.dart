@@ -162,3 +162,4 @@ class _PublishPageState extends State<PublishPage> {
                 'Publish sekarang',
                 trailingIcon: 'arrow_forward',
                 expand: true,
+                onPressed: ready
