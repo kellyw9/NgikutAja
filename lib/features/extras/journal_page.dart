@@ -76,3 +76,5 @@ class _JournalPageState extends State<JournalPage> {
     final now = DateTime.now();
     AppScope.read(context).addPhoto(t, TripPhoto(src: p, day: day, caption: e.title, time: fromMinutes(now.hour * 60 + now.minute)));
   }
+
+  @override
