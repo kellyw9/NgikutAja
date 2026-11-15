@@ -432,3 +432,4 @@ class _SearchPageState extends State<SearchPage> {
     final app = AppScope.read(context);
     final draft = filter.copy();
     var q = submitted ?? input.text.trim();
+    final applied = await showNgSheet<SearchFilter>(
