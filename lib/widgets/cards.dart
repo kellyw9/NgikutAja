@@ -303,3 +303,4 @@ class TripCard extends StatelessWidget {
 }
 
 /// Baris jadwal ("papan jadwal"): kolom jam 48 | rel rute (penanda + garis) | isi.
+class StopRow extends StatelessWidget {
