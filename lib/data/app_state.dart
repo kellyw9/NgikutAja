@@ -440,3 +440,4 @@ class AppState extends ChangeNotifier {
 
   void removeRecent(String q) {
     recentSearches.remove(q);
+    notifyListeners();
