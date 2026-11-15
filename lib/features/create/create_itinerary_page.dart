@@ -94,3 +94,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
                 label: 'Tambahkan tag',
                 bg: AppColors.ink,
                 color: AppColors.white,
+                size: 48,
