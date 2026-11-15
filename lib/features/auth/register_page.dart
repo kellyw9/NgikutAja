@@ -33,3 +33,4 @@ class _RegisterPageState extends State<RegisterPage> {
     // Format baru ditegur setelah pengguna pindah ke kolom password, bukan saat masih mengetik.
     if (e != null) return email.text.isNotEmpty && (tried || pass.text.isNotEmpty) ? e : null;
     if (AppScope.read(context).emailRegistered(email.text)) return 'Email ini sudah terdaftar. Masuk saja.';
+    return null;
