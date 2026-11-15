@@ -212,3 +212,4 @@ class _InterestCard extends StatelessWidget {
               ],
             ),
           ),
+          SizedBox(
