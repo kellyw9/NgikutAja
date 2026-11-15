@@ -145,3 +145,4 @@ class MembersPage extends StatelessWidget {
                 if (v.length < 3) {
                   set(() => err = 'Isi username atau email anggota');
                   return;
+                }
