@@ -242,3 +242,4 @@ class EmptyState extends StatelessWidget {
   final double height;
 
   @override
+  Widget build(BuildContext context) => ConstrainedBox(
