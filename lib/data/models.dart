@@ -55,3 +55,4 @@ class Stop {
   Category cat;
   int cost;
   String? photo;
+  String? note;
