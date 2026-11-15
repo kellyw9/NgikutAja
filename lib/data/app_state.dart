@@ -316,3 +316,4 @@ class AppState extends ChangeNotifier {
     await Future<void>.delayed(const Duration(milliseconds: 1100));
     if (!online) throw const OfflineException();
     t.plan = plan;
+    t.dayTitles = titles;
