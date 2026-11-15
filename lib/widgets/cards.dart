@@ -497,3 +497,4 @@ class _DayBox extends StatelessWidget {
           side: on ? BorderSide.none : const BorderSide(color: AppColors.line),
         ),
         clipBehavior: Clip.antiAlias,
+        child: InkWell(
