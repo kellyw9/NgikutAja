@@ -251,3 +251,4 @@ class _SearchPageState extends State<SearchPage> {
                       'close',
                       label: 'Hapus $q dari riwayat',
                       size: 40,
+                      iconSize: 18,
