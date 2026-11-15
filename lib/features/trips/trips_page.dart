@@ -79,3 +79,4 @@ class TripsPage extends StatelessWidget {
     if (list.isEmpty) {
       final (icon, title, text) = switch (tab) {
         TripStatus.diadopsi => ('luggage', 'Belum ada trip yang diadopsi', 'Adopt itinerary dari tab Explore. Trip pilihanmu akan muncul di sini.'),
+        TripStatus.berjalan => ('near_me', 'Tidak ada trip yang berjalan', 'Trip yang diadopsi pindah ke sini pada hari keberangkatan.'),
