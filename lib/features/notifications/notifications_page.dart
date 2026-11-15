@@ -150,3 +150,4 @@ class NotificationDetailPage extends StatelessWidget {
     final st = trip != null && idx != null ? trip.plan[day][idx] : null;
     final info = st == null ? null : travelInfo[st.name];
     final date = app.today;
+    return Scaffold(
