@@ -172,3 +172,4 @@ class _NgFieldState extends State<NgField> {
                 borderRadius: BorderRadius.circular(AppRadius.control),
                 focusColor: AppColors.teal.withValues(alpha: .15),
                 child: box,
+              ),
