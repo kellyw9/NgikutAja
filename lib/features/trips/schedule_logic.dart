@@ -90,3 +90,4 @@ List<String> shiftCascade(List<Stop> day, Stop target, int newStart) {
       final (i, j) = cs.first;
       final a = day[i].startMin <= day[j].startMin ? day[i] : day[j];
       final b = identical(a, day[i]) ? day[j] : day[i];
+      final ns = a.endMin + 15;
