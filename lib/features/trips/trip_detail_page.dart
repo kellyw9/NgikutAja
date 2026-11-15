@@ -258,3 +258,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
                       ('photo_library', 'Photo memory', 'photo'),
                       ('flag', 'Trip recap', 'recap'),
                     ].indexed) ...[
+                      if (i > 0) const NgDivider(inset: 36),
