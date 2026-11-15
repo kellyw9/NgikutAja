@@ -80,3 +80,4 @@ class ExpensesPage extends StatelessWidget {
     final list = trip.expenses;
     return Scaffold(
       backgroundColor: AppColors.ground,
+      appBar: NgAppBar(title: 'Pengeluaran', sub: trip.title),
