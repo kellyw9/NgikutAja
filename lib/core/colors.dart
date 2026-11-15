@@ -18,3 +18,4 @@ class AppColors {
   static const muted = Color(0xFF4A6569);
   static const rule = Color(0xFFE3D3C1); // garis di atas krem
   static const line = Color(0xFFE8DCCD); // garis dan tepi kartu di atas putih
+  static const control = Color(0xFF7F9194); // tepi input dan kontrol
