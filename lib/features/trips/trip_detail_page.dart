@@ -148,3 +148,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
       'photo' => t.photos.isEmpty ? 'Belum ada foto' : '${t.photos.length} foto',
       _ =>
         status == TripStatus.selesai ? 'Ringkasan trip sudah siap' : 'Tersedia setelah ${t.end != null ? dateRange(t.end!, t.end!) : 'trip selesai'}',
+    };
