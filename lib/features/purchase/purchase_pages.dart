@@ -219,3 +219,4 @@ class _PaymentPageState extends State<PaymentPage> {
                           onTap: processing ? null : () => setState(() => method = title),
                           child: SizedBox(
                             height: 60,
+                            child: Padding(
