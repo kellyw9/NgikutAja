@@ -187,3 +187,4 @@ class _NextCard extends StatelessWidget {
     final info = travelInfo[st.name];
     return Container(
       padding: const EdgeInsets.all(14),
+      decoration: BoxDecoration(
