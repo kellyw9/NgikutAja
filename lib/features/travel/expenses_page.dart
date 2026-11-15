@@ -166,3 +166,4 @@ class ExpensesPage extends StatelessWidget {
       ),
     );
   }
+}
