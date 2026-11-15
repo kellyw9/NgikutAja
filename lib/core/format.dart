@@ -53,3 +53,5 @@ String durationText(int minutes) {
   if (m == 0) return '$h jam';
   return '$h jam $m menit';
 }
+
+bool isValidTime(String s) => RegExp(r'^([01]?\d|2[0-3])[.:]([0-5]\d)$').hasMatch(s.trim());
