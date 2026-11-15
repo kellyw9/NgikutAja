@@ -116,3 +116,4 @@ class _PhotoViewerPageState extends State<PhotoViewerPage> {
                 child: PageView.builder(
                   controller: pc,
                   itemCount: t.photos.length,
+                  onPageChanged: (k) => setState(() => i = k),
