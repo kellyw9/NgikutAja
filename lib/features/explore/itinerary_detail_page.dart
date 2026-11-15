@@ -39,3 +39,4 @@ class _StatChip extends StatelessWidget {
       color: AppColors.surface,
       shape: RoundedRectangleBorder(
         borderRadius: BorderRadius.circular(6),
+        side: const BorderSide(color: AppColors.line),
