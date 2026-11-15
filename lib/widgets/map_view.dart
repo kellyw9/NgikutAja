@@ -48,3 +48,4 @@ class MapView extends StatelessWidget {
   Widget build(BuildContext context) {
     final map = LayoutBuilder(
       builder: (context, c) {
+        final w = c.maxWidth;
