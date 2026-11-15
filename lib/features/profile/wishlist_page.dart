@@ -62,3 +62,4 @@ class _Row extends StatelessWidget {
                   const SizedBox(height: 4),
                   Row(
                     children: [
+                      Expanded(child: Proof(it, compact: true)),
