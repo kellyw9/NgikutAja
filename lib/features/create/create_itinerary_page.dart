@@ -81,3 +81,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
             spacing: 8,
             runSpacing: 8,
             children: [for (final t in tagOptions.where((t) => !d.tags.contains(t))) NgChip(t, onTap: () => Navigator.pop(ctx, t))],
+          ),
