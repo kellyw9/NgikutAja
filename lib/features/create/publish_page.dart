@@ -106,3 +106,4 @@ class _PublishPageState extends State<PublishPage> {
                     const SizedBox(width: 12),
                     typeCard(true, 'Berbayar', 'Hari 1 terlihat gratis. Hari lain terbuka setelah dibeli.'),
                   ],
+                ),
