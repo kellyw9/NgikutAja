@@ -85,3 +85,4 @@ class _ItineraryDetailPageState extends State<ItineraryDetailPage> {
     final mapStops = mapDay < it.plan.length ? it.plan[mapDay].length : 0;
 
     return Scaffold(
+      backgroundColor: AppColors.ground,
