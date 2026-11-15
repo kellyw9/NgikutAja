@@ -554,3 +554,4 @@ class CreatorRow extends StatelessWidget {
             child: Tap(
               onTap: onTap,
               radius: 6,
+              child: Row(
