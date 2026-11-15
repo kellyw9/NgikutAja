@@ -263,3 +263,4 @@ class Photo extends StatelessWidget {
       );
     }
     final box = SizedBox(width: width, height: height, child: img);
+    final wrapped = semantic == null ? ExcludeSemantics(child: box) : Semantics(image: true, label: semantic, child: box);
