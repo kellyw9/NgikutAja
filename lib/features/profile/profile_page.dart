@@ -34,3 +34,4 @@ class ProfilePage extends StatelessWidget {
             'Edit profil',
             kind: BtnKind.secondary,
             size: BtnSize.md,
+            icon: 'edit',
