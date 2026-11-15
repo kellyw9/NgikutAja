@@ -521,3 +521,4 @@ class TransactionDetailPage extends StatelessWidget {
                 fill: AppColors.surface,
               ),
             ],
+          ),
