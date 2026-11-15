@@ -46,3 +46,4 @@ class DashboardPage extends StatelessWidget {
                           child: SizedBox(
                             height: 170,
                             child: Row(
+                              crossAxisAlignment: CrossAxisAlignment.end,
