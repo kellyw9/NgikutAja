@@ -486,3 +486,4 @@ class _DayBox extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final fg = on ? AppColors.white : AppColors.muted;
