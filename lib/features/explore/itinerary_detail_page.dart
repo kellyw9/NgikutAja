@@ -303,3 +303,4 @@ class PaidPreviewPage extends StatelessWidget {
                   else
                     Column(children: [for (var i = 0; i < day1.length; i++) StopRow(day1[i], n: i + 1)]),
                   if (day2.isNotEmpty)
+                    ExcludeSemantics(
