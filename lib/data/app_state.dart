@@ -379,3 +379,4 @@ class AppState extends ChangeNotifier {
     days: 1,
     cover: null,
     creator: me,
+    isDraft: true,
