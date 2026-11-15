@@ -90,3 +90,5 @@ class _SearchPageState extends State<SearchPage> {
       _submit(r.query);
     }
   }
+
+  @override
