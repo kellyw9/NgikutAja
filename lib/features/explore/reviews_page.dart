@@ -83,3 +83,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
                     ],
                   ),
                 ),
+                const SizedBox(width: 16),
