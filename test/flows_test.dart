@@ -31,3 +31,4 @@ Future<void> tapText(WidgetTester tester, String text, {bool button = false}) as
   final f = button ? find.widgetWithText(NgButton, text) : find.text(text);
   await tester.ensureVisible(f.first);
   await tester.pump();
+  await tester.tap(f.first);
