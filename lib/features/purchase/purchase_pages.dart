@@ -397,3 +397,4 @@ class _PaymentStatusPageState extends State<PaymentStatusPage> {
               ('Total tagihan', rp(tx.amount)),
             ], fill: AppColors.surface),
             actions: [
+              NgButton(
