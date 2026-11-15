@@ -141,3 +141,4 @@ class _MapPainter extends CustomPainter {
         ..cubicTo(.86 * w, .8 * h, .65 * w, .95 * h, .45 * w, .9 * h)
         ..cubicTo(.28 * w, .85 * h, .3 * w, .6 * h, .34 * w, .4 * h)
         ..cubicTo(.36 * w, .25 * h, .38 * w, .14 * h, .45 * w, .12 * h)
+        ..close();
