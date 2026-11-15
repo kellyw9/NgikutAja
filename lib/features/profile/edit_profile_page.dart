@@ -93,3 +93,4 @@ class _EditProfilePageState extends State<EditProfilePage> {
                       kind: BtnKind.secondary,
                       size: BtnSize.md,
                       icon: 'photo_camera',
+                      onPressed: () async {
