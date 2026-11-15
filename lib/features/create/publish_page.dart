@@ -188,3 +188,4 @@ class _PublishPageState extends State<PublishPage> {
 }
 
 /// Langkah 6: Berhasil Publish.
+class PublishedPage extends StatelessWidget {
