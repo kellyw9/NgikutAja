@@ -459,3 +459,4 @@ class MetaRow extends StatelessWidget {
   final double gap;
 
   @override
+  Widget build(BuildContext context) => Wrap(
