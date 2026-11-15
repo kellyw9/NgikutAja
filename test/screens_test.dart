@@ -81,3 +81,4 @@ final Map<String, PageFor> pages = {
   'split': (s) => SplitBudgetPage(trip: s.trips[0]),
   'packing': (s) => PackingPage(trip: s.trips[0]),
   'tips': (s) => TipsPage(trip: s.trips[0]),
+  'tips kosong': (s) => TipsPage(trip: s.trips[1]),
