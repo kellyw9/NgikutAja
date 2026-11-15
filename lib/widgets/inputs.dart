@@ -31,3 +31,4 @@ class NgField extends StatefulWidget {
     this.prefixText,
     this.textInputAction,
     this.autofocus = false,
+    this.maxLength,
