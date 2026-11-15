@@ -271,3 +271,5 @@ class ErrorBlock extends StatelessWidget {
   const ErrorBlock(this.text, {super.key, required this.onRetry});
   final String text;
   final VoidCallback onRetry;
+
+  @override
