@@ -117,3 +117,4 @@ class _EditStopPageState extends State<EditStopPage> {
                 onTap: () async {
                   final c = await pickCategory(context, cat);
                   if (c != null) setState(() => cat = c);
+                },
