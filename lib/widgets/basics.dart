@@ -307,3 +307,5 @@ class _DashPainter extends CustomPainter {
       }
     }
   }
+
+  @override
