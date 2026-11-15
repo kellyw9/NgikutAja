@@ -27,3 +27,4 @@ class NgikutAjaApp extends StatelessWidget {
           // Tautan dari email reset password: /reset-password?email=...
           final uri = Uri.parse(settings.name ?? '/');
           if (uri.path == '/reset-password') {
+            return MaterialPageRoute(builder: (_) => NewPasswordPage(email: uri.queryParameters['email'] ?? ''));
