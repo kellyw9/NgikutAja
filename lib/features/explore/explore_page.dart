@@ -113,3 +113,4 @@ class _ExplorePageState extends State<ExplorePage> {
                     child: ListView.separated(
                       scrollDirection: Axis.horizontal,
                       padding: const EdgeInsets.symmetric(horizontal: kMargin),
+                      itemCount: AppState.cities.length,
