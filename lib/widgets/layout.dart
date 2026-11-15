@@ -253,3 +253,4 @@ class KeyValueBox extends StatelessWidget {
           ConstrainedBox(
             constraints: const BoxConstraints(minHeight: 36),
             child: Row(
+              children: [
