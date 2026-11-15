@@ -59,3 +59,4 @@ ThemeData buildTheme() {
       selectionHandleColor: AppColors.teal,
     ),
     tooltipTheme: TooltipThemeData(
+      decoration: BoxDecoration(color: AppColors.ink, borderRadius: BorderRadius.circular(4)),
