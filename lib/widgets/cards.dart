@@ -440,3 +440,4 @@ class DayItem {
 }
 
 /// Strip hari: kotak per hari. Hari aktif berisi tinta; hari ini diberi titik kuning.
+class DayStrip extends StatelessWidget {
