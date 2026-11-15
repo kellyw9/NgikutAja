@@ -135,3 +135,4 @@ class CityCard extends StatelessWidget {
   final CityInfo c;
 
   @override
+  Widget build(BuildContext context) {
