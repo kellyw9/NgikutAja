@@ -130,3 +130,4 @@ class DashboardPage extends StatelessWidget {
             ],
           ),
         ],
+      ),
