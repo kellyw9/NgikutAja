@@ -497,3 +497,4 @@ class _SearchPageState extends State<SearchPage> {
                       NgChip(r, selected: draft.rating == r, onTap: () => set(() => draft.rating = draft.rating == r ? null : r)),
                   ],
                 ),
+              ),
