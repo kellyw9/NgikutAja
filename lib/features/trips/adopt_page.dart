@@ -189,3 +189,4 @@ class _AdoptPageState extends State<AdoptPage> {
 class AdoptProgressPage extends StatefulWidget {
   const AdoptProgressPage({
     super.key,
+    required this.it,
