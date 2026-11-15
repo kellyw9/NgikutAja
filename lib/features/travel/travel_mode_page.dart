@@ -424,3 +424,4 @@ class NavigationPage extends StatelessWidget {
                           const SizedBox(height: 2),
                           Text(st.address ?? trip.region, style: AppText.small.muted),
                         ],
+                      ),
