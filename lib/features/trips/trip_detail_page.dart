@@ -178,3 +178,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
                 MetaRow([('location_on', t.city), ('calendar_month', t.dates ?? 'Tanggal belum diatur'), ('schedule', '${t.days} hari')]),
                 if (it != null)
                   Tap(
+                    onTap: () => openItinerary(context, it),
