@@ -214,3 +214,4 @@ Future<Object?> showNgDialog(BuildContext context, {String? icon, required Strin
               const SizedBox(height: 10),
               Text(body, style: AppText.body.muted),
               const SizedBox(height: 20),
+              for (var i = 0; i < actions.length; i++) ...[
