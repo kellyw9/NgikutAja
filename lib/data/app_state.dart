@@ -29,3 +29,4 @@ class AppState extends ChangeNotifier {
     itineraries = [...seed.itineraries];
     drafts = [...seed.drafts];
     trips = [...seed.trips];
+    comments = {
