@@ -469,3 +469,5 @@ class AppState extends ChangeNotifier {
     super.dispose();
   }
 }
+
+/// Akses [AppState] dari widget: `AppScope.of(context)` (ikut rebuild) atau `AppScope.read(context)`.
