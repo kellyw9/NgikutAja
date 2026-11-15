@@ -35,3 +35,4 @@ class NotificationsPage extends StatelessWidget {
   Widget build(BuildContext context) {
     final app = AppScope.of(context);
     final today = app.notifications.where((n) => n.today).toList();
+    final older = app.notifications.where((n) => !n.today).toList();
