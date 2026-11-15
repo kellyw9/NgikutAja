@@ -140,3 +140,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
                       onTap: () {
                         _saveTitle();
                         setState(() {
+                          d.plan.add([]);
