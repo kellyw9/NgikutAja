@@ -55,3 +55,4 @@ class _ExplorePageState extends State<ExplorePage> {
 
     Widget feed() {
       if (loading) {
+        return const Padding(
