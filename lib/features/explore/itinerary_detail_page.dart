@@ -298,3 +298,4 @@ class PaidPreviewPage extends StatelessWidget {
               child: Gap(
                 16,
                 children: [
+                  if (day1.isEmpty)
