@@ -102,3 +102,4 @@ class NgAppBar extends StatelessWidget implements PreferredSizeWidget {
 /// Judul halaman akar tab: h1 rata kiri.
 class TabHeader extends StatelessWidget {
   const TabHeader(this.title, {super.key, this.actions = const [], this.sub});
+  final String title;
