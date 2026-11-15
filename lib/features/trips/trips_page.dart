@@ -113,3 +113,4 @@ class TripsPage extends StatelessWidget {
                   Expanded(child: Text(app.countdown(t) ?? '', style: AppText.bodyStrong)),
                 ],
               ),
+            ),
