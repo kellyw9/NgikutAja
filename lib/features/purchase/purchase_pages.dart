@@ -264,3 +264,5 @@ class _PaymentPageState extends State<PaymentPage> {
     ),
   );
 }
+
+/// 8.4 Status Pembayaran: pending, berhasil, gagal.
