@@ -12,3 +12,4 @@ class MembersPage extends StatelessWidget {
     MemberRole.owner => PillKind.solid,
     MemberRole.editor => PillKind.teal,
     MemberRole.viewer => PillKind.neutral,
+  };
