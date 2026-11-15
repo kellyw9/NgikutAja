@@ -13,3 +13,4 @@ class TripsPage extends StatelessWidget {
   const TripsPage({super.key});
 
   @override
+  Widget build(BuildContext context) {
