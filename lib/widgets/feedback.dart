@@ -53,3 +53,4 @@ class NgBanner extends StatelessWidget {
               Semantics(
                 button: true,
                 child: InkWell(
+                  onTap: onAction,
