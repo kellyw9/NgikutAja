@@ -393,3 +393,4 @@ class _SearchPageState extends State<SearchPage> {
                 TextLink(sort, icon: 'expand_more', style: AppText.smallStrong, onTap: _openSort),
               ],
             ),
+          ),
