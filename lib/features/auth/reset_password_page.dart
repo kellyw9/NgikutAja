@@ -173,3 +173,4 @@ class _NewPasswordPageState extends State<NewPasswordPage> {
                   children: [
                     Text('Buat password baru', style: AppText.h1),
                     const SizedBox(height: 8),
+                    Text('Untuk akun ${widget.email}.', style: AppText.body.muted),
