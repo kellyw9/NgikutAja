@@ -139,3 +139,4 @@ class _SearchPageState extends State<SearchPage> {
     final typing = focus.hasFocus && input.text.trim().isNotEmpty;
     return Column(
       crossAxisAlignment: CrossAxisAlignment.stretch,
+      children: [
