@@ -36,3 +36,4 @@ class ProfilePage extends StatelessWidget {
             size: BtnSize.md,
             icon: 'edit',
             expand: true,
+            onPressed: () => push(context, const EditProfilePage(), fullscreen: true),
