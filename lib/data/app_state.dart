@@ -49,3 +49,4 @@ class AppState extends ChangeNotifier {
           if (v != online) {
             online = v;
             notifyListeners();
+          }
