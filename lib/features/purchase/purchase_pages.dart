@@ -370,3 +370,4 @@ class _PaymentStatusPageState extends State<PaymentStatusPage> {
                 },
               ),
               NgButton(
+                'Adopt sekarang',
