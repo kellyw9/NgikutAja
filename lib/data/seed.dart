@@ -349,3 +349,4 @@ class Seed {
         desc: 'Keliling Samosir naik motor sewaan dari Tuktuk: Holbung siang hari, sore di Parbaba, hari kedua desa adat.',
         dayTitles: ['Keliling Samosir', 'Desa adat'],
         plan: [
+          [
