@@ -283,3 +283,4 @@ class RadioRow extends StatelessWidget {
   final String title;
   final String? sub;
   final bool selected;
+  final VoidCallback onTap;
