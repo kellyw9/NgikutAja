@@ -70,3 +70,4 @@ class _LoginPageState extends State<LoginPage> {
     return AnnotatedRegion(
       value: kDarkIcons,
       child: Scaffold(
+        backgroundColor: AppColors.ground,
