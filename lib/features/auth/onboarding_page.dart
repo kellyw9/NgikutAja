@@ -223,3 +223,4 @@ class _InterestCard extends StatelessWidget {
       ),
     ),
   );
+}
