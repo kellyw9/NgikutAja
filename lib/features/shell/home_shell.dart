@@ -81,3 +81,4 @@ class BottomNav extends StatelessWidget {
       child: SafeArea(
         top: false,
         child: Column(
+          mainAxisSize: MainAxisSize.min,
