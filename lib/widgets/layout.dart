@@ -384,3 +384,4 @@ class NgCard extends StatelessWidget {
       side: BorderSide(color: border, width: borderWidth),
     ),
     clipBehavior: Clip.antiAlias,
+    child: InkWell(
