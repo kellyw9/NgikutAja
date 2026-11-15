@@ -170,3 +170,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
                       child: Column(
                         children: [
                           Container(
+                            width: 64,
