@@ -17,3 +17,4 @@ class _PeoplePageState extends State<PeoplePage> {
 
   @override
   void initState() {
+    super.initState();
