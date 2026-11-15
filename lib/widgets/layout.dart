@@ -150,3 +150,4 @@ class SectionHead extends StatelessWidget {
         ),
         if (action != null)
           Padding(
+            padding: EdgeInsets.only(right: padded ? 12 : 0),
