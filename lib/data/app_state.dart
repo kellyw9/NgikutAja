@@ -289,3 +289,4 @@ class AppState extends ChangeNotifier {
     if (!online) throw const OfflineException();
     final t = Trip(
       id: 'trip-${DateTime.now().microsecondsSinceEpoch}',
+      title: it.title,
