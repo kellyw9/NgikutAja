@@ -157,3 +157,5 @@ const _methods = [
   ('account_balance', 'Transfer Bank', 'Virtual account bank'),
   ('qr_code_2', 'QRIS', 'Scan dari aplikasi mobile banking mana pun'),
 ];
+
+/// 8.3 Pembayaran Simulasi.
