@@ -432,3 +432,4 @@ class AppState extends ChangeNotifier {
     final v = q.trim();
     if (v.isEmpty) return;
     recentSearches
+      ..removeWhere((x) => x.toLowerCase() == v.toLowerCase())
