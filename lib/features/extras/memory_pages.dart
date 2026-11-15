@@ -27,3 +27,4 @@ class PhotoMemoryPage extends StatelessWidget {
               text: 'Foto yang kamu tambahkan dari Travel Mode atau Trip journal tersimpan di sini.',
             )
           : ListView(
+              padding: const EdgeInsets.fromLTRB(kMargin, 8, kMargin, 24),
