@@ -164,3 +164,4 @@ class Seed {
       title: 'Danau Toba 2 Hari Santai ala Lokal',
       city: 'Samosir',
       region: 'Samosir, Sumatera Utara',
+      days: 2,
