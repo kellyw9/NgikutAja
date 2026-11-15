@@ -253,3 +253,4 @@ class _EditTripInfoPageState extends State<EditTripInfoPage> {
     title.dispose();
     region.dispose();
     desc.dispose();
+    super.dispose();
