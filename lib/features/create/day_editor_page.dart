@@ -23,3 +23,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
   String _title(int k) => k < d.dayTitles.length ? d.dayTitles[k] : '';
 
   void _selectDay(int k) {
+    _saveTitle();
