@@ -172,3 +172,4 @@ class _OnboardingPageState extends State<OnboardingPage> {
       _InterestCard(
         title: t,
         sub: sub,
+        photo: img,
