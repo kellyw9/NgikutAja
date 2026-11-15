@@ -37,3 +37,4 @@ class Proof extends StatelessWidget {
 /// Tombol wishlist. Tamu diarahkan ke sheet login lewat [onGuest].
 class WishButton extends StatelessWidget {
   const WishButton(this.it, {super.key, this.boxed = true, this.onGuest});
+  final Itinerary it;
