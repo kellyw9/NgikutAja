@@ -37,3 +37,5 @@ class _ExplorePageState extends State<ExplorePage> {
     }
     if (mounted) setState(() => loading = false);
   }
+
+  void _switch(String t) {
