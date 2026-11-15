@@ -189,3 +189,4 @@ class TextLink extends StatelessWidget {
               if (icon != null) ...[const SizedBox(width: 4), AppIcon(icon!, size: 18, color: color)],
             ],
           ),
+        ),
