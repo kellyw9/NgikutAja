@@ -123,3 +123,4 @@ class _ItineraryDetailPageState extends State<ItineraryDetailPage> {
                         label: app.liked.contains(it.id) ? 'Batal suka, ${it.likes} suka' : 'Suka, ${it.likes} suka',
                         onTap: () => requireLogin(context) ? app.toggleLike(it) : null,
                       ),
+                      if (it.rating != null)
