@@ -225,3 +225,4 @@ class EditTripInfoPage extends StatefulWidget {
 }
 
 class _EditTripInfoPageState extends State<EditTripInfoPage> {
+  late final t = widget.trip;
