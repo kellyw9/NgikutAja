@@ -45,3 +45,4 @@ class NotificationsPage extends StatelessWidget {
       body: app.notifications.isEmpty
           ? const EmptyState(
               icon: 'notifications',
+              title: 'Belum ada notifikasi',
