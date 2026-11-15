@@ -87,3 +87,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
     return PopScope(
       onPopInvokedWithResult: (didPop, _) => _saveTitle(),
       child: Scaffold(
+        backgroundColor: AppColors.ground,
