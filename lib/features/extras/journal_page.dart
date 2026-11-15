@@ -101,3 +101,4 @@ class _JournalPageState extends State<JournalPage> {
                   Text('Cerita perjalanan', style: AppText.smallStrong.muted),
                   const SizedBox(height: 4),
                   Text(
+                    t.story.isEmpty ? 'Belum ada cerita. Ketuk ikon pensil untuk menulis.' : t.story,
