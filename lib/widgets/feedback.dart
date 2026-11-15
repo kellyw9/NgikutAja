@@ -219,3 +219,4 @@ Future<Object?> showNgDialog(BuildContext context, {String? icon, required Strin
                 NgButton(
                   actions[i].label,
                   kind: actions[i].kind,
+                  size: BtnSize.md,
