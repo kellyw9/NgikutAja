@@ -46,3 +46,4 @@ class _PublishPageState extends State<PublishPage> {
           inMutuallyExclusiveGroup: true,
           checked: on,
           child: NgCard(
+            padding: const EdgeInsets.all(14),
