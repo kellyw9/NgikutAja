@@ -132,3 +132,4 @@ class Seed {
           'sore jalan kaki di Kesawan. Hari kedua dan ketiga fokus kuliner malam dan oleh-oleh.',
       dayTitles: ['Istana dan kota tua', 'Pasar dan kuliner malam', 'Oleh-oleh sebelum pulang'],
       plan: [
+        [
