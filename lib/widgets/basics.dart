@@ -552,3 +552,4 @@ class Marker extends StatelessWidget {
       height: size,
       alignment: Alignment.center,
       decoration: BoxDecoration(
+        color: fill,
