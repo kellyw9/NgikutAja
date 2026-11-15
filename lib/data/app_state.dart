@@ -366,3 +366,4 @@ class AppState extends ChangeNotifier {
   }
 
   void setRole(Member m, MemberRole r) {
+    m.role = r;
