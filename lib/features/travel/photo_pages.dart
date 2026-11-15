@@ -90,3 +90,4 @@ class _PhotoPreviewPageState extends State<PhotoPreviewPage> {
                       src: widget.src,
                       day: widget.day,
                       caption: st?.name ?? t.title,
+                      time: fromMinutes(now.hour * 60 + now.minute),
