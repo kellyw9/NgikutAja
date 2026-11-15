@@ -56,3 +56,4 @@ class _PeoplePageState extends State<PeoplePage> {
                           Text(list[i].handle, style: AppText.small.muted),
                         ],
                       ),
+                    ),
