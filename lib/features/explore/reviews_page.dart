@@ -27,3 +27,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
 
   void _send() {
     if (!requireLogin(context)) return;
+    if (input.text.trim().isEmpty) return;
