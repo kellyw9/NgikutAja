@@ -33,3 +33,5 @@ class _PackingPageState extends State<PackingPage> {
     input.clear();
     AppScope.read(context).touch();
   }
+
+  Future<void> _edit(PackGroup g, PackItem it) async {
