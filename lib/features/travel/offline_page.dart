@@ -103,3 +103,4 @@ class OfflinePage extends StatelessWidget {
             kind: BtnKind.secondary,
             icon: 'sync',
             expand: true,
+            onPressed: () {
