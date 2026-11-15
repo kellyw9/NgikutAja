@@ -112,3 +112,4 @@ class _EditStopPageState extends State<EditStopPage> {
               NgField(
                 label: 'Kategori',
                 icon: cat.icon,
+                value: cat.label,
