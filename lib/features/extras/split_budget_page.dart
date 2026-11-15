@@ -162,3 +162,4 @@ class _SplitBudgetPageState extends State<SplitBudgetPage> {
                                         children: [
                                           Text.rich(
                                             TextSpan(
+                                              style: AppText.body,
