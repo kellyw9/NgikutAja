@@ -266,3 +266,4 @@ class TripCard extends StatelessWidget {
           label: '$title, ${status.label}',
           child: Padding(
             padding: const EdgeInsets.all(14),
+            child: Row(
