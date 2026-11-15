@@ -35,3 +35,4 @@ class NgBanner extends StatelessWidget {
         decoration: BoxDecoration(color: bg, borderRadius: offline ? null : BorderRadius.circular(AppRadius.card)),
         child: Row(
           crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
