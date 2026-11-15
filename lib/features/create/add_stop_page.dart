@@ -104,3 +104,4 @@ class _AddStopPageState extends State<AddStopPage> {
                     children: [
                       Expanded(
                         child: NgField(
+                          label: 'Jam mulai',
