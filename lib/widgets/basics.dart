@@ -502,3 +502,4 @@ class Avatar extends StatelessWidget {
 }
 
 /// Logo sementara: nama produk sebagai teks, diawali penanda rute persegi teal.
+class Wordmark extends StatelessWidget {
