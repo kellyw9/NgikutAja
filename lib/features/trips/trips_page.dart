@@ -53,3 +53,4 @@ class TripsPage extends StatelessWidget {
           action: NgButton(
             'Buat itinerary',
             kind: BtnKind.secondary,
+            size: BtnSize.md,
