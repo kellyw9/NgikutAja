@@ -180,3 +180,4 @@ class AppState extends ChangeNotifier {
   bool toggleWish(String id) {
     final on = !wishlist.contains(id);
     on ? wishlist.add(id) : wishlist.remove(id);
+    notifyListeners();
