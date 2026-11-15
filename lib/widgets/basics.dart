@@ -380,3 +380,4 @@ enum PillKind { neutral, teal, positive, negative, warning, solid }
 
 /// Status: tag persegi radius 4, pasangan warna pucat + teks gelap.
 class Pill extends StatelessWidget {
+  const Pill(this.text, {super.key, this.kind = PillKind.neutral, this.icon});
