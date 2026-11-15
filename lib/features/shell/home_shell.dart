@@ -69,3 +69,4 @@ class _HomeShellState extends State<HomeShell> {
 /// Create: kotak tinta 44x36 radius 8 (kuning khusus untuk "sekarang").
 class BottomNav extends StatelessWidget {
   const BottomNav({super.key, required this.active, required this.onTap});
+  final int active;
