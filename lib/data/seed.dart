@@ -254,3 +254,4 @@ class Seed {
         publishedAt: _d(-40),
       ),
       Itinerary(
+        id: 'bajo',
