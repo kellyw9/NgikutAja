@@ -62,3 +62,5 @@ class WishButton extends StatelessWidget {
     );
   }
 }
+
+/// Card Wisata, tiga varian berisi data yang sama.
