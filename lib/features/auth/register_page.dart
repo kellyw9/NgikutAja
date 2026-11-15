@@ -10,3 +10,4 @@ class RegisterPage extends StatefulWidget {
   final bool popOnSuccess;
 
   @override
+  State<RegisterPage> createState() => _RegisterPageState();
