@@ -82,3 +82,4 @@ class _PeoplePageState extends State<PeoplePage> {
       size: BtnSize.md,
       onPressed: () {
         setState(() => on ? following.remove(p.handle) : following.add(p.handle));
+        app.me.following += on ? -1 : 1;
