@@ -266,3 +266,4 @@ class Seed {
         likes: 198,
         rating: 4.8,
         reviews: 17,
+        tags: ['Alam'],
