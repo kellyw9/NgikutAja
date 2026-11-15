@@ -256,3 +256,4 @@ class Trip {
     this.remindEach = true,
     this.remindOffset = 30,
     this.seedPlaces,
+    this.seedVisited,
