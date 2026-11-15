@@ -118,3 +118,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
                                 width: 10,
                                 height: 10,
                                 decoration: BoxDecoration(
+                                  color: AppColors.negative,
