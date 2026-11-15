@@ -55,3 +55,4 @@ class DashboardPage extends StatelessWidget {
                                     child: Column(
                                       mainAxisAlignment: MainAxisAlignment.end,
                                       children: [
+                                        Text('${monthly[i].$2}', style: AppText.smallStrong),
