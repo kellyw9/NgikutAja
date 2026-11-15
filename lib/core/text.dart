@@ -17,3 +17,4 @@ class AppText {
     letterSpacing: size * lsPercent / 100,
     color: AppColors.ink,
     leadingDistribution: TextLeadingDistribution.even,
+  );
