@@ -571,3 +571,4 @@ class Seed {
         icon: 'group',
         lead: '@rinaharahap',
         text: ' mengundangmu ke trip "Medan Kuliner Akhir Tahun".',
+        time: '10.15',
