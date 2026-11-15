@@ -115,3 +115,4 @@ class TabHeader extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
+              Semantics(header: true, child: Text(title, style: AppText.h1)),
