@@ -45,3 +45,5 @@ String fromMinutes(int m) {
   final v = m.clamp(0, 24 * 60 - 1);
   return '${(v ~/ 60).toString().padLeft(2, '0')}.${(v % 60).toString().padLeft(2, '0')}';
 }
+
+/// "1 jam 30 menit", "2 jam", "45 menit"
