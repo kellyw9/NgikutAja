@@ -12,3 +12,4 @@ Future<void> addTripPhoto(BuildContext context, Trip trip, int day) async {
 class PhotoPreviewPage extends StatefulWidget {
   const PhotoPreviewPage({super.key, required this.trip, required this.day, required this.src});
   final Trip trip;
+  final int day;
