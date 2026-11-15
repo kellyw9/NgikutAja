@@ -106,3 +106,4 @@ class _SplitBudgetPageState extends State<SplitBudgetPage> {
                                       ),
                                       const SizedBox(height: 2),
                                       Text(net[m.first]! > 0 ? 'menerima' : (net[m.first]! < 0 ? 'kurang bayar' : 'pas'), style: AppText.small.muted),
+                                    ],
