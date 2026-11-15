@@ -14,3 +14,4 @@ List<(int, int)> conflictsIn(List<Stop> day) {
 
 Set<int> conflictIndexes(List<Stop> day) => {
   for (final (a, b) in conflictsIn(day)) ...[a, b],
+};
