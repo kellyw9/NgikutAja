@@ -88,3 +88,4 @@ class ExpensesPage extends StatelessWidget {
             14,
             children: [
               NgCard(
+                child: Column(
