@@ -74,3 +74,4 @@ class _EditStopPageState extends State<EditStopPage> {
         DialogAction('Batal'),
       ],
     );
+    if (r == true && mounted) Navigator.pop(context, StopEditResult(deleted: true));
