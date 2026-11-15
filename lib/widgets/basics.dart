@@ -505,3 +505,4 @@ class Avatar extends StatelessWidget {
 class Wordmark extends StatelessWidget {
   const Wordmark({super.key, this.large = true, this.onDark = false});
   final bool large;
+  final bool onDark;
