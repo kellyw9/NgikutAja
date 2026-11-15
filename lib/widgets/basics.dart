@@ -251,3 +251,4 @@ class Photo extends StatelessWidget {
       final bytes = PhotoStore.get(s);
       img = bytes == null
           ? Container(color: AppColors.sunk)
+          : Image.memory(bytes, fit: BoxFit.cover, width: width, height: height, gaplessPlayback: true);
