@@ -182,3 +182,4 @@ class _AddStopPageState extends State<AddStopPage> {
                                     left: 8,
                                     bottom: 8,
                                     child: Container(
+                                      padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 2),
