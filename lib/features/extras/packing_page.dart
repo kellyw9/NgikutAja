@@ -111,3 +111,4 @@ class _PackingPageState extends State<PackingPage> {
                       inset: 42,
                       padV: 0,
                       children: [
+                        for (final it in g.items)
