@@ -244,3 +244,4 @@ class _EditTripInfoPageState extends State<EditTripInfoPage> {
       ..start = start
       ..cover = cover;
     AppScope.read(context).touch();
+    Navigator.pop(context);
