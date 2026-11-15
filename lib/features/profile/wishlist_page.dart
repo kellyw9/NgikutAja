@@ -13,3 +13,4 @@ class WishlistPage extends StatelessWidget {
     final app = AppScope.of(context);
     final list = app.itineraries.where((x) => app.wishlist.contains(x.id)).toList();
     return Scaffold(
+      backgroundColor: AppColors.ground,
