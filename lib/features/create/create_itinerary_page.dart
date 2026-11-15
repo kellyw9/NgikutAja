@@ -132,3 +132,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
   @override
   void dispose() {
     title.dispose();
+    desc.dispose();
