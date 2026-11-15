@@ -107,3 +107,4 @@ class _PublishPageState extends State<PublishPage> {
                     typeCard(true, 'Berbayar', 'Hari 1 terlihat gratis. Hari lain terbuka setelah dibeli.'),
                   ],
                 ),
+              ),
