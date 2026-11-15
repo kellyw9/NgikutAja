@@ -25,3 +25,4 @@ int? shortestGap(List<Stop> day) {
   for (var i = 1; i < s.length; i++) {
     final g = s[i].startMin - s[i - 1].endMin;
     if (g >= 0 && (best == null || g < best)) best = g;
+  }
