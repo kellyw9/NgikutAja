@@ -20,3 +20,4 @@ class Creator {
     required this.tint,
     required this.bio,
     required this.followers,
+    required this.following,
