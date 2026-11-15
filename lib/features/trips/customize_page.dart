@@ -309,3 +309,4 @@ class _CustomizePageState extends State<CustomizePage> {
         if (await _confirmLeave() && context.mounted) Navigator.pop(context);
       },
       child: Scaffold(
+        backgroundColor: AppColors.ground,
