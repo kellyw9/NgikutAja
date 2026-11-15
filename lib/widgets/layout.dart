@@ -399,3 +399,4 @@ class HeroPhoto extends StatelessWidget {
   final double height;
   final String? left;
   final VoidCallback? onLeft;
+  final List<Widget> right;
