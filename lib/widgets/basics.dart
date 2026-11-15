@@ -168,3 +168,4 @@ class TextLink extends StatelessWidget {
   const TextLink(this.label, {super.key, this.onTap, this.icon, this.style, this.color = AppColors.primaryStrong});
   final String label;
   final VoidCallback? onTap;
+  final String? icon;
