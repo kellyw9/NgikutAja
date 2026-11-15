@@ -211,3 +211,4 @@ class _SearchPageState extends State<SearchPage> {
             ),
             if (filter.count > 0)
               Positioned(
+                left: 30,
