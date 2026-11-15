@@ -34,3 +34,4 @@ class _AdoptPageState extends State<AdoptPage> {
         DialogAction('Batal'),
       ],
     );
+    if (r != true || !mounted) return;
