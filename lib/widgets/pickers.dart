@@ -20,3 +20,4 @@ Future<DateTime?> pickDate(BuildContext context, {required DateTime initial, int
   return showNgSheet<DateTime>(
     context,
     title: title,
+    scroll: true,
