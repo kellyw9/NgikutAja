@@ -16,3 +16,4 @@ class _PeoplePageState extends State<PeoplePage> {
   final Set<String> following = {'@kevintbn', '@sarilubis', '@yohanapdd'};
 
   @override
+  void initState() {
