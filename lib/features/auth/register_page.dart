@@ -150,3 +150,4 @@ class _RegisterPageState extends State<RegisterPage> {
                           crossAxisAlignment: WrapCrossAlignment.center,
                           children: [
                             Text('Sudah punya akun? ', style: AppText.body.muted),
+                            TextLink(
