@@ -126,3 +126,4 @@ class _ItineraryDetailPageState extends State<ItineraryDetailPage> {
                       if (it.rating != null)
                         _StatChip(
                           icon: 'star',
+                          filled: true,
