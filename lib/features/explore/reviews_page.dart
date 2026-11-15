@@ -72,3 +72,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
             child: Row(
               children: [
                 SizedBox(
+                  width: 84,
