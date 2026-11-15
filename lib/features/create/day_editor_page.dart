@@ -166,3 +166,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
                   if (stops.isEmpty) ...[
                     Text('Hari ${day + 1} belum punya stop.', style: AppText.body.muted),
                     NgCard(
+                      padding: const EdgeInsets.all(20),
