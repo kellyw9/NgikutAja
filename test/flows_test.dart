@@ -68,3 +68,4 @@ void main() {
     final s = newState();
     final before = s.trips.length;
     await tester.pumpWidget(host(s, ItineraryDetailPage(it: s.itinerary('medan'))));
+    await tapText(tester, 'Adopt itinerary', button: true);
