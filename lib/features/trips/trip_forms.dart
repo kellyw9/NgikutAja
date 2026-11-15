@@ -11,3 +11,4 @@ class StopEditResult {
 const _durations = [15, 30, 45, 60, 90, 120, 150, 180, 240, 300];
 
 Future<String?> pickTime(BuildContext context, String current) async {
+  final m = toMinutes(current);
