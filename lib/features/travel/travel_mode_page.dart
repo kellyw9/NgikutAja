@@ -202,3 +202,4 @@ class _NextCard extends StatelessWidget {
               children: [
                 Expanded(
                   child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
