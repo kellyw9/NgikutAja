@@ -255,3 +255,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
                       ('backpack', 'Packing list', 'pack'),
                       ('lightbulb', 'Local tips', 'tips'),
                       ('menu_book', 'Trip journal', 'journal'),
+                      ('photo_library', 'Photo memory', 'photo'),
