@@ -199,3 +199,4 @@ class Seed {
           _s('08.00', '09.30', 'Desa Tomok', _b, 10000),
           _s('10.00', '11.30', 'Museum Huta Bolon', _b, 15000),
           _s('12.00', '13.00', 'Makan siang ikan mas arsik', _m, 60000),
+          _s('14.00', '15.00', 'Kapal kembali ke Ajibata', _l, 15000),
