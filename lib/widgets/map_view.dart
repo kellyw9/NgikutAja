@@ -64,3 +64,4 @@ class MapView extends StatelessWidget {
                   Positioned(
                     left: p.x * w - 12,
                     top: p.y * h - 12,
+                    child: Marker(p.n, state: p.state),
