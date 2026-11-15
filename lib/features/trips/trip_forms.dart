@@ -232,3 +232,5 @@ class _EditTripInfoPageState extends State<EditTripInfoPage> {
   late DateTime? start = t.start;
   late String? cover = t.cover;
   bool tried = false;
+
+  void _save() {
