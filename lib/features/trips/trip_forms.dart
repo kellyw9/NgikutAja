@@ -263,3 +263,4 @@ class _EditTripInfoPageState extends State<EditTripInfoPage> {
       backgroundColor: AppColors.ground,
       appBar: NgAppBar(
         title: 'Edit informasi trip',
+        back: 'close',
