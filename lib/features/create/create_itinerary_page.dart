@@ -285,3 +285,5 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
       final p = await pickPhotoSheet(context, title: 'Foto sampul', canRemove: d.cover != null);
       if (p != null) setState(() => d.cover = p.isEmpty ? null : p);
     }
+
+    if (d.cover != null) {
