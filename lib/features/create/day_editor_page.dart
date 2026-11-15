@@ -243,3 +243,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
                       Text('Selesaikan error sebelum lanjut', style: AppText.small.c(AppColors.negative)),
                     ],
                   ),
+                  const SizedBox(height: 8),
