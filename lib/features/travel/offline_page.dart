@@ -82,3 +82,4 @@ class OfflinePage extends StatelessWidget {
                   avail(true, 'Pengeluaran dan packing list'),
                   avail(true, 'Check-in (disimpan dulu di HP)'),
                 ],
+              ),
