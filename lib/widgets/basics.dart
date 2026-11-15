@@ -435,3 +435,4 @@ class PriceTag extends StatelessWidget {
 
 /// Item metadata: ikon 16 + teks kecil.
 class Meta extends StatelessWidget {
+  const Meta(this.icon, this.text, {super.key, this.color = AppColors.muted});
