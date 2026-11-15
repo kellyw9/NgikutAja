@@ -57,3 +57,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
   Widget _reviews(AppState app, Itinerary it) {
     final list = app.reviewsOf(it);
     final dist = app.ratingDistOf(it);
+    final maxN = dist?.values.fold<int>(0, (a, b) => a > b ? a : b) ?? 1;
