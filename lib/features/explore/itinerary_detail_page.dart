@@ -269,3 +269,4 @@ class PaidPreviewPage extends StatelessWidget {
               child: Gap(
                 14,
                 children: [
+                  Align(alignment: Alignment.centerLeft, child: PriceTag(rp(it.price))),
