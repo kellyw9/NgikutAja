@@ -108,3 +108,4 @@ class _PackingPageState extends State<PackingPage> {
                     Text(g.name, style: AppText.bodyStrong),
                     const SizedBox(height: 6),
                     BoxList(
+                      inset: 42,
