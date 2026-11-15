@@ -34,3 +34,4 @@ class _PhotoPreviewPageState extends State<PhotoPreviewPage> {
       body: ListView(
         padding: const EdgeInsets.fromLTRB(kMargin, 8, kMargin, 24),
         children: [
+          Gap(
