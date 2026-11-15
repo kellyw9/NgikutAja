@@ -310,3 +310,4 @@ class _SearchPageState extends State<SearchPage> {
           children: [
             Container(
               width: 36,
+              height: 36,
