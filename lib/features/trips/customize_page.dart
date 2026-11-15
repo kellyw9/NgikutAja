@@ -268,3 +268,4 @@ class _CustomizePageState extends State<CustomizePage> {
                 children: [
                   AppIcon(s.icon, size: 20),
                   const SizedBox(width: 10),
+                  Expanded(
