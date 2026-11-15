@@ -17,3 +17,4 @@ class NgBanner extends StatelessWidget {
   final String? icon;
 
   @override
+  Widget build(BuildContext context) {
