@@ -137,3 +137,4 @@ class PermissionDeniedPage extends StatelessWidget {
             ),
             const SizedBox(height: 14),
             Text('Izin lokasi dibutuhkan', style: AppText.h1),
+            const SizedBox(height: 14),
