@@ -286,3 +286,4 @@ class AppState extends ChangeNotifier {
     required bool offline,
   }) async {
     await Future<void>.delayed(const Duration(milliseconds: 1400));
+    if (!online) throw const OfflineException();
