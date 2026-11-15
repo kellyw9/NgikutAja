@@ -52,3 +52,4 @@ class _SplashPageState extends State<SplashPage> {
                         height: 64,
                         child: Stack(
                           children: [
+                            const Positioned.fill(child: CustomPaint(painter: _RoutePainter())),
