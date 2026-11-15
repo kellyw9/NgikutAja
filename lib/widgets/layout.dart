@@ -477,3 +477,4 @@ class IconTile extends StatelessWidget {
 class PageFrame extends StatelessWidget {
   const PageFrame({
     super.key,
+    this.appBar,
