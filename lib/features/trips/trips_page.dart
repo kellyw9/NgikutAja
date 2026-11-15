@@ -28,3 +28,4 @@ class TripsPage extends StatelessWidget {
               active: tab.label,
               onChanged: (l) => tripsTab.value = TripStatus.values.firstWhere((s) => s.label == l),
             ),
+          ),
