@@ -450,3 +450,4 @@ class Seed {
         story:
             'Dua hari keliling Samosir bareng Kevin dan Sari. Rencananya ngikut itinerary Kak Lestari, '
             'tapi hari pertama kami tambah sewa motor.',
+        journal: {
