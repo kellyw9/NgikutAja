@@ -202,3 +202,4 @@ Future<Object?> showNgDialog(BuildContext context, {String? icon, required Strin
         constraints: const BoxConstraints(maxWidth: 326),
         child: Padding(
           padding: const EdgeInsets.all(20),
+          child: Column(
