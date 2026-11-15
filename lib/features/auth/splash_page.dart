@@ -8,3 +8,4 @@ import 'onboarding_page.dart';
 
 /// 1.1 Splash: garis rute pembuka (motif yang sama dengan timeline dan Travel Mode).
 class SplashPage extends StatefulWidget {
+  const SplashPage({super.key});
