@@ -227,3 +227,5 @@ class _AddExpensePageState extends State<AddExpensePage> {
     amount.dispose();
     super.dispose();
   }
+
+  @override
