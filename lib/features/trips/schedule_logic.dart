@@ -113,3 +113,4 @@ List<String> shiftCascade(List<Stop> day, Stop target, int newStart) {
       issues.add(
         DayIssue(
           day: d,
+          conflict: false,
