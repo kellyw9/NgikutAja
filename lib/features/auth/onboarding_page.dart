@@ -88,3 +88,4 @@ class _OnboardingPageState extends State<OnboardingPage> {
               ),
               Expanded(
                 child: PageView(controller: _pc, onPageChanged: (i) => setState(() => page = i), children: [_intro(), _flow(), _interests()]),
+              ),
