@@ -201,3 +201,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
                 Row(
                   children: [
                     Expanded(
+                      child: NgButton(
