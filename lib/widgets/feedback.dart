@@ -60,3 +60,4 @@ class NgBanner extends StatelessWidget {
                     child: Text(action!, style: AppText.bodyStrong.c(fg)),
                   ),
                 ),
+              ),
