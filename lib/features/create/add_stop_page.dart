@@ -112,3 +112,4 @@ class _AddStopPageState extends State<AddStopPage> {
                             if (t == null) return;
                             setState(() {
                               final dur = toMinutes(end) - toMinutes(start);
+                              start = t;
