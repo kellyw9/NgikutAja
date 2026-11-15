@@ -268,3 +268,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
                   kind: BtnKind.secondary,
                   expand: true,
                   onPressed: () {
+                    _apply();
