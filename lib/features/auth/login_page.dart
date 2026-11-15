@@ -82,3 +82,4 @@ class _LoginPageState extends State<LoginPage> {
                 child: IntrinsicHeight(
                   child: AutofillGroup(
                     child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.stretch,
