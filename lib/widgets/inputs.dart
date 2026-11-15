@@ -182,3 +182,4 @@ class _NgFieldState extends State<NgField> {
           Row(
             children: [
               const AppIcon('error', size: 16, color: AppColors.negative),
+              const SizedBox(width: 6),
