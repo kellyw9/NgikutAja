@@ -132,3 +132,4 @@ class _ExplorePageState extends State<ExplorePage> {
 
 class CityCard extends StatelessWidget {
   const CityCard(this.c, {super.key});
+  final CityInfo c;
