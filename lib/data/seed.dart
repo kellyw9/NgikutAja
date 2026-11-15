@@ -382,3 +382,4 @@ class Seed {
             _s('08.00', '08.45', 'Bika Ambon Jalan Mojopahit', _m, 60000, 'bika'),
           ],
         ],
+      ),
