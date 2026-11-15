@@ -210,3 +210,4 @@ class ObscureToggle extends StatelessWidget {
     iconSize: 20,
     color: AppColors.muted,
   );
+}
