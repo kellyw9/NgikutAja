@@ -186,3 +186,4 @@ Future<String?> pickPhotoSheet(BuildContext context, {String title = 'Tambah fot
         ListRow(icon: 'photo_library', title: 'Pilih dari galeri foto', trailing: null, padH: 0, onTap: () => Navigator.pop(ctx, 'gallery')),
         if (canRemove) ...[
           const NgDivider(inset: 36, color: AppColors.line),
+          ListRow(icon: 'delete', title: 'Hapus foto', danger: true, trailing: null, padH: 0, onTap: () => Navigator.pop(ctx, 'remove')),
