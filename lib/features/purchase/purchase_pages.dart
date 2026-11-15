@@ -318,3 +318,4 @@ class _PaymentStatusPageState extends State<PaymentStatusPage> {
             top: true,
             icon: 'hourglass_top',
             tone: AppColors.yellowPale,
+            title: 'Menunggu pembayaran',
