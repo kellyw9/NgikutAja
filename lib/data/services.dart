@@ -34,3 +34,5 @@ Future<String?> pickPhoto(PhotoSource source) async {
   if (x == null) return null;
   return PhotoStore.put(await x.readAsBytes());
 }
+
+Future<void> shareText(String text, {String? subject}) async {
