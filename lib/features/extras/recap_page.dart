@@ -98,3 +98,4 @@ class RecapPage extends StatelessWidget {
                 NgCard(
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
