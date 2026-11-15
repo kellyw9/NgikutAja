@@ -56,3 +56,4 @@ class _AdoptPageState extends State<AdoptPage> {
         children: [
           Gap(
             16,
+            children: [
