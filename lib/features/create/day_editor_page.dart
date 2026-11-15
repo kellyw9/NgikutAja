@@ -237,3 +237,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
                 if (anyError) ...[
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
