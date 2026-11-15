@@ -66,3 +66,4 @@ class _AddStopPageState extends State<AddStopPage> {
       appBar: NgAppBar(title: editing ? 'Ubah stop' : 'Tambah stop', back: 'close'),
       body: ListView(
         padding: const EdgeInsets.fromLTRB(kMargin, 8, kMargin, 24),
+        children: [
