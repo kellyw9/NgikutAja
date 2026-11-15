@@ -112,3 +112,4 @@ class _OnboardingPageState extends State<OnboardingPage> {
       Photo('holbung', height: (c.maxHeight - 180).clamp(220, 400), radius: AppRadius.card, semantic: 'Bukit Holbung di tepi Danau Toba'),
       const SizedBox(height: 24),
       Text('Rencana liburan dari orang yang sudah ke sana', style: AppText.h1),
+      const SizedBox(height: 12),
