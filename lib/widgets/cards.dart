@@ -453,3 +453,4 @@ class DayStrip extends StatelessWidget {
     scrollDirection: Axis.horizontal,
     padding: const EdgeInsets.symmetric(horizontal: kMargin),
     child: IntrinsicHeight(
+      child: Row(
