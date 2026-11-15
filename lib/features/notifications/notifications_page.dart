@@ -162,3 +162,4 @@ class NotificationDetailPage extends StatelessWidget {
               const Align(
                 alignment: Alignment.centerLeft,
                 child: IconTile('alarm', size: 44, fill: AppColors.surface, iconSize: 24, border: AppColors.line),
+              ),
