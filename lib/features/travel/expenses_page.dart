@@ -312,3 +312,4 @@ class _AddExpensePageState extends State<AddExpensePage> {
               Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
+                  Text('Foto struk (opsional)', style: AppText.bodyStrong),
