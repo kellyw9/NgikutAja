@@ -267,3 +267,4 @@ class PaidPreviewPage extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.fromLTRB(kMargin, 16, kMargin, 0),
               child: Gap(
+                14,
