@@ -46,3 +46,4 @@ final Map<String, PageFor> pages = {
   'onboarding': (s) => const OnboardingPage(),
   'login': (s) => const LoginPage(),
   'register': (s) => const RegisterPage(),
+  'reset': (s) => const ResetPasswordPage(email: 'dinda.saragi@gmail.com'),
