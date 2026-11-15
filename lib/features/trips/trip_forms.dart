@@ -88,3 +88,4 @@ class _EditStopPageState extends State<EditStopPage> {
   @override
   Widget build(BuildContext context) {
     final editing = s != null;
+    return Scaffold(
