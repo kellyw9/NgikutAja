@@ -119,3 +119,4 @@ class NotificationsPage extends StatelessWidget {
                 padding: const EdgeInsets.only(top: 6),
                 child: n.unread
                     ? Semantics(
+                        label: 'Belum dibaca',
