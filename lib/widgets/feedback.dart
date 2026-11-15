@@ -293,3 +293,4 @@ class ErrorBlock extends StatelessWidget {
               Text(text, style: AppText.small.muted),
             ],
           ),
+        ),
