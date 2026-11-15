@@ -439,3 +439,4 @@ bool _closeFlow(NavigatorState nav) {
     if (r.settings.name == 'itinerary') found = true;
     return found || r.isFirst;
   });
+  return found;
