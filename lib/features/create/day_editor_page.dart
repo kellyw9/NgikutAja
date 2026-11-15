@@ -154,3 +154,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
             Padding(
               padding: const EdgeInsets.fromLTRB(kMargin, 16, kMargin, 0),
               child: Gap(
+                12,
