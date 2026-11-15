@@ -315,3 +315,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               const IconTile('add_photo_alternate', size: 48, fill: AppColors.surface, iconSize: 24),
+              const SizedBox(height: 10),
