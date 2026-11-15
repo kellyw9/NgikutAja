@@ -119,3 +119,4 @@ class _AdoptPageState extends State<AdoptPage> {
               Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
+                  Text('Pengingat', style: AppText.bodyStrong),
