@@ -89,3 +89,4 @@ class _SpinIconState extends State<SpinIcon> with SingleTickerProviderStateMixin
 
   @override
   void didChangeDependencies() {
+    super.didChangeDependencies();
