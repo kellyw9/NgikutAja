@@ -537,3 +537,4 @@ class _DayBox extends StatelessWidget {
 /// Info kreator: avatar 40, nama, handle + pengikut, tombol Ikuti.
 class CreatorRow extends StatelessWidget {
   const CreatorRow(this.c, {super.key, this.onTap, this.onGuest});
+  final Creator c;
