@@ -119,3 +119,4 @@ class _OnboardingPageState extends State<OnboardingPage> {
 
   Widget _flow() => _scroll([
     Text('Dari rencana orang lain jadi tripmu sendiri', style: AppText.h1),
+    const SizedBox(height: 12),
