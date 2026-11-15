@@ -58,3 +58,4 @@ class SettingsPage extends StatelessWidget {
     Widget group(String title, List<Widget> rows) => Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
+        Text(title, style: AppText.smallStrong.muted),
