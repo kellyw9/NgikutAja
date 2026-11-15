@@ -89,3 +89,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
                       ? Text('Rincian bintang belum tersedia untuk itinerary ini.', style: AppText.small.muted)
                       : Column(
                           children: [
+                            for (final e in dist.entries) ...[
