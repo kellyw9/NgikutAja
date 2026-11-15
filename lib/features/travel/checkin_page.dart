@@ -46,3 +46,4 @@ class _CheckinPageState extends State<CheckinPage> {
                 pins: [MapPin(.495, .5, n: widget.i + 1, state: done ? MarkerState.done : MarkerState.next)],
                 me: near || done ? const Offset(.57, .64) : const Offset(.8, .78),
               ),
+              if (done)
