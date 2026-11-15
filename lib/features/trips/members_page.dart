@@ -193,3 +193,4 @@ class MembersPage extends StatelessWidget {
                                 Text(
                                   i == 0 && ownerIsMe ? '${trip.members[i].name} (kamu)' : trip.members[i].name,
                                   style: AppText.bodyStrong,
+                                  maxLines: 1,
