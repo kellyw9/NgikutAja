@@ -431,3 +431,4 @@ class Seed {
         dayTitles: [...toba.dayTitles],
         members: [
           dinda,
+          Member(name: 'Kevin Tambunan', handle: '@kevintbn', role: MemberRole.editor, tint: 2, joined: _fmt(_d(-3))),
