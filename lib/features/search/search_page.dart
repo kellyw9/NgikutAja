@@ -159,3 +159,4 @@ class _SearchPageState extends State<SearchPage> {
         Expanded(
           child: Container(
             height: 48,
+            padding: const EdgeInsets.only(left: 12, right: 4),
