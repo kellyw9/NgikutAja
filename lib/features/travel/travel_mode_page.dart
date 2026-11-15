@@ -110,3 +110,4 @@ class TravelModePage extends StatelessWidget {
                     NgCard(
                       child: Row(
                         children: [
+                          const AppIcon('task_alt', color: AppColors.positive),
