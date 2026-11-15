@@ -41,3 +41,4 @@ class _ResetPasswordPageState extends State<ResetPasswordPage> {
     });
     _t?.cancel();
     _t = Timer.periodic(const Duration(seconds: 1), (t) {
+      if (!mounted) return t.cancel();
