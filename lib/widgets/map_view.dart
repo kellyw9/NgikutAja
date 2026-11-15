@@ -91,3 +91,4 @@ class MapView extends StatelessWidget {
                     left: 8,
                     bottom: 8,
                     child: Container(
+                      height: 22,
