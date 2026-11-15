@@ -282,3 +282,4 @@ class Trip {
   List<PackGroup> packing;
 
   /// Kunci "hari-indeks" -> jam check-in, misalnya "0-1": "09.42".
+  Map<String, String> checkins;
