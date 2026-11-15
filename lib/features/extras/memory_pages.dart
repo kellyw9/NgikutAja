@@ -98,3 +98,4 @@ class _PhotoViewerPageState extends State<PhotoViewerPage> {
                   padding: const EdgeInsets.only(left: 4, right: 8),
                   child: Row(
                     children: [
+                      IconBtn('close', label: 'Tutup', color: AppColors.white, onTap: () => Navigator.pop(context)),
