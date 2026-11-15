@@ -115,3 +115,4 @@ class TravelModePage extends StatelessWidget {
                           Expanded(
                             child: Text(
                               stops.isEmpty ? 'Tidak ada aktivitas hari ini.' : 'Semua aktivitas hari ini sudah selesai.',
+                              style: AppText.bodyStrong,
