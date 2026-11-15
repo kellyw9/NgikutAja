@@ -218,3 +218,5 @@ class NgToggle extends StatelessWidget {
   final bool value;
   final ValueChanged<bool>? onChanged;
   final String? label;
+
+  @override
