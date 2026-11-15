@@ -109,3 +109,4 @@ class _NgFieldState extends State<NgField> {
         maxLines: widget.area ? null : 1,
         minLines: widget.area ? 3 : 1,
         onChanged: widget.onChanged,
+        onSubmitted: widget.onSubmitted,
