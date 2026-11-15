@@ -108,3 +108,4 @@ class _AddStopPageState extends State<AddStopPage> {
                           icon: 'schedule',
                           value: start,
                           onTap: () async {
+                            final t = await pickTime(context, start);
