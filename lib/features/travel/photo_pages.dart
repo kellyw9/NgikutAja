@@ -57,3 +57,4 @@ class _PhotoPreviewPageState extends State<PhotoPreviewPage> {
                             sub: '${stops[k].start}–${stops[k].end}',
                             selected: stop == k,
                             onTap: () => Navigator.pop(ctx, k),
+                          ),
