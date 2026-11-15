@@ -48,3 +48,4 @@ class ProfilePage extends StatelessWidget {
                 title: 'Wishlist',
                 sub: '${app.wishlist.length} itinerary tersimpan',
                 onTap: () => push(context, const WishlistPage()),
+              ),
