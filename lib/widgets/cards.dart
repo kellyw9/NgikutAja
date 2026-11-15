@@ -32,3 +32,4 @@ class Proof extends StatelessWidget {
       ),
     ],
   );
+}
