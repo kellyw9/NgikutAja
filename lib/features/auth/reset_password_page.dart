@@ -175,3 +175,4 @@ class _NewPasswordPageState extends State<NewPasswordPage> {
                     const SizedBox(height: 8),
                     Text('Untuk akun ${widget.email}.', style: AppText.body.muted),
                     const SizedBox(height: 24),
+                    NgField(
