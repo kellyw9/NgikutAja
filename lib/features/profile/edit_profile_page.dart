@@ -121,3 +121,4 @@ class _EditProfilePageState extends State<EditProfilePage> {
                     NgField(label: 'Bio', controller: bio, area: true, maxLength: 150, onChanged: (_) => setState(() {})),
                     const SizedBox(height: 4),
                     Text('${bio.text.length}/150', style: AppText.small.muted, textAlign: TextAlign.right),
+                  ],
