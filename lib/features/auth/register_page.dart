@@ -145,3 +145,4 @@ class _RegisterPageState extends State<RegisterPage> {
                       const SizedBox(height: 20),
                       NgButton('Buat akun', expand: true, loading: loading, onPressed: valid ? _submit : null),
                       const SizedBox(height: 12),
+                      Center(
