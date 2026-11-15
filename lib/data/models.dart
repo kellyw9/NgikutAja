@@ -205,3 +205,4 @@ class Expense {
 class PackItem {
   PackItem(this.name, [this.done = false]);
   String name;
+  bool done;
