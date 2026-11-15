@@ -69,3 +69,4 @@ class _RegisterPageState extends State<RegisterPage> {
     void refresh(_) => setState(() {});
     return Scaffold(
       backgroundColor: AppColors.ground,
+      appBar: const NgAppBar(),
