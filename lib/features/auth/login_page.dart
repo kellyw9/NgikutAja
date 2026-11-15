@@ -99,3 +99,4 @@ class _LoginPageState extends State<LoginPage> {
                         ],
                         const SizedBox(height: 24),
                         NgField(
+                          label: 'Email',
