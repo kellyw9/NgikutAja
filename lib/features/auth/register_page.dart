@@ -90,3 +90,4 @@ class _RegisterPageState extends State<RegisterPage> {
                         label: 'Nama',
                         icon: 'person',
                         controller: name,
+                        hint: 'Nama lengkap',
