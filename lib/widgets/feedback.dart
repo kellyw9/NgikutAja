@@ -203,3 +203,4 @@ Future<Object?> showNgDialog(BuildContext context, {String? icon, required Strin
         child: Padding(
           padding: const EdgeInsets.all(20),
           child: Column(
+            mainAxisSize: MainAxisSize.min,
