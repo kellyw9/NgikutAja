@@ -185,3 +185,4 @@ class _SplitBudgetPageState extends State<SplitBudgetPage> {
                                         app.touch();
                                       },
                                     ),
+                                  ],
