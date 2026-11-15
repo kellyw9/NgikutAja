@@ -114,3 +114,4 @@ class _JournalPageState extends State<JournalPage> {
               padding: const EdgeInsets.symmetric(horizontal: kMargin),
               child: Segmented(
                 items: [for (var d = 0; d < t.days; d++) _dayLabel(d)],
+                active: _dayLabel(day),
