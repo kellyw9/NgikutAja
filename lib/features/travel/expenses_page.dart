@@ -115,3 +115,4 @@ class ExpensesPage extends StatelessWidget {
                   text: 'Catat tiket, makan, dan transportasi supaya pembagian biaya dihitung otomatis.',
                   height: 220,
                 )
+              else
