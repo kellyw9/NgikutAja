@@ -197,3 +197,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
                           context,
                           title: 'Durasi itinerary',
                           scroll: true,
+                          builder: (ctx) => Column(
