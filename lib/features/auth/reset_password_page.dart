@@ -12,3 +12,4 @@ String maskEmail(String e) {
 }
 
 /// 1.5 Reset password: masukkan email, lalu tautan terkirim.
+class ResetPasswordPage extends StatefulWidget {
