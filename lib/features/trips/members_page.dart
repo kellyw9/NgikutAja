@@ -172,3 +172,4 @@ class MembersPage extends StatelessWidget {
         padding: const EdgeInsets.fromLTRB(kMargin, 8, kMargin, 16),
         children: [
           BoxList(
+            inset: 56,
