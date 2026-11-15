@@ -308,3 +308,4 @@ class _EditTripInfoPageState extends State<EditTripInfoPage> {
                 value: start == null ? '' : dateLong(start!),
                 hint: 'Pilih tanggal',
                 trailing: 'expand_more',
+                helper: start == null ? null : 'Trip selesai ${dateLong(start!.add(Duration(days: t.days - 1)))}.',
