@@ -154,3 +154,5 @@ enum MemberRole {
   owner('Pemilik'),
   editor('Bisa edit'),
   viewer('Hanya lihat');
+
+  const MemberRole(this.label);
