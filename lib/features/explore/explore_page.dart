@@ -172,3 +172,4 @@ class Bell extends StatelessWidget {
         if (unread)
           Positioned(
             left: 25,
+            top: 9,
