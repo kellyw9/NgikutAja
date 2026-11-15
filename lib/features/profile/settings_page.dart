@@ -88,3 +88,4 @@ class SettingsPage extends StatelessWidget {
                   title: 'Kelola data offline',
                   sub: offline.isEmpty
                       ? 'Belum ada trip tersimpan'
+                      : '${offline.length} trip tersimpan (${offline.fold(0, (a, t) => a + t.offlineSize)} MB)',
