@@ -80,3 +80,4 @@ class Itinerary {
     required this.cover,
     required this.creator,
     this.price = 0,
+    this.adopted = 0,
