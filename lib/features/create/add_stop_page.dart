@@ -367,3 +367,4 @@ class _PickLocationPageState extends State<PickLocationPage> {
             top: 0,
             child: SafeArea(
               child: Padding(
+                padding: const EdgeInsets.fromLTRB(kMargin, 12, kMargin, 0),
