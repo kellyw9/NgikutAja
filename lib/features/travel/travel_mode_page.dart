@@ -114,3 +114,4 @@ class TravelModePage extends StatelessWidget {
                           const SizedBox(width: 10),
                           Expanded(
                             child: Text(
+                              stops.isEmpty ? 'Tidak ada aktivitas hari ini.' : 'Semua aktivitas hari ini sudah selesai.',
