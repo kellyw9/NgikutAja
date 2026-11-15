@@ -267,3 +267,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
 
 class _StopCard extends StatelessWidget {
   const _StopCard({required this.stop, required this.index, required this.conflict, required this.onEdit});
+  final Stop stop;
