@@ -92,3 +92,4 @@ List<String> shiftCascade(List<Stop> day, Stop target, int newStart) {
       final b = identical(a, day[i]) ? day[j] : day[i];
       final ns = a.endMin + 15;
       // Pratinjau di salinan supaya teks saran sesuai hasil sebenarnya.
+      final preview = [for (final s in day) s.copy()];
