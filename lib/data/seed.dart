@@ -95,3 +95,4 @@ class Seed {
         id: 'yosef',
         name: 'Yosef Ndun',
         handle: '@bajoharian',
+        tint: 5,
