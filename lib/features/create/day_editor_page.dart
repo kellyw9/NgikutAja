@@ -293,3 +293,4 @@ class _StopCard extends StatelessWidget {
                 height: 52,
                 child: Center(child: AppIcon('drag_indicator', size: 20, color: AppColors.muted)),
               ),
+            ),
