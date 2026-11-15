@@ -345,3 +345,4 @@ class NgStepper extends StatelessWidget {
         Padding(
           padding: const EdgeInsets.symmetric(horizontal: 14),
           child: Text('$value$unit', style: AppText.bodyStrong),
+        ),
