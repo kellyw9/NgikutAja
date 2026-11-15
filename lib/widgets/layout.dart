@@ -66,3 +66,4 @@ class NgAppBar extends StatelessWidget implements PreferredSizeWidget {
     );
     return AnnotatedRegion<SystemUiOverlayStyle>(
       value: kDarkIcons,
+      child: Material(
