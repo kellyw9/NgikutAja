@@ -282,3 +282,4 @@ class _CustomizePageState extends State<CustomizePage> {
                   NgButton(
                     'Terapkan',
                     kind: BtnKind.secondary,
+                    size: BtnSize.md,
