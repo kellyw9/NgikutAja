@@ -138,3 +138,4 @@ class _NgFieldState extends State<NgField> {
         color: widget.fill ?? (widget.readOnly && !_select ? AppColors.surfaceSoft : AppColors.surface),
         borderRadius: BorderRadius.circular(AppRadius.control),
         border: Border.all(color: borderColor, width: borderW),
+      ),
