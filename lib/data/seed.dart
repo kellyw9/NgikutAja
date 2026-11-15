@@ -461,3 +461,4 @@ class Seed {
         },
         offline: true,
         offlineSize: 14,
+        syncedAt: '07.58',
