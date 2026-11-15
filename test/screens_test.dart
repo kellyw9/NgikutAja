@@ -23,3 +23,4 @@ import 'package:ngikutaja/features/extras/packing_page.dart';
 import 'package:ngikutaja/features/extras/recap_page.dart';
 import 'package:ngikutaja/features/extras/split_budget_page.dart';
 import 'package:ngikutaja/features/extras/tips_page.dart';
+import 'package:ngikutaja/features/notifications/notifications_page.dart';
