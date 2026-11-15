@@ -18,3 +18,4 @@ class NgBanner extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final (bg, fg, ic) = switch (kind) {
