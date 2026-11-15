@@ -71,3 +71,4 @@ class _DayEditorPageState extends State<DayEditorPage> {
   Widget build(BuildContext context) {
     final stops = d.plan[day];
     final conflicts = conflictsIn(stops);
+    final anyError = [for (var k = 0; k < d.plan.length; k++) _dayHasError(k)].any((x) => x);
