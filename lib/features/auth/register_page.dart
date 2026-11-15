@@ -136,3 +136,4 @@ class _RegisterPageState extends State<RegisterPage> {
                         obscure: ob2,
                         onChanged: refresh,
                         hint: 'Ketik ulang password',
+                        textInputAction: TextInputAction.done,
