@@ -29,3 +29,5 @@ class AppColors {
   static const negativeInk = Color(0xFF831C1E);
   static const white = Color(0xFFFFFFFF);
   static const scrim = Color(0x730C4A57); // ink, opacity 0.45
+
+  // Header Travel Mode (tinta satu tingkat lebih terang)
