@@ -197,3 +197,4 @@ class _CustomizePageState extends State<CustomizePage> {
     final ok = await showNgSheet<bool>(
       context,
       title: 'Tambah hari',
+      sub: 'Hari baru ditaruh setelah Hari ${plan.length}.',
