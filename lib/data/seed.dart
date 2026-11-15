@@ -202,3 +202,4 @@ class Seed {
           _s('14.00', '15.00', 'Kapal kembali ke Ajibata', _l, 15000),
         ],
       ],
+    )..plan[0][2].address = 'Desa Hasinggahan, Samosir';
