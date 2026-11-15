@@ -142,3 +142,4 @@ class _EditStopPageState extends State<EditStopPage> {
                       onTap: () async {
                         final d = await showNgSheet<int>(
                           context,
+                          title: 'Durasi aktivitas',
