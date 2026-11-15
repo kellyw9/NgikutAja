@@ -194,3 +194,4 @@ class Grid2 extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) => Column(
+    children: [
