@@ -402,3 +402,4 @@ class _CustomizePageState extends State<CustomizePage> {
                         color: AppColors.surface,
                         elevation: 0,
                         shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(AppRadius.card),
