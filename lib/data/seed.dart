@@ -438,3 +438,4 @@ class Seed {
           Expense(id: 'e1', name: 'Tiket kapal Ajibata', cat: ExpenseCat.transportasi, amount: 45000, by: 'Dinda', day: 0, time: '08.05'),
           Expense(id: 'e2', name: 'Sarapan di Tuktuk', cat: ExpenseCat.makan, amount: 96000, by: 'Kevin', day: 0, time: '09.50'),
           Expense(id: 'e3', name: 'Sewa motor setengah hari', cat: ExpenseCat.transportasi, amount: 120000, by: 'Dinda', day: 0, time: '11.55'),
+          Expense(id: 'e4', name: 'Tiket Bukit Holbung', cat: ExpenseCat.tiket, amount: 30000, by: 'Sari', day: 0, time: '12.40'),
