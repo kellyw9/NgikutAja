@@ -615,3 +615,4 @@ class _SquareThumb extends RangeSliderThumbShape {
     required SliderThemeData sliderTheme,
     Thumb? thumb,
     bool? isPressed,
+  }) {
