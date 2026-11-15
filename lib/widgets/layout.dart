@@ -419,3 +419,4 @@ class HeroPhoto extends StatelessWidget {
                 top: 0,
                 left: 0,
                 right: 0,
+                height: top + 24,
