@@ -325,3 +325,4 @@ class TravelStopPage extends StatelessWidget {
                           if (photos.length == 1) ...[const SizedBox(width: 10), const Expanded(child: SizedBox())],
                         ],
                       ),
+                    ],
