@@ -241,3 +241,4 @@ class _EditTripInfoPageState extends State<EditTripInfoPage> {
       ..region = region.text.trim()
       ..city = region.text.split(',').first.trim()
       ..desc = desc.text.trim()
+      ..start = start
