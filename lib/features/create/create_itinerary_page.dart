@@ -299,3 +299,4 @@ class _CreateItineraryPageState extends State<CreateItineraryPage> {
               child: NgButton('Ganti foto', kind: BtnKind.secondary, size: BtnSize.md, icon: 'photo_camera', onPressed: pick),
             ),
           ],
+        ),
