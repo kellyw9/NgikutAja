@@ -317,3 +317,4 @@ class SkeletonCard extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Container(
+          height: 210,
