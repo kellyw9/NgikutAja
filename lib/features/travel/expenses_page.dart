@@ -297,3 +297,4 @@ class _AddExpensePageState extends State<AddExpensePage> {
                   if (d != null) setState(() => day = d);
                 },
               ),
+              Column(
