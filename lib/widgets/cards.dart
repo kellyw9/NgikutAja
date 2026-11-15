@@ -362,3 +362,4 @@ class StopRow extends StatelessWidget {
                         const SizedBox(height: 4),
                         MetaRow([(st.cat.icon, st.cat.label), ('payments', st.cost > 0 ? rp(st.cost) : 'Gratis')]),
                       ],
+                    ],
