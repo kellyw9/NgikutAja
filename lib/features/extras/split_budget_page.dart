@@ -27,3 +27,4 @@ class _SplitBudgetPageState extends State<SplitBudgetPage> {
     final net = {for (final m in members) m.first: paidBy(m) - shareOf(m)};
 
     // Penyelesaian: yang kurang bayar transfer ke yang menerima (greedy).
+    final debt = [
