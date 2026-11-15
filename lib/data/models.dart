@@ -311,3 +311,4 @@ class Trip {
     if (start == null) return TripStatus.draft;
     final t = DateTime(today.year, today.month, today.day);
     if (t.isBefore(start!)) return TripStatus.diadopsi;
+    if (t.isAfter(end!)) return TripStatus.selesai;
