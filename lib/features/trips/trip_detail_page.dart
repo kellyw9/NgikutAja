@@ -170,3 +170,4 @@ class _TripDetailPageState extends State<TripDetailPage> {
                   children: [
                     Pill(status.label, kind: tripPill(status)),
                     const SizedBox(width: 8),
+                    if (app.countdown(t) != null) Text(app.countdown(t)!, style: AppText.small.muted),
