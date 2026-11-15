@@ -253,3 +253,4 @@ class PublishedPage extends StatelessWidget {
                         pushItinerary(nav, app, d);
                       },
                     ),
+                    const SizedBox(height: 12),
