@@ -444,3 +444,4 @@ class _CustomizePageState extends State<CustomizePage> {
                                   TextLink('Edit', style: AppText.smallStrong, onTap: () => _edit(i)),
                                   TextLink('Pindahkan', style: AppText.smallStrong, onTap: () => _move(i)),
                                   TextLink('Hapus', style: AppText.smallStrong, color: AppColors.negative, onTap: () => _delete(i)),
+                                ],
