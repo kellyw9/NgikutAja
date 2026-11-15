@@ -61,3 +61,4 @@ class PurchaseDetailPage extends StatelessWidget {
               _ItemRow(it),
               Row(
                 children: [
+                  Avatar(it.creator.name, size: 36, tint: it.creator.tint),
