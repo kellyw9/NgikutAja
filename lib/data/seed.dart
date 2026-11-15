@@ -543,3 +543,4 @@ class Seed {
     transactions = [
       Transaction(
         id: _trx(_d(-5), '0977'),
+        item: bajo,
