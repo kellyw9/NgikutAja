@@ -233,3 +233,4 @@ class _SearchPageState extends State<SearchPage> {
     padding: const EdgeInsets.only(top: 16, bottom: 24),
     children: [
       if (app.recentSearches.isNotEmpty) ...[
+        SectionHead('Pencarian terakhir', action: 'Hapus', onAction: app.clearRecent),
