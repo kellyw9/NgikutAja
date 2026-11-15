@@ -405,3 +405,4 @@ class Seed {
         region: 'Medan, Sumatera Utara',
         days: 1,
         cover: 'soto',
+        creator: me,
