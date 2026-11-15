@@ -12,3 +12,4 @@ class OfflinePage extends StatelessWidget {
   }
 
   @override
+  Widget build(BuildContext context) {
