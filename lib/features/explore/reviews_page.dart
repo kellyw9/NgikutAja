@@ -183,3 +183,4 @@ class _ReviewsPageState extends State<ReviewsPage> {
                       TextLink(
                         'Balas',
                         style: AppText.smallStrong,
+                        onTap: () {
