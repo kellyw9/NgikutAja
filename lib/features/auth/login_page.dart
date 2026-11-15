@@ -157,3 +157,4 @@ class _LoginPageState extends State<LoginPage> {
                               TextLink(
                                 'Daftar',
                                 color: AppColors.ink,
+                                onTap: () => widget.popOnSuccess
