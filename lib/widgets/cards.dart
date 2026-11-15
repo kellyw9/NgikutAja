@@ -449,3 +449,4 @@ class DayStrip extends StatelessWidget {
   final VoidCallback? onAdd;
 
   @override
+  Widget build(BuildContext context) => SingleChildScrollView(
