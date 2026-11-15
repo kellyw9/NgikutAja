@@ -31,3 +31,4 @@ void main() {
     expect(conflictsIn(day), [(0, 1)]);
     final (issues, tips) = analyze([day]);
     expect(issues.single.conflict, isTrue);
+    tips.first.apply([day]);
