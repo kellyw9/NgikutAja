@@ -600,3 +600,4 @@ class ProfileHead extends StatelessWidget {
   final int itins;
   final Widget action;
   final VoidCallback? onFollowers;
+  final VoidCallback? onFollowing;
