@@ -108,3 +108,4 @@ class _OnboardingPageState extends State<OnboardingPage> {
   );
 
   Widget _intro() => LayoutBuilder(
+    builder: (context, c) => _scroll([
