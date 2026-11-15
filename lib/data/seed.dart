@@ -12,3 +12,4 @@ const _m = Category.makan, _b = Category.budaya, _a = Category.alam, _so = Categ
 class Seed {
   Seed(this.now) : today = DateTime(now.year, now.month, now.day) {
     _build();
+  }
