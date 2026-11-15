@@ -22,3 +22,4 @@ class CityInfo {
 }
 
 /// State aplikasi di memori. Belum ada backend: semua data berasal dari [Seed],
+/// lalu berubah sesuai aksi pengguna selama aplikasi berjalan.
