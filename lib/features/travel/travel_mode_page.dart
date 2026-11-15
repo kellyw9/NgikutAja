@@ -473,3 +473,4 @@ class NavigationPage extends StatelessWidget {
                   icon: 'map',
                   expand: true,
                   onPressed: () async {
+                    final ok = await openMaps('${st.name}, ${st.address ?? trip.region}', directions: true);
