@@ -458,3 +458,4 @@ class Seed {
                 'Kabutnya baru hilang jam 12.',
             photos: ['samosir', 'holbung'],
           ),
+        },
