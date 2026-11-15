@@ -276,3 +276,4 @@ class _EditTripInfoPageState extends State<EditTripInfoPage> {
                 height: 180,
                 child: Stack(
                   fit: StackFit.expand,
+                  children: [
