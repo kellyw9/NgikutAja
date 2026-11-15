@@ -91,3 +91,4 @@ class NgButton extends StatelessWidget {
             return null;
           }),
           side: WidgetStateProperty.resolveWith((s) {
+            if (s.contains(WidgetState.focused)) return const BorderSide(color: AppColors.teal, width: 2);
