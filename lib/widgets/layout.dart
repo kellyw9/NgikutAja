@@ -356,3 +356,4 @@ class BoxList extends StatelessWidget {
       ],
     ),
   );
+}
