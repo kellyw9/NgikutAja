@@ -51,3 +51,4 @@ class NotificationsPage extends StatelessWidget {
           : ListView(
               padding: const EdgeInsets.only(bottom: 24),
               children: [
+                if (today.isNotEmpty) ...[_group('Hari ini'), for (final n in today) _row(context, app, n)],
