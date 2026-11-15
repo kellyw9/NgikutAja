@@ -273,3 +273,4 @@ class ErrorBlock extends StatelessWidget {
   final VoidCallback onRetry;
 
   @override
+  Widget build(BuildContext context) => Container(
