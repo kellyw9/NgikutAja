@@ -47,3 +47,4 @@ class Stop {
     this.note,
     this.desc,
     this.address,
+  });
