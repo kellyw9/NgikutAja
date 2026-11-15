@@ -280,3 +280,4 @@ class TripCard extends StatelessWidget {
                           Text('$days hari', style: AppText.small.muted),
                         ],
                       ),
+                      const SizedBox(height: 6),
