@@ -444,3 +444,4 @@ class _SearchPageState extends State<SearchPage> {
             children: [
               Text(label, style: AppText.bodyStrong),
               const SizedBox(height: 8),
+              child,
