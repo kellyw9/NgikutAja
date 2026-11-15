@@ -188,3 +188,4 @@ class _ItineraryDetailPageState extends State<ItineraryDetailPage> {
             const SizedBox(height: 12),
             DayStrip(
               days: [for (var d = 0; d < it.days; d++) DayItem('Hari ${d + 1}', sub: '${d < it.plan.length ? it.plan[d].length : 0} tempat')],
+              active: day,
