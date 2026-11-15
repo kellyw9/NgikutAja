@@ -101,3 +101,4 @@ class _SplitBudgetPageState extends State<SplitBudgetPage> {
                                     crossAxisAlignment: CrossAxisAlignment.end,
                                     children: [
                                       Text(
+                                        net[m.first]! >= 0 ? '+${rp(net[m.first]!)}' : rp(net[m.first]!),
