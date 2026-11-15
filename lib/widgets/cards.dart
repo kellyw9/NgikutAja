@@ -605,3 +605,4 @@ class ProfileHead extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     Widget stat(String l, int v, VoidCallback? onTap) => Tap(
+      onTap: onTap,
