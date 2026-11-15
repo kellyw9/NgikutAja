@@ -215,3 +215,4 @@ class Tap extends StatelessWidget {
           onTap: onTap,
           borderRadius: BorderRadius.circular(radius),
           focusColor: AppColors.teal.withValues(alpha: .18),
+          highlightColor: AppColors.ink.withValues(alpha: .06),
