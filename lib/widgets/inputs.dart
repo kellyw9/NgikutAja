@@ -236,3 +236,4 @@ class NgToggle extends StatelessWidget {
             child: InkWell(
               onTap: onChanged == null ? null : () => onChanged!(!value),
               focusColor: AppColors.teal.withValues(alpha: .35),
+              child: SizedBox(
