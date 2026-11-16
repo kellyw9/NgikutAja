@@ -5,6 +5,7 @@ import 'package:url_launcher/url_launcher.dart';
 import '../models/travel_model.dart';
 import 'stop_card.dart'; // timeRange()
 import 'travel_style.dart';
+import 'check_in_button.dart';
 
 class StopDetailPage extends StatelessWidget {
   final StopModel stop;
@@ -51,6 +52,8 @@ class StopDetailPage extends StatelessWidget {
             _section('Catatan / local tip', stop.note!),
           ],
           const SizedBox(height: 20),
+          CheckInButton(stop: stop),
+          const SizedBox(height: 12),
           SizedBox(
             height: 48,
             child: ElevatedButton.icon(

@@ -5,6 +5,7 @@ import 'progress_header.dart';
 import 'stop_card.dart';
 import 'stop_detail_page.dart';
 import 'travel_style.dart';
+import 'check_in_service.dart';
 
 class TravelModePage extends StatefulWidget {
   const TravelModePage({super.key});
@@ -19,8 +20,19 @@ class _TravelModePageState extends State<TravelModePage> {
   final List<DayModel> days = DummyTravelData.days;
   final List<StopModel> allStops = DummyTravelData.stops;
 
-  // TODO: ganti dengan riwayat CheckInModel dari GPS check-in
-  final Set<String> doneStopIds = {};
+  @override
+  void initState() {
+    super.initState();
+    CheckInStore.checkIns.addListener(_refresh);
+  }
+
+  @override
+  void dispose() {
+    CheckInStore.checkIns.removeListener(_refresh);
+    super.dispose();
+  }
+
+  void _refresh() => setState(() {});    
   int selectedDay = 0;
 
   List<StopModel> get dayStops => allStops
@@ -30,13 +42,13 @@ class _TravelModePageState extends State<TravelModePage> {
 
   StopModel? get nextStop {
     for (final s in dayStops) {
-      if (!doneStopIds.contains(s.id)) return s;
+      if (!CheckInStore.isCheckedIn(s.id)) return s;
     }
     return null;
   }
 
   StopStatus statusOf(StopModel s) {
-    if (doneStopIds.contains(s.id)) return StopStatus.done;
+    if (CheckInStore.isCheckedIn(s.id)) return StopStatus.done;
     if (nextStop?.id == s.id) return StopStatus.next;
     return StopStatus.upcoming;
   }
@@ -44,7 +56,7 @@ class _TravelModePageState extends State<TravelModePage> {
   @override
   Widget build(BuildContext context) {
     final stops = dayStops;
-    final doneToday = stops.where((s) => doneStopIds.contains(s.id)).length;
+    final doneToday = stops.where((s) => CheckInStore.isCheckedIn(s.id)).length;
 
     return Scaffold(
       backgroundColor: TravelColors.background,
