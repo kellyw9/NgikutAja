@@ -3,6 +3,7 @@ import '../models/travel_model.dart';
 import 'dummy_travel_data.dart';
 import 'progress_header.dart';
 import 'stop_card.dart';
+import 'stop_detail_page.dart';
 import 'travel_style.dart';
 
 class TravelModePage extends StatefulWidget {
@@ -91,12 +92,12 @@ class _TravelModePageState extends State<TravelModePage> {
                       stop: stops[i],
                       status: statusOf(stops[i]),
                       // TODO: ganti dengan navigasi ke Detail Stop
-                      onTap: () => setState(() {
-                        final id = stops[i].id;
-                        doneStopIds.contains(id)
-                            ? doneStopIds.remove(id)
-                            : doneStopIds.add(id);
-                      }),
+                      onTap: () => Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (_) => StopDetailPage(stop: stops[i]),
+                        ),
+                      ),
                     ),
                   ),
           ),
