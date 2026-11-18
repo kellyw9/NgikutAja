@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "54651297126",
+    "project_id": "ngikutaja-f9341",
+    "storage_bucket": "ngikutaja-f9341.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:54651297126:android:7d796d02ce40a349b17ca7",
+        "android_client_info": {
+          "package_name": "com.example.ngikutaja"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "54651297126-7d2tjp63grq49o7sop288mjuqrhsumfc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ngikutaja",
+            "certificate_hash": "d9f34bc839f6e1b1ffa7641e1e1ec2703f8056b0"
+          }
+        },
+        {
+          "client_id": "54651297126-ufnufaon605834prm3guot2n6oqvrvuc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ngikutaja",
+            "certificate_hash": "0c304ed2216e1a78123a42ae41055d3931010a85"
+          }
+        },
+        {
+          "client_id": "54651297126-d7lvfi9fecnq7dmiohl23kg19b6pf9cq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyJW3kzt4wstxDeQ5H4wFE6hLf6RYb_oc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "54651297126-d7lvfi9fecnq7dmiohl23kg19b6pf9cq.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "54651297126-1mnbvrd7bjr9oudvmefe5trshd8il89j.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "y"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
