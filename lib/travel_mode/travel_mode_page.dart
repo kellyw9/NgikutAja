@@ -6,6 +6,7 @@ import 'stop_card.dart';
 import 'stop_detail_page.dart';
 import 'travel_style.dart';
 import 'check_in_service.dart';
+import 'check_in_history_page.dart';
 
 class TravelModePage extends StatefulWidget {
   const TravelModePage({super.key});
@@ -65,6 +66,18 @@ class _TravelModePageState extends State<TravelModePage> {
         elevation: 0,
         title: const Text('Travel Mode',
             style: TextStyle(fontWeight: FontWeight.w700)),
+        actions: [
+          IconButton(
+            icon: const Icon(Icons.history),
+            tooltip: 'Riwayat check-in',
+            onPressed: () => Navigator.push(
+              context,
+              MaterialPageRoute(
+                builder: (_) => CheckInHistoryPage(stops: allStops),
+              ),
+            ),
+          ),
+        ],
       ),
       body: Column(
         children: [
