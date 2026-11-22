@@ -7,6 +7,8 @@ import 'stop_detail_page.dart';
 import 'travel_style.dart';
 import 'check_in_service.dart';
 import 'check_in_history_page.dart';
+import 'package:flutter/foundation.dart';
+import 'notification_service.dart';
 
 class TravelModePage extends StatefulWidget {
   const TravelModePage({super.key});
@@ -21,10 +23,18 @@ class _TravelModePageState extends State<TravelModePage> {
   final List<DayModel> days = DummyTravelData.days;
   final List<StopModel> allStops = DummyTravelData.stops;
 
+
   @override
   void initState() {
     super.initState();
     CheckInStore.checkIns.addListener(_refresh);
+    _setupNotifications();
+  }
+
+  Future<void> _setupNotifications() async {
+    await NotificationService.instance.init();
+    await NotificationService.instance
+        .scheduleAllForTrip(trip, days, allStops);
   }
 
   @override
@@ -76,6 +86,19 @@ class _TravelModePageState extends State<TravelModePage> {
                 builder: (_) => CheckInHistoryPage(stops: allStops),
               ),
             ),
+          ),
+          if (kDebugMode)
+          IconButton(
+            icon: const Icon(Icons.notifications_active_outlined),
+            tooltip: 'Tes notifikasi (10 detik)',
+            onPressed: () async {
+              await NotificationService.instance.scheduleTest();
+              if (!context.mounted) return;
+              ScaffoldMessenger.of(context).showSnackBar(
+                const SnackBar(
+                    content: Text('Notifikasi tes muncul 10 detik lagi')),
+              );
+            },
           ),
         ],
       ),

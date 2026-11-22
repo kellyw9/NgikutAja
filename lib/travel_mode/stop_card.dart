@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../../../../models/travel_model.dart'; // sesuaikan path
+import '../models/travel_model.dart';
 import 'travel_style.dart';
 
 enum StopStatus { done, next, upcoming }
