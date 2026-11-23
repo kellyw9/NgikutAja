@@ -6,6 +6,7 @@ import '../models/travel_model.dart';
 import 'stop_card.dart'; // timeRange()
 import 'travel_style.dart';
 import 'check_in_button.dart';
+import 'offline_map.dart';
 
 class StopDetailPage extends StatelessWidget {
   final StopModel stop;
@@ -40,7 +41,7 @@ class StopDetailPage extends StatelessWidget {
       body: ListView(
         padding: const EdgeInsets.fromLTRB(16, 8, 16, 24),
         children: [
-          _buildMap(),
+          OfflineAwareMap(stop: stop, map: _buildMap()),
           const SizedBox(height: 16),
           _buildInfoCard(),
           if ((stop.description).isNotEmpty) ...[

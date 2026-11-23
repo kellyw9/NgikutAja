@@ -11,7 +11,6 @@ import 'progress_header.dart';
 import 'stop_card.dart';
 import 'stop_detail_page.dart';
 import 'travel_style.dart';
-import 'offline_map.dart';
 
 class TravelModePage extends StatefulWidget {
   const TravelModePage({super.key});
