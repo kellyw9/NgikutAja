@@ -1,12 +1,17 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import '../models/travel_model.dart';
+import 'check_in_history_page.dart';
+import 'check_in_service.dart';
+import 'connectivity_banner.dart';
 import 'dummy_travel_data.dart';
+import 'notification_service.dart';
+import 'offline_storage.dart';
 import 'progress_header.dart';
 import 'stop_card.dart';
 import 'stop_detail_page.dart';
 import 'travel_style.dart';
-import 'check_in_service.dart';
-import 'check_in_history_page.dart';
+import 'offline_map.dart';
 
 class TravelModePage extends StatefulWidget {
   const TravelModePage({super.key});
@@ -21,20 +26,41 @@ class _TravelModePageState extends State<TravelModePage> {
   final List<DayModel> days = DummyTravelData.days;
   final List<StopModel> allStops = DummyTravelData.stops;
 
+  int selectedDay = 0;
+
   @override
   void initState() {
     super.initState();
     CheckInStore.checkIns.addListener(_refresh);
+    _setupNotifications();
+    _initOffline();
   }
 
   @override
   void dispose() {
     CheckInStore.checkIns.removeListener(_refresh);
+    CheckInStore.checkIns.removeListener(OfflineStorage.saveCheckIns);
     super.dispose();
   }
 
-  void _refresh() => setState(() {});    
-  int selectedDay = 0;
+  void _refresh() => setState(() {});
+
+  Future<void> _setupNotifications() async {
+    await NotificationService.instance.init();
+    await NotificationService.instance
+        .scheduleAllForTrip(trip, days, allStops);
+  }
+
+  Future<void> _initOffline() async {
+    // Simpan data trip untuk akses offline.
+    // TODO: panggil juga saat Adopt berhasil / data dari Firestore diterima.
+    await OfflineStorage.saveTrip(trip, days, allStops);
+
+    // Pulihkan riwayat check-in, lalu simpan otomatis setiap ada perubahan.
+    await OfflineStorage.loadCheckIns();
+    if (!mounted) return;
+    CheckInStore.checkIns.addListener(OfflineStorage.saveCheckIns);
+  }
 
   List<StopModel> get dayStops => allStops
       .where((s) => s.dayId == days[selectedDay].id)
@@ -77,10 +103,24 @@ class _TravelModePageState extends State<TravelModePage> {
               ),
             ),
           ),
+          if (kDebugMode)
+            IconButton(
+              icon: const Icon(Icons.notifications_active_outlined),
+              tooltip: 'Tes notifikasi (10 detik)',
+              onPressed: () async {
+                await NotificationService.instance.scheduleTest();
+                if (!context.mounted) return;
+                ScaffoldMessenger.of(context).showSnackBar(
+                  const SnackBar(
+                      content: Text('Notifikasi tes muncul 10 detik lagi')),
+                );
+              },
+            ),
         ],
       ),
       body: Column(
         children: [
+          const ConnectivityBanner(),
           ProgressHeader(
             title: trip.title,
             subtitle: 'Hari ${days[selectedDay].dayNumber} • ${trip.destination}',
@@ -116,7 +156,6 @@ class _TravelModePageState extends State<TravelModePage> {
                     itemBuilder: (_, i) => StopCard(
                       stop: stops[i],
                       status: statusOf(stops[i]),
-                      // TODO: ganti dengan navigasi ke Detail Stop
                       onTap: () => Navigator.push(
                         context,
                         MaterialPageRoute(
